@@ -1,0 +1,232 @@
+{
+  "destination": "Tokyo",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": ["wikidata", "wikipedia", "unesco"],
+  "neighborhoods_visited": ["Asakusa / Ueno", "Shibuya / Harajuku", "Shinjuku"],
+  "guide_description": "Three days covering Tokyo's essential contrasts: the old temple district of Asakusa, the youth-fashion-and-shrine axis of Shibuya/Harajuku, and the skyscraper-and-nightlife district of Shinjuku. Each day is a self-contained train hub.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 9000,
+  "total_walking_minutes": 118,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Asakusa and Ueno",
+      "cluster_tagline": "Old Tokyo - the great temple, the river, and the museum park",
+      "neighborhood_focus": "Asakusa / Ueno",
+      "neighborhood_description": "The northeastern districts that preserved more pre-war Tokyo than anywhere else in the city. Asakusa centers on the Sensō-ji temple, Tokyo's oldest and most-visited Buddhist temple. Ueno Park, twenty minutes west, holds the densest concentration of national museums in Japan.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 42,
+      "morning": {
+        "activity_title": "Sensō-ji and Nakamise-dōri",
+        "wikidata_qid": "Q200035",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+        "coordinates": { "lat": 35.7148, "lon": 139.7967 },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Tokyo's oldest Buddhist temple, founded in 645, with the giant red Kaminarimon (Thunder Gate) and its enormous paper lantern as the postcard image. Arrive before 9am to walk the Nakamise-dōri approach street before the souvenir crush. The main temple hall is free to enter; the five-story pagoda alongside is one of Tokyo's most photographed structures. The early-morning incense rising in front of the main hall is the temple at its best.",
+        "walk_to_next": { "to": "Sumida River Walk", "distance_meters": 600, "walking_minutes": 8 }
+      },
+      "afternoon": {
+        "activity_title": "Sumida River and Asakusa backstreets",
+        "wikidata_qid": "Q855847",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sumida_River",
+        "coordinates": { "lat": 35.7106, "lon": 139.8019 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The Sumida riverside park gives the iconic view across to the Tokyo Skytree and the Asahi Beer headquarters (with its golden flame sculpture by Philippe Starck, locally nicknamed the golden poo). Walk the backstreets between Sensō-ji and the river for kappabashi-dōri (kitchenware street) and tucked-away Edo-era shops still selling fans, brushes, and rice crackers. Cross Azuma Bridge for the best Skytree photograph.",
+        "walk_to_next": { "to": "Ueno Park", "distance_meters": 2000, "walking_minutes": 26 }
+      },
+      "evening": {
+        "activity_title": "Ueno Park and the Tokyo National Museum",
+        "wikidata_qid": "Q330923",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_National_Museum",
+        "coordinates": { "lat": 35.7188, "lon": 139.7762 },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Japan's largest and oldest museum, holding the country's most significant collection of Japanese art - swords, ceramics, Buddhist sculpture, ukiyo-e prints. The Honkan (Japanese Gallery) is the core if pressed for time. Ueno Park itself is Tokyo's most beloved cherry-blossom park in spring and holds the Tokyo Zoo, the National Museum of Western Art (Le Corbusier, UNESCO), and several smaller museums. The museum closes at 5pm; arrive by 3pm for adequate time.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "National Museum of Western Art",
+          "wikidata_qid": "Q1362629",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Western_Art",
+          "coordinates": { "lat": 35.7156, "lon": 139.7757 },
+          "neighborhood": "Ueno",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The main building was designed by Le Corbusier (his only work in East Asia) and is part of the transnational UNESCO inscription covering 17 of his buildings worldwide. The collection runs from medieval European painting to early 20th century, with strong holdings of Rodin and Monet. Closed Mondays.",
+          "walk_from_main_route": { "from": "Ueno Park", "distance_meters": 200, "walking_minutes": 3 }
+        },
+        {
+          "activity_title": "Ameya-Yokochō Market",
+          "wikidata_qid": "Q620257",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ameya-Yokoch%C5%8D",
+          "coordinates": { "lat": 35.7106, "lon": 139.7747 },
+          "neighborhood": "Ueno",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Open-air market under the JR Yamanote line tracks, descended from the post-war black market - now packed with fresh seafood, fruit, spices, and cheap clothing. The energy is genuinely raucous in a way few other Tokyo neighborhoods still are. Best in the late afternoon when stallholders are calling out prices.",
+          "walk_from_main_route": { "from": "Tokyo National Museum", "distance_meters": 800, "walking_minutes": 10 }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Shibuya and Harajuku",
+      "cluster_tagline": "Youth Tokyo - the famous crossing, fashion streets, and the great Meiji shrine in the woods",
+      "neighborhood_focus": "Shibuya / Harajuku / Omotesandō",
+      "neighborhood_description": "The western axis that defines contemporary Tokyo - Shibuya's pedestrian scramble, the Harajuku youth-fashion district, the Omotesandō luxury boulevard, and the Meiji Jingū forest shrine all linked by a single twenty-minute walk along Yamanote line stations.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Meiji Jingū Shrine",
+        "wikidata_qid": "Q229121",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Meiji_Shrine",
+        "coordinates": { "lat": 35.6764, "lon": 139.6993 },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "The Shintō shrine to Emperor Meiji and Empress Shōken, set in a 70-hectare planted forest (every tree donated and placed by hand in the 1920s). The approach through the giant wooden torii gates and the gravel path feels like leaving Tokyo entirely. The shrine itself is reconstructed post-war but maintains the original Meiji-era plan. Free entry. The inner garden is a separate paid section and worth it for the iris garden in June.",
+        "walk_to_next": { "to": "Harajuku / Takeshita Street", "distance_meters": 500, "walking_minutes": 7 }
+      },
+      "afternoon": {
+        "activity_title": "Harajuku and Omotesandō",
+        "wikidata_qid": "Q193063",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harajuku",
+        "coordinates": { "lat": 35.6700, "lon": 139.7034 },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Takeshita-dōri is the densely-packed youth fashion alley - crepes, character cafés, kawaii fashion, packed shoulder-to-shoulder on weekends. The parallel Omotesandō boulevard is the opposite extreme - a wide tree-lined avenue with the most concentrated architectural showcase in Tokyo (Prada Aoyama by Herzog and de Meuron, Tod's by Toyo Ito, Dior by SANAA). Walk both for the contrast that defines this neighborhood.",
+        "walk_to_next": { "to": "Shibuya Crossing", "distance_meters": 1200, "walking_minutes": 15 }
+      },
+      "evening": {
+        "activity_title": "Shibuya Crossing at sunset",
+        "wikidata_qid": "Q11409538",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Crossing",
+        "coordinates": { "lat": 35.6595, "lon": 139.7004 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "The famous pedestrian scramble outside Shibuya Station - up to 3,000 people crossing in a single light cycle at peak. The Starbucks above the Tsutaya bookstore is the classic viewing spot but always crowded; the new Shibuya Sky observation deck at Shibuya Scramble Square is the modern alternative for a wider view. Most photogenic after dark when the LED billboards light the crossing.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Yoyogi Park",
+          "wikidata_qid": "Q1153304",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Yoyogi_Park",
+          "coordinates": { "lat": 35.6716, "lon": 139.6949 },
+          "neighborhood": "Harajuku / Shibuya",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Adjacent to Meiji Shrine but secular - one of Tokyo's largest public parks. Sundays are when the park comes alive: rockabilly dancers near the entrance, frisbee leagues, drum circles, and capoeira groups in different corners. The 1964 Olympic Yoyogi National Gymnasium by Kenzō Tange, on the eastern edge, is one of the great 20th-century buildings in Japan.",
+          "walk_from_main_route": { "from": "Meiji Jingū Shrine", "distance_meters": 400, "walking_minutes": 5 }
+        },
+        {
+          "activity_title": "Shibuya Sky observation deck",
+          "wikidata_qid": "Q60743130",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Scramble_Square",
+          "coordinates": { "lat": 35.6585, "lon": 139.7019 },
+          "neighborhood": "Shibuya",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Open-air rooftop observation deck on the 46th floor of Shibuya Scramble Square, opened 2019. Looks directly down on the famous crossing and gives a clear sightline to Mount Fuji on clear days. Book timed tickets online; sunset slots sell out a day or two ahead. Closed during high winds.",
+          "walk_from_main_route": { "from": "Shibuya Crossing", "distance_meters": 100, "walking_minutes": 1 }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Shinjuku",
+      "cluster_tagline": "Skyscraper Tokyo - the government towers, the post-war alley bars, and the city's largest train hub",
+      "neighborhood_focus": "Shinjuku",
+      "neighborhood_description": "The western district built around the world's busiest train station (3.6 million daily passengers). The skyscraper cluster on the west side holds the free Metropolitan Government observation deck; the east side spreads into Kabukichō entertainment district and the maze of Golden Gai's tiny post-war bars.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Shinjuku Gyoen National Garden",
+        "wikidata_qid": "Q1322323",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shinjuku_Gyoen",
+        "coordinates": { "lat": 35.6852, "lon": 139.7100 },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "58 hectares of imperial garden divided into three distinct styles - traditional Japanese, French formal, and English landscape - all originally an Edo-period feudal residence. One of the few Tokyo parks that charges admission (modest fee); in exchange, no large groups and no alcohol, which makes it markedly calmer than Yoyogi or Ueno. Closed Mondays. Cherry-blossom peak in late March/early April attracts queues from opening.",
+        "walk_to_next": { "to": "Tokyo Metropolitan Government Building", "distance_meters": 1500, "walking_minutes": 19 }
+      },
+      "afternoon": {
+        "activity_title": "Tokyo Metropolitan Government Building observation deck",
+        "wikidata_qid": "Q260462",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Government_Building",
+        "coordinates": { "lat": 35.6896, "lon": 139.6917 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Kenzō Tange's twin-tower 1991 government building, the tallest structure in Tokyo when built. The two observation decks (north and south, both 202 meters up) are completely free. On clear days the view extends to Mount Fuji to the southwest. The south deck closes earlier; the north is open until 10pm and is the better evening option. Less queued than Shibuya Sky or Tokyo Tower for similar views.",
+        "walk_to_next": { "to": "Golden Gai / Omoide Yokochō", "distance_meters": 1300, "walking_minutes": 17 }
+      },
+      "evening": {
+        "activity_title": "Golden Gai and Omoide Yokochō",
+        "wikidata_qid": "Q5580547",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_Gai",
+        "coordinates": { "lat": 35.6940, "lon": 139.7045 },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Six narrow alleys packed with about 200 micro-bars - most seating only six to ten people, many with strict themes (jazz, punk, literature, specific decades). A surviving fragment of post-war Tokyo. Most bars charge a cover (¥500-1500), are friendly to tourists who respect the space, and reject groups larger than two or three. Omoide Yokochō (Memory Lane) west of the station is the yakitori-alley equivalent - cheaper, smokier, more accessible.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hanazono Shrine",
+          "wikidata_qid": "Q1148860",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hanazono_Shrine",
+          "coordinates": { "lat": 35.6940, "lon": 139.7035 },
+          "neighborhood": "Shinjuku",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A Shintō shrine wedged improbably between Golden Gai and the Kabukichō entertainment district - the contrast between the red torii gates and the surrounding neon is one of Shinjuku's defining sights. Locals visit for business prosperity blessings. The small flea market that operates on Sundays is one of Tokyo's most pleasant.",
+          "walk_from_main_route": { "from": "Golden Gai", "distance_meters": 100, "walking_minutes": 1 }
+        }
+      ]
+    }
+  ]
+}

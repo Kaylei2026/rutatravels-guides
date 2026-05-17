@@ -1,0 +1,411 @@
+{
+  "destination": "Paris",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": ["wikidata", "wikipedia", "unesco"],
+  "neighborhoods_visited": ["Île de la Cité / Le Marais", "Louvre / Tuileries / Palais-Royal", "Eiffel / Champ de Mars / Invalides", "Montmartre / Pigalle", "Saint-Germain / Latin Quarter"],
+  "guide_description": "Five days covering Paris's essentials plus the artistic north and the intellectual Left Bank. Each day is geographically self-contained - pick the order based on weather, jet lag, or hotel location.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 9100,
+  "total_walking_minutes": 119,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Île de la Cité and Le Marais",
+      "cluster_tagline": "Medieval Paris on the Seine - Gothic interiors and the city's oldest planned square",
+      "neighborhood_focus": "Île de la Cité / Le Marais",
+      "neighborhood_description": "The Île de la Cité is the geographic and historical heart of Paris - the original Gallo-Roman settlement on a Seine island. Le Marais, across the river to the east, is the medieval Jewish quarter that escaped Haussmann's 19th-century demolitions, preserving narrow streets and aristocratic mansions.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1450,
+      "day_walking_minutes": 19,
+      "morning": {
+        "activity_title": "Sainte-Chapelle",
+        "wikidata_qid": "Q193517",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+        "coordinates": { "lat": 48.8554, "lon": 2.3450 },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The 13th-century royal chapel built by Louis IX to house the Crown of Thorns. Skip the lower chapel and head upstairs - fifteen stained-glass windows rising fifteen meters tell most of the Bible, and morning sun through the east-facing rose window is the most intense Gothic light experience in Europe. Inside the Palais de Justice complex, so security screening is required at the entrance gate on Boulevard du Palais.",
+        "walk_to_next": { "to": "Notre-Dame de Paris", "distance_meters": 350, "walking_minutes": 5 }
+      },
+      "afternoon": {
+        "activity_title": "Notre-Dame de Paris",
+        "wikidata_qid": "Q160236",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+        "coordinates": { "lat": 48.8530, "lon": 2.3499 },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Reopened in December 2024 after the 2019 fire. Entry is free but advance timed reservation through the cathedral's official website is required, with limited daily slots. The post-restoration interior is the cleanest the cathedral has looked in over two centuries - the cleaned limestone reads almost yellow rather than the soot-grey of pre-fire memory. Treasury and tower climb are separate paid tickets.",
+        "walk_to_next": { "to": "Place des Vosges", "distance_meters": 700, "walking_minutes": 9 }
+      },
+      "evening": {
+        "activity_title": "Place des Vosges and Le Marais wandering",
+        "wikidata_qid": "Q189660",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Place_des_Vosges",
+        "coordinates": { "lat": 48.8554, "lon": 2.3656 },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Paris's oldest planned square (1612), a perfect arcaded rectangle that set the model for residential urban design across Europe. Victor Hugo lived at number 6 - his apartment is now a free museum. Walk the surrounding streets - Rue des Rosiers, Rue Vieille-du-Temple, Rue des Francs-Bourgeois - for the densest concentration of 17th-century hôtels particuliers in Paris.",
+        "walk_to_next": { "to": "Pont Neuf", "distance_meters": 400, "walking_minutes": 5 }
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Pont Neuf at sunset",
+          "wikidata_qid": "Q207614",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pont_Neuf",
+          "coordinates": { "lat": 48.8570, "lon": 2.3415 },
+          "neighborhood": "Île de la Cité",
+          "duration_minutes": 30,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Despite the name (New Bridge), Paris's oldest standing bridge, completed in 1607. The Vert-Galant garden at the tip of the island is the best sunset spot in central Paris - descend the staircase behind the Henri IV equestrian statue.",
+          "walk_from_main_route": { "from": "Place des Vosges", "distance_meters": 950, "walking_minutes": 12 }
+        },
+        {
+          "activity_title": "Conciergerie",
+          "wikidata_qid": "Q200644",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Conciergerie",
+          "coordinates": { "lat": 48.8566, "lon": 2.3458 },
+          "neighborhood": "Île de la Cité",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The medieval royal palace, later a Revolutionary prison where Marie Antoinette spent her final weeks. The Salle des Gens d'Armes is one of the largest surviving Gothic halls in Europe. Combined ticket with Sainte-Chapelle saves a few euros.",
+          "walk_from_main_route": { "from": "Sainte-Chapelle", "distance_meters": 100, "walking_minutes": 1 }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Louvre, Tuileries, and Palais-Royal",
+      "cluster_tagline": "The royal axis - the world's largest art museum, formal gardens, and a hidden 18th-century arcade",
+      "neighborhood_focus": "Louvre / Tuileries / 1st arrondissement",
+      "neighborhood_description": "Paris's central royal quarter, defined by the Louvre's eastern wing and stretching west along the Tuileries to Place de la Concorde. The arrangement was designed across four centuries as a single ceremonial axis from the medieval palace to the modern triumphal way.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Louvre Museum",
+        "wikidata_qid": "Q188709",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Louvre",
+        "coordinates": { "lat": 48.8606, "lon": 2.3376 },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Book the timed-entry ticket online - walk-up entry is now rare and the pyramid line wastes an hour. Pick two of the three wings, not all three; trying to see everything is the classic first-visit mistake. Most visitors prioritize Denon (Mona Lisa, Italian Renaissance, Greek sculpture) and Sully (Egyptian antiquities, French painting). Closed Tuesdays.",
+        "walk_to_next": { "to": "Tuileries Garden", "distance_meters": 500, "walking_minutes": 7 }
+      },
+      "afternoon": {
+        "activity_title": "Tuileries Garden and Place de la Concorde",
+        "wikidata_qid": "Q207360",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tuileries_Garden",
+        "coordinates": { "lat": 48.8635, "lon": 2.3275 },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le Nôtre's formal garden, designed in 1664 - the same hand and the same geometry as Versailles. The Maillol bronzes scattered through the central allée are originals. Walk west to Place de la Concorde for the obelisk and the long view up the Champs-Élysées to the Arc de Triomphe.",
+        "walk_to_next": { "to": "Palais-Royal", "distance_meters": 800, "walking_minutes": 10 }
+      },
+      "evening": {
+        "activity_title": "Palais-Royal gardens and arcades",
+        "wikidata_qid": "Q194626",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palais-Royal",
+        "coordinates": { "lat": 48.8634, "lon": 2.3375 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Cardinal Richelieu's former palace turned arcaded shopping gallery - Paris's first proto-mall, opened to the public in 1784. The Daniel Buren black-and-white striped columns in the inner courtyard divide opinion but photograph well. The covered arcades on the north and east sides hold some of the oldest still-operating shops in Paris.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Musée de l'Orangerie",
+          "wikidata_qid": "Q1064757",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l%27Orangerie",
+          "coordinates": { "lat": 48.8638, "lon": 2.3226 },
+          "neighborhood": "Tuileries",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Monet's eight monumental Water Lilies panels in two oval rooms designed to his specifications. Often overlooked because of the Louvre's proximity but a smaller, calmer, and arguably more transcendent experience. Walk-up entry usually available without significant queues.",
+          "walk_from_main_route": { "from": "Tuileries Garden", "distance_meters": 300, "walking_minutes": 4 }
+        },
+        {
+          "activity_title": "Galerie Vivienne",
+          "wikidata_qid": "Q1502608",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Galerie_Vivienne",
+          "coordinates": { "lat": 48.8669, "lon": 2.3402 },
+          "neighborhood": "2nd arrondissement",
+          "duration_minutes": 20,
+          "type": "street",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "An 1823 covered passage with mosaic floors and a glass-roofed rotunda - the finest of the surviving Paris arcades. A two-minute walk north from the Palais-Royal arcades; together they make a continuous indoor route on a rainy afternoon.",
+          "walk_from_main_route": { "from": "Palais-Royal", "distance_meters": 400, "walking_minutes": 5 }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Eiffel Tower and Invalides",
+      "cluster_tagline": "Iconic Left Bank - the tower, the Champ de Mars, and Napoleon's dome",
+      "neighborhood_focus": "7th arrondissement",
+      "neighborhood_description": "The grand Left Bank quarter laid out in the 18th and 19th centuries as a stage for the French military and the 1889 World's Fair. Wide ceremonial spaces, gold-domed monuments, and the most photographed structure on earth.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Eiffel Tower",
+        "wikidata_qid": "Q243",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+        "coordinates": { "lat": 48.8584, "lon": 2.2945 },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Book online weeks ahead for the elevator to the summit - walk-up tickets are nearly impossible in season. Stair tickets to the second level are cheaper, less queued, and arguably more atmospheric. The view from the second level is actually better for orientation; the summit is for the photo. Best morning approach is from Trocadéro for the postcard angle before walking under and across.",
+        "walk_to_next": { "to": "Champ de Mars", "distance_meters": 300, "walking_minutes": 4 }
+      },
+      "afternoon": {
+        "activity_title": "Champ de Mars and Rue Cler",
+        "wikidata_qid": "Q1057533",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Champ_de_Mars",
+        "coordinates": { "lat": 48.8556, "lon": 2.2986 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The long greensward stretching from the Eiffel Tower south to the École Militaire - designed as a parade ground, now a picnic park. A few blocks east, Rue Cler is one of the city's best surviving traditional market streets - pedestrianized, lined with cheesemongers, butchers, and produce stalls, less touristed than Rue Montorgueil.",
+        "walk_to_next": { "to": "Les Invalides", "distance_meters": 1000, "walking_minutes": 13 }
+      },
+      "evening": {
+        "activity_title": "Les Invalides and Napoleon's Tomb",
+        "wikidata_qid": "Q172017",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Les_Invalides",
+        "coordinates": { "lat": 48.8566, "lon": 2.3125 },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "monument",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Louis XIV's veterans' hospital, now home to the Army Museum and Napoleon's enormous porphyry sarcophagus under the gold-leafed Dôme des Invalides. The dome catches late-afternoon western light beautifully. The Army Museum is enormous; if pressed, go straight to the WWI/WWII galleries and the tomb.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Musée Rodin",
+          "wikidata_qid": "Q205495",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Rodin",
+          "coordinates": { "lat": 48.8553, "lon": 2.3158 },
+          "neighborhood": "7th arrondissement",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Rodin's former home and studio, now displaying his major bronzes in a three-hectare garden - The Thinker, The Burghers of Calais, Balzac. Garden-only ticket is cheaper and arguably the better visit on a clear day. Closes earlier than the Louvre (5:45pm in summer, 5pm in winter).",
+          "walk_from_main_route": { "from": "Les Invalides", "distance_meters": 400, "walking_minutes": 5 }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Montmartre and Pigalle",
+      "cluster_tagline": "The artists' village on the hill - basilica views, the last working windmill, and a 19th-century bohemia",
+      "neighborhood_focus": "18th arrondissement",
+      "neighborhood_description": "The hilltop village in the north that Paris swallowed in 1860 but never fully digested - narrow lanes, vine-covered cottages, the last working windmill in the city, and the basilica of Sacré-Cœur crowning the highest point in Paris. Below the hill, Pigalle is the 19th-century pleasure district that gave us Toulouse-Lautrec.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1900,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Sacré-Cœur Basilica",
+        "wikidata_qid": "Q207986",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris",
+        "coordinates": { "lat": 48.8867, "lon": 2.3431 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The white travertine basilica that crowns the Butte Montmartre - controversial when built (1875-1914) as conservative penance after the Paris Commune, now universally photographed. Entry is free. The crypt and dome climb are separate paid tickets; the dome view is among the best panoramic views of Paris though steeper than it looks. Best approach is the funicular from below; the stairs work but are punishing.",
+        "walk_to_next": { "to": "Place du Tertre", "distance_meters": 250, "walking_minutes": 3 }
+      },
+      "afternoon": {
+        "activity_title": "Place du Tertre and Montmartre village",
+        "wikidata_qid": "Q1431585",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Place_du_Tertre",
+        "coordinates": { "lat": 48.8866, "lon": 2.3406 },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The plein-air portrait painters' square - touristy and proud of it, but the surrounding streets are the real Montmartre. Walk west past Église Saint-Pierre (older than Sacré-Cœur by 800 years) toward Rue Lepic for the last working windmill in Paris (Moulin de la Galette, painted by Renoir) and the cottage where Van Gogh lived with his brother Theo at number 54.",
+        "walk_to_next": { "to": "Moulin Rouge / Pigalle", "distance_meters": 900, "walking_minutes": 12 }
+      },
+      "evening": {
+        "activity_title": "Moulin Rouge and Pigalle",
+        "wikidata_qid": "Q1132433",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Moulin_Rouge",
+        "coordinates": { "lat": 48.8841, "lon": 2.3322 },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "The 1889 cabaret whose can-can dancers Toulouse-Lautrec immortalized - still operating, still selling sold-out shows, but most travelers come for the photo of the red windmill at night. Boulevard de Clichy itself has gentrified considerably in the past decade; the surrounding streets house some of the most interesting newer Paris restaurants and natural-wine bars.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Musée de Montmartre",
+          "wikidata_qid": "Q1888308",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_Montmartre",
+          "coordinates": { "lat": 48.8881, "lon": 2.3403 },
+          "neighborhood": "Montmartre",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Housed in the oldest building on the Butte - a 17th-century house where Renoir, Suzanne Valadon, and Utrillo all lived and worked. The Renoir garden behind the museum overlooks the only remaining working vineyard within Paris city limits. Best Montmartre-specific museum and a useful counterweight to the tourist crush at Place du Tertre.",
+          "walk_from_main_route": { "from": "Place du Tertre", "distance_meters": 200, "walking_minutes": 3 }
+        },
+        {
+          "activity_title": "Cimetière de Montmartre",
+          "wikidata_qid": "Q746647",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Montmartre_Cemetery",
+          "coordinates": { "lat": 48.8881, "lon": 2.3303 },
+          "neighborhood": "Montmartre",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Less famous than Père Lachaise but in some ways more atmospheric - built in a former gypsum quarry below street level, entered via a stone bridge from above. Graves of Degas, Berlioz, Truffaut, Stendhal, and the dancer Nijinsky. Open daily; collect a map from the entrance to find specific graves.",
+          "walk_from_main_route": { "from": "Moulin Rouge", "distance_meters": 400, "walking_minutes": 5 }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Saint-Germain and the Latin Quarter",
+      "cluster_tagline": "The intellectual Left Bank - Impressionist masterpieces, royal gardens, and the medieval university quarter",
+      "neighborhood_focus": "5th / 6th arrondissement",
+      "neighborhood_description": "The Left Bank south of the Seine, defined by the medieval Sorbonne and the 17th-century literary salons that anchored French intellectual life for three centuries. The cafés where Sartre, Beauvoir, and Hemingway worked are still here, mostly as expensive tourist destinations, but the bookshops, the gardens, and the museum sequence remain the real attraction.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1850,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Musée d'Orsay",
+        "wikidata_qid": "Q83410",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay",
+        "coordinates": { "lat": 48.8600, "lon": 2.3266 },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 150,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The world's most important Impressionist and Post-Impressionist collection, housed in a converted 1900 Beaux-Arts train station. Head straight to the fifth floor for Monet, Renoir, Degas, Van Gogh, and Cézanne - that's the reason most visitors come. The giant ornamental clock window on the fifth floor framing the Sacré-Cœur view is the building's signature photograph. Closed Mondays.",
+        "walk_to_next": { "to": "Saint-Germain-des-Prés", "distance_meters": 800, "walking_minutes": 10 }
+      },
+      "afternoon": {
+        "activity_title": "Saint-Germain-des-Prés Church and quarter",
+        "wikidata_qid": "Q1064598",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Saint-Germain-des-Pr%C3%A9s_Abbey",
+        "coordinates": { "lat": 48.8538, "lon": 2.3344 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The oldest church in Paris (6th century, with most surviving structure from the 11th), and the historical center of the Left Bank intellectual scene. The Romanesque tower over the west door is one of the city's oldest standing structures. Café de Flore and Les Deux Magots face the church across the square - fine for a coffee at tourist prices and the literary aura, less so for serious meals.",
+        "walk_to_next": { "to": "Luxembourg Gardens", "distance_meters": 700, "walking_minutes": 9 }
+      },
+      "evening": {
+        "activity_title": "Luxembourg Gardens",
+        "wikidata_qid": "Q170472",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Luxembourg_Gardens",
+        "coordinates": { "lat": 48.8462, "lon": 2.3372 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Marie de Medici's 1612 garden, modeled on the Boboli Gardens of her Florentine childhood - now Paris's most beloved Left Bank green space and the official garden of the French Senate (housed in the Palais du Luxembourg). The basin at the center is where children sail toy wooden boats, a tradition continuous since the 1920s. The Medici Fountain in the northeast corner is the romantic spot at golden hour.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Panthéon",
+          "wikidata_qid": "Q156619",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Panth%C3%A9on,_Paris",
+          "coordinates": { "lat": 48.8462, "lon": 2.3464 },
+          "neighborhood": "Latin Quarter",
+          "duration_minutes": 60,
+          "type": "monument",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Originally a church to Sainte-Geneviève (patron saint of Paris), repurposed during the Revolution as a secular temple for the heroes of the republic. Crypt contains Voltaire, Rousseau, Victor Hugo, Émile Zola, Marie Curie, Alexandre Dumas, and (since 2024) Robert Badinter. The Foucault pendulum hanging from the dome is the original 1851 device that demonstrated Earth's rotation.",
+          "walk_from_main_route": { "from": "Luxembourg Gardens", "distance_meters": 400, "walking_minutes": 5 }
+        },
+        {
+          "activity_title": "Shakespeare and Company",
+          "wikidata_qid": "Q1132518",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)",
+          "coordinates": { "lat": 48.8525, "lon": 2.3470 },
+          "neighborhood": "Latin Quarter",
+          "duration_minutes": 30,
+          "type": "street",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The English-language bookshop opposite Notre-Dame, founded in 1951 as a continuation of Sylvia Beach's original 1919 store (which published Joyce's Ulysses). Cramped, beloved, often queued; the upstairs reading room with its piano and 'tumbleweed' beds for visiting writers is the real attraction.",
+          "walk_from_main_route": { "from": "Saint-Germain-des-Prés", "distance_meters": 600, "walking_minutes": 8 }
+        }
+      ]
+    }
+  ]
+}

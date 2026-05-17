@@ -1,0 +1,91 @@
+{
+  "destination": "Barcelona",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": ["wikidata", "wikipedia", "unesco"],
+  "neighborhoods_visited": ["Barri Gòtic / El Born"],
+  "guide_description": "A walking day through Barcelona's medieval core, anchored on the Gothic Cathedral and extending east into El Born. Narrow stone lanes, Roman foundations, and one of Europe's densest concentrations of medieval architecture in a 1 km loop.",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 1800,
+  "total_walking_minutes": 23,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Barri Gòtic and El Born",
+      "cluster_tagline": "Medieval Barcelona on foot - Cathedral, Roman walls, and the merchants' quarter",
+      "neighborhood_focus": "Barri Gòtic / El Born",
+      "neighborhood_description": "The two adjacent medieval quarters that form Barcelona's historic core. The Barri Gòtic is built on Roman foundations and centered on the Gothic Cathedral; El Born to the east is the former merchants' quarter, narrower, livelier, with the basilica of Santa Maria del Mar at its heart.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Cathedral of Barcelona (La Seu)",
+        "wikidata_qid": "Q56551",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cathedral_of_Barcelona",
+        "coordinates": { "lat": 41.3839, "lon": 2.1761 },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The 14th-century Gothic cathedral, often confused with Gaudí's Sagrada Família but architecturally entirely distinct. The cloister with its thirteen white geese (one for each year of Saint Eulalia's life, by tradition) is the unexpected centerpiece. The roof terraces are accessible by elevator for a small fee and give a rooftop view across the Gothic quarter that the Sagrada Família crowds rarely think to seek out.",
+        "walk_to_next": { "to": "Plaça del Rei", "distance_meters": 150, "walking_minutes": 2 }
+      },
+      "afternoon": {
+        "activity_title": "Plaça del Rei and the Roman walls",
+        "wikidata_qid": "Q807877",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei",
+        "coordinates": { "lat": 41.3839, "lon": 2.1775 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The medieval royal square, framed by the Palau Reial Major where Columbus reportedly presented his findings to Ferdinand and Isabella in 1493. The MUHBA Barcelona History Museum entry on the square descends underground to a remarkably preserved 4 km of Roman Barcino - streets, dye works, wineries - directly beneath your feet. The most surprising museum visit in Barcelona.",
+        "walk_to_next": { "to": "Santa Maria del Mar", "distance_meters": 700, "walking_minutes": 9 }
+      },
+      "evening": {
+        "activity_title": "Santa Maria del Mar",
+        "wikidata_qid": "Q930687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+        "coordinates": { "lat": 41.3838, "lon": 2.1819 },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Built 1329-1383 by the merchants and porters of the Ribera neighborhood, financed entirely by the working class - the local nickname is 'the Cathedral of the Sea'. The pure Catalan Gothic interior is unusually wide and airy compared to French Gothic peers, with proportions that have influenced architects from Gaudí onward. Late afternoon sun through the rose window is the visual reward. The basilica novel by Ildefonso Falcones popularized it abroad in the 2000s.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Picasso Museum",
+          "wikidata_qid": "Q832627",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Picasso",
+          "coordinates": { "lat": 41.3853, "lon": 2.1808 },
+          "neighborhood": "El Born",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The largest collection of Picasso's early work, housed across five connected medieval mansions in El Born. The museum's strength is showing Picasso before he was Picasso - the academic Barcelona years, the Blue Period, the 1957 Las Meninas variations. Closed Mondays. Free entry on Thursday afternoons and the first Sunday of each month - those slots queue heavily.",
+          "walk_from_main_route": { "from": "Santa Maria del Mar", "distance_meters": 300, "walking_minutes": 4 }
+        },
+        {
+          "activity_title": "Plaça Reial",
+          "wikidata_qid": "Q1132498",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_Reial",
+          "coordinates": { "lat": 41.3803, "lon": 2.1750 },
+          "neighborhood": "Barri Gòtic",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "Arcaded 19th-century square off La Rambla with palm trees and two cast-iron lamp posts designed by a young Antoni Gaudí - among his first paid commissions in 1879. The square's bars and restaurants are touristy by day but the architectural setting transforms after dark. Walking back from Santa Maria del Mar via Carrer del Bisbe gives you the neighborhood's most photographed Gothic bridge.",
+          "walk_from_main_route": { "from": "Cathedral of Barcelona", "distance_meters": 500, "walking_minutes": 7 }
+        }
+      ]
+    }
+  ]
+}
