@@ -1,0 +1,371 @@
+{
+  "destination": "Vienna",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:01:34.467Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Innere Stadt - Imperial Core",
+    "Ringstrasse - Museum Quarter",
+    "Naschmarkt - Karlsplatz - Belvedere"
+  ],
+  "guide_description": "Three days covering Vienna's essential layers: the medieval and Baroque imperial core inside the Ring, the monumental boulevard and its museum pair, and the southern axis of market, Secession, and imperial pleasure gardens. Each day is geographically self-contained.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 6110,
+  "total_walking_minutes": 77,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Innere Stadt - Imperial Core",
+      "cluster_tagline": "The walled medieval city that became the Habsburg ceremonial center",
+      "neighborhood_focus": "Innere Stadt (1st district)",
+      "neighborhood_description": "Vienna's First District is the original walled city, rebuilt in Baroque and Gothic over the medieval street grid. The Hofburg imperial complex, St. Stephen's Cathedral, and the Habsburg treasury all sit within a ten-minute walk of each other, surrounded by pedestrian lanes that have been commercial streets since the 13th century.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1690,
+      "day_walking_minutes": 22,
+      "morning": {
+        "activity_title": "Stephansdom (St. Stephen's Cathedral)",
+        "wikidata_qid": "Q156398",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Stephen%27s_Cathedral,_Vienna",
+        "coordinates": {
+          "lat": 48.2085,
+          "lon": 16.3731
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Arrive before 9am to walk the nave before the first organized tour groups arrive. The South Tower climb (343 steps, no elevator) gives a rooftop view of the geometric Dachstein tile roof from directly above - the north tower has an elevator but the platform is enclosed and less dramatic. The catacombs beneath hold the organs and entrails of the Habsburgs in separate urns from their bodies, which are at the Kaisergruft - the guides explain this without any irony.",
+        "walk_to_next": {
+          "to": "Kaisergruft (Imperial Crypt)",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Kaisergruft - Imperial Crypt",
+        "wikidata_qid": "Q685038",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Imperial_Crypt,_Vienna",
+        "coordinates": {
+          "lat": 48.2065,
+          "lon": 16.3686
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The Habsburg family vault beneath the Kapuzinerkirche on the Neuer Markt - 149 sarcophagi from 1633 to 2011. Franz Joseph I's coffin is deliberately plain; his wife Sisi's is buried beside him but her sarcophagus is routinely the most flower-covered. The entrance is easy to miss - it is in the corner of the church courtyard, not off the main square.",
+        "walk_to_next": {
+          "to": "Hofburg - Kaiserappartements",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Hofburg Imperial Apartments and Sisi Museum",
+        "wikidata_qid": "Q131013",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hofburg",
+        "coordinates": {
+          "lat": 48.2065,
+          "lon": 16.3644
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The combined Kaiserappartements, Sisi Museum, and Imperial Silver Collection ticket covers the most visited part of the Hofburg. The Sisi Museum reframes Empress Elisabeth as a person rather than a romanticized icon - the display of her rigid exercise equipment and extreme diet routines is genuinely unsettling context. Exit through the Michaelerplatz courtyard in the evening when the fountains are lit and tour groups have thinned.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kunsthistorisches Museum - Kunstkammer",
+          "wikidata_qid": "Q95686",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kunsthistorisches_Museum",
+          "coordinates": {
+            "lat": 48.2036,
+            "lon": 16.3614
+          },
+          "neighborhood": "Innere Stadt / Ringstrasse edge",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "If the afternoon moves quickly, skip to the Kunstkammer gallery on the first floor of the KHM rather than saving it for Day 2. The Habsburg Kunstkammer is one of the greatest collections of Renaissance objects in existence - Benvenuto Cellini's salt cellar is here, the size of a paperback book, which makes its 50 million euro auction price all the more startling.",
+          "walk_from_main_route": {
+            "from": "Hofburg",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        },
+        {
+          "activity_title": "Peterskirche",
+          "wikidata_qid": "Q695082",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Peterskirche,_Vienna",
+          "coordinates": {
+            "lat": 48.2089,
+            "lon": 16.3706
+          },
+          "neighborhood": "Innere Stadt",
+          "duration_minutes": 20,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A small Baroque church jammed into the alley just off the Graben pedestrian street - the interior is disproportionately dramatic for its footprint, with trompe-l'oeil ceiling frescoes by Johann Michael Rottmayr that make the dome look twice as high as it is. Free entry; rarely crowded because most people walk past without noticing the entrance.",
+          "walk_from_main_route": {
+            "from": "Stephansdom",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Ringstrasse and the Museum Quarter",
+      "cluster_tagline": "Franz Joseph's grand boulevard and the twin museum palaces facing each other across a formal plaza",
+      "neighborhood_focus": "Ringstrasse / 7th district edge",
+      "neighborhood_description": "The Ringstrasse was carved through Vienna's medieval walls between 1857 and 1890, lined with neo-Gothic, neo-Renaissance, and neo-Baroque civic monuments. The Kunsthistorisches and Naturhistorisches museums face each other across Maria-Theresien-Platz, and the MuseumsQuartier behind them is one of the largest contemporary art compounds in Europe.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1870,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Kunsthistorisches Museum",
+        "wikidata_qid": "Q95686",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kunsthistorisches_Museum",
+        "coordinates": {
+          "lat": 48.2036,
+          "lon": 16.3614
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "One of the world's great painting collections, built entirely from Habsburg acquisitions. Prioritize the Picture Gallery on the first floor - the densest concentration of Bruegel the Elder paintings anywhere (twelve works), plus a full room of Vermeer, Rembrandt, and Velazquez. The ceremonial staircase with Klimt's spandrel paintings is worth stopping on the way up - these predate his Secession period and are almost never mentioned in guidebooks.",
+        "walk_to_next": {
+          "to": "Maria-Theresien-Platz and Naturhistorisches Museum",
+          "distance_meters": 270,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Maria-Theresien-Platz",
+        "wikidata_qid": "Q1914812",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maria-Theresien-Platz",
+        "coordinates": {
+          "lat": 48.2046,
+          "lon": 16.3608
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 30,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The formal plaza between the two symmetrical museum buildings, with the Maria Theresia monument at the center. Standing at the monument and looking toward the Burgtor, the view is the intended one - the Ringstrasse designers positioned the museums so they frame the approach to the Hofburg from the west. The plaza also connects directly into the MuseumsQuartier through the passage on the south side.",
+        "walk_to_next": {
+          "to": "MuseumsQuartier - Leopold Museum",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Leopold Museum - Egon Schiele Collection",
+        "wikidata_qid": "Q695639",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Leopold_Museum",
+        "coordinates": {
+          "lat": 48.2022,
+          "lon": 16.3581
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The world's largest Egon Schiele collection - over 220 works - assembled obsessively by Rudolf Leopold over decades. The Schiele rooms on the upper floors are the reason to come, but the Klimt holdings are also significant. Open until 9pm on Thursdays, which makes it the best evening museum in the city; the MuseumsQuartier courtyard fills with locals sitting on the large foam cubes after dark.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Naturhistorisches Museum - Venus of Willendorf",
+          "wikidata_qid": "Q102496",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Natural_History_Museum_Vienna",
+          "coordinates": {
+            "lat": 48.2051,
+            "lon": 16.3601
+          },
+          "neighborhood": "Ringstrasse",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The Venus of Willendorf - a 30,000-year-old carved figure 11 centimeters tall - sits in a case in Room 11 with almost no ceremony. Most visitors walk past it twice because the actual object is so much smaller than reproductions suggest. The meteorite hall on the first floor and the gem collection are both better than their reputation.",
+          "walk_from_main_route": {
+            "from": "Maria-Theresien-Platz",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Volkstheater and the Ringstrasse walk",
+          "wikidata_qid": "Q694753",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Volkstheater,_Vienna",
+          "coordinates": {
+            "lat": 48.2033,
+            "lon": 16.3567
+          },
+          "neighborhood": "7th district",
+          "duration_minutes": 20,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The short walk from the MuseumsQuartier along the Ringstrasse toward the Parliament building passes the Volkstheater, City Hall, and the Burgtheater within a single uninterrupted boulevard stretch. All three are floridly historicist facades - the Parliament is modeled on a Greek temple, the City Hall on a Flemish Gothic guild hall - and the contrast with the actual Vienna around them is instructive.",
+          "walk_from_main_route": {
+            "from": "MuseumsQuartier",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Naschmarkt, Secession, and Belvedere",
+      "cluster_tagline": "Vienna's art nouveau moment, its best outdoor market, and Klimt's Kiss in a Baroque garden palace",
+      "neighborhood_focus": "4th and 3rd districts",
+      "neighborhood_description": "The arc of the 4th and 3rd districts south of the Ring holds three of Vienna's most singular experiences: the Naschmarkt open-air food and flea market, the Secession exhibition hall built in 1898 as a manifesto against academic art, and the Upper Belvedere palace where Klimt's most famous painting has been since 1912.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2550,
+      "day_walking_minutes": 31,
+      "morning": {
+        "activity_title": "Naschmarkt",
+        "wikidata_qid": "Q258208",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Naschmarkt",
+        "coordinates": {
+          "lat": 48.1993,
+          "lon": 16.3629
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Vienna's main outdoor market running for 1.5 kilometers along the former Wien River bed. The western end near Kettenbruckengasse U-Bahn is the authentic produce and deli section; the eastern half toward Karlsplatz becomes progressively more tourist-oriented. Saturday adds a large flea market running the full length of the south side - arrive before 9am if you want to browse before the crowd compresses.",
+        "walk_to_next": {
+          "to": "Secession Building",
+          "distance_meters": 450,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Secession Building",
+        "wikidata_qid": "Q267638",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Secession_Building",
+        "coordinates": {
+          "lat": 48.2003,
+          "lon": 16.3672
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Joseph Maria Olbrich's 1898 exhibition hall with its gilded laurel-leaf dome - which Viennese satirists immediately nicknamed the Golden Cabbage. The permanent installation is Klimt's Beethoven Frieze in the basement: a 34-meter painted frieze created for the 1902 Secession exhibition and never moved since. The figures are in poor condition by design - Klimt used non-archival materials knowing the work was temporary, and the ghostly quality is now part of the piece.",
+        "walk_to_next": {
+          "to": "Upper Belvedere",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "Upper Belvedere and Klimt's The Kiss",
+        "wikidata_qid": "Q695002",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Upper_Belvedere",
+        "coordinates": {
+          "lat": 48.1914,
+          "lon": 16.3808
+        },
+        "unesco_designation": {
+          "site_name": "Palace and Gardens of Schonbrunn",
+          "year_inscribed": 1996,
+          "reference_number": 786,
+          "url": "https://whc.unesco.org/en/list/786"
+        },
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Prince Eugene of Savoy's summer palace, now housing Austria's greatest 19th and 20th-century art collection. The Kiss is on the first floor in a room that is always crowded but manageable late afternoon. Look also for Klimt's Judith and the Head of Holofernes two rooms away - it is a stronger painting and far less reproduced. The formal French garden between the Upper and Lower Belvedere is one of the best free outdoor spaces in Vienna; walk it before closing.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Karlskirche",
+          "wikidata_qid": "Q262434",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Karlskirche,_Vienna",
+          "coordinates": {
+            "lat": 48.1985,
+            "lon": 16.3721
+          },
+          "neighborhood": "4th district",
+          "duration_minutes": 45,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Johann Fischer von Erlach's 1737 Baroque church on Karlsplatz is Vienna's most architecturally unusual building - two triumphal columns modeled on Trajan's Column in Rome flank a classical portico topped with a dome, a combination that has no real precedent. A panoramic lift inside rises through the fresco on the interior of the dome, letting you read the ceiling painting from two meters away while the congregation moves below.",
+          "walk_from_main_route": {
+            "from": "Secession Building",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Lower Belvedere and Orangery",
+          "wikidata_qid": "Q672826",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lower_Belvedere",
+          "coordinates": {
+            "lat": 48.1939,
+            "lon": 16.3774
+          },
+          "neighborhood": "3rd district",
+          "duration_minutes": 60,
+          "type": "castle",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The smaller of the two Belvedere palaces holds the Baroque Museum and the Orangery, which is used for temporary exhibitions and chamber concerts. The Marble Hall, where the 1955 Austrian State Treaty was signed ending the Allied occupation, is the most significant room - the document itself is displayed here.",
+          "walk_from_main_route": {
+            "from": "Upper Belvedere",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

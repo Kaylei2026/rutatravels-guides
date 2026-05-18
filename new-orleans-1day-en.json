@@ -1,0 +1,128 @@
+{
+  "destination": "New Orleans",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:57:16.434Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "French Quarter / Jackson Square"
+  ],
+  "guide_description": "One day anchored in the French Quarter, the oldest and densest part of New Orleans. The route moves from the spiritual and civic core at Jackson Square through the street music culture of Royal and Bourbon, into the covered market on the river, and ends after dark when the city fully becomes itself.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2080,
+  "total_walking_minutes": 26,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "French Quarter and the River",
+      "cluster_tagline": "The oldest street grid in America - Spanish courtyards, a cathedral, and a city that only wakes up at night",
+      "neighborhood_focus": "French Quarter / Jackson Square",
+      "neighborhood_description": "The Vieux Carre is the original colonial settlement laid out by French engineers in 1718 on a crescent of the Mississippi. Despite the name, most of the surviving architecture is Spanish colonial, rebuilt after fires in 1788 and 1794. The neighborhood runs thirteen blocks from Canal Street to Esplanade Avenue and six blocks deep from the river to Rampart Street - everything is walkable.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "St. Louis Cathedral and Jackson Square",
+        "wikidata_qid": "Q1421011",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Louis_Cathedral,_New_Orleans",
+        "coordinates": {
+          "lat": 29.9579,
+          "lon": -90.0632
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Arrive before 9am when the square's fortune tellers and street performers are still setting up - the cathedral facade framed by the twin Cabildo and Presbytere buildings is cleanest in that window. The interior is free and cooler than the street; look up at the trompe-l'oeil murals above the altar. The cathedral has been rebuilt three times; the current structure dates to 1850. After visiting inside, walk behind the cathedral along Pirate's Alley - the narrow passage between the cathedral and the Cabildo where William Faulkner lived at number 624 while writing his first novel.",
+        "walk_to_next": {
+          "to": "The Cabildo",
+          "distance_meters": 80,
+          "walking_minutes": 1
+        }
+      },
+      "afternoon": {
+        "activity_title": "The Cabildo",
+        "wikidata_qid": "Q2940553",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cabildo_(New_Orleans)",
+        "coordinates": {
+          "lat": 29.9578,
+          "lon": -90.0638
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The Spanish colonial government building where the Louisiana Purchase transfer was signed in 1803. Now a Louisiana State Museum covering the city's colonial, slavery, and Civil War history with a directness that most American history museums avoid. The Napoleon death mask in the collection is one of only four known casts made within days of his death in 1821. Closed Mondays and Tuesdays - check before visiting.",
+        "walk_to_next": {
+          "to": "French Market",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Frenchmen Street after dark",
+        "wikidata_qid": "Q5498700",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Frenchmen_Street",
+        "coordinates": {
+          "lat": 29.9634,
+          "lon": -90.0573
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Two blocks of live music venues at the edge of the Marigny neighborhood, a ten-minute walk from the Quarter along Esplanade Avenue. The Spotted Cat, the Maison, and d.b.a. all have jazz, brass band, or funk starting around 9pm with no cover or a small door charge - walk the street and listen before committing to a room. This is where New Orleans musicians actually play, not Bourbon Street. The crowd is local-heavy on weeknights.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "French Market",
+          "wikidata_qid": "Q1445867",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/French_Market",
+          "coordinates": {
+            "lat": 29.9586,
+            "lon": -90.0601
+          },
+          "neighborhood": "French Quarter",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "The covered market along Decatur Street, operating in some form since 1791 - the oldest public market in the United States. The produce and craft sections are unremarkable but the Cafe du Monde end, where the market meets the river, is the practical reason to come: beignets and chicory coffee at a table facing the Mississippi levee. Sit on the river side of the cafe, not the street side, to watch container ships pass at eye level on the elevated water.",
+          "walk_from_main_route": {
+            "from": "The Cabildo",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        },
+        {
+          "activity_title": "Royal Street",
+          "wikidata_qid": "Q7374836",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Street_(New_Orleans)",
+          "coordinates": {
+            "lat": 29.9597,
+            "lon": -90.0647
+          },
+          "neighborhood": "French Quarter",
+          "duration_minutes": 40,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "The Quarter's antiques and gallery corridor, one block back from the river. Between St. Ann and St. Louis streets the density of 19th-century cast-iron balcony ironwork is the highest in the neighborhood - look up at the lacy patterns rather than into the shop windows. Street musicians set up on Royal between 10am and 2pm and the acoustics in the narrow canyon are noticeably better than Bourbon Street's open bars.",
+          "walk_from_main_route": {
+            "from": "St. Louis Cathedral and Jackson Square",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    }
+  ]
+}

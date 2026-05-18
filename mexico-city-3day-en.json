@@ -1,0 +1,366 @@
+{
+  "destination": "Mexico City",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T13:00:23.584Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Centro Historico",
+    "Coyoacan / Xochimilco",
+    "Chapultepec / Polanco / Roma Norte"
+  ],
+  "guide_description": "Three days covering Mexico City's essential layers: the Aztec and colonial historic core built on a drained lake bed, the southern bohemian villages of Coyoacan and the ancient floating gardens of Xochimilco, and the grand western park corridor from Chapultepec Castle through the museum mile to the neighborhood cafes of Roma Norte. Each day is geographically self-contained.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5980,
+  "total_walking_minutes": 75,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Centro Historico",
+      "cluster_tagline": "Aztec foundations, Spanish cathedrals, and a sinking colonial grid on a drained lake",
+      "neighborhood_focus": "Centro Historico",
+      "neighborhood_description": "Built directly on top of Tenochtitlan, the Aztec island capital conquered in 1521, Mexico City's historic center is one of the largest in the Americas. The ground is still sinking - buildings visibly tilt - because the entire city rests on the soft sediment of the drained Lake Texcoco. The Zocalo and surrounding blocks concentrate five centuries of layered history within easy walking distance.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1690,
+      "day_walking_minutes": 21,
+      "morning": {
+        "activity_title": "Templo Mayor and Museum",
+        "wikidata_qid": "Q207326",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Templo_Mayor",
+        "coordinates": {
+          "lat": 19.4352,
+          "lon": -99.1317
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Mexico City and Xochimilco",
+          "year_inscribed": 1987,
+          "reference_number": 412,
+          "url": "https://whc.unesco.org/en/list/412"
+        },
+        "duration_minutes": 120,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The main pyramid of Tenochtitlan was rediscovered in 1978 when electricity workers hit a carved stone disc depicting the moon goddess Coyolxauhqui. The outdoor excavation site and the attached museum together tell the story - do the museum last so you recognize what you are looking at in the ruins. Tuesday to Sunday only; buy tickets at the east entrance on Seminario street, not from street vendors nearby.",
+        "walk_to_next": {
+          "to": "Zocalo and Metropolitan Cathedral",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Metropolitan Cathedral of Mexico City",
+        "wikidata_qid": "Q207326",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mexico_City_Metropolitan_Cathedral",
+        "coordinates": {
+          "lat": 19.4353,
+          "lon": -99.1332
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Mexico City and Xochimilco",
+          "year_inscribed": 1987,
+          "reference_number": 412,
+          "url": "https://whc.unesco.org/en/list/412"
+        },
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Construction began in 1573 and was not completed until 1813, which is why the nave shows Baroque, Neoclassical, and Renaissance bays side by side. The building tilts noticeably to the southeast - the corrective pendulum hung above the nave floor is an active engineering instrument, not a decoration. The Altar de los Reyes at the far east end has the most elaborate churrigueresque gilding in the city.",
+        "walk_to_next": {
+          "to": "Palacio Nacional",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Palacio Nacional murals by Diego Rivera",
+        "wikidata_qid": "Q1636989",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Palace_(Mexico_City)",
+        "coordinates": {
+          "lat": 19.4326,
+          "lon": -99.1312
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Mexico City and Xochimilco",
+          "year_inscribed": 1987,
+          "reference_number": 412,
+          "url": "https://whc.unesco.org/en/list/412"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Diego Rivera painted the grand staircase murals between 1929 and 1951, covering pre-Hispanic civilization through the Mexican Revolution across hundreds of square meters. Entry is free with a valid ID left at the gate. Walk to the staircase immediately on entering - do not get sidetracked by the courtyard rooms, which are less essential. Closes at 5pm most days.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Secretaria de Educacion Publica murals",
+          "wikidata_qid": "Q6568748",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Secretar%C3%ADa_de_Educaci%C3%B3n_P%C3%BAblica",
+          "coordinates": {
+            "lat": 19.4378,
+            "lon": -99.1306
+          },
+          "neighborhood": "Centro Historico",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "A working government ministry with two open-air courtyard floors entirely covered in Rivera murals depicting Mexican labor, festivals, and landscapes - 235 panels in total. Far less visited than the Palacio Nacional and almost never crowded. Bring your passport as ID; bags go through security.",
+          "walk_from_main_route": {
+            "from": "Templo Mayor",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Mercado de la Merced",
+          "wikidata_qid": "Q6815487",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/La_Merced_Market",
+          "coordinates": {
+            "lat": 19.4267,
+            "lon": -99.1212
+          },
+          "neighborhood": "Centro Historico",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "One of the largest traditional markets in Latin America, twelve city blocks of stalls selling dried chiles, bulk spices, fresh produce, and street food. The herb and spice section in the rear is the most photogenic. Go in the morning when the wholesale buyers have left and stall holders are more relaxed.",
+          "walk_from_main_route": {
+            "from": "Palacio Nacional",
+            "distance_meters": 900,
+            "walking_minutes": 11
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Chapultepec and the Museum Mile",
+      "cluster_tagline": "A forest park with a hilltop castle, the world-class anthropology museum, and art from Tamayo to Rivera",
+      "neighborhood_focus": "Chapultepec / Polanco",
+      "neighborhood_description": "Bosque de Chapultepec is one of the largest urban parks in the western hemisphere - 686 hectares of forest that served as the Aztec royal retreat before becoming a Spanish military academy and then Mexico's central park. The eastern edge along Paseo de la Reforma lines up four major museums within a fifteen-minute walk of each other.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2040,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "National Museum of Anthropology",
+        "wikidata_qid": "Q838691",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Anthropology_(Mexico)",
+        "coordinates": {
+          "lat": 19.426,
+          "lon": -99.1865
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The Aztec Sun Stone (popularly called the Aztec Calendar) is in Room 7 on the ground floor, directly opposite the entrance - but go there last rather than immediately, or you'll rush past every other hall. The Teotihuacan room has architectural scale models that make the site visit (if you go) far more legible. Tuesday to Sunday; arrive at opening at 9am on weekends to avoid school groups.",
+        "walk_to_next": {
+          "to": "Chapultepec Castle",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Chapultepec Castle",
+        "wikidata_qid": "Q202705",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chapultepec_Castle",
+        "coordinates": {
+          "lat": 19.4202,
+          "lon": -99.1815
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The only castle in mainland North America ever used as an imperial residence - Maximilian I and Empress Carlota furnished the upper floors in European style while the ground floor murals celebrate Mexico's pre-Hispanic identity. The walk up the hill takes about twelve minutes through forest; the view from the upper terrace over Paseo de la Reforma and the city skyline is the best elevated panorama in central Mexico City.",
+        "walk_to_next": {
+          "to": "Museo Tamayo Arte Contemporaneo",
+          "distance_meters": 780,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Museo Tamayo Arte Contemporaneo",
+        "wikidata_qid": "Q1100304",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tamayo_Museum",
+        "coordinates": {
+          "lat": 19.4262,
+          "lon": -99.1921
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Rufino Tamayo donated his personal collection of international contemporary art to the Mexican people in 1981. The Teodoro Gonzalez de Leon building sits half-buried in the park, bringing in natural light through angled skylights. Considerably less crowded than the Anthropology Museum next door - the rotating contemporary exhibitions are consistently strong. Closed Mondays and Tuesdays.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museo Nacional de Historia in Chapultepec Castle",
+          "wikidata_qid": "Q4205977",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_History_(Mexico)",
+          "coordinates": {
+            "lat": 19.4202,
+            "lon": -99.1815
+          },
+          "neighborhood": "Chapultepec",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The castle and the national history museum share the same building and ticket. The O'Gorman and Siqueiros murals on the upper level - covering the Conquest, the Reform War, and the Revolution - are as significant as the Rivera murals in the Palacio Nacional but almost always uncrowded. The Maximilian bedroom and Empress Carlota's dressing room are intact period rooms.",
+          "walk_from_main_route": {
+            "from": "Chapultepec Castle",
+            "distance_meters": 0,
+            "walking_minutes": 0
+          }
+        },
+        {
+          "activity_title": "Galeria Lopez Quiroga",
+          "wikidata_qid": "Q115643832",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Galeria_Lopez_Quiroga",
+          "coordinates": {
+            "lat": 19.4319,
+            "lon": -99.1966
+          },
+          "neighborhood": "Polanco",
+          "duration_minutes": 30,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "One of Mexico City's most respected contemporary galleries, representing several of Mexico's best-known living painters and sculptors. Entry is free and the space is rarely crowded. A five-minute walk from the Tamayo Museum into Polanco, which also has good restaurant options for dinner.",
+          "walk_from_main_route": {
+            "from": "Museo Tamayo Arte Contemporaneo",
+            "distance_meters": 360,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Coyoacan and Xochimilco",
+      "cluster_tagline": "Frida Kahlo's cobblestone village and the ancient floating gardens south of the city",
+      "neighborhood_focus": "Coyoacan / Xochimilco",
+      "neighborhood_description": "Coyoacan - meaning 'place of coyotes' in Nahuatl - was a separate colonial town absorbed by the city's sprawl, but still reads as a village: low colonial houses, shaded plazas, and a central market. Xochimilco, twenty minutes further south by taxi, preserves a remnant of the pre-Hispanic lake system as a network of canals and artificial island gardens that have been continuously farmed for over a thousand years.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2250,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Museo Frida Kahlo (Casa Azul)",
+        "wikidata_qid": "Q1124335",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Frida_Kahlo_Museum",
+        "coordinates": {
+          "lat": 19.3553,
+          "lon": -99.1629
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Frida Kahlo's birth house and lifelong home, its cobalt blue walls packed with her paintings, pre-Hispanic collection, personal letters, and medical corsets. Daily ticket quotas sell out weeks in advance on the official website - this is not a place you can walk up to. If you cannot get a timed-entry, the Leon Trotsky Museum two blocks north at number 45 Viena street is a compelling alternative with almost no queue.",
+        "walk_to_next": {
+          "to": "Jardin Centenario and Plaza Hidalgo, Coyoacan",
+          "distance_meters": 500,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Jardin Centenario and Mercado de Coyoacan",
+        "wikidata_qid": "Q7091800",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Coyoac%C3%A1n",
+        "coordinates": {
+          "lat": 19.3501,
+          "lon": -99.1617
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The twin colonial plazas - Jardin Centenario and Plaza Hidalgo separated by a pedestrian street - are the social core of Coyoacan. The Mercado de Coyoacan behind the church on Ignacio Allende street is the best market for tostadas in the city: Tostadas Coyoacan stall has been in the same spot for decades and the queue is its own recommendation. Weekend afternoons bring street performers and the plaza becomes harder to navigate.",
+        "walk_to_next": {
+          "to": "Xochimilco canals",
+          "distance_meters": 1300,
+          "walking_minutes": 16
+        }
+      },
+      "evening": {
+        "activity_title": "Xochimilco Trajineras",
+        "wikidata_qid": "Q189816",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Xochimilco",
+        "coordinates": {
+          "lat": 19.2572,
+          "lon": -99.1061
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Mexico City and Xochimilco",
+          "year_inscribed": 1987,
+          "reference_number": 412,
+          "url": "https://whc.unesco.org/en/list/412"
+        },
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Hire a trajinera (flat-bottomed punt) at the Embarcadero Fernando Celada landing, which is smaller and calmer than the main tourist embarcadero at Nuevo Nativitas on weekends. Negotiate a fixed per-hour rate before boarding - around 300 to 400 pesos per hour for the whole boat is normal. Floating vendors will pull alongside selling corn, elotes, and beer; you are not obligated to buy from all of them. The chinampa island network you are punting through has been farmed continuously since before the Spanish arrived.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museo Leon Trotsky",
+          "wikidata_qid": "Q3880375",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Leon_Trotsky_Museum",
+          "coordinates": {
+            "lat": 19.3554,
+            "lon": -99.1611
+          },
+          "neighborhood": "Coyoacan",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "Trotsky's final home, where he lived under armed guard before his assassination in 1940. The study where he was killed with an ice axe is preserved as it was that day, including the desk and bookshelves. His grave is in the garden. Rarely crowded, tickets at the door, two blocks from Casa Azul.",
+          "walk_from_main_route": {
+            "from": "Museo Frida Kahlo (Casa Azul)",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Anahuacalli Museum",
+          "wikidata_qid": "Q4755023",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Anahuacalli_Museum",
+          "coordinates": {
+            "lat": 19.3211,
+            "lon": -99.1589
+          },
+          "neighborhood": "Pedregal de San Angel",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Diego Rivera designed this lava-stone pyramid to house his personal collection of 50,000 pre-Hispanic objects. The building itself is extraordinary - dark volcanic tezontle stone, narrow slitted windows, a rooftop terrace with views over the Pedregal lava fields. Roughly fifteen minutes south of Coyoacan by taxi and almost always uncrowded.",
+          "walk_from_main_route": {
+            "from": "Jardin Centenario and Mercado de Coyoacan",
+            "distance_meters": 3900,
+            "walking_minutes": 49
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "destination": "Athens",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:12:06.643Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Acropolis / Monastiraki / Plaka"
+  ],
+  "guide_description": "One day covering the essential arc of Athens: the sacred rock of the Acropolis at dawn, the ancient Agora below it, and the layered Ottoman-Byzantine-neoclassical street life of Monastiraki and Plaka as the city cools in the evening.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3100,
+  "total_walking_minutes": 39,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "The Sacred Rock and the Ancient City Below",
+      "cluster_tagline": "From the Acropolis summit to the Agora ruins and the Ottoman market quarter at its feet",
+      "neighborhood_focus": "Acropolis / Monastiraki / Plaka",
+      "neighborhood_description": "The southern and northern slopes of the Acropolis hill form a single walkable zone. The rock itself is ringed by ancient sanctuaries and theatres; the northern slope descends through the ancient Agora into Monastiraki, a compressed quarter of Byzantine churches, Ottoman market halls, and Roman ruins that Athens has been building on top of for two thousand years.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Acropolis of Athens",
+        "wikidata_qid": "Q131013",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Acropolis_of_Athens",
+        "coordinates": {
+          "lat": 37.9715,
+          "lon": 23.7267
+        },
+        "unesco_designation": {
+          "site_name": "Acropolis, Athens",
+          "year_inscribed": 1987,
+          "reference_number": 404,
+          "url": "https://whc.unesco.org/en/list/404"
+        },
+        "duration_minutes": 120,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Buy the combined site ticket (valid 5 days, covering the Agora, Kerameikos, and four other sites) online the day before - the gate queue at the main southwest entrance is slow, but the Beule Gate entry used by most tour groups is different from the less-used Dionysiou Areopagitou pedestrian approach from the south, which deposits you directly at the theatre of Dionysus. Arrive as close to the 8am opening as possible in summer; the marble paths become oven-hot by 10am and there is no shade on the summit plateau. The Parthenon's north colonnade is under ongoing restoration scaffolding on the eastern end - the west facade is the cleaner photographic angle.",
+        "walk_to_next": {
+          "to": "Acropolis Museum",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Acropolis Museum",
+        "wikidata_qid": "Q1127536",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Acropolis_Museum",
+        "coordinates": {
+          "lat": 37.9683,
+          "lon": 23.7285
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The 2009 Bernhard Tschumi building sits directly over an excavated early Christian and Byzantine residential quarter visible through the glass floors of the entrance level - look down before you look up. The top-floor Parthenon Gallery is oriented to align exactly with the Parthenon itself on the hill, so the surviving frieze sections face their original positions. The gaps filled with white plaster casts are the British Museum originals; the deliberate incompleteness is the museum's argument. Closed Mondays.",
+        "walk_to_next": {
+          "to": "Ancient Agora of Athens",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Ancient Agora of Athens and Monastiraki",
+        "wikidata_qid": "Q183605",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ancient_Agora_of_Athens",
+        "coordinates": {
+          "lat": 37.9754,
+          "lon": 23.7213
+        },
+        "unesco_designation": {
+          "site_name": "Acropolis, Athens",
+          "year_inscribed": 1987,
+          "reference_number": 404,
+          "url": "https://whc.unesco.org/en/list/404"
+        },
+        "duration_minutes": 75,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Enter from the Adrianou Street gate on the eastern side rather than the main Thiseio entrance - it puts you in front of the Stoa of Attalos (the reconstructed 2nd-century BC colonnaded hall, now a museum) first, then lets you work west toward the Hephaisteion, the best-preserved ancient Greek temple in the world, for the last light of the day. After exiting the north gate, Monastiraki Square and the Tzisdarakis Mosque are directly in front of you; the flea market streets of Ifaistou and Pandrossou are at their most atmospheric in the early evening when the tourist stalls thin out.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Odeon of Herodes Atticus",
+          "wikidata_qid": "Q1063836",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Odeon_of_Herodes_Atticus",
+          "coordinates": {
+            "lat": 37.9707,
+            "lon": 23.7236
+          },
+          "neighborhood": "Acropolis south slope",
+          "duration_minutes": 30,
+          "type": "archaeological_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The 2nd-century AD Roman odeon on the southwest slope of the Acropolis is visible from the Dionysiou Areopagitou pedestrian boulevard below - the interior is only open to the public during performances (Athens Epidaurus Festival, June to August). Outside those dates, the exterior view from the boulevard gives a full sightline into the cavea and is worth a 10-minute stop on your walk from the Acropolis down to the museum.",
+          "walk_from_main_route": {
+            "from": "Acropolis of Athens",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Kerameikos Archaeological Site",
+          "wikidata_qid": "Q745874",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kerameikos",
+          "coordinates": {
+            "lat": 37.9764,
+            "lon": 23.7167
+          },
+          "neighborhood": "Kerameikos",
+          "duration_minutes": 60,
+          "type": "archaeological_site",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Athens's ancient cemetery and the original potters' quarter, a 10-minute walk west of Monastiraki. Dramatically less visited than the Agora despite sharing the combined ticket. The Sacred Gate and the Street of Tombs - a row of 4th-century BC marble grave monuments still standing in situ - are the payoff; the small on-site museum holds the best surviving grave stelae not in a major collection. The adjacent Eridanos stream is still visible running through the excavation.",
+          "walk_from_main_route": {
+            "from": "Ancient Agora of Athens",
+            "distance_meters": 650,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

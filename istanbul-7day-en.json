@@ -1,0 +1,747 @@
+{
+  "destination": "Istanbul",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-18T11:57:17.848Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Sultanahmet",
+    "Grand Bazaar / Beyazit / Suleymaniye",
+    "Eminonu / Karakoy / Galata",
+    "Beyoglu / Istiklal / Pera",
+    "Besiktas / Dolmabahce / Ortakoy",
+    "Uskudar / Kadikoy (Asian Shore)",
+    "Bosphorus Cruise / Princes Islands"
+  ],
+  "guide_description": "Seven days covering Istanbul's essential geography: the Byzantine and Ottoman imperial core on the First Hill, the trading neighborhoods of the Golden Horn, the cosmopolitan 19th-century city on the north shore, and the quieter Asian side. The final day crosses the Bosphorus by ferry to experience the city from the water. Each day is geographically self-contained and can be reordered based on weather or ferry schedules.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 19890,
+  "total_walking_minutes": 249,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Imperial Sultanahmet",
+      "cluster_tagline": "The Byzantine and Ottoman core - two world monuments within five minutes of each other",
+      "neighborhood_focus": "Sultanahmet",
+      "neighborhood_description": "The First Hill of Constantinople, where both the Byzantine and Ottoman empires chose to place their defining monuments. The Hagia Sophia and Blue Mosque face each other across the Hippodrome grounds, and the Topkapi Palace occupies the promontory above the Bosphorus. This is the oldest continuously inhabited part of the city.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Hagia Sophia",
+        "wikidata_qid": "Q12506",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+        "coordinates": {
+          "lat": 41.0086,
+          "lon": 28.9802
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Entry is free but timed entry queues form by 9am. Arrive at opening (first prayer window permitting) to see the dome without the midday crowds. The great mosaics of the upper galleries - the Deesis Christ in particular - require climbing the ramp to the south gallery before tour groups fill the space. The building is again an active mosque so remove shoes and cover shoulders and hair.",
+        "walk_to_next": {
+          "to": "Sultanahmet Mosque (Blue Mosque)",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sultanahmet Mosque",
+        "wikidata_qid": "Q44113",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque",
+        "coordinates": {
+          "lat": 41.0054,
+          "lon": 28.9768
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Enter from the north courtyard gate rather than the tourist funnel on the south side - the courtyard fountain and the six minarets from the north are the architect Sedefkar Mehmed's intended viewing angle. The 21,000 Iznik tiles lining the upper galleries are the most concentrated display of 17th-century tile work in existence. Closed to non-worshippers during prayer times, which run approximately 30 minutes five times a day.",
+        "walk_to_next": {
+          "to": "Hippodrome of Constantinople",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Hippodrome of Constantinople and the Obelisk of Theodosius",
+        "wikidata_qid": "Q213207",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hippodrome_of_Constantinople",
+        "coordinates": {
+          "lat": 41.0061,
+          "lon": 28.9745
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 45,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The spine of the ancient chariot racing track is now a pedestrian park. The Egyptian Obelisk of Theodosius still stands on its original Roman base, which has relief carvings of the imperial family watching races. At the south end, the Serpent Column brought from Delphi in 324 AD is the oldest surviving Greek monument in Istanbul. The whole area is quietest at dusk after day-trip coaches depart.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Basilica Cistern",
+          "wikidata_qid": "Q179923",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_Cistern",
+          "coordinates": {
+            "lat": 41.0084,
+            "lon": 28.9779
+          },
+          "neighborhood": "Sultanahmet",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A 6th-century Byzantine underground water reservoir supported by 336 marble columns. The two Medusa heads used as column bases at the northwest corner - one sideways, one inverted - are unexplained and probably the most-photographed detail. The 2022 renovation rerouted the visitor path and improved lighting but also added some theatrical installations that divide opinion.",
+          "walk_from_main_route": {
+            "from": "Hagia Sophia",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Mosaic Museum",
+          "wikidata_qid": "Q6924895",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Great_Palace_Mosaic_Museum",
+          "coordinates": {
+            "lat": 41.0048,
+            "lon": 28.9762
+          },
+          "neighborhood": "Sultanahmet",
+          "duration_minutes": 40,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A rarely-crowded museum built over the in-situ floor mosaics of the Great Byzantine Palace, discovered beneath the Arasta Bazaar in 1935. The hunting and animal scenes are some of the finest late-antique floor mosaics surviving anywhere in the Mediterranean. Enter through the Arasta Bazaar arcade at the southeast corner of the Blue Mosque.",
+          "walk_from_main_route": {
+            "from": "Sultanahmet Mosque",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Topkapi and the First Hill Palace Complex",
+      "cluster_tagline": "Six centuries of Ottoman imperial power on the promontory above the Bosphorus",
+      "neighborhood_focus": "Topkapi / Gulhane",
+      "neighborhood_description": "The eastern tip of the historic peninsula, where the Ottoman sultans built and expanded their palace compound from 1453 until the 19th century. Topkapi is less a building than a series of courtyards and pavilions accumulating over 400 years, with the Bosphorus and Golden Horn visible from the terraces.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2340,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Topkapi Palace",
+        "wikidata_qid": "Q179224",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Topkap%C4%B1_Palace",
+        "coordinates": {
+          "lat": 41.0115,
+          "lon": 28.9833
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 180,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Buy the main ticket and a separate Harem ticket at the same time - the Harem has a separate entry a few minutes inside and sell out by midmorning. The Treasury in the Fourth Courtyard holds the Topkapi Dagger and the 86-carat Spoonmaker Diamond. Allow time on the Fourth Courtyard terrace, which offers one of the finest views in Istanbul across the convergence of the Golden Horn, Bosphorus, and Sea of Marmara.",
+        "walk_to_next": {
+          "to": "Istanbul Archaeological Museums",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Istanbul Archaeological Museums",
+        "wikidata_qid": "Q681946",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Istanbul_Archaeological_Museums",
+        "coordinates": {
+          "lat": 41.0105,
+          "lon": 28.9813
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Three museums in one compound at the foot of Topkapi. The Alexander Sarcophagus in the main building is the unmissable object - a 4th-century BC Macedonian marble sarcophagus with battle reliefs in near-original paint. The Museum of the Ancient Orient across the courtyard holds Mesopotamian tablets including one of the earliest maps of the world. Far less visited than the palace above.",
+        "walk_to_next": {
+          "to": "Gulhane Park",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Gulhane Park and Bosphorus viewpoint",
+        "wikidata_qid": "Q1056659",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/G%C3%BClhane_Park",
+        "coordinates": {
+          "lat": 41.0133,
+          "lon": 28.9812
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The former outer garden of Topkapi Palace, now a public park descending to the shore. Walk to the northeastern corner terrace above the water for an unobstructed view of the Bosphorus strait where Asia begins 700 meters away. The tea gardens inside the park serve cay in tulip-shaped glasses and stay open well after dark.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hagia Irene",
+          "wikidata_qid": "Q231316",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hagia_Irene",
+          "coordinates": {
+            "lat": 41.0119,
+            "lon": 28.9815
+          },
+          "neighborhood": "Topkapi",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The oldest surviving church in Istanbul, predating Hagia Sophia and never converted into a mosque. It sits inside Topkapi's first courtyard but requires a separate ticket. The apse mosaic is a simple gold cross - Byzantine iconoclasm stripped all figural imagery in the 8th century and it was never restored. The acoustics are extraordinary and it is used as a concert hall.",
+          "walk_from_main_route": {
+            "from": "Topkapi Palace entrance",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Grand Bazaar, Beyazit, and Suleymaniye",
+      "cluster_tagline": "The Ottoman commercial and religious heart - the world's oldest covered market beneath a hilltop mosque",
+      "neighborhood_focus": "Beyazit / Suleymaniye",
+      "neighborhood_description": "The commercial and academic center of Ottoman Istanbul, occupying the Third Hill above the Golden Horn. The Grand Bazaar was built under Mehmed II in the 1460s as the economic engine of the new Ottoman capital. The Suleymaniye Mosque complex above it was designed by the architect Sinan in 1550 as the defining statement of Ottoman imperial ambition.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Grand Bazaar",
+        "wikidata_qid": "Q41768",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_Bazaar,_Istanbul",
+        "coordinates": {
+          "lat": 41.0106,
+          "lon": 28.9682
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Sixty-one covered streets and more than 4,000 shops inside 30,600 square meters - arrive at opening (9am) when merchants are still arranging stock and pressure to buy is lower. The Bedesten at the center is the oldest part, originally the secure vault for precious goods; the antique and jewelry dealers here are more serious than those on the tourist perimeter. The bazaar closes on Sundays.",
+        "walk_to_next": {
+          "to": "Suleymaniye Mosque",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Suleymaniye Mosque",
+        "wikidata_qid": "Q178048",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque",
+        "coordinates": {
+          "lat": 41.0163,
+          "lon": 28.9638
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Sinan's masterwork, completed in 1558 when he was 70 years old. The interior achieves what the Blue Mosque attempts: a vast unified dome space with light entering from 138 windows whose glazing Sinan calibrated to different tints. The tombs of Suleiman the Magnificent and his wife Hurrem are in the garden behind the mosque. The hillside terrace on the north side has a Golden Horn panorama that most visitors miss entirely.",
+        "walk_to_next": {
+          "to": "Egyptian Bazaar (Spice Market)",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Egyptian Bazaar and Eminonu waterfront",
+        "wikidata_qid": "Q477032",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Egyptian_Bazaar",
+        "coordinates": {
+          "lat": 41.0166,
+          "lon": 28.9712
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The 17th-century spice market at the foot of the Yeni Mosque. The interior shops sell saffron, dried fruits, Turkish delight, and spice blends. More useful for provisions than the Grand Bazaar. After the bazaar, walk to the Eminonu waterfront 100 meters away - the stretch between the Galata Bridge and the ferry terminals is where balık ekmek (fish sandwich) boats have moored for decades. Eat one.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Beyazit Square and Istanbul University Gate",
+          "wikidata_qid": "Q964839",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Beyaz%C4%B1t_Square",
+          "coordinates": {
+            "lat": 41.0106,
+            "lon": 28.9638
+          },
+          "neighborhood": "Beyazit",
+          "duration_minutes": 20,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The ancient Roman Forum Tauri, now anchored by the Beyazit Mosque (1506) and the 19th-century Ottoman baroque gate of Istanbul University. The fire tower visible from the square is an 1828 stone watchpost that served as the city's fire alarm system. The second-hand book market in the arcades on the east side is worth a slow walk.",
+          "walk_from_main_route": {
+            "from": "Grand Bazaar",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Galata Bridge upper and lower decks",
+          "wikidata_qid": "Q758045",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Galata_Bridge",
+          "coordinates": {
+            "lat": 41.0183,
+            "lon": 28.9739
+          },
+          "neighborhood": "Eminonu",
+          "duration_minutes": 25,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "The 490-meter double-deck bridge crossing the mouth of the Golden Horn. The upper deck is lined with fishermen casting into the straits at all hours. The lower deck is a covered arcade of restaurants - choose by view of the water, not the touts. Best at sunset looking west up the Golden Horn toward the Fatih mosque silhouette.",
+          "walk_from_main_route": {
+            "from": "Egyptian Bazaar",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Karakoy, Galata, and the Tower",
+      "cluster_tagline": "The Genoese trading colony turned bohemian waterfront - medieval tower above a working port",
+      "neighborhood_focus": "Karakoy / Galata",
+      "neighborhood_description": "The neighborhood on the north bank of the Golden Horn was the Genoese merchant colony in medieval Constantinople, defined by its watchtower built in 1348. Today Karakoy at the waterfront is a mix of working ferry terminals, 19th-century banks, and a dense cluster of contemporary galleries and coffee roasters. Galata above it is steeper, quieter, and architecturally coherent.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2180,
+      "day_walking_minutes": 27,
+      "morning": {
+        "activity_title": "Galata Tower",
+        "wikidata_qid": "Q190671",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Galata_Tower",
+        "coordinates": {
+          "lat": 41.0256,
+          "lon": 28.9744
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "The 67-meter Genoese watchtower is the best 360-degree orientation point in the city. Buy tickets online in advance - the queue for the lift is brutal by 10am. Morning light falls on the Sultanahmet peninsula to the south, making it the best time for the view. The Mevlevi Dervish lodge (Galata Mevlevihanesi) a short walk north on Galip Dede Caddesi holds sema ceremonies most Sundays.",
+        "walk_to_next": {
+          "to": "Istanbul Modern",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "afternoon": {
+        "activity_title": "Istanbul Modern",
+        "wikidata_qid": "Q3148874",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Istanbul_Modern",
+        "coordinates": {
+          "lat": 41.0274,
+          "lon": 28.9836
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Turkey's leading contemporary art museum, reopened in 2023 in a new Renzo Piano building on the Bosphorus waterfront in Karakoy. The permanent collection spans Turkish art since the late 19th century and the photography archive is exceptional. The top-floor restaurant has unobstructed Bosphorus views and is worth a coffee even without the museum. Take the tram or walk down from Galata rather than trying to find it from the main road.",
+        "walk_to_next": {
+          "to": "Karakoy waterfront and Kemankes Caddesi",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Karakoy waterfront and Kemankes Caddesi",
+        "wikidata_qid": "Q6368006",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Karakoy",
+        "coordinates": {
+          "lat": 41.022,
+          "lon": 28.9743
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The stretch of Kemankes Caddesi from the ferry terminal toward Tophane has become the city's best concentration of independent wine bars, natural wine importers, and meyhane-style restaurants. Reservations are expected at the sit-down spots but bars along the street are walk-in. The working ferry terminal at the end is one of the better places to watch the Bosphorus traffic at dusk.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Galata Mevlevihanesi Museum",
+          "wikidata_qid": "Q5519861",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Galata_Mevlevihanesi",
+          "coordinates": {
+            "lat": 41.028,
+            "lon": 28.9742
+          },
+          "neighborhood": "Galata",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The oldest active Mevlevi dervish lodge in Istanbul, founded in 1491. The museum covers the history of the Sufi order with musical instruments, manuscripts, and ceremonial objects. The octagonal sema hall - the whirling chamber - is the architectural centerpiece. On Sundays at 5pm, a public sema ceremony is held here; tickets must be booked a week ahead through the museum.",
+          "walk_from_main_route": {
+            "from": "Galata Tower",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Beyoglu and Istiklal Avenue",
+      "cluster_tagline": "The cosmopolitan 19th-century city - the grand avenue, historic arcades, and a hilltop cemetery view",
+      "neighborhood_focus": "Beyoglu / Pera / Cihangir",
+      "neighborhood_description": "The hilltop city north of Galata that was 19th-century Constantinople's European quarter, defined by the embassies, hotels, and department stores of the Pera district. Istiklal Caddesi is the 1.4-kilometer pedestrian spine. The neighborhood descends steeply west into Cihangir, the most architecturally intact and bohemian district in the city.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2650,
+      "day_walking_minutes": 34,
+      "morning": {
+        "activity_title": "Pera Museum",
+        "wikidata_qid": "Q1951634",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pera_Museum",
+        "coordinates": {
+          "lat": 41.034,
+          "lon": 28.9769
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "A focused collection in a beautifully converted 19th-century hotel. The permanent collection includes Orientalist paintings and a room dedicated to Osman Hamdi Bey, Turkey's first major painter - his Tortoise Trainer (1906) is the museum's defining work and one of the most reproduced Ottoman-era paintings. Far less crowded than the major sites and typically takes under two hours.",
+        "walk_to_next": {
+          "to": "Istiklal Caddesi and the Tunel tram",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Istiklal Caddesi",
+        "wikidata_qid": "Q703927",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/%C4%B0stiklal_Avenue",
+        "coordinates": {
+          "lat": 41.0335,
+          "lon": 28.9769
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Walk the full 1.4km from Tunel to Taksim, but turn left into the covered arcades rather than staying on the main thoroughfare throughout. The Cite de Pera, Atlas Pasaji, and Cercle d'Orient passages preserve the 19th-century covered shopping arcade typology that predates the Grand Bazaar tourists by 400 years in architectural vocabulary. The historic red tram that runs the avenue is photogenic but extremely crowded - walking is faster and more interesting.",
+        "walk_to_next": {
+          "to": "Taksim Square",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Cihangir neighborhood and Firuzaga Mosque view",
+        "wikidata_qid": "Q1059936",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cihangir,_Istanbul",
+        "coordinates": {
+          "lat": 41.0289,
+          "lon": 28.9821
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The steep streets west of Istiklal dropping toward the Bosphorus form the most livable and architecturally coherent neighborhood in the city. Walk down Cihangir Caddesi from the junction with Istiklal and keep descending - the Bosphorus appears between apartment blocks at every cross-street. The cafe strip around Firuzaga Mosque is Istanbul's best neighborhood square, almost entirely local, and the sunset from the terrace of any cafe facing west is straight down the water.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Taksim Square and Ataturk Cultural Center",
+          "wikidata_qid": "Q208886",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Taksim_Square",
+          "coordinates": {
+            "lat": 41.0369,
+            "lon": 28.9852
+          },
+          "neighborhood": "Beyoglu",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The northern terminus of Istiklal, anchored by the 1928 Republic Monument and the rebuilt Ataturk Cultural Center (AKM), reopened in 2021. The AKM is worth entering if there is a performance or exhibition scheduled - the interior renovation is one of the more interesting public building projects in recent Turkish architecture.",
+          "walk_from_main_route": {
+            "from": "Istiklal Caddesi northern end",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Tunel funicular",
+          "wikidata_qid": "Q745068",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/T%C3%BCnel",
+          "coordinates": {
+            "lat": 41.0278,
+            "lon": 28.9749
+          },
+          "neighborhood": "Beyoglu",
+          "duration_minutes": 10,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The Tunel underground funicular, opened in 1875, is the second-oldest underground railway in the world after London. The single tunnel runs 573 meters between Karakoy on the waterfront and the southern end of Istiklal - a single ticket and a 90-second ride. Ride it once for the history and the view of the original wooden cars in the station.",
+          "walk_from_main_route": {
+            "from": "Pera Museum",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "Asian Shore - Uskudar and Kadikoy",
+      "cluster_tagline": "The quieter Asia - Ottoman waterfront shrines, a Victorian market hall, and the city from across the water",
+      "neighborhood_focus": "Uskudar / Kadikoy",
+      "neighborhood_description": "The Asian shore of Istanbul, reachable in 20 minutes by ferry from Eminonu or Karakoy. Uskudar is older and more Ottoman in character, defined by Sinan mosques and the Maiden Tower offshore. Kadikoy to the south is livelier and younger, centered on a covered market and a dense bar street. The ferry crossing itself reframes the European city as the skyline it was designed to be.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3230,
+      "day_walking_minutes": 41,
+      "morning": {
+        "activity_title": "Uskudar waterfront and Mihrimah Sultan Mosque",
+        "wikidata_qid": "Q1061782",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mihrimah_Sultan_Mosque,_%C3%9Csk%C3%BCdar",
+        "coordinates": {
+          "lat": 41.023,
+          "lon": 29.0141
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Sinan's 1548 mosque for Suleiman's daughter Mihrimah is smaller and less visited than Suleymaniye but considered one of his most technically refined works. The single minaret and the low dome silhouette are visible from the ferry. The Uskudar waterfront square in front of the mosque is the functional heart of the Asian shore - the simit sellers and the tea garden under the trees have been here for generations.",
+        "walk_to_next": {
+          "to": "Maiden's Tower (Kiz Kulesi)",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Maiden's Tower",
+        "wikidata_qid": "Q654897",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maiden%27s_Tower",
+        "coordinates": {
+          "lat": 41.0211,
+          "lon": 29.0041
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The small Byzantine tower on an islet 200 meters offshore has served as lighthouse, quarantine station, and restaurant over its long history. A short boat shuttle runs from the Salacak landing - tickets must be bought at the pier kiosk, not online. The view from the tower balcony gives a rare mid-water perspective on both the European and Asian shorelines simultaneously.",
+        "walk_to_next": {
+          "to": "Kadikoy Market and Moda",
+          "distance_meters": 1800,
+          "walking_minutes": 23
+        }
+      },
+      "evening": {
+        "activity_title": "Kadikoy Carsi market district",
+        "wikidata_qid": "Q944692",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kad%C4%B1k%C3%B6y",
+        "coordinates": {
+          "lat": 40.9907,
+          "lon": 29.0231
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The covered market and surrounding streets of Kadikoy are the best food shopping in Istanbul - the fish market hall on Yasa Caddesi, the butchers and cheesemongers on the pedestrian streets behind it, and the meyhane strip on Kadife Sokak a block further east. The neighborhood is entirely local in character and the best place to eat a proper Istanbul dinner without the tourist-price premium of Sultanahmet. Return to Europe by ferry from Kadikoy - the 25-minute crossing at dusk is the finest city view in Istanbul.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Camlica Hill",
+          "wikidata_qid": "Q1055949",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/%C3%87aml%C4%B1ca",
+          "coordinates": {
+            "lat": 41.0278,
+            "lon": 29.0556
+          },
+          "neighborhood": "Uskudar",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "sunset",
+          "notes": "The highest point on the Asian shore at 288 meters, with a 360-degree view that on clear days extends to the Princes Islands and the Marmara. Take a taxi from Uskudar rather than trying to walk up. The giant new Camlica Mosque (2019, capacity 63,000) dominates the hilltop and is worth entering for scale alone.",
+          "walk_from_main_route": {
+            "from": "Uskudar waterfront",
+            "distance_meters": 3500,
+            "walking_minutes": 44
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "Dolmabahce, Besiktas, and the Bosphorus Shore",
+      "cluster_tagline": "The 19th-century waterfront palace, a football-mad neighborhood, and the Ottoman baroque shore",
+      "neighborhood_focus": "Besiktas / Dolmabahce / Ortakoy",
+      "neighborhood_description": "The European Bosphorus shoreline north of the old city walls, developed in the 19th century as the Ottoman court abandoned Topkapi for modern palaces directly on the water. The three neighborhoods of Dolmabahce, Besiktas, and Ortakoy are linked by a continuous waterfront promenade with the strait 50 meters to the right throughout.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 4550,
+      "day_walking_minutes": 57,
+      "morning": {
+        "activity_title": "Dolmabahce Palace",
+        "wikidata_qid": "Q183776",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dolmab%C3%A2h%C3%A7e_Palace",
+        "coordinates": {
+          "lat": 41.039,
+          "lon": 29.0013
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The 1856 palace that replaced Topkapi as the Ottoman seat of government is 600 meters long on the Bosphorus waterfront - the longest facade of any palace in the world. Entry is by guided tour only, with two separate circuits (Selamlik state rooms and Haremlik residential quarters). The crystal staircase with Baccarat railings and the 4.5-ton Bohemian crystal chandelier in the Ceremonial Hall are the two unmissable details. Book online - tour slots sell out by midmorning in high season.",
+        "walk_to_next": {
+          "to": "Besiktas waterfront and Barbaros Hayreddin Pasha Tomb",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "afternoon": {
+        "activity_title": "Besiktas waterfront and Ciragan Palace",
+        "wikidata_qid": "Q1066040",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/%C3%87ira%C4%9Fan_Palace",
+        "coordinates": {
+          "lat": 41.0449,
+          "lon": 29.0073
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The 1867 Ottoman baroque palace built by Sultan Abdulaziz, now a hotel. The exterior facade along the Bosphorus is freely visible from the waterfront pavement and is arguably the finest stretch of 19th-century Ottoman architecture in the city. Walk through the hotel gardens (publicly accessible as a through-route) to the waterfront terrace - the view up the Bosphorus toward the suspension bridge is excellent and the hotel serves tea here.",
+        "walk_to_next": {
+          "to": "Ortakoy Mosque",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "evening": {
+        "activity_title": "Ortakoy Mosque and the Bosphorus Bridge",
+        "wikidata_qid": "Q1076265",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ortak%C3%B6y_Mosque",
+        "coordinates": {
+          "lat": 41.0479,
+          "lon": 29.0267
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The small 1856 Neo-baroque mosque sits on a pier projecting into the Bosphorus directly beneath the 1973 suspension bridge - the juxtaposition of Ottoman baroque and 20th-century cable engineering is the most photographed composition in Istanbul after Hagia Sophia. The square behind the mosque fills with kumpir (baked potato) stalls and waffle vendors at dusk. Arrive around 30 minutes before sunset and position yourself on the waterside promenade looking northeast for the bridge-and-mosque frame in golden light.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Naval Museum Besiktas",
+          "wikidata_qid": "Q15981507",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Naval_Museum,_Istanbul",
+          "coordinates": {
+            "lat": 41.0415,
+            "lon": 29.0038
+          },
+          "neighborhood": "Besiktas",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The Ottoman imperial caique collection is the reason to come here - a hall of ceremonial rowing galleys used by the sultans, including an 1856 barge 40 meters long with a gilded stern cabin. The longest Ottoman imperial caique in the collection was rowed by 144 oarsmen. Completely overlooked by most visitors walking between Dolmabahce and Besiktas.",
+          "walk_from_main_route": {
+            "from": "Dolmabahce Palace",
+            "distance_meters": 850,
+            "walking_minutes": 11
+          }
+        },
+        {
+          "activity_title": "Yildiz Park",
+          "wikidata_qid": "Q7591781",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Y%C4%B1ld%C4%B1z_Park",
+          "coordinates": {
+            "lat": 41.047,
+            "lon": 29.0136
+          },
+          "neighborhood": "Besiktas",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "The forested hillside above Ciragan Palace was the private imperial garden of Yildiz Palace, opened to the public in 1944. The park has a genuine woodland character unusual for central Istanbul - 47 hectares of oak and plane trees with streams. The Malta Kiosk inside the park is one of the better tea houses in the city and was originally built as a sultan's weekend retreat.",
+          "walk_from_main_route": {
+            "from": "Ciragan Palace",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

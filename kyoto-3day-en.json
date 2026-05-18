@@ -1,0 +1,356 @@
+{
+  "destination": "Kyoto",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:28:46.173Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Higashiyama",
+    "Arashiyama",
+    "Fushimi / Nishiki"
+  ],
+  "guide_description": "Three days covering Kyoto's essential contrasts: the stone-paved temple corridor of Higashiyama, the bamboo-and-river district of Arashiyama, and the shrine-market axis anchored by Fushimi Inari. Each cluster is geographically self-contained and walkable without backtracking.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 10400,
+  "total_walking_minutes": 130,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Higashiyama Stone Lanes",
+      "cluster_tagline": "Medieval Kyoto - cobbled temple corridors, the great pagoda, and hillside shrine gates",
+      "neighborhood_focus": "Higashiyama",
+      "neighborhood_description": "The eastern foothills district that preserved more of pre-modern Kyoto than anywhere else in the city. Preserved machiya townhouses line the Ninenzaka and Sannenzaka stone lanes, connecting Kiyomizudera at the south to Chion-in and the Gion geisha district at the north in a single unbroken walk.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3900,
+      "day_walking_minutes": 49,
+      "morning": {
+        "activity_title": "Kiyomizudera",
+        "wikidata_qid": "Q503496",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kiyomizu-dera",
+        "coordinates": {
+          "lat": 34.9949,
+          "lon": 135.7851
+        },
+        "unesco_designation": {
+          "site_name": "Historic Monuments of Ancient Kyoto",
+          "year_inscribed": 1994,
+          "reference_number": 688,
+          "url": "https://whc.unesco.org/en/list/688"
+        },
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Arrive before 8am - the temple opens at 6am and the main wooden stage extending over the forested hillside is genuinely quiet in the first two hours. The approach up Chawan-zaka (Teapot Lane) from the bus stop is lined with ceramic and pottery shops, all closed at this hour, which means the climb is calm. Looking back from the stage toward the three-storied pagoda across the valley gives the best photograph of the complex.",
+        "walk_to_next": {
+          "to": "Ninenzaka and Sannenzaka",
+          "distance_meters": 350,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ninenzaka and Sannenzaka stone lanes",
+        "wikidata_qid": "Q5634931",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ninenzaka",
+        "coordinates": {
+          "lat": 34.9988,
+          "lon": 135.7818
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Two preserved Edo-period stone-paved lanes running north from Kiyomizudera through a protected townhouse district. The superstition that stumbling on Ninenzaka means two years of bad luck (ninen means two years) keeps some visitors cautious on the wet stones - slippery in rain and worth noting. The best preserved machiya facades are on the upper bend of Sannenzaka; the side alley to the right just before the main curve has a row of traditional craft workshops that most visitors walk past.",
+        "walk_to_next": {
+          "to": "Kodaiji",
+          "distance_meters": 450,
+          "walking_minutes": 6
+        }
+      },
+      "evening": {
+        "activity_title": "Kodaiji and the lantern-lit evening garden",
+        "wikidata_qid": "Q1397851",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kodai-ji",
+        "coordinates": {
+          "lat": 35.0019,
+          "lon": 135.7807
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "The Zen temple founded by Nene, widow of Toyotomi Hideyoshi, in 1606. The bamboo grove in the rear garden is smaller than Arashiyama's but far less crowded and especially striking when the evening illumination runs (spring and autumn seasons). The lacquerware (Kodaiji-maki) in the mausoleum structures is among the finest in Japan and is well-lit for examination. Check the temple website for current illumination dates before visiting at night.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Chion-in",
+          "wikidata_qid": "Q1074528",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ch%C4%ABon-in",
+          "coordinates": {
+            "lat": 35.0115,
+            "lon": 135.7824
+          },
+          "neighborhood": "Higashiyama",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "The headquarters of the Jodo sect of Buddhism and the largest temple gate in Japan - the Sanmon is three stories tall and was built in 1619. Most visitors come for Kiyomizudera and miss this complex entirely, which means the vast courtyard and the bell tower housing Japan's heaviest temple bell (74 tonnes) are usually uncrowded. The steep staircase up to the Sanmon from Shijo-dori is best taken slowly.",
+          "walk_from_main_route": {
+            "from": "Ninenzaka and Sannenzaka",
+            "distance_meters": 900,
+            "walking_minutes": 11
+          }
+        },
+        {
+          "activity_title": "Yasaka Shrine",
+          "wikidata_qid": "Q835857",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Yasaka_Shrine",
+          "coordinates": {
+            "lat": 35.0036,
+            "lon": 135.7784
+          },
+          "neighborhood": "Gion",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The Shinto shrine at the western end of Higashiyama, directly on the corner where the stone lane district meets Gion's geisha streets. The main gate faces Shijo-dori and is one of Kyoto's most photographed nighttime views when lantern-lit. The grounds are open 24 hours and are a natural endpoint for the Higashiyama evening walk.",
+          "walk_from_main_route": {
+            "from": "Kodaiji",
+            "distance_meters": 550,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Arashiyama Bamboo and River",
+      "cluster_tagline": "Western Kyoto - the great bamboo grove, a Zen rock garden, and a monkey mountain above the river bend",
+      "neighborhood_focus": "Arashiyama / Sagano",
+      "neighborhood_description": "The western district where the Oi River bends against forested hills. The bamboo grove, Tenryuji's garden, and the Togetsukyo bridge are within a few hundred meters of each other; the quieter Sagano lane leads north to smaller temples and a distinctly less crowded hour.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3500,
+      "day_walking_minutes": 44,
+      "morning": {
+        "activity_title": "Arashiyama Bamboo Grove",
+        "wikidata_qid": "Q578450",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sagano_Bamboo_Forest",
+        "coordinates": {
+          "lat": 35.0171,
+          "lon": 135.6715
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The grove path is only 400 meters long, which surprises most visitors. Arrive before 7:30am to walk it without the crowd that builds from 9am onward. The sound of bamboo clicking in wind is the sensory detail no photograph conveys and is most audible in the cooler morning hours when the tourist coaches have not yet arrived. The grove is directly north of the Tenryuji rear gate, so entering the garden from this side and exiting south saves backtracking.",
+        "walk_to_next": {
+          "to": "Tenryuji",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tenryuji",
+        "wikidata_qid": "Q913128",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tenry%C5%AB-ji",
+        "coordinates": {
+          "lat": 35.0154,
+          "lon": 135.6729
+        },
+        "unesco_designation": {
+          "site_name": "Historic Monuments of Ancient Kyoto",
+          "year_inscribed": 1994,
+          "reference_number": 688,
+          "url": "https://whc.unesco.org/en/list/688"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The garden here - designed by Muso Soseki around 1345 and still essentially intact - uses the Arashiyama hills as borrowed scenery in a technique called shakkei, so the garden changes character entirely depending on the season and time of day. The central pond reflects the hills and the main hall simultaneously from the viewing bench on the south side. There are two separate admission fees: one for the garden only, one that includes the main hall interior; the garden-only ticket is sufficient for most visits.",
+        "walk_to_next": {
+          "to": "Togetsukyo Bridge",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Togetsukyo Bridge and riverside",
+        "wikidata_qid": "Q2516025",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Togetsukyo",
+        "coordinates": {
+          "lat": 35.0105,
+          "lon": 135.6771
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The 155-meter wooden bridge over the Oi River is the compositional anchor of Arashiyama - the forested mountain backdrop turns gold at sunset in autumn and the late-afternoon light is the best time for the view from the south bank looking northwest. The cormorant fishing boats (ukai) moor below the bridge and operate evenings from July to mid-September; watching the boats set out is free from the bank.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Jojakko-ji",
+          "wikidata_qid": "Q3827286",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/J%C5%8Djakk%C5%8D-ji",
+          "coordinates": {
+            "lat": 35.021,
+            "lon": 135.6695
+          },
+          "neighborhood": "Sagano",
+          "duration_minutes": 40,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A small Nichiren temple on the hillside above the bamboo grove, reached by a staircase of mossy stone steps that most Arashiyama visitors walk straight past. The two-story thatched gate and the view from the pagoda over the Sagano plain are the reward. Almost nobody comes here between 10am and 3pm, which makes it the best quiet pocket in an otherwise crowded district.",
+          "walk_from_main_route": {
+            "from": "Arashiyama Bamboo Grove",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        },
+        {
+          "activity_title": "Okochi Sanso Villa",
+          "wikidata_qid": "Q3852398",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Okochi_Sanso",
+          "coordinates": {
+            "lat": 35.0193,
+            "lon": 135.6704
+          },
+          "neighborhood": "Sagano",
+          "duration_minutes": 50,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "The personal estate of silent film actor Okochi Denjiro, built over 30 years and opened to the public in 1961. The admission is steep but includes matcha and a wagashi sweet at the teahouse. The garden wraps around the hillside with multiple viewpoints over Kyoto and Arashiyama, and the path connects directly to the bamboo grove exit without retracing steps.",
+          "walk_from_main_route": {
+            "from": "Arashiyama Bamboo Grove",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Fushimi and the Market City",
+      "cluster_tagline": "Southern Kyoto - the thousand torii gates, a sake district, and the city's street-food spine",
+      "neighborhood_focus": "Fushimi / Nishiki",
+      "neighborhood_description": "The southern arc linking Fushimi Inari's tunnel of vermilion torii gates with the Fushimi sake breweries along the Horikawa canal, then back into central Kyoto's Nishiki covered market. Geographically spread but linked by a single train line, making the sequence logical.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3000,
+      "day_walking_minutes": 37,
+      "morning": {
+        "activity_title": "Fushimi Inari-taisha",
+        "wikidata_qid": "Q464405",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fushimi_Inari-taisha",
+        "coordinates": {
+          "lat": 34.9671,
+          "lon": 135.7727
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The shrine is open 24 hours and free. Arrive before 7am to walk the lower torii tunnels before the tour groups arrive from Kyoto Station, which is a seven-minute train ride away. Most visitors photograph the first 15 minutes of the path and leave; the full climb to the Ichinofune summit takes about 90 minutes and the density of gates thins quickly after the Yotsutsuji intersection, where the views over southern Kyoto open up. That intersection is the practical turnaround for most people and takes about 30 minutes from the base.",
+        "walk_to_next": {
+          "to": "Fushimi sake district",
+          "distance_meters": 1800,
+          "walking_minutes": 22
+        }
+      },
+      "afternoon": {
+        "activity_title": "Fushimi sake district and Gekkeikan Okura Museum",
+        "wikidata_qid": "Q3732682",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gekkeikan",
+        "coordinates": {
+          "lat": 34.9401,
+          "lon": 135.763
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Fushimi has been a sake-brewing center since the 17th century, fed by the exceptionally soft underground water from the Momoyama hills. The Gekkeikan Okura Museum occupies a 1909 brewery and displays 400 years of sake production tools, with a tasting included in the modest admission. The Horikawa canal alongside the breweries is lined with old kura (sake warehouses); the willow-fringed towpath walk between Tsukiyomi Bridge and Sakenosho Bridge is the most atmospheric stretch.",
+        "walk_to_next": {
+          "to": "Nishiki Market",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Nishiki Market",
+        "wikidata_qid": "Q2900869",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nishiki_Market",
+        "coordinates": {
+          "lat": 35.0051,
+          "lon": 135.7657
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "A 400-meter covered shopping street with roughly 130 stalls, known as Kyoto's kitchen since the Edo period. The market begins to thin from 5pm and most fish and produce stalls close by 6pm - arrive before then for the full density. Walk the market from east (Teramachi end) to west and double back on the opposite side: the street is narrow enough that each side has entirely different stalls. Look for yu-dofu (tofu simmered in kombu broth) stalls and tsukemono pickles specific to Kyoto varieties not found elsewhere in Japan.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Tofukuji",
+          "wikidata_qid": "Q1437531",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/T%C5%8Dfuku-ji",
+          "coordinates": {
+            "lat": 34.9786,
+            "lon": 135.7739
+          },
+          "neighborhood": "Fushimi",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "One of the great Zen temple complexes in Kyoto, less visited than Kinkakuji but architecturally more serious - the 1255 Sanmon gate is the oldest Zen gate in Japan. The covered bridge connecting the main hall to the subsidiary temple, called the Tsutenkyo Bridge, gives a view down into a maple gorge that is one of the most photographed views in Japan in November. A logical stop between Fushimi Inari and the sake district as all three are on or near the Keihan line.",
+          "walk_from_main_route": {
+            "from": "Fushimi Inari-taisha",
+            "distance_meters": 1100,
+            "walking_minutes": 14
+          }
+        },
+        {
+          "activity_title": "Pontocho alley",
+          "wikidata_qid": "Q1508195",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pont%C5%8Dch%C5%8D",
+          "coordinates": {
+            "lat": 35.0058,
+            "lon": 135.7699
+          },
+          "neighborhood": "Nakagyo",
+          "duration_minutes": 45,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "The narrow alley running parallel to the Kamo River, one block west. At roughly 500 meters long and barely wide enough for two people to pass, it holds an improbable density of restaurants, many with summer-season kawadoko (riverside terrace) dining cantilevered over the river. Walk the full length before selecting a restaurant rather than entering the first open door - the best value spots are in the northern third, away from the Shijo crossing crowds.",
+          "walk_from_main_route": {
+            "from": "Nishiki Market",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    }
+  ]
+}

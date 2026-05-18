@@ -1,0 +1,128 @@
+{
+  "destination": "New York",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:43:00.988Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Lower Manhattan / Brooklyn Bridge"
+  ],
+  "guide_description": "One day tracing the southern tip of Manhattan from the 9/11 Memorial through the financial district to the Brooklyn Bridge waterfront - a compact, walkable corridor that contains New York's densest layer of history, from Dutch colonial origins to the defining catastrophe of the 21st century.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Lower Manhattan and the Brooklyn Bridge",
+      "cluster_tagline": "The original New York - where the city began, fell, and rebuilt itself",
+      "neighborhood_focus": "Lower Manhattan / Brooklyn Bridge",
+      "neighborhood_description": "The southernmost tip of Manhattan is where the Dutch founded New Amsterdam in 1626, where George Washington was inaugurated, and where the September 11 attacks reshaped modern American history. The street grid below Fulton Street still follows colonial-era cow paths rather than the 1811 Commissioners' Plan, making it the most organically layered neighborhood on the island. The Brooklyn Bridge rises from its northeast edge, offering the best elevated view of the Manhattan skyline without a ticket.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "9/11 Memorial and Museum",
+        "wikidata_qid": "Q917537",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_September_11_Memorial_%26_Museum",
+        "coordinates": {
+          "lat": 40.7115,
+          "lon": -74.0134
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The two reflecting pools occupy the exact footprints of the Twin Towers - standing at the edge and looking down into the cascading water gives a visceral sense of the towers' scale that photographs cannot. Buy timed museum tickets online in advance; same-day entry is rarely available. The museum itself is underground, beneath the plaza. Arrive before 9am when the plaza is at its quietest - the memorial pools are included in the museum ticket but also accessible for free from the surrounding public plaza.",
+        "walk_to_next": {
+          "to": "Wall Street and Federal Hall",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Federal Hall National Memorial",
+        "wikidata_qid": "Q1406360",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Federal_Hall",
+        "coordinates": {
+          "lat": 40.7074,
+          "lon": -74.0101
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The 1842 Greek Revival building stands on the site where George Washington was inaugurated as the first U.S. president in 1789 and where the first Congress convened. Free entry. The building is rarely crowded despite being steps from the New York Stock Exchange. The small museum inside preserves a fragment of the original balcony railing Washington gripped during his oath - the current building replaced the colonial-era one decades later but the site itself is unchanged. The bronze Washington statue on the front steps is one of New York's most photographed monuments and positions perfectly across Broad Street from the NYSE facade.",
+        "walk_to_next": {
+          "to": "Brooklyn Bridge",
+          "distance_meters": 1430,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "Brooklyn Bridge walkway at sunset",
+        "wikidata_qid": "Q18340514",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+        "coordinates": {
+          "lat": 40.7061,
+          "lon": -73.9969
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Begin the walk from the Manhattan entrance on Centre Street rather than the more congested Park Row approach - the ramp entrance at the corner of Centre and Chambers puts you on the elevated pedestrian path faster. Walk toward Brooklyn so the setting sun is behind you and you face the lower Manhattan skyline head-on, with the Financial District towers filling the space between the bridge's Gothic granite towers. The midpoint of the upper walkway, framed by the bridge's web of steel cables, is the best skyline photograph in New York.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Battery Park and Castle Clinton",
+          "wikidata_qid": "Q950701",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Castle_Clinton_National_Monument",
+          "coordinates": {
+            "lat": 40.7033,
+            "lon": -74.0169
+          },
+          "neighborhood": "Battery Park",
+          "duration_minutes": 45,
+          "type": "fortress",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "The 1811 circular sandstone fort at the southern tip of Manhattan - originally built as a harbor defense, later used as an immigration processing station before Ellis Island opened. Free entry to the fort interior. The park surrounding it gives an unobstructed view of the Statue of Liberty across the water and is the departure point for the free Staten Island Ferry, which passes within a quarter mile of the statue.",
+          "walk_from_main_route": {
+            "from": "9/11 Memorial",
+            "distance_meters": 750,
+            "walking_minutes": 10
+          }
+        },
+        {
+          "activity_title": "South Street Seaport and Pier 17",
+          "wikidata_qid": "Q3957912",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/South_Street_Seaport",
+          "coordinates": {
+            "lat": 40.7069,
+            "lon": -74.003
+          },
+          "neighborhood": "South Street Seaport",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The surviving blocks of 19th-century mercantile warehouses along Fulton and Front Streets are some of the oldest commercial architecture left in Manhattan. Schermerhorn Row - the 1812 Federal-style terrace on Fulton Street between Front and South - was the original countinghouse district. The rebuilt Pier 17 at the end of Fulton Street has a rooftop with a direct east-facing view of the Brooklyn Bridge and is a natural stopping point between Federal Hall and the bridge walk.",
+          "walk_from_main_route": {
+            "from": "Federal Hall",
+            "distance_meters": 650,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

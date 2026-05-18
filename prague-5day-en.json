@@ -1,0 +1,574 @@
+{
+  "destination": "Prague",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:07:27.391Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Hradcany / Prague Castle",
+    "Mala Strana",
+    "Stare Mesto / Josefov",
+    "Nove Mesto / Vinohrady",
+    "Vysehrad / Nusle"
+  ],
+  "guide_description": "Five days covering Prague's essential layers: the castle hill and its cathedral, the baroque Lesser Town below, the medieval Old Town and its Jewish quarter, the grand 19th-century New Town, and the clifftop fortress of Vysehrad. Each day is geographically self-contained and walkable without a tram.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 14430,
+  "total_walking_minutes": 181,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Prague Castle and Hradcany",
+      "cluster_tagline": "The castle hill - a walled city within the city, commanding the Vltava bend",
+      "neighborhood_focus": "Hradcany / Prague Castle",
+      "neighborhood_description": "Hradcany is the castle district occupying the long ridge above the left bank of the Vltava. Prague Castle is the largest ancient castle complex in the world by area, encompassing a Gothic cathedral, a Romanesque basilica, a royal palace, a lane of medieval goldsmiths' workshops, and multiple gardens. The surrounding neighborhood of Hradcany holds aristocratic palaces and monastery gardens largely untouched since the 18th century.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2730,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "St. Vitus Cathedral",
+        "wikidata_qid": "Q131673",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Vitus_Cathedral",
+        "coordinates": {
+          "lat": 50.0906,
+          "lon": 14.4003
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Enter through the castle's west gate on Hradcanske namesti before the main tourist tide arrives around 10am. The cathedral's south facade has the Golden Gate mosaic - a Byzantine-style Last Judgment in Venetian tesserae - which faces direct morning light. Inside, look for the Mucha stained-glass window in the third chapel on the left: it is Art Nouveau not medieval, completed in 1931 and notably different in palette from every other window.",
+        "walk_to_next": {
+          "to": "Old Royal Palace",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Old Royal Palace and Vladislav Hall",
+        "wikidata_qid": "Q1855839",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Royal_Palace",
+        "coordinates": {
+          "lat": 50.0899,
+          "lon": 14.4017
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 60,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The Vladislav Hall is the single most impressive secular Gothic interior in Central Europe - a barrel-vaulted throne room so large that knights rode horses inside for tournaments. The window from which Catholic governors were thrown during the 1618 Defenestration of Prague is in the chancellery off the hall's east end, and it is anticlimactically low to the ground.",
+        "walk_to_next": {
+          "to": "Golden Lane",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Golden Lane and Castle ramparts at dusk",
+        "wikidata_qid": "Q598296",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_Lane,_Prague",
+        "coordinates": {
+          "lat": 50.0919,
+          "lon": 14.4042
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 45,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "A lane of 16th-century cottage-scale houses built into the castle's northern defensive wall, originally housing castle guards and later artisans. Franz Kafka rented number 22 for a few months in 1916-17. After walking the lane, step through the Daliborka tower to the north rampart walk for the view over the red-roofed Mala Strana below as evening light falls.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Lobkowicz Palace Museum",
+          "wikidata_qid": "Q1872020",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lobkowicz_Palace,_Prague_Castle",
+          "coordinates": {
+            "lat": 50.0911,
+            "lon": 14.4055
+          },
+          "neighborhood": "Hradcany",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The only privately owned building inside Prague Castle, returned to the Lobkowicz family after the Velvet Revolution. The collection includes Beethoven manuscripts with his handwritten corrections, original Bruegel and Canaletto paintings, and an audio guide narrated by the current prince and his family - an unusually personal museum voice.",
+          "walk_from_main_route": {
+            "from": "Golden Lane",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Strahov Monastery Library",
+          "wikidata_qid": "Q1764396",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Strahov_Monastery",
+          "coordinates": {
+            "lat": 50.0868,
+            "lon": 14.3893
+          },
+          "neighborhood": "Hradcany",
+          "duration_minutes": 40,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Two Baroque library halls - the Theological Hall (1679) and the Philosophical Hall (1794) - whose ceiling frescoes and floor-to-ceiling shelves of vellum-bound books are among the most photographed interiors in Prague. You view from the doorway only, which is actually the correct frame. A ten-minute walk west along the castle ridge from the main castle gate.",
+          "walk_from_main_route": {
+            "from": "St. Vitus Cathedral",
+            "distance_meters": 1040,
+            "walking_minutes": 13
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Mala Strana - The Lesser Town",
+      "cluster_tagline": "Baroque palaces, hidden gardens, and the bridge that defined Prague",
+      "neighborhood_focus": "Mala Strana",
+      "neighborhood_description": "The Lesser Town occupies the left bank slope between the castle hill and the Vltava. Rebuilt in baroque style after a 1541 fire, it is a neighborhood of embassies in former palaces, terraced gardens climbing the hillside, and the Charles Bridge connecting it to the Old Town across the river. The street density is low enough that even the main tourist artery, Mostecka, empties out after dark.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Charles Bridge",
+        "wikidata_qid": "Q191711",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Bridge",
+        "coordinates": {
+          "lat": 50.0865,
+          "lon": 14.4114
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 45,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Cross the bridge before 8am if possible - by 10am it is wall-to-wall people and the 30 Baroque saint statues lining the parapets are barely visible through the crowd. The original bronze of St. John of Nepomuk (fifth from the Mala Strana end, left side) is worn bright by touching; all others are stone copies. Look north from the bridge midpoint for the best view of the castle framed above the roofline.",
+        "walk_to_next": {
+          "to": "St. Nicholas Church, Mala Strana",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "St. Nicholas Church, Mala Strana",
+        "wikidata_qid": "Q1570936",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Nicholas_Church,_Mal%C3%A1_Strana",
+        "coordinates": {
+          "lat": 50.0878,
+          "lon": 14.4036
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The most theatrical baroque interior in Prague, built by the Dientzenhofer father-and-son team between 1703 and 1755. The nave fresco by Jan Lukas Kracker covers 1,500 square meters - the largest ceiling fresco in Central Europe. The Jesuit propaganda programme is explicit: every surface is designed to overwhelm the senses toward belief. The tower is a separate ticket and was used by the StB (communist secret police) to surveil the West German embassy next door.",
+        "walk_to_next": {
+          "to": "Vrtba Garden",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Vrtba Garden terrace at sunset",
+        "wikidata_qid": "Q2103910",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vrtba_Garden",
+        "coordinates": {
+          "lat": 50.0872,
+          "lon": 14.4022
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "An early 18th-century terraced baroque garden hidden behind an unmarked door on Karmelitska street - most visitors walk straight past it. The garden climbs the hillside in three terraces of clipped box hedges and classical statuary, with the upper terrace giving a direct sightline across Mala Strana's rooftops to the Charles Bridge towers. Closes at 7pm May through September, 6pm otherwise.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Wallenstein Garden",
+          "wikidata_qid": "Q1467533",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wallenstein_Garden",
+          "coordinates": {
+            "lat": 50.0902,
+            "lon": 14.4054
+          },
+          "neighborhood": "Mala Strana",
+          "duration_minutes": 40,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "A vast formal garden behind the Wallenstein Palace, now the Czech Senate. The bronze statues along the main axis are 17th-century Dutch originals - the Swedish army looted the originals during the Thirty Years War and the ones you see are replacements cast from the originals held in Drottningholm. Free entry and open on weekends from April to October.",
+          "walk_from_main_route": {
+            "from": "Charles Bridge",
+            "distance_meters": 520,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Stare Mesto and Josefov",
+      "cluster_tagline": "The medieval Old Town and the Jewish Quarter - two thousand years of layered history on foot",
+      "neighborhood_focus": "Stare Mesto / Josefov",
+      "neighborhood_description": "Stare Mesto is the original medieval city on the right bank, its street plan still following routes established before the 12th century. Josefov, the former Jewish ghetto, was largely demolished and rebuilt as a grand Art Nouveau quarter in the 1890s, but six synagogues and the Old Jewish Cemetery survived intact. The two neighborhoods share a single walkable area dense enough to require two separate visits to do properly.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2470,
+      "day_walking_minutes": 31,
+      "morning": {
+        "activity_title": "Old Jewish Cemetery and Pinkas Synagogue",
+        "wikidata_qid": "Q978086",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Jewish_Cemetery,_Prague",
+        "coordinates": {
+          "lat": 50.0902,
+          "lon": 14.4178
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "The cemetery contains an estimated 100,000 burials in twelve layers - the lack of expansion space meant graves were stacked, creating the chaotic mounded topography. Admission is through the combined Jewish Museum ticket. Begin at the Pinkas Synagogue immediately adjacent: its walls are inscribed with the names of 77,297 Bohemian and Moravian Jewish victims of the Holocaust, written in a continuous hand by two survivors after 1945.",
+        "walk_to_next": {
+          "to": "Old Town Square",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Old Town Square and Astronomical Clock",
+        "wikidata_qid": "Q174753",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Town_Square",
+        "coordinates": {
+          "lat": 50.0875,
+          "lon": 14.4213
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The Astronomical Clock (Orloj) on the south face of the Old Town Hall performs a mechanical procession of the Twelve Apostles on the hour. The show lasts 45 seconds and is genuinely modest - the real reason to stand there is the clock's cosmological face, which simultaneously tracks solar time, lunar time, Babylonian time, and the position of the sun in the zodiac on a single dial designed in 1410. Climb the Old Town Hall tower for the aerial view of the square's Gothic and baroque rooflines.",
+        "walk_to_next": {
+          "to": "Tyn Church",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Church of Our Lady before Tyn",
+        "wikidata_qid": "Q980292",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_before_T%C3%BDn",
+        "coordinates": {
+          "lat": 50.0877,
+          "lon": 14.4225
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 40,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The twin black spires above Old Town Square look Gothic from the square but the interior is unmistakably Baroque - the church was refitted after the Habsburgs reclaimed it from the Protestant Hussites in 1620. Tycho Brahe, the Danish astronomer, is buried here; his tomb is in the north aisle and marked by a reddish marble slab. The nave is entered through an arcade passage to the left of the square, not from the square facade itself.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Spanish Synagogue",
+          "wikidata_qid": "Q1776761",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Spanish_Synagogue,_Prague",
+          "coordinates": {
+            "lat": 50.0906,
+            "lon": 14.4193
+          },
+          "neighborhood": "Josefov",
+          "duration_minutes": 35,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Built in 1868 in Moorish Revival style, the Spanish Synagogue has the most lavish interior of the six Jewish Museum synagogues - walls and ceiling entirely covered in geometric gilded stucco and arabesque tilework. Included in the combined Jewish Museum ticket. Less visited than the Old Jewish Cemetery despite being architecturally exceptional.",
+          "walk_from_main_route": {
+            "from": "Old Jewish Cemetery",
+            "distance_meters": 260,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Celetna Street and the Powder Tower",
+          "wikidata_qid": "Q974314",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Powder_Tower,_Prague",
+          "coordinates": {
+            "lat": 50.0873,
+            "lon": 14.4268
+          },
+          "neighborhood": "Stare Mesto",
+          "duration_minutes": 30,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The Powder Tower marks the eastern boundary of Stare Mesto and was the ceremonial gate through which Bohemian kings entered the city from the Royal Court. The exterior Gothic stone carving is the most detailed on any free-standing structure in Prague. Walk Celetna street westward from here back to Old Town Square - the house facades hide Romanesque and Gothic structures under their baroque skins.",
+          "walk_from_main_route": {
+            "from": "Old Town Square",
+            "distance_meters": 520,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Nove Mesto and Vinohrady",
+      "cluster_tagline": "Prague's grand 19th-century city - a wide boulevard, a National Museum, and a leafy residential quarter",
+      "neighborhood_focus": "Nove Mesto / Vinohrady",
+      "neighborhood_description": "Nove Mesto (New Town) was founded by Charles IV in 1348 and is the largest of Prague's historic districts by area. Its central artery, Wenceslas Square, is more boulevard than square - a long sloping rectangle that has been the stage for nearly every major political event in Czech modern history. Vinohrady, immediately east, is a late 19th-century residential quarter of ornate apartment buildings and two significant neo-Byzantine churches, largely unknown to tourists.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3250,
+      "day_walking_minutes": 41,
+      "morning": {
+        "activity_title": "National Museum Prague",
+        "wikidata_qid": "Q188695",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum,_Prague",
+        "coordinates": {
+          "lat": 50.0793,
+          "lon": 14.4308
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The neo-Renaissance pile closing the upper end of Wenceslas Square, reopened in 2018 after a decade-long restoration. The building is as much the exhibit as the contents - the ceremonial staircase, the Pantheon hall of Czech historical figures, and the restored painted ceilings are the main draw. The bullet holes in the facade from the 1968 Warsaw Pact invasion are preserved and labeled on the north side.",
+        "walk_to_next": {
+          "to": "Wenceslas Square",
+          "distance_meters": 100,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Wenceslas Square",
+        "wikidata_qid": "Q172985",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wenceslas_Square",
+        "coordinates": {
+          "lat": 50.0816,
+          "lon": 14.4278
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Walk the 750-meter length from the National Museum equestrian statue of St. Wenceslas down to the lower end at Mustek. The statue base is where Jan Palach burned himself in January 1969 in protest of the Soviet occupation - a small memorial marks the spot. The covered arcades (pasaze) running perpendicular to the square on both sides are Art Deco shortcuts full of cafes and cinemas, most tourists miss them entirely.",
+        "walk_to_next": {
+          "to": "Church of St. Ludmila, Vinohrady",
+          "distance_meters": 1560,
+          "walking_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Namesti Miru and Vinohrady streets",
+        "wikidata_qid": "Q13136098",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/N%C3%A1m%C4%9Bst%C3%AD_M%C3%ADru",
+        "coordinates": {
+          "lat": 50.0753,
+          "lon": 14.4394
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The central square of Vinohrady, anchored by the neo-Gothic Church of St. Ludmila (1893) whose twin towers are visible from much of the district. The surrounding streets - Blanicka, Machova, Korunni - are lined with late 19th-century apartment buildings in styles ranging from neo-Renaissance to early Secession, almost none of them on tourist maps. The square itself has a farmers market on Saturdays and is ringed by wine bars serving Moravian natural wines.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mucha Museum",
+          "wikidata_qid": "Q1952577",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mucha_Museum",
+          "coordinates": {
+            "lat": 50.0836,
+            "lon": 14.4294
+          },
+          "neighborhood": "Nove Mesto",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The only museum dedicated to Alphonse Mucha, the Czech Art Nouveau poster artist. Located in the Kaunicky Palace just off Wenceslas Square. The collection covers his Paris commercial work for Sarah Bernhardt alongside his monumental Slav Epic studies. Smaller and calmer than its fame suggests - an hour is enough and no advance booking is needed.",
+          "walk_from_main_route": {
+            "from": "Wenceslas Square",
+            "distance_meters": 260,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Vysehrad and the Vltava Clifftop",
+      "cluster_tagline": "The ancient rival fortress above the river - mythology, a Romanesque rotunda, and a cemetery of Czech greats",
+      "neighborhood_focus": "Vysehrad / Nusle",
+      "neighborhood_description": "Vysehrad is the rocky promontory two kilometers south of the Old Town, where Czech legend places the founding of the Premyslid dynasty. The hilltop fortress has a neo-Gothic cathedral, Prague's most significant national cemetery, the oldest surviving building in Prague, and views down the Vltava that most visitors to the city never see because they do not know to come here. It is Prague without crowds.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3120,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Vysehrad Citadel and Rotunda of St. Martin",
+        "wikidata_qid": "Q954086",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vy%C5%A1ehrad",
+        "coordinates": {
+          "lat": 50.0645,
+          "lon": 14.4182
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 45,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Enter from the north via the brick Tabor Gate and walk through the forested ramparts to the Rotunda of St. Martin - a small circular Romanesque church from around 1100, the oldest intact building in Prague. It is easy to walk past it; it sits on the main footpath and looks like a garden outbuilding. The surrounding park is used by local joggers and families on weekends, giving the site a genuinely un-touristed feel even in summer.",
+        "walk_to_next": {
+          "to": "Vysehrad Cemetery and Slavin Tomb",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Vysehrad Cemetery and Slavin Tomb",
+        "wikidata_qid": "Q3565623",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vy%C5%A1ehrad_Cemetery",
+        "coordinates": {
+          "lat": 50.0648,
+          "lon": 14.4196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The national cemetery holds the graves of Dvorak, Smetana, Mucha, and Karel Capek, among 600 other Czech cultural figures. The Slavin monument at the east end is a collective tomb for another 50 artists and scientists, topped by a figure of Genius. The grave markers range from simple stones to elaborate Art Nouveau sculptural works - the cemetery reads as an open-air survey of Czech funerary art between 1870 and 1940.",
+        "walk_to_next": {
+          "to": "Vysehrad rampart walk above the Vltava",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Vysehrad south rampart and Vltava view at sunset",
+        "wikidata_qid": "Q954086",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vy%C5%A1ehrad",
+        "coordinates": {
+          "lat": 50.0631,
+          "lon": 14.4175
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Prague",
+          "year_inscribed": 1992,
+          "reference_number": 616,
+          "url": "https://whc.unesco.org/en/list/616"
+        },
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Walk the south and west rampart path to the cliff edge above the Vltava - the drop is around 60 meters to the river, and the view northward takes in the entire curve of the river toward the city, with Prague Castle on the far hill. The rampart is free, unfenced, and mostly empty even on summer evenings. The cast-iron statues of Czech mythological figures by Josef Myslbek - including Libuse and Premysl - stand at the western tip of the promontory in a small park.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Basilica of St. Peter and St. Paul, Vysehrad",
+          "wikidata_qid": "Q1505036",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_of_St._Peter_and_St._Paul,_Vy%C5%A1ehrad",
+          "coordinates": {
+            "lat": 50.0649,
+            "lon": 14.4202
+          },
+          "neighborhood": "Vysehrad",
+          "duration_minutes": 35,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A neo-Gothic basilica completed in 1903 whose interior is almost entirely covered in Art Nouveau painted decoration by various Czech artists of the Secession period - the style-clash with the Gothic architecture is deliberate and striking. The double spires visible from the Vltava define the Vysehrad skyline. Entry is a small fee.",
+          "walk_from_main_route": {
+            "from": "Vysehrad Cemetery",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Nusle Bridge view from below",
+          "wikidata_qid": "Q1285222",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nusle_Bridge",
+          "coordinates": {
+            "lat": 50.0672,
+            "lon": 14.4233
+          },
+          "neighborhood": "Nusle",
+          "duration_minutes": 20,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A 485-meter brutalist viaduct completed in 1973, carrying six lanes of motorway and a metro line 43 meters above the Nusle valley. The scale is best understood from the valley floor below - walk down the slope from Vysehrad's east gate to see the underside of the structure, which dwarfs everything around it. The metro runs inside the hollow concrete deck.",
+          "walk_from_main_route": {
+            "from": "Vysehrad Citadel",
+            "distance_meters": 650,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

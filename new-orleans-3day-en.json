@@ -1,0 +1,326 @@
+{
+  "destination": "New Orleans",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:58:31.448Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "French Quarter",
+    "Tremé / Marigny / Bywater",
+    "Garden District / Uptown"
+  ],
+  "guide_description": "Three days covering New Orleans's essential registers: the colonial street grid and wrought-iron balconies of the French Quarter, the African-American cultural heartland of Tremé and the music corridors of the Marigny, and the antebellum mansions and oak-canopied streetcar line of the Garden District. Each day is geographically self-contained.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5980,
+  "total_walking_minutes": 75,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "The French Quarter",
+      "cluster_tagline": "The oldest urban neighborhood in the Mississippi Valley - Spanish colonial architecture, a cathedral square, and the street that invented jazz",
+      "neighborhood_focus": "French Quarter",
+      "neighborhood_description": "Despite the name, most of what stands today is Spanish colonial construction, rebuilt after two fires in the 1780s and 1790s. The Quarter is a tight thirteen-by-six-block grid pressed against a bend in the Mississippi. Jackson Square anchors the river end; Rampart Street marks the historic boundary with Tremé to the north.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1820,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "St. Louis Cathedral",
+        "wikidata_qid": "Q1143010",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Louis_Cathedral,_New_Orleans",
+        "coordinates": {
+          "lat": 29.9577,
+          "lon": -90.0633
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The oldest continuously active cathedral in the United States, consecrated in 1794 on the site of two earlier churches. Enter from the Jackson Square side - the white-and-grey facade flanked by its two towers is the defining image of New Orleans. Morning weekday mass (usually 8am) draws a small local congregation and the interior is quiet before the tour wave arrives around 10am.",
+        "walk_to_next": {
+          "to": "Jackson Square",
+          "distance_meters": 80,
+          "walking_minutes": 1
+        }
+      },
+      "afternoon": {
+        "activity_title": "Jackson Square",
+        "wikidata_qid": "Q1666065",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jackson_Square,_New_Orleans",
+        "coordinates": {
+          "lat": 29.9574,
+          "lon": -90.0627
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The original Place d'Armes, redesigned in 1856 around an equestrian Andrew Jackson statue. Walk the perimeter to read the flanking Pontalba Buildings - the 1840s red-brick apartment blocks on either side are among the oldest apartment buildings in the United States and were built by a Baroness who survived an attempted murder by her father-in-law. The levee behind the cathedral gives a direct view of the Mississippi at close range.",
+        "walk_to_next": {
+          "to": "The Historic New Orleans Collection",
+          "distance_meters": 500,
+          "walking_minutes": 6
+        }
+      },
+      "evening": {
+        "activity_title": "Preservation Hall",
+        "wikidata_qid": "Q3389677",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Preservation_Hall",
+        "coordinates": {
+          "lat": 29.9584,
+          "lon": -90.0655
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "after_dark",
+        "notes": "A 1750s-era building on St. Peter Street that has operated as a jazz venue since 1961, dedicated specifically to traditional New Orleans jazz. Sets run 45 minutes and begin at 8pm, 9pm, and 10pm. The standing-room hall holds around 100 people and has no bar - the entire focus is the band. Buy tickets online in advance; the door queue by 7:30pm is substantial. The cheapest general admission tickets place you standing at the back, which is fine given the acoustics.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The Cabildo",
+          "wikidata_qid": "Q2940522",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cabildo_(New_Orleans)",
+          "coordinates": {
+            "lat": 29.9578,
+            "lon": -90.0637
+          },
+          "neighborhood": "French Quarter",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The 1799 Spanish colonial government building where the Louisiana Purchase transfer documents were signed in 1803. Now a Louisiana State Museum with exhibits running from pre-colonial indigenous history through Reconstruction. The death mask of Napoleon on the second floor is an original cast made two days after his death on St. Helena.",
+          "walk_from_main_route": {
+            "from": "Jackson Square",
+            "distance_meters": 60,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "French Market",
+          "wikidata_qid": "Q1455297",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/French_Market",
+          "coordinates": {
+            "lat": 29.9554,
+            "lon": -90.0601
+          },
+          "neighborhood": "French Quarter",
+          "duration_minutes": 40,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "A continuous covered market running six blocks along the river from Jackson Square toward the Marigny - the site has operated as a trading point since at least the 1700s. The covered Farmers Market section at the Ursulines Avenue end is the most local-facing part; the tourist flea market section closer to Jackson Square is lower value. Good morning stop for cafe au lait and beignets at the Cafe Du Monde satellite stall before the main cafe queue builds.",
+          "walk_from_main_route": {
+            "from": "Jackson Square",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Tremé and the Marigny",
+      "cluster_tagline": "The oldest African-American neighborhood in the country, live music on Frenchmen Street, and the birthplace of jazz",
+      "neighborhood_focus": "Tremé / Faubourg Marigny",
+      "neighborhood_description": "Tremé, immediately north of the French Quarter across Rampart Street, was established by free people of color before the Civil War and is the oldest African-American neighborhood in the United States. The Faubourg Marigny, laid out in the early 1800s on the downriver side of the Quarter, now anchors the city's working live-music scene on Frenchmen Street - a block-long concentration of clubs that locals use as a counterweight to Bourbon Street.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2060,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "St. Louis Cemetery No. 1",
+        "wikidata_qid": "Q3488051",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Louis_Cemetery",
+        "coordinates": {
+          "lat": 29.9613,
+          "lon": -90.0667
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "New Orleans's oldest surviving cemetery, opened in 1789. The city's high water table made conventional burial impossible, which is why all tombs are above-ground marble and brick vaults stacked family on family across generations. Since 2015, entry is restricted to official Archdiocese-approved tours or visits with a documented family connection - book a tour through Save Our Cemeteries, which runs 45-minute small-group morning walks and funds preservation. The tomb most visitors seek is the prominently whitewashed one attributed to Marie Laveau, the 19th-century Voodoo Queen.",
+        "walk_to_next": {
+          "to": "Congo Square / Louis Armstrong Park",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Louis Armstrong Park and Congo Square",
+        "wikidata_qid": "Q6689098",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Louis_Armstrong_Park",
+        "coordinates": {
+          "lat": 29.9627,
+          "lon": -90.0665
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The park's central open space is Congo Square, where enslaved people were legally permitted to gather on Sundays throughout the French and Spanish colonial periods - the drumming and dance that happened here is one of the direct roots of jazz and funk. The entrance gate on Rampart Street frames a bronze Louis Armstrong statue at the far end of a long reflecting pool. The Mahalia Jackson Theater and Municipal Auditorium are within the park but the square itself is the cultural destination.",
+        "walk_to_next": {
+          "to": "Frenchmen Street",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Frenchmen Street live music corridor",
+        "wikidata_qid": "Q5500780",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Frenchmen_Street",
+        "coordinates": {
+          "lat": 29.9613,
+          "lon": -90.0554
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "A three-block stretch in the Marigny with five to seven venues operating simultaneously most nights - Snug Harbor for modern jazz (ticketed, reservation recommended), the Spotted Cat for swing and hot jazz (no cover, standing room), d.b.a. for a broader range including brass bands. Arrive by 9pm to walk the strip and listen from doorways before committing to a room. Most sets start on the late side of the posted time. The outdoor Frenchmen Art Market between Chartres and Royal operates Thursday through Sunday and gives the street a festive atmosphere even before the clubs fill.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "New Orleans Jazz Museum at the Old U.S. Mint",
+          "wikidata_qid": "Q6982001",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/New_Orleans_Jazz_Museum",
+          "coordinates": {
+            "lat": 29.9555,
+            "lon": -90.0588
+          },
+          "neighborhood": "French Quarter / Marigny edge",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Housed in the only building to have served as both a U.S. and a Confederate mint. The jazz collection includes Louis Armstrong's first cornet and original sheet music from early Storyville-era composers. Good rainy-day alternative if the morning cemetery tour runs late. Located at the downriver edge of the French Quarter, practically on the Marigny boundary, making it a natural bridge between Day 1 and Day 2 territory.",
+          "walk_from_main_route": {
+            "from": "Frenchmen Street",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Garden District and Uptown",
+      "cluster_tagline": "Antebellum mansions under live oaks, a historic streetcar line, and the city's oldest public green space",
+      "neighborhood_focus": "Garden District / Uptown",
+      "neighborhood_description": "Developed in the 1830s and 1840s by American merchants who settled upriver from the Creole Quarter after the Louisiana Purchase, the Garden District is a square mile of Greek Revival and Italianate mansions set in deep lots with mature subtropical gardens. St. Charles Avenue, running its northern edge, carries one of the oldest continuously operating streetcar lines in the world.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Garden District mansion walk",
+        "wikidata_qid": "Q1494846",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Garden_District,_New_Orleans",
+        "coordinates": {
+          "lat": 29.9265,
+          "lon": -90.0939
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Self-guided walking works best on the blocks between St. Charles and Magazine Street, roughly from Jackson Avenue to Louisiana Avenue. Prytania Street is the single best block - the Brevard-Rice House at 1239 Prytania is the most photographed mansion and was used as the exterior for the Witches' house in Interview with the Vampire. Morning gives softer light through the oak canopy before midday heat builds. Sidewalks are uneven throughout; comfortable shoes matter.",
+        "walk_to_next": {
+          "to": "Lafayette Cemetery No. 1",
+          "distance_meters": 350,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Lafayette Cemetery No. 1",
+        "wikidata_qid": "Q6478737",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lafayette_Cemetery_No._1",
+        "coordinates": {
+          "lat": 29.926,
+          "lon": -90.0965
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "A walled city cemetery opened in 1833 and still maintained by the Garden District neighborhood. Unlike St. Louis No. 1, this one is freely accessible without a guided tour. Two main allées cross the interior and much of the inscriptions record the yellow fever epidemics of the 1850s, which killed thousands of recent Irish and German immigrants. The central oak trees are among the largest in the city and keep the interior cool. Anne Rice's fictional Lestat de Lioncourt was buried here in The Vampire Lestat.",
+        "walk_to_next": {
+          "to": "St. Charles Avenue streetcar",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "St. Charles Avenue Streetcar and Audubon Park",
+        "wikidata_qid": "Q1498290",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Charles_streetcar_line",
+        "coordinates": {
+          "lat": 29.9256,
+          "lon": -90.0942
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The St. Charles line has run continuously since 1835, making it one of the oldest street railway systems in the world. Board uptown near Washington Avenue and ride the open-windowed wooden cars under the live oak tunnel of St. Charles Avenue toward Audubon Park - a 340-acre Olmsted-influenced park at the Tulane and Loyola end of the avenue. The park's lagoon at sunset, with Spanish moss hanging from the oaks, is one of the city's quieter pleasures away from the Quarter crowds. Fare is $1.25 exact change or Jazzy Pass.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Magazine Street",
+          "wikidata_qid": "Q6723978",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Magazine_Street",
+          "coordinates": {
+            "lat": 29.9283,
+            "lon": -90.0912
+          },
+          "neighborhood": "Garden District / Uptown",
+          "duration_minutes": 60,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Six miles of independent shops, antique dealers, and neighborhood restaurants running parallel to the river through the Garden District and Uptown. The stretch between Felicity Street and Napoleon Avenue is the densest commercial block - a useful lunch or coffee stop after the cemetery. Avoid driving it; the one-way traffic flow and street parking make walking far faster.",
+          "walk_from_main_route": {
+            "from": "Lafayette Cemetery No. 1",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Audubon Zoo",
+          "wikidata_qid": "Q4820673",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Audubon_Zoo",
+          "coordinates": {
+            "lat": 29.9199,
+            "lon": -90.1309
+          },
+          "neighborhood": "Uptown",
+          "duration_minutes": 120,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "A full visit requires at least two hours and significant walking in open sun - schedule it as a morning activity rather than an afternoon add-on in warm months. The Louisiana Swamp exhibit is the most locally distinctive section, with live alligators and native cypress habitat that puts the surrounding city ecology in context.",
+          "walk_from_main_route": {
+            "from": "Audubon Park",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "destination": "Amsterdam",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T11:29:28.908Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Medieval Centre / De Wallen",
+    "Canal Ring / Jordaan",
+    "Museum Quarter / Vondelpark"
+  ],
+  "guide_description": "Three days covering Amsterdam's essential layers: the medieval harbour core and its alleys, the 17th-century canal ring and Jordaan merchant quarter, and the grand museum strip south of the canal belt. Each day is geographically self-contained and walkable end to end.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5460,
+  "total_walking_minutes": 69,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Medieval Centre and De Wallen",
+      "cluster_tagline": "The original harbour city - Gothic churches, a medieval gateway, and the oldest streets in Amsterdam",
+      "neighborhood_focus": "Medieval Centre / De Wallen",
+      "neighborhood_description": "Amsterdam's oldest core, built on reclaimed peat bog between the Amstel and the IJ. The street grid here predates the canal ring by two centuries - narrow alleys, the city's founding church, and the densely built neighbourhood that grew around the medieval port.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1430,
+      "day_walking_minutes": 18,
+      "morning": {
+        "activity_title": "Oude Kerk",
+        "wikidata_qid": "Q979615",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oude_Kerk,_Amsterdam",
+        "coordinates": {
+          "lat": 52.3743,
+          "lon": 4.8998
+        },
+        "unesco_designation": {
+          "site_name": "Seventeenth-Century Canal Ring Area of Amsterdam inside the Singelgracht",
+          "year_inscribed": 2010,
+          "reference_number": 1349,
+          "url": "https://whc.unesco.org/en/list/1349"
+        },
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Amsterdam's oldest building (consecrated 1306) sits improbably in the middle of the red-light district - the juxtaposition is entirely deliberate and historically authentic, not modern irony. The gravestones paving the nave floor include Rembrandt's wife Saskia. The church now doubles as a contemporary art venue; check what is installed before you visit, as the main space is often transformed.",
+        "walk_to_next": {
+          "to": "Amsterdam Museum - Civic Guard Gallery",
+          "distance_meters": 520,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Amsterdam Museum - Schuttersgalerij",
+        "wikidata_qid": "Q702726",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Amsterdam_Museum",
+        "coordinates": {
+          "lat": 52.3706,
+          "lon": 4.8922
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The free-entry Civic Guard Gallery - a covered alley connecting Kalverstraat to the Begijnhof - holds a row of monumental 17th-century group portraits of Amsterdam militiamen. These are the same genre as Rembrandt's Night Watch but displayed at eye level, with no queue, and for free. Walk through even if you skip the paid museum.",
+        "walk_to_next": {
+          "to": "Begijnhof",
+          "distance_meters": 80,
+          "walking_minutes": 1
+        }
+      },
+      "evening": {
+        "activity_title": "Begijnhof and Spui Square",
+        "wikidata_qid": "Q909978",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Begijnhof,_Amsterdam",
+        "coordinates": {
+          "lat": 52.3697,
+          "lon": 4.8904
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "A walled courtyard of almshouses that has been continuously inhabited since the 14th century - one of the oldest wooden houses in Amsterdam stands here at number 34. Enter from the inconspicuous door on the Gedempte Begijnensloot side rather than the main tourist entrance off Spui; the quieter approach lets you catch the courtyard before tour groups funnel through. The adjoining Spui square fills with booksellers on Fridays.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Waag",
+          "wikidata_qid": "Q1399891",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Waag,_Amsterdam",
+          "coordinates": {
+            "lat": 52.3726,
+            "lon": 4.9003
+          },
+          "neighborhood": "De Wallen",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The 1488 city gate turned weighing house sitting in the middle of Nieuwmarkt square - the most photogenic medieval building in Amsterdam. Rembrandt painted Nicolaes Tulp performing a dissection in the anatomy theatre in the upper floor (that painting is in the Mauritshuis in Den Haag). The square around it is ringed with brown cafes and a weekend organic market.",
+          "walk_from_main_route": {
+            "from": "Oude Kerk",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Royal Palace on Dam Square",
+          "wikidata_qid": "Q1069595",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Amsterdam",
+          "coordinates": {
+            "lat": 52.3731,
+            "lon": 4.8912
+          },
+          "neighborhood": "Medieval Centre",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Built in 1655 as Amsterdam's Town Hall - the largest secular building in the world at the time of construction. The Citizens' Hall inside is a marble-floored map of the known world at the height of Dutch global power. Entry is paid and requires a timed ticket; check the website as it closes entirely when the royal family is in residence.",
+          "walk_from_main_route": {
+            "from": "Begijnhof",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Canal Ring and Jordaan",
+      "cluster_tagline": "The Golden Age grid - patrician canal houses, a hidden church, and a working-class neighbourhood that became Amsterdam's most liveable quarter",
+      "neighborhood_focus": "Grachtengordel / Jordaan",
+      "neighborhood_description": "The UNESCO-listed canal ring was engineered in the early 17th century as a planned expansion of Amsterdam during its mercantile peak. Four concentric semicircular canals - Singel, Herengracht, Keizersgracht, and Prinsengracht - are crossed by radial streets. The Jordaan, immediately west, was built simultaneously as the workers' district and retains a village character of small galleries, specialist shops, and intimate brown cafes.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Anne Frank House",
+        "wikidata_qid": "Q317566",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Anne_Frank_House",
+        "coordinates": {
+          "lat": 52.3752,
+          "lon": 4.8839
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The canal house where the Frank family hid for 25 months before arrest in 1944. Tickets must be booked online well in advance - the museum releases slots two months ahead at 9am and they sell out within hours. The secret annex behind the bookcase is smaller than most visitors expect; the empty rooms after the arrests were left unfurnished deliberately by Otto Frank.",
+        "walk_to_next": {
+          "to": "Westerkerk",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Westerkerk",
+        "wikidata_qid": "Q902471",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westerkerk",
+        "coordinates": {
+          "lat": 52.3746,
+          "lon": 4.8835
+        },
+        "unesco_designation": {
+          "site_name": "Seventeenth-Century Canal Ring Area of Amsterdam inside the Singelgracht",
+          "year_inscribed": 2010,
+          "reference_number": 1349,
+          "url": "https://whc.unesco.org/en/list/1349"
+        },
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The dominant Reformed church of the canal ring, completed in 1631 - its 85-metre tower is the tallest in Amsterdam and gives the best panorama of the canal grid. Rembrandt is buried somewhere in the church floor, though the exact location was never recorded. Tower climbs run April to October and require a separate ticket at the door; the staircase is steep and unlit in sections.",
+        "walk_to_next": {
+          "to": "Herengracht - The Golden Bend",
+          "distance_meters": 850,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Herengracht - The Golden Bend",
+        "wikidata_qid": "Q1458754",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_Bend,_Amsterdam",
+        "coordinates": {
+          "lat": 52.3645,
+          "lon": 4.8916
+        },
+        "unesco_designation": {
+          "site_name": "Seventeenth-Century Canal Ring Area of Amsterdam inside the Singelgracht",
+          "year_inscribed": 2010,
+          "reference_number": 1349,
+          "url": "https://whc.unesco.org/en/list/1349"
+        },
+        "duration_minutes": 45,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The stretch of Herengracht between Leidsestraat and Vijzelstraat where Amsterdam's wealthiest merchants built double-wide mansions in the late 17th century - some acquired two plots and built facades spanning two standard lots. The best view is looking northeast from the Thorbeckeplein bridge at the bend, where the canal reflects the facades in both directions. Late afternoon light from the west catches the brick and stone frontages at the most favourable angle.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Ons' Lieve Heer op Solder",
+          "wikidata_qid": "Q1473749",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_Ons%27_Lieve_Heer_op_Solder",
+          "coordinates": {
+            "lat": 52.3749,
+            "lon": 4.8979
+          },
+          "neighborhood": "De Wallen",
+          "duration_minutes": 60,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A full Catholic church hidden in the attic of three 17th-century canal houses - built when Catholic worship was officially banned after the Reformation. The interior is unexpectedly elaborate for a clandestine space: a two-storey nave with organ, altarpiece, and confession boxes folded into domestic rooms. One of the most surprising spaces in the city.",
+          "walk_from_main_route": {
+            "from": "Westerkerk",
+            "distance_meters": 950,
+            "walking_minutes": 12
+          }
+        },
+        {
+          "activity_title": "Noordermarkt",
+          "wikidata_qid": "Q2402985",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Noordermarkt",
+          "coordinates": {
+            "lat": 52.3774,
+            "lon": 4.8853
+          },
+          "neighborhood": "Jordaan",
+          "duration_minutes": 30,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "The Jordaan's main square holds a Monday antique and flea market (second-hand clothing, household goods, vinyl) and a Saturday organic farmers market that is among the best in Amsterdam. On non-market days the square is quiet and the Noorderkerk (1623), one of the first Protestant churches built after the Reformation, is worth a look through the railings.",
+          "walk_from_main_route": {
+            "from": "Anne Frank House",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Museum Quarter and Vondelpark",
+      "cluster_tagline": "Amsterdam's 19th-century cultural ambition - three world-class museums and the green lung of the city",
+      "neighborhood_focus": "Museumkwartier / Oud-Zuid",
+      "neighborhood_description": "The southern expansion built in the second half of the 19th century as Amsterdam's answer to London's South Kensington. The Rijksmuseum, Van Gogh Museum, and Stedelijk are positioned within 300 metres of each other on Museumplein. Vondelpark immediately to the west was laid out in the same era and remains the busiest urban park in the Netherlands.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2030,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Rijksmuseum",
+        "wikidata_qid": "Q190804",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rijksmuseum",
+        "coordinates": {
+          "lat": 52.36,
+          "lon": 4.8852
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Book timed-entry tickets online a day or more ahead - the museum does not allow long walk-up queues but days fill. The Gallery of Honour on the second floor holds the core of the Dutch Golden Age collection in a single enfilade: Vermeer, Hals, and the Night Watch at the far end in its own hall. Rembrandt hung the Night Watch himself - it was painted for the Great Hall of the Arquebusiers and the scale makes sense only at arm's length distance. Allow 30 minutes for the Night Watch room alone.",
+        "walk_to_next": {
+          "to": "Van Gogh Museum",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Van Gogh Museum",
+        "wikidata_qid": "Q224124",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+        "coordinates": {
+          "lat": 52.3584,
+          "lon": 4.8811
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Book well ahead - this is consistently the most oversubscribed museum in Amsterdam and same-day tickets are virtually impossible in peak season. The collection is arranged chronologically by period and location, so the paintings chart Van Gogh's progression from the dark Dutch palette of The Potato Eaters through Paris and Arles to the late works. The letters room on the upper floor, displaying his correspondence with Theo, is undervisited relative to the main galleries and gives essential context.",
+        "walk_to_next": {
+          "to": "Vondelpark",
+          "distance_meters": 530,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Vondelpark",
+        "wikidata_qid": "Q576683",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vondelpark",
+        "coordinates": {
+          "lat": 52.3579,
+          "lon": 4.8686
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "The 47-hectare park was designed in English landscape style in 1865 and is a national monument. Enter from the Stadhouderskade end near the Van Gogh Museum and walk the main diagonal path to the open-air theatre at the centre, which hosts free performances May through August on weekend evenings. The park closes at midnight; the western exits near Amstelveenseweg lead directly into the quieter Oud-Zuid residential streets with good terrace restaurants for a late dinner.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Stedelijk Museum",
+          "wikidata_qid": "Q924335",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Stedelijk_Museum_Amsterdam",
+          "coordinates": {
+            "lat": 52.3599,
+            "lon": 4.8797
+          },
+          "neighborhood": "Museumkwartier",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The municipal modern and contemporary art museum, directly adjacent to the Van Gogh Museum. Strong permanent holdings in De Stijl (Mondrian, Rietveld), Cobra, and post-war American painting alongside design and applied arts. The 2012 extension - a white fibreglass bathtub shape grafted onto the 1895 building - is either beloved or despised locally and worth seeing regardless of which side you take.",
+          "walk_from_main_route": {
+            "from": "Van Gogh Museum",
+            "distance_meters": 180,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Concertgebouw",
+          "wikidata_qid": "Q899567",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Concertgebouw",
+          "coordinates": {
+            "lat": 52.3564,
+            "lon": 4.8796
+          },
+          "neighborhood": "Museumkwartier",
+          "duration_minutes": 30,
+          "type": "monument",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The 1888 concert hall at the south end of Museumplein is considered to have one of the best acoustics of any concert hall in the world. Free lunchtime concerts run on Wednesdays at 12:30pm (arrive by 12:15 - they fill quickly and the door closes at start time). Even outside concert hours, the neoclassical exterior and the glass-fronted lobby are worth a five-minute stop.",
+          "walk_from_main_route": {
+            "from": "Van Gogh Museum",
+            "distance_meters": 330,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    }
+  ]
+}

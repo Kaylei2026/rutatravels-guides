@@ -1,0 +1,138 @@
+{
+  "destination": "Marrakech",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T13:11:05.070Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Medina - Djemaa el-Fna / Souks / Mouassine"
+  ],
+  "guide_description": "One day inside the medieval medina of Marrakech, moving from the great mosque and tanneries of the northern souks through the Saadian-era palaces to the electric theater of Djemaa el-Fna at nightfall. The route is geographically tight and builds in intensity as the day progresses.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3100,
+  "total_walking_minutes": 39,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "The Living Medina",
+      "cluster_tagline": "Souks, palaces, and the most famous square in Africa - all within the old city walls",
+      "neighborhood_focus": "Medina - Djemaa el-Fna / Souks / Mouassine",
+      "neighborhood_description": "The UNESCO-listed medina of Marrakech is one of the best-preserved medieval Islamic cities in the world. The walled city divides roughly into the northern souk quarter centered on the Koutoubia mosque and Ben Youssef madrasa, the Saadian palace district to the south, and Djemaa el-Fna - the great square that functions as market, theater, and social hub simultaneously from dawn to well past midnight.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Ben Youssef Madrasa",
+        "wikidata_qid": "Q744690",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Youssef_Madrasa",
+        "coordinates": {
+          "lat": 31.6897,
+          "lon": -7.9875
+        },
+        "unesco_designation": {
+          "site_name": "Medina of Marrakesh",
+          "year_inscribed": 1985,
+          "reference_number": 331,
+          "url": "https://whc.unesco.org/en/list/331"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The largest Quranic school in Morocco, built under the Saadian sultan Abdallah al-Ghalib in 1565. Arrive before 9am to have the central courtyard - zellij tilework to shoulder height, stucco carved above, cedar lattice screens at the gallery level - nearly to yourself before tour groups arrive. The student cells on the upper floors are open to walk through: 130 rooms once packed with scholars from across the Maghreb, each barely large enough for a bed and a lamp.",
+        "walk_to_next": {
+          "to": "Medersa Ben Youssef Mosque courtyard and Souk Semmarine",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Bahia Palace",
+        "wikidata_qid": "Q2946196",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bahia_Palace",
+        "coordinates": {
+          "lat": 31.6218,
+          "lon": -7.9831
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Built in the 1890s by Si Moussa and his son Ba Ahmed, grand viziers to Sultan Hassan I, the Bahia (meaning 'brilliance') was designed to be the greatest palace of its time. The 8 hectares of rooms, courtyards, and gardens are only partially open but the grand riad courtyard with its painted cedarwood ceiling and the harem apartments give a vivid sense of late-19th-century Moroccan elite life. Enter from Rue Riad Zitoun el-Jedid - the southern entrance has a shorter wait than the main tourist approach from the north.",
+        "walk_to_next": {
+          "to": "Saadian Tombs",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Djemaa el-Fna at nightfall",
+        "wikidata_qid": "Q193440",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Djemaa_el-Fna",
+        "coordinates": {
+          "lat": 31.6258,
+          "lon": -7.9892
+        },
+        "unesco_designation": {
+          "site_name": "Djemaa el-Fna Square",
+          "year_inscribed": 2001,
+          "reference_number": "00014",
+          "url": "https://ich.unesco.org/en/RL/cultural-space-of-djemaa-el-fna-square-00014"
+        },
+        "duration_minutes": 90,
+        "type": "square",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "after_dark",
+        "notes": "The square transforms completely at dusk: food stalls wheel out and the smoke from 100 grills rises into the orange sodium light, storytellers and Gnawa musicians establish their circles, and the crowd density triples within an hour of sunset. Avoid the aggressive photo-for-money performers (snakes, monkeys) near the center by skirting the perimeter. For the aerial view that puts the scale in perspective, take the stairs to any rooftop cafe on the northern edge - the Cafe de France terrace is the classic vantage point and costs only the price of a mint tea.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Saadian Tombs",
+          "wikidata_qid": "Q1411590",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Saadian_Tombs",
+          "coordinates": {
+            "lat": 31.6186,
+            "lon": -7.9897
+          },
+          "neighborhood": "Kasbah",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "The royal necropolis of the Saadian dynasty, sealed by Moulay Ismail in the 17th century and rediscovered by French aerial survey in 1917. The Hall of Twelve Columns - twelve Italian marble columns supporting a carved cedarwood ceiling above the tombs of Ahmad al-Mansur and his sons - is among the finest examples of late-16th-century Moroccan craftsmanship anywhere. The site is small and crowds funnel through a single narrow passage; go when it opens or after 4pm to avoid the worst queues.",
+          "walk_from_main_route": {
+            "from": "Bahia Palace",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        },
+        {
+          "activity_title": "Musee de Marrakech",
+          "wikidata_qid": "Q3329380",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Marrakesh_Museum",
+          "coordinates": {
+            "lat": 31.6893,
+            "lon": -7.9872
+          },
+          "neighborhood": "Medina - Ben Youssef quarter",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Housed in the 19th-century Dar Menebhi palace directly adjacent to Ben Youssef Madrasa, making it an easy add-on after the madrasa visit. The central hammam courtyard has been restored and hung with an enormous contemporary lantern installation that photographs unusually well in the diffused overhead light. The collection covers Moroccan ceramics, manuscripts, and traditional dress - useful context before walking the souks.",
+          "walk_from_main_route": {
+            "from": "Ben Youssef Madrasa",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    }
+  ]
+}

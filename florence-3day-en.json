@@ -1,0 +1,391 @@
+{
+  "destination": "Florence",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:21:09.474Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Piazza del Duomo / Piazza della Repubblica",
+    "Piazza della Signoria / Uffizi / Oltrarno",
+    "San Lorenzo / San Marco / Accademia"
+  ],
+  "guide_description": "Three days covering Florence's essential layers: the cathedral cluster and medieval civic core, the Medici art axis from the Uffizi across the Arno to the Oltrarno, and the scholarly northern quarter where Michelangelo and the Medici libraries converge. Each day is geographically self-contained.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5460,
+  "total_walking_minutes": 68,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Duomo and the Cathedral Quarter",
+      "cluster_tagline": "Florence's skyline in close-up - marble facades, Brunelleschi's dome, and Ghiberti's bronze doors",
+      "neighborhood_focus": "Piazza del Duomo / Piazza della Repubblica",
+      "neighborhood_description": "The dense religious and commercial core that has anchored Florence since the Roman forum. Within a single block stand the cathedral, baptistery, and campanile - three independent masterworks crowded together on a piazza too small to see any of them from a distance.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1300,
+      "day_walking_minutes": 16,
+      "morning": {
+        "activity_title": "Florence Baptistery",
+        "wikidata_qid": "Q82425",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Florence_Baptistery",
+        "coordinates": {
+          "lat": 43.7733,
+          "lon": 11.2547
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Florence",
+          "year_inscribed": 1982,
+          "reference_number": 174,
+          "url": "https://whc.unesco.org/en/list/174"
+        },
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Start here before the crowds reach the piazza. The Gates of Paradise facing the cathedral are high-quality replicas - the original gilded bronze panels by Ghiberti are inside the Museo dell'Opera del Duomo a hundred meters away. Inside, the 13th-century mosaic ceiling covering the entire octagonal vault is one of the largest and best-preserved Byzantine mosaics north of Sicily.",
+        "walk_to_next": {
+          "to": "Florence Cathedral (Santa Maria del Fiore)",
+          "distance_meters": 80,
+          "walking_minutes": 1
+        }
+      },
+      "afternoon": {
+        "activity_title": "Florence Cathedral - Brunelleschi's Dome Climb",
+        "wikidata_qid": "Q15948",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Florence_Cathedral",
+        "coordinates": {
+          "lat": 43.7731,
+          "lon": 11.256
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Florence",
+          "year_inscribed": 1982,
+          "reference_number": 174,
+          "url": "https://whc.unesco.org/en/list/174"
+        },
+        "duration_minutes": 90,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Book the Duomo complex pass at the Opera del Duomo website - the 463-step dome climb requires a timed slot and sells out days ahead. At the base of the dome interior, pause at Vasari's Last Judgment fresco in the cupola before the staircase entrance - the fresco looks better from here than from anywhere above. The walk between the inner and outer shells of the dome, designed without a single nail by Brunelleschi, is the engineering story of the Renaissance in physical form.",
+        "walk_to_next": {
+          "to": "Museo dell'Opera del Duomo",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "evening": {
+        "activity_title": "Museo dell'Opera del Duomo",
+        "wikidata_qid": "Q1053303",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Museo_dell%27Opera_del_Duomo,_Florence",
+        "coordinates": {
+          "lat": 43.7729,
+          "lon": 11.2574
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Florence",
+          "year_inscribed": 1982,
+          "reference_number": 174,
+          "url": "https://whc.unesco.org/en/list/174"
+        },
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Included in the Duomo complex pass and chronically undervisited because tourists burn out on the cathedral before reaching it. The ground floor holds the original Ghiberti Gates of Paradise panels at eye level - you can stand inches from five centuries of gilded relief with almost no queue. Michelangelo's late Pieta, which he intended for his own tomb, is here alongside Donatello's raw wooden Mary Magdalene.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Giotto's Campanile",
+          "wikidata_qid": "Q731126",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Giotto%27s_Campanile",
+          "coordinates": {
+            "lat": 43.773,
+            "lon": 11.2556
+          },
+          "neighborhood": "Piazza del Duomo",
+          "duration_minutes": 45,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "The 84-meter bell tower climbed via 414 steps - narrower and less crowded than the dome, with a closer view of the dome's exterior lantern and terracotta tiles. The top-level terrace is open-air on all four sides, making it better than the dome for clear-day panoramas because you can see the dome itself rather than standing on it.",
+          "walk_from_main_route": {
+            "from": "Florence Cathedral",
+            "distance_meters": 60,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Piazza della Repubblica",
+          "wikidata_qid": "Q1074081",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_della_Repubblica,_Florence",
+          "coordinates": {
+            "lat": 43.7714,
+            "lon": 11.2531
+          },
+          "neighborhood": "Centro Storico",
+          "duration_minutes": 20,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Built in the 1880s on the demolished Jewish ghetto and Roman forum site - the triumphal arch inscription reads 'the ancient city centre restored to new life.' The Caffe Gilli and Caffe Paszkowski facing the piazza are historic literary cafes open since the early 1700s; espresso at the bar is a fraction of the table price.",
+          "walk_from_main_route": {
+            "from": "Florence Baptistery",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Signoria, Uffizi, and Oltrarno",
+      "cluster_tagline": "The Medici art axis - civic power, the world's greatest Renaissance collection, and the artisan quarter across the Arno",
+      "neighborhood_focus": "Piazza della Signoria / Uffizi / Oltrarno",
+      "neighborhood_description": "Florence's civic and artistic spine runs from Piazza della Signoria south through the Uffizi corridor and across the Ponte Vecchio into the Oltrarno, the working-class quarter that retained its craft workshops and is now the city's most livable neighborhood.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2060,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Piazza della Signoria",
+        "wikidata_qid": "Q942966",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_della_Signoria",
+        "coordinates": {
+          "lat": 43.7697,
+          "lon": 11.2558
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Florence",
+          "year_inscribed": 1982,
+          "reference_number": 174,
+          "url": "https://whc.unesco.org/en/list/174"
+        },
+        "duration_minutes": 30,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "The outdoor sculpture collection in the Loggia dei Lanzi is free and uncrowded at 8am - Giambologna's Rape of the Sabine Women and Cellini's Perseus with the Head of Medusa stand at eye level without a single rope barrier. The David in front of the Palazzo Vecchio is a replica; the original is at the Accademia. The L-shaped piazza channels foot traffic so the south end near the Loggia stays quieter than the David-selfie scrum at the palace entrance.",
+        "walk_to_next": {
+          "to": "Uffizi Gallery",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Uffizi Gallery",
+        "wikidata_qid": "Q51252",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Uffizi",
+        "coordinates": {
+          "lat": 43.7678,
+          "lon": 11.2553
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Florence",
+          "year_inscribed": 1982,
+          "reference_number": 174,
+          "url": "https://whc.unesco.org/en/list/174"
+        },
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Book timed-entry online well in advance - walk-up queues in high season run two to three hours. The Botticelli rooms (10-14) are the destination for most visitors; arrive at opening to reach them before the tour groups lock. The new second-floor hang of the Caravaggio rooms and the Raphael portrait rooms are as rewarding and far less crowded. Budget three hours minimum and pick a wing to skip - the medieval halls are extraordinary if you have time.",
+        "walk_to_next": {
+          "to": "Ponte Vecchio",
+          "distance_meters": 350,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Ponte Vecchio and Oltrarno",
+        "wikidata_qid": "Q193370",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ponte_Vecchio",
+        "coordinates": {
+          "lat": 43.7681,
+          "lon": 11.2531
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Florence",
+          "year_inscribed": 1982,
+          "reference_number": 174,
+          "url": "https://whc.unesco.org/en/list/174"
+        },
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Cross the bridge and walk into the Oltrarno rather than turning back - Via Maggio leads into a neighborhood of antique dealers and trattorie that closes by 9pm. For the best view of the bridge itself, walk one block downstream to the Ponte Santa Trinita or to the Lungarno degli Acciaiuoli - the Vasari Corridor running above the shops is visible from below. Sunset turns the Arno surface copper and the jewelers' windows light up around the same time.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Palazzo Pitti and Boboli Gardens",
+          "wikidata_qid": "Q1150808",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Palazzo_Pitti",
+          "coordinates": {
+            "lat": 43.765,
+            "lon": 11.2499
+          },
+          "neighborhood": "Oltrarno",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "mixed",
+          "optimal_timing": "any",
+          "notes": "The Medici's primary residence after 1550, now housing five separate museums. The Palatine Gallery on the first floor hangs Raphaels and Titians in their original positions on the walls without modern lighting - a deliberately overwhelming 17th-century hang. The Boboli Gardens behind are a 4.5-hectare Italian formal garden climbing the hill; enter from the palace courtyard.",
+          "walk_from_main_route": {
+            "from": "Ponte Vecchio",
+            "distance_meters": 650,
+            "walking_minutes": 8
+          }
+        },
+        {
+          "activity_title": "Piazzale Michelangelo",
+          "wikidata_qid": "Q1143673",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Piazzale_Michelangelo",
+          "coordinates": {
+            "lat": 43.7629,
+            "lon": 11.2654
+          },
+          "neighborhood": "Oltrarno",
+          "duration_minutes": 30,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "The terrace with the panoramic view of Florence from the south hillside - the classic postcard angle showing the Duomo dome, Palazzo Vecchio tower, and the Arno bending through the city. Take the stepped path up from Via di San Nicolo rather than the main road; it arrives at the piazza from the east and avoids most of the tour bus crowd. Best 30 minutes before sunset when the dome is backlit.",
+          "walk_from_main_route": {
+            "from": "Ponte Vecchio",
+            "distance_meters": 1430,
+            "walking_minutes": 18
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "San Lorenzo and San Marco",
+      "cluster_tagline": "The Medici's private Florence - Michelangelo's sculptures, Cosimo's library, and Fra Angelico's frescoed cells",
+      "neighborhood_focus": "San Lorenzo / San Marco / Accademia",
+      "neighborhood_description": "The northern quarter anchored by the Medici parish church and the Dominican convent where Fra Angelico painted directly onto the walls of monks' sleeping cells. Michelangelo's David is here, as is Brunelleschi's Sagrestia Vecchia and Michelangelo's New Sacristy - a neighborhood where almost every building is a masterwork.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Galleria dell'Accademia - David",
+        "wikidata_qid": "Q200822",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Galleria_dell%27Accademia",
+        "coordinates": {
+          "lat": 43.7766,
+          "lon": 11.2588
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Florence",
+          "year_inscribed": 1982,
+          "reference_number": 174,
+          "url": "https://whc.unesco.org/en/list/174"
+        },
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Book timed-entry online - the queue without a ticket is reliably over 90 minutes. The David is larger than almost every visitor expects (5.17 meters) and placed in a purpose-built tribune with a skylight that tracks natural light across it through the day. Walk slowly down the Hall of the Prisoners before the tribune - the four unfinished Slaves Michelangelo abandoned show exactly how he carved, releasing the figure from the block outward.",
+        "walk_to_next": {
+          "to": "Convent and Museum of San Marco",
+          "distance_meters": 520,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Convent and Museum of San Marco",
+        "wikidata_qid": "Q928695",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Convent_and_Museum_of_San_Marco",
+        "coordinates": {
+          "lat": 43.7784,
+          "lon": 11.2583
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Florence",
+          "year_inscribed": 1982,
+          "reference_number": 174,
+          "url": "https://whc.unesco.org/en/list/174"
+        },
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Fra Angelico painted a devotional fresco in each monk's individual cell between 1438 and 1445 - 44 cells, 44 unique works, all accessible by walking a corridor. The Annunciation at the top of the stairs is the most reproduced, but descend to the far corridor where Savonarola's sparse double-cell has been preserved unchanged since his execution in 1498. The crowds are a fraction of the Uffizi; entry is rarely more than a 10-minute wait.",
+        "walk_to_next": {
+          "to": "Basilica di San Lorenzo",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Basilica di San Lorenzo and Medici Chapels",
+        "wikidata_qid": "Q131691",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_di_San_Lorenzo,_Florence",
+        "coordinates": {
+          "lat": 43.775,
+          "lon": 11.2536
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Florence",
+          "year_inscribed": 1982,
+          "reference_number": 174,
+          "url": "https://whc.unesco.org/en/list/174"
+        },
+        "duration_minutes": 75,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The Medici family church for two centuries. The Sagrestia Vecchia by Brunelleschi is entered from the left transept - an early Renaissance cube of perfect proportions that Michelangelo then answered with the Sagrestia Nuova (New Sacristy), entered separately through the Medici Chapels ticket around the corner on Piazza Madonna degli Aldobrandini. The New Sacristy holds Night, Day, Dawn, and Dusk - Michelangelo's four allegorical figures draped across the Medici tombs, completed between 1521 and 1534.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Biblioteca Medicea Laurenziana",
+          "wikidata_qid": "Q131700",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Laurentian_Library",
+          "coordinates": {
+            "lat": 43.7751,
+            "lon": 11.2534
+          },
+          "neighborhood": "San Lorenzo",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Entered from the San Lorenzo cloister, not from the basilica interior. Michelangelo designed the ricetto entrance vestibule with a staircase that floods down into the room like a frozen cascade - a spatial move that had no precedent and influenced architecture for centuries. The reading room beyond holds illuminated manuscripts on the original 1568 desks. Rarely busy.",
+          "walk_from_main_route": {
+            "from": "Basilica di San Lorenzo",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Mercato Centrale",
+          "wikidata_qid": "Q1483739",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mercato_Centrale",
+          "coordinates": {
+            "lat": 43.7757,
+            "lon": 11.2522
+          },
+          "neighborhood": "San Lorenzo",
+          "duration_minutes": 30,
+          "type": "market",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "The 1874 cast-iron market hall redesigned by Giuseppe Mengoni - ground floor has one of the best fish, meat, and cheese markets in Tuscany, trading until 2pm. The upper floor is a food court that stays open later but is aimed at tourists; the ground floor vendors are where to eat lunch or pick up provisions.",
+          "walk_from_main_route": {
+            "from": "Basilica di San Lorenzo",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

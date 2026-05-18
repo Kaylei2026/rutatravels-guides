@@ -1,0 +1,356 @@
+{
+  "destination": "Berlin",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:17:13.442Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Mitte - Museum Island and Unter den Linden",
+    "Mitte - Brandenburg Gate, Tiergarten, and Potsdamer Platz",
+    "Prenzlauer Berg and Hackescher Markt"
+  ],
+  "guide_description": "Three days covering Berlin's essential layers: the Prussian royal core on Museum Island, the Cold War spine along Unter den Linden and the Wall, and the reborn eastern neighborhoods north of Alexanderplatz. Each day is geographically self-contained and ordered so that adjacent clusters share a boundary.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 6350,
+  "total_walking_minutes": 80,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Museum Island and Unter den Linden",
+      "cluster_tagline": "Prussian imperial ambition condensed onto a river island and a ceremonial boulevard",
+      "neighborhood_focus": "Mitte - Museum Island",
+      "neighborhood_description": "The Spree island at the center of old Berlin where the Hohenzollern monarchy built five world-class museums over a century. The UNESCO-listed ensemble sits at the western end of Unter den Linden, the lime-tree boulevard that served as Berlin's ceremonial axis from the palace to the Brandenburg Gate.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Pergamon Museum",
+        "wikidata_qid": "Q157176",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pergamon_Museum",
+        "coordinates": {
+          "lat": 52.5212,
+          "lon": 13.3967
+        },
+        "unesco_designation": {
+          "site_name": "Museum Island, Berlin",
+          "year_inscribed": 1999,
+          "reference_number": 896,
+          "url": "https://whc.unesco.org/en/list/896"
+        },
+        "duration_minutes": 150,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The main Pergamon Altar hall is closed for renovation until at least 2027, but the Ishtar Gate and the Market Gate of Miletus remain on display and are worth the visit on their own. Book timed-entry online through the State Museums Berlin portal - walk-up queues routinely run 45 minutes in high season. Enter from Am Kupfergraben on the western Spree bank rather than the island bridge side to avoid the tour-group bottleneck.",
+        "walk_to_next": {
+          "to": "Altes Museum",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Altes Museum and Lustgarten",
+        "wikidata_qid": "Q162111",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Altes_Museum",
+        "coordinates": {
+          "lat": 52.5197,
+          "lon": 13.3989
+        },
+        "unesco_designation": {
+          "site_name": "Museum Island, Berlin",
+          "year_inscribed": 1999,
+          "reference_number": 896,
+          "url": "https://whc.unesco.org/en/list/896"
+        },
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Schinkel's 1830 neoclassical rotunda is one of the most carefully composed interior spaces in Berlin - the upper gallery ring above the central dome hall is often missed by visitors who stay on the ground floor. The Lustgarten immediately in front is the only planned lawn in central Berlin and a good place to sit between museum visits.",
+        "walk_to_next": {
+          "to": "Berlin Cathedral",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Berlin Cathedral rooftop at sunset",
+        "wikidata_qid": "Q157100",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Berlin_Cathedral",
+        "coordinates": {
+          "lat": 52.5191,
+          "lon": 13.4012
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The Hohenzollern court church completed in 1905 - overstated exterior, surprisingly restrained mosaic interior. Climb to the drum gallery around the base of the dome for one of the best free-ish rooftop views in Mitte: the TV Tower, the Spree, and the museum complex below. The crypt holds 94 Hohenzollern sarcophagi; the oldest is from 1553.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Neues Museum and the Nefertiti Bust",
+          "wikidata_qid": "Q153087",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Neues_Museum",
+          "coordinates": {
+            "lat": 52.5204,
+            "lon": 13.3978
+          },
+          "neighborhood": "Museum Island",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "David Chipperfield's reconstruction left deliberate traces of WWII bomb damage visible in the walls and floors - the building itself is as interesting as the collection. The Nefertiti bust sits on the third floor in a purpose-built darkened room; she faces slightly to the left of center, which most photos obscure.",
+          "walk_from_main_route": {
+            "from": "Pergamon Museum",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Humboldt Forum",
+          "wikidata_qid": "Q1658880",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Humboldt_Forum",
+          "coordinates": {
+            "lat": 52.5177,
+            "lon": 13.4017
+          },
+          "neighborhood": "Mitte",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The reconstructed Berlin Palace opened in 2021 on the footprint of the demolished GDR Palast der Republik. The exterior baroque reconstruction is politically contentious; the interior holds ethnological and city history collections. The free rooftop terrace on the south side gives a direct sightline along Unter den Linden toward the Brandenburg Gate.",
+          "walk_from_main_route": {
+            "from": "Berlin Cathedral",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Brandenburg Gate, Tiergarten, and the Wall",
+      "cluster_tagline": "The Cold War spine - from the Reichstag dome to the last standing stretch of the Berlin Wall",
+      "neighborhood_focus": "Mitte - Tiergarten",
+      "neighborhood_description": "The broad swathe of central Berlin that was bisected by the Wall for 28 years. Today it runs from the Reichstag through Pariser Platz and Potsdamer Platz south to Checkpoint Charlie, with the Tiergarten park filling the former Western no-man's-land to the west.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "Reichstag dome",
+        "wikidata_qid": "Q160552",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Reichstag_building",
+        "coordinates": {
+          "lat": 52.5186,
+          "lon": 13.3762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Free entry but mandatory pre-registration on the Bundestag website - slots open weeks in advance and fill quickly for weekends. Norman Foster's glass dome allows visitors to walk a spiral ramp up around the mirrored central cone, with the plenary chamber visible below. Graffiti left by Soviet soldiers in 1945 has been preserved on the walls of the interior courtyards.",
+        "walk_to_next": {
+          "to": "Brandenburg Gate",
+          "distance_meters": 650,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Brandenburg Gate and Memorial to the Murdered Jews of Europe",
+        "wikidata_qid": "Q82425",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+        "coordinates": {
+          "lat": 52.5163,
+          "lon": 13.3777
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The Gate itself is best seen from the Pariser Platz side in the morning or the Tiergarten side in the afternoon when the light is behind you. The Holocaust Memorial - 2,711 concrete stelae of varying heights by Peter Eisenman - is a two-minute walk south and takes at least 30 minutes to move through properly. The underground information center beneath the field is a separate, quieter experience worth building in.",
+        "walk_to_next": {
+          "to": "Topography of Terror",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Topography of Terror and the East Side Gallery",
+        "wikidata_qid": "Q699890",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Topography_of_Terror",
+        "coordinates": {
+          "lat": 52.5064,
+          "lon": 13.3818
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Built on the excavated foundations of the SS and Gestapo headquarters. The outdoor excavation trench along Niederkirchnerstrasse runs beside an original stretch of the Wall - entry to both the outdoor and indoor exhibitions is free. If energy remains, the East Side Gallery is a 20-minute walk east along the Spree: the longest remaining painted section of the Wall, 1.3 km of murals commissioned in 1990.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Siegessäule (Victory Column)",
+          "wikidata_qid": "Q153188",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Berlin_Victory_Column",
+          "coordinates": {
+            "lat": 52.5145,
+            "lon": 13.3501
+          },
+          "neighborhood": "Tiergarten",
+          "duration_minutes": 45,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The gilded Prussian victory monument at the center of the Tiergarten star intersection. Climb the 285 steps to the viewing platform for the best panorama of the Tiergarten radial avenues and the distant TV Tower. Hitler had it moved here from its original position in front of the Reichstag and raised by one drum segment to its current 67 meters.",
+          "walk_from_main_route": {
+            "from": "Brandenburg Gate",
+            "distance_meters": 1600,
+            "walking_minutes": 20
+          }
+        },
+        {
+          "activity_title": "Checkpoint Charlie",
+          "wikidata_qid": "Q153628",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
+          "coordinates": {
+            "lat": 52.5076,
+            "lon": 13.3904
+          },
+          "neighborhood": "Mitte",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The Allied crossing point is now a tourist plaza with a replica guard booth - the original booth is in the Allied Museum in Zehlendorf. Skip the paid museum next door, which has poor curation for its price, and instead read the information panels on the open-air wall display along Friedrichstrasse for the actual history of escapes and standoffs at this point.",
+          "walk_from_main_route": {
+            "from": "Topography of Terror",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Hackescher Markt and Prenzlauer Berg",
+      "cluster_tagline": "The reborn east - Wilhelmine courtyards, a Jewish quarter, and the Bornholmer bridge where the Wall opened",
+      "neighborhood_focus": "Mitte - Spandauer Vorstadt / Prenzlauer Berg",
+      "neighborhood_description": "The district immediately north of Alexanderplatz that was the center of Berlin's prewar Jewish community and then the bohemian heart of reunification-era East Berlin. Hackescher Markt anchors the south with its restored Jugendstil arcade courtyards; Prenzlauer Berg spreads north through densely preserved Wilhelmine apartment streets.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Hackesche Hoefe",
+        "wikidata_qid": "Q320673",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hackesche_H%C3%B6fe",
+        "coordinates": {
+          "lat": 52.5237,
+          "lon": 13.4022
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Eight interconnected courtyards built in 1907, the largest Jugendstil residential-commercial complex in Germany. The first courtyard facing Rosenthaler Strasse has the most intact tile work; walk through all eight courts to reach the quieter back entrance on Sophienstrasse. Most tourists stop at the first court and leave without seeing the scaled-down domestic inner yards.",
+        "walk_to_next": {
+          "to": "New Synagogue Berlin",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "New Synagogue Berlin and Oranienburger Strasse",
+        "wikidata_qid": "Q676388",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/New_Synagogue,_Berlin",
+        "coordinates": {
+          "lat": 52.5261,
+          "lon": 13.3936
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The 1866 Moorish-Gothic synagogue was the largest in Germany before Kristallnacht. The interior was destroyed in WWII and only the gilded facade and entrance hall were rebuilt - the exhibition inside documents what the full interior looked like and what happened to the congregation. Security screening at the gate is thorough; allow extra time. The rooftop dome climb gives a sightline along Oranienburger Strasse that is one of the better lesser-known views in central Berlin.",
+        "walk_to_next": {
+          "to": "Kollwitzplatz",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Kollwitzplatz and Prenzlauer Berg streets",
+        "wikidata_qid": "Q1756240",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kollwitzplatz",
+        "coordinates": {
+          "lat": 52.5359,
+          "lon": 13.4157
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The leafy square named after expressionist artist Kathe Kollwitz, who lived nearby and whose bronze self-portrait sits at the center. On Thursday and Saturday mornings it hosts a food and organic produce market; evenings it fills with locals from the surrounding streets. Walk south on Husemannstrasse for the most intact block of unrestored and restored Wilhelmine facades in the district - the street was GDR-renovated as a showpiece in 1987 and still reads as a time capsule.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Memorial to the Sinti and Roma Victims of National Socialism",
+          "wikidata_qid": "Q1565543",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Memorial_to_the_Sinti_and_Roma_Victims_of_National_Socialism",
+          "coordinates": {
+            "lat": 52.5152,
+            "lon": 13.3728
+          },
+          "neighborhood": "Tiergarten",
+          "duration_minutes": 20,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Dani Karavan's circular reflecting pool in the northern Tiergarten, completed in 2012 after decades of advocacy. A single fresh flower changes daily on the triangle submerged at the center. One of the quietest and most formally precise memorials in Berlin, almost always uncrowded even in peak season.",
+          "walk_from_main_route": {
+            "from": "Hackesche Hoefe",
+            "distance_meters": 1800,
+            "walking_minutes": 23
+          }
+        },
+        {
+          "activity_title": "Mauerpark flea market",
+          "wikidata_qid": "Q1884547",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mauerpark",
+          "coordinates": {
+            "lat": 52.5416,
+            "lon": 13.4019
+          },
+          "neighborhood": "Prenzlauer Berg",
+          "duration_minutes": 60,
+          "type": "market",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "The park runs along a former Wall death strip between Prenzlauer Berg and Wedding. Sunday flea market only - arrives around 9am and winds down by 4pm. The amphitheater hosts open-air karaoke from around midday on Sundays, which draws a genuine crowd rather than a staged one.",
+          "walk_from_main_route": {
+            "from": "Kollwitzplatz",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

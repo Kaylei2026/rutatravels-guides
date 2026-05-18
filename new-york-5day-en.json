@@ -1,0 +1,564 @@
+{
+  "destination": "New York",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:46:13.723Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Lower Manhattan / Financial District",
+    "Brooklyn Bridge / DUMBO / Brooklyn Heights",
+    "Midtown / Fifth Avenue",
+    "Upper West Side / Central Park",
+    "East Village / Lower East Side"
+  ],
+  "guide_description": "Five days across New York's most distinct geographic and cultural clusters: the colonial and financial bedrock of Lower Manhattan, the bridge and brownstone quarter of Brooklyn, the Midtown tower corridor, the museum mile and park of the Upper West Side, and the immigrant-layered streets of the Lower East Side. Each day is self-contained and walkable within its cluster.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 17550,
+  "total_walking_minutes": 219,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Lower Manhattan and the Financial District",
+      "cluster_tagline": "The colonial and commercial bedrock - where New York began, and where it nearly ended",
+      "neighborhood_focus": "Lower Manhattan / Financial District",
+      "neighborhood_description": "The southern tip of Manhattan is the oldest continuous urban fabric in New York City, settled by the Dutch as New Amsterdam in 1626. Within a few blocks stand the original grid of colonial streets, the grave of Alexander Hamilton, the site of Washington's first inauguration, and the September 11 Memorial. The density of historical weight per square block is unmatched anywhere in the city.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3250,
+      "day_walking_minutes": 41,
+      "morning": {
+        "activity_title": "9/11 Memorial and Museum",
+        "wikidata_qid": "Q1076123",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_September_11_Memorial_%26_Museum",
+        "coordinates": {
+          "lat": 40.7115,
+          "lon": -74.0134
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The two footprint pools are outdoors and free to view; the museum below requires a timed ticket booked in advance. Enter the museum via the glass pavilion on the north side of the site. The Foundation Hall section, built around the surviving slurry wall and the last steel column removed from Ground Zero, is the most structurally arresting space in any American memorial. Arrive at opening to avoid school groups, which arrive around 10am in large numbers.",
+        "walk_to_next": {
+          "to": "Wall Street and Federal Hall",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Federal Hall National Memorial",
+        "wikidata_qid": "Q1399051",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Federal_Hall",
+        "coordinates": {
+          "lat": 40.7074,
+          "lon": -74.0102
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The Greek Revival building on Wall Street marks the site where George Washington took the first presidential oath of office on April 30, 1789. The current 1842 structure replaced the original Federal Hall. Free entry - one of the most historically significant and least-crowded sites in New York. The rotunda interior, modeled on the Pantheon, is far grander than the narrow street outside suggests.",
+        "walk_to_next": {
+          "to": "Trinity Church",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Battery Park and the Harbor from the Staten Island Ferry",
+        "wikidata_qid": "Q577472",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Staten_Island_Ferry",
+        "coordinates": {
+          "lat": 40.7014,
+          "lon": -74.0131
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The Staten Island Ferry is free, runs 24 hours, and passes within 800 meters of the Statue of Liberty - closer than the paid ferry from Battery Park. Board at Whitehall Terminal at the foot of Manhattan. Take the starboard (right) side of the upper deck outbound for the Statue of Liberty view, port side on the return for the Lower Manhattan skyline. The round trip is 50 minutes and you do not need to disembark on Staten Island.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Trinity Church and Churchyard",
+          "wikidata_qid": "Q2293217",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Trinity_Church,_Manhattan",
+          "coordinates": {
+            "lat": 40.7081,
+            "lon": -74.0134
+          },
+          "neighborhood": "Financial District",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The 1846 Gothic Revival church at the head of Wall Street was the tallest structure in New York until 1890. Alexander Hamilton is buried in the churchyard on the south side - his grave is marked with a white obelisk. The churchyard is also the quietest outdoor space in the Financial District, shaded by old elms and overlooked by the surrounding glass towers.",
+          "walk_from_main_route": {
+            "from": "Federal Hall",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Fraunces Tavern Museum",
+          "wikidata_qid": "Q1449408",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Fraunces_Tavern",
+          "coordinates": {
+            "lat": 40.7034,
+            "lon": -74.0115
+          },
+          "neighborhood": "Financial District",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The 1719 building where Washington delivered his farewell address to his officers in 1783 is the oldest surviving structure in Manhattan. The museum on the upper floors is small but the Long Room where the speech took place has been reconstructed. The ground floor still operates as a bar and restaurant - one of the few places in Manhattan where you can drink in a genuinely pre-Revolutionary room.",
+          "walk_from_main_route": {
+            "from": "9/11 Memorial",
+            "distance_meters": 650,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Brooklyn Bridge, DUMBO, and Brooklyn Heights",
+      "cluster_tagline": "The bridge that defines the skyline - Victorian engineering, waterfront views, and brownstone promenades",
+      "neighborhood_focus": "Brooklyn Bridge / DUMBO / Brooklyn Heights",
+      "neighborhood_description": "The Brooklyn Bridge connects Lower Manhattan to the oldest and most architecturally intact neighborhoods of Brooklyn. DUMBO - the former industrial waterfront beneath the bridges - is now the densest concentration of Manhattan skyline photography in the five boroughs. Brooklyn Heights, on the bluff above, preserves the city's finest surviving row of 19th-century brownstones, with the Promenade along the East River edge.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Brooklyn Bridge walkway",
+        "wikidata_qid": "Q83079",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+        "coordinates": {
+          "lat": 40.7061,
+          "lon": -73.9969
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Walk Manhattan-to-Brooklyn, not the reverse - you face the Brooklyn towers and the Manhattan skyline behind you recedes as you cross. The pedestrian walkway runs elevated above the vehicle lanes; stay on the pedestrian side (the painted line matters as cyclists are fast). The first tower anchorage, about 700 meters from the Manhattan entrance, is the single best vantage point on the crossing - pause there rather than at the midpoint.",
+        "walk_to_next": {
+          "to": "DUMBO waterfront",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "DUMBO and Brooklyn Bridge Park",
+        "wikidata_qid": "Q1064103",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge_Park",
+        "coordinates": {
+          "lat": 40.7024,
+          "lon": -73.9939
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "The view up Washington Street between the bridge towers - with the Manhattan Bridge in the background - is the most-photographed street frame in New York. Stand at the intersection of Washington and Water Streets and look north. Brooklyn Bridge Park runs 1.3 miles along the waterfront from the bridge south to Atlantic Avenue; Pier 1 has direct skyline views, Pier 6 has a beach volleyball area and a carousel under a Victorian arcade.",
+        "walk_to_next": {
+          "to": "Brooklyn Heights Promenade",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Brooklyn Heights Promenade",
+        "wikidata_qid": "Q810636",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Heights_Promenade",
+        "coordinates": {
+          "lat": 40.6962,
+          "lon": -73.9992
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "A cantilevered esplanade over the Brooklyn-Queens Expressway, stretching a third of a mile with an unobstructed view of Lower Manhattan and the two bridges. Sunset here puts the Manhattan skyline in direct west light. The residential streets immediately behind - Willow Street, Pierrepont Street, Montague Terrace - form the most intact Federal and Greek Revival streetscape in the United States, and they take ten minutes to walk.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "New York Transit Museum",
+          "wikidata_qid": "Q1755738",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_Transit_Museum",
+          "coordinates": {
+            "lat": 40.6883,
+            "lon": -73.9901
+          },
+          "neighborhood": "Brooklyn Heights",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Built inside a decommissioned 1936 IND subway station, with a lower-level platform holding original subway cars going back to 1904 that you can board and sit in. The turnstile collection alone spans eight decades of New York fare-collection history. A ten-minute walk south from the Promenade - good rainy-day insurance for a weather-dependent day.",
+          "walk_from_main_route": {
+            "from": "Brooklyn Heights Promenade",
+            "distance_meters": 650,
+            "walking_minutes": 9
+          }
+        },
+        {
+          "activity_title": "Jane's Carousel",
+          "wikidata_qid": "Q1679887",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jane%27s_Carousel",
+          "coordinates": {
+            "lat": 40.7027,
+            "lon": -73.9901
+          },
+          "neighborhood": "DUMBO",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A 1922 hand-carved wooden carousel, restored over 25 years and installed in a Nouvel-designed glass pavilion at the water's edge in Brooklyn Bridge Park. Operating most days for a small fee. The pavilion sits directly between the Brooklyn and Manhattan bridges - hard to photograph badly from this spot.",
+          "walk_from_main_route": {
+            "from": "DUMBO waterfront",
+            "distance_meters": 250,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Midtown and Fifth Avenue",
+      "cluster_tagline": "The vertical city - Art Deco towers, Rockefeller Center, and the Midtown canyon at its most dramatic",
+      "neighborhood_focus": "Midtown / Fifth Avenue",
+      "neighborhood_description": "The Midtown corridor between 42nd and 57th Streets is the densest concentration of landmark 20th-century architecture in the world - the Chrysler Building, Grand Central Terminal, Rockefeller Center, St. Patrick's Cathedral, and the New York Public Library all within a few blocks of each other. Fifth Avenue is the organizing spine, with the grid's logic most legible here.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Grand Central Terminal",
+        "wikidata_qid": "Q180916",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_Central_Terminal",
+        "coordinates": {
+          "lat": 40.7527,
+          "lon": -73.9772
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The 1913 Beaux-Arts terminal is free to enter and one of the finest interior spaces in New York. The Main Concourse ceiling - a cerulean constellation map with 2,500 stars - is famously painted in reverse (as seen from outside the celestial sphere, not from earth). Stand on the upper-level balcony on the east side before 9am to watch the commuter rush. The Whispering Gallery outside the Oyster Bar on the lower level replicates the acoustic trick of a cathedral dome.",
+        "walk_to_next": {
+          "to": "Rockefeller Center",
+          "distance_meters": 850,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Rockefeller Center",
+        "wikidata_qid": "Q214214",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rockefeller_Center",
+        "coordinates": {
+          "lat": 40.7587,
+          "lon": -73.9787
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The 22-building Art Deco complex built 1930-1939 is best understood by walking the Channel Gardens from Fifth Avenue toward 30 Rock - the perspective through the flanking buildings to the gilded Prometheus sculpture and the Lower Plaza is designed as a processional sequence. The Top of the Rock observation deck (paid) gives a different angle on the skyline than the Empire State: looking south at the Empire State Building itself from 67 floors up. Radio City Music Hall on the west side of the complex has lobby tours.",
+        "walk_to_next": {
+          "to": "St. Patrick's Cathedral",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "New York Public Library and Bryant Park",
+        "wikidata_qid": "Q1699233",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_Public_Library_Stephen_A._Schwarzman_Building",
+        "coordinates": {
+          "lat": 40.7532,
+          "lon": -73.9822
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The 1911 Beaux-Arts flagship library is free to enter. The Rose Main Reading Room on the third floor - a 297-foot-long hall with 52-foot ceilings, original wood paneling, and brass reading lamps - is one of the few genuinely magnificent interior rooms in New York that most visitors walk past. The library lions on Fifth Avenue are called Patience (south) and Fortitude (north), named by Mayor LaGuardia during the Depression. Bryant Park immediately behind the library is the city's best-managed small park.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "St. Patrick's Cathedral",
+          "wikidata_qid": "Q207543",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St._Patrick%27s_Cathedral,_New_York",
+          "coordinates": {
+            "lat": 40.7586,
+            "lon": -73.9762
+          },
+          "neighborhood": "Midtown",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The 1878 Gothic Revival cathedral on Fifth Avenue is free to enter and effectively requires no detour from Rockefeller Center, being directly across the street. The contrast between the white marble facade and the surrounding glass towers is more striking from the inside looking out through the rose window than from the street. Weekday midday Mass is at 12:30pm and the cathedral is open to visitors before and after.",
+          "walk_from_main_route": {
+            "from": "Rockefeller Center",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Chrysler Building lobby",
+          "wikidata_qid": "Q186306",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chrysler_Building",
+          "coordinates": {
+            "lat": 40.7516,
+            "lon": -73.9755
+          },
+          "neighborhood": "Midtown East",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The 1930 Art Deco tower's lobby is free and open to the public during business hours. The African marble walls, ceiling murals depicting aviation and industry, and the original elevator doors are among the most intact 1930s commercial interiors in New York. The building is a five-minute walk from Grand Central - combine with morning start before it gets busy.",
+          "walk_from_main_route": {
+            "from": "Grand Central Terminal",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Upper West Side and Central Park",
+      "cluster_tagline": "The cultural and green heart - museum mile, the park's literary landscape, and the Dakota block",
+      "neighborhood_focus": "Upper West Side / Central Park",
+      "neighborhood_description": "The Upper West Side, from 72nd to 86th Streets, anchors the city's intellectual and cultural identity - Lincoln Center, the American Museum of Natural History, and the Metropolitan Museum of Art are all within walking distance of Central Park's west boundary. The park itself, designed by Frederick Law Olmsted and Calvert Vaux and opened in 1858, is the organizing landscape of the entire Upper Manhattan west side.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3900,
+      "day_walking_minutes": 49,
+      "morning": {
+        "activity_title": "American Museum of Natural History",
+        "wikidata_qid": "Q217717",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/American_Museum_of_Natural_History",
+        "coordinates": {
+          "lat": 40.7813,
+          "lon": -73.974
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The Theodore Roosevelt Rotunda entrance hall - with the 50-foot Barosaurus rearing on its hind legs to protect its young - sets the register immediately. The Hall of Biodiversity and the Hall of Ocean Life (blue whale suspended in the blue-lit hall) are the two strongest spaces beyond the dinosaur floors. The Rose Center for Earth and Space on the northwest corner is a separate Hayden Planetarium in a glass cube - worth the add-on ticket. Arrive when it opens: the dinosaur halls fill fast.",
+        "walk_to_next": {
+          "to": "Central Park - Strawberry Fields and the Ramble",
+          "distance_meters": 400,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Central Park",
+        "wikidata_qid": "Q43244",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Central_Park",
+        "coordinates": {
+          "lat": 40.7851,
+          "lon": -73.9683
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Enter at 72nd Street and head to Strawberry Fields (the teardrop-shaped garden honoring John Lennon, across from the Dakota apartment building on Central Park West where he was shot). From there, follow the path northeast into the Ramble - a 36-acre designed woodland with deliberately disorienting winding paths that Olmsted called his most important design challenge. The Belvedere Castle at the Ramble's northeast edge has a free telescope and the best 360-degree park view.",
+        "walk_to_next": {
+          "to": "Metropolitan Museum of Art",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Metropolitan Museum of Art",
+        "wikidata_qid": "Q160236",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art",
+        "coordinates": {
+          "lat": 40.7794,
+          "lon": -73.9632
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Open until 9pm on Fridays and Saturdays - the rooftop sculpture garden (open May through October) is the most underused space in the museum and gives a direct Central Park tree-line view at sunset. On weekday evenings the Egyptian Wing and the American Wing period rooms are nearly empty. The Temple of Dendur in the Sackler Wing - a complete 15 BC Egyptian temple relocated stone by stone from the Nile in 1965 - is best seen when the hall is quiet and the western light comes through the glass wall.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The Dakota",
+          "wikidata_qid": "Q1193877",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/The_Dakota",
+          "coordinates": {
+            "lat": 40.7763,
+            "lon": -73.9797
+          },
+          "neighborhood": "Upper West Side",
+          "duration_minutes": 15,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The 1884 German Renaissance apartment building where John Lennon lived and was shot on December 8, 1980. The building is private; you view it from the street. The arched carriage entrance on Central Park West is where Lennon was returning when he was killed. The gates, flanked by two Dakota terra-cotta heads, are one of the most architecturally detailed building entrances in New York.",
+          "walk_from_main_route": {
+            "from": "Central Park - Strawberry Fields",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "New-York Historical Society",
+          "wikidata_qid": "Q1416290",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/New-York_Historical_Society",
+          "coordinates": {
+            "lat": 40.779,
+            "lon": -73.9737
+          },
+          "neighborhood": "Upper West Side",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "New York's oldest museum (founded 1804), directly across from the Natural History Museum on Central Park West. The fourth-floor gallery holds all 435 of Audubon's original watercolor preparatory paintings for The Birds of America - not reproductions, the originals, in rotating display. The Henry Luce III Center on the same floor is a visible-storage installation of 40,000 objects with no wall labels, encouraging self-directed discovery.",
+          "walk_from_main_route": {
+            "from": "American Museum of Natural History",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "East Village and the Lower East Side",
+      "cluster_tagline": "Immigrant layers and counter-culture memory - the city's most historically dense street-level neighborhood",
+      "neighborhood_focus": "East Village / Lower East Side",
+      "neighborhood_description": "The blocks between Houston Street and 14th Street, east of the Bowery, hold more layers of immigrant history per acre than anywhere else in the United States. German, Jewish, Italian, Puerto Rican, and Ukrainian communities each left permanent physical traces - synagogues converted to rock clubs, tenement buildings preserved as museums, community gardens carved from vacant lots. The neighborhood resists gentrification better here than almost anywhere in lower Manhattan.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3500,
+      "day_walking_minutes": 44,
+      "morning": {
+        "activity_title": "Tenement Museum",
+        "wikidata_qid": "Q7702624",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tenement_Museum",
+        "coordinates": {
+          "lat": 40.7187,
+          "lon": -73.99
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Access is by guided tour only - book in advance online as tours sell out days ahead. Two buildings on Orchard Street preserve the apartments of actual immigrant families from the 1860s to 1930s; different tours follow different families (German Jewish, Italian Catholic, Eastern European Jewish). The 97 Orchard Street building's apartments have been restored to specific years rather than generic period; the Rogarshevsky family apartment frozen at 1918 is the most detailed. Choose your tour based on which family history interests you most.",
+        "walk_to_next": {
+          "to": "Orchard Street and the Lower East Side",
+          "distance_meters": 100,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Lower East Side Tenement neighborhood walk",
+        "wikidata_qid": "Q503827",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lower_East_Side",
+        "coordinates": {
+          "lat": 40.7153,
+          "lon": -73.9867
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Walk north on Orchard Street to Delancey, then east to Essex Street Market (the successor to the 1940 pushcart market, now a covered food hall). From there, north on Essex to Rivington, then west to Eldridge Street Synagogue on Eldridge - the 1887 Moorish-Gothic building recently restored, with an original rose window and a modern replacement west window by artist Kiki Smith installed in 2010. The contrast between the original and new windows in the same facade is visible from the street without entering.",
+        "walk_to_next": {
+          "to": "St. Marks Place and Tompkins Square Park",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Tompkins Square Park and St. Marks Place",
+        "wikidata_qid": "Q7819253",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tompkins_Square_Park",
+        "coordinates": {
+          "lat": 40.7261,
+          "lon": -73.9816
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The ten-acre square has been the site of every major East Village political moment since the Civil War draft riots. The chess tables on the south side are used most afternoons and evenings. St. Marks Place (East 8th Street) between Second and Third Avenues was the center of 1960s counterculture - the building at 96 St. Marks Place was simultaneously the Trotsky reading room (1917) and Andy Warhol's Electric Circus (1967). The block between First Avenue and Avenue A holds the densest concentration of bars, vinyl shops, and food options for ending the day.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Eldridge Street Synagogue",
+          "wikidata_qid": "Q5361498",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Eldridge_Street_Synagogue",
+          "coordinates": {
+            "lat": 40.7139,
+            "lon": -73.9927
+          },
+          "neighborhood": "Lower East Side",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The 1887 synagogue is the first purpose-built by Eastern European Jewish immigrants in New York. The restoration took 20 years and $20 million; the main sanctuary is one of the most beautiful religious interiors in the city. Tours run on the hour; the guide context about the specific families who built it makes the interior legible in a way a self-guided visit does not.",
+          "walk_from_main_route": {
+            "from": "Tenement Museum",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Museum at Eldridge Street",
+          "wikidata_qid": "Q15061731",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_at_Eldridge_Street",
+          "coordinates": {
+            "lat": 40.7139,
+            "lon": -73.9927
+          },
+          "neighborhood": "Lower East Side",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The museum housed within the Eldridge Street Synagogue focuses specifically on the immigration history of the congregation and the surrounding neighborhood. Closed Saturdays. If combining with the Tenement Museum, buy both tickets and use each as context for the other - together they cover the German Jewish and Eastern European Jewish immigration experiences across the same few blocks.",
+          "walk_from_main_route": {
+            "from": "Tenement Museum",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

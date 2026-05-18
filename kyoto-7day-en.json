@@ -1,0 +1,717 @@
+{
+  "destination": "Kyoto",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-18T15:53:12.097Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Higashiyama",
+    "Gion / Hanamikoji",
+    "Fushimi",
+    "Arashiyama / Sagano",
+    "Nishijin / Kinkaku-ji",
+    "Nijo / Kyoto Imperial Park",
+    "Uji"
+  ],
+  "guide_description": "Seven days tracing Kyoto's arc from the densely layered temple hillsides of Higashiyama to the bamboo groves of Arashiyama, with a full day each for Gion's geisha quarter, Fushimi's vermilion torii tunnels, the gold and silver pavilion circuit of the northwest, the imperial core at the city center, and a day trip south to the tea-producing town of Uji. Each cluster is geographically self-contained and builds a coherent portrait of a city that packed more of Japan's cultural heritage into a single valley than anywhere else in the country.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 26700,
+  "total_walking_minutes": 334,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Higashiyama Temple Hillside",
+      "cluster_tagline": "The preserved stone-paved lanes and stacked temples of Kyoto's eastern hills",
+      "neighborhood_focus": "Higashiyama",
+      "neighborhood_description": "The long ridge of the Higashiyama mountains forms Kyoto's eastern edge, and the preserved historic district at its base is the city's most intact historic townscape. Stone-paved lanes connect a chain of major temples from Kiyomizudera at the south to Nanzenji at the north, passing through the Ninenzaka and Sannenzaka alleys whose machiya townhouses have not changed in silhouette since the Edo period.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3900,
+      "day_walking_minutes": 49,
+      "morning": {
+        "activity_title": "Kiyomizudera",
+        "wikidata_qid": "Q645249",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kiyomizu-dera",
+        "coordinates": {
+          "lat": 34.9948,
+          "lon": 135.7851
+        },
+        "unesco_designation": {
+          "site_name": "Historic Monuments of Ancient Kyoto",
+          "year_inscribed": 1994,
+          "reference_number": 688,
+          "url": "https://whc.unesco.org/en/list/688"
+        },
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Arrive at opening (6am in summer, 6:30am otherwise) to walk the wooden stage - a 13-meter cantilevered platform held by 139 keyaki zelkova pillars with no nails - before the first tour buses arrive. The stage faces west over the city, not the hills, which is counterintuitive; the classic photograph is from the far left end of the stage looking back at the main hall against the forested hillside. The descent path to the Otowa waterfall at the base passes three spouts said to grant longevity, academic success, and lucky love - drink from only two, as all three is considered greedy.",
+        "walk_to_next": {
+          "to": "Ninenzaka and Sannenzaka",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ninenzaka and Sannenzaka",
+        "wikidata_qid": "Q2555616",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ninenzaka",
+        "coordinates": {
+          "lat": 34.9988,
+          "lon": 135.7826
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "The two connected stone-paved alleys running north from Kiyomizudera are among the best-preserved historic streetscapes in Japan - two-story machiya shop-houses selling matcha sweets, tofu skin, and Kyoto lacquerware. Sannenzaka (the upper alley) has a local legend that anyone who trips on its steps will die within three years; the practical upshot is that everyone watches their feet, making it one of the least phone-gazing streets in the city. The afternoon light from the west catches the facades well; mornings are better for fewer crowds but the light falls flat.",
+        "walk_to_next": {
+          "to": "Kodaiji",
+          "distance_meters": 350,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Kodaiji",
+        "wikidata_qid": "Q1381870",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kodai-ji",
+        "coordinates": {
+          "lat": 35.0026,
+          "lon": 135.7818
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "The Zen temple built by Nene, the widow of Toyotomi Hideyoshi, in 1606. Less visited than Kiyomizudera but holds some of the finest examples of Kodaiji maki-e lacquerwork in Japan, visible in the kitchen and teahouse interiors. The temple runs illuminated night openings during cherry-blossom season and autumn foliage - the dry landscape garden lit from below against the painted paper screens is a specifically Kyoto image. The bamboo grove on the hillside behind the hojo garden is smaller than Arashiyama but far quieter.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Nanzenji",
+          "wikidata_qid": "Q697197",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Nanzen-ji",
+          "coordinates": {
+            "lat": 35.0116,
+            "lon": 135.7933
+          },
+          "neighborhood": "Higashiyama",
+          "duration_minutes": 75,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The head temple of the Rinzai Nanzenji school, founded 1291 on the former site of an imperial villa. The Sanmon gate is the largest in Japan; climb the interior staircase for a view out over the temple rooftops through the upper balcony arches. The red-brick aqueduct running through the temple grounds is a Meiji-era engineering structure that looks jarring but has been absorbed into the landscape - walk along its top via the Suirokaku path for the most unusual perspective in Higashiyama.",
+          "walk_from_main_route": {
+            "from": "Kodaiji",
+            "distance_meters": 1300,
+            "walking_minutes": 17
+          }
+        },
+        {
+          "activity_title": "Chion-in",
+          "wikidata_qid": "Q1078536",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ch%C5%8Din-in",
+          "coordinates": {
+            "lat": 35.0067,
+            "lon": 135.7824
+          },
+          "neighborhood": "Higashiyama",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The head temple of the Jodo-shu sect, with Japan's largest surviving temple gate (the Sanmon, 1619) and Japan's heaviest bell - 74 tons, rung by 17 monks on New Year's Eve. The steep stone staircase below the gate gives the best architectural approach of any temple in Higashiyama.",
+          "walk_from_main_route": {
+            "from": "Kodaiji",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Gion and the Geisha Quarter",
+      "cluster_tagline": "Lantern-lit hanamachi alleys, the great Yasaka Shrine, and the Philosopher's Path canal",
+      "neighborhood_focus": "Gion / Hanamikoji / Okazaki",
+      "neighborhood_description": "Gion is Kyoto's best-known geisha district, stretching east from the Kamo River between Shijo and Sanjo streets. The preserved wooden okiya (geisha house) facades of Hanamikoji-dori and the tighter backstreet of Shirakawa-minami-dori form the visual core. The Philosopher's Path, a canal-side pedestrian walk lined with cherry trees, links the neighborhood north to the temple cluster around Nanzenji and the Okazaki museum park.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Fushimi Inari-taisha early walk (preview)",
+        "wikidata_qid": "Q462271",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fushimi_Inari-taisha",
+        "coordinates": {
+          "lat": 34.9671,
+          "lon": 135.7727
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Fushimi Inari gets its own full day (Day 3), but if staying near Gion a quick morning ride to see the lower torii tunnels before 7am - when the site is almost empty - is one of the most efficient moves in Kyoto. The first two tunnel sections up to Yotsutsuji take about 20 minutes and show the essential image without the full two-hour mountain climb. Return to Gion for the main day.",
+        "walk_to_next": {
+          "to": "Hanamikoji-dori",
+          "distance_meters": 2100,
+          "walking_minutes": 26
+        }
+      },
+      "afternoon": {
+        "activity_title": "Hanamikoji-dori and Gion backstreets",
+        "wikidata_qid": "Q2065617",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gion",
+        "coordinates": {
+          "lat": 35.0037,
+          "lon": 135.7752
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Hanamikoji-dori is the main preserved ochaya (teahouse) street - wide enough for a single rickshaw, lined with latticed ochre facades and discreet paper lanterns. The real find is Shirakawa-minami-dori one block north: a narrower canal-side path with willow trees overhanging the water and the backs of the ochaya facing the stream. Geiko and maiko are most likely seen between 5:30 and 7pm on Hanamikoji as they move between engagements - do not photograph or follow them, as this is their workplace.",
+        "walk_to_next": {
+          "to": "Yasaka Shrine",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Yasaka Shrine",
+        "wikidata_qid": "Q741507",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Yasaka_Shrine",
+        "coordinates": {
+          "lat": 35.0036,
+          "lon": 135.7785
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "The Shinto shrine at the east end of Shijo-dori, open 24 hours, lit by paper lanterns after dark and flanked by the cherry trees of Maruyama Park. The main gate faces west onto Shijo so it receives a dramatic sunset glow in the late afternoon. The shrine hosts the Gion Matsuri festival in July, the largest festival in Japan, but is worth visiting on any evening for the lantern atmosphere and the constant flow of locals coming to pray.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Philosopher's Path",
+          "wikidata_qid": "Q1546476",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Philosopher%27s_Walk",
+          "coordinates": {
+            "lat": 35.0175,
+            "lon": 135.7944
+          },
+          "neighborhood": "Okazaki / Shishigatani",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "A two-kilometer stone-paved path along the Shishigatani canal between Nanzenji and Ginkakuji, named for Nishida Kitaro who walked it daily. The 500 somei yoshino cherry trees arching over the canal make this the most celebrated spring walk in Kyoto. Out of cherry-blossom season it is quieter and the small independent cafes and pottery shops along the path are easier to enter without waiting.",
+          "walk_from_main_route": {
+            "from": "Yasaka Shrine",
+            "distance_meters": 1500,
+            "walking_minutes": 19
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Fushimi Inari and Fushimi Sake District",
+      "cluster_tagline": "Ten thousand vermilion gates on a mountain, then the canal-side breweries of Japan's sake capital",
+      "neighborhood_focus": "Fushimi",
+      "neighborhood_description": "The southern district of Kyoto contains two completely different attractions that share a 15-minute walk between them. Fushimi Inari-taisha is a Shinto mountain shrine famous for its dense corridors of vermilion torii gates donated by businesses and individuals over centuries. Fushimi Momoyama, just north, is one of Japan's historic sake-brewing centers thanks to its exceptionally soft underground water - the canal-side warehouses and brewery walls are a distinct and quieter version of Kyoto.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 4200,
+      "day_walking_minutes": 53,
+      "morning": {
+        "activity_title": "Fushimi Inari-taisha",
+        "wikidata_qid": "Q462271",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fushimi_Inari-taisha",
+        "coordinates": {
+          "lat": 34.9671,
+          "lon": 135.7727
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The full mountain circuit to the summit at Ichinomine (233 meters) and back takes about two hours and is almost never done by casual tourists - going past Yotsutsuji intersection halfway up immediately thins the crowds to near zero. The torii are densest in the first 20 minutes; above Yotsutsuji the path passes smaller sub-shrines, stone fox guardians, and mountain cedar. Arrive before 7am for the lower tunnels in near solitude. Wear shoes that grip - the stone steps are polished and slope awkwardly.",
+        "walk_to_next": {
+          "to": "Gekkeikan Okura Sake Museum",
+          "distance_meters": 1800,
+          "walking_minutes": 23
+        }
+      },
+      "afternoon": {
+        "activity_title": "Gekkeikan Okura Sake Museum",
+        "wikidata_qid": "Q11374542",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gekkeikan_Okura_Sake_Museum",
+        "coordinates": {
+          "lat": 34.9407,
+          "lon": 135.7637
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Gekkeikan has brewed sake in Fushimi since 1637 and this converted kura (storehouse) museum explains the production process with original equipment intact - the massive cedar vats and hand tools are still in the rooms they were used in. The admission includes a tasting of three varieties. The canal outside the museum (Horikawa) has white walls topped with rooftop tiles and willow trees; the 10-minute walk along the canal to Teradaya boat landing is the best way to see the sake district without a tour.",
+        "walk_to_next": {
+          "to": "Fushimi Momoyama Canal Walk",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Teradaya and Fushimi Canal",
+        "wikidata_qid": "Q7703421",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Teradaya",
+        "coordinates": {
+          "lat": 34.9366,
+          "lon": 135.7612
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Teradaya is the inn where the Bakumatsu-era loyalist Sakamoto Ryoma survived a shogunate assassination attempt in 1866; the current building is a post-fire reconstruction but still operated as an inn and museum. The canal in front - lined with sake warehouse walls, weeping willows, and tour-boat landings - is the most photogenic stretch in Fushimi. The canal boats (fushimi jukkoku-bune) run through the day and are a leisurely way to see the brewery district from the water.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Tofukuji",
+          "wikidata_qid": "Q1539571",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/T%C5%8Dfuku-ji",
+          "coordinates": {
+            "lat": 34.9795,
+            "lon": 135.7749
+          },
+          "neighborhood": "Higashiyama / Fushimi border",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "One of the five great Zen temples of Kyoto, visited by almost no one compared to Kinkakuji despite holding a Muromachi-era sanmon (temple gate) and a modernist checkerboard dry garden designed by Mirei Shigemori in 1939. The garden mixes traditional rock placement with a bold geometric moss-and-stone grid that looks decades ahead of its time. Sits midway between Fushimi Inari and Kyoto Station - easy to add without backtracking.",
+          "walk_from_main_route": {
+            "from": "Fushimi Inari-taisha",
+            "distance_meters": 1500,
+            "walking_minutes": 19
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Arashiyama and Sagano",
+      "cluster_tagline": "Bamboo groves, riverside temples, and the forested valley at Kyoto's western edge",
+      "neighborhood_focus": "Arashiyama / Sagano",
+      "neighborhood_description": "The western edge of Kyoto where the Oi River bends through a valley of forested mountains. Arashiyama has been a aristocratic retreat since the Heian period; the Sagano district immediately behind the main tourist promenade contains some of the least-visited major temples in Kyoto, separated by bamboo-lined paths and rural-feeling lanes. The Tenryuji garden, bamboo grove, and Okochi Sanso villa form a natural circuit.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3600,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Tenryuji and the Sogenchi Garden",
+        "wikidata_qid": "Q1881486",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tenry%C5%AB-ji",
+        "coordinates": {
+          "lat": 35.0167,
+          "lon": 135.6744
+        },
+        "unesco_designation": {
+          "site_name": "Historic Monuments of Ancient Kyoto",
+          "year_inscribed": 1994,
+          "reference_number": 688,
+          "url": "https://whc.unesco.org/en/list/688"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "The head temple of the Rinzai Tenryuji school, founded by Ashikaga Takauji in 1339. The Sogenchi Garden is the primary reason to visit - a borrowed-landscape composition designed by Muso Soseki using Arashiyama mountain as its backdrop. Enter via the north gate from the bamboo grove (separate admission for the garden only vs. the main hall) to walk the stroll garden before the Togetsu-kyo bridge crowds arrive. The dragon ceiling painting in the hojo is a reproduction from 2000 but still forceful at 108 square meters.",
+        "walk_to_next": {
+          "to": "Arashiyama Bamboo Grove",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Arashiyama Bamboo Grove and Okochi Sanso",
+        "wikidata_qid": "Q589820",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arashiyama",
+        "coordinates": {
+          "lat": 35.0175,
+          "lon": 135.6713
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The bamboo grove path between Tenryuji's north gate and Jojakko-ji is about 500 meters long. The famous corridor section lasts only about 200 meters and is densely photographed; continue past it to the Okochi Sanso villa (a reasonable entry fee that includes matcha and a wagashi sweet) for the best elevated view of the Oi River and Arashiyama mountain range, and to see the private garden the silent film star Okochi Denjiro designed and built over 30 years. The bamboo is most atmospheric at the very beginning and end of the day when the light is directional.",
+        "walk_to_next": {
+          "to": "Jojakko-ji",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Jojakko-ji and Nison-in",
+        "wikidata_qid": "Q3812791",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/J%C5%8Djakk%C5%8D-ji",
+        "coordinates": {
+          "lat": 35.0228,
+          "lon": 135.6697
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "A moss-covered Nichiren temple on a hillside above the bamboo district, reached by steep stone steps through a niomon gate with cedars growing out of the walls. Almost always half-empty compared to the sites 400 meters south. The pagoda at the top of the hill has a view south over the Sagano plain. Nison-in, a short walk north along the same lane, has the best maple-lined approach path (sandoming) in Sagano - worth the few minutes even without entering the temple.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Togetsu-kyo Bridge and the Oi River",
+          "wikidata_qid": "Q3543641",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Togetsukyo_Bridge",
+          "coordinates": {
+            "lat": 35.0118,
+            "lon": 135.6774
+          },
+          "neighborhood": "Arashiyama",
+          "duration_minutes": 30,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "The wooden-railed bridge crossing the Oi River has been a feature of Arashiyama since the Heian period. The current structure dates from 1934. The view from the south bank looking back at the bridge with the forested Arashiyama hills above it is the essential Arashiyama photograph - best at sunset when the mountain catches golden light.",
+          "walk_from_main_route": {
+            "from": "Tenryuji and the Sogenchi Garden",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        },
+        {
+          "activity_title": "Daikaku-ji",
+          "wikidata_qid": "Q1145418",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Daikaku-ji",
+          "coordinates": {
+            "lat": 35.0268,
+            "lon": 135.6655
+          },
+          "neighborhood": "Sagano",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Former imperial villa turned Shingon temple complex, 1.5 kilometers northwest of the bamboo grove and usually quiet. The Osawa Pond - one of Japan's oldest garden ponds, created in the 9th century - is used for the annual moon-viewing ceremony in autumn. The covered painted corridors connecting the main halls are the best example of the imperial shinden-zukuri style accessible to the public.",
+          "walk_from_main_route": {
+            "from": "Jojakko-ji and Nison-in",
+            "distance_meters": 1400,
+            "walking_minutes": 18
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Kinkaku-ji, Ryoan-ji, and Nishijin",
+      "cluster_tagline": "The gold pavilion, Japan's most famous rock garden, and the last working weaving district",
+      "neighborhood_focus": "Nishijin / Kinkaku-ji / Kinugasa",
+      "neighborhood_description": "The northwest quadrant of central Kyoto contains the city's most iconic single image (Kinkakuji) and its most contemplated one (Ryoanji's rock garden) within a 20-minute walk of each other. Below them, the Nishijin district is the historic center of Kyoto silk weaving, a living neighborhood of narrow machiya streets where some looms are still audible through the walls.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 4100,
+      "day_walking_minutes": 51,
+      "morning": {
+        "activity_title": "Kinkaku-ji (Temple of the Golden Pavilion)",
+        "wikidata_qid": "Q210080",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kinkaku-ji",
+        "coordinates": {
+          "lat": 35.0394,
+          "lon": 135.7292
+        },
+        "unesco_designation": {
+          "site_name": "Historic Monuments of Ancient Kyoto",
+          "year_inscribed": 1994,
+          "reference_number": 688,
+          "url": "https://whc.unesco.org/en/list/688"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Arrive at opening (9am) to photograph the pavilion reflection on Kyokochi Pond before cloud cover builds. The entire visit follows a one-way path and the pavilion cannot be entered - the experience is the garden walk and three viewpoints of the gold-leaf-covered building over water. The third floor is covered in pure gold leaf on both interior and exterior walls; the phoenix finial on the roof weighs 1 kg of gold. The current building is a 1955 reconstruction after Mishima Yukio's arsonist monk burned the original in 1950.",
+        "walk_to_next": {
+          "to": "Ryoan-ji",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ryoan-ji",
+        "wikidata_qid": "Q744315",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ry%C5%8Dan-ji",
+        "coordinates": {
+          "lat": 35.0345,
+          "lon": 135.7183
+        },
+        "unesco_designation": {
+          "site_name": "Historic Monuments of Ancient Kyoto",
+          "year_inscribed": 1994,
+          "reference_number": 688,
+          "url": "https://whc.unesco.org/en/list/688"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The karesansui rock garden - 15 stones arranged in raked white gravel so that no more than 14 are visible from any single viewing position - is the most debated garden in Japan. No one has documented the original designer or the intention. Sit on the veranda rather than standing; the low wooden seating forces the correct perspective angle. The Ryoan-ji pond garden surrounding the temple buildings is a 15th-century stroll garden that receives far less attention than the rock garden and is more pleasant to walk in.",
+        "walk_to_next": {
+          "to": "Nishijin Textile Center",
+          "distance_meters": 2100,
+          "walking_minutes": 26
+        }
+      },
+      "evening": {
+        "activity_title": "Nishijin Textile Center and the weaving district",
+        "wikidata_qid": "Q3340006",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nishijin",
+        "coordinates": {
+          "lat": 35.0274,
+          "lon": 135.7473
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Nishijin has produced Kyoto's ceremonial silk - nishijin-ori brocade - since the 5th century. The Textile Center on Horikawa-dori has free admission, working Jacquard looms on the ground floor, kimono fashion shows several times daily, and an accessible English-language explanation of the dyeing and weaving process. The real district is the surrounding residential streets: walk east on Imadegawa-dori and turn into the lanes between Horikawa and Omiya to hear working looms in the machiya and see the narrow alley storefronts of specialty thread and obi shops that supply the industry.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Ginkaku-ji (Temple of the Silver Pavilion)",
+          "wikidata_qid": "Q460099",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ginkaku-ji",
+          "coordinates": {
+            "lat": 35.0268,
+            "lon": 135.7982
+          },
+          "neighborhood": "Higashiyama north",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "The pavilion was never actually covered in silver - Ashikaga Yoshimasa ran out of funds. The garden that was built instead is one of the finest in Japan: a Sea of Silver Sand (kogetsudai) raked in precise shapes, a cone of sand symbolizing Mount Fuji, and a hillside moss garden giving views over the city. The contrast with the (actual) gold of Kinkakuji across the city is the point - this is the aesthetic of wabi-sabi restraint versus spectacle. On the northwest quadrant day it is a significant detour; better suited as a morning visit on Day 2 if staying near Gion.",
+          "walk_from_main_route": {
+            "from": "Ryoan-ji",
+            "distance_meters": 4200,
+            "walking_minutes": 53
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "Nijo Castle and the Imperial Park",
+      "cluster_tagline": "Shogun power and imperial restraint in the flat center of the old capital grid",
+      "neighborhood_focus": "Nijo / Kyoto Imperial Park / Teramachi",
+      "neighborhood_description": "The center of the Heian city grid, where the Imperial Palace compound and Nijo Castle face each other across the urban flatland. The Teramachi shopping arcade running south connects the two historical anchors to a street of antiquarian bookshops, lacquerware dealers, and temple gates. This is the least touristed of Kyoto's main historic zones and the most useful for understanding the city as a lived-in place.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3600,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Nijo-jo Castle",
+        "wikidata_qid": "Q645561",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nij%C5%8D_Castle",
+        "coordinates": {
+          "lat": 35.0142,
+          "lon": 135.748
+        },
+        "unesco_designation": {
+          "site_name": "Historic Monuments of Ancient Kyoto",
+          "year_inscribed": 1994,
+          "reference_number": 688,
+          "url": "https://whc.unesco.org/en/list/688"
+        },
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Tokugawa Ieyasu's Kyoto residence, built in 1603 as a deliberate statement of shogunal power in the imperial city. The Ninomaru Palace interior - 33 rooms, 800 tatami mats - is the finest surviving example of shoin-zukuri palatial architecture in Japan. The floors were deliberately built to squeak (uguisubari, nightingale floors) to detect intruders; walk slowly to hear every board protest. The Ninomaru garden, designed by Kobori Enshu, wraps around three sides of the palace with a central pond and pine-covered stone bridges.",
+        "walk_to_next": {
+          "to": "Kyoto Imperial Park",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "afternoon": {
+        "activity_title": "Kyoto Imperial Park and Gosho",
+        "wikidata_qid": "Q1074255",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kyoto_Imperial_Palace",
+        "coordinates": {
+          "lat": 35.0252,
+          "lon": 135.762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "The Imperial Palace (Gosho) has been freely accessible without reservation since 2016 - previously it required advance application. The buildings themselves are 19th-century reconstructions of Heian-period forms (the originals burned repeatedly), but the Oikeniwa garden is authentic and the Sento Imperial Palace garden next door, requiring a separate free-ticket reservation at the Imperial Household Agency office inside the park, is one of the finest stroll gardens in the country. The surrounding park (Kyoto Gyoen) is a 65-hectare public green space favored by locals for picnics and jogging - essentially the city's Central Park.",
+        "walk_to_next": {
+          "to": "Teramachi-dori shopping street",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Teramachi-dori and Nishiki Market",
+        "wikidata_qid": "Q1137487",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nishiki_Market",
+        "coordinates": {
+          "lat": 35.005,
+          "lon": 135.7648
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Nishiki is a covered arcade of 130 shops running five blocks east of Teramachi, known as Kyoto's kitchen since the Edo period. The vendors specialize in things found nowhere else: Kyoto pickles (tsukemono) in dozens of forms, fresh tofu skin (yuba), octopus stuffed with a quail egg, sweet sesame tofu. Most stalls close by 6pm so come in the late afternoon. The parallel Teramachi arcade immediately west has the highest density of antiquarian bookshops and specialist ceramic dealers in Kyoto - worth a slow walk even without buying.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Daitoku-ji temple complex",
+          "wikidata_qid": "Q1166879",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Daitoku-ji",
+          "coordinates": {
+            "lat": 35.0446,
+            "lon": 135.7469
+          },
+          "neighborhood": "Murasakino",
+          "duration_minutes": 90,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A sprawling Rinzai Zen complex of 24 sub-temples, several of which open their gardens to the public on a rotating basis. Daisen-in within the complex contains one of the four great Muromachi dry gardens alongside Ryoanji - two small gravel streams flowing around sculpted rocks representing mountains and ocean, with a famous painted stone boat. Zuiho-in, designed partly by Mirei Shigemori, has the most recent (1961) of Kyoto's significant rock gardens and the least visited.",
+          "walk_from_main_route": {
+            "from": "Kyoto Imperial Park",
+            "distance_meters": 1800,
+            "walking_minutes": 23
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "Uji - Tea, a Temple Island, and a World Heritage Villa",
+      "cluster_tagline": "Japan's tea capital and the 11th-century Phoenix Hall rising over the Uji River",
+      "neighborhood_focus": "Uji",
+      "neighborhood_description": "A compact town 20 minutes south of Kyoto by train, Uji has been Japan's premium tea-growing region since the 12th century when the monk Myoe planted seeds brought from China. The town also contains Byodo-in, an 11th-century Fujiwara-clan villa whose Phoenix Hall appears on the 10-yen coin, and Ujigami Shrine, the oldest surviving Shinto shrine in Japan. The combination of world-heritage architecture and a functioning tea culture makes this the most coherent day-trip option from Kyoto.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3500,
+      "day_walking_minutes": 44,
+      "morning": {
+        "activity_title": "Byodo-in",
+        "wikidata_qid": "Q649011",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Byodo-in",
+        "coordinates": {
+          "lat": 34.8888,
+          "lon": 135.8071
+        },
+        "unesco_designation": {
+          "site_name": "Historic Monuments of Ancient Kyoto",
+          "year_inscribed": 1994,
+          "reference_number": 688,
+          "url": "https://whc.unesco.org/en/list/688"
+        },
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "The Phoenix Hall (Hoodo), built in 1053 for Fujiwara no Yorimichi, is one of the few surviving structures from the Heian period in its original form. The hall sits on a small island reached by bridges over the Aji Pond, built to represent Amida Buddha's Western Paradise. Interior access to see the original 52 cloud-riding bodhisattva sculptures and the gilded Amida statue requires a separately timed ticket (get it at the ticket window, numbers are limited per hour). The reflection on the pond is perfectly symmetrical and most still in the early morning before wind picks up.",
+        "walk_to_next": {
+          "to": "Ujigami Shrine",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ujigami Shrine",
+        "wikidata_qid": "Q1057799",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ujigami_Shrine",
+        "coordinates": {
+          "lat": 34.8898,
+          "lon": 135.8106
+        },
+        "unesco_designation": {
+          "site_name": "Historic Monuments of Ancient Kyoto",
+          "year_inscribed": 1994,
+          "reference_number": 688,
+          "url": "https://whc.unesco.org/en/list/688"
+        },
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Japan's oldest surviving Shinto shrine, with the main hall dated to the late Heian period (ca. 1060) and the haiden (worship hall) from the early Kamakura period - both designated National Treasures. The site is small and receives far fewer visitors than Byodo-in across the river. The forested hillside behind the shrine and the naturalistic stone spring (Kiri-no-Shiru) in the grounds are good reasons to linger. Cross the Uji River on the Uji Bridge, the oldest bridge site in Japan (the current structure is modern), for the view back at the wooded shrine hill.",
+        "walk_to_next": {
+          "to": "Uji tea shops and Nakatani-en",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Uji tea district and Tsuen Tea",
+        "wikidata_qid": "Q11545193",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Uji_tea",
+        "coordinates": {
+          "lat": 34.8879,
+          "lon": 135.8026
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The main shopping street between Uji Station and Byodo-in is lined with tea houses and tea merchants, with free samples of matcha and gyokuro at most. Tsuen, at the foot of Uji Bridge, has been operating as a tea shop since 1160 - reputedly Japan's oldest existing tea merchant. The correct way to drink gyokuro in Uji is cold-brewed in a small ceramic vessel at low temperature rather than hot, which brings out the umami rather than the bitterness. Several shops offer seated tastings comparing matcha, gyokuro, and sencha from the same producer.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mimurotoji",
+          "wikidata_qid": "Q3869578",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mimurotoji",
+          "coordinates": {
+            "lat": 34.9008,
+            "lon": 135.8133
+          },
+          "neighborhood": "Uji",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "A Tendai temple north of Uji center known for its garden, which transitions through azalea (May), hydrangea (June-July), and lotus (August) seasons. Less visited than the main Uji sites and far less curated in feel - the garden has a deliberate wildness compared to the groomed Kyoto temple gardens. The three-story pagoda on the hill offers a view down into the hydrangea slopes that is one of the more unusual compositions in the Kyoto region.",
+          "walk_from_main_route": {
+            "from": "Ujigami Shrine",
+            "distance_meters": 1300,
+            "walking_minutes": 17
+          }
+        }
+      ]
+    }
+  ]
+}

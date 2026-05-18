@@ -1,0 +1,128 @@
+{
+  "destination": "Rio de Janeiro",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T13:02:58.522Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Santa Teresa / Lapa / Centro"
+  ],
+  "guide_description": "One day covering Rio's historic and cultural core: the bohemian hilltop neighborhood of Santa Teresa, the colonial aqueduct and samba arches of Lapa, and the layered monuments of Centro. The day builds from elevated cobblestone streets down through the city's artistic and nightlife heart to the bay.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Santa Teresa, Lapa, and Centro",
+      "cluster_tagline": "Cobblestone hilltops, colonial aqueducts, and the samba-soaked heart of old Rio",
+      "neighborhood_focus": "Santa Teresa / Lapa / Centro",
+      "neighborhood_description": "Santa Teresa is a hilly bohemian enclave above Centro, connected to the city below by the 18th-century Carioca Aqueduct - now the Arcos da Lapa. Below it, Lapa is Rio's most storied nightlife and samba district. Centro preserves the colonial and imperial layers of the city's founding two hundred years of ambition in a few dense blocks.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Escadaria Selaron",
+        "wikidata_qid": "Q2093404",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Escadaria_Selaron",
+        "coordinates": {
+          "lat": -22.9467,
+          "lon": -43.1794
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Chilean artist Jorge Selaron tiled this 215-step staircase with fragments collected from over 60 countries, working on it obsessively from 1990 until his death in 2013. Arrive before 9am to photograph without the dense foot traffic that builds quickly. The staircase runs between Rua Manuel Carneiro at the top and Rua Joaquim Silva at the bottom, putting you one block from the Arcos da Lapa.",
+        "walk_to_next": {
+          "to": "Arcos da Lapa",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Arcos da Lapa",
+        "wikidata_qid": "Q1073177",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carioca_Aqueduct",
+        "coordinates": {
+          "lat": -22.9444,
+          "lon": -43.1808
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Built between 1719 and 1750 to carry fresh water from the Carioca River into the city, the two-tiered Roman-style arches span 270 meters and still carry the historic Santa Teresa tram across the top. The bonde tram departs from here - a ride up into Santa Teresa costs a few reais and gives you the slow elevated approach through the neighborhood that walking cannot replicate.",
+        "walk_to_next": {
+          "to": "Museu Nacional de Belas Artes",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Museu Nacional de Belas Artes",
+        "wikidata_qid": "Q2333",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Nacional_de_Belas_Artes",
+        "coordinates": {
+          "lat": -22.9106,
+          "lon": -43.1756
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Brazil's most important fine arts collection, housed in a 1908 Beaux-Arts building modeled on the Louvre. The Brazilian gallery on the upper floor holds the largest collection of 19th-century Brazilian academic painting in the world, including Vitor Meireles's monumental Primeira Missa no Brasil. Closed Mondays; free on Sundays. The building sits on Cinelandia square, Rio's civic center, with the Municipal Theater across the street - worth a look at the facade even if you don't go in.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Real Gabinete Portugues de Leitura",
+          "wikidata_qid": "Q1963697",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Portuguese_Cabinet_of_Reading",
+          "coordinates": {
+            "lat": -22.9061,
+            "lon": -43.1819
+          },
+          "neighborhood": "Centro",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A neo-Manueline library built in 1887, holding the largest collection of Portuguese-language works outside Portugal - over 350,000 volumes. The interior reading room, with its cast-iron balconies and skylit ceiling, is one of the most photographed library interiors in South America. Entry is free and the building is almost always quiet despite its visual impact.",
+          "walk_from_main_route": {
+            "from": "Arcos da Lapa",
+            "distance_meters": 780,
+            "walking_minutes": 10
+          }
+        },
+        {
+          "activity_title": "Paco Imperial",
+          "wikidata_qid": "Q2027072",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pal%C3%A1cio_Imperial,_Rio_de_Janeiro",
+          "coordinates": {
+            "lat": -22.9055,
+            "lon": -43.1729
+          },
+          "neighborhood": "Centro",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The 1743 colonial palace on Praca XV that served as the residence of the Portuguese royal family after their 1808 flight from Napoleon - the only instance of a European royal court relocating to a colony. The ground floor has a good free permanent exhibition on the building's role in Brazilian independence. The Praca XV waterfront outside faces Guanabara Bay and is the spot to understand why the Portuguese stopped here.",
+          "walk_from_main_route": {
+            "from": "Museu Nacional de Belas Artes",
+            "distance_meters": 630,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}
