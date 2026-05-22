@@ -1,0 +1,519 @@
+{
+  "destination": "Rome",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-17T13:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Centro Storico",
+    "Monti / Ancient Rome",
+    "Vatican City / Borgo",
+    "Trastevere",
+    "Villa Borghese / Tridente"
+  ],
+  "guide_description": "Cinco dias cobrindo os pontos essenciais de Roma, além da boêmia margem oeste e do verdejante nordeste. Cada dia é geograficamente autônomo.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 9120,
+  "total_walking_minutes": 117,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Centro Storico Loop",
+      "cluster_tagline": "Praças barrocas e templos antigos em um centro histórico que pode ser percorrido a pé",
+      "neighborhood_focus": "Centro Storico",
+      "neighborhood_description": "O denso bairro histórico entre a curva do Tibre e a Via del Corso. Templos romanos, praças barrocas e praças de mercado empilhados em cima de dois milênios de malha viária.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1020,
+      "day_walking_minutes": 13,
+      "morning": {
+        "activity_title": "Pantheon",
+        "wikidata_qid": "Q1142794",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "coordinates": {
+          "lat": 41.8986,
+          "lon": 12.4769
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Chegue na hora da abertura (9h) para ver o feixe de luz do óculo aterrissar no interior antes que o andar se encha de grupos de turistas. Uma pequena taxa de entrada é cobrada nos dias de semana; a missa de domingo é gratuita, mas limita a circulação no interior.",
+        "walk_to_next": {
+          "to": "Piazza Navona",
+          "distance_meters": 320,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Piazza Navona and Sant'Agnese in Agone",
+        "wikidata_qid": "Q207110",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_Navona",
+        "coordinates": {
+          "lat": 41.8992,
+          "lon": 12.4731
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Construído sobre a pegada do Estádio de Domiciano, razão pela qual a forma é alongada. A Fonte dos Quatro Rios é de Bernini; a fachada da igreja em frente é de seu rival Borromini - os dois vêm discutindo na piazza desde a década de 1650.",
+        "walk_to_next": {
+          "to": "Trevi Fountain",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Trevi Fountain after dark",
+        "wikidata_qid": "Q1747689",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Trevi_Fountain",
+        "coordinates": {
+          "lat": 41.9009,
+          "lon": 12.4833
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 30,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "A iluminação se acende por volta do pôr do sol e a fonte está visivelmente mais limpa do que sugere a multidão de selfies durante o dia. Aproxime-se pela Via della Stamperia em vez de pela rua principal do funil para a revelação que Fellini usou em La Dolce Vita.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Campo de' Fiori",
+          "wikidata_qid": "Q207258",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Campo_de%27_Fiori",
+          "coordinates": {
+            "lat": 41.8956,
+            "lon": 12.4722
+          },
+          "neighborhood": "Centro Storico",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Mercado de produtos matinais até cerca de 14h, depois volta a ser uma praça de aperitivos no início da noite. A estátua sombria no centro é Giordano Bruno, queimado aqui por heresia em 1600.",
+          "walk_from_main_route": {
+            "from": "Piazza Navona",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Roma Antiga",
+      "cluster_tagline": "O coração imperial - Coliseu, Fórum, Palatino em um parque arqueológico contínuo",
+      "neighborhood_focus": "Monti / Celio / Palatino",
+      "neighborhood_description": "O canto sudeste do centro de Roma, onde a cidade antiga era governada e se divertia. O Coliseu, o Fórum e o Palatino compartilham um único ingresso e uma única zona arqueológica que abrange quase um quilômetro quadrado.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1900,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Colosseum",
+        "wikidata_qid": "Q10285",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colosseum",
+        "coordinates": {
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 90,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Reserve o ingresso com horário marcado on-line com dias de antecedência - quem chega a pé costuma enfrentar filas de 2 horas. O ingresso combinado Colosseum/Forum/Palatino é válido por 24 horas, portanto você não precisa fazer tudo hoje, mas a maioria das pessoas faz isso. O acesso ao piso da arena é um ingresso separado e vale a pena se você conseguir um.",
+        "walk_to_next": {
+          "to": "Roman Forum",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Roman Forum",
+        "wikidata_qid": "Q210081",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roman_Forum",
+        "coordinates": {
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 120,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Entre pela Via dei Fori Imperiali, não pelo lado do Coliseu - a elevação que desce pelos arcos é a abordagem cinematográfica. Leve água; quase não há sombra e os caminhos de mármore refletem o calor.",
+        "walk_to_next": {
+          "to": "Piazza del Campidoglio",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Piazza del Campidoglio and Capitoline views",
+        "wikidata_qid": "Q200831",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_del_Campidoglio",
+        "coordinates": {
+          "lat": 41.8932,
+          "lon": 12.4828
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "A praça de Michelangelo no Monte Capitolino - suba a rampa cordonata em vez de subir as escadas íngremes à sua direita. Caminhe pelos fundos do Palazzo Senatorio para ter uma das melhores vistas gratuitas do Fórum, especialmente na hora do ouro.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Capitoline Museums",
+          "wikidata_qid": "Q193375",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Capitoline_Museums",
+          "coordinates": {
+            "lat": 41.893,
+            "lon": 12.4827
+          },
+          "neighborhood": "Campitelli",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "O museu público mais antigo do mundo (fundado em 1471). A estátua equestre original de bronze de Marcus Aurelius vive aqui - a que está na praça do lado de fora é uma réplica. É uma boa troca para o Fórum em um dia chuvoso, se o tempo estiver ruim.",
+          "walk_from_main_route": {
+            "from": "Piazza del Campidoglio",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Cidade do Vaticano",
+      "cluster_tagline": "O menor país do mundo e a maior igreja da cristandade",
+      "neighborhood_focus": "Vatican City / Borgo",
+      "neighborhood_description": "Um estado independente dentro de Roma, ao qual se chega caminhando para o oeste através do rio Tibre. Os Museus do Vaticano, a Capela Sistina e a Basílica de São Pedro juntos formam um dos locais religiosos e culturais mais visitados do mundo.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Vatican Museums and Sistine Chapel",
+        "wikidata_qid": "Q160821",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vatican_Museums",
+        "coordinates": {
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        "unesco_designation": {
+          "site_name": "Vatican City",
+          "year_inscribed": 1984,
+          "reference_number": 286,
+          "url": "https://whc.unesco.org/en/list/286"
+        },
+        "duration_minutes": 180,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Faça sua reserva on-line no site oficial do museu com semanas de antecedência - as filas de espera costumam ultrapassar 3 horas na temporada. A rota padrão leva todos em direção à Capela Sistina no final; uma vez dentro da capela, você pode sair diretamente para a Basílica de São Pedro se for para a direita.",
+        "walk_to_next": {
+          "to": "St. Peter's Basilica",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "St. Peter's Basilica",
+        "wikidata_qid": "Q12512",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica",
+        "coordinates": {
+          "lat": 41.9022,
+          "lon": 12.4533
+        },
+        "unesco_designation": {
+          "site_name": "Vatican City",
+          "year_inscribed": 1984,
+          "reference_number": 286,
+          "url": "https://whc.unesco.org/en/list/286"
+        },
+        "duration_minutes": 90,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "A entrada é gratuita, mas a fila de segurança na Praça de São Pedro pode ser longa. O código de vestimenta é obrigatório - ombros e joelhos cobertos, sem exceções. A subida à cúpula é um ingresso separado que vale a pena comprar na entrada.",
+        "walk_to_next": {
+          "to": "Castel Sant'Angelo",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Castel Sant'Angelo and the bridge at sunset",
+        "wikidata_qid": "Q189476",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Sant%27Angelo",
+        "coordinates": {
+          "lat": 41.9031,
+          "lon": 12.4663
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "O mausoléu de Adriano virou fortaleza papal e virou museu. Mesmo se você não for ao interior, a Ponte Sant'Angelo, com seus dez anjos projetados por Bernini ao longo da ponte, é um dos melhores passeios ao pôr do sol em Roma, com a cúpula de São Pedro às suas costas e o rio se curvando abaixo.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Via della Conciliazione approach",
+          "wikidata_qid": "Q1377610",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Via_della_Conciliazione",
+          "coordinates": {
+            "lat": 41.9025,
+            "lon": 12.4595
+          },
+          "neighborhood": "Borgo",
+          "duration_minutes": 15,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A avenida da era Mussolini cortava o bairro medieval de Borgo para dar uma aproximação monumental à Basílica de São Pedro. Pedro. Arquitetonicamente controversa, a cúpula revela que caminhar para o oeste é genuinamente cinematográfico.",
+          "walk_from_main_route": {
+            "from": "Castel Sant'Angelo",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Trastevere",
+      "cluster_tagline": "Ruas de paralelepípedos, mosaicos medievais e o bairro mais querido de Roma",
+      "neighborhood_focus": "Trastevere",
+      "neighborhood_description": "Do outro lado do rio Tibre, ao sul do Vaticano, Trastevere é o bairro mais atmosférico de Roma - ruas medievais estreitas, fachadas cobertas de hera e uma história da classe trabalhadora que ainda cintila nos bares e trattorias agora gentrificados.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1400,
+      "day_walking_minutes": 18,
+      "morning": {
+        "activity_title": "Santa Maria in Trastevere",
+        "wikidata_qid": "Q200751",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_in_Trastevere",
+        "coordinates": {
+          "lat": 41.8895,
+          "lon": 12.4694
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Uma das igrejas mais antigas de Roma, com uma tradição contínua de adoração pública desde o século III. O mosaico da abside do século XII, que representa Maria entronizada ao lado de Cristo, é a peça central - visite quando a luz do sol estiver incidindo do leste para que o ouro ganhe vida.",
+        "walk_to_next": {
+          "to": "Villa Farnesina",
+          "distance_meters": 500,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Villa Farnesina",
+        "wikidata_qid": "Q1093297",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Farnesina",
+        "coordinates": {
+          "lat": 41.8929,
+          "lon": 12.4664
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Uma vila renascentista com afrescos de Rafael - muito menos lotada do que o Vaticano, mas com poder artístico comparável. A Loggia de Cupido e Psique e o Triunfo de Galatea são os destaques. Fechado aos domingos, exceto no segundo domingo do mês.",
+        "walk_to_next": {
+          "to": "Gianicolo Hill viewpoint",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Gianicolo Hill at sunset",
+        "wikidata_qid": "Q207365",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Janiculum",
+        "coordinates": {
+          "lat": 41.895,
+          "lon": 12.4622
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Não é uma das sete colinas, mas a melhor vista panorâmica de Roma - todo o horizonte histórico do Vittoriano até a Basílica de São Pedro se estende para o leste. Todos os dias, ao meio-dia, um canhão é disparado de baixo do terraço, uma tradição desde 1847 para sincronizar os sinos das igrejas da cidade.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Santa Cecilia in Trastevere",
+          "wikidata_qid": "Q1356942",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Cecilia_in_Trastevere",
+          "coordinates": {
+            "lat": 41.8875,
+            "lon": 12.4761
+          },
+          "neighborhood": "Trastevere",
+          "duration_minutes": 30,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "A escultura assustadoramente realista de Stefano Maderno da santa martirizada fica sob o altar - modelada, segundo a lenda, na posição em que seu corpo incorrupto foi encontrado quando a tumba foi aberta em 1599. O afresco de Cavallini no coro das freiras exige uma pequena taxa e horário limitado pela manhã.",
+          "walk_from_main_route": {
+            "from": "Santa Maria in Trastevere",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Villa Borghese e o Tridente",
+      "cluster_tagline": "O grande parque de Roma, uma galeria de classe mundial e as elegantes ruas que descem em direção ao Tibre",
+      "neighborhood_focus": "Pinciano / Campo Marzio",
+      "neighborhood_description": "O quadrante nordeste do centro de Roma, onde o maior parque da cidade se encontra com a grade elegante do Tridente - três ruas que se estendem para o sul a partir da Piazza del Popolo e que têm sido o endereço mais elegante de Roma desde o século XVII.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 37,
+      "morning": {
+        "activity_title": "Galleria Borghese",
+        "wikidata_qid": "Q190044",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Galleria_Borghese",
+        "coordinates": {
+          "lat": 41.9142,
+          "lon": 12.4922
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Reserva antecipada obrigatória com entrada programada - o museu limita cada intervalo de duas horas a algumas centenas de pessoas, e é por isso que continua sendo uma das experiências de galeria mais agradáveis de Roma. Apolo e Daphne e Davi, de Bernini, estão aqui, juntamente com Caravaggios e a Canova Pauline Bonaparte. O limite de duas horas é rigorosamente cumprido.",
+        "walk_to_next": {
+          "to": "Pincio Terrace",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Pincio Terrace and Villa Borghese gardens",
+        "wikidata_qid": "Q1054815",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pincian_Hill",
+        "coordinates": {
+          "lat": 41.9114,
+          "lon": 12.4789
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "O terraço do Pincio tem vista para a Piazza del Popolo, com uma vista de longa distância dos telhados até a cúpula de São Pedro. Os jardins da Villa Borghese se estendem ao norte e ao leste - aluguéis de bicicletas perto da entrada, se quiser percorrer o terreno.",
+        "walk_to_next": {
+          "to": "Piazza di Spagna",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Spanish Steps and Piazza di Spagna",
+        "wikidata_qid": "Q193510",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Spanish_Steps",
+        "coordinates": {
+          "lat": 41.9061,
+          "lon": 12.4828
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Desça do Pincio até o topo da Escadaria Espanhola para apreciar a vista da Piazza di Spagna. Sentar-se nos degraus foi proibido e é punido com uma pequena multa - os moradores locais descem por eles e usam a praça abaixo. Keats morreu na pequena casa rosa no canto inferior direito, que agora é um museu.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Piazza del Popolo",
+          "wikidata_qid": "Q207690",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_del_Popolo",
+          "coordinates": {
+            "lat": 41.9108,
+            "lon": 12.4764
+          },
+          "neighborhood": "Campo Marzio",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A entrada norte da histórica Roma - uma praça oval gigante com um obelisco egípcio no centro e igrejas barrocas gêmeas no lado sul. A basílica de Santa Maria del Popolo, no canto nordeste, contém duas das pinturas mais poderosas de Caravaggio (a Conversão de Saulo e a Crucificação de Pedro) penduradas em sua capela original.",
+          "walk_from_main_route": {
+            "from": "Pincio Terrace",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

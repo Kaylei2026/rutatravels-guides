@@ -1,0 +1,484 @@
+{
+  "destination": "Copenhagen",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:26:47.498Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Indre By - Slotsholmen",
+    "Nyhavn - Frederiksstaden",
+    "Rosenborg - Osterbro",
+    "Vesterbro - Frederiksberg",
+    "Christianshavn"
+  ],
+  "guide_description": "Cinco dias cobrindo o caráter essencial de Copenhague: a ilha-fortaleza medieval na fundação da cidade, o distrito do canal e o bairro barroco real, o conjunto de jardins e palácios ao norte, a área ocidental de frigoríficos e parques e a ilha independente do canal do outro lado do porto. Cada dia é geograficamente autocontido e pode ser percorrido a pé sem precisar de metrô.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 18200,
+  "total_walking_minutes": 228,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Slotsholmen e Indre By",
+      "cluster_tagline": "A ilha fundadora - o poder real, as ruas medievais e a praça da prefeitura",
+      "neighborhood_focus": "Indre By / Slotsholmen",
+      "neighborhood_description": "Slotsholmen é a pequena ilha no centro de Copenhague, onde o bispo Absalon construiu o primeiro castelo em 1167. Hoje, ela abriga o Palácio de Christiansborg e um conjunto de instituições democráticas. A rede de ruas medievais ao redor de Indre By a conecta à área comercial Stroget, do século XIX, e à praça da prefeitura.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Christiansborg Palace",
+        "wikidata_qid": "Q319851",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christiansborg_Palace",
+        "coordinates": {
+          "lat": 55.6763,
+          "lon": 12.5796
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "O único edifício do mundo que abriga os três ramos de um governo nacional - o parlamento, a Suprema Corte e o gabinete do primeiro-ministro - compartilha a ilha com os salões de recepção real. O deck de observação da torre gratuita oferece o melhor panorama do centro de Copenhague; pegue o elevador e depois as escadas finais para uma plataforma ao ar livre acima dos telhados de cobre verde. As ruínas do castelo original do Bispo Absalon, de 1167, estão preservadas no porão e estão incluídas no ingresso principal.",
+        "walk_to_next": {
+          "to": "Thorvaldsens Museum",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Thorvaldsens Museum",
+        "wikidata_qid": "Q671888",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Thorvaldsens_Museum",
+        "coordinates": {
+          "lat": 55.6757,
+          "lon": 12.5782
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Construído em 1848 para abrigar o trabalho de toda a vida do escultor Bertel Thorvaldsen e sua coleção pessoal de antiguidades. O friso externo que mostra o retorno triunfal de Thorvaldsen a Copenhague percorre continuamente o edifício. O túmulo do próprio Thorvaldsen fica no pátio aberto no centro - um arranjo excepcionalmente íntimo para um museu dessa escala. A entrada é gratuita para menores de 18 anos e tem um preço modesto para adultos.",
+        "walk_to_next": {
+          "to": "Copenhagen City Hall",
+          "distance_meters": 850,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Copenhagen City Hall and Radhuspladsen",
+        "wikidata_qid": "Q1313098",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Copenhagen_City_Hall",
+        "coordinates": {
+          "lat": 55.6757,
+          "lon": 12.5683
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "O edifício de tijolos vermelhos do Romantismo Nacional de 1905 ancora a extremidade oeste de Stroget. O relógio dentro do salão principal, projetado por Jens Olsen, é um dos relógios astronômicos mecanicamente mais complexos já feitos - levou 27 anos para ser construído e tem precisão de 0,4 segundos a cada 300 anos. O relógio pode ser visto em visitas guiadas durante a semana. A Radhuspladsen ao anoitecer, olhando para o leste pela Stroget em direção ao canal, é a maneira mais simples de ler a orientação da cidade.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The National Museum of Denmark",
+          "wikidata_qid": "Q657010",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Denmark",
+          "coordinates": {
+            "lat": 55.6751,
+            "lon": 12.5739
+          },
+          "neighborhood": "Indre By",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "O maior museu de história cultural da Dinamarca, a cinco minutos de caminhada de Christiansborg. A coleção da Idade do Bronze no segundo andar é excepcional. A carruagem solar de Trundholm, um disco dourado puxado por cavalos de 900 a.C., é o objeto mais impressionante. A seção Viking é completa e não é simplista. A entrada é gratuita.",
+          "walk_from_main_route": {
+            "from": "Christiansborg Palace",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Nyhavn e Frederiksstaden",
+      "cluster_tagline": "O canal pintado e a grade real barroca - o rosto mais reconhecível de Copenhague",
+      "neighborhood_focus": "Nyhavn / Frederiksstaden",
+      "neighborhood_description": "Nyhavn é o canal do século XVII escavado para conectar o porto ao centro da cidade; seu cais norte, com casas de comerciantes pintadas com cores vivas, é a imagem mais fotografada da Dinamarca. A cinco minutos ao norte, Frederiksstaden é um distrito real do século XVIII, disposto em uma grade barroca francesa, centrado em uma praça octogonal com palácios em todos os quatro cantos.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3600,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Nyhavn Canal",
+        "wikidata_qid": "Q186434",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nyhavn",
+        "coordinates": {
+          "lat": 55.6796,
+          "lon": 12.5912
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Caminhe pelo cais sul, não pelo norte - o lado sul fica de frente para as fachadas pintadas e recebe a luz da manhã diretamente sobre elas. Hans Christian Andersen morou nos números 18, 20 e 67 em períodos diferentes; uma pequena placa marca o número 20. Chegue antes das 10h para evitar os grupos de turistas que lotam os bancos do cais norte no meio da manhã.",
+        "walk_to_next": {
+          "to": "Amalienborg Palace",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Amalienborg Palace",
+        "wikidata_qid": "Q318940",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Amalienborg",
+        "coordinates": {
+          "lat": 55.6839,
+          "lon": 12.5932
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "castle",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Quatro palácios rococós idênticos em uma praça octogonal, que ainda são a residência da família real dinamarquesa. A troca da guarda ao meio-dia parte de Christiansborg às 11h30 e chega a Amalienborg ao meio-dia. O Museu de Amalienborg ocupa partes dos palácios de Christian IX e Frederick VIII e mostra os apartamentos reais praticamente inalterados desde o século XIX. Fique no centro do Amalienborg Slotsplads e olhe para o oeste ao longo do eixo para ver a cúpula da Igreja de Mármore perfeitamente emoldurada entre os palácios.",
+        "walk_to_next": {
+          "to": "The Marble Church",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "The Marble Church",
+        "wikidata_qid": "Q1398433",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_Church,_Copenhagen",
+        "coordinates": {
+          "lat": 55.6841,
+          "lon": 12.5899
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "A Frederiks Kirke, inspirada livremente na Basílica de São Pedro em Roma, levou 150 anos para ser construída porque Frederico V ficou sem dinheiro. O interior da cúpula tem 31 metros de diâmetro, o maior da Escandinávia. A passarela da cúpula é aberta ao público nas tardes de fim de semana e oferece uma visão de perto dos cofres pintados no teto e um circuito no telhado acima do tambor de cobre.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The Little Mermaid",
+          "wikidata_qid": "Q221656",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)",
+          "coordinates": {
+            "lat": 55.6929,
+            "lon": 12.5993
+          },
+          "neighborhood": "Langelinie",
+          "duration_minutes": 20,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "A estátua de bronze de Edvard Eriksen, inaugurada em 1913, é famosa por ser menor do que o esperado, com 1,25 metro de altura. Vá de manhã cedo para ter uma chance de vê-la sem uma multidão; ao meio-dia, ela está cercada. Caminhe para o norte ao longo do calçadão de Langelinie em vez de atravessar o parque - você terá a vista do porto e poderá ver a escala das fortificações da Cidadela acima.",
+          "walk_from_main_route": {
+            "from": "Amalienborg Palace",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        },
+        {
+          "activity_title": "Kastellet",
+          "wikidata_qid": "Q1720454",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kastellet,_Copenhagen",
+          "coordinates": {
+            "lat": 55.6908,
+            "lon": 12.5956
+          },
+          "neighborhood": "Frederiksstaden",
+          "duration_minutes": 30,
+          "type": "fortress",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Uma fortaleza em forma de estrela do século XVII que, tecnicamente, ainda é uma instalação militar, mas aberta a pedestres. As muralhas de terraplenagem e o fosso estão totalmente intactos. Caminhar pelo anel externo leva cerca de 20 minutos e oferece uma imagem clara de como funcionava a geometria da cidadela do século XVII. O moinho de vento e a capela internos são originais.",
+          "walk_from_main_route": {
+            "from": "Amalienborg Palace",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Rosenborg e o Bairro dos Museus",
+      "cluster_tagline": "O jardim de lazer renascentista e a maior concentração de coleções nacionais da cidade",
+      "neighborhood_focus": "Rosenborg / Osterbro approach",
+      "neighborhood_description": "O jardim Kongens Have e o Castelo de Rosenborg ficam no extremo norte da cidade medieval, a cinco minutos de caminhada da estação Norreport. Os quarteirões ao redor abrigam o Museu Estadual de Arte, o Museu Geológico e a Coleção Hirschsprung em um raio curto - o equivalente em Copenhague ao aglomerado de South Kensington, em Londres.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Rosenborg Castle",
+        "wikidata_qid": "Q322383",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rosenborg_Castle",
+        "coordinates": {
+          "lat": 55.6861,
+          "lon": 12.5772
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "O palácio de verão renascentista holandês de Christian IV, construído entre 1606 e 1624, agora é um museu cronológico da história real dinamarquesa do século XVII em diante. As joias da coroa estão no tesouro do porão - a coroa de Christian IV e os trajes usados em todas as coroações dinamarquesas desde 1671. O Grande Salão no terceiro andar tem seu teto pintado original e um trono ladeado por três leões de prata em tamanho natural, o que é ao mesmo tempo absurdo e magnífico.",
+        "walk_to_next": {
+          "to": "Kongens Have",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Kongens Have",
+        "wikidata_qid": "Q2542714",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kongens_Have",
+        "coordinates": {
+          "lat": 55.6865,
+          "lon": 12.5754
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "O parque público mais antigo de Copenhague, aberto aos cidadãos no século XVIII e gratuito. A geometria do jardim que circunda o Rosenborg é o layout formal francês original do século XVII; as seções externas são um parque inglês mais informal. Os shows de marionetes acontecem nas tardes de verão perto do Hercules Pavilion - um pequeno ritual genuinamente local que a maioria dos visitantes passa sem perceber.",
+        "walk_to_next": {
+          "to": "National Gallery of Denmark",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "National Gallery of Denmark - Statens Museum for Kunst",
+        "wikidata_qid": "Q671384",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Statens_Museum_for_Kunst",
+        "coordinates": {
+          "lat": 55.6891,
+          "lon": 12.5768
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "A coleção nacional de arte da Dinamarca em um edifício de 1896 conectado a uma ala modernista de 1998 por uma rua de esculturas cheia de luz. A coleção da Era de Ouro dinamarquesa - Eckersberg, Hammershoi, Lundbye - é o principal motivo para visitar o local e está sub-representada internacionalmente. As telas de grande formato de Rubens na ala mais antiga são inesperadamente boas. A entrada é gratuita para a coleção permanente.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The Hirschsprung Collection",
+          "wikidata_qid": "Q1622492",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hirschsprung_Collection",
+          "coordinates": {
+            "lat": 55.6906,
+            "lon": 12.5768
+          },
+          "neighborhood": "Osterbro",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A coleção pessoal de arte dinamarquesa do século XIX do magnata do tabaco Heinrich Hirschsprung, legada ao estado em 1902 e exibida em um pavilhão neoclássico construído especialmente para ela no parque. Quase nenhum turista internacional. Somente os cômodos do Hammershoi - interiores em tons de cinza de uma quietude impressionante - já valem a modesta taxa de entrada.",
+          "walk_from_main_route": {
+            "from": "National Gallery of Denmark",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Vesterbro e Frederiksberg",
+      "cluster_tagline": "O distrito de meatpacking, um parque na colina real e o melhor mercado de alimentos de Copenhague",
+      "neighborhood_focus": "Vesterbro / Frederiksberg",
+      "neighborhood_description": "Vesterbro era o distrito de matadouros da classe trabalhadora de Copenhague, hoje o bairro de design e gastronomia mais dinâmico da cidade. Dez minutos a oeste, a pé, Frederiksberg é um município totalmente separado - uma rica cidade-jardim com um imponente parque na colina e uma residência real de verão. Juntos, eles formam o itinerário de um dia inteiro mais agradável e menos turístico da cidade.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 4200,
+      "day_walking_minutes": 53,
+      "morning": {
+        "activity_title": "Torvehallerne Market",
+        "wikidata_qid": "Q12329584",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Torvehallerne",
+        "coordinates": {
+          "lat": 55.6833,
+          "lon": 12.5689
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Dois salões de mercado cobertos de vidro na Israels Plads com cerca de 60 barracas. O balcão de peixe defumado e sanduíche aberto no Hall 1, próximo à entrada leste, é o almoço mais copiado em Copenhague - o salmão curado no centeio com mostarda e endro é uma referência razoável do que o smorrebrod pode ser. Vá entre 9 e 11 da manhã, antes que a fila do almoço aumente. As barracas de flores no perímetro externo são do histórico mercado ao ar livre que antecedeu os salões.",
+        "walk_to_next": {
+          "to": "Meatpacking District - Kodbyen",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "afternoon": {
+        "activity_title": "Kodbyen - the Meatpacking District",
+        "wikidata_qid": "Q3856563",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/K%C3%B8dbyen",
+        "coordinates": {
+          "lat": 55.6702,
+          "lon": 12.5537
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Três zonas funcionalmente distintas - a Brown Meat City, a White Meat City e a Grey Meat City - construídas entre 1879 e 1934, todas ainda com interiores originais de azulejos e acessórios de ferro fundido. A White Meat City é a seção mais animada atualmente, com restaurantes e galerias ocupando os antigos salões de açougue. O dia é mais calmo; a maioria dos locais abre adequadamente a partir das 17h, mas a arquitetura fica melhor com a luz da tarde nas fachadas brancas.",
+        "walk_to_next": {
+          "to": "Frederiksberg Gardens",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "evening": {
+        "activity_title": "Frederiksberg Gardens and Palace",
+        "wikidata_qid": "Q1393018",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Frederiksberg_Gardens",
+        "coordinates": {
+          "lat": 55.6731,
+          "lon": 12.5232
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "A paisagem mais bem projetada de Copenhague - um jardim formal de parterre francês próximo ao palácio que se transforma em um romântico parque inglês com um lago e canais ao descer a colina. O Palácio de Frederiksberg fica no topo e ainda é usado pela academia militar real; o exterior e os terraços são acessíveis. O pavilhão chinês na ilha do lago inferior foi construído em 1799 e é uma das loucuras reais mais excêntricas da Escandinávia. O pôr do sol no terraço do palácio olha para o leste sobre os telhados em direção ao centro da cidade.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Cisternerne",
+          "wikidata_qid": "Q15643930",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cisternerne",
+          "coordinates": {
+            "lat": 55.6742,
+            "lon": 12.5204
+          },
+          "neighborhood": "Frederiksberg",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Uma cisterna de água doce do século XIX sob a colina de Frederiksberg, convertida em um espaço de instalação e arte contemporânea. As câmaras abobadadas de tijolos têm uma fina película de água no chão que cria reflexos espelhados nos tetos em arco - o espaço é realmente diferente de tudo em Copenhague. O acesso é feito por uma entrada discreta no parque próximo ao Glass Hall.",
+          "walk_from_main_route": {
+            "from": "Frederiksberg Gardens",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Christianshavn",
+      "cluster_tagline": "A ilha do canal do outro lado do porto - a Igreja de Nosso Salvador, uma cidade livre utópica, e muralhas à beira-mar",
+      "neighborhood_focus": "Christianshavn",
+      "neighborhood_description": "Christianshavn é uma ilha artificial construída por Christian IV em 1617 como um bairro comercial e naval, separado da cidade antiga pelo porto interno. Seus canais e muralhas de influência holandesa a tornam arquitetonicamente distinta do resto de Copenhague. Em sua extremidade leste, Christiania funciona como um bairro autônomo autodeclarado desde 1971.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3500,
+      "day_walking_minutes": 44,
+      "morning": {
+        "activity_title": "Church of Our Saviour",
+        "wikidata_qid": "Q1392025",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Church_of_Our_Saviour,_Copenhagen",
+        "coordinates": {
+          "lat": 55.6731,
+          "lon": 12.5929
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "A escada helicoidal externa de 1752 serpenteia no sentido anti-horário ao redor da parte externa da torre para os 150 degraus finais - o corrimão está na altura da cintura e os degraus se estreitam em direção ao topo, portanto, é realmente exposta. A vista da bola dourada no topo abrange toda a cidade e o porto. O interior barroco tem uma caixa de órgão esculpida de quatro andares e um motivo de elefante e castelo por toda parte, fazendo referência à Ordem Dinamarquesa do Elefante. Vá em uma manhã clara, quando o porto brilha e a ponte Oresund é visível ao sul.",
+        "walk_to_next": {
+          "to": "Christiania",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Freetown Christiania",
+        "wikidata_qid": "Q207784",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Freetown_Christiania",
+        "coordinates": {
+          "lat": 55.6731,
+          "lon": 12.5993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Fundada em 1971, quando posseiros ocuparam um quartel militar desativado. Cerca de 800 residentes ainda vivem sob um acordo semi-autônomo negociado com o estado dinamarquês. A fotografia é proibida na Pusher Street, mas é bem-vinda no restante do bairro, incluindo a área do lago, os jardins comunitários e as oficinas de artesanato. A arquitetura é uma genuína colcha de retalhos folclórica de materiais reciclados acumulados ao longo de 50 anos - caminhe em direção aos lagos de muralha na extremidade leste para ver a parte mais atmosférica.",
+        "walk_to_next": {
+          "to": "Christianshavn Canal",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Christianshavn Canal and Ramparts",
+        "wikidata_qid": "Q1075498",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christianshavn_Canal",
+        "coordinates": {
+          "lat": 55.6729,
+          "lon": 12.5866
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Caminhe por toda a extensão do canal central, desde a ponte Knippelsbro até a ponte giratória em Trangraven. O lado sul do canal (Overgaden Neden Vandet) tem a melhor iluminação à noite e as casas do canal aqui estão entre as mais antigas sobreviventes na cidade, datando das décadas de 1670-1690. A caminhada pela muralha externa ao longo de Christianshavn Vold é mais tranquila e dá a sensação mais completa da geometria da fortificação original de engenharia holandesa.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Danish Architecture Center - Blox",
+          "wikidata_qid": "Q56226296",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/BLOX",
+          "coordinates": {
+            "lat": 55.6733,
+            "lon": 12.5793
+          },
+          "neighborhood": "Christianshavn",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "O edifício de cubos empilhados de 2018 da OMA, situado diretamente na borda do porto, em frente a Slotsholmen. As exposições do DAC sobre arquitetura dinamarquesa e escandinava e design urbano são sempre bem selecionadas. O terraço do telhado no lado sul do edifício é de acesso gratuito e oferece um ângulo baixo incomum da torre Christiansborg do outro lado da água.",
+          "walk_from_main_route": {
+            "from": "Christianshavn Canal",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "destination": "Barcelona",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Barri Gòtic / El Born"
+  ],
+  "guide_description": "Um dia de caminhada pelo centro medieval de Barcelona, ancorado na Catedral Gótica e estendendo-se para o leste até El Born. Ruas estreitas de pedra, fundações romanas e uma das mais densas concentrações de arquitetura medieval da Europa em um circuito de 1 km.",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 1800,
+  "total_walking_minutes": 23,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Barri Gòtic e El Born",
+      "cluster_tagline": "Barcelona medieval a pé - Catedral, muralhas romanas e o bairro dos comerciantes",
+      "neighborhood_focus": "Barri Gòtic / El Born",
+      "neighborhood_description": "Os dois bairros medievais adjacentes que formam o núcleo histórico de Barcelona. O Barri Gòtic foi construído sobre fundações romanas e está centrado na catedral gótica; El Born, a leste, é o antigo bairro dos comerciantes, mais estreito e animado, com a basílica de Santa Maria del Mar em seu centro.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Cathedral of Barcelona (La Seu)",
+        "wikidata_qid": "Q56551",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cathedral_of_Barcelona",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1761
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "A catedral gótica do século XIV, muitas vezes confundida com a Sagrada Família de Gaudí, mas arquitetonicamente totalmente distinta. O claustro com seus treze gansos brancos (um para cada ano da vida de Santa Eulália, segundo a tradição) é a peça central inesperada. Os terraços do telhado são acessíveis por elevador mediante o pagamento de uma pequena taxa e oferecem uma vista do telhado do bairro gótico que as multidões da Sagrada Família raramente procuram.",
+        "walk_to_next": {
+          "to": "Plaça del Rei",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Plaça del Rei and the Roman walls",
+        "wikidata_qid": "Q807877",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1775
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "A praça real medieval, emoldurada pelo Palau Reial Major, onde Colombo teria apresentado suas descobertas a Fernando e Isabel em 1493. A entrada do Museu de História de Barcelona MUHBA, na praça, desce pelo subsolo até 4 km de Barcino romano notavelmente preservado - ruas, tinturarias, vinícolas - diretamente abaixo de seus pés. A visita ao museu mais surpreendente de Barcelona.",
+        "walk_to_next": {
+          "to": "Santa Maria del Mar",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Santa Maria del Mar",
+        "wikidata_qid": "Q930687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+        "coordinates": {
+          "lat": 41.3838,
+          "lon": 2.1819
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Construída entre 1329 e 1383 pelos comerciantes e carregadores do bairro de Ribera, financiada inteiramente pela classe trabalhadora, o apelido local é \"a Catedral do Mar\". O interior gótico catalão puro é excepcionalmente amplo e arejado em comparação com seus pares góticos franceses, com proporções que influenciaram arquitetos de Gaudí em diante. O sol do final da tarde através da rosácea é a recompensa visual. O romance da basílica de Ildefonso Falcones a popularizou no exterior na década de 2000.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Picasso Museum",
+          "wikidata_qid": "Q832627",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Picasso",
+          "coordinates": {
+            "lat": 41.3853,
+            "lon": 2.1808
+          },
+          "neighborhood": "El Born",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A maior coleção dos primeiros trabalhos de Picasso, abrigada em cinco mansões medievais interligadas em El Born. O ponto forte do museu é mostrar Picasso antes de ele ser Picasso - os anos acadêmicos de Barcelona, o Período Azul, as variações de Las Meninas de 1957. Fechado às segundas-feiras. Entrada gratuita nas quintas-feiras à tarde e no primeiro domingo de cada mês - nesses horários, há muita fila.",
+          "walk_from_main_route": {
+            "from": "Santa Maria del Mar",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Plaça Reial",
+          "wikidata_qid": "Q1132498",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_Reial",
+          "coordinates": {
+            "lat": 41.3803,
+            "lon": 2.175
+          },
+          "neighborhood": "Barri Gòtic",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "Praça com arcadas do século XIX ao lado de La Rambla, com palmeiras e dois postes de iluminação de ferro fundido projetados por um jovem Antoni Gaudí - entre suas primeiras encomendas pagas em 1879. Os bares e restaurantes da praça são turísticos durante o dia, mas o cenário arquitetônico se transforma após o anoitecer. Ao voltar de Santa Maria del Mar pela Carrer del Bisbe, você verá a ponte gótica mais fotografada do bairro.",
+          "walk_from_main_route": {
+            "from": "Cathedral of Barcelona",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    }
+  ]
+}

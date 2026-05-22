@@ -1,0 +1,574 @@
+{
+  "destination": "Lisbon",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:11:30.882Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Alfama / Castelo",
+    "Baixa / Chiado",
+    "Belem",
+    "Principe Real / Bairro Alto",
+    "Parque das Nacoes"
+  ],
+  "guide_description": "Cinco dias percorrendo Lisboa desde suas origens mouriscas no topo da colina até seus monumentos ribeirinhos da Era dos Descobrimentos, passando pelo elegante centro pombalino, o boêmio Upper West Side e a modernizada orla oriental construída para a Expo 98. Cada grupo é geograficamente autônomo e pode ser percorrido a pé em seu próprio bairro.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 14200,
+  "total_walking_minutes": 178,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Alfama e a Colina dos Mouros",
+      "cluster_tagline": "O bairro mais antigo de Lisboa - o castelo, as ruelas de fado e os miradouros nos telhados",
+      "neighborhood_focus": "Alfama / Castelo",
+      "neighborhood_description": "O bairro mais antigo de Lisboa, ocupando a colina a leste da Baixa que os mouros fortificaram no século VIII. Sua rede de ruas foi a única parte da cidade que sobreviveu ao terremoto de 1755 praticamente intacta, deixando um emaranhado de vielas íngremes, fachadas de azulejos e terraços com mirantes sobre o estuário do Tejo.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2400,
+      "day_walking_minutes": 30,
+      "morning": {
+        "activity_title": "Castelo de Sao Jorge",
+        "wikidata_qid": "Q388503",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Jorge_Castle",
+        "coordinates": {
+          "lat": 38.7139,
+          "lon": -9.1334
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Chegue na abertura (9h) antes que os ônibus de turismo cheguem do terminal de cruzeiros. O circuito das ameias leva cerca de 40 minutos em um ritmo relaxado e oferece uma visão de 360 graus da cidade - o estuário do Tejo ao sul, a grade da Baixa logo abaixo, a torre de Belém visível em dias claros. O sítio arqueológico dentro das muralhas expõe camadas mouriscas, romanas e da Idade do Ferro em uma única trincheira; o pequeno museu no local contextualiza bem a estratigrafia.",
+        "walk_to_next": {
+          "to": "Miradouro das Portas do Sol",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Miradouro das Portas do Sol",
+        "wikidata_qid": "Q15921256",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Portas_do_Sol_viewpoint",
+        "coordinates": {
+          "lat": 38.7132,
+          "lon": -9.1308
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "O terraço no antigo portão de entrada da cidade mourisca, diretamente acima dos telhados de Alfama. A estátua aqui é de São Vicente, o santo padroeiro de Lisboa, com dois corvos - os corvos aparecem no brasão da cidade. Sente-se na cafeteria do quiosque em vez de no restaurante adjacente; a mesma vista, um terço do preço.",
+        "walk_to_next": {
+          "to": "Se de Lisboa",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Se de Lisboa (Lisbon Cathedral)",
+        "wikidata_qid": "Q1062889",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lisbon_Cathedral",
+        "coordinates": {
+          "lat": 38.7099,
+          "lon": -9.1328
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Fundada em 1147 no local de uma mesquita, depois que Afonso Henriques tomou a cidade dos mouros, as duas torres quadradas lembram o caráter militar do românico português inicial. O claustro gótico na parte de trás expõe vestígios romanos e mouros sob o piso, acessíveis com um bilhete para o claustro. O tesouro no andar de cima guarda as relíquias do segundo santo padroeiro de Lisboa, Santo Antônio (Santo Antônio de Pádua), que nasceu em uma casa do outro lado da rua.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Miradouro da Graca",
+          "wikidata_qid": "Q10342648",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Graca_viewpoint",
+          "coordinates": {
+            "lat": 38.7158,
+            "lon": -9.1299
+          },
+          "neighborhood": "Graca",
+          "duration_minutes": 30,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "O mais alto dos miradouros de Alfama e o menos visitado pelos turistas de primeira viagem, a 10 minutos de caminhada morro acima do castelo. A vista do pôr do sol inclui o castelo na colina oposta, o Tejo e a ponte. O quiosque aqui se enche de moradores locais no final da tarde - uma seção transversal confiável do bairro, em vez de um terraço turístico.",
+          "walk_from_main_route": {
+            "from": "Castelo de Sao Jorge",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        },
+        {
+          "activity_title": "Museu do Fado",
+          "wikidata_qid": "Q1422028",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_do_Fado",
+          "coordinates": {
+            "lat": 38.7121,
+            "lon": -9.1277
+          },
+          "neighborhood": "Alfama",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "O museu dedicado à música de fado no Largo do Chafariz de Dentro, uma das raras praças planas de Alfama. As estações de escuta ao longo do museu permitem que você percorra as vozes canônicas do fado - Amália Rodrigues, Mariza, Carlos do Carmo - com contexto suficiente para entender como o gênero evoluiu das tabernas à beira-mar da década de 1820 para as salas de concerto de hoje. Fechado às segundas-feiras.",
+          "walk_from_main_route": {
+            "from": "Miradouro das Portas do Sol",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Baixa e Chiado",
+      "cluster_tagline": "A grade pombalina, os cafés Art Nouveau e a alma comercial da cidade",
+      "neighborhood_focus": "Baixa / Chiado",
+      "neighborhood_description": "O centro plano da cidade foi reconstruído pelo Marquês de Pombal após o terremoto de 1755 em uma grade racional de fachadas neoclássicas uniformes. A Baixa vai da beira do rio Tejo até a praça do Rossio; o Chiado é o bairro literário e dos cafés na encosta imediatamente a oeste, onde fica a livraria mais antiga de Lisboa e seus cafés Art Nouveau.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 27,
+      "morning": {
+        "activity_title": "Praca do Comercio",
+        "wikidata_qid": "Q1055834",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pra%C3%A7a_do_Com%C3%A9rcio",
+        "coordinates": {
+          "lat": 38.7075,
+          "lon": -9.1364
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "A grande praça ribeirinha de Pombal, construída no local do Palácio Real da Ribeira que o terremoto destruiu. O arco triunfal no lado norte leva à grade da Baixa. Atravesse o arco e olhe para trás - o enquadramento do rio e da estátua equestre de José I é a experiência pretendida. A ala oeste com arcadas abriga o Lisbon Story Centre, uma orientação útil de 45 minutos sobre a história da cidade se o dia estiver nublado.",
+        "walk_to_next": {
+          "to": "Elevador de Santa Justa",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Elevador de Santa Justa",
+        "wikidata_qid": "Q1142398",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Justa_Lift",
+        "coordinates": {
+          "lat": 38.7124,
+          "lon": -9.1393
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "O elevador de ferro neogótico de 1902 conecta a grade da Baixa ao topo da colina do Chiado - não é tecnicamente um projeto de Gustave Eiffel, apesar da reivindicação local, mas foi projetado por seu aluno Raoul Mesnier du Ponsard. A fila para o elevador pode durar 30 minutos; se estiver com pressa, a escadaria das Escadinhas do Duque, uma quadra a oeste, sobe a mesma altura em cerca de 5 minutos e o deixa diretamente no Largo do Carmo. A passarela do telhado do elevador oferece uma boa vista para a área da Baixa.",
+        "walk_to_next": {
+          "to": "Largo do Carmo and Carmo Convent",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Convento do Carmo and the Carmo Archaeological Museum",
+        "wikidata_qid": "Q1130516",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carmo_Convent",
+        "coordinates": {
+          "lat": 38.7128,
+          "lon": -9.1404
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "archaeological_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "A igreja gótica foi destruída no terremoto de 1755 e nunca foi reconstruída - a nave foi deliberadamente deixada sem teto, agora um esqueleto aberto de arcos góticos emoldurando o céu. O museu arqueológico dentro da abside é um improvável gabinete de curiosidades: Múmias egípcias, múmias peruanas, artefatos pré-colombianos e pedras romanas dividindo o mesmo espaço. A combinação da nave em ruínas com o estranho museu faz com que essa seja uma das visitas a museus mais peculiares da cidade.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Livraria Bertrand",
+          "wikidata_qid": "Q1816388",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Livraria_Bertrand",
+          "coordinates": {
+            "lat": 38.7109,
+            "lon": -9.1426
+          },
+          "neighborhood": "Chiado",
+          "duration_minutes": 20,
+          "type": "street",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Fundada em 1732, certificada pelo Guinness como a livraria em funcionamento mais antiga do mundo. A loja atual, na Rua Garrett 73, está nessa rua desde 1773. As salas dos fundos ainda parecem um salão literário do século XIX. Mesmo que você não compre nada, a seção de literatura portuguesa organizada por época é, por si só, uma pequena educação.",
+          "walk_from_main_route": {
+            "from": "Convento do Carmo",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Praca do Rossio",
+          "wikidata_qid": "Q1139610",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rossio_square",
+          "coordinates": {
+            "lat": 38.714,
+            "lon": -9.1393
+          },
+          "neighborhood": "Baixa",
+          "duration_minutes": 20,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "O coração social da Baixa, pavimentado com a calçada portuguesa em preto e branco com padrão ondulado que se tornou a assinatura visual de Lisboa. A coluna no centro representa Pedro IV, não Pombal - fácil de confundir. As duas portas em estilo manuelino do Teatro Nacional, no lado norte, merecem uma olhada atenta; o teatro foi construído em 1846 no local do principal tribunal da Inquisição.",
+          "walk_from_main_route": {
+            "from": "Elevador de Santa Justa",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Belém e os monumentos do rio",
+      "cluster_tagline": "Onde a Era dos Descobrimentos zarpou - torres manuelinas, um mosteiro real e tortas de creme",
+      "neighborhood_focus": "Belem",
+      "neighborhood_description": "O distrito ribeirinho a 6 quilômetros a oeste da Baixa, de onde Vasco da Gama partiu para a Índia em 1497. O estilo manuelino de arquitetura - uma variante portuguesa do gótico tardio que incorpora a iconografia marítima - atinge seu auge aqui no Mosteiro dos Jerônimos e na Torre de Belém. O bonde 15E da Praça da Figueira é a rota mais direta.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Mosteiro dos Jeronimos",
+        "wikidata_qid": "Q210272",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jer%C3%B3nimos_Monastery",
+        "coordinates": {
+          "lat": 38.6979,
+          "lon": -9.2068
+        },
+        "unesco_designation": {
+          "site_name": "Monastery of the Hieronymites and Tower of Belem in Lisbon",
+          "year_inscribed": 1983,
+          "reference_number": 263,
+          "url": "https://whc.unesco.org/en/list/263"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Construída a partir de 1501 com as receitas do comércio de especiarias para agradecer a bem-sucedida viagem de Vasco da Gama à Índia. O portal sul, de frente para o rio, está entre as fachadas mais esculpidas de Portugal - gaste 10 minutos lendo-o antes de entrar. No interior, a igreja de uma só nave e o claustro de dois andares são ambos no estilo manuelino, que tece esferas armilares, cordas e corais nas colunas de pedra. O túmulo de Vasco da Gama está na igreja, à direita na entrada; Luís de Camões, autor do épico nacional, está do outro lado do corredor.",
+        "walk_to_next": {
+          "to": "Pasteis de Belem",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Padrao dos Descobrimentos (Monument to the Discoveries)",
+        "wikidata_qid": "Q1123709",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monument_to_the_Discoveries",
+        "coordinates": {
+          "lat": 38.6938,
+          "lon": -9.2057
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "O monumento de 1960, na margem do Tejo, tem a forma de uma proa de caravela com 33 figuras da Era dos Descobrimentos dispostas em fileiras. O elevador interno chega a uma plataforma no telhado com uma vista clara para o oeste, em direção à Torre de Belém e à Ponte 25 de Abril. A grande rosa dos ventos incrustada no pavimento da praça foi um presente da África do Sul em 1960 e marca as rotas das principais descobertas portuguesas com datas.",
+        "walk_to_next": {
+          "to": "Torre de Belem",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Torre de Belem",
+        "wikidata_qid": "Q201436",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower",
+        "coordinates": {
+          "lat": 38.6916,
+          "lon": -9.216
+        },
+        "unesco_designation": {
+          "site_name": "Monastery of the Hieronymites and Tower of Belem in Lisbon",
+          "year_inscribed": 1983,
+          "reference_number": 263,
+          "url": "https://whc.unesco.org/en/list/263"
+        },
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Construído entre 1516 e 1521 como um portal cerimonial para Lisboa, agora se encontra ligeiramente para o interior devido à mudança do curso do Tejo. O interior é pequeno e as escadarias são íngremes; o que realmente interessa é a loggia externa de arcos manuelinos de frente para o rio e a vista do terraço superior ao pôr do sol, quando a Ponte 25 de Abril e a estátua do Cristo Rei do outro lado da água ficam douradas. Reserve os ingressos on-line para evitar a fila, que pode demorar 45 minutos.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museu de Arte Popular",
+          "wikidata_qid": "Q15948661",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_de_Arte_Popular",
+          "coordinates": {
+            "lat": 38.6952,
+            "lon": -9.2042
+          },
+          "neighborhood": "Belem",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "O museu de arte popular de 1948, entre o Pádrao e os jardins do rio, é constantemente ignorado pelos visitantes na rota Jerônimo-torre. Ele abrange artesanato rural e trajes de todas as províncias portuguesas, organizados por região. Os móveis pintados do Minho e as cerâmicas do Alentejo são particularmente fortes. Um contraponto tranquilo aos monumentos imperiais em ambos os lados.",
+          "walk_from_main_route": {
+            "from": "Padrao dos Descobrimentos",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Museu Nacional de Arqueologia",
+          "wikidata_qid": "Q1752033",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Archaeology_Museum,_Lisbon",
+          "coordinates": {
+            "lat": 38.6978,
+            "lon": -9.2083
+          },
+          "neighborhood": "Belem",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Localizado na ala oeste do complexo do Mosteiro dos Jerônimos, compartilhando o mesmo prédio, mas com uma entrada separada. As joias de ouro pré-históricas da Idade do Bronze são o destaque, principalmente as lúnulas de ouro e o Tesouro de Aljezur. Fechado às segundas-feiras.",
+          "walk_from_main_route": {
+            "from": "Mosteiro dos Jeronimos",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Príncipe Real e Bairro Alto",
+      "cluster_tagline": "Jardins botânicos, palácios e o miradouro que os habitantes locais usam",
+      "neighborhood_focus": "Principe Real / Bairro Alto",
+      "neighborhood_description": "A encosta oeste superior acima do Chiado, centrada na frondosa Praça do Príncipe Real e seu plátano do século XIX. O bairro abrigava a aristocracia antes do terremoto e agora abriga livrarias independentes, antiquários e bares de vinho natural. A grade do Bairro Alto, imediatamente ao sul, é o tradicional bairro do fado e da vida noturna, melhor explorado como uma continuação da mesma colina.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Jardim Botanico de Lisboa",
+        "wikidata_qid": "Q1516179",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lisbon_Botanical_Garden",
+        "coordinates": {
+          "lat": 38.7174,
+          "lon": -9.1499
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "O jardim botânico de 1873 da Universidade de Lisboa, que se espalha pela encosta da colina em becos com terraços de dragoeiros e cicadáceas. Entre pela Rua da Escola Politécnica, na parte superior, para caminhar ladeira abaixo pela coleção, em vez de subir por ela. O jardim é deliberadamente deixado com uma aparência de vegetação rasteira - um contraste com o jardim mais formal da Ajuda em Belém - e as árvores maduras o tornam um dos locais mais frescos da cidade no verão.",
+        "walk_to_next": {
+          "to": "Museu Nacional de Historia Natural e da Ciencia",
+          "distance_meters": 100,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Palacio e Jardins do Principe Real (Praca do Principe Real)",
+        "wikidata_qid": "Q1778289",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pra%C3%A7a_do_Pr%C3%ADncipe_Real",
+        "coordinates": {
+          "lat": 38.7162,
+          "lon": -9.1479
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "A praça é ancorada por um cedro de 150 anos cujos galhos horizontais são sustentados por postes de ferro para evitar que cheguem ao chão, criando um dossel vivo sobre a área central de assentos. O mercado orgânico de sábado ao redor da praça é um dos melhores mercados de alimentos de Lisboa. O palácio no lado leste da praça abriga as coleções de geologia e história natural; a verdadeira atração é a própria praça como centro do bairro.",
+        "walk_to_next": {
+          "to": "Miradouro de Sao Pedro de Alcantara",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Miradouro de Sao Pedro de Alcantara",
+        "wikidata_qid": "Q10345406",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Pedro_de_Alcantara_viewpoint",
+        "coordinates": {
+          "lat": 38.7147,
+          "lon": -9.1443
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "O ponto de vista do jardim com terraço na extremidade leste do Bairro Alto, com uma linha de visão direta para a colina do castelo. Um painel de azulejos no terraço superior identifica cada ponto de referência visível na colina oposta pelo nome - use-o como uma aula de geografia depois de três dias na cidade. O terraço superior recebe luz direta do pôr do sol; o terraço inferior tem o quiosque e tende a ser mais movimentado.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museu do Azulejo (National Tile Museum)",
+          "wikidata_qid": "Q1526945",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Tile_Museum",
+          "coordinates": {
+            "lat": 38.7231,
+            "lon": -9.1147
+          },
+          "neighborhood": "Xabregas (eastern Lisbon)",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Instalado no Convento da Madre de Deus, do século XVI, a cerca de 2,5 km a leste do Príncipe Real (melhor acesso pelo bonde 28 ou Uber). A coleção permanente abrange 500 anos da tradição do azulejo português, desde as formas geométricas mouriscas até os painéis narrativos do século XVIII. O destaque é um painel de azulejos panorâmico de 23 metros da Lisboa pré-terremoto, datado de cerca de 1738 - o único registro visual detalhado da cidade antes da destruição de 1755.",
+          "walk_from_main_route": {
+            "from": "Praca do Principe Real",
+            "distance_meters": 2800,
+            "walking_minutes": 35
+          }
+        },
+        {
+          "activity_title": "Igreja de Sao Roque",
+          "wikidata_qid": "Q1073087",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Roque",
+          "coordinates": {
+            "lat": 38.7136,
+            "lon": -9.1432
+          },
+          "neighborhood": "Bairro Alto",
+          "duration_minutes": 40,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A igreja jesuíta no topo do Bairro Alto, construída na década de 1560, com um exterior deliberadamente simples que não dá nenhuma pista do extraordinário interior. A Capela de São João Batista, a quarta à esquerda, foi encomendada pelo Rei João V e construída em Roma entre 1742 e 1747 - os mosaicos que parecem pinturas são feitos de milhares de tesselas tão finas que simulam um trabalho de pincel. Em seguida, ele foi desmontado, enviado para Lisboa e remontado aqui. A entrada para o museu adjacente é separada.",
+          "walk_from_main_route": {
+            "from": "Miradouro de Sao Pedro de Alcantara",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Parque das Nações",
+      "cluster_tagline": "A orla fluvial da Expo 98 - arquitetura arrojada, o estuário do Tejo e a maior ponte da Europa",
+      "neighborhood_focus": "Parque das Nacoes",
+      "neighborhood_description": "O distrito da orla nordestina foi construído em um local industrial abandonado para a Exposição Mundial de 1998 sobre o tema dos Oceanos. A infraestrutura deixada para trás inclui a estação de trem Oriente de Santiago Calatrava, o Oceanário, um calçadão à beira do rio ao longo do estuário do Tejo e um teleférico que percorre toda a extensão do parque. Um contraponto deliberado à cidade histórica.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 4100,
+      "day_walking_minutes": 51,
+      "morning": {
+        "activity_title": "Estacao do Oriente",
+        "wikidata_qid": "Q1124835",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oriente_station",
+        "coordinates": {
+          "lat": 38.7676,
+          "lon": -9.0991
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "A estação de Santiago Calatrava de 1998 é a âncora arquitetônica do local da Expo e um dos edifícios não-museu mais visitados de Lisboa. A cobertura de aço e vidro sobre as plataformas imita uma floresta de palmeiras e é melhor lida a partir do terminal de ônibus no nível da rua abaixo, olhando para cima - a abordagem turística padrão a partir da entrada principal deixa isso totalmente de fora. O nível superior de compras conecta-se diretamente ao calçadão do Parque das Nações.",
+        "walk_to_next": {
+          "to": "Oceanario de Lisboa",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "afternoon": {
+        "activity_title": "Oceanario de Lisboa",
+        "wikidata_qid": "Q1753822",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lisbon_Oceanarium",
+        "coordinates": {
+          "lat": 38.7633,
+          "lon": -9.0935
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Projetado por Peter Chermayeff para a Expo 98, o Oceanário foi construído como uma ilha no estuário, com seu tanque principal visível de cima, no nível da água e embaixo. O tanque central - 7 milhões de litros - abriga um ecossistema de oceano aberto compatível com o tubarão-baleia, com tubarões-martelo, peixes-lua e cardumes de atum circulando juntos. Compre ingressos on-line para evitar filas; a primeira sessão do dia é mais tranquila do que a do meio-dia.",
+        "walk_to_next": {
+          "to": "Telecabine Lisboa cable car",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Ponte Vasco da Gama viewed from the Tagus waterfront",
+        "wikidata_qid": "Q208279",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge",
+        "coordinates": {
+          "lat": 38.7008,
+          "lon": -9.0991
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Com 17,2 km, a Ponte Vasco da Gama é a ponte mais longa da Europa, construída para a Expo de 1998 para aliviar a sobrecarregada Ponte 25 de Abril. A partir do calçadão norte do Parque das Nações, a extensão total da ponte se estende até a névoa sobre o estuário; em noites claras, a luz na água e a escala da travessia contra a planície alentejana na margem oposta são realmente impressionantes. Caminhe para o sul ao longo do calçadão a partir do Oceanário para obter o melhor ângulo desobstruído.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Telecabine Lisboa",
+          "wikidata_qid": "Q7692009",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Telecabine_Lisboa",
+          "coordinates": {
+            "lat": 38.7649,
+            "lon": -9.0939
+          },
+          "neighborhood": "Parque das Nacoes",
+          "duration_minutes": 30,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "O teleférico percorre 1,25 km ao longo da orla do Tejo, entre o Oceanário e a Torre Vasco da Gama, no extremo sul do parque. Ele oferece uma visão aérea do local da Expo e do estuário que é impossível de ser obtida de outra forma. Funciona em ambas as direções; a maioria das pessoas vai em uma direção e volta a pé. Verifique os horários de funcionamento, pois ele fecha em caso de mau tempo e opera em horário reduzido no inverno.",
+          "walk_from_main_route": {
+            "from": "Oceanario de Lisboa",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Pavilhao do Conhecimento - Ciencia Viva",
+          "wikidata_qid": "Q15943621",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pavilh%C3%A3o_do_Conhecimento",
+          "coordinates": {
+            "lat": 38.7664,
+            "lon": -9.0951
+          },
+          "neighborhood": "Parque das Nacoes",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "O museu interativo de ciências no antigo Pavilhão do Conhecimento da Expo 98, atualmente o centro nacional de ciências. A coleção permanente tem uma forte seção de engenharia civil que abrange a construção de pontes, construção sísmica e hidráulica - contexto relevante devido ao histórico de terremotos de Lisboa. Melhor para dias chuvosos ou se estiver viajando com crianças. Fechado às segundas-feiras.",
+          "walk_from_main_route": {
+            "from": "Oceanario de Lisboa",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

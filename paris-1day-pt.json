@@ -1,0 +1,162 @@
+{
+  "destination": "Paris",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Île de la Cité / Le Marais"
+  ],
+  "guide_description": "Um dia de caminhada ao longo da espinha dorsal medieval do Sena em Paris, ancorada na Île de la Cité e estendendo-se a leste até Le Marais. Dois dos mais importantes interiores góticos da França e a mais antiga praça planejada da cidade, tudo em um circuito de 1,5 km.",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 1450,
+  "total_walking_minutes": 19,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Île de la Cité e Le Marais",
+      "cluster_tagline": "Paris medieval no Sena - interiores góticos e a praça planejada mais antiga da cidade",
+      "neighborhood_focus": "Île de la Cité / Le Marais",
+      "neighborhood_description": "A Île de la Cité é o coração geográfico e histórico de Paris, o assentamento galo-romano original em uma ilha do Sena. Le Marais, do outro lado do rio, a leste, é o bairro judeu medieval que escapou das demolições de Haussmann no século XIX, preservando ruas estreitas e mansões aristocráticas.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1450,
+      "day_walking_minutes": 19,
+      "morning": {
+        "activity_title": "Sainte-Chapelle",
+        "wikidata_qid": "Q193517",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+        "coordinates": {
+          "lat": 48.8554,
+          "lon": 2.345
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "A capela real do século XIII, construída por Luís IX para abrigar a Coroa de Espinhos. Evite a capela inferior e suba as escadas - quinze vitrais que se elevam por quinze metros contam a maior parte da Bíblia, e o sol da manhã através da rosácea voltada para o leste é a experiência de luz gótica mais intensa da Europa. Dentro do complexo do Palais de Justice, portanto, é necessária uma triagem de segurança no portão de entrada no Boulevard du Palais.",
+        "walk_to_next": {
+          "to": "Notre-Dame de Paris",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Notre-Dame de Paris",
+        "wikidata_qid": "Q160236",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+        "coordinates": {
+          "lat": 48.853,
+          "lon": 2.3499
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Reaberta em dezembro de 2024 após o incêndio de 2019. A entrada é gratuita, mas é necessário fazer reserva antecipada pelo site oficial da catedral, com vagas diárias limitadas. O interior pós-restauração é o mais limpo que a catedral já teve em mais de dois séculos - o calcário limpo parece quase amarelo, em vez do cinza fuliginoso da memória anterior ao incêndio. A subida ao tesouro e à torre são ingressos pagos separadamente.",
+        "walk_to_next": {
+          "to": "Place des Vosges",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Place des Vosges and Le Marais wandering",
+        "wikidata_qid": "Q189660",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Place_des_Vosges",
+        "coordinates": {
+          "lat": 48.8554,
+          "lon": 2.3656
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "A praça planejada mais antiga de Paris (1612), um retângulo com arcadas perfeitas que serviu de modelo para o projeto urbano residencial em toda a Europa. Victor Hugo morou no número 6 - seu apartamento agora é um museu gratuito. Caminhe pelas ruas ao redor - Rue des Rosiers, Rue Vieille-du-Temple, Rue des Francs-Bourgeois - para ver a maior concentração de hôtels particuliers do século XVII em Paris.",
+        "walk_to_next": {
+          "to": "Pont Neuf",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Pont Neuf at sunset",
+          "wikidata_qid": "Q207614",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pont_Neuf",
+          "coordinates": {
+            "lat": 48.857,
+            "lon": 2.3415
+          },
+          "neighborhood": "Île de la Cité",
+          "duration_minutes": 30,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Apesar do nome (Ponte Nova), é a ponte mais antiga de Paris, concluída em 1607. O jardim Vert-Galant na ponta da ilha é o melhor local para o pôr do sol no centro de Paris - desça a escada atrás da estátua equestre de Henri IV.",
+          "walk_from_main_route": {
+            "from": "Place des Vosges",
+            "distance_meters": 950,
+            "walking_minutes": 12
+          }
+        },
+        {
+          "activity_title": "Conciergerie",
+          "wikidata_qid": "Q200644",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Conciergerie",
+          "coordinates": {
+            "lat": 48.8566,
+            "lon": 2.3458
+          },
+          "neighborhood": "Île de la Cité",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "O palácio real medieval, mais tarde uma prisão revolucionária onde Maria Antonieta passou suas últimas semanas. A Salle des Gens d'Armes é um dos maiores salões góticos remanescentes da Europa. O ingresso combinado com a Sainte-Chapelle economiza alguns euros.",
+          "walk_from_main_route": {
+            "from": "Sainte-Chapelle",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Hôtel de Sully",
+          "wikidata_qid": "Q1262026",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/H%C3%B4tel_de_Sully",
+          "coordinates": {
+            "lat": 48.8542,
+            "lon": 2.3656
+          },
+          "neighborhood": "Le Marais",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Uma mansão de 1625 com um dos pátios mais fotogênicos do Marais. O pátio e os jardins são gratuitos e abertos ao público; o interior abriga a livraria Centre des Monuments Nationaux. Conecta-se diretamente à Place des Vosges por uma porta discreta no jardim dos fundos.",
+          "walk_from_main_route": {
+            "from": "Place des Vosges",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}
