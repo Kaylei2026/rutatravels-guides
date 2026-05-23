@@ -1,0 +1,544 @@
+{
+  "destination": "Bangkok",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:38:16.774Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Rattanakosin Island",
+    "Chao Phraya Riverside / Bang Rak",
+    "Dusit",
+    "Chinatown / Sampeng",
+    "Sukhumvit / Silom"
+  ],
+  "guide_description": "Cinco días por las distintas capas de Bangkok: la sagrada isla real de Rattanakosin, la ribera colonial y sus museos, el distrito ceremonial real de Dusit, la sobrecarga sensorial de Chinatown, y los rascacielos y vida callejera de la ciudad moderna en Sukhumvit. Cada zona es independiente y accesible en barco fluvial, BTS o tuk-tuk.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 18200,
+  "total_walking_minutes": 228,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Isla Real Rattanakosin",
+      "cluster_tagline": "El núcleo sagrado: gran palacio, templos dorados y los cimientos fundacionales de la ciudad",
+      "neighborhood_focus": "Rattanakosin Island",
+      "neighborhood_description": "La isla artificial creada por un canal excavado en 1783 cuando el Rey Rama I estableció Bangkok como capital. Todo lo que la dinastía Chakri construyó para legitimar la nueva ciudad está aquí a distancia caminable: el Grand Palace, Wat Phra Kaew, Wat Pho y los campos ceremoniales reales de Sanam Luang.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 40,
+      "morning": {
+        "activity_title": "Grand Palace and Wat Phra Kaew",
+        "wikidata_qid": "Q210496",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_Palace",
+        "coordinates": {
+          "lat": 13.75,
+          "lon": 100.4913
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Llega a la Puerta Visetchaisri en Na Phra Lan Road a las 8:30am - el palacio abre a las 8:30am y el calor del patio se vuelve asfixiante hacia las 10am. El código de vestimenta se aplica estrictamente: hombros y rodillas cubiertos, nada sin mangas - hay alquiler de sarongs en la puerta pero la cola para conseguirlos suma 20 minutos. El Buda Esmeralda dentro de Wat Phra Kaew mide solo 66cm pero se alza en un trono de varios niveles; las tres túnicas estacionales cambiadas por el rey son visibles en vitrinas. Calcula mínimo 2.5 horas para el complejo completo.",
+        "walk_to_next": {
+          "to": "Wat Pho",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Wat Pho and the Reclining Buddha",
+        "wikidata_qid": "Q840226",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wat_Pho",
+        "coordinates": {
+          "lat": 13.7465,
+          "lon": 100.4927
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "El Buda reclinado mide 46 metros de largo y 15 metros de alto - la escala no se aprecia en fotografías hasta estar parado a los pies mirando hacia las plantas doradas incrustadas con 108 símbolos auspiciosos de nácar. El complejo del templo también alberga la primera universidad pública de Tailandia (fundada en 1788) y el centro nacional de masaje tradicional - un masaje de pies de 30 minutos en la escuela del sitio cuesta una fracción de los precios de spa externos y es auténtico.",
+        "walk_to_next": {
+          "to": "Sanam Luang",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Sanam Luang and Wat Mahathat",
+        "wikidata_qid": "Q2741648",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sanam_Luang",
+        "coordinates": {
+          "lat": 13.7542,
+          "lon": 100.4921
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "El campo ceremonial real al norte del Grand Palace es mejor al final de la tarde cuando se instalan los vendedores y los voladores de cometas toman la sección sur. El borde occidental da directamente al Río Chao Phraya y recibe todo el atardecer. Wat Mahathat en el borde norte del campo alberga un centro de meditación Vipassana bien considerado, abierto a visitantes la mayoría de las noches - entra por la segunda puerta en Mahathat Road para el mercado de amuletos que funciona en el patio cubierto.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Wat Arun (Temple of Dawn)",
+          "wikidata_qid": "Q899583",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wat_Arun",
+          "coordinates": {
+            "lat": 13.7436,
+            "lon": 100.4888
+          },
+          "neighborhood": "Thonburi",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "sunset",
+          "notes": "Cruza el Chao Phraya en el ferry de dos baht desde el muelle Tha Tien (directamente detrás de Wat Pho) - el cruce toma 90 segundos y la vista de la torre prang desde el barco es la fotografía. El prang central mide 70 metros de alto y está completamente incrustado con fragmentos de porcelana china; puedes subir escalones empinados hasta el primer nivel de terraza. El templo mira al este y lleva el nombre del amanecer, pero la mejor luz para fotografías es la tarde desde la ribera de Wat Pho.",
+          "walk_from_main_route": {
+            "from": "Wat Pho",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Museum of Siam",
+          "wikidata_qid": "Q6940099",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_Siam",
+          "coordinates": {
+            "lat": 13.7453,
+            "lon": 100.4942
+          },
+          "neighborhood": "Rattanakosin",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Ubicado en un edificio neoclásico europeo que fue el antiguo Ministerio de Comercio, este es el mejor museo de Bangkok para entender la identidad nacional tailandesa - la exhibición permanente es interactiva y genuinamente provocativa sobre lo que significa ser tailandés. Cerrado los lunes. El aire acondicionado es muy fuerte; trae una chaqueta.",
+          "walk_from_main_route": {
+            "from": "Wat Pho",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Chao Phraya Riverside",
+      "cluster_tagline": "El malecón colonial - muelles fluviales, fundaciones de arte y los barrios más antiguos de Bangkok",
+      "neighborhood_focus": "Bang Rak / Charoen Krung",
+      "neighborhood_description": "El tramo de Charoen Krung Road al sur de Silom fue la primera calle pavimentada de Bangkok (1861) y la dirección de todas las embajadas extranjeras y casas comerciales durante la era de los puertos de tratado. Hoy alberga los espacios de arte contemporáneo más interesantes de la ciudad junto con casas comerciales sino-portuguesas que aún se conservan, el Oriental Hotel y los muelles de ferry del río.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3400,
+      "day_walking_minutes": 43,
+      "morning": {
+        "activity_title": "BACC - Bangkok Art and Culture Centre",
+        "wikidata_qid": "Q5718626",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bangkok_Art_and_Culture_Centre",
+        "coordinates": {
+          "lat": 13.7466,
+          "lon": 100.5311
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "El edificio circular con atrio en la intersección de Pathumwan es la principal institución de arte contemporáneo de Bangkok - la entrada es gratuita a las galerías en espiral y a las librerías independientes y estudios de artistas del anillo exterior. Cerrado los lunes. El edificio mismo, con su rampa interior que serpentea por nueve pisos, está vagamente inspirado en el Guggenheim y es un destino arquitectónico. Llega temprano antes de que los grupos de turistas empiecen a usar el atrio como punto de descanso.",
+        "walk_to_next": {
+          "to": "Jim Thompson House",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "afternoon": {
+        "activity_title": "Jim Thompson House",
+        "wikidata_qid": "Q3185609",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_Thompson_House",
+        "coordinates": {
+          "lat": 13.7479,
+          "lon": 100.5268
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Seis casas tradicionales tailandesas de teca ensambladas junto a un klong (canal) por el empresario de seda estadounidense Jim Thompson, quien desapareció en Malaysia en 1967 - el misterio añade atmósfera al lugar. La entrada es solo con guía; los tours se realizan continuamente en múltiples idiomas y duran 45 minutos, seguidos de tiempo libre en el jardín. La colección de cerámicas asiáticas y diseño de seda tailandesa es de clase mundial. La casa al borde del canal está orientada hacia atrás según la costumbre tailandesa para mirar al agua; esto significa que la entrada principal del sala da la espalda a la carretera.",
+        "walk_to_next": {
+          "to": "Charoen Krung / Capella Bangkok area",
+          "distance_meters": 1800,
+          "walking_minutes": 23
+        }
+      },
+      "evening": {
+        "activity_title": "Charoen Krung and the MOCA riverfront strip",
+        "wikidata_qid": "Q1762778",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Charoen_Krung_Road",
+        "coordinates": {
+          "lat": 13.7234,
+          "lon": 100.5126
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "El tramo inferior de Charoen Krung entre SOI 36 y el río es el barrio de renovación post-industrial más interesante de Bangkok - almacenes convertidos ahora albergan galerías, bares de cócteles y restaurantes en las mismas cuadras que salas de santuarios chinos centenarios y salas de oración musulmanas. Camina hacia el río por cualquier soi que termine con un letrero de muelle pequeño; la ribera al atardecer con el tráfico de carga y las luces del ferry es una de las mejores vistas gratuitas de la ciudad.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Assumption Cathedral Bangkok",
+          "wikidata_qid": "Q2846027",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Assumption_Cathedral,_Bangkok",
+          "coordinates": {
+            "lat": 13.7247,
+            "lon": 100.5143
+          },
+          "neighborhood": "Bang Rak",
+          "duration_minutes": 30,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Una catedral católica de estilo neorrománico de 1910 en Oriental Avenue construida por misioneros franceses - el interior tiene un techo abovedado pintado en azul pálido y dorado y altares laterales rococó que resultan completamente incongruentes en una calle secundaria de Bangkok. Casi nunca está abarrotada. Entra por la puerta de Oriental Lane, no por la carretera principal.",
+          "walk_from_main_route": {
+            "from": "Charoen Krung Road",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Wat Yannawa",
+          "wikidata_qid": "Q8047268",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wat_Yannawa",
+          "coordinates": {
+            "lat": 13.7182,
+            "lon": 100.5137
+          },
+          "neighborhood": "Bang Rak",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un templo de la era Rattanakosin construido con la forma de un junco chino - Rama III lo mandó construir de esta manera para preservar el conocimiento de los barcos de vela para los tailandeses que tal vez nunca vieran el mar. Los dos chedi que forman los mástiles y el bot en forma de casco se ven mejor desde el sendero elevado a lo largo del lado del río de los terrenos del templo.",
+          "walk_from_main_route": {
+            "from": "Charoen Krung Road southern end",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Distrito Real Dusit",
+      "cluster_tagline": "Bulevares europeos y realeza tailandesa - el distrito que Rama V construyó después de visitar París",
+      "neighborhood_focus": "Dusit",
+      "neighborhood_description": "El Rey Rama V regresó de su gira europea de 1897 e inmediatamente encargó amplias avenidas, salones del trono neoclásicos y un palacio de influencia barroca al norte de la ciudad antigua. El resultado es un distrito que se siente como una interpretación tailandesa de Viena o Bruselas, construido alrededor del zoológico más antiguo de Tailandia y la majestuosa Mansión de Teca Vimanmek.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3600,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Vimanmek Teak Mansion",
+        "wikidata_qid": "Q3566426",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vimanmek_Mansion",
+        "coordinates": {
+          "lat": 13.7664,
+          "lon": 100.5143
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Supuestamente el edificio de teca dorada más grande del mundo - tres pisos, 81 habitaciones, ensamblado sin un solo clavo usando ensamblajes tradicionales, reubicado aquí desde la isla Ko Si Chang en 1901. La entrada es solo con visitas guiadas en inglés que se realizan aproximadamente cada hora. La colección de artefactos reales del interior incluye la primera ducha instalada en Tailandia y la primera máquina de escribir adaptada para el alfabeto tailandés. El código de vestimenta es igual al del Gran Palacio - hombros y rodillas cubiertas; préstamo gratuito de sarongs en la entrada.",
+        "walk_to_next": {
+          "to": "Ananta Samakhom Throne Hall",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ananta Samakhom Throne Hall",
+        "wikidata_qid": "Q1361617",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ananta_Samakhom_Throne_Hall",
+        "coordinates": {
+          "lat": 13.7691,
+          "lon": 100.5157
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Un salón del trono con cúpula de mármol del Renacimiento italiano completado en 1915, diseñado por Mario Tamagno y Annibale Rigotti - la pieza de arquitectura europea más grandiosa de Bangkok. Los frescos del techo interior por artistas italianos representan a los primeros seis reyes Chakri. Entrada por la puerta del Museo de Carruajes Reales en U-Thong Nai Road; el edificio a veces está cerrado por ceremonias reales sin aviso previo, así que revisa los letreros en la entrada antes de comprar un boleto en el pabellón adyacente Arts of the Kingdom.",
+        "walk_to_next": {
+          "to": "Dusit Zoo / Royal Pastures",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Royal Plaza and the Equestrian Statue of Rama V",
+        "wikidata_qid": "Q6371225",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Plaza,_Bangkok",
+        "coordinates": {
+          "lat": 13.77,
+          "lon": 100.5139
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La amplia plaza ceremonial frente al salón del trono culmina en la estatua ecuestre de bronce de 1908 de Rama V, que funciona como un santuario diario - los tailandeses traen ofrendas de rosas rojas, incienso y figuras de elefantes durante todo el día. Los martes por la noche (el día asociado con Rama V) las ofrendas alcanzan una escala considerable y la plaza se llena de devotos. La alineación de la estatua, la cúpula del salón del trono y los cuarteles de la Guardia Real crea una de las mejores vistas urbanas de Bangkok durante la hora dorada.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Wat Benchamabophit (Marble Temple)",
+          "wikidata_qid": "Q1386349",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wat_Benchamabophit",
+          "coordinates": {
+            "lat": 13.7636,
+            "lon": 100.5122
+          },
+          "neighborhood": "Dusit",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Completado en 1911 usando mármol Carrara importado de Italia - el bot (salón de ordenación) es el ejemplo más refinado de la arquitectura tardía de Rattanakosin. El patio trasero contiene 52 imágenes de Buda de bronce que representan cada tradición de postura de toda Asia y sirve como una especie de biblioteca de referencia de iconografía budista. Los monjes recogen limosnas a lo largo del camino del canal fuera de la entrada principal cada mañana a las 6am.",
+          "walk_from_main_route": {
+            "from": "Ananta Samakhom Throne Hall",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Chinatown y Sampeng",
+      "cluster_tagline": "La experiencia sensorial más intensa: tiendas de oro, callejones de templos y la comida callejera más vibrante de Bangkok",
+      "neighborhood_focus": "Chinatown / Yaowarat / Sampeng",
+      "neighborhood_description": "La comunidad china de Bangkok fue reubicada aquí desde Rattanakosin cuando se despejó la isla real en 1782. El resultado son tres siglos de energía comercial concentrada: la franja de tiendas de oro de Yaowarat Road, el mercado mayorista de Sampeng Lane que serpentea por el centro, y docenas de templos Teochew escondidos detrás de las fachadas de las casas comerciales.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 4100,
+      "day_walking_minutes": 51,
+      "morning": {
+        "activity_title": "Wat Traimit and the Golden Buddha",
+        "wikidata_qid": "Q3570204",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wat_Traimit",
+        "coordinates": {
+          "lat": 13.7395,
+          "lon": 100.5143
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "El Buda de oro sólido de 5.5 toneladas de la era Sukhothai (la imagen de Buda de oro sólido más grande del mundo por peso) fue descubierto accidentalmente en 1955 cuando se agrietó un recubrimiento de yeso durante una mudanza - la estatua había sido disfrazada, posiblemente para protegerla de la invasión birmana. El tercer piso del edificio cuenta esta historia en paneles bilingües en inglés bien diseñados. El cuarto piso alberga el Yaowarat Chinatown Heritage Center, que es la mejor introducción a lo que estás a punto de recorrer.",
+        "walk_to_next": {
+          "to": "Sampeng Lane",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sampeng Lane and Yaowarat Road",
+        "wikidata_qid": "Q7411832",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sampeng_Lane",
+        "coordinates": {
+          "lat": 13.7408,
+          "lon": 100.5036
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Sampeng Lane (Soi Wanit 1) es un callejón techado de aproximadamente un kilómetro de largo y apenas lo suficientemente ancho para que pasen dos personas, completamente abarrotado de telas al por mayor, productos plásticos, artículos de fiesta y mercería. Camina toda su extensión de este a oeste, luego dirígete al norte hacia Yaowarat Road para la franja de tiendas de oro. Las tiendas de oro muestran precios en vivo y venden por peso - los interiores de las tiendas con sus collares de oro iluminados apilados del suelo al techo valen la pena ver incluso sin comprar. El calor de la tarde en el callejón techado es considerable; toma cualquiera de los sois norte-sur cuando necesites aire.",
+        "walk_to_next": {
+          "to": "Talad Noi neighborhood",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Talad Noi and the Yaowarat street food strip",
+        "wikidata_qid": "Q7679060",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Talat_Noi",
+        "coordinates": {
+          "lat": 13.7347,
+          "lon": 100.5084
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Talad Noi es el pequeño subdistrito ribereño en la punta sur de Chinatown - callejones estrechos entre almacenes sino-portugueses del siglo XIX, santuarios de clanes chinos y un astillero de décadas que aún opera. Por la noche toda el área entre Talad Noi y Yaowarat se transforma en la zona de comida callejera más concentrada de Bangkok: pato asado, tortillas de ostras, dim sum y congee disponibles en carritos que han estado en la misma familia por generaciones. La esquina de Yaowarat y Mangkon Roads a las 8pm es el epicentro.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Wat Mangkon Kamalawat",
+          "wikidata_qid": "Q3570205",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wat_Mangkon_Kamalawat",
+          "coordinates": {
+            "lat": 13.7423,
+            "lon": 100.5043
+          },
+          "neighborhood": "Chinatown",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "El templo budista-taoísta-confuciano chino más grande y activo de Bangkok, fundado en 1871 por la comunidad Teochew. El humo de cientos de varillas de incienso simultáneas es tan denso que pica - entra por el lado de Charoen Krung a través de la puerta del dragón en lugar de la entrada de Yaowarat Road, donde la presión de la multitud es mayor. El interior tiene tres salones separados con diferentes panteones de deidades distribuidos a través del edificio.",
+          "walk_from_main_route": {
+            "from": "Sampeng Lane",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Pak Khlong Talat (Flower Market)",
+          "wikidata_qid": "Q7124506",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pak_Khlong_Talat",
+          "coordinates": {
+            "lat": 13.7389,
+            "lon": 100.4953
+          },
+          "neighborhood": "Pak Khlong",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "El mercado mayorista de flores de Bangkok opera las 24 horas con el volumen más dramático llegando entre medianoche y las 4am, pero la tarde es cuando el lado minorista es más accesible. Guirnaldas de caléndula para ofrendas, ramos de orquídeas e hilos de jazmín vendidos por kilo por comerciantes que han trabajado en los mismos puestos durante décadas. Ubicado en el extremo occidental de Chinatown en el embarcadero de Memorial Bridge - más fácil de combinar con un ferry de regreso por el río.",
+          "walk_from_main_route": {
+            "from": "Wat Traimit",
+            "distance_meters": 1200,
+            "walking_minutes": 15
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Sukhumvit y Silom",
+      "cluster_tagline": "Bangkok moderno - bares en azoteas, parques verdes y el mejor museo de arte contemporáneo de la ciudad",
+      "neighborhood_focus": "Sukhumvit / Silom / Lumphini",
+      "neighborhood_description": "La columna vertebral comercial de la ciudad moderna que se extiende a lo largo del BTS Skytrain. Lumphini Park ancla el extremo oeste; el MOCA y las galerías contemporáneas se agrupan alrededor de los sois centrales de Sukhumvit; y el mercado nocturno y las calles de comida se extienden por los sois numerados del 11 al 55. Este es el Bangkok en el que realmente viven la mayoría de los residentes de larga estadía.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3900,
+      "day_walking_minutes": 49,
+      "morning": {
+        "activity_title": "Lumphini Park",
+        "wikidata_qid": "Q1394919",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lumpini_Park",
+        "coordinates": {
+          "lat": 13.7308,
+          "lon": 100.5418
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "El principal espacio verde urbano de Bangkok - 57 hectáreas donadas al público por Rama VI y nombrado en honor al lugar de nacimiento del Buda. Ve antes de las 8am cuando el parque está en su momento más Bangkok: tailandeses mayores haciendo tai chi con abanicos en grupos sincronizados, clases de aeróbicos al aire libre con pop tailandés de los años 80, lagartos monitor (de hasta dos metros de largo) deambulando por los senderos del lago con completa indiferencia hacia los peatones. A las 9am el calor hace que quedarse sea incómodo; el circuito del lago es de aproximadamente 2.5 kilómetros.",
+        "walk_to_next": {
+          "to": "Silom Road / Patpong area",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "afternoon": {
+        "activity_title": "Silom and the Sri Mahamariamman Temple",
+        "wikidata_qid": "Q6635819",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sri_Maha_Mariamman_Temple,_Bangkok",
+        "coordinates": {
+          "lat": 13.7238,
+          "lon": 100.5358
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Un templo hindú del sur de la India en Silom Road construido en 1879 por trabajadores tamiles - la torre gopuram incrustada con figuras de deidades pintadas a mano en estilo dravidiano es completamente inesperada en medio del distrito bancario de Bangkok. Quítate los zapatos en la puerta, no solo dentro del templo. La cuadrícula de calles adyacente de Silom contiene la concentración más densa de Bangkok de restaurantes en casas comerciales antiguas; los vendedores de fideos de res en Soi Convent operan desde las 9am hasta que se les acaba, generalmente a la 1pm.",
+        "walk_to_next": {
+          "to": "Mahanakhon building / King Power",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "evening": {
+        "activity_title": "Mahanakhon SkyWalk",
+        "wikidata_qid": "Q18349514",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/King_Power_MahaNakhon",
+        "coordinates": {
+          "lat": 13.7271,
+          "lon": 100.5269
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "El edificio más alto de Bangkok (314 metros, completado en 2016) tiene una plataforma de observación al aire libre con piso de vidrio en el piso 78. La fachada pixelada con cortes escalonados lo convierte en el elemento más distintivo del skyline de Bangkok desde abajo; desde arriba el panorama completo de 360 grados sobre la ciudad plana que se extiende hasta el horizonte del Golfo de Tailandia es extraordinario en días despejados. Reserva boletos en línea para evitar la cola de llegada directa. El atardecer desde aquí sobre la curva del río es el mejor que ofrece la ciudad a esta altura.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "MOCA Bangkok",
+          "wikidata_qid": "Q17020975",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art,_Bangkok",
+          "coordinates": {
+            "lat": 13.8149,
+            "lon": 100.5582
+          },
+          "neighborhood": "Lat Phrao",
+          "duration_minutes": 120,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Cinco pisos de arte contemporáneo y moderno tailandés coleccionado por el empresario Boonchai Bencharongkul - la colección privada más grande de arte tailandés jamás reunida en un solo lugar, incluyendo pintura de la academia real de principios del siglo XX y obras realistas de mediados de siglo que prácticamente no se ven en ningún otro lugar. Los taxis o Grab son la opción práctica; se encuentra al norte del núcleo de Sukhumvit y no está a distancia caminable del BTS. Cerrado los lunes.",
+          "walk_from_main_route": {
+            "from": "Lumphini Park",
+            "distance_meters": 5200,
+            "walking_minutes": 65
+          }
+        },
+        {
+          "activity_title": "Erawan Shrine",
+          "wikidata_qid": "Q2493534",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Erawan_Shrine",
+          "coordinates": {
+            "lat": 13.7446,
+            "lon": 100.5398
+          },
+          "neighborhood": "Pathum Wan",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un santuario de Brahma de cuatro caras en la esquina de Ratchadamri y Rama I Roads, construido en 1956 después de accidentes de construcción durante la construcción del Grand Hyatt Erawan Hotel. El santuario atrae corrientes constantes de fieles que presentan sus respetos con guirnaldas y contratan a la troupe residente de danza clásica tailandesa para actuaciones en vivo como actos de agradecimiento. El contraste entre la intensidad devocional y la intersección circundante de centros comerciales y rascacielos es Bangkok en una imagen.",
+          "walk_from_main_route": {
+            "from": "Lumphini Park",
+            "distance_meters": 1400,
+            "walking_minutes": 18
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "destination": "London",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Westminster / South Bank",
+    "The City / Tower",
+    "South Kensington / Hyde Park",
+    "Covent Garden / British Museum",
+    "Greenwich",
+    "Camden / Regent's Park",
+    "Kew (day trip)"
+  ],
+  "guide_description": "Siete días cubriendo lo esencial de London, el núcleo cultural del West End, Greenwich marítimo declarado Patrimonio de la Humanidad por la UNESCO, los barrios alternativos del noroeste, y una excursión botánica de un día a Kew. Cada día está geográficamente autocontenido.",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 16400,
+  "total_walking_minutes": 210,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Westminster y el South Bank",
+      "cluster_tagline": "La columna vertebral ceremonial de London: la Abbey, Big Ben y el paseo del Thames",
+      "neighborhood_focus": "Westminster / South Bank",
+      "neighborhood_description": "Westminster es la sede del gobierno británico y la iglesia de coronación de la monarquía, anclado en Parliament Square. El South Bank al otro lado del Westminster Bridge es el contrapunto cultural, bordeado por el paseo ribereño, el London Eye y importantes centros artísticos.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Westminster Abbey",
+        "wikidata_qid": "Q5933",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+        "coordinates": {
+          "lat": 51.4994,
+          "lon": -0.1273
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Lugar de todas las coronaciones inglesas desde 1066 y sitio de sepultura de diecisiete monarcas. Reserva un boleto con hora específica en línea para evitar la cola. El Poets' Corner (Chaucer, Dickens, Hardy, Browning) y la Coronation Chair son las atracciones obvias; el Cosmati Pavement, a menudo pasado por alto y ubicado directamente frente al High Altar, es un mosaico geométrico del siglo XIII donde tienen lugar las coronaciones reales. Cerrado los domingos excepto para servicios.",
+        "walk_to_next": {
+          "to": "Houses of Parliament",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Houses of Parliament and Big Ben",
+        "wikidata_qid": "Q41770",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
+        "coordinates": {
+          "lat": 51.4995,
+          "lon": -0.1248
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "El Palace of Westminster neogótico, terminado en 1870 después de que el original medieval se incendiara en 1834. Los residentes del Reino Unido y la Commonwealth pueden asistir gratuitamente a un debate haciendo cola en Cromwell Green; los visitantes internacionales pueden reservar tours pagados en días sin sesiones (típicamente sábados y semanas de receso). Big Ben es la campana, no la torre - la torre en sí es la Elizabeth Tower, recientemente restaurada a sus colores victorianos originales.",
+        "walk_to_next": {
+          "to": "London Eye via Westminster Bridge",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "South Bank and London Eye at sunset",
+        "wikidata_qid": "Q121130",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/London_Eye",
+        "coordinates": {
+          "lat": 51.5033,
+          "lon": -0.1196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Camina por Westminster Bridge para la fotografía clásica del Parliament y el Eye. Si montas el Eye es una cuestión de presupuesto: la vista es espectacular pero costosa, y una caminata gratuita por el South Bank hacia el este rumbo al Tate Modern ofrece el mismo panorama sin costo. La mejor luz fotográfica son los 30 minutos antes del atardecer, cuando la fachada este del Parliament capta el último dorado.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Churchill War Rooms",
+          "wikidata_qid": "Q1133979",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Churchill_War_Rooms",
+          "coordinates": {
+            "lat": 51.5024,
+            "lon": -0.1294
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "El complejo subterráneo de búnkeres donde Churchill dirigió las operaciones de Gran Bretaña durante la Segunda Guerra Mundial, preservado exactamente como estaba en 1945, incluyendo un Cabinet Room con la silla que Churchill masticaba durante las reuniones. Reserva con anticipación; este es uno de los museos más visitados de London y la entrada sin reserva es rara.",
+          "walk_from_main_route": {
+            "from": "Houses of Parliament",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "The City and Tower of London",
+      "cluster_tagline": "De fortaleza medieval a corazón financiero - mil años de historia londinense estratificados a lo largo del Thames",
+      "neighborhood_focus": "The City / Tower",
+      "neighborhood_description": "La Square Mile que fue el Londinium romano y permaneció como toda la ciudad hasta la era Tudor - ahora el distrito financiero de London, pero con su trazado medieval de calles, el Tower of London y St. Paul's Cathedral todos preservados. El kilómetro cuadrado arqueológicamente más denso de Britain.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Tower of London",
+        "wikidata_qid": "Q11953",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_of_London",
+        "coordinates": {
+          "lat": 51.5081,
+          "lon": -0.0759
+        },
+        "unesco_designation": {
+          "site_name": "Tower of London",
+          "year_inscribed": 1988,
+          "reference_number": 488,
+          "url": "https://whc.unesco.org/en/list/488"
+        },
+        "duration_minutes": 180,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "La White Tower de 1078 de William the Conqueror, más 900 años de adiciones - palacio real, prisión, tesorería, casa de moneda y zoológico en varios momentos. Reserva en línea antes de llegar. Los tours de los Yeoman Warder (Beefeater) son gratuitos con la entrada, salen cada 30 minutos, y son inesperadamente la mejor parte - ingeniosos, irreverentes e históricamente densos. La cola para las Crown Jewels avanza más rápido en la primera hora después de abrir.",
+        "walk_to_next": {
+          "to": "Tower Bridge",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tower Bridge and the riverside walk",
+        "wikidata_qid": "Q83125",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+        "coordinates": {
+          "lat": 51.5055,
+          "lon": -0.0754
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "El puente basculante victoriano que a menudo se confunde con London Bridge (que es el puente sencillo río arriba). La pasarela entre las torres - ahora con pisos de cristal - es una atracción de pago, pero caminar por la calzada es gratuito y ofrece la misma vista. El puente se alza unas 800 veces al año; el horario se publica en línea y vale la pena detenerse para ver el alzado.",
+        "walk_to_next": {
+          "to": "St. Paul's Cathedral",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "St. Paul's Cathedral",
+        "wikidata_qid": "Q173882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St_Paul%27s_Cathedral",
+        "coordinates": {
+          "lat": 51.5138,
+          "lon": -0.0984
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "La obra maestra de Christopher Wren, completada en 1710 después de que el Great Fire destruyera la catedral medieval. La Whispering Gallery en la cúpula - 257 escalones arriba - tiene el truco acústico que le da su nombre (un susurro contra la pared es audible a 30 metros de distancia en el lado opuesto). Entrada gratuita para servicios; se requiere boleto para visitas generales. Cierra alrededor de las 4:30pm entre semana, así que verifica los horarios antes de planear el atardecer.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Borough Market",
+          "wikidata_qid": "Q913969",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Borough_Market",
+          "coordinates": {
+            "lat": 51.5055,
+            "lon": -0.0908
+          },
+          "neighborhood": "Southwark",
+          "duration_minutes": 60,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "El mercado de alimentos más antiguo de London, en operación continua desde el siglo 13, ahora el destino gastronómico principal de London. Más concurrido viernes y sábado; cerrado domingos. El mercado diurno de martes a jueves es más tranquilo y los comerciantes tienen más tiempo para conversar. Una parada natural para almorzar entre Tower Bridge y St. Paul's vía la orilla sur.",
+          "walk_from_main_route": {
+            "from": "Tower Bridge",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "South Kensington y Hyde Park",
+      "cluster_tagline": "El triángulo de museos - tres colecciones de clase mundial y el parque real más grandioso de London",
+      "neighborhood_focus": "South Kensington / Hyde Park",
+      "neighborhood_description": "El barrio cultural victoriano creado con las ganancias de la Great Exhibition de 1851, con tres de los grandes museos del mundo agrupados alrededor de Exhibition Road. Al norte, cruzando Kensington Gore, Hyde Park y Kensington Gardens forman 250 hectáreas de parque real contiguo.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Victoria and Albert Museum",
+        "wikidata_qid": "Q213322",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum",
+        "coordinates": {
+          "lat": 51.4966,
+          "lon": -0.1722
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "El museo más grande del mundo de artes decorativas y diseño - 2.8 millones de objetos en 145 galerías. Entrada gratuita. Las salas de moldes (reproducciones en yeso a tamaño real de Trajan's Column y el David de Michelangelo, realizadas cuando los museos victorianos coleccionaban reproducciones en lugar de originales) son únicas en London. El café del jardín bajo las salas decoradas por William Morris ofrece uno de los almuerzos más agradables en museos de la ciudad.",
+        "walk_to_next": {
+          "to": "Natural History Museum",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Natural History Museum",
+        "wikidata_qid": "Q309388",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London",
+        "coordinates": {
+          "lat": 51.4967,
+          "lon": -0.1764
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Entrada gratuita. El esqueleto de ballena azul de Hintze Hall (que reemplazó a Dippy el dinosaurio en 2017) suspendido en la nave central es la vista característica del edificio. El simulador de terremotos en la galería Volcanoes and Earthquakes, que recrea el terremoto de Kobe de 1995 dentro de una tienda de comestibles japonesa simulada, es la exhibición más sorprendente. Las familias predominan los fines de semana - ve en una tarde entre semana si quieres espacio para pensar.",
+        "walk_to_next": {
+          "to": "Hyde Park Serpentine",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Hyde Park and the Serpentine at sunset",
+        "wikidata_qid": "Q83494",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hyde_Park,_London",
+        "coordinates": {
+          "lat": 51.5074,
+          "lon": -0.1657
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Parque real de 350 acres, abierto al público por Charles I en 1637. El lago Serpentine (con el Diana Memorial Fountain en su orilla sur) es el punto focal natural. Hay alquiler de botes disponible en el lago; las Serpentine Galleries en el lado sur presentan arte contemporáneo cambiante y una famosa comisión de pabellón de verano. Speakers' Corner en el extremo noreste (Marble Arch) aún alberga oradores improvisados los domingos por la mañana.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Science Museum",
+          "wikidata_qid": "Q674773",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Science_Museum,_London",
+          "coordinates": {
+            "lat": 51.4978,
+            "lon": -0.1745
+          },
+          "neighborhood": "South Kensington",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Entrada gratuita. Stephenson's Rocket, el módulo de comando de Apollo 10, el primer motor analítico de Babbage. La galería Information Age en el segundo piso tiene la narrativa curatorial más sólida - traza la comunicación desde el primer cable transatlántico hasta el internet moderno. Menos abarrotado de niños que el Natural History Museum de al lado.",
+          "walk_from_main_route": {
+            "from": "Victoria and Albert Museum",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Covent Garden y el British Museum",
+      "cluster_tagline": "El núcleo cultural del West End - el primer museo público del mundo, la plaza y Theatreland",
+      "neighborhood_focus": "Covent Garden / Bloomsbury / Soho",
+      "neighborhood_description": "El distrito de entretenimiento y museos del centro de Londres: la plaza del siglo XVII de Covent Garden y su antiguo mercado de frutas, la casa del tesoro de la Ilustración del British Museum en Bloomsbury, y los restaurantes y teatros densamente agrupados del Soho que se extienden hacia el oeste hasta Piccadilly.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 27,
+      "morning": {
+        "activity_title": "British Museum",
+        "wikidata_qid": "Q6373",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/British_Museum",
+        "coordinates": {
+          "lat": 51.5194,
+          "lon": -0.127
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Entrada gratuita, fundado en 1753 como el primer museo público del mundo. El Great Court cubierto por el techo de cristal de Norman Foster merece una visita por sí mismo. Imprescindibles: la Piedra Rosetta (Sala 4), los mármoles del Parthenon (Sala 18, controvertidos y etiquetados como tales), las galerías de momias egipcias (Salas 62-63), el casco de Sutton Hoo (Sala 41), las piezas de ajedrez de Lewis (Sala 40). Elige tres o cuatro galerías y acepta que no verás todo: el museo tiene 8 millones de objetos.",
+        "walk_to_next": {
+          "to": "Covent Garden",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Covent Garden Piazza",
+        "wikidata_qid": "Q205662",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Covent_Garden",
+        "coordinates": {
+          "lat": 51.5117,
+          "lon": -0.124
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La plaza de 1631 de Inigo Jones: la primera plaza pública planificada de Inglaterra, inspirada en las piazze italianas que vio en su Grand Tour. El Apple Market (en el invernadero central) vende artesanías; las calles circundantes albergan la Royal Opera House y el London Transport Museum. Los artistas callejeros trabajan en la plaza con un sistema de licencias rotativo: los turnos de martes a jueves por la tarde tienen los mejores espectáculos.",
+        "walk_to_next": {
+          "to": "Trafalgar Square / National Gallery",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Trafalgar Square and the National Gallery",
+        "wikidata_qid": "Q180788",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Gallery",
+        "coordinates": {
+          "lat": 51.5089,
+          "lon": -0.1283
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Entrada gratuita. 2,300 pinturas que abarcan del siglo XIII a 1900: el Retrato de Arnolfini de Van Eyck, la Venus del espejo de Velázquez, el Fighting Temeraire de Turner, los Girasoles de Van Gogh. La National Portrait Gallery de al lado (también gratuita, recientemente renovada) es un buen complemento si el tiempo lo permite. La propia Trafalgar Square, con la Columna de Nelson y la rotativa comisión escultórica del Fourth Plinth, es el espacio predeterminado de Londres para celebraciones y protestas.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sir John Soane's Museum",
+          "wikidata_qid": "Q1622130",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sir_John_Soane%27s_Museum",
+          "coordinates": {
+            "lat": 51.5172,
+            "lon": -0.1175
+          },
+          "neighborhood": "Holborn",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Entrada gratuita. El arquitecto de la época de la Regencia Sir John Soane preservó su propia casa exactamente como la dejó en 1837: abarrotada de sarcófagos egipcios, pinturas de Hogarth, fragmentos romanos e invenciones arquitectónicas. Uno de los museos pequeños más extraños y queridos de Londres. Cerrado los lunes.",
+          "walk_from_main_route": {
+            "from": "British Museum",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Maritime Greenwich",
+      "cluster_tagline": "UNESCO Maritime Greenwich: el meridiano, el Royal Observatory y la arquitectura naval más hermosa de Gran Bretaña",
+      "neighborhood_focus": "Greenwich",
+      "neighborhood_description": "El distrito ribereño al sureste del centro de Londres, hogar de un conjunto declarado Patrimonio de la Humanidad por la UNESCO de edificios navales y astronómicos a la escala más grandiosa de Wren-and-Hawksmoor. Accesible en barco fluvial Thames Clipper (el enfoque más panorámico), DLR o tren.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Old Royal Naval College",
+        "wikidata_qid": "Q1788916",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Royal_Naval_College",
+        "coordinates": {
+          "lat": 51.4831,
+          "lon": 0.005
+        },
+        "unesco_designation": {
+          "site_name": "Maritime Greenwich",
+          "year_inscribed": 1997,
+          "reference_number": 795,
+          "url": "https://whc.unesco.org/en/list/795"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "El complejo simétrico a orillas del río de Christopher Wren, originalmente un Hospital Real para marineros retirados (1696). El Painted Hall, a veces llamado la Capilla Sixtina de Gran Bretaña, le tomó a James Thornhill diecinueve años pintarlo al fresco y recientemente fue sometido a una gran restauración. La Chapel of St. Peter and St. Paul al frente es más sobria pero vale la pena visitarlas juntas.",
+        "walk_to_next": {
+          "to": "National Maritime Museum / Queen's House",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Queen's House and National Maritime Museum",
+        "wikidata_qid": "Q1199074",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Queen%27s_House",
+        "coordinates": {
+          "lat": 51.481,
+          "lon": 0.005
+        },
+        "unesco_designation": {
+          "site_name": "Maritime Greenwich",
+          "year_inscribed": 1997,
+          "reference_number": 795,
+          "url": "https://whc.unesco.org/en/list/795"
+        },
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La Queen's House de Inigo Jones de 1635 fue el primer edificio verdaderamente clásico en Inglaterra - el momento en que la arquitectura británica dejó de ser medieval tardía y comenzó a ser renacentista. Ambos museos tienen entrada gratuita. Las Tulip Stairs dentro de la Queen's House son la primera escalera geométrica autoportante de Inglaterra. La colección del Maritime Museum es vasta; las galerías de Nelson y la exhibición Polar son las mejores visitas individuales.",
+        "walk_to_next": {
+          "to": "Royal Observatory",
+          "distance_meters": 700,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Royal Observatory and the Prime Meridian",
+        "wikidata_qid": "Q994014",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
+        "coordinates": {
+          "lat": 51.4769,
+          "lon": 0.0005
+        },
+        "unesco_designation": {
+          "site_name": "Maritime Greenwich",
+          "year_inscribed": 1997,
+          "reference_number": 795,
+          "url": "https://whc.unesco.org/en/list/795"
+        },
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "El observatorio de Christopher Wren de 1675 en la colina de Greenwich, donde finalmente se trazó la línea del meridiano (1884) como el cero mundial de longitud. La línea misma en el patio es la foto obvia. La Flamsteed House (entrada gratuita solo para las salas históricas) y la cámara obscura son las partes menos conocidas. La terraza mirador justo debajo del observatorio tiene la mejor vista panorámica gratuita del skyline de Canary Wharf.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Cutty Sark",
+          "wikidata_qid": "Q654648",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cutty_Sark",
+          "coordinates": {
+            "lat": 51.4828,
+            "lon": -0.0095
+          },
+          "neighborhood": "Greenwich",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "El último clipper de té sobreviviente, construido en 1869, ahora preservado en un dique seco y elevado tres metros en el aire para que puedas caminar debajo del casco. Devastado por un incendio en 2007, restaurado en 2012 con las maderas originales visibles. La vista del casco por debajo de las líneas del barco es una experiencia única entre todos los museos de Londres.",
+          "walk_from_main_route": {
+            "from": "Old Royal Naval College",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "Camden y Regent's Park",
+      "cluster_tagline": "El Londres de los canales - terrazas Regency, el mercado alternativo y el parque planificado más grandioso de la ciudad",
+      "neighborhood_focus": "Camden / Regent's Park / Primrose Hill",
+      "neighborhood_description": "Los distritos del noroeste que John Nash diseñó en la década de 1810 como un suburbio-jardín Regency, más el barrio de contracultura de posguerra que creció a lo largo del Regent's Canal. Camden Market es una de las experiencias de compras más distintivas de Londres; Primrose Hill es el mejor mirador panorámico gratuito de la ciudad.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2400,
+      "day_walking_minutes": 32,
+      "morning": {
+        "activity_title": "Regent's Park and the Open Air Theatre",
+        "wikidata_qid": "Q207577",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Regent%27s_Park",
+        "coordinates": {
+          "lat": 51.5313,
+          "lon": -0.157
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "El parque real de John Nash de 1811, rodeado por sus terrazas Regency color crema (Cumberland Terrace y Park Crescent son los mejores supervivientes). Los Queen Mary's Gardens en el centro albergan 12,000 rosas; el lago para botes en el lado oeste alquila botes de remos. El Open Air Theatre presenta Shakespeare y musicales de verano en un anfiteatro frondoso que es uno de los lugares estacionales más queridos de Londres.",
+        "walk_to_next": {
+          "to": "Camden Market via canal",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "afternoon": {
+        "activity_title": "Camden Market and Regent's Canal",
+        "wikidata_qid": "Q907791",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Camden_Market",
+        "coordinates": {
+          "lat": 51.5417,
+          "lon": -0.1467
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Seis mercados interconectados que venden ropa vintage, comida callejera, vinilos, cuero y curiosidades - descendientes de las escenas punk y gótica de los años 70 que hicieron famoso al barrio. Más concurridos los fines de semana; entre semana son más tranquilos. Acércate por el sendero del Regent's Canal desde el parque - la caminata de media hora pasa por London Zoo y el Snowdon Aviary y te da lo mejor del carácter del barrio antes del bullicio del mercado.",
+        "walk_to_next": {
+          "to": "Primrose Hill summit",
+          "distance_meters": 1000,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Primrose Hill at sunset",
+        "wikidata_qid": "Q1366907",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Primrose_Hill",
+        "coordinates": {
+          "lat": 51.5391,
+          "lon": -0.1605
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "63 metros de colina cubierta de hierba y una de las seis vistas panorámicas protegidas del centro de Londres (las otras incluyen vistas desde Greenwich y Hampstead Heath). La vista se extiende desde el Shard a través del Eye hasta St. Paul's y la BT Tower. El panorama grabado victoriano en la placa de hierro en la cumbre identifica cada punto de referencia. Trae un picnic; los locales lo hacen.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "ZSL London Zoo",
+          "wikidata_qid": "Q170731",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/London_Zoo",
+          "coordinates": {
+            "lat": 51.5354,
+            "lon": -0.1538
+          },
+          "neighborhood": "Regent's Park",
+          "duration_minutes": 120,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "El zoológico científico más antiguo del mundo (1828), en el extremo norte de Regent's Park. Entre los puntos destacados se incluyen la piscina de pingüinos de Berthold Lubetkin (un hito modernista de 1934, ya no se usa para pingüinos pero se conserva como estructura) y el Snowdon Aviary a lo largo del canal. Mejor para familias que para viajeros solos.",
+          "walk_from_main_route": {
+            "from": "Regent's Park",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        },
+        {
+          "activity_title": "Jewish Museum London",
+          "wikidata_qid": "Q6193434",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jewish_Museum_London",
+          "coordinates": {
+            "lat": 51.543,
+            "lon": -0.145
+          },
+          "neighborhood": "Camden",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un museo pequeño y reflexivo sobre la vida judía e historia en Gran Bretaña, que incluye una galería de testimonios de supervivientes del Holocausto y el libro de oraciones en hebreo en inglés más antiguo que existe. Cerrado los sábados y lunes. Actualmente opera en formato reducido mientras espera el traslado a un nuevo edificio - consulta el sitio web para la ubicación actual.",
+          "walk_from_main_route": {
+            "from": "Camden Market",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "Excursión de un día a Kew Gardens",
+      "cluster_tagline": "UNESCO Royal Botanic Gardens - 300 acres de colecciones de plantas en el suroeste de Londres",
+      "neighborhood_focus": "Kew (outside central London)",
+      "neighborhood_description": "Los Royal Botanic Gardens en Kew, en el suroeste de Londres sobre el Thames - Patrimonio de la Humanidad de UNESCO desde 2003, que alberga las colecciones botánicas y micológicas más grandes y diversas del mundo. Accesible por la línea District del metro hasta Kew Gardens (aproximadamente 35 minutos desde el centro de Londres) o en barco fluvial en verano.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Palm House and Victorian glasshouses",
+        "wikidata_qid": "Q3895041",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palm_House,_Kew_Gardens",
+        "coordinates": {
+          "lat": 51.4811,
+          "lon": -0.2917
+        },
+        "unesco_designation": {
+          "site_name": "Royal Botanic Gardens, Kew",
+          "year_inscribed": 2003,
+          "reference_number": 1084,
+          "url": "https://whc.unesco.org/en/list/1084"
+        },
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La Palm House de 1848 por Decimus Burton es la estructura victoriana de hierro y vidrio más importante que sobrevive en el mundo - el prototipo arquitectónico de cada jardín de invierno, cobertizo de trenes y sala de exposiciones que siguió. La Temperate House de al lado (reabierta en 2018 después de una restauración de cinco años) es el invernadero victoriano más grande del mundo. Reserva un boleto de día para Kew Gardens en línea para obtener el descuento.",
+        "walk_to_next": {
+          "to": "Treetop Walkway and arboretum",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Treetop Walkway and Kew arboretum",
+        "wikidata_qid": "Q108061131",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kew_Gardens",
+        "coordinates": {
+          "lat": 51.4783,
+          "lon": -0.2942
+        },
+        "unesco_designation": {
+          "site_name": "Royal Botanic Gardens, Kew",
+          "year_inscribed": 2003,
+          "reference_number": 1084,
+          "url": "https://whc.unesco.org/en/list/1084"
+        },
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "El Xstrata Treetop Walkway, inaugurado en 2008, se extiende 200 metros a 18 metros de altura a través del dosel de un bosquecillo de robles, castaños dulces y tilos - lo más cerca que puede estar un visitante de London de caminar dentro de un bosque en funcionamiento. El arboreto más amplio alberga más de 14,000 árboles individuales, incluyendo especímenes plantados por Capability Brown en la década de 1760.",
+        "walk_to_next": {
+          "to": "Princess of Wales Conservatory",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Princess of Wales Conservatory and Kew Palace",
+        "wikidata_qid": "Q1755957",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Princess_of_Wales_Conservatory",
+        "coordinates": {
+          "lat": 51.4853,
+          "lon": -0.296
+        },
+        "unesco_designation": {
+          "site_name": "Royal Botanic Gardens, Kew",
+          "year_inscribed": 2003,
+          "reference_number": 1084,
+          "url": "https://whc.unesco.org/en/list/1084"
+        },
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Invernadero moderno (1987) que contiene diez zonas climáticas diferentes desde áridas hasta tropicales húmedas, incluyendo las hojas gigantes de nenúfares de la sección amazónica. Kew Palace al lado es el más pequeño de los palacios reales de Britain - el refugio de ladrillo rojo de George III, donde pasó algunos de sus episodios de enfermedad. Procura salir antes de las 5pm para tomar el District line de regreso al centro de London antes del pico vespertino.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Great Pagoda",
+          "wikidata_qid": "Q1325553",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Great_Pagoda",
+          "coordinates": {
+            "lat": 51.4747,
+            "lon": -0.2925
+          },
+          "neighborhood": "Kew Gardens",
+          "duration_minutes": 45,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La pagoda de estilo chino de William Chambers de 1762 - la primera pieza deliberada de arquitectura chinoiserie en Europe, y una sensación en su época. Restaurada en 2018 con sus ochenta dragones de madera originales devueltos a los aleros. La subida de 253 escalones ofrece vistas largas hacia el sur a través de los jardines hasta el Thames.",
+          "walk_from_main_route": {
+            "from": "Treetop Walkway",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

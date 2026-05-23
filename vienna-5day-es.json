@@ -1,0 +1,574 @@
+{
+  "destination": "Vienna",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:03:26.743Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Innere Stadt - Imperial Core",
+    "Innere Stadt - Ringstrasse",
+    "Naschmarkt / Karlsplatz / Wieden",
+    "Schonbrunn / Hietzing",
+    "Leopoldstadt / Prater"
+  ],
+  "guide_description": "Cinco días cubriendo las capas esenciales de Vienna: el núcleo imperial medieval y barroco, el grandioso boulevard Ringstrasse del siglo XIX con su desfile de museos, el animado barrio del mercado y Secession al sur del centro, el complejo del palacio de verano de los Habsburg en los suburbios occidentales, y los parques del Prater al otro lado del canal. Cada día es geográficamente independiente y puede reordenarse según el clima o la energía.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 16250,
+  "total_walking_minutes": 203,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Corazón Imperial",
+      "cluster_tagline": "Calles medievales, palacios Habsburg y la catedral que definió el horizonte de Vienna",
+      "neighborhood_focus": "Innere Stadt - Imperial Core",
+      "neighborhood_description": "El Primer Distrito dentro de las antiguas murallas de la ciudad, donde el campamento romano de Vienna, el mercado medieval y el centro ceremonial Habsburg ocupan las mismas pocas manzanas. La aguja del Stephansdom y el palacio Hofburg anclan los dos polos gravitacionales del barrio.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2340,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Stephansdom",
+        "wikidata_qid": "Q163758",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Stephen%27s_Cathedral,_Vienna",
+        "coordinates": {
+          "lat": 48.2085,
+          "lon": 16.3731
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Llega antes de las 10am para caminar por la nave antes de que lleguen los grupos turísticos. La subida a la torre sur (343 escalones) recompensa con una vista cercana de las tejas de colores en chevrones que se ven planas desde la calle. El tour de las catacumbas funciona cada 30 minutos y cubre la bóveda de huesos Habsburg - un contraste genuinamente extraño con el interior dorado de arriba.",
+        "walk_to_next": {
+          "to": "Hofburg Palace",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Hofburg Palace",
+        "wikidata_qid": "Q131444",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hofburg_Palace",
+        "coordinates": {
+          "lat": 48.2066,
+          "lon": 16.3655
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 120,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "El Hofburg vendido como un complejo único contiene los Apartamentos Imperiales, el Museo Sisi y la Colección de Plata Imperial - un boleto cubre los tres. Ve en ese orden: el Museo Sisi establece el contexto, la Colección de Plata en el ala noroeste del Hofburg casi siempre está vacía y tiene algunos de los objetos más extraños (un centro de mesa de 33 metros de largo) de cualquier museo en Europa.",
+        "walk_to_next": {
+          "to": "Augustinerkirche",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Augustinerkirche and the Herzgruft",
+        "wikidata_qid": "Q694030",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Augustinerkirche,_Vienna",
+        "coordinates": {
+          "lat": 48.2051,
+          "lon": 16.3672
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La iglesia parroquial Habsburg anexa al Hofburg, donde tuvieron lugar bodas y funerales reales durante siglos. El Herzgruft en la Capilla Loretto alberga 54 urnas de plata que contienen los corazones de los gobernantes Habsburg - la visita está limitada a horarios específicos publicados en la entrada de la iglesia. El monumento piramidal de Canova a Maria Christina, en la pared izquierda, es una de las esculturas neoclásicas más finas de Austria.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Graben and Pestsaule",
+          "wikidata_qid": "Q693618",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Graben,_Vienna",
+          "coordinates": {
+            "lat": 48.2087,
+            "lon": 16.3697
+          },
+          "neighborhood": "Innere Stadt",
+          "duration_minutes": 30,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La calle peatonal más grandiosa de Vienna, construida sobre un foso rellenado del campamento romano. La Pestsaule (Columna de la Peste) en el centro fue erigida en 1693 como promesa de Leopold I después de la Peste Negra - la nube dorada retorcida de ángeles subiendo por la columna es el exceso barroco en su forma más espectacular.",
+          "walk_from_main_route": {
+            "from": "Stephansdom",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Kaisergruft",
+          "wikidata_qid": "Q667266",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kaisergruft",
+          "coordinates": {
+            "lat": 48.2042,
+            "lon": 16.3684
+          },
+          "neighborhood": "Innere Stadt",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La cripta imperial de los Habsburgo bajo la Kapuzinerkirche alberga 149 sarcófagos que abarcan cuatro siglos. El contraste entre la sencilla iglesia capuchina arriba y las cámaras funerarias cada vez más ornamentadas abajo es deliberadamente impactante. El sencillo ataúd militar de Franz Joseph se encuentra junto al extraordinariamente elaborado sarcófago doble de Charles VI.",
+          "walk_from_main_route": {
+            "from": "Augustinerkirche",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Desfile de la Ringstrasse",
+      "cluster_tagline": "El boulevard de monumentos del siglo XIX de Franz Joseph - ópera, museos y parlamento en un paseo continuo",
+      "neighborhood_focus": "Innere Stadt - Ringstrasse",
+      "neighborhood_description": "La Ringstrasse fue encargada en 1857 cuando Franz Joseph ordenó la demolición de las murallas de la ciudad, reemplazándolas con un boulevard ceremonial flanqueado por edificios estatales en estilos historicistas. La casa de la ópera, los museos gemelos, el parlamento, el ayuntamiento y el Burgtheater se completaron en tres décadas y siguen siendo la columna vertebral visual de la ciudad.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Kunsthistorisches Museum",
+        "wikidata_qid": "Q95569",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kunsthistorisches_Museum",
+        "coordinates": {
+          "lat": 48.2031,
+          "lon": 16.3614
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Uno de los cinco mayores museos de arte enciclopédicos del mundo, y consistentemente con menos colas comparado con el Louvre o los Uffizi. La sala de Bruegel en el primer piso contiene doce de las aproximadamente cuarenta pinturas de Bruegel que sobreviven - más que en cualquier otro lugar del mundo. La cúpula artesonada del hall de entrada, con los enjutas pintadas por Klimt sobre la escalera de mármol, es en sí misma una obra importante.",
+        "walk_to_next": {
+          "to": "Maria-Theresien-Platz",
+          "distance_meters": 100,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Maria-Theresien-Platz and Naturhistorisches Museum",
+        "wikidata_qid": "Q667800",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maria_Theresien_Platz",
+        "coordinates": {
+          "lat": 48.2036,
+          "lon": 16.3603
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La plaza entre los museos gemelos espejo es la única plaza imperial simétrica en Vienna. La colección de meteoritos del Natural History Museum en el segundo piso es una de las más grandes del mundo y casi siempre tiene espacio para respirar. La figurilla Venus of Willendorf de 25,000 años se exhibe en una sola vitrina con poca ceremonia - fácil de pasar por alto, extraordinaria para contemplar.",
+        "walk_to_next": {
+          "to": "Vienna State Opera",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Vienna State Opera",
+        "wikidata_qid": "Q207794",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vienna_State_Opera",
+        "coordinates": {
+          "lat": 48.2031,
+          "lon": 16.3694
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 120,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "after_dark",
+        "notes": "Los boletos de pie (Stehplatz) salen a la venta 80 minutos antes de que se levante el telón en la taquilla Stehplatz en el lado oeste del edificio - alrededor de 3 a 4 euros para el parterre o galería. Llega 90 minutos antes de la función para hacer cola. Atas tu bufanda a la barandilla para guardar tu lugar, como es tradición. Incluso un solo acto de una ópera de clase mundial en este auditorio es una experiencia vienesa que vale la pena.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Burgring and Volksgarten",
+          "wikidata_qid": "Q689327",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Volksgarten,_Vienna",
+          "coordinates": {
+            "lat": 48.2071,
+            "lon": 16.3617
+          },
+          "neighborhood": "Innere Stadt",
+          "duration_minutes": 30,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "El Volksgarten se abrió al público en 1820 en el sitio del Burgbastion demolido por Napoleon. El jardín formal de rosas está en su máximo florecimiento desde finales de mayo hasta junio. El Theseus Temple en el centro del jardín es una réplica a pequeña escala del Hephaisteion en Athens, encargado para albergar la escultura de Theseus de Canova (ahora en el Kunsthistorisches Museum).",
+          "walk_from_main_route": {
+            "from": "Maria-Theresien-Platz",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Naschmarkt y el Barrio de la Secession",
+      "cluster_tagline": "La gran calle de mercado de Vienna, la rebelión del art nouveau y la colección de Klimt del Belvedere",
+      "neighborhood_focus": "Naschmarkt / Karlsplatz / Wieden",
+      "neighborhood_description": "La franja al sur de la Ringstrasse desde Karlsplatz hasta los jardines del palacio Belvedere. El Naschmarkt ocupa el lecho cubierto de un canal y se extiende por más de un kilómetro. El edificio de la Secession, las estaciones de Stadtbahn de Otto Wagner y el palacio Upper Belvedere se agrupan a 20 minutos caminando uno del otro.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 40,
+      "morning": {
+        "activity_title": "Naschmarkt",
+        "wikidata_qid": "Q694862",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Naschmarkt",
+        "coordinates": {
+          "lat": 48.1993,
+          "lon": 16.3631
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "market",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "El mercado permanente principal de Vienna, abierto de lunes a sábado desde las 6am. El extremo oeste más cercano al metro de Kettenbruckengasse es donde están los puestos de comida más auténticos: vendedores de productos turcos, persas y austriacos. Los sábados por la mañana se añade un gran mercado de pulgas a lo largo del carril exterior. El mejor desayuno es medio kilo de cerezas y un panecillo Semmel de puestos adyacentes.",
+        "walk_to_next": {
+          "to": "Vienna Secession",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Vienna Secession",
+        "wikidata_qid": "Q685038",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vienna_Secession",
+        "coordinates": {
+          "lat": 48.1988,
+          "lon": 16.3681
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "El pabellón de exposiciones de Joseph Olbrich de 1898 es en sí mismo la exhibición principal: la cúpula dorada de hojas de laurel parece un repollo dorado desde el otro lado de la plaza. El Friso de Beethoven de Klimt está instalado permanentemente en el sótano: 34 metros de caseína pintada y pan de oro interpretando la Novena Sinfonía, creado para una exposición de Beethoven de 1902 junto a una escultura de Max Klinger. Compra la guía impresa en recepción antes de bajar.",
+        "walk_to_next": {
+          "to": "Upper Belvedere",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "Upper Belvedere and the Klimt collection",
+        "wikidata_qid": "Q692641",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Upper_Belvedere",
+        "coordinates": {
+          "lat": 48.1914,
+          "lon": 16.3806
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Vienna",
+          "year_inscribed": 2001,
+          "reference_number": 1033,
+          "url": "https://whc.unesco.org/en/list/1033"
+        },
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "El palacio superior alberga la colección de Klimt más grande del mundo, incluyendo El Beso, que es más pequeño e íntimo de lo que sugieren las reproducciones: está colgado a la altura de los ojos en una esquina del Salón de Mármol, no en una galería grandiosa. Camina por el jardín francés entre el Upper y Lower Belvedere antes de entrar: la vista desde la terraza superior hacia la ciudad, enmarcada por las fuentes del parterre, es una de las composiciones de jardín barroco más emblemáticas de Europa Central.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Karlskirche",
+          "wikidata_qid": "Q685369",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Karlskirche",
+          "coordinates": {
+            "lat": 48.1986,
+            "lon": 16.3722
+          },
+          "neighborhood": "Wieden",
+          "duration_minutes": 45,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La iglesia votiva de Fischer von Erlach de 1737 para Carlos VI es el exterior de iglesia barroca más teatral de Vienna: dos columnas espirales masivas modeladas según la Columna de Trajano en Roma flanquean un pórtico griego. En el interior, un ascensor panorámico moderno sube hasta la cúpula para ver de cerca el fresco del techo de Johann Michael Rottmayr, lo que vale la pena a pesar de la ligera indignidad de la construcción.",
+          "walk_from_main_route": {
+            "from": "Vienna Secession",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Otto Wagner Pavilions at Karlsplatz",
+          "wikidata_qid": "Q1358569",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Karlsplatz_Stadtbahn_Station",
+          "coordinates": {
+            "lat": 48.2005,
+            "lon": 16.3702
+          },
+          "neighborhood": "Karlsplatz",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Dos pequeños pabellones de hierro y mármol del sistema Vienna Stadtbahn de Otto Wagner de 1899, ahora varados en el césped del parque después de que el metro fuera desviado. Uno de los pabellones funciona como pequeño espacio de exposición en verano. Los ornamentos dorados de girasoles y el revestimiento de mármol blanco lanzaron el Jugendstil vienés en una estación de tránsito, que es exactamente el tipo de cosa que Vienna estaba haciendo en 1899.",
+          "walk_from_main_route": {
+            "from": "Vienna Secession",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Schonbrunn y Hietzing",
+      "cluster_tagline": "La corte de verano de los Habsburgo: palacio, jardines formales y un zoológico más antiguo que Estados Unidos",
+      "neighborhood_focus": "Schonbrunn / Hietzing",
+      "neighborhood_description": "El distrito 14 al oeste del centro de la ciudad, dominado por el complejo palaciego de Schonbrunn y su parque de 160 hectáreas. El parque se extiende desde la fachada amarilla del palacio cuesta arriba hasta la columnata Gloriette. El barrio adyacente de Hietzing conserva en gran medida intacto su carácter de villas de finales del siglo XIX.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 4100,
+      "day_walking_minutes": 51,
+      "morning": {
+        "activity_title": "Schonbrunn Palace",
+        "wikidata_qid": "Q131330",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace",
+        "coordinates": {
+          "lat": 48.1845,
+          "lon": 16.3122
+        },
+        "unesco_designation": {
+          "site_name": "Palace and Gardens of Schonbrunn",
+          "year_inscribed": 1996,
+          "reference_number": 786,
+          "url": "https://whc.unesco.org/en/list/786"
+        },
+        "duration_minutes": 120,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Reserve el Grand Tour (40 habitaciones) en lugar del Imperial Tour (22 habitaciones): las 18 habitaciones adicionales incluyen el Salón de los Espejos donde Mozart, de seis años, actuó para María Teresa en 1762 y supuestamente le propuso matrimonio a su hija. La audioguía está incluida y tiene un ritmo adecuado. Entre por la puerta principal en Schonbrunner Schlossstrasse, no por las puertas laterales, para disfrutar del acceso completo por el patio.",
+        "walk_to_next": {
+          "to": "Schonbrunn Palace Park and Gloriette",
+          "distance_meters": 850,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Schonbrunn Palace Park and the Gloriette",
+        "wikidata_qid": "Q697418",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Schönbrunn_Palace_Park",
+        "coordinates": {
+          "lat": 48.1824,
+          "lon": 16.3079
+        },
+        "unesco_designation": {
+          "site_name": "Palace and Gardens of Schonbrunn",
+          "year_inscribed": 1996,
+          "reference_number": 786,
+          "url": "https://whc.unesco.org/en/list/786"
+        },
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "El eje central del parque sube en línea recta desde el palacio hasta la columnata Gloriette en la cima: una caminata de 20 minutos cuesta arriba. La vista desde la terraza Gloriette hacia abajo, atravesando el palacio, sobre los techos de la ciudad y hacia el Vienna Woods, es la mejor toma panorámica de orientación en la ciudad. La Fuente de Neptuno en la base de la colina es un buen punto de pausa antes de la subida.",
+        "walk_to_next": {
+          "to": "Schonbrunn Zoo",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Schonbrunn Zoo",
+        "wikidata_qid": "Q80323",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Zoo",
+        "coordinates": {
+          "lat": 48.1834,
+          "lon": 16.3013
+        },
+        "unesco_designation": {
+          "site_name": "Palace and Gardens of Schonbrunn",
+          "year_inscribed": 1996,
+          "reference_number": 786,
+          "url": "https://whc.unesco.org/en/list/786"
+        },
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "El zoológico en funcionamiento continuo más antiguo del mundo, fundado en 1752 como una casa de fieras imperial por Franz I. Los pabellones barrocos originales que una vez albergaron a los animales aún están en pie y se usan como recintos y cafés. Tanto el recinto de pandas gigantes como el acuario en la casa de coral merecen el desvío. La última entrada es típicamente 90 minutos antes del cierre: verifique los horarios estacionales.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Palmenhaus Schonbrunn",
+          "wikidata_qid": "Q2063220",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Palmenhaus_Sch%C3%B6nbrunn",
+          "coordinates": {
+            "lat": 48.1851,
+            "lon": 16.3025
+          },
+          "neighborhood": "Hietzing",
+          "duration_minutes": 40,
+          "type": "garden",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "El invernadero de hierro y cristal de 1882 en el borde occidental del parque del palacio alberga zonas tropicales, templadas y áridas en tres salas interconectadas. Un refugio útil si llega la lluvia a media tarde, y un auténtico espectáculo de ingeniería victoriana sin importar el clima.",
+          "walk_from_main_route": {
+            "from": "Schonbrunn Palace Park",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Prater y Leopoldstadt",
+      "cluster_tagline": "El antiguo parque de recreo - una feria del siglo XIX, un bulevar de castaños y la isla del canal que Vienna se olvida de mostrarte",
+      "neighborhood_focus": "Leopoldstadt / Prater",
+      "neighborhood_description": "El Segundo Distrito al otro lado del Danube Canal desde el Primero. Leopoldstadt fue el barrio judío de Vienna durante siglos y conserva un carácter de vecindario distintivo. El parque Prater, que se extiende varios kilómetros hacia el este, era el coto de caza imperial antes de que Joseph II lo abriera al público en 1766.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3510,
+      "day_walking_minutes": 44,
+      "morning": {
+        "activity_title": "Prater and the Hauptallee",
+        "wikidata_qid": "Q694036",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prater",
+        "coordinates": {
+          "lat": 48.2167,
+          "lon": 16.4004
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "La Hauptallee es un bulevar bordeado de castaños perfectamente recto de cuatro kilómetros de largo, lo suficientemente ancho para seis carruajes en paralelo - diseñado por Joseph II y aún el corredor verde más elegante de Vienna. A finales de abril y mayo los castaños florecen simultáneamente en ambas direcciones creando un túnel de follaje. Alquila una bicicleta en los puestos del extremo Praterstern en lugar de caminar toda la distancia.",
+        "walk_to_next": {
+          "to": "Wiener Wurstelprater",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Wiener Wurstelprater and the Riesenrad",
+        "wikidata_qid": "Q697419",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wurstelprater",
+        "coordinates": {
+          "lat": 48.2167,
+          "lon": 16.3956
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La sección de feria del Prater que rodea la noria Riesenrad de 1897 - uno de los parques de atracciones más antiguos que sobreviven en el mundo. La Riesenrad gira lo suficientemente lento como para que la vista desde las cabinas de madera roja a máxima altura abarque la aguja del Stephansdom, el corredor verde de la Ringstrasse, y en días despejados las colinas Kahlenberg. La noria es la escena de apertura de la película de 1949 The Third Man - vale la pena volver a verla la noche anterior.",
+        "walk_to_next": {
+          "to": "Augarten",
+          "distance_meters": 1600,
+          "walking_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Augarten",
+        "wikidata_qid": "Q690210",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Augarten",
+        "coordinates": {
+          "lat": 48.2258,
+          "lon": 16.3742
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "El jardín barroco de Joseph I, abierto al público en 1775 con el letrero aún legible sobre la puerta: un lugar de entretenimiento dedicado a todas las personas por su amigo. Dos enormes torres antiaéreas de la Segunda Guerra Mundial se alzan sobre los parterres formales - nunca demolidas porque el concreto reforzado es demasiado denso para volar. El contraste entre la geometría del jardín del siglo XVIII y las fortificaciones grises imponentes es específicamente vienés. El parque cierra al anochecer.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Vienna Porcelain Manufactory Augarten",
+          "wikidata_qid": "Q1376088",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Augarten_porcelain",
+          "coordinates": {
+            "lat": 48.2261,
+            "lon": 16.3738
+          },
+          "neighborhood": "Leopoldstadt",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La segunda manufactura de porcelana más antigua de Europa (fundada en 1718), aún operando dentro del palacio barroco Augarten. El tour guiado de producción muestra el pintado a mano y el torneado en talleres activos. La tienda vende piezas de segunda y patrones descontinuados a precios reducidos - un recuerdo de Vienna más reflexivo que las Mozartkugeln del aeropuerto.",
+          "walk_from_main_route": {
+            "from": "Augarten",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Leopoldstadt Street Walk via Karmelitermarkt",
+          "wikidata_qid": "Q1768196",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Karmelitermarkt",
+          "coordinates": {
+            "lat": 48.2172,
+            "lon": 16.3831
+          },
+          "neighborhood": "Leopoldstadt",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "El Karmelitermarkt es un mercado más pequeño, a escala de vecindario comparado con el Naschmarkt - abierto de martes a sábado por la mañana. Las calles circundantes de Leopoldstadt entre el mercado y el canal se sienten más residenciales y menos cuidadas que el Primer Distrito. El sábado es el mejor día; los puestos se derraman hacia Krummbaumgasse y las calles laterales cercanas.",
+          "walk_from_main_route": {
+            "from": "Wiener Wurstelprater",
+            "distance_meters": 1100,
+            "walking_minutes": 14
+          }
+        }
+      ]
+    }
+  ]
+}

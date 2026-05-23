@@ -1,0 +1,128 @@
+{
+  "destination": "Copenhagen",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:23:42.649Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Indre By / Slotsholmen / Nyhavn"
+  ],
+  "guide_description": "Un día recorriendo el núcleo histórico de Copenhagen: la isla real de Slotsholmen, el barrio catedralicio medieval y el frente portuario pintoresco de Nyhavn. El conjunto es lo suficientemente compacto para recorrerlo completamente a pie sin transporte público, comenzando con la historia real y cívica por la mañana hasta llegar al ambiente junto al canal por la tarde.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Slotsholmen a Nyhavn",
+      "cluster_tagline": "Isla real, torres góticas y un canal bordeado de casas de comerciantes del siglo XVIII",
+      "neighborhood_focus": "Indre By / Slotsholmen / Nyhavn",
+      "neighborhood_description": "El núcleo histórico de Copenhagen se encuentra en una península estrecha entre dos brazos del puerto. Slotsholmen es una isla artificial que ha albergado la sede del poder real y gubernamental danés desde el siglo XII. Inmediatamente al norte, Indre By contiene el barrio universitario, la catedral y la torre redonda. Todo el distrito termina en Nyhavn, el canal estrecho excavado en 1673 para llevar los barcos mercantes al centro de la ciudad.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Christiansborg Palace",
+        "wikidata_qid": "Q319061",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christiansborg_Palace",
+        "coordinates": {
+          "lat": 55.6763,
+          "lon": 12.5799
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La torre del palacio es gratuita para subir y abre a las 10am - ve directo antes de que lleguen los grupos de turistas. Con 106 metros es la torre accesible más alta de Copenhagen y enmarca todo el centro histórico incluyendo Rosenborg, la Marble Church y la Opera House al otro lado del puerto. Las Royal Ruins en el sótano exponen los cimientos de la fortaleza original de 1167 del obispo Absalon y están incluidas con la entrada del palacio.",
+        "walk_to_next": {
+          "to": "Copenhagen Cathedral",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Copenhagen Cathedral",
+        "wikidata_qid": "Q1793681",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Copenhagen_Cathedral",
+        "coordinates": {
+          "lat": 55.6808,
+          "lon": 12.5718
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "El interior neoclásico de C.F. Hansen (terminado en 1829) es lo opuesto al desorden gótico - paredes blancas, bóveda de cañón y el Cristo de mármol de Bertel Thorvaldsen como retablo, con los doce apóstoles alineados en la nave. La entrada es gratuita. El edificio principal de la universidad justo enfrente fue diseñado por el mismo arquitecto en la misma década, dando a la plaza una coherencia poco común para el centro de una ciudad del norte de Europa.",
+        "walk_to_next": {
+          "to": "Rundetaarn",
+          "distance_meters": 310,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Nyhavn",
+        "wikidata_qid": "Q182736",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nyhavn",
+        "coordinates": {
+          "lat": 55.6796,
+          "lon": 12.5908
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Camina hasta el extremo portuario del canal y gira a la izquierda hacia el muelle norte soleado - Nyhavn 1 al 18 - en lugar del lado sur sombreado donde se concentran la mayoría de restaurantes y los precios reflejan la afluencia turística. Hans Christian Andersen vivió en los números 18, 20 y 67 en diferentes períodos de su vida. El canal se abre directamente al puerto principal, y durante la hora dorada la luz ilumina las fachadas de los números 1 al 9 de frente.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Rundetaarn",
+          "wikidata_qid": "Q658975",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rundetaarn",
+          "coordinates": {
+            "lat": 55.6814,
+            "lon": 12.5757
+          },
+          "neighborhood": "Indre By",
+          "duration_minutes": 40,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Una torre astronómica del siglo XVII a la que se asciende por una rampa espiral continua de ladrillo de 7.5 vueltas en lugar de escaleras - lo suficientemente ancha como para que el zar Pedro el Grande subiera a caballo en 1716 y su esposa lo siguiera en carruaje. La plataforma de observación en la azotea ofrece la mejor vista a nivel de calle del paisaje de tejados medievales de Indre By, con las torres de cobre de Vor Frelsers y Christiansborg visibles simultáneamente.",
+          "walk_from_main_route": {
+            "from": "Copenhagen Cathedral",
+            "distance_meters": 310,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "National Museum of Denmark",
+          "wikidata_qid": "Q671866",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Denmark",
+          "coordinates": {
+            "lat": 55.6752,
+            "lon": 12.5738
+          },
+          "neighborhood": "Slotsholmen",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Directamente al otro lado del canal desde Christiansborg y con entrada gratuita. La colección prehistórica - particularmente la sección de la Edad de Bronce con el carro solar de Trundholm y los cuerpos de las turberas de la Edad de Hierro - está entre las mejor documentadas del norte de Europa. Una excelente alternativa a la torre del palacio si el clima es malo y la vista no vale la pena.",
+          "walk_from_main_route": {
+            "from": "Christiansborg Palace",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "destination": "Berlin",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:15:59.589Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Mitte - Museum Island / Brandenburg Gate / Unter den Linden"
+  ],
+  "guide_description": "Un día centrado en Mitte, recorriendo el núcleo histórico de Berlín desde la isla de museos prusiana en el Spree hacia el oeste por el gran bulevar de Unter den Linden hasta la Brandenburg Gate y el Holocaust Memorial. La secuencia avanza cronológica y geográficamente, terminando en uno de los monumentos al aire libre más impactantes del mundo.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3380,
+  "total_walking_minutes": 43,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Mitte - De Museum Island a la Brandenburg Gate",
+      "cluster_tagline": "Grandeza prusiana, historia dividida y los espacios públicos más cargados de la ciudad en un corredor transitable",
+      "neighborhood_focus": "Mitte - Museum Island / Unter den Linden / Brandenburger Tor",
+      "neighborhood_description": "El centro histórico de Berlín ocupa una franja estrecha a lo largo de Unter den Linden desde la isla del Spree hasta el borde del Tiergarten. Lo que una vez fue el eje real prusiano fue dividido por el Muro, bombardeado hasta convertirse en escombros y reconstruido dos veces - el resultado es una ciudad que superpone ambición barroca, tejido cicatricial de la Guerra Fría y arquitectura de la reunificación en una caminata de treinta minutos.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3380,
+      "day_walking_minutes": 43,
+      "morning": {
+        "activity_title": "Pergamon Museum",
+        "wikidata_qid": "Q157004",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pergamon_Museum",
+        "coordinates": {
+          "lat": 52.5212,
+          "lon": 13.3967
+        },
+        "unesco_designation": {
+          "site_name": "Museumsinsel (Museum Island), Berlin",
+          "year_inscribed": 1999,
+          "reference_number": 896,
+          "url": "https://whc.unesco.org/en/list/896"
+        },
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "El ala norte que alberga la Ishtar Gate y la Processional Way of Babylon está cerrada actualmente por renovación - confirma qué galerías están abiertas antes de ir, ya que el Pergamon Altar también está fuera de exhibición hasta al menos 2027. El ala islámica con la Aleppo Room y la fachada Mshatta permanece completamente abierta y está entre las mejores colecciones de arte islámico de Europa. Reserva boletos con horario programado en el sitio web de SMB el día anterior para evitar la cola en el puente de la isla.",
+        "walk_to_next": {
+          "to": "Berliner Dom",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Berliner Dom",
+        "wikidata_qid": "Q1537398",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Berlin_Cathedral",
+        "coordinates": {
+          "lat": 52.5192,
+          "lon": 13.4014
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La iglesia dinástica Hohenzollern completada en 1905, gravemente dañada en 1944 y restaurada durante tres décadas. La cripta inferior alberga noventa y cuatro sarcófagos Hohenzollern incluyendo el ornamentado ataúd de zinc del Great Elector. Sube a la galería de la cúpula - 270 escalones, sin ascensor - para una vista despejada hacia el este sobre Museum Island y las curvas del Spree que es mejor que cualquier plataforma de observación en el área.",
+        "walk_to_next": {
+          "to": "Unter den Linden and Bebelplatz",
+          "distance_meters": 730,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Brandenburg Gate and Memorial to the Murdered Jews of Europe",
+        "wikidata_qid": "Q82425",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+        "coordinates": {
+          "lat": 52.5163,
+          "lon": 13.3777
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Camina bajo la puerta desde el lado de Unter den Linden y continúa a pie hacia el sur hasta el Holocaust Memorial a dos minutos de distancia - 2,711 estelas de concreto de Peter Eisenman que desorientan deliberadamente mientras el suelo se inclina y los bloques se elevan a tu alrededor. El centro de información subterráneo (gratis, cierra a las 8pm) está entre los espacios de documentación más cuidadosamente diseñados de Alemania. Al atardecer la luz larga corta a través del campo de estelas desde el oeste y el efecto es incomparable a lo del mediodía.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Bebelplatz and the Book Burning Memorial",
+          "wikidata_qid": "Q540225",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bebelplatz",
+          "coordinates": {
+            "lat": 52.5173,
+            "lon": 13.3939
+          },
+          "neighborhood": "Mitte",
+          "duration_minutes": 20,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La plaza del foro prusiano flanqueada por la State Opera y la antigua biblioteca real. Busca el panel de vidrio colocado al ras en los adoquines cerca del centro - debajo hay una habitación blanca de estanterías vacías de Micha Ullman, marcando donde los nazis quemaron 20,000 libros el 10 May 1933. Fácil de pasar por alto completamente si no sabes que debes mirar hacia abajo.",
+          "walk_from_main_route": {
+            "from": "Berliner Dom",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        },
+        {
+          "activity_title": "Neues Museum - Nefertiti and Egyptian Collection",
+          "wikidata_qid": "Q163804",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Neues_Museum",
+          "coordinates": {
+            "lat": 52.5208,
+            "lon": 13.3976
+          },
+          "neighborhood": "Museum Island",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La restauración del bombardeado Neues Museum por David Chipperfield es una de las grandes intervenciones arquitectónicas de los últimos treinta años: preservó los daños de guerra en lugar de borrarlos, dejando agujeros de bala y parches faltantes de frescos junto a la estructura reconstruida. El busto de Nefertiti se encuentra en el tercer piso en una rotonda construida especialmente para él; llega temprano o tarde en el día para verlo sin multitudes amontonándose en tres filas a su alrededor.",
+          "walk_from_main_route": {
+            "from": "Pergamon Museum",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    }
+  ]
+}

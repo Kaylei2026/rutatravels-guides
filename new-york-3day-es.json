@@ -1,0 +1,346 @@
+{
+  "destination": "New York",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:44:16.381Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Lower Manhattan / Financial District",
+    "Midtown Manhattan",
+    "Upper West Side / Central Park"
+  ],
+  "guide_description": "Tres días cubriendo lo esencial de New York: el extremo sur histórico donde comenzó la ciudad, el denso corredor de Midtown con torres icónicas y museos de clase mundial, y la columna vertebral verde de Central Park rodeada de las instituciones culturales del Upper West Side. Cada día es geográficamente independiente.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 7800,
+  "total_walking_minutes": 98,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Lower Manhattan y el Financial District",
+      "cluster_tagline": "Donde comenzó New York - calles coloniales, una obra maestra del Gothic Revival, y la orilla del puerto",
+      "neighborhood_focus": "Lower Manhattan / Financial District",
+      "neighborhood_description": "El extremo sur de Manhattan es la parte más antigua de la ciudad, donde los colonos holandeses trazaron la cuadrícula original de New Amsterdam en la década de 1620. Wall Street, Trinity Church, el 9/11 Memorial y la terminal del Staten Island Ferry están todos a diez minutos de caminata entre sí, y las vistas del puerto desde Battery Park siguen siendo las mejores de la ciudad.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "9/11 Memorial and Museum",
+        "wikidata_qid": "Q1260874",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_September_11_Memorial_%26_Museum",
+        "coordinates": {
+          "lat": 40.7115,
+          "lon": -74.0134
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Reserva boletos con horario específico en línea antes de llegar - los horarios matutinos se agotan con días de anticipación en verano. Las dos piscinas reflectantes ocupan exactamente las huellas de las Twin Towers; los nombres de las víctimas están grabados en los parapetos de bronce en un arreglo deliberado que agrupa colegas y familiares juntos. Si visitas solo la plaza memorial y omites el museo, la entrada es gratuita. El Foundation Hall subterráneo del museo, donde se conservan el muro de lodo original y la Last Column, es el espacio arquitectónicamente más poderoso.",
+        "walk_to_next": {
+          "to": "Trinity Church",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Trinity Church",
+        "wikidata_qid": "Q1366512",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Trinity_Church_(Manhattan)",
+        "coordinates": {
+          "lat": 40.7081,
+          "lon": -74.0134
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La iglesia de arenisca del Gothic Revival de 1846 al inicio de Wall Street fue la estructura más alta de New York durante gran parte del siglo XIX. Alexander Hamilton está enterrado en el cementerio del lado sur - su tumba está inmediatamente a la derecha de la puerta sur y recibe un flujo constante de visitantes tras la popularidad del musical Hamilton. El interior es fresco, oscuro y genuinamente pacífico a pesar de estar a pasos de la bolsa de valores.",
+        "walk_to_next": {
+          "to": "Battery Park and Staten Island Ferry",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Battery Park and the Staten Island Ferry",
+        "wikidata_qid": "Q756917",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Staten_Island_Ferry",
+        "coordinates": {
+          "lat": 40.6996,
+          "lon": -74.0131
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "El Staten Island Ferry es completamente gratuito y funciona las 24 horas del día, convirtiéndolo en la mejor oferta de la ciudad. Aborda en Whitehall Terminal y viaja a St. George Terminal y de regreso - el viaje de regreso ofrece la mejor vista del skyline de Manhattan desde el puerto. Siéntate en el lado derecho del barco al salir de Manhattan para el ángulo de la Statue of Liberty. Battery Park en sí, con Castle Clinton y las vistas del puerto, es el lugar indicado para terminar una tarde antes de abordar.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Charging Bull",
+          "wikidata_qid": "Q1063227",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Charging_Bull",
+          "coordinates": {
+            "lat": 40.7056,
+            "lon": -74.0134
+          },
+          "neighborhood": "Financial District",
+          "duration_minutes": 15,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "El toro de bronce de 3,200 kilogramos de Arturo Di Modica, colocado ilegalmente frente al New York Stock Exchange en 1989 y reubicado aquí después de que la policía lo removiera. Ve temprano - para las 10am se han reunido multitudes para fotos y la plaza circundante se congestiona. La estatua Fearless Girl ahora se encuentra cerca en Broad Street frente al NYSE.",
+          "walk_from_main_route": {
+            "from": "Trinity Church",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Fraunces Tavern Museum",
+          "wikidata_qid": "Q1444531",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Fraunces_Tavern",
+          "coordinates": {
+            "lat": 40.7033,
+            "lon": -74.0117
+          },
+          "neighborhood": "Financial District",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un edificio de 1719 en Pearl Street que es una de las estructuras más antiguas que se conservan en Manhattan. George Washington dio su discurso de despedida a sus oficiales aquí en 1783. El museo ocupa las plantas superiores; la planta baja ha funcionado como taberna de forma continua durante siglos. La manzana de Stone Street justo detrás es el paisaje urbano colonial más estrecho e intacto del Financial District.",
+          "walk_from_main_route": {
+            "from": "Trinity Church",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Midtown - Grand Central al High Line",
+      "cluster_tagline": "La ambición vertical de New York - terminales Beaux-Arts, torres Art Déco, y un parque en el cielo",
+      "neighborhood_focus": "Midtown Manhattan",
+      "neighborhood_description": "Midtown entre las calles 34th y 50th es la concentración más densa de arquitectura emblemática del mundo - Grand Central Terminal, el Chrysler Building, el Empire State Building, y el High Line, todo dentro de un corredor largo pero transitable a pie. La cuadrícula aquí se trazó antes de que existiera cualquiera de estos edificios, y la tensión entre el plan urbano implacable y la ambición individual de cada torre es lo que hace que Midtown sea visualmente extraordinario.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 34,
+      "morning": {
+        "activity_title": "Grand Central Terminal",
+        "wikidata_qid": "Q181081",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_Central_Terminal",
+        "coordinates": {
+          "lat": 40.7527,
+          "lon": -73.9772
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La terminal Beaux-Arts de 1913 no es principalmente una atracción turística sino un centro de transporte en funcionamiento, que es lo que la hace extraordinaria. Ven entre las 8 y 9 de la mañana para ver 750,000 personas fluir por el vestíbulo principal bajo la luz inclinada de las ventanas altas de la fachada sur. El techo de bóveda de cañón pintado de turquesa muestra las constelaciones de invierno en pan de oro - pintado al revés porque el diseñador original trabajó a partir de un manuscrito medieval que representaba el cielo visto desde fuera de la esfera celeste. El Oyster Bar en el nivel inferior ha estado abierto desde que la terminal abrió en 1913.",
+        "walk_to_next": {
+          "to": "Chrysler Building",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Empire State Building",
+        "wikidata_qid": "Q9188",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Empire_State_Building",
+        "coordinates": {
+          "lat": 40.7484,
+          "lon": -73.9856
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Reserva el boleto con horario específico en línea y paga la tarifa extra para el observatorio del piso 102 en lugar de detenerte en el 86 - la diferencia en el panorama es significativa y el 102 rara vez está abarrotado. En un día despejado la vista se extiende 130 kilómetros. El vestíbulo Art Déco en 34th Street es de entrada gratuita y vale la pena una mirada pausada - el trabajo en metal de aluminio y mármol fue diseñado por la firma rival de William Van Alen y sigue siendo uno de los interiores más finos de Midtown.",
+        "walk_to_next": {
+          "to": "The High Line",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "The High Line",
+        "wikidata_qid": "Q742479",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/High_Line",
+        "coordinates": {
+          "lat": 40.748,
+          "lon": -74.0048
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Entra en 34th Street y camina hacia el sur por la línea de tren de carga elevada convertida en parque lineal. La sección entre las calles 22nd y 18th tiene las mejores vistas del Hudson River y captura la última luz occidental antes del atardecer. La 10th Avenue Square en 17th Street es un anfiteatro incorporado sobre la cuadrícula urbana - siéntate y observa el tráfico pasar abajo mientras el horizonte de Chelsea piers se vuelve dorado. Sal en Gansevoort Street hacia el Meatpacking District para opciones de cena.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Chrysler Building",
+          "wikidata_qid": "Q175158",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chrysler_Building",
+          "coordinates": {
+            "lat": 40.7516,
+            "lon": -73.9755
+          },
+          "neighborhood": "Midtown East",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La torre Art Déco de 1930 con gárgolas de águila de acero inoxidable que se proyectan desde el piso 61. El vestíbulo es públicamente accesible y contiene algunos de los mejores trabajos de interiores Art Déco que existen - pisos de mármol marroquí rojo, murales de techo iluminados en ámbar que representan la línea de ensamblaje de Chrysler. No hay observatorio, pero solo el vestíbulo vale cinco minutos fuera de la ruta.",
+          "walk_from_main_route": {
+            "from": "Grand Central Terminal",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "New York Public Library - Stephen A. Schwarzman Building",
+          "wikidata_qid": "Q1142334",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_Public_Library",
+          "coordinates": {
+            "lat": 40.7532,
+            "lon": -73.9822
+          },
+          "neighborhood": "Midtown",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "El edificio Beaux-Arts de 1911 en Fifth Avenue entre las calles 40 y 42 es de entrada gratuita. Camina pasando Patience and Fortitude (los leones de mármol que flanquean la entrada) directamente hacia la Rose Main Reading Room en el segundo piso - 78 metros de largo con un techo artesonado dorado y lámparas de bronce aún en sus posiciones originales. Una de las salas interiores más grandiosas de Nueva York, casi completamente ignorada por visitantes que no saben que es de acceso público.",
+          "walk_from_main_route": {
+            "from": "Grand Central Terminal",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Central Park y Museum Mile",
+      "cluster_tagline": "La columna vertebral verde - 843 acres de paisaje diseñado flanqueado por la colección más grande del mundo de museos enciclopédicos",
+      "neighborhood_focus": "Upper West Side / Central Park / Upper East Side",
+      "neighborhood_description": "Central Park fue diseñado por Frederick Law Olmsted y Calvert Vaux comenzando en 1858 como un paisaje público democrático para una ciudad que entonces solo estaba construida hasta la calle 34. Las instituciones que crecieron en su flanco oriental - Museum Mile a lo largo de Fifth Avenue entre las calles 82 y 105 - representan la ambición victoriana de hacer de Nueva York una capital cultural. Solo el Metropolitan Museum of Art contiene más de dos millones de objetos.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2500,
+      "day_walking_minutes": 31,
+      "morning": {
+        "activity_title": "Metropolitan Museum of Art",
+        "wikidata_qid": "Q160236",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art",
+        "coordinates": {
+          "lat": 40.7794,
+          "lon": -73.9632
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Compra boletos en línea para saltarte la cola de la taquilla de admisión. Elige tres departamentos en lugar de intentar ver todo el edificio - las galerías de Arte Egipcio incluyendo el Temple of Dendur (un templo egipcio completo de 15 a.C. reconstruido dentro de un salón con paredes de cristal), las galerías Griega y Romana, y el American Wing son los pilares más sólidos. El jardín de esculturas en la azotea está abierto estacionalmente y ofrece una vista directa hacia Central Park que la mayoría de visitantes nunca descubre.",
+        "walk_to_next": {
+          "to": "Central Park - The Ramble",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Central Park",
+        "wikidata_qid": "Q18426",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Central_Park",
+        "coordinates": {
+          "lat": 40.7829,
+          "lon": -73.9654
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Entra por la 79th Street Transverse desde Museum Mile y camina hacia el oeste hacia Belvedere Castle - una fantasía victoriana en un afloramiento de esquisto que sirve como estación meteorológica del parque y tiene la mejor vista elevada del Ramble y el Lake. Continúa al sur hacia Bethesda Terrace, que Olmsted consideraba el corazón formal del parque - la arcada bajo la terraza tiene algunos de los mejores trabajos en azulejo encáustico del país. La fila de olmos americanos a lo largo del Mall al sur de Bethesda es uno de los últimos grupos intactos de olmo americano en el noreste de Estados Unidos.",
+        "walk_to_next": {
+          "to": "American Museum of Natural History",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "American Museum of Natural History",
+        "wikidata_qid": "Q217717",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/American_Museum_of_Natural_History",
+        "coordinates": {
+          "lat": 40.7813,
+          "lon": -73.974
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Entra por Central Park West en la calle 79. El Hall of Ocean Life en la planta baja - dominado por un modelo de ballena azul suspendida de 94 pies instalado en 1969 - es la sala con más atmósfera de cualquier museo de Nueva York. El Rose Center for Earth and Space en el extremo norte del edificio tiene un planetario separado y un modelo a escala del sistema solar que se envuelve alrededor de la rampa espiral del edificio. Las tardes de entre semana están tranquilas; los viernes por la noche el museo permanece abierto hasta las 8:45pm.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Jacqueline Kennedy Onassis Reservoir",
+          "wikidata_qid": "Q3155209",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis_Reservoir",
+          "coordinates": {
+            "lat": 40.786,
+            "lon": -73.9638
+          },
+          "neighborhood": "Central Park",
+          "duration_minutes": 40,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "La pista de ceniza para correr de 1.58 millas alrededor del reservorio ofrece las mejores vistas del horizonte dentro del parque - las torres del Upper East Side al este y las torres gemelas San Remo al oeste se aprecian mejor desde el sendero norte en el borde del reservorio. La mayoría de visitantes nunca llegan a esta parte del parque, haciéndola sustancialmente más tranquila que Bethesda Terrace.",
+          "walk_from_main_route": {
+            "from": "Central Park - Belvedere Castle",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        },
+        {
+          "activity_title": "Solomon R. Guggenheim Museum",
+          "wikidata_qid": "Q201469",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
+          "coordinates": {
+            "lat": 40.783,
+            "lon": -73.959
+          },
+          "neighborhood": "Upper East Side",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "El edificio en espiral de 1959 de Frank Lloyd Wright es el interior de museo más debatido de Estados Unidos - la rampa continua fue diseñada para recorrerse de arriba hacia abajo, no piso por piso. Toma el ascensor hasta arriba y camina por la rampa hacia abajo, que es como Wright pensó que debía experimentarse la colección. El óculo de la rotonda en la parte superior se fotografía mejor desde el centro de la planta baja mirando hacia arriba.",
+          "walk_from_main_route": {
+            "from": "Metropolitan Museum of Art",
+            "distance_meters": 650,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

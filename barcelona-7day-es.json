@@ -1,0 +1,662 @@
+{
+  "destination": "Barcelona",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Barri Gòtic / El Born",
+    "Eixample / Gaudí axis",
+    "Montjuïc / Poble Sec",
+    "Park Güell / Gràcia",
+    "Barceloneta / Waterfront",
+    "Montserrat (day trip)",
+    "Sitges (day trip)"
+  ],
+  "guide_description": "Siete días cubriendo lo esencial de Barcelona, el parque montañoso de Gaudí, el ambiente de pueblo de Gràcia, el paseo marítimo mediterráneo, y dos excursiones de un día: el surrealista monasterio de montaña de Montserrat y la ciudad costera de Sitges. Cada día está organizado geográficamente de forma independiente.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 18000,
+  "total_walking_minutes": 234,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Barri Gòtic y El Born",
+      "cluster_tagline": "La Barcelona medieval a pie - Catedral, murallas romanas y el barrio de los comerciantes",
+      "neighborhood_focus": "Barri Gòtic / El Born",
+      "neighborhood_description": "Los dos barrios medievales adyacentes que forman el núcleo histórico de Barcelona. El Barri Gòtic está construido sobre cimientos romanos y se centra en la Catedral gótica; El Born al este es el antiguo barrio de comerciantes, más estrecho, más animado, con la basílica de Santa Maria del Mar en su corazón.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Cathedral of Barcelona (La Seu)",
+        "wikidata_qid": "Q56551",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cathedral_of_Barcelona",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1761
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La catedral gótica del siglo XIV, a menudo confundida con la Sagrada Família de Gaudí pero arquitectónicamente completamente distinta. El claustro con sus trece gansos blancos (uno por cada año de vida de Santa Eulalia, según la tradición) es el elemento central inesperado. Las terrazas del techo son accesibles por ascensor por una pequeña tarifa y ofrecen una vista desde las alturas del barrio gótico que las multitudes de la Sagrada Família rara vez piensan en buscar.",
+        "walk_to_next": {
+          "to": "Plaça del Rei",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Plaça del Rei and the Roman walls",
+        "wikidata_qid": "Q807877",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1775
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La plaza real medieval, enmarcada por el Palau Reial Major donde según se dice Colón presentó sus hallazgos a los Reyes Católicos en 1493. La entrada del MUHBA Barcelona History Museum en la plaza desciende bajo tierra a unos 4 km notablemente conservados de la Barcino romana - calles, tintorerías, bodegas - directamente bajo tus pies. La visita museística más sorprendente de Barcelona.",
+        "walk_to_next": {
+          "to": "Santa Maria del Mar",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Santa Maria del Mar",
+        "wikidata_qid": "Q930687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+        "coordinates": {
+          "lat": 41.3838,
+          "lon": 2.1819
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Construida entre 1329-1383 por los comerciantes y porteadores del barrio de la Ribera, financiada íntegramente por la clase trabajadora - el apodo local es 'la Catedral del Mar'. El interior gótico catalán puro es inusualmente amplio y aireado comparado con sus pares góticos franceses, con proporciones que han influenciado a arquitectos desde Gaudí en adelante. El sol de la tarde a través del rosetón es la recompensa visual.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Picasso Museum",
+          "wikidata_qid": "Q832627",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Picasso",
+          "coordinates": {
+            "lat": 41.3853,
+            "lon": 2.1808
+          },
+          "neighborhood": "El Born",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La mayor colección de la obra temprana de Picasso, alojada en cinco mansiones medievales conectadas en El Born. La fortaleza del museo es mostrar a Picasso antes de que fuera Picasso - los años académicos de Barcelona, el Período Azul, las variaciones de Las Meninas de 1957. Cerrado los lunes. Entrada gratuita los jueves por la tarde y el primer domingo de cada mes - esos horarios tienen largas colas.",
+          "walk_from_main_route": {
+            "from": "Santa Maria del Mar",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Eixample y el eje Gaudí",
+      "cluster_tagline": "Modernismo Barcelona - la Sagrada Família, Casa Batlló, y la cuadrícula que los planificó",
+      "neighborhood_focus": "Eixample",
+      "neighborhood_description": "La extensión planificada del siglo XIX de Barcelona más allá de las antiguas murallas, trazada en 1859 en una cuadrícula uniforme con esquinas achaflanadas que le da al barrio su ritmo visual de bloques octogonales. La cuadrícula alberga la concentración más densa de modernismo catalán (el movimiento art nouveau español liderado por Gaudí, Domènech y Puig) del mundo.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Sagrada Família",
+        "wikidata_qid": "Q5882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+        "coordinates": {
+          "lat": 41.4036,
+          "lon": 2.1744
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 120,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La basílica inacabada de Gaudí, comenzada en 1882 y que ahora se espera complete la torre central de Jesus Christ en 2026. Reserva la entrada con horario específico online con semanas de anticipación - conseguir entrada directa es raro incluso fuera de temporada. Elige un horario matutino para la luz de la fachada del Nativity orientada al este a través de las vidrieras, que inunda las columnas interiores en azul y naranja. Las entradas del ascensor a la torre (una de las torres del Nativity o Passion) tienen un costo adicional y valen la pena por la vista cercana del detalle de las agujas.",
+        "walk_to_next": {
+          "to": "Casa Batlló (via Passeig de Gràcia)",
+          "distance_meters": 1800,
+          "walking_minutes": 23
+        }
+      },
+      "afternoon": {
+        "activity_title": "Casa Batlló and Passeig de Gràcia",
+        "wikidata_qid": "Q11910",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3",
+        "coordinates": {
+          "lat": 41.3917,
+          "lon": 2.165
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La remodelación de Gaudí de 1904 de un edificio de apartamentos existente - los balcones curvos similares a huesos, el techo de tejas con escamas de dragón, las columnas de chimeneas son todos suyos. El tour interior es excelente (reserva online) pero costoso; si tienes presupuesto limitado, la vista de la fachada desde el otro lado de Passeig de Gràcia es en sí misma una atracción importante. Dentro de la misma manzana se encuentra Casa Amatller de Puig i Cadafalch - el contraste entre los estilos de los dos arquitectos es el punto de la Manzana de la Discordia.",
+        "walk_to_next": {
+          "to": "Casa Milà (La Pedrera)",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Casa Milà (La Pedrera) at sunset",
+        "wikidata_qid": "Q83036",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Mil%C3%A0",
+        "coordinates": {
+          "lat": 41.3954,
+          "lon": 2.162
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La última obra secular de Gaudí, 1912 - los locales la apodaron 'La Pedrera' por su fachada de piedra bruta. La azotea, con sus chimeneas surrealistas en forma de casco de guerrero, es la parte famosa - las entradas con horario específico al atardecer valen la pena el precio premium. La visita nocturna 'Pedrera de Nit' proyecta espectáculos de luces en las chimeneas y es más atmosférica que el tour diurno, aunque más cara.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hospital de Sant Pau",
+          "wikidata_qid": "Q5907",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hospital_de_Sant_Pau",
+          "coordinates": {
+            "lat": 41.4117,
+            "lon": 2.1742
+          },
+          "neighborhood": "Eixample",
+          "duration_minutes": 75,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "El complejo hospitalario de Domènech i Montaner de 1902-1930 - 27 pabellones separados conectados por senderos decorados con azulejos y túneles subterráneos, diseñados bajo la teoría radical de que la belleza en sí misma acelera la curación. Recientemente restaurado y reabierto al público. Arquitectónicamente posiblemente más sostenido que cualquier cosa que construyó Gaudí, pero mucho menos visitado. Patrimonio Mundial de la UNESCO por derecho propio.",
+          "walk_from_main_route": {
+            "from": "Sagrada Família",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Montjuïc y Poble Sec",
+      "cluster_tagline": "La montaña de los museos - arte catalán, arquitectura de la Exposición Universal de 1929 y panorámicas mediterráneas",
+      "neighborhood_focus": "Montjuïc / Poble Sec",
+      "neighborhood_description": "La colina de 184 metros que se eleva desde el frente marítimo occidental, remodelada para la Exposición Internacional de 1929 y nuevamente para los Juegos Olímpicos de 1992. Alberga el Museu Nacional d'Art de Catalunya, la Fundació Joan Miró, el estadio olímpico y el castillo medieval en la cima, además de la mayor concentración de miradores panorámicos gratuitos de Barcelona.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "MNAC - National Art Museum of Catalonia",
+        "wikidata_qid": "Q861252",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Art_Museum_of_Catalonia",
+        "coordinates": {
+          "lat": 41.3686,
+          "lon": 2.1531
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Ubicado en el Palau Nacional de 1929, el Museu Nacional d'Art alberga la colección más importante del mundo de frescos románicos, rescatados de iglesias de pueblos pirenaicos en los años 1920 y reinstalados aquí sobre formas de ábside reconstruidas. Las salas románicas por sí solas justifican la visita; la sección de modernisme en el piso superior cubre las artes decorativas de la época de Gaudí. Entrada gratuita el primer sábado por la tarde y todos los domingos después de las 3pm. La terraza ofrece una vista panorámica de toda la ciudad.",
+        "walk_to_next": {
+          "to": "Fundació Joan Miró",
+          "distance_meters": 800,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Fundació Joan Miró",
+        "wikidata_qid": "Q637098",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fundaci%C3%B3_Joan_Mir%C3%B3",
+        "coordinates": {
+          "lat": 41.3686,
+          "lon": 2.1597
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Diseñado por Josep Lluís Sert, amigo de Miró (arquitecto, decano del MIT, exiliado de la España de Franco), el edificio de la fundación es en sí mismo una de las grandes piezas de arquitectura museística del siglo XX: modernismo mediterráneo blanco con galerías iluminadas cenitalmente y una terraza de esculturas en la azotea. La colección es abrumadoramente de Miró, organizada cronológicamente, con una impactante sala 'Homenaje a Miró' con obras de otros artistas donadas en su honor.",
+        "walk_to_next": {
+          "to": "Montjuïc Castle",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Montjuïc Castle and the Mediterranean panorama",
+        "wikidata_qid": "Q623808",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Montju%C3%AFc_Castle",
+        "coordinates": {
+          "lat": 41.3636,
+          "lon": 2.1664
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Fortaleza militar del siglo XVII en la cumbre, con una brutal historia política: fue utilizada por el régimen de Franco para encarcelar y ejecutar a nacionalistas catalanes. Ahora es propiedad de la ciudad y está abierta al público. La vista desde las murallas orientales abarca toda la costa mediterránea desde la ciudad hasta el mar; las vistas occidentales miran hacia abajo al puerto y el anillo olímpico. El acceso más fácil es desde el teleférico que sube desde la estación Telefèric sobre Poble Sec.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mies van der Rohe Pavilion",
+          "wikidata_qid": "Q83074",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Barcelona_Pavilion",
+          "coordinates": {
+            "lat": 41.3706,
+            "lon": 2.1503
+          },
+          "neighborhood": "Montjuïc",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "El pabellón alemán de Mies van der Rohe para la Exposición de 1929: uno de los edificios más influyentes del siglo XX, la declaración fundacional de la arquitectura modernista. El original fue demolido después de la feria; esta es una reconstrucción de 1986 en el sitio original usando los materiales y planos originales. Pequeño, exterior gratuito para recorrer, entrada módica para el interior.",
+          "walk_from_main_route": {
+            "from": "MNAC",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Park Güell y Gràcia",
+      "cluster_tagline": "Gaudí en la colina y el barrio más pueblerino de Barcelona",
+      "neighborhood_focus": "Park Güell / Gràcia",
+      "neighborhood_description": "Las laderas del norte sobre la ciudad, donde Gaudí construyó su parque más fotografiado, y el barrio adyacente de Gràcia - un pueblo independiente hasta 1897, que aún conserva pequeñas plazas, edificios de poca altura y el ambiente más local del centro de Barcelona.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Park Güell",
+        "wikidata_qid": "Q170842",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Park_G%C3%BCell",
+        "coordinates": {
+          "lat": 41.4145,
+          "lon": 2.1527
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Comenzado en 1900 como un fallido desarrollo de viviendas de lujo para el mecenas de Gaudí, Eusebi Güell - solo se construyeron dos casas, y la ciudad finalmente compró el terreno como parque público en 1922. La famosa Zona Monumental (la escalinata del dragón, la sala de columnas, la terraza de azulejos ondulados) ahora requiere entrada con horario reservado; el parque circundante es gratuito y vale la pena recorrerlo. Reserva la entrada con horario por internet; es imposible conseguirla en taquilla. Llega a la apertura para evitar los grupos turísticos.",
+        "walk_to_next": {
+          "to": "Plaça de la Vila de Gràcia",
+          "distance_meters": 1500,
+          "walking_minutes": 20
+        }
+      },
+      "afternoon": {
+        "activity_title": "Plaça de la Vila de Gràcia",
+        "wikidata_qid": "Q11935367",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gr%C3%A0cia",
+        "coordinates": {
+          "lat": 41.4022,
+          "lon": 2.1564
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La plaza central del antiguo pueblo de Gràcia, dominada por la torre del reloj de 1862 (Torre del Rellotge), que sirvió como faro político del movimiento republicano catalán a finales del siglo XIX. La plaza es el corazón del barrio - caminar cinco minutos en cualquier dirección te lleva a calles estrechas arboladas, pequeñas librerías, bares de vermut y panaderías con fachadas de azulejos. Mejor en una tarde de día laborable cuando predominan los locales.",
+        "walk_to_next": {
+          "to": "Plaça del Sol",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Plaça del Sol after dark",
+        "wikidata_qid": "Q11935430",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gr%C3%A0cia",
+        "coordinates": {
+          "lat": 41.4017,
+          "lon": 2.1542
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "La plaza salón de Gràcia, nombrada por una cooperativa obrera del siglo XIX. Menos presionada por turistas que la Plaça Reial del Barrio Gótico y el mejor lugar local para sentarse con una copa mientras el barrio se vacía al anochecer. Las calles circundantes como Carrer de Verdi y Carrer de Torrent de l'Olla albergan algunos de los mejores restaurantes pequeños de Barcelona. A mediados de agosto cada año, los residentes de Gràcia decoran sus calles para la Festa Major, transformando el barrio durante diez días.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Casa Vicens",
+          "wikidata_qid": "Q1052406",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Vicens",
+          "coordinates": {
+            "lat": 41.4044,
+            "lon": 2.1497
+          },
+          "neighborhood": "Gràcia",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La primera obra importante encargada a Gaudí (1883-1888), construida para un fabricante de azulejos - de ahí la fachada densamente azulejada. Solo abierta al público en 2017 tras una extensa restauración. Más pequeña y menos visitada que los otros sitios UNESCO de Gaudí; un excelente contrapunto a Park Güell el mismo día.",
+          "walk_from_main_route": {
+            "from": "Plaça de la Vila de Gràcia",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Barceloneta y el Paseo Marítimo",
+      "cluster_tagline": "La Barcelona mediterránea - el barrio de pescadores, la playa olímpica y el puerto",
+      "neighborhood_focus": "Barceloneta / Port Vell",
+      "neighborhood_description": "La península triangular entre el puerto viejo y el Mediterráneo, trazada en 1753 como una cuadrícula planificada para marineros y trabajadores portuarios desplazados cuando se construyó la Ciudadela. Ahora el tramo de playa más concentrado del centro de Barcelona, bordeado de restaurantes de mariscos y la remodelación del paseo marítimo de la era olímpica.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Maritime Museum (Drassanes Reials)",
+        "wikidata_qid": "Q1133778",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maritime_Museum_of_Barcelona",
+        "coordinates": {
+          "lat": 41.3753,
+          "lon": 2.1761
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Ubicado en los Reales Astilleros medievales (Drassanes Reials), uno de los edificios civiles góticos más grandes que se conservan en Europa: enormes salas abovedadas de piedra construidas para fabricar barcos de guerra mediterráneos en el siglo XIII. La colección se centra en una réplica a tamaño real del buque insignia de Don Juan de Austria de la Batalla de Lepanto de 1571. El edificio en sí es la atracción principal.",
+        "walk_to_next": {
+          "to": "Port Vell / Rambla del Mar",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Port Vell and Barceloneta beach",
+        "wikidata_qid": "Q1768717",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Barceloneta",
+        "coordinates": {
+          "lat": 41.3789,
+          "lon": 2.19
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Camina por el puerto desde el pie de La Rambla hacia el este por el Passeig de Joan de Borbó: el barrio de Barceloneta propiamente dicho es la estrecha cuadrícula de bloques de apartamentos altos y delgados construidos en lo que originalmente era terreno militar ganado al mar. La playa misma fue creada desde cero para los Juegos Olímpicos de 1992. La escultura del Pez de Frank Gehry que marca el extremo oriental de la playa es el punto de referencia que divide Barceloneta de la Vila Olímpica.",
+        "walk_to_next": {
+          "to": "Parc de la Ciutadella",
+          "distance_meters": 1200,
+          "walking_minutes": 16
+        }
+      },
+      "evening": {
+        "activity_title": "Parc de la Ciutadella at sunset",
+        "wikidata_qid": "Q1071019",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Parc_de_la_Ciutadella",
+        "coordinates": {
+          "lat": 41.3878,
+          "lon": 2.1864
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Construido en el lugar de una fortaleza borbónica de 1715 que finalmente fue demolida y convertida en el primer parque público de Barcelona en la década de 1880. Los terrenos de la Exposición Universal de 1888, el edificio del Parlamento catalán, el zoológico y la fuente de la cascada (que el joven Gaudí ayudó a diseñar como asistente de estudiante) se encuentran todos dentro del perímetro. Un contrapeso natural a la playa: verde, tranquilo, de uso local.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Arc de Triomf",
+          "wikidata_qid": "Q1374164",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arc_de_Triomf,_Barcelona",
+          "coordinates": {
+            "lat": 41.3911,
+            "lon": 2.1808
+          },
+          "neighborhood": "Sant Pere",
+          "duration_minutes": 20,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Arco de triunfo de ladrillo y terracota construido como entrada ceremonial a la Exposición Universal de 1888: no militar como su homónimo parisino sino comercial, con frisos que representan las artes y la industria. El paseo Passeig de Lluís Companys que va del arco al parque de la Ciutadella es una amplia caminata arbolada, popular entre los patinadores.",
+          "walk_from_main_route": {
+            "from": "Parc de la Ciutadella",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "Excursión de un día a Montserrat",
+      "cluster_tagline": "El monasterio de montaña serrada: el corazón espiritual de Cataluña, a una hora de Barcelona",
+      "neighborhood_focus": "Montserrat (outside Barcelona)",
+      "neighborhood_description": "Una cordillera surrealista de picos de conglomerado que se alza abruptamente desde la llanura catalana al noroeste de Barcelona, coronada por el monasterio benedictino de Santa Maria de Montserrat, fundado en el siglo XI y corazón espiritual de Cataluña. Accesible por el tren R5 desde Plaça d'Espanya más el ferrocarril de cremallera (cremallera) o el teleférico (aeri) hasta la montaña.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 34,
+      "morning": {
+        "activity_title": "Santa Maria de Montserrat monastery",
+        "wikidata_qid": "Q830378",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_de_Montserrat_Abbey",
+        "coordinates": {
+          "lat": 41.5919,
+          "lon": 1.8378
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Monasterio benedictino fundado en 1025, hogar de La Moreneta (la Virgen Negra): una escultura románica del siglo XII de la Virgen María que es la patrona de Cataluña. La cola de la capilla para tocar la estatua avanza lentamente; llega a la apertura (alrededor de las 7:30am para la basílica, la cola de la estatua desde las 8am). El coro de niños Escolania interpreta Salve Regina a la 1pm la mayoría de los días cuando hay clases.",
+        "walk_to_next": {
+          "to": "Mountain trails / Sant Joan funicular",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sant Joan funicular and mountain trails",
+        "wikidata_qid": "Q3470537",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Montserrat_(mountain)",
+        "coordinates": {
+          "lat": 41.5947,
+          "lon": 1.8419
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "El funicular desde el monasterio sube 250 metros hasta la estación de Sant Joan, donde comienzan los senderos de alta montaña. La caminata a la cumbre de Sant Jeroni (1,236m) toma aproximadamente 90 minutos ida y vuelta desde Sant Joan y ofrece el mirador más alto de la montaña - en días despejados se puede ver Mallorca sobre el Mediterráneo. Alternativa más corta: el paseo a la ermita de Sant Miquel, unos 30 minutos, con terreno más suave.",
+        "walk_to_next": {
+          "to": "Museum of Montserrat",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Museum of Montserrat",
+        "wikidata_qid": "Q1334564",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_Montserrat",
+        "coordinates": {
+          "lat": 41.5919,
+          "lon": 1.8367
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Colección inesperadamente sólida donada al monasterio durante los últimos dos siglos - El Greco, Caravaggio, Monet, Degas, Picasso, Dalí todos representados. Iconos rusos y antigüedades egipcias y chipriotas. Planifica tomar el tren de regreso a Barcelona antes de las 6pm; los horarios del funicular y teleférico se reducen por la noche y es fundamental conseguir la conexión con la línea R5 de vuelta a Plaça d'Espanya.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Santa Cova hermitage",
+          "wikidata_qid": "Q11936731",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Montserrat_(mountain)",
+          "coordinates": {
+            "lat": 41.59,
+            "lon": 1.8333
+          },
+          "neighborhood": "Montserrat",
+          "duration_minutes": 60,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Pequeña ermita que marca el lugar donde supuestamente se descubrió la Virgen Negra en 880. Se puede llegar por un sendero de 1 km bordeado de estaciones escultóricas del Rosario, varias diseñadas por Gaudí. El funicular más corto de Santa Cova desciende desde el monasterio si no apetece caminar de regreso.",
+          "walk_from_main_route": {
+            "from": "Santa Maria de Montserrat monastery",
+            "distance_meters": 800,
+            "walking_minutes": 11
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "Excursión de un día a Sitges",
+      "cluster_tagline": "El pueblo costero - casas blancas, palacetes modernistas, y la playa mediterránea más fotogénica cerca de Barcelona",
+      "neighborhood_focus": "Sitges (outside Barcelona)",
+      "neighborhood_description": "Un pequeño pueblo costero a 40 km al sur de Barcelona, accesible en tren R2 en unos 35 minutos. Antes un pueblo pesquero, luego un refugio del siglo XIX para adinerados que regresaron de las Américas (los indianos), ahora un popular escape de fin de semana con un casco antiguo bien preservado, dos excelentes museos pequeños, y el tramo más atractivo de la costa catalana al fácil alcance de la ciudad.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 34,
+      "morning": {
+        "activity_title": "Sant Bartomeu i Santa Tecla church and old town",
+        "wikidata_qid": "Q12387566",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sitges",
+        "coordinates": {
+          "lat": 41.2356,
+          "lon": 1.8133
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "La iglesia parroquial blanca en su promontorio sobre el mar es la imagen postal de Sitges. Recorre las callejuelas estrechas del casco antiguo - Carrer de l'Aigua, Carrer Sant Joan, Carrer Major - para ver la concentración más densa de mansiones indianas (construidas por catalanes que regresaron ricos de Cuba y Puerto Rico a finales del siglo XIX). Los miradors (pequeñas terrazas mirador) sobre el puerto ofrecen amplias vistas del Mediterráneo.",
+        "walk_to_next": {
+          "to": "Cau Ferrat Museum",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Cau Ferrat and Maricel Museums",
+        "wikidata_qid": "Q9001175",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cau_Ferrat",
+        "coordinates": {
+          "lat": 41.2356,
+          "lon": 1.8131
+        },
+        "unesco_designation": null,
+        "duration_minutes": 105,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Cau Ferrat fue la casa y estudio del pintor modernista Santiago Rusiñol - uno de los sitios fundacionales del modernisme catalán. La colección ecléctica de Rusiñol incluye dos pinturas de El Greco que compró en una subasta de París y paseó hasta Sitges en procesión pública en 1894. El adyacente Maricel Museum (construido por un rico coleccionista estadounidense en la década de 1910) amplía la colección. Un ticket combinado cubre ambos.",
+        "walk_to_next": {
+          "to": "Sitges beach promenade",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Passeig Marítim at sunset",
+        "wikidata_qid": "Q170460",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sitges",
+        "coordinates": {
+          "lat": 41.2336,
+          "lon": 1.812
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "El largo paseo marítimo curvado al oeste del casco antiguo. Sitges tiene 17 playas en total a lo largo de esta franja; Sant Sebastià (pequeña, familiar) y la céntrica Platja de la Ribera son las más accesibles. El malecón al oeste de la iglesia ofrece la vista icónica hacia la silueta del casco antiguo. Procura tomar el tren de regreso a Barcelona antes de las 8pm; la línea R2 circula frecuentemente en verano pero reduce servicios en temporada media.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Palau Maricel",
+          "wikidata_qid": "Q26706085",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sitges",
+          "coordinates": {
+            "lat": 41.2358,
+            "lon": 1.8136
+          },
+          "neighborhood": "Sitges",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Palacio de principios del siglo XX construido por el estadounidense Charles Deering como residencia privada y museo para albergar su colección de arte catalán. Ahora se usa para eventos cívicos y como extensión del Maricel Museum. La terraza con vista al mar es el mejor mirador panorámico gratuito de Sitges.",
+          "walk_from_main_route": {
+            "from": "Cau Ferrat Museum",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}

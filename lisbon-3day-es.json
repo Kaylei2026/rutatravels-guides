@@ -1,0 +1,356 @@
+{
+  "destination": "Lisbon",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:09:26.931Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Alfama / Mouraria",
+    "Baixa / Chiado / Bairro Alto",
+    "Belem"
+  ],
+  "guide_description": "Tres días recorriendo las capas esenciales de Lisboa: el barrio morisco de colina de Alfama, la cuadrícula pombalina del centro que asciende hacia el bohemio Chiado y Bairro Alto, y el suburbio ribereño de Belem donde comenzó la Era de los Descubrimientos de Portugal. Cada día está geográficamente autocontenido.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 8450,
+  "total_walking_minutes": 106,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Alfama y Castle Hill",
+      "cluster_tagline": "Lisboa morisca a pie - el barrio más antiguo, el castillo en la colina, y fado al anochecer",
+      "neighborhood_focus": "Alfama / Mouraria",
+      "neighborhood_description": "El barrio superviviente más antiguo de Lisboa, construido en la empinada ladera bajo el Castelo de Sao Jorge. Alfama es anterior al terremoto de 1755 que destruyó la mayor parte de la ciudad, preservando un laberinto de callejones medievales, casas encaladas y miradouros. El morisco Mouraria limita con su extremo occidental. El barrio es el hogar histórico de la música fado.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Castelo de Sao Jorge",
+        "wikidata_qid": "Q1020753",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_George%27s_Castle",
+        "coordinates": {
+          "lat": 38.7139,
+          "lon": -9.1336
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Llega a la apertura (9am) antes de que lleguen los grupos de turistas del terminal de cruceros. Los cimientos moriscos datan del siglo IX; las murallas actuales son en gran parte reconstrucción portuguesa medieval. Camina todo el circuito de las almenas en sentido horario - la torre noreste ofrece el panorama más completo del Tagus, los tejados de Alfama y el distante Ponte 25 de Abril. La excavación arqueológica dentro de las murallas del castillo ha expuesto capas desde la ocupación fenicia hasta la islámica y está incluida en el boleto.",
+        "walk_to_next": {
+          "to": "Se de Lisboa",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Se de Lisboa (Lisbon Cathedral)",
+        "wikidata_qid": "Q907170",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lisbon_Cathedral",
+        "coordinates": {
+          "lat": 38.7097,
+          "lon": -9.1328
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La iglesia más antigua de Lisboa, iniciada en 1147 en el sitio de la mezquita principal después de la reconquista cristiana - la fachada románica de torres gemelas está modelada según la Cathedral of Coimbra, ambas derivadas de una estética de fortaleza militar. El claustro gótico al que se accede desde la nave derecha contiene capas arqueológicas romanas e islámicas visibles a través de rejillas en el suelo. El museo del tesoro guarda reliquias de Saint Vincent of Saragossa, patrón de Lisboa, en un sarcófago de plata del siglo XIII.",
+        "walk_to_next": {
+          "to": "Miradouro das Portas do Sol",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Miradouro das Portas do Sol",
+        "wikidata_qid": "Q10345498",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Portas_do_Sol_viewpoint",
+        "coordinates": {
+          "lat": 38.7124,
+          "lon": -9.1308
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La terraza se sitúa directamente sobre los tejados de Alfama con una vista oriental sin obstrucciones hacia el Tagus. Llega 30 minutos antes del atardecer cuando la luz tiñe las tejas de terracota de naranja y el río se vuelve plata plana. El bar quiosco aquí sirve ginjinha (licor de cereza agria) en una copa de chocolate - la bebida correcta para este momento. Las casas de fado en Rua do Sao Miguel a pocos pasos abajo abren alrededor de las 8pm.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museu do Azulejo (National Tile Museum)",
+          "wikidata_qid": "Q1535903",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Tile_Museum",
+          "coordinates": {
+            "lat": 38.7196,
+            "lon": -9.1154
+          },
+          "neighborhood": "Xabregas (east of Alfama)",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Alojado en el convento Madre de Deus del siglo XVI, el museo traza la tradición portuguesa del azulejo desde los paneles geométricos moriscos del siglo XV hasta el apogeo azul y blanco del siglo XVIII y los azulejos artísticos del siglo XX. La pieza central es un panel de azulejos panorámico de 23 metros que representa Lisboa como se veía antes del terremoto de 1755 - la única imagen detallada de la ciudad previa al desastre. Cerrado los lunes. Accesible por el tranvía 28E o una caminata de 20 minutos al este desde la Se.",
+          "walk_from_main_route": {
+            "from": "Se de Lisboa",
+            "distance_meters": 1300,
+            "walking_minutes": 16
+          }
+        },
+        {
+          "activity_title": "Miradouro da Graca",
+          "wikidata_qid": "Q10345499",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gra%C3%A7a,_Lisbon",
+          "coordinates": {
+            "lat": 38.7158,
+            "lon": -9.1304
+          },
+          "neighborhood": "Graca",
+          "duration_minutes": 30,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "El más alto de los miradores del área de Alfama, una colina al norte de Portas do Sol. Menos frecuentado por turistas que Santa Luzia o Portas do Sol, lo que significa que realmente puedes sentarte en las mesas del quiosco. La vista hacia el oeste abarca la silueta del castillo, la cuadrícula de Baixa, y en días despejados la Serra de Sintra a 30km de distancia.",
+          "walk_from_main_route": {
+            "from": "Castelo de Sao Jorge",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Baixa, Chiado, y Bairro Alto",
+      "cluster_tagline": "Centro pombalino, cafés literarios, y el barrio bohemio de la colina",
+      "neighborhood_focus": "Baixa / Chiado / Bairro Alto",
+      "neighborhood_description": "El centro reconstruido de Lisboa, diseñado por el Marqués de Pombal después del terremoto de 1755 sobre una cuadrícula racional de amplias calles peatonales. En su extremo occidental, la cuadrícula asciende hacia Chiado, el barrio literario e intelectual, y luego hacia Bairro Alto, una cuadrícula de callejones estrechos que se transforma en zona de bares después del anochecer. Los tres son transitables entre sí en menos de 15 minutos.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Praca do Comercio and the Pombaline Grid",
+        "wikidata_qid": "Q736569",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pra%C3%A7a_do_Com%C3%A9rcio",
+        "coordinates": {
+          "lat": 38.7075,
+          "lon": -9.1364
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "La vasta plaza ribereña - antiguamente el sitio del Palacio real da Ribeira, demolido por el terremoto - está enmarcada por tres lados por edificios gubernamentales amarillos con arcadas y abierta al Tajo por el cuarto lado. La estatua ecuestre del Rey José I en el centro es del escultor Machado de Castro. Camina hacia el norte a través del Arco da Rua Augusta (hay una pequeña tarifa por la torre del arco) hacia la cuadrícula de Baixa, donde cada nombre de calle revela su oficio original: Rua dos Sapateiros (zapateros), Rua do Ouro (orfebres), Rua da Prata (plateros).",
+        "walk_to_next": {
+          "to": "Elevador de Santa Justa",
+          "distance_meters": 500,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Elevador de Santa Justa",
+        "wikidata_qid": "Q1144932",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Elevador_de_Santa_Justa",
+        "coordinates": {
+          "lat": 38.7122,
+          "lon": -9.1393
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "El ascensor de hierro de 1902 de Raul Mesnier de Ponsard conecta Baixa con la meseta de Carmo 32 metros más arriba. Compra una tarjeta Viva Viagem en cualquier estación de metro y cárgala con 1-2 euros en lugar de pagar el precio turístico inflado del viaje individual en el propio ascensor. La pasarela de la azotea ofrece una vista directa a la altura de los ojos de los arcos góticos expuestos del Convento do Carmo - el techo de la iglesia se derrumbó en el terremoto de 1755 y nunca fue reconstruido, dejando el esqueleto abierto al cielo.",
+        "walk_to_next": {
+          "to": "Museu Arqueologico do Carmo",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Museu Arqueologico do Carmo and Largo do Carmo",
+        "wikidata_qid": "Q1876849",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carmo_Convent,_Lisbon",
+        "coordinates": {
+          "lat": 38.7127,
+          "lon": -9.1409
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "archaeological_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La nave gótica sin techo del Convento do Carmo alberga un museo arqueológico pequeño pero genuinamente ecléctico - momias egipcias, cráneos peruanos precolombinos, tumbas medievales, y una sensibilidad de gabinete de curiosidades del siglo XIX que nunca llegó a reorganizarse completamente. Los arcos góticos que enmarcan el cielo abierto crean un espacio interior extraordinario incluso antes de llegar a la colección. El Largo do Carmo en el exterior es históricamente importante: es la plaza donde se reunieron los tanques del ejército el 25 de abril de 1974, la Revolución de los Claveles que terminó con 48 años de dictadura.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "A Brasileira cafe and Rua Garrett",
+          "wikidata_qid": "Q1093600",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/A_Brasileira",
+          "coordinates": {
+            "lat": 38.7108,
+            "lon": -9.1421
+          },
+          "neighborhood": "Chiado",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Inaugurado en 1905 como tienda minorista de un importador de café, A Brasileira se convirtió en el café literario de Chiado, donde Fernando Pessoa bebía su bica a diario. El Pessoa de bronce sentado en la mesa exterior es un imán turístico, pero el interior art nouveau con sus paneles de madera oscura y espejos dorados es el punto de interés. La Rua Garrett que corre hacia el este es el núcleo de la calle de librerías y moda de Chiado.",
+          "walk_from_main_route": {
+            "from": "Elevador de Santa Justa",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Miradouro de Sao Pedro de Alcantara",
+          "wikidata_qid": "Q10345500",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Pedro_de_Alcântara_belvedere",
+          "coordinates": {
+            "lat": 38.7148,
+            "lon": -9.1437
+          },
+          "neighborhood": "Bairro Alto",
+          "duration_minutes": 25,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Un mirador ajardinado escalonado en la parte alta del Bairro Alto con un panel de azulejos en la pared que mapea los monumentos de la vista. La línea de visión se dirige directamente al este sobre los tejados de la Baixa hacia el castillo, por lo que se lee como una imagen inversa de los miradores del Alfama. Mejor visitarlo al atardecer cuando el Bairro Alto comienza su transición de barrio residencial tranquilo a zona de bares.",
+          "walk_from_main_route": {
+            "from": "Museu Arqueologico do Carmo",
+            "distance_meters": 450,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Belem y la Orilla del Tagus",
+      "cluster_tagline": "La Era de los Descubrimientos en el paseo marítimo - monumentos manuelinos y museos de clase mundial",
+      "neighborhood_focus": "Belem",
+      "neighborhood_description": "El suburbio ribereño a 6km al oeste del centro de Lisboa, desde donde Vasco da Gama partió hacia la India en 1497. Belem alberga los dos grandes monumentos del estilo arquitectónico manuelino - la Tower of Belem y el Jeronimos Monastery - junto con el Monument to the Discoveries, el museo Berardo Collection, y el Museu de Arte, Arquitectura e Tecnologia. El barrio es llano y transitable a lo largo del paseo marítimo.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3550,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Mosteiro dos Jeronimos",
+        "wikidata_qid": "Q193811",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jer%C3%B3nimos_Monastery",
+        "coordinates": {
+          "lat": 38.6978,
+          "lon": -9.2067
+        },
+        "unesco_designation": {
+          "site_name": "Monastery of the Hieronymites and Tower of Belem in Lisbon",
+          "year_inscribed": 1983,
+          "reference_number": 263,
+          "url": "https://whc.unesco.org/en/list/263"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Construido a partir de 1502 utilizando un diezmo de las especias del comercio con la India, el monasterio es el ejemplo supremo del estilo manuelino - gótico tardío portugués fusionado con motivos marítimos, esferas armilares y trabajo de piedra tallada en forma de cuerda. Llega a la apertura (10am, 9:30am en verano) para recorrer el claustro de dos pisos antes que los grupos turísticos. La nave de la iglesia es gratuita; el claustro requiere entrada. Tanto Vasco da Gama como el poeta Luis de Camoes están sepultados en la iglesia.",
+        "walk_to_next": {
+          "to": "Padrao dos Descobrimentos (Monument to the Discoveries)",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Padrao dos Descobrimentos",
+        "wikidata_qid": "Q1137003",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monument_to_the_Discoveries",
+        "coordinates": {
+          "lat": 38.6937,
+          "lon": -9.2056
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "El monumento de hormigón de 1960 en forma de proa de barco, con 33 figuras de exploradores, misioneros y cartógrafos portugueses talladas en sus flancos - Henry the Navigator en la punta. El ascensor interior accede a una terraza en la azotea con vistas directas al este hacia la Tower of Belem y al oeste hacia el puente colgante Ponte 25 de Abril. La gran rosa de los vientos de mármol en el pavimento de la plaza fue un regalo de Sudáfrica en 1960 y muestra las rutas de los navegantes portugueses.",
+        "walk_to_next": {
+          "to": "Torre de Belem",
+          "distance_meters": 1300,
+          "walking_minutes": 16
+        }
+      },
+      "evening": {
+        "activity_title": "Torre de Belem",
+        "wikidata_qid": "Q82415",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower",
+        "coordinates": {
+          "lat": 38.6916,
+          "lon": -9.2159
+        },
+        "unesco_designation": {
+          "site_name": "Monastery of the Hieronymites and Tower of Belem in Lisbon",
+          "year_inscribed": 1983,
+          "reference_number": 263,
+          "url": "https://whc.unesco.org/en/list/263"
+        },
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La torre fortificada del siglo XVI se asienta sobre una plataforma que se extiende hacia el Tagus, originalmente posicionada en medio del río como puerta ceremonial a Lisboa. La cantería manuelina incluye una cabeza de rinoceronte tallada en el bastión de la esquina noroeste - se cree que es la primera escultura europea naturalista de un rinoceronte, hecha a partir de informes del rinoceronte de Lisboa de 1515. La escalera interior es estrecha y la plataforma superior está expuesta, pero la luz vespertina sobre el río desde allí es excepcional. Cerrado los lunes.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museu Coleção Berardo",
+          "wikidata_qid": "Q1535097",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Berardo_Collection_Museum",
+          "coordinates": {
+            "lat": 38.6974,
+            "lon": -9.2053
+          },
+          "neighborhood": "Belem",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Una de las colecciones más sólidas de arte moderno y contemporáneo en Iberia, alojada en el Centro Cultural de Belem adyacente al monasterio. La colección permanente va desde Duchamp y Picabia pasando por el Expresionismo Abstracto, Pop y Minimalismo hasta artistas portugueses contemporáneos. La entrada es gratuita para la colección permanente. Una opción confiable para días lluviosos si cambia el tiempo.",
+          "walk_from_main_route": {
+            "from": "Mosteiro dos Jeronimos",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Museu Nacional de Arqueologia",
+          "wikidata_qid": "Q1758188",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Archaeology_(Portugal)",
+          "coordinates": {
+            "lat": 38.6981,
+            "lon": -9.2083
+          },
+          "neighborhood": "Belem",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Ocupa el ala occidental del edificio del Monasterio de los Jerónimos, con entrada por una puerta independiente en el lado oeste. La colección abarca desde la Portugal prehistórica hasta los períodos romano y visigodo, con particular fortaleza en joyería de oro de la Edad de Hierro - el Tesoro de Beja y la sala Ourivesaria exhiben hallazgos que rara vez aparecen en otros circuitos museísticos europeos. Cerrado los lunes.",
+          "walk_from_main_route": {
+            "from": "Mosteiro dos Jeronimos",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    }
+  ]
+}

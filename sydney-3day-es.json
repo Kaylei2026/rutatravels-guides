@@ -1,0 +1,356 @@
+{
+  "destination": "Sydney",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T13:08:10.111Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Circular Quay / The Rocks",
+    "Darling Harbour / Pyrmont / Ultimo",
+    "Bondi / Eastern Suburbs"
+  ],
+  "guide_description": "Tres días cubriendo lo esencial de Sydney: los íconos del puerto y la columna vertebral colonial en Circular Quay, el distrito industrial-costero convertido en recinto cultural en Darling Harbour, y los promontorios de arenisca y piscinas oceánicas de la costa oriental. Cada día está geográficamente autocontenido.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 7800,
+  "total_walking_minutes": 98,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Circular Quay y The Rocks",
+      "cluster_tagline": "La columna vertebral histórica de Sydney Harbour - la Opera House, el Bridge, y las calles más antiguas de la colonia",
+      "neighborhood_focus": "Circular Quay / The Rocks",
+      "neighborhood_description": "Circular Quay es donde desembarcó la First Fleet en 1788 y donde los dos íconos que definen Sydney - la Opera House y el Harbour Bridge - se enfrentan a través del agua. The Rocks, inmediatamente al oeste, es el asentamiento europeo original: una cuadrícula de almacenes de arenisca, callejones estrechos y pubs que sobrevivieron al siglo XX prácticamente intactos.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "Sydney Opera House",
+        "wikidata_qid": "Q45178",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+        "coordinates": {
+          "lat": -33.8568,
+          "lon": 151.2153
+        },
+        "unesco_designation": {
+          "site_name": "Sydney Opera House",
+          "year_inscribed": 2007,
+          "reference_number": 166,
+          "url": "https://whc.unesco.org/en/list/166"
+        },
+        "duration_minutes": 90,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "El complejo de techos en forma de concha de Jorn Utzon de 1973 se asienta en Bennelong Point, y el paseo exterior es gratuito. Camina por todo el perímetro del edificio - el patio delantero norte mira hacia Kirribilli y el puente, mientras que la escalinata del podio oriental ofrece el punto de vista gratuito más alto de la estructura. Un tour arquitectónico guiado (60 minutos, con entrada) revela las nervaduras de concreto interiores y las intenciones de diseño interior no realizadas de Utzon. La luz matutina ilumina las conchas de azulejos desde el este y es la mejor condición para la fotografía.",
+        "walk_to_next": {
+          "to": "Royal Botanic Garden",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Royal Botanic Garden Sydney",
+        "wikidata_qid": "Q1200533",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Botanic_Garden,_Sydney",
+        "coordinates": {
+          "lat": -33.8642,
+          "lon": 151.2166
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "La institución científica más antigua de Australia, fundada en 1816 en el sitio de la primera granja de la colonia. Entra desde el patio delantero de la Opera House y camina por el sendero del borde del puerto hasta Mrs Macquaries Point - la silla de arenisca tallada para la esposa del Governor Macquarie sigue ahí, y la vista desde el punto enmarca las conchas de la Opera House y el Bridge juntos en el mismo cuadro. La colonia de zorros voladores que anida en las higueras de Morton Bay en el medio del jardín es enorme y sorprendente.",
+        "walk_to_next": {
+          "to": "The Rocks",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "The Rocks and Cadmans Cottage",
+        "wikidata_qid": "Q1068742",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Rocks,_New_South_Wales",
+        "coordinates": {
+          "lat": -33.8597,
+          "lon": 151.2083
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Camina por Argyle Street a través del Argyle Cut - un túnel de arenisca volado por trabajo de convictos desde 1843 - hacia Argyle Place, un auténtico green de pueblo rodeado de terrazas coloniales tempranas. Cadmans Cottage en el frente marítimo (1816) es el edificio residencial más antiguo que sobrevive en Sydney. El mercado de viernes y sábado por la noche en Jack Mundey Place atrae a los locales; los pubs circundantes - particularmente el Lord Nelson en Kent Street, elaborando sus propias cervezas desde 1841 - están ocupados desde las 5pm.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sydney Harbour Bridge Pylon Lookout",
+          "wikidata_qid": "Q44996",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
+          "coordinates": {
+            "lat": -33.8523,
+            "lon": 151.2108
+          },
+          "neighborhood": "The Rocks",
+          "duration_minutes": 60,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "El pilón sureste tiene un museo adentro y un mirador independiente en la cima accesible por una pequeña tarifa de entrada - una fracción del costo del BridgeClimb comercial. Entra desde Cumberland Street en The Rocks. La vista desde el pilón es casi idéntica a la cima de la escalada y la escalera de 200 escalones reduce significativamente las multitudes en las mañanas de días laborales.",
+          "walk_from_main_route": {
+            "from": "The Rocks",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Museum of Contemporary Art Australia",
+          "wikidata_qid": "Q1700280",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art_Australia",
+          "coordinates": {
+            "lat": -33.8599,
+            "lon": 151.2073
+          },
+          "neighborhood": "Circular Quay",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Entrada gratuita a la colección permanente, que enfatiza el arte aborigen y de las Islas del Estrecho de Torres junto con obras contemporáneas internacionales. El café de la azotea tiene una de las mejores vistas despejadas del puerto en Sydney y no requiere entrada al museo. Ubicado directamente en Circular Quay, lo que lo convierte en una adición fácil antes o después de la Opera House.",
+          "walk_from_main_route": {
+            "from": "The Rocks",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Darling Harbour y Ultimo",
+      "cluster_tagline": "Frente marítimo postindustrial transformado - historia marítima, ciencia y los orígenes convictos de la ciudad",
+      "neighborhood_focus": "Darling Harbour / Pyrmont / Ultimo",
+      "neighborhood_description": "Darling Harbour fue un puerto de carga operativo hasta los años 1980 cuando fue reurbanizado como el frente marítimo cultural y de entretenimiento de Sydney. Los antiguos almacenes de lana y galpones industriales de Ultimo al sur contienen dos de los mejores museos de Australia, conectados por el recinto Powerhouse.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2400,
+      "day_walking_minutes": 30,
+      "morning": {
+        "activity_title": "Australian National Maritime Museum",
+        "wikidata_qid": "Q1361086",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Australian_National_Maritime_Museum",
+        "coordinates": {
+          "lat": -33.8697,
+          "lon": 151.1986
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La flota al aire libre en el muelle es la mayor atracción - un barco de vela restaurado, un submarino y un destructor naval de la era de Vietnam que puedes abordar y explorar en tours guiados. El submarino (HMAS Onslow) es la experiencia espacialmente más desorientadora de cualquier museo de Sydney: la sala de torpedos, los dormitorios y la bahía del periscopio permanecen sin cambios desde el servicio activo. Compra un boleto combinado para embarcaciones para acceder a todos los barcos.",
+        "walk_to_next": {
+          "to": "Chinese Garden of Friendship",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Chinese Garden of Friendship",
+        "wikidata_qid": "Q1067617",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chinese_Garden_of_Friendship",
+        "coordinates": {
+          "lat": -33.8754,
+          "lon": 151.2014
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Un jardín chino clásico amurallado diseñado por arquitectos paisajistas de Guangzhou como parte del bicentenario de 1988, con pabellones, un lago bordeado de sauces y rocallas de granito todo proveniente de la ciudad hermana. Compacto con una hectárea, lo que significa que no hay zonas muertas - todo el jardín se puede recorrer en un solo circuito. La entrada es económica; la casa de té interior sirve servicio de té cantonés.",
+        "walk_to_next": {
+          "to": "Hyde Park Barracks Museum",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Hyde Park Barracks Museum",
+        "wikidata_qid": "Q1630371",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hyde_Park_Barracks",
+        "coordinates": {
+          "lat": -33.8686,
+          "lon": 151.2125
+        },
+        "unesco_designation": {
+          "site_name": "Australian Convict Sites",
+          "year_inscribed": 2010,
+          "reference_number": 1306,
+          "url": "https://whc.unesco.org/en/list/1306"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Los barracones de convictos de Francis Greenway de 1819, diseñados para albergar 600 convictos varones y ahora un museo declarado por la UNESCO. Las recreaciones de hamacas para dormir en el piso superior son impactantes: doce hombres por habitación en hamacas de cáñamo escalonadas que se les asignaban y tenían que cargar al trabajo diario. Los arqueólogos encontraron 300,000 artefactos en la cavidad del techo roída por ratas durante la renovación - las exhibiciones de objetos se construyen alrededor de este archivo accidental.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Powerhouse Museum",
+          "wikidata_qid": "Q1629927",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Powerhouse_Museum",
+          "coordinates": {
+            "lat": -33.8787,
+            "lon": 151.1996
+          },
+          "neighborhood": "Ultimo",
+          "duration_minutes": 120,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Colección de ciencia, tecnología y diseño en una antigua estación eléctrica. El motor de vapor Boulton and Watt de 1785 - uno de los más antiguos del mundo aún capaz de operar - ocupa todo un salón de planta baja y funciona en días de demostración (consulta horario en línea). Las galerías de artes decorativas y diseño australiano en los pisos superiores son más tranquilas y poco visitadas.",
+          "walk_from_main_route": {
+            "from": "Chinese Garden of Friendship",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Pyrmont Bridge",
+          "wikidata_qid": "Q7263282",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pyrmont_Bridge",
+          "coordinates": {
+            "lat": -33.8703,
+            "lon": 151.1995
+          },
+          "neighborhood": "Darling Harbour",
+          "duration_minutes": 20,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "El puente giratorio más antiguo del mundo operado eléctricamente (1902), aún funcional y que sigue abriéndose varias veces al día para embarcaciones de mástiles altos. El puente conecta el muelle del Maritime Museum con el resto de Darling Harbour y es el enlace peatonal natural entre ambos lados. El mecanismo giratorio es visible a través de paneles de vidrio en la sección central.",
+          "walk_from_main_route": {
+            "from": "Australian National Maritime Museum",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Bondi y el Eastern Coastal Walk",
+      "cluster_tagline": "Arenisca oceánica y piscinas de agua salada - el sendero del acantilado de Bondi a Coogee",
+      "neighborhood_focus": "Bondi / Eastern Suburbs coastline",
+      "neighborhood_description": "El sendero costero de seis kilómetros que va de Bondi al sur hasta Coogee traza una cadena de piscinas oceánicas talladas en la roca, promontorios de arenisca y playas más pequeñas a través de Tamarama, Bronte, Clovelly y Gordons Bay. La caminata es una de las experiencias que definen Sydney: completamente pavimentada, con vistas ininterrumpidas al océano, y atravesando barrios de clase trabajadora y adinerados con igual indiferencia.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Bondi Beach",
+        "wikidata_qid": "Q853979",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_Beach",
+        "coordinates": {
+          "lat": -33.8914,
+          "lon": 151.2767
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Llega antes de las 9am si quieres la playa tranquila - para las 10am en verano está abarrotada. El extremo norte de la playa cerca del Bondi Icebergs es la zona local; el centro y el sur están llenos de turistas. La franja de Campbell Parade es mejor para desayunar que para almorzar: los cafés directamente sobre el paseo (Sabbaba, the Bucket List) miran al este y captan la luz matutina, y las mesas al aire libre se llenan rápido.",
+        "walk_to_next": {
+          "to": "Bondi to Coogee Coastal Walk start",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Bondi to Coogee Coastal Walk",
+        "wikidata_qid": "Q4938186",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_to_Coogee_walk",
+        "coordinates": {
+          "lat": -33.8952,
+          "lon": 151.2764
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Camina al sur desde Bondi Beach a través de Tamarama - una playa pequeña y de aguas bravas conocida como Glamourama por sus apariciones regulares en sesiones de fotos de moda - y continúa hasta Bronte, donde la piscina oceánica de 1887 está encajada directamente en la plataforma rocosa. Clovelly es la más plana y tranquila de las playas del recorrido, popular entre los buceadores. La caminata termina en Gordons Bay y Coogee Beach. La sección del acantilado entre Waverley Cemetery y Clovelly pasa directamente junto a las tumbas - algunas de la década de 1870 - con vistas al océano desde las lápidas.",
+        "walk_to_next": {
+          "to": "Coogee Beach",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Coogee Beach and Giles Baths",
+        "wikidata_qid": "Q1094824",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Coogee,_New_South_Wales",
+        "coordinates": {
+          "lat": -33.9221,
+          "lon": 151.2569
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Coogee es más tranquila y residencial que Bondi y es una mejor parada para final del día. Giles Baths en el promontorio sur es una piscina oceánica de mareas tallada en las rocas bajo el sendero del acantilado - entrada gratuita, salpicaduras dramáticas en días de oleaje. El Coogee Bay Hotel frente a la playa es un pub clásico de media tarde con asientos al aire libre mirando al oeste para la puesta de sol, y sirve comida continuamente desde media tarde.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Bondi Icebergs Swimming Club",
+          "wikidata_qid": "Q4941421",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_Icebergs_Swimming_Club",
+          "coordinates": {
+            "lat": -33.8954,
+            "lon": 151.2745
+          },
+          "neighborhood": "Bondi",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "El complejo de piscinas de 1929 construido en el promontorio sur de Bondi Beach - la entrada a la piscina de natación y sauna es económica, y en días de gran oleaje las olas se meten directamente en la piscina. El comedor Icebergs de arriba tiene una sección de piso de vidrio suspendida directamente sobre la piscina; el bar está abierto para no comensales desde media tarde.",
+          "walk_from_main_route": {
+            "from": "Bondi Beach",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        },
+        {
+          "activity_title": "Waverley Cemetery",
+          "wikidata_qid": "Q8007929",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Waverley_Cemetery",
+          "coordinates": {
+            "lat": -33.9051,
+            "lon": 151.2705
+          },
+          "neighborhood": "Bronte",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un cementerio de 1877 ubicado en el acantilado por el que pasa directamente el sendero costero. Henry Lawson y Dorothea Mackellar están enterrados aquí. Las tumbas más cercanas al borde oriental del acantilado tienen una vista sin obstáculos del Tasman Sea que es, arquitectónicamente hablando, el terreno funerario más espectacular de Australia. Sin costo de entrada; abierto todos los días.",
+          "walk_from_main_route": {
+            "from": "Bondi to Coogee Coastal Walk",
+            "distance_meters": 0,
+            "walking_minutes": 0
+          }
+        }
+      ]
+    }
+  ]
+}
