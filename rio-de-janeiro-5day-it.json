@@ -1,0 +1,504 @@
+{
+  "destination": "Rio de Janeiro",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T13:06:22.068Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Centro Historico",
+    "Santa Teresa / Lapa",
+    "Flamengo / Gloria / Catete",
+    "Urca / Botafogo",
+    "Tijuca / Cosme Velho / Corcovado"
+  ],
+  "guide_description": "Cinque giorni per coprire i livelli essenziali di Rio: il centro storico coloniale e repubblicano, il quartiere bohémien sulla collina sopra Lapa, i monumenti lungo la baia dei sobborghi interni della zona sud, la spalla granitica di Urca con la sua famosa funivia, e la vetta avvolta dalla foresta di Corcovado. Ogni giorno è geograficamente autonomo e organizzato in modo che i gruppi adiacenti siano vicini tra loro.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 13780,
+  "total_walking_minutes": 172,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Centro Historico",
+      "cluster_tagline": "Chiese coloniali, grandiosità repubblicana e il tessuto urbano più antico della città",
+      "neighborhood_focus": "Centro",
+      "neighborhood_description": "Il distretto fondatore di Rio su una stretta pianura costiera tra la baia e le colline. La griglia stradale è ancora sostanzialmente del XVIII secolo, stratificata con edifici pubblici neoclassici dall'arrivo della corte portoghese nel 1808 e viali in stile hausmanniano dei primi del Novecento. Le mattine dei giorni feriali sono il momento ideale prima che il distretto commerciale si svuoti nel pomeriggio.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2340,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Mosteiro de Sao Bento",
+        "wikidata_qid": "Q2628811",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Bento_Monastery,_Rio_de_Janeiro",
+        "coordinates": {
+          "lat": -22.8961,
+          "lon": -43.1756
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "L'interno barocco più sontuoso del Brasile, che rivaleggia con qualsiasi cosa a Salvador o Ouro Preto. Entrate dal cancello a livello strada su Rua Dom Gerardo e prendete l'ascensore - non la ripida rampa esterna - per raggiungere il livello del monastero. La navata dorata della chiesa principale è la ricompensa; le sculture della navata del XVII secolo sono quasi interamente originali. La messa solenne domenicale alle 10 del mattino presenta canti gregoriani dei monaci e attira folla, ma le mattine dei giorni feriali sono davvero tranquille.",
+        "walk_to_next": {
+          "to": "Real Gabinete Portugues de Leitura",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Real Gabinete Portugues de Leitura",
+        "wikidata_qid": "Q2139820",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Portuguese_Cabinet_of_Reading",
+        "coordinates": {
+          "lat": -22.9047,
+          "lon": -43.1789
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Una sala di lettura in stile manuelino del 1887 che si classifica costantemente tra le biblioteche più belle del mondo. L'atrio centrale si eleva per quattro piani sotto un lucernario con balconi in ferro battuto e circa 350.000 volumi. L'ingresso è gratuito e quasi sempre poco affollato. È permesso fotografare dal piano terra; salire al livello della galleria è solitamente consentito se si chiede alla reception.",
+        "walk_to_next": {
+          "to": "Praca Tiradentes and Teatro Carlos Gomes",
+          "distance_meters": 390,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Praca Tiradentes",
+        "wikidata_qid": "Q3401622",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pra%C3%A7a_Tiradentes",
+        "coordinates": {
+          "lat": -22.9065,
+          "lon": -43.1803
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La piazza è dominata da una statua equestre del 1867 di Dom Pedro I e fiancheggiata da due dei teatri più antichi sopravvissuti di Rio. Nelle prime ore serali le strade circostanti si riempiono di impiegati del vicino distretto legale e i piccoli bar boteco si espandono sui marciapiedi. Rua da Carioca, un isolato a sud, è una strada affidabile per un chopp freddo e cibo da bar onesto senza rincari turistici.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museu Nacional de Belas Artes",
+          "wikidata_qid": "Q2622828",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Fine_Arts_(Brazil)",
+          "coordinates": {
+            "lat": -22.9082,
+            "lon": -43.1756
+          },
+          "neighborhood": "Centro",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La collezione nazionale di pittura e scultura brasiliana ospitata in un edificio Beaux-Arts del 1908 su Avenida Rio Branco. I dipinti accademici del XIX secolo di Victor Meirelles e Pedro Americo che documentano la storia e il paesaggio brasiliano sono il motivo principale della visita - questi raramente viaggiano all'estero. Chiuso il lunedì.",
+          "walk_from_main_route": {
+            "from": "Real Gabinete Portugues de Leitura",
+            "distance_meters": 650,
+            "walking_minutes": 8
+          }
+        },
+        {
+          "activity_title": "Arco do Teles and Travessa do Comercio",
+          "wikidata_qid": "Q10280490",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arco_do_Teles",
+          "coordinates": {
+            "lat": -22.9029,
+            "lon": -43.1718
+          },
+          "neighborhood": "Centro",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un arco del XVIII secolo che si apre da Praca XV su una strada acciottolata di edifici coloniali a due piani - un raro frammento superstite del tessuto urbano precedente al XIX secolo. Il vicolo si riempie di tavoli all'aperto dei bar circostanti dal pomeriggio inoltrato. Entrate da Praca XV attraverso l'arco piuttosto che dal lato di Rua do Ouvidor per godere del giusto effetto scenografico.",
+          "walk_from_main_route": {
+            "from": "Mosteiro de Sao Bento",
+            "distance_meters": 520,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Santa Teresa e Lapa",
+      "cluster_tagline": "Studi d'artista bohémien in collina sopra i famosi archi - tram, azulejos e samba",
+      "neighborhood_focus": "Santa Teresa / Lapa",
+      "neighborhood_description": "Santa Teresa occupa una cresta direttamente sopra Centro, raggiungibile in tram o a piedi attraverso ripidi vicoli di case a schiera del XIX secolo convertite in studi d'artista, piccoli musei e ristoranti. Lapa si trova ai piedi della collina dove atterrano gli archi dell'acquedotto del XVIII secolo, formando il corridoio della vita notturna più famoso di Rio.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2050,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Museu Chacara do Ceu",
+        "wikidata_qid": "Q2622840",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Ch%C3%A1cara_do_C%C3%A9u",
+        "coordinates": {
+          "lat": -22.9167,
+          "lon": -43.1815
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "L'ex dimora dell'industriale Raymundo Ottoni de Castro Maya, arroccata sul versante della collina di Santa Teresa con una terrazza che si affaccia sulla baia. La collezione include opere di Matisse, Picasso, Dali e Portinari insieme a mappe brasiliane del XVIII secolo e arti decorative. I giardini e la terrazza sono già motivo sufficiente per venire, ancor prima della collezione; arrivate presto prima che il calore si accumuli sulla terrazza superiore esposta.",
+        "walk_to_next": {
+          "to": "Escadaria Selaron",
+          "distance_meters": 780,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Escadaria Selaron",
+        "wikidata_qid": "Q2095432",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n",
+        "coordinates": {
+          "lat": -22.9191,
+          "lon": -43.1795
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "L'artista cileno Jorge Selaron ha ricoperto questa scalinata di 215 gradini con piastrelle di ceramica donate da oltre 60 paesi, lavorandoci continuamente dal 1990 fino alla sua morte nel 2013. Arrivate a metà mattina o nel tardo pomeriggio - le piastrelle riflettono duramente il sole di mezzogiorno e la scalinata è abbastanza stretta da creare ingorghi con i gruppi di turisti. L'angolazione più fotografata è dalla base guardando verso l'alto con la striscia di piastrelle gialle e verdi centrata.",
+        "walk_to_next": {
+          "to": "Arcos da Lapa",
+          "distance_meters": 420,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Arcos da Lapa",
+        "wikidata_qid": "Q1781413",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carioca_Aqueduct",
+        "coordinates": {
+          "lat": -22.9205,
+          "lon": -43.1818
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "L'acquedotto a 42 archi fu costruito tra il 1653 e il 1723 per portare l'acqua da Santa Teresa giù in città, e successivamente convertito per far passare il tram bonde. Di notte gli archi sono illuminati e il quartiere circostante di Lapa si anima con club di samba e pagode all'aperto. Circo Voador e Rio Scenarium sulla vicina Rua do Lavradio sono i due locali di musica dal vivo più affidabili - Rio Scenarium è il più teatrale dei due, occupando un negozio di antiquariato di tre piani.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Bonde de Santa Teresa",
+          "wikidata_qid": "Q1060954",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Teresa_tram,_Rio_de_Janeiro",
+          "coordinates": {
+            "lat": -22.9123,
+            "lon": -43.1796
+          },
+          "neighborhood": "Santa Teresa",
+          "duration_minutes": 40,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "La linea tranviaria superstite di Rio parte dalla stazione Carioca attraversa gli Arcos da Lapa e percorre le strade di Santa Teresa. Il tratto che attraversa l'acquedotto all'altezza dei tetti vale la pena di essere percorso già solo per quello. La linea è stata ripristinata dopo un deragliamento del 2011; comprate i biglietti al terminal Carioca e viaggiate fino a Dois Irmaos per raggiungere la parte più interna del quartiere.",
+          "walk_from_main_route": {
+            "from": "Arcos da Lapa",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Flamengo, Gloria e Catete",
+      "cluster_tagline": "Il litorale repubblicano - un parco sulla baia, una chiesa sulla collina e il palazzo dove morì un presidente",
+      "neighborhood_focus": "Flamengo / Gloria / Catete",
+      "neighborhood_description": "Una catena di quartieri dei primi del Novecento che si estendono verso sud da Centro lungo la costa della Baia di Guanabara. L'Aterro do Flamengo - un parco su terreno bonificato progettato da Roberto Burle Marx - li collega lungo il lungomare. Quest'area era il centro governativo e diplomatico di Rio prima di Brasilia, e le strade residenziali conservano un'atmosfera pre-1960 in gran parte assente altrove.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2780,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Igreja Nossa Senhora da Gloria do Outeiro",
+        "wikidata_qid": "Q2303358",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Our_Lady_of_Glory_Church,_Rio_de_Janeiro",
+        "coordinates": {
+          "lat": -22.9258,
+          "lon": -43.1735
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Una chiesa ottagonale del 1739 su una piccola collina sopra il lungomare di Gloria - la chiesa preferita della famiglia imperiale e luogo dei battesimi reali. I pannelli interni di piastrelle azulejo che raffigurano scene della vita di San Giovanni Battista sono tra i migliori lavori di ceramica portoghese del XVIII secolo fuori da Lisbona. La collina stessa offre una tranquilla vista a 180 gradi sulla baia prima che arrivino le folle di turisti del Corcovado e di Pao de Acucar. Prendete la funicolare dalla base piuttosto che il ripido sentiero di pietra.",
+        "walk_to_next": {
+          "to": "Museu da Republica - Palacio do Catete",
+          "distance_meters": 1040,
+          "walking_minutes": 13
+        }
+      },
+      "afternoon": {
+        "activity_title": "Museu da Republica - Palacio do Catete",
+        "wikidata_qid": "Q3868267",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pal%C3%A1cio_do_Catete",
+        "coordinates": {
+          "lat": -22.9306,
+          "lon": -43.1756
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Il palazzo presidenziale federale dal 1897 al 1960, ora museo della repubblica brasiliana. Il presidente Getulio Vargas si sparò nella camera da letto al secondo piano il 24 agosto 1954 - la stanza è conservata e il foro del proiettile nel muro è documentato. I giardini formali dietro il palazzo sono di Burle Marx e l'ingresso è gratuito senza biglietto del museo.",
+        "walk_to_next": {
+          "to": "Parque do Flamengo",
+          "distance_meters": 780,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Parque do Flamengo at sunset",
+        "wikidata_qid": "Q2337182",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Flamengo_Park",
+        "coordinates": {
+          "lat": -22.9274,
+          "lon": -43.1686
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Il parco su terreno bonificato di 1,2 milioni di metri quadrati di Roberto Burle Marx lungo il lungomare della Baia di Guanabara - il più grande parco urbano del mondo quando fu completato nel 1965. La vista al tramonto dalla riva erbosa vicino al Monument to the Brazilian Dead of World War II inquadra Pao de Acucar direttamente dall'altra parte dell'acqua. Il parco è frequentato da jogger e famiglie nel tardo pomeriggio e ha un'atmosfera genuinamente locale che raramente si trova nelle zone costiere.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museu de Arte Moderna do Rio de Janeiro",
+          "wikidata_qid": "Q2622832",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art_(Rio_de_Janeiro)",
+          "coordinates": {
+            "lat": -22.9163,
+            "lon": -43.1724
+          },
+          "neighborhood": "Flamengo",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "L'edificio modernista del 1958 di Affonso Eduardo Reidy all'estremità nord del Flamengo Park è uno dei migliori esempi di architettura modernista brasiliana a Rio. La struttura in cemento a sbalzo è architettonicamente significativa ancora prima di entrare nella collezione. Le sculture del giardino esterno sono originali di Burle Marx. Chiuso il lunedì.",
+          "walk_from_main_route": {
+            "from": "Parque do Flamengo",
+            "distance_meters": 940,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Urca e Pao de Acucar",
+      "cluster_tagline": "Il massiccio granitico che ha fatto Rio - funivia, villaggio sulla baia e la vista che definisce la città",
+      "neighborhood_focus": "Urca / Botafogo",
+      "neighborhood_description": "Urca è una tranquilla penisola residenziale ai piedi del Sugarloaf Mountain - sembra un villaggio a sé stante, calmo e a bassa altezza rispetto al resto della città. La funivia per Pao de Acucar sale in due tappe da Urca e la vista dalla vetta è la più famosa di Rio. La baia di Botafogo si curva direttamente verso nord, incorniciando Corcovado all'orizzonte.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Pao de Acucar - Sugarloaf Mountain",
+        "wikidata_qid": "Q193306",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sugarloaf_Mountain",
+        "coordinates": {
+          "lat": -22.9488,
+          "lon": -43.1557
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Andate presto - la prima funivia parte alle 8 del mattino e la vetta è molto meno affollata prima delle 10. Il viaggio si svolge in due tappe: la prima cabina si ferma a Morro da Urca (215m) dove c'è una terrazza all'aperto e un piccolo café. La maggior parte dei visitatori si affretta verso la seconda cabina; la terrazza di Morro da Urca ha la vista migliore su Corcovado ed è il posto giusto dove soffermarsi. La vetta di Pao de Acucar (396m) è più esposta e migliore per i panorami sulla baia. Le mattine limpide offrono visibilità fino al ponte Niteroi.",
+        "walk_to_next": {
+          "to": "Praia Vermelha",
+          "distance_meters": 520,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Praia Vermelha and Circuito da Orla da Urca",
+        "wikidata_qid": "Q4016680",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_Vermelha",
+        "coordinates": {
+          "lat": -22.9513,
+          "lon": -43.1624
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Una piccola spiaggia riparata alla base del Sugarloaf con acque calme e vista diretta sulla parete granitica. Il sentiero che prosegue verso ovest lungo la costa di Urca - Orla da Urca - è una passeggiata piana di 1,2km usata dai locali per l'esercizio mattutino e la pesca pomeridiana. I tavoli all'aperto dei piccoli chioschi su questo percorso guardano direttamente la baia di Botafogo e Corcovado - uno dei migliori posti economici della città per un pranzo o una bibita fresca con un ricarico turistico minimo.",
+        "walk_to_next": {
+          "to": "Botafogo neighborhood and Cobal do Humaitá",
+          "distance_meters": 1560,
+          "walking_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Botafogo viewpoint and Cobal do Humaitá",
+        "wikidata_qid": "Q2622849",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Botafogo",
+        "coordinates": {
+          "lat": -22.9415,
+          "lon": -43.1819
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Mirante do Pasmado al limite meridionale di Botafogo offre un inquadratura più tranquilla del Sugarloaf e della baia rispetto alla maggior parte dei belvedere turistici ed è raramente elencato nelle guide. Dopo, il Cobal do Humaitá - un mercato coperto all'aperto convertito in un gruppo di ristoranti e bar casual - è l'opzione più civile per la prima serata in questa parte della città. Si affaccia sulla catena del Corcovado ed è frequentato quasi esclusivamente dai cariocas piuttosto che dai turisti.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museu do Indio",
+          "wikidata_qid": "Q3868229",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Indian_Museum_(Rio_de_Janeiro)",
+          "coordinates": {
+            "lat": -22.9418,
+            "lon": -43.1808
+          },
+          "neighborhood": "Botafogo",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un museo dedicato alle culture indigene brasiliane ospitato in una villa ottocentesca a Botafogo. La collezione copre oltre 300 gruppi etnici con lavori in piume, ceramiche e fotografia documentaria. Meno visitato di quanto meriti la sua qualità, e il giardino circostante è ben curato. Situato direttamente adiacente al cluster di Botafogo - facile da aggiungere senza deviazioni.",
+          "walk_from_main_route": {
+            "from": "Botafogo viewpoint",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Tijuca Forest e Corcovado",
+      "cluster_tagline": "La più grande foresta urbana del mondo che si eleva fino al Christ the Redeemer sopra la città",
+      "neighborhood_focus": "Tijuca / Cosme Velho / Corcovado",
+      "neighborhood_description": "Il Tijuca National Park copre 39 chilometri quadrati di foresta atlantica sulla dorsale montuosa direttamente alle spalle della città - un progetto di riforestazione del XIX secolo che ha sostituito le antiche piantagioni di caffè. La vetta del Corcovado a 710 metri è raggiungibile con una ferrovia a cremagliera da Cosme Velho, e la statua del Cristo Redentor sulla cima è il simbolo più riconoscibile di Rio.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3750,
+      "day_walking_minutes": 47,
+      "morning": {
+        "activity_title": "Tijuca National Park - Vista Chinesa and Mesa do Imperador",
+        "wikidata_qid": "Q204923",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tijuca_National_Park",
+        "coordinates": {
+          "lat": -22.9388,
+          "lon": -43.2733
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Vista Chinesa è un belvedere in stile pagoda cinese a 380m all'interno del parco, raggiungibile in auto o con un breve sentiero da Alto da Boa Vista. Nelle mattine nebbiose si trova sopra lo strato di nuvole e in quelle serene al di sotto - in entrambi i casi la vista è quella della discesa della volta forestale verso la zona sud. Mesa do Imperador nelle vicinanze è una terrazza di pietra piatta usata da Dom Pedro II per i picnic - attualmente meno frequentata e davvero tranquilla. Si accede al parco in taxi o con servizi di rideshare fino all'ingresso di Floresta da Tijuca, non dal lato del trenino del Corcovado.",
+        "walk_to_next": {
+          "to": "Estacao do Cosme Velho",
+          "distance_meters": 2340,
+          "walking_minutes": 29
+        }
+      },
+      "afternoon": {
+        "activity_title": "Cristo Redentor - Corcovado",
+        "wikidata_qid": "Q79961",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+        "coordinates": {
+          "lat": -22.9519,
+          "lon": -43.2105
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "La statua Art Déco di 38 metri inaugurata nel 1931, progettata da Heitor da Silva Costa con la scultura di Paul Landowski. Prendete la ferrovia a cremagliera dalla stazione di Cosme Velho - i servizi di van da Paineiras sono più veloci ma perdono la salita attraverso la foresta, che è l'esperienza migliore. Acquistate i biglietti del trenino online in anticipo; le code alla stazione per i biglietti in giornata possono durare due ore. La copertura nuvolosa intorno alla vetta cambia costantemente e una giornata semi-nuvolosa può produrre una luce drammatica. Il panorama a 360 gradi dalla base della statua in una giornata limpida mostra l'intera città contemporaneamente.",
+        "walk_to_next": {
+          "to": "Largo do Boticario",
+          "distance_meters": 780,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Largo do Boticario",
+        "wikidata_qid": "Q6490416",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Largo_do_Botic%C3%A1rio",
+        "coordinates": {
+          "lat": -22.9556,
+          "lon": -43.2069
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Una piccola piazza acciottolata alla base della collina del Corcovado, a pochi passi in discesa dalla stazione ferroviaria di Cosme Velho. Quattro case dipinte del XIX secolo in rosa, blu, verde e bianco circondano una fontana centrale - la piazza è stata dichiarata patrimonio cittadino specificamente per prevenirne la demolizione. È quasi completamente ignorata dai visitatori nonostante disti cinque minuti dal capolinea della ferrovia del Corcovado, e il contrasto con le folle sulla cima soprastante la rende degna di una breve deviazione.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Cascatinha Taunay",
+          "wikidata_qid": "Q10271986",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Taunay_Waterfall",
+          "coordinates": {
+            "lat": -22.9352,
+            "lon": -43.2855
+          },
+          "neighborhood": "Tijuca",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Una cascata di 35 metri all'interno del Tijuca National Park, raggiungibile con un breve sentiero segnalato che si dirama dalla strada principale del parco vicino ad Alto da Boa Vista. Il sentiero è pianeggiante e richiede circa 15 minuti dalla strada. Il volume d'acqua è massimo nella stagione delle piogge (da dicembre a marzo) ma le cascate scorrono tutto l'anno. Da combinare con Vista Chinesa nel giro mattutino prima di scendere verso Cosme Velho.",
+          "walk_from_main_route": {
+            "from": "Vista Chinesa",
+            "distance_meters": 1300,
+            "walking_minutes": 16
+          }
+        },
+        {
+          "activity_title": "Museu Internacional de Arte Naif do Brasil",
+          "wikidata_qid": "Q6939796",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/International_Museum_of_Na%C3%AFve_Art_of_Brazil",
+          "coordinates": {
+            "lat": -22.9563,
+            "lon": -43.2064
+          },
+          "neighborhood": "Cosme Velho",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Situato direttamente accanto al terminal della ferrovia a cremagliera del Corcovado a Cosme Velho, questo museo ospita oltre 8.000 opere d'arte naïf da 130 paesi, con la pittura popolare brasiliana come nucleo centrale. La collezione include un panorama naïf di Rio de Janeiro di 4 metri per 7 dipinto con straordinario dettaglio. Un'eccellente alternativa per il tempo piovoso se il Corcovado è coperto dalle nuvole e non vale la pena salire.",
+          "walk_from_main_route": {
+            "from": "Largo do Boticario",
+            "distance_meters": 390,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

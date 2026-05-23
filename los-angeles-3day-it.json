@@ -1,0 +1,346 @@
+{
+  "destination": "Los Angeles",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:50:38.100Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Griffith Park / Los Feliz",
+    "Downtown Los Angeles / Bunker Hill",
+    "Venice / Santa Monica"
+  ],
+  "guide_description": "Tre giorni per coprire i registri essenziali di Los Angeles: l'osservatorio e il parco in collina che definiscono lo skyline della città, il denso nucleo culturale e storico di Downtown, e la striscia costiera dove la città incontra il Pacifico. Ogni giornata è geograficamente autonoma e raggiungibile in auto dalla maggior parte degli alloggi in meno di 30 minuti.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5980,
+  "total_walking_minutes": 75,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Griffith Park e Los Feliz",
+      "cluster_tagline": "L'osservatorio in collina, le colline coperte di chaparral, e la città che si estende sotto",
+      "neighborhood_focus": "Griffith Park / Los Feliz",
+      "neighborhood_description": "Griffith Park è uno dei più grandi parchi urbani degli Stati Uniti, si estende per oltre 4.300 acri di colline coperte di chaparral a nord-est di Hollywood. Contiene il Griffith Observatory, il Greek Theatre, e una rete di sentieri con viste libere dalle Santa Monica Mountains al Pacifico nelle giornate limpide. Los Feliz sotto di esso è un quartiere pedonale dei primi del Novecento con palazzine Art Déco e una principale striscia commerciale su Vermont Avenue.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Griffith Observatory",
+        "wikidata_qid": "Q1396488",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Griffith_Observatory",
+        "coordinates": {
+          "lat": 34.1184,
+          "lon": -118.3004
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Arrivate prima delle 10 per assicurarvi un posto auto nel parcheggio superiore dell'osservatorio - si riempie a metà mattina nei fine settimana e la navetta dal sentiero di Vermont Avenue aggiunge 20 minuti per tratta. La terrazza esposta a sud offre la vista canonica del Los Angeles Basin; in una chiara mattinata invernale o primaverile si può tracciare la griglia da Downtown all'oceano. Il telescopio Zeiss nella cupola principale è gratuito nelle serate limpide.",
+        "walk_to_next": {
+          "to": "Griffith Park trails to the Beacon Hill viewpoint",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Griffith Park",
+        "wikidata_qid": "Q1400558",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Griffith_Park",
+        "coordinates": {
+          "lat": 34.1365,
+          "lon": -118.2942
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "I sentieri Brush Canyon e Beacon Hill esposti a ovest dall'osservatorio sono meno frequentati del principale Hollyridge Trail e offrono migliori linee di vista verso il Hollywood Sign. Il cartello stesso è volutamente difficile da fotografare da vicino - la vista meglio composta con le colline dietro si ha dall'area di osservazione alla fine di Canyon Drive, non dalla terrazza dell'osservatorio.",
+        "walk_to_next": {
+          "to": "The Greek Theatre",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "The Greek Theatre",
+        "wikidata_qid": "Q1543353",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Greek_Theatre_(Los_Angeles)",
+        "coordinates": {
+          "lat": 34.1127,
+          "lon": -118.2985
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "stadium",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Anche se non c'è spettacolo, l'esterno dell'anfiteatro del 1930 e la strada di accesso ombreggiata da querce da Fern Dell Drive meritano la deviazione al tramonto. L'area naturale Fern Dell all'ingresso occidentale del parco, con il suo ruscello alimentato da sorgenti e felci mature, è più tranquilla delle folle dell'osservatorio e costituisce una buona passeggiata di fine giornata prima di dirigersi verso Los Feliz Boulevard per cena.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hollyhock House",
+          "wikidata_qid": "Q2573716",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hollyhock_House",
+          "coordinates": {
+            "lat": 34.1027,
+            "lon": -118.2892
+          },
+          "neighborhood": "East Hollywood / Los Feliz",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La prima commissione di Frank Lloyd Wright a Los Angeles (1921), designata Patrimonio dell'Umanità UNESCO nel 2019 come parte della serie Architettura Organica. Le forme in cemento Mayan Revival e l'asse centrale vasca riflettente-camino sono diverse da qualsiasi altra cosa costruita da Wright. I tour partono ogni ora; le terrazze del giardino sono accessibili senza biglietto.",
+          "walk_from_main_route": {
+            "from": "Griffith Observatory",
+            "distance_meters": 1500,
+            "walking_minutes": 19
+          }
+        },
+        {
+          "activity_title": "Autry Museum of the American West",
+          "wikidata_qid": "Q4824980",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Autry_Museum_of_the_American_West",
+          "coordinates": {
+            "lat": 34.1478,
+            "lon": -118.2843
+          },
+          "neighborhood": "Griffith Park",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Collezione importante sulla storia e le culture dell'Ovest americano, dal materiale indigeno pre-contatto alla cultura cowboy del XX secolo. Meno visitato dell'osservatorio quindi l'ingresso senza prenotazione raramente è un problema. Utile riserva se lo strato marino o la foschia hanno chiuso le viste all'osservatorio.",
+          "walk_from_main_route": {
+            "from": "Griffith Park",
+            "distance_meters": 900,
+            "walking_minutes": 11
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Downtown e Bunker Hill",
+      "cluster_tagline": "Monumenti civici, murales Chicano e una sala da concerto di livello mondiale su una collina percorribile a piedi",
+      "neighborhood_focus": "Downtown Los Angeles / Bunker Hill",
+      "neighborhood_description": "Bunker Hill è il cuore sopraelevato di Downtown Los Angeles, liberato dalle abitazioni vittoriane negli anni '60 e ricostruito come distretto culturale imperniato sulla Walt Disney Concert Hall, il Museum of Contemporary Art e il Broad. A est e a sud, il corridoio storico di Broadway e la Plaza custodiscono gli edifici più antichi della città, incluso il distretto teatrale attivo ininterrottamente più vecchio degli Stati Uniti.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1980,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Grand Central Market",
+        "wikidata_qid": "Q5586748",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_Central_Market,_Los_Angeles",
+        "coordinates": {
+          "lat": 34.0513,
+          "lon": -118.249
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Operativo ininterrottamente dal 1917 in un portico al piano terra su Broadway, il mercato funge da punto di riferimento de facto per colazione e caffè del Downtown. Arrivate prima delle 9 per i posti al bancone da Egg Slut o Ana Maria senza fare la fila. La facciata di Broadway conserva ancora i suoi ornamenti originali in terracotta del 1917; guardate in alto ai piani superiori per vedere le insegne in piastrelle sopravvissute.",
+        "walk_to_next": {
+          "to": "Bradbury Building",
+          "distance_meters": 120,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Bradbury Building",
+        "wikidata_qid": "Q793109",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bradbury_Building",
+        "coordinates": {
+          "lat": 34.0506,
+          "lon": -118.2484
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Un edificio per uffici del 1893 il cui atrio centrale - lucernario vetrato, decorazioni in ferro battuto, ascensori a gabbia aperta - è tra gli interni vittoriani più raffinati degli Stati Uniti occidentali. L'accesso pubblico è limitato al piano terra e al primo pianerottolo senza una ragione di lavoro, ma è sufficiente per vedere l'intero atrio di cinque piani. La luce naturale raggiunge il picco a metà mattina quando il lucernario sud è completamente illuminato; evitate le visite pomeridiane quando il lato ovest cade nell'ombra.",
+        "walk_to_next": {
+          "to": "Walt Disney Concert Hall",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Walt Disney Concert Hall",
+        "wikidata_qid": "Q207808",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Walt_Disney_Concert_Hall",
+        "coordinates": {
+          "lat": 34.0553,
+          "lon": -118.2499
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Le curve in acciaio inossidabile di Frank Gehry sono fotografate al meglio dall'angolo di Grand e First Street, guardando verso nordest con la torre del City Hall sullo sfondo. Le terrazze giardino esterne e il Blue Ribbon Garden sul tetto sono accessibili gratuitamente al pubblico durante il giorno - l'installazione luminosa di Doug Wheeler all'interno della BP Hall è spesso trascurata dai visitatori che non chiedono al botteghino dell'accesso diurno gratuito agli spazi pubblici.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The Broad",
+          "wikidata_qid": "Q18185167",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/The_Broad",
+          "coordinates": {
+            "lat": 34.0544,
+            "lon": -118.2504
+          },
+          "neighborhood": "Bunker Hill",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Jeff Koons, Cindy Sherman, Ed Ruscha, Jean-Michel Basquiat - la collezione del Broad si legge come una raccolta dei capolavori dell'arte americana del dopoguerra. Prenotate un ingresso a orario per l'Infinity Mirrored Room di Yayoi Kusama separatamente quando fate la prenotazione; è l'opera d'arte singola più richiesta della città e l'accesso senza prenotazione è raramente disponibile.",
+          "walk_from_main_route": {
+            "from": "Walt Disney Concert Hall",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Angels Flight Railway",
+          "wikidata_qid": "Q615890",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Angels_Flight",
+          "coordinates": {
+            "lat": 34.0517,
+            "lon": -118.2499
+          },
+          "neighborhood": "Bunker Hill",
+          "duration_minutes": 15,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La ferrovia funicolare più corta del mondo, operativa su Bunker Hill dal 1901 in varie forme. La funicolare a due vetture sale 298 piedi di binario tra Hill Street e California Plaza - una corsa da un dollaro che risparmia la ripida salita delle scale tra Grand Central Market e le istituzioni culturali di Bunker Hill. Verificate lo stato operativo prima della visita poiché ha avuto chiusure intermittenti per manutenzione.",
+          "walk_from_main_route": {
+            "from": "Grand Central Market",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Venice e Santa Monica",
+      "cluster_tagline": "Il limite del continente - canali, il boardwalk e un molo alla fine della Route 66",
+      "neighborhood_focus": "Venice / Santa Monica",
+      "neighborhood_description": "La striscia costiera dove Los Angeles incontra il Pacifico, che si estende dai Venice Canals e Abbot Kinney Boulevard a nord fino al Santa Monica Pier e Palisades Park. Venice fu costruita nel 1905 come parco a tema modellato sulla sua omonima italiana; Santa Monica si sviluppò come località balneare ed è ora una città di mare urbana percorribile a piedi con una passeggiata pedonale e un molo che segna il capolinea occidentale della Route 66.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1900,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Venice Canal Historic District",
+        "wikidata_qid": "Q7919619",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Venice_Canal_Historic_District",
+        "coordinates": {
+          "lat": 33.9872,
+          "lon": -118.4682
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Sei isolati di canali superstiti del progetto originale del 1905 di Abbot Kinney, costeggiati da bungalow e collegati da ponticelli ad arco. Entrate da Dell Avenue piuttosto che dal lato turistico di Washington Street - la sezione settentrionale tra i canali Eastern e Carroll è più tranquilla, meno fotografata e conserva meglio le proporzioni originali dei bungalow. La maggior parte delle strade sui canali sono residenziali e strette; la passeggiata è più bella prima delle 10 del mattino quando la luce arriva da est attraverso l'acqua.",
+        "walk_to_next": {
+          "to": "Venice Beach Boardwalk",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Venice Beach Boardwalk",
+        "wikidata_qid": "Q1250339",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Venice_Beach",
+        "coordinates": {
+          "lat": 33.9851,
+          "lon": -118.4695
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Il lungomare si estende per circa due miglia verso nord dal Venice Pier in direzione Santa Monica ed è al massimo del suo spettacolo nei pomeriggi del weekend. La Muscle Beach Outdoor Gym all'estremità sud è una vera istituzione locale che risale agli anni '30, non una ricostruzione turistica. La transizione dal lungomare di Venice alla pista ciclabile di Santa Monica non è segnalata ma è visibile - il pavimento diventa una corsia dedicata alle biciclette e le bancarelle dei venditori lasciano spazio ai campi da beach volley.",
+        "walk_to_next": {
+          "to": "Santa Monica Pier",
+          "distance_meters": 950,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Santa Monica Pier",
+        "wikidata_qid": "Q1369990",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Monica_Pier",
+        "coordinates": {
+          "lat": 34.0089,
+          "lon": -118.4975
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Camminate fino alla fine del molo e voltandovi verso la riva per la vista migliore - la ruota panoramica, le montagne dietro Santa Monica e il lungo arco della baia da Malibu a Palos Verdes. Il segnale del punto finale della Route 66 si trova alla base del molo su Ocean Avenue, non sul molo stesso; il cartello sul molo è una replica installata per i turisti. Il tramonto qui è davvero spettacolare perché il molo è orientato quasi perfettamente a ovest e la Santa Monica Bay è oceano aperto fino all'orizzonte.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Abbot Kinney Boulevard",
+          "wikidata_qid": "Q4666701",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Abbot_Kinney_Boulevard",
+          "coordinates": {
+            "lat": 33.9916,
+            "lon": -118.4664
+          },
+          "neighborhood": "Venice",
+          "duration_minutes": 45,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La striscia commerciale lunga un miglio che prende il nome dal fondatore di Venice si estende verso nordest da Washington Boulevard verso Venice Boulevard. La metà sud tra Washington e Brooks è più densa di gallerie di design, torrefattori e boutique indipendenti che le hanno fatto guadagnare la reputazione - la metà nord più vicina a Venice Boulevard è meno curata e più autenticamente locale. Il parcheggio è impossibile nei weekend; avvicinatevi a piedi dal quartiere dei canali.",
+          "walk_from_main_route": {
+            "from": "Venice Canal Historic District",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Palisades Park",
+          "wikidata_qid": "Q7127379",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Palisades_Park,_Santa_Monica",
+          "coordinates": {
+            "lat": 34.0162,
+            "lon": -118.5017
+          },
+          "neighborhood": "Santa Monica",
+          "duration_minutes": 30,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Un parco lungo e stretto sulla cima della scogliera che si estende per 26 isolati sopra la Pacific Coast Highway, con vista ininterrotta sull'oceano a ovest e sulle Santa Monica Mountains a nord. Il belvedere di Inspiration Point all'incrocio di Ocean Avenue e Adelaide Drive è dove la vista della baia e lo sfondo montano si allineano. Gli alberi di fico di Moreton Bay maturi all'estremità sud vicino al molo sono tra gli esseri viventi più antichi di Santa Monica.",
+          "walk_from_main_route": {
+            "from": "Santa Monica Pier",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    }
+  ]
+}

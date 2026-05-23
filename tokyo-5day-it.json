@@ -1,0 +1,484 @@
+{
+  "destination": "Tokyo",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Asakusa / Ueno",
+    "Shibuya / Harajuku",
+    "Shinjuku",
+    "Akihabara / Yanaka",
+    "Ginza / Imperial Palace"
+  ],
+  "guide_description": "Cinque giorni per scoprire i contrasti essenziali di Tokyo, oltre al quartiere elettronico otaku, la città vecchia di Yanaka e l'esclusivo distretto commerciale di Ginza con i giardini del Palazzo Imperiale. Ogni giornata è organizzata attorno a un nodo ferroviario autonomo.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 15100,
+  "total_walking_minutes": 197,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Asakusa e Ueno",
+      "cluster_tagline": "La vecchia Tokyo - il grande tempio, il fiume e il parco dei musei",
+      "neighborhood_focus": "Asakusa / Ueno",
+      "neighborhood_description": "I quartieri nordorientali che hanno conservato più di ogni altra zona della città l'aspetto della Tokyo prebellica. Asakusa ha come centro il tempio Sensō-ji, il più antico e visitato tempio buddhista di Tokyo. Ueno Park, a venti minuti verso ovest, ospita la più alta concentrazione di musei nazionali del Giappone.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 42,
+      "morning": {
+        "activity_title": "Sensō-ji and Nakamise-dōri",
+        "wikidata_qid": "Q200035",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+        "coordinates": {
+          "lat": 35.7148,
+          "lon": 139.7967
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Il più antico tempio buddhista di Tokyo, fondato nel 645, con la gigantesca porta rossa Kaminarimon (Porta del Tuono) e la sua enorme lanterna di carta che rappresenta l'immagine da cartolina. Arrivate prima delle 9 per percorrere la via d'accesso Nakamise-dōri prima della ressa di turisti e negozi di souvenir. L'ingresso al padiglione principale del tempio è gratuito; la pagoda a cinque piani adiacente è una delle strutture più fotografate di Tokyo. L'incenso del mattino presto che si alza davanti al padiglione principale offre la visione migliore del tempio.",
+        "walk_to_next": {
+          "to": "Sumida River Walk",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sumida River and Asakusa backstreets",
+        "wikidata_qid": "Q855847",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sumida_River",
+        "coordinates": {
+          "lat": 35.7106,
+          "lon": 139.8019
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Il parco lungo il fiume Sumida offre la vista iconica verso il Tokyo Skytree e la sede della Asahi Beer (con la sua scultura di fiamma dorata di Philippe Starck, soprannominata localmente \"la cacca dorata\"). Percorrete le stradine secondarie tra il Sensō-ji e il fiume per raggiungere kappabashi-dōri (la via degli utensili da cucina) e i negozi nascosti dell'epoca Edo che vendono ancora ventagli, pennelli e crackers di riso. Attraversate l'Azuma Bridge per la migliore fotografia del Skytree.",
+        "walk_to_next": {
+          "to": "Ueno Park",
+          "distance_meters": 2000,
+          "walking_minutes": 26
+        }
+      },
+      "evening": {
+        "activity_title": "Ueno Park and the Tokyo National Museum",
+        "wikidata_qid": "Q330923",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_National_Museum",
+        "coordinates": {
+          "lat": 35.7188,
+          "lon": 139.7762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Il museo più grande e antico del Giappone, che custodisce la più significativa collezione d'arte giapponese del paese: spade, ceramiche, sculture buddhiste, stampe ukiyo-e. L'Honkan (Galleria Giapponese) è la sezione principale se avete poco tempo. Ueno Park stesso è il parco più amato di Tokyo per i ciliegi in fiore in primavera e ospita il Tokyo Zoo, il Museo Nazionale d'Arte Occidentale (Le Corbusier, UNESCO) e diversi musei più piccoli. Il museo chiude alle 17; arrivate entro le 15 per avere tempo sufficiente.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "National Museum of Western Art",
+          "wikidata_qid": "Q1362629",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Western_Art",
+          "coordinates": {
+            "lat": 35.7156,
+            "lon": 139.7757
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "L'edificio principale fu progettato da Le Corbusier (la sua unica opera nell'Asia orientale) e fa parte dell'iscrizione UNESCO transnazionale che comprende 17 dei suoi edifici in tutto il mondo. La collezione spazia dalla pittura europea medievale all'inizio del XX secolo, con importanti collezioni di Rodin e Monet. Chiuso il lunedì.",
+          "walk_from_main_route": {
+            "from": "Ueno Park",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Shibuya e Harajuku",
+      "cluster_tagline": "La Tokyo giovanile - il famoso incrocio, le vie della moda e il grande santuario Meiji nel bosco",
+      "neighborhood_focus": "Shibuya / Harajuku / Omotesandō",
+      "neighborhood_description": "L'asse occidentale che definisce la Tokyo contemporanea - il passaggio pedonale di Shibuya, il quartiere della moda giovanile di Harajuku, il lussuoso viale Omotesandō e il santuario nella foresta di Meiji Jingū, tutti collegati da una singola passeggiata di venti minuti lungo le stazioni della linea Yamanote.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Meiji Jingū Shrine",
+        "wikidata_qid": "Q229121",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Meiji_Shrine",
+        "coordinates": {
+          "lat": 35.6764,
+          "lon": 139.6993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Il santuario Shintō dedicato all'Imperatore Meiji e all'Imperatrice Shōken, situato in una foresta piantumata di 70 ettari (ogni albero donato e piantato a mano negli anni '20). Il percorso attraverso i giganteschi torii di legno e il sentiero di ghiaia dà la sensazione di lasciare completamente Tokyo. Il santuario stesso è stato ricostruito nel dopoguerra ma mantiene la pianta originale dell'era Meiji. Ingresso gratuito. Il giardino interno è una sezione a pagamento separata e vale la pena visitarlo per il giardino degli iris a giugno.",
+        "walk_to_next": {
+          "to": "Harajuku / Takeshita Street",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Harajuku and Omotesandō",
+        "wikidata_qid": "Q193063",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harajuku",
+        "coordinates": {
+          "lat": 35.67,
+          "lon": 139.7034
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Takeshita-dōri è il vicolo della moda giovanile densamente affollato - crêpes, caffè a tema, moda kawaii, stipato spalla a spalla nei weekend. Il parallelo viale Omotesandō rappresenta l'estremo opposto - un ampio viale alberato con la più concentrata vetrina architettonica di Tokyo (Prada Aoyama di Herzog and de Meuron, Tod's di Toyo Ito, Dior di SANAA). Percorrete entrambi per il contrasto che definisce questo quartiere.",
+        "walk_to_next": {
+          "to": "Shibuya Crossing",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Shibuya Crossing at sunset",
+        "wikidata_qid": "Q11409538",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Crossing",
+        "coordinates": {
+          "lat": 35.6595,
+          "lon": 139.7004
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Il famoso incrocio pedonale davanti alla stazione di Shibuya - fino a 3.000 persone che attraversano in un singolo ciclo semaforico nelle ore di punta. Lo Starbucks sopra la libreria Tsutaya è il punto di osservazione classico ma sempre affollato; il nuovo ponte di osservazione Shibuya Sky al Shibuya Scramble Square è l'alternativa moderna per una vista più ampia. Il più fotogenico dopo il tramonto quando i cartelloni LED illuminano l'incrocio.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Shibuya Sky observation deck",
+          "wikidata_qid": "Q60743130",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Scramble_Square",
+          "coordinates": {
+            "lat": 35.6585,
+            "lon": 139.7019
+          },
+          "neighborhood": "Shibuya",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Ponte di osservazione all'aperto sul tetto al 46° piano del Shibuya Scramble Square, aperto nel 2019. Guarda direttamente dall'alto il famoso incrocio e offre una linea visiva chiara verso il Monte Fuji nelle giornate limpide. Prenotate i biglietti con orario online; i turni al tramonto si esauriscono con uno o due giorni di anticipo. Chiuso durante i venti forti.",
+          "walk_from_main_route": {
+            "from": "Shibuya Crossing",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Shinjuku",
+      "cluster_tagline": "Tokyo dei grattacieli - le torri governative, i bar dei vicoli del dopoguerra e il più grande snodo ferroviario della città",
+      "neighborhood_focus": "Shinjuku",
+      "neighborhood_description": "Il quartiere occidentale costruito intorno alla stazione ferroviaria più trafficata al mondo (3,6 milioni di passeggeri giornalieri). Il gruppo di grattacieli sul lato ovest ospita il ponte di osservazione gratuito del Metropolitan Government; il lato est si estende nel quartiere dei divertimenti di Kabukichō e nel labirinto dei minuscoli bar del dopoguerra di Golden Gai.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Shinjuku Gyoen National Garden",
+        "wikidata_qid": "Q1322323",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shinjuku_Gyoen",
+        "coordinates": {
+          "lat": 35.6852,
+          "lon": 139.71
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "58 ettari di giardino imperiale diviso in tre stili distinti - tradizionale giapponese, francese formale e paesaggistico inglese - originariamente una residenza feudale del periodo Edo. Uno dei pochi parchi di Tokyo che richiede un biglietto d'ingresso (tariffa modesta); in cambio, niente gruppi numerosi e niente alcol, il che lo rende notevolmente più tranquillo di Yoyogi o Ueno. Chiuso il lunedì. Il picco della fioritura dei ciliegi tra fine marzo e inizio aprile attira code dall'apertura.",
+        "walk_to_next": {
+          "to": "Tokyo Metropolitan Government Building",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tokyo Metropolitan Government Building observation deck",
+        "wikidata_qid": "Q260462",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Government_Building",
+        "coordinates": {
+          "lat": 35.6896,
+          "lon": 139.6917
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "L'edificio governativo a due torri del 1991 di Kenzō Tange, la struttura più alta di Tokyo quando fu costruita. I due ponti di osservazione (nord e sud, entrambi a 202 metri di altezza) sono completamente gratuiti. Nelle giornate limpide la vista si estende fino al Monte Fuji a sud-ovest. Il ponte sud chiude prima; quello nord è aperto fino alle 22 ed è l'opzione migliore per la sera. Meno code rispetto a Shibuya Sky o Tokyo Tower per viste simili.",
+        "walk_to_next": {
+          "to": "Golden Gai / Omoide Yokochō",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Golden Gai and Omoide Yokochō",
+        "wikidata_qid": "Q5580547",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_Gai",
+        "coordinates": {
+          "lat": 35.694,
+          "lon": 139.7045
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Sei stretti vicoli pieni di circa 200 micro-bar - la maggior parte con posti a sedere per sole sei-dieci persone, molti con temi specifici (jazz, punk, letteratura, decenni specifici). Un frammento sopravvissuto della Tokyo del dopoguerra. La maggior parte dei bar applica un coperto (¥500-1500), sono accoglienti con i turisti che rispettano lo spazio e rifiutano gruppi di più di due o tre persone. Omoide Yokochō (Memory Lane) a ovest della stazione è l'equivalente del vicolo yakitori - più economico, più fumoso, più accessibile.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hanazono Shrine",
+          "wikidata_qid": "Q1148860",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hanazono_Shrine",
+          "coordinates": {
+            "lat": 35.694,
+            "lon": 139.7035
+          },
+          "neighborhood": "Shinjuku",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un santuario Shintō incastrato incredibilmente tra Golden Gai e il quartiere dei divertimenti di Kabukichō - il contrasto tra i torii rossi e il neon circostante è una delle viste caratteristiche di Shinjuku. I locali lo visitano per le benedizioni di prosperità negli affari. Il piccolo mercatino delle pulci che opera la domenica è uno dei più piacevoli di Tokyo.",
+          "walk_from_main_route": {
+            "from": "Golden Gai",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Akihabara e Yanaka",
+      "cluster_tagline": "La Tokyo elettronica incontra la Tokyo antica - il quartiere otaku e la città bassa sopravvissuta",
+      "neighborhood_focus": "Akihabara / Yanaka / Nezu",
+      "neighborhood_description": "Due mondi adiacenti. Akihabara è la capitale mondiale dell'elettronica, degli anime e della subcultura del gaming, discendente dal mercato di pezzi di ricambio radiofonici del dopoguerra. A poche fermate di treno verso nord, Yanaka è uno dei pochi quartieri di Tokyo sopravvissuti sia al terremoto del 1923 che ai bombardamenti del 1945 - vicoli stretti, negozi in legno, decine di piccoli templi.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3300,
+      "day_walking_minutes": 43,
+      "morning": {
+        "activity_title": "Akihabara Electric Town",
+        "wikidata_qid": "Q201020",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Akihabara",
+        "coordinates": {
+          "lat": 35.7022,
+          "lon": 139.7745
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "street",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Sei isolati di negozi di elettronica, anime, manga e gaming su più piani - la capitale mondiale della cultura otaku. Don Quijote, Yodobashi Camera, Mandarake e Super Potato Retro Game Shop sono i punti di riferimento più noti. I 'maid café' su Chuō-dōri sono un fenomeno turistico; i negozi davvero interessanti sono gli specialisti dell'usato su più piani nascosti nelle vie secondarie. Meno affollato nelle mattine dei giorni feriali.",
+        "walk_to_next": {
+          "to": "Yanaka via train (Ueno → Nippori)",
+          "distance_meters": 2500,
+          "walking_minutes": 32
+        }
+      },
+      "afternoon": {
+        "activity_title": "Yanaka Cemetery and old-town walk",
+        "wikidata_qid": "Q11543793",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Yanaka_Cemetery",
+        "coordinates": {
+          "lat": 35.7256,
+          "lon": 139.7706
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Uno dei cimiteri più grandi di Tokyo (fondato nel 1872), costruito sui terreni di un antico complesso templare. Il viale dei ciliegi in fiore lungo il sentiero centrale è uno dei luoghi primaverili più suggestivi della città. L'ultimo shōgun della dinastia Tokugawa è sepolto qui. Il quartiere circostante di Yanaka è uno dei pochi scampati sia al terremoto del 1923 che ai bombardamenti della Seconda Guerra Mondiale - percorrete la via commerciale Yanaka Ginza per la più alta concentrazione di piccoli negozi in legno e atmosfera della vecchia Tokyo.",
+        "walk_to_next": {
+          "to": "Nezu Shrine",
+          "distance_meters": 800,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Nezu Shrine",
+        "wikidata_qid": "Q1281272",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nezu_Shrine",
+        "coordinates": {
+          "lat": 35.72,
+          "lon": 139.7611
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Uno dei santuari più antichi di Tokyo (fondazione leggendaria 1900 anni fa, edifici attuali del 1706, designati Proprietà Culturali Importanti). Il tunnel di torii vermiglio che sale lungo la collina è una versione più piccola e tranquilla del famoso Fushimi Inari di Kyoto e uno dei luoghi più fotografati della vecchia Tokyo. Il giardino di azalee sul retro fiorisce spettacolarmente ad aprile e vale il piccolo biglietto d'ingresso durante la stagione.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kanda Myōjin Shrine",
+          "wikidata_qid": "Q1722851",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kanda_Shrine",
+          "coordinates": {
+            "lat": 35.7019,
+            "lon": 139.7681
+          },
+          "neighborhood": "Akihabara",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un importante santuario ai margini di Akihabara che ha abbracciato la sua posizione - vende amuleti a tema anime e organizza cerimonie di benedizione IT per i lavoratori del settore tecnologico. Il santuario stesso ha 1.270 anni; la ricostruzione in cemento del dopoguerra fu insolitamente progressista per i suoi tempi. Una tappa naturale tra Akihabara vera e propria e il treno verso nord per Yanaka.",
+          "walk_from_main_route": {
+            "from": "Akihabara Electric Town",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        },
+        {
+          "activity_title": "SCAI The Bathhouse",
+          "wikidata_qid": "Q11293923",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Yanaka,_Tokyo",
+          "coordinates": {
+            "lat": 35.7239,
+            "lon": 139.7681
+          },
+          "neighborhood": "Yanaka",
+          "duration_minutes": 30,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un sentō (bagno pubblico) di 200 anni convertito in una piccola galleria d'arte contemporanea, che ospita mostre a rotazione di artisti giapponesi e internazionali. Ingresso gratuito. La giustapposizione della sala da bagno piastrellata originale con installazioni concettuali è la firma della galleria. Chiuso domeniche, lunedì e tra le mostre.",
+          "walk_from_main_route": {
+            "from": "Yanaka Cemetery",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Ginza e il Palazzo Imperiale",
+      "cluster_tagline": "La Tokyo elegante - i giardini del Palazzo Imperiale, il teatro kabuki e il quartiere dello shopping di lusso originale",
+      "neighborhood_focus": "Ginza / Marunouchi / Chiyoda",
+      "neighborhood_description": "Il quartiere di prestigio del Tokyo centrale, costruito sul sito del Castello di Edo. I giardini interni dell'Imperial Palace rimangono chiusi al pubblico; gli East Gardens (aperti e gratuiti) conservano le fondamenta in pietra del castello. Ginza, immediatamente a sud, è la strada commerciale originale in stile occidentale del Giappone e la concentrazione più densa di grandi magazzini e negozi di lusso in Asia.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Imperial Palace East Gardens",
+        "wikidata_qid": "Q1147334",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Imperial_Palace_East_Gardens",
+        "coordinates": {
+          "lat": 35.6852,
+          "lon": 139.7575
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Gli antichi giardini interni del Castello di Edo (sede dello shōgunato Tokugawa) - massicce fondamenta in pietra, le fondamenta del torrione distrutto e un giardino giapponese. Ingresso gratuito; chiuso lunedì e venerdì. Il giardino Ninomaru nella sezione orientale è il più bello. La passeggiata lungo il fossato dell'Imperial Palace (da Sakuradamon Gate a Hirakawa Gate) è una delle migliori camminate gratuite nel centro di Tokyo.",
+        "walk_to_next": {
+          "to": "Ginza",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ginza shopping district",
+        "wikidata_qid": "Q201038",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ginza",
+        "coordinates": {
+          "lat": 35.6717,
+          "lon": 139.7649
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La strada commerciale occidentalizzata originale del Giappone, che prende il nome dalla zecca di monete d'argento che si trovava qui nel periodo Edo. L'incrocio di Chūō-dōri e Harumi-dōri è il centro simbolico. Nei pomeriggi del weekend, Chūō-dōri chiude al traffico e diventa un 'paradiso pedonale'. Il flagship store di cartoleria Itoya (dodici piani), Ginza Six (vetrina architettonica) e Wakō (l'edificio simbolico con la torre dell'orologio) sono i punti di riferimento principali.",
+        "walk_to_next": {
+          "to": "Kabukiza Theatre",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Kabukiza Theatre",
+        "wikidata_qid": "Q1148104",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kabuki-za",
+        "coordinates": {
+          "lat": 35.6694,
+          "lon": 139.7672
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "after_dark",
+        "notes": "Il principale teatro kabuki di Tokyo - l'attuale edificio del 2013 (architetto Kengo Kuma, in collaborazione) conserva la facciata tradizionale con una torre moderna dietro. Gli spettacoli completi durano 4-5 ore ma sono disponibili biglietti per singoli atti (makumi) per i turisti a una frazione del prezzo dell'ingresso completo. L'esterno di notte, quando è illuminato, è uno degli edifici più fotografati di Ginza.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hama-rikyū Gardens",
+          "wikidata_qid": "Q1149086",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hama-riky%C5%AB_Gardens",
+          "coordinates": {
+            "lat": 35.6597,
+            "lon": 139.7625
+          },
+          "neighborhood": "Tsukiji / Shimbashi",
+          "duration_minutes": 60,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un'antica riserva di caccia alle anatre di uno shōgun Tokugawa, ora un giardino paesaggistico tradizionale dove l'acqua marina riempie con la marea il laghetto centrale. La casa da tè sull'isola al centro del laghetto serve matcha ai visitatori del giardino. Un battello fluviale parte da qui risalendo il fiume Sumida verso Asakusa - un modo eccellente per lasciare Ginza se non avete ancora visitato quella parte di Tokyo.",
+          "walk_from_main_route": {
+            "from": "Ginza",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    }
+  ]
+}

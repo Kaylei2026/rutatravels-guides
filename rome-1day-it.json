@@ -1,0 +1,143 @@
+{
+  "destination": "Rome",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T13:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Centro Storico"
+  ],
+  "guide_description": "Una giornata a piedi attraverso il cuore barocco e antico di Roma, incentrata sul Pantheon e che termina alla Fontana di Trevi dopo il tramonto. Non serve trasporto pubblico - tutto si trova all'interno di un percorso di 1,5 km.",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 1020,
+  "total_walking_minutes": 13,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Percorso Centro Storico",
+      "cluster_tagline": "Piazze barocche e templi antichi nel centro storico percorribile a piedi",
+      "neighborhood_focus": "Centro Storico",
+      "neighborhood_description": "Il denso quartiere storico tra l'ansa del Tevere e Via del Corso. Templi romani, piazze barocche e mercati sovrapposti su duemila anni di reticolo stradale.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1020,
+      "day_walking_minutes": 13,
+      "morning": {
+        "activity_title": "Pantheon",
+        "wikidata_qid": "Q1142794",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "coordinates": {
+          "lat": 41.8986,
+          "lon": 12.4769
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Arrivate all'apertura (ore 9) per vedere il fascio di luce dell'oculus posarsi nitidamente sull'interno prima che il pavimento si riempia di gruppi turistici. Ora si applica una piccola tariffa d'ingresso nei giorni feriali; la messa domenicale è gratuita ma limita i movimenti all'interno.",
+        "walk_to_next": {
+          "to": "Piazza Navona",
+          "distance_meters": 320,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Piazza Navona and Sant'Agnese in Agone",
+        "wikidata_qid": "Q207110",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_Navona",
+        "coordinates": {
+          "lat": 41.8992,
+          "lon": 12.4731
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Costruita sul perimetro dello Stadium di Domiziano, ecco perché la forma è allungata. La Fontana dei Quattro Fiumi è del Bernini; la facciata della chiesa di fronte è del suo rivale Borromini - i due stanno litigando attraverso la piazza dal 1650.",
+        "walk_to_next": {
+          "to": "Trevi Fountain",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Trevi Fountain after dark",
+        "wikidata_qid": "Q1747689",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Trevi_Fountain",
+        "coordinates": {
+          "lat": 41.9009,
+          "lon": 12.4833
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 30,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "L'illuminazione si accende verso il tramonto e la fontana appare visibilmente più pulita di quanto suggerisca la ressa di selfie diurni. Avvicinatevi da Via della Stamperia piuttosto che dalla strada principale per ottenere l'effetto sorpresa che usò Fellini ne La Dolce Vita.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Campo de' Fiori",
+          "wikidata_qid": "Q207258",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Campo_de%27_Fiori",
+          "coordinates": {
+            "lat": 41.8956,
+            "lon": 12.4722
+          },
+          "neighborhood": "Centro Storico",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Mercato di prodotti freschi la mattina fino alle 14 circa, poi si trasforma in piazza per l'aperitivo nel primo pomeriggio. La statua scura al centro è Giordano Bruno, bruciato qui per eresia nel 1600.",
+          "walk_from_main_route": {
+            "from": "Piazza Navona",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Sant'Ivo alla Sapienza",
+          "wikidata_qid": "Q1132352",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sant%27Ivo_alla_Sapienza",
+          "coordinates": {
+            "lat": 41.8983,
+            "lon": 12.4744
+          },
+          "neighborhood": "Centro Storico",
+          "duration_minutes": 20,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La lanterna a spirale del Borromini è una delle sagome più strane di Roma. Il cortile è aperto la maggior parte delle mattine dei giorni feriali; l'interno della chiesa ha orari limitati, tipicamente la domenica mattina.",
+          "walk_from_main_route": {
+            "from": "Piazza Navona",
+            "distance_meters": 180,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    }
+  ]
+}
