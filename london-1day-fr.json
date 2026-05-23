@@ -1,0 +1,138 @@
+{
+  "destination": "London",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Westminster / South Bank"
+  ],
+  "guide_description": "Une journée de marche le long de l'épine dorsale cérémonielle de Londres sur la Thames, de Westminster Abbey en passant par les Houses of Parliament et en traversant le fleuve vers le South Bank. Le cœur politique et royal de la ville en une seule boucle.",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 2200,
+  "total_walking_minutes": 28,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Westminster et le South Bank",
+      "cluster_tagline": "L'épine dorsale cérémonielle de Londres - l'Abbey, Big Ben, et la promenade de la Thames",
+      "neighborhood_focus": "Westminster / South Bank",
+      "neighborhood_description": "Westminster est le siège du gouvernement britannique et l'église du couronnement de la monarchie, ancré sur Parliament Square. Le South Bank de l'autre côté de Westminster Bridge est le contrepoint culturel, bordé par la promenade fluviale, le London Eye, et de grands lieux artistiques.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Westminster Abbey",
+        "wikidata_qid": "Q5933",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+        "coordinates": {
+          "lat": 51.4994,
+          "lon": -0.1273
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Site de tous les couronnements anglais depuis 1066 et lieu de sépulture de dix-sept monarques. Réservez un billet horodaté en ligne pour éviter la file d'attente. Le Poets' Corner (Chaucer, Dickens, Hardy, Browning) et la Coronation Chair sont les attractions évidentes ; le Cosmati Pavement souvent négligé directement devant le High Altar est une mosaïque géométrique du 13ème siècle où ont lieu les vrais couronnements. Fermé le dimanche sauf pour les services.",
+        "walk_to_next": {
+          "to": "Houses of Parliament",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Houses of Parliament and Big Ben",
+        "wikidata_qid": "Q41770",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
+        "coordinates": {
+          "lat": 51.4995,
+          "lon": -0.1248
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le Palais néo-gothique de Westminster, achevé en 1870 après que l'original médiéval ait brûlé en 1834. Les résidents du UK et du Commonwealth peuvent assister gratuitement à un débat en faisant la queue à Cromwell Green ; les visiteurs internationaux peuvent réserver des visites payantes les jours sans séances (typiquement les samedis et semaines de suspension). Big Ben est la cloche, pas la tour - la tour elle-même est l'Elizabeth Tower, récemment restaurée dans ses couleurs victoriennes originales.",
+        "walk_to_next": {
+          "to": "London Eye via Westminster Bridge",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "South Bank and London Eye at sunset",
+        "wikidata_qid": "Q121130",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/London_Eye",
+        "coordinates": {
+          "lat": 51.5033,
+          "lon": -0.1196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Traversez Westminster Bridge pour la photo classique Parliament-et-Eye. Que vous montiez dans l'Eye est une question de budget - la vue est spectaculaire mais chère, et une promenade gratuite sur le South Bank vers l'est en direction de la Tate Modern offre le même horizon sans frais. La meilleure lumière photographique est dans les 30 minutes avant le coucher du soleil, quand la façade est du Parliament capte le dernier or.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Churchill War Rooms",
+          "wikidata_qid": "Q1133979",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Churchill_War_Rooms",
+          "coordinates": {
+            "lat": 51.5024,
+            "lon": -0.1294
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Le complexe souterrain de bunkers où Churchill dirigeait les opérations de la WWII britannique, préservé exactement comme il était en 1945 - incluant une Cabinet Room avec la chaise que Churchill mâchonnait pendant les réunions. Réservez à l'avance ; c'est l'un des musées les plus visités de Londres et l'entrée sans réservation est rare.",
+          "walk_from_main_route": {
+            "from": "Houses of Parliament",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "St. James's Park",
+          "wikidata_qid": "Q216914",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St_James%27s_Park",
+          "coordinates": {
+            "lat": 51.5025,
+            "lon": -0.1342
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Le plus ancien des parcs royaux de London, avec un petit lac peuplé de pélicans (un cadeau d'un ambassadeur russe en 1664, entretenu continuellement depuis). Le pont qui traverse le lac offre l'une des vues les plus sous-estimées de London - Buckingham Palace dans une direction, les tours de Whitehall dans l'autre.",
+          "walk_from_main_route": {
+            "from": "Westminster Abbey",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "destination": "Chicago",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:53:26.241Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "The Loop / Grant Park / Millennium Park"
+  ],
+  "guide_description": "Une journée sur l'épine dorsale culturelle de Chicago au bord du lac - le canyon architectural du Loop, les espaces ouverts monumentaux de Grant Park et Millennium Park, et l'Art Institute qui ancre l'ensemble du quartier. Géographiquement compact, entièrement accessible à pied, et la meilleure vision d'une journée de pourquoi Chicago compte.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3200,
+  "total_walking_minutes": 40,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Le Loop et le bord du lac",
+      "cluster_tagline": "Le cœur architectural et culturel de Chicago - canyons d'acier, art public monumental, et un musée au bord du lac",
+      "neighborhood_focus": "The Loop / Grant Park / Millennium Park",
+      "neighborhood_description": "Le Loop est le quartier central des affaires de Chicago, délimité par la ligne de métro aérien qui lui a donné son nom et encerclé par certains des premiers gratte-ciel les plus importants au monde. Sa bordure orientale se fond dans Grant Park et Millennium Park, un vaste espace ouvert au bord du lac qui fait office de pelouse d'honneur de la ville, avec l'Art Institute en son cœur.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 40,
+      "morning": {
+        "activity_title": "Art Institute of Chicago",
+        "wikidata_qid": "Q239303",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Art_Institute_of_Chicago",
+        "coordinates": {
+          "lat": 41.8796,
+          "lon": -87.6237
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Entrez depuis Michigan Avenue et montez directement au deuxième étage vers les galeries impressionnistes avant l'arrivée des groupes de touristes - le Seurat, les Nighthawks, et Un dimanche à La Grande Jatte sont tous exposés ici et les salles sont praticables avant midi. La Modern Wing, ajoutée en 2009 par Renzo Piano, se connecte via une passerelle piétonne au-dessus de Monroe Street directement dans Millennium Park - utilisez-la comme sortie plutôt que de rebrousser chemin vers Michigan Avenue.",
+        "walk_to_next": {
+          "to": "Millennium Park and Cloud Gate",
+          "distance_meters": 350,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Millennium Park and Cloud Gate",
+        "wikidata_qid": "Q1048360",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Millennium_Park",
+        "coordinates": {
+          "lat": 41.8827,
+          "lon": -87.6233
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La sculpture Cloud Gate d'Anish Kapoor - universellement appelée le Bean par les habitants de Chicago - se dresse sur AT&T Plaza et reflète l'horizon dans un panorama déformé qui est en fait plus intéressant par en dessous, en regardant droit vers le nombril concave. La Crown Fountain adjacente de Jaume Plensa, deux tours de blocs de verre de 15 mètres projetant des visages vidéo qui crachent périodiquement de l'eau, compte parmi les œuvres d'art public urbain les plus réussies des États-Unis. Marchez vers le nord en dépassant le Jay Pritzker Pavilion - la coquille acoustique de Frank Gehry - jusqu'au BP Bridge, sa seule conception de pont, qui offre la meilleure vue dégagée sur l'horizon du parc.",
+        "walk_to_next": {
+          "to": "Chicago Riverwalk and Michigan Avenue Bridge",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Chicago Riverwalk and the Michigan Avenue Bridge",
+        "wikidata_qid": "Q5098099",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Riverwalk",
+        "coordinates": {
+          "lat": 41.8876,
+          "lon": -87.6254
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Marchez vers l'ouest le long du Riverwalk depuis Michigan Avenue vers Wells Street - le niveau inférieur se situe directement au niveau de l'eau et le canyon de gratte-ciel au-dessus est à son plus dramatique dans l'heure précédant le coucher du soleil quand les tours de verre orientées ouest deviennent dorées. Le Michigan Avenue Bridge (DuSable Bridge) à l'extrémité est possède quatre tabliers basculants et quatre pylônes sculpturaux représentant des scènes de l'histoire de Chicago. Arrêtez-vous sur le pont plutôt qu'à côté - la vue bilatérale en amont et en aval est la photographie architecturale classique de Chicago, avec le Wrigley Building et la Tribune Tower encadrant la rive nord.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Chicago Architecture Center River Cruise",
+          "wikidata_qid": "Q5098099",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Riverwalk",
+          "coordinates": {
+            "lat": 41.8878,
+            "lon": -87.6218
+          },
+          "neighborhood": "The Loop",
+          "duration_minutes": 75,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Le Chicago Architecture Center organise des visites guidées en bateau de 90 minutes au départ du Riverwalk près de Michigan Avenue - les commentaires sont écrits et présentés par des historiens de l'architecture, pas des guides touristiques génériques, et couvrent la logique structurelle de la façon dont Chicago s'est reconstruite après l'incendie de 1871 d'une manière qu'aucune visite à pied n'égale. Réservez en ligne ; le départ de 10h offre la meilleure lumière sur les façades orientées nord. Habillez-vous plus chaudement que vous ne le pensez nécessaire - le chenal de la rivière concentre le vent.",
+          "walk_from_main_route": {
+            "from": "Art Institute of Chicago",
+            "distance_meters": 650,
+            "walking_minutes": 8
+          }
+        },
+        {
+          "activity_title": "The Rookery Building",
+          "wikidata_qid": "Q1424082",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rookery_Building",
+          "coordinates": {
+            "lat": 41.8791,
+            "lon": -87.6325
+          },
+          "neighborhood": "The Loop",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un gratte-ciel de Burnham and Root datant de 1888 avec une cour de lumière réaménagée par Frank Lloyd Wright en 1905 - l'un des rares endroits où vous pouvez voir la ferronnerie ornementale et la verrière de Wright dans un bâtiment commercial en activité plutôt que dans un musée. Le hall d'entrée est accessible au public pendant les heures d'ouverture sans billet. Entrez par LaSalle Street, et non par Adams, pour voir toute la cour de lumière depuis le rez-de-chaussée.",
+          "walk_from_main_route": {
+            "from": "Millennium Park",
+            "distance_meters": 950,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    }
+  ]
+}

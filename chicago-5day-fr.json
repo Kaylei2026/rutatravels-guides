@@ -1,0 +1,569 @@
+{
+  "destination": "Chicago",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:56:44.100Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "The Loop / Millennium Park",
+    "Museum Campus / Near South Side",
+    "River North / Magnificent Mile",
+    "Lincoln Park / Old Town",
+    "Hyde Park / Woodlawn"
+  ],
+  "guide_description": "Cinq jours pour découvrir l'essence de Chicago : le Loop architectural et le bord du lac, le campus muséal sur Burnham Harbor, le corridor commercial et des galeries de River North et Michigan Avenue, les parcs résidentiels du nord et les paysages urbains victoriens, ainsi que le sud intellectuel ancré par l'University of Chicago. Chaque journée est géographiquement autonome.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 18200,
+  "total_walking_minutes": 228,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Le Loop et Millennium Park",
+      "cluster_tagline": "Le cœur civique de Chicago - la grille urbaine, le métro aérien et la place du bord du lac",
+      "neighborhood_focus": "The Loop / Millennium Park",
+      "neighborhood_description": "Le Loop est le quartier central des affaires délimité par les voies surélevées du CTA, entièrement reconstruit en acier et verre après l'incendie de 1871 et berceau des premiers gratte-ciel au monde. Millennium Park, à sa lisière est, constitue l'espace public le plus visité de la ville, dominé par Cloud Gate d'Anish Kapoor sur le front de lac de Grant Park.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3400,
+      "day_walking_minutes": 43,
+      "morning": {
+        "activity_title": "Chicago Architecture Center River Cruise",
+        "wikidata_qid": "Q5101698",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Architecture_Center",
+        "coordinates": {
+          "lat": 41.8864,
+          "lon": -87.6237
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "La croisière architecturale de 90 minutes de la Chicago River Architecture Foundation constitue l'introduction la plus efficace à l'architecture de Chicago - plus de 50 bâtiments expliqués depuis l'eau, notamment le Wrigley Building, Tribune Tower et Marina City, dont la hauteur et la densité ne prennent tout leur sens qu'au niveau de la rivière. Embarquez au pont Michigan Avenue sur la rive sud. Les départs matinaux offrent un meilleur éclairage sur les parois du canyon que les courses de l'après-midi. Réservez en ligne la veille en été ; les bateaux de 9am et 10am se remplissent le plus rapidement.",
+        "walk_to_next": {
+          "to": "Millennium Park",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Millennium Park and Cloud Gate",
+        "wikidata_qid": "Q607843",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Millennium_Park",
+        "coordinates": {
+          "lat": 41.8827,
+          "lon": -87.6233
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le parc est gratuit et toujours ouvert. Cloud Gate (appelé localement the Bean) déforme l'horizon en une bulle miroir - passez sous l'arche pour obtenir le reflet le plus vertigineux, pas seulement l'ovale extérieur. Crown Fountain à l'extrémité sud fait défiler les visages de 1 000 habitants de Chicago sur des tours LED qui crachent de l'eau par intervalles - une véritable œuvre d'art civique de Jaume Plensa. Le Jay Pritzker Pavilion accueille des concerts gratuits en soirée durant l'été ; vérifiez le programme avant de vous y rendre.",
+        "walk_to_next": {
+          "to": "The Art Institute of Chicago",
+          "distance_meters": 450,
+          "walking_minutes": 6
+        }
+      },
+      "evening": {
+        "activity_title": "Art Institute of Chicago",
+        "wikidata_qid": "Q239303",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Art_Institute_of_Chicago",
+        "coordinates": {
+          "lat": 41.8796,
+          "lon": -87.6237
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "L'un des cinq plus grands musées d'art des États-Unis. L'entrée du jeudi soir est gratuite pour les résidents de l'Illinois, mais le musée reste ouvert jusqu'à 8pm le jeudi pour tous les visiteurs, ce qui en fait le moment le moins fréquenté. Les galeries impressionnistes et post-impressionnistes du deuxième étage de la Modern Wing abritent A Sunday on La Grande Jatte de Seurat, qui est plus grand et plus hypnotique en personne que ne le suggère toute reproduction. Entrez par Monroe Street, pas par les lions de Michigan Avenue - l'entrée sud mène directement aux ascenseurs de la Modern Wing.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Chicago Cultural Center",
+          "wikidata_qid": "Q2961847",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Cultural_Center",
+          "coordinates": {
+            "lat": 41.8835,
+            "lon": -87.6249
+          },
+          "neighborhood": "The Loop",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "L'ancienne bibliothèque municipale (1897), aujourd'hui un lieu artistique gratuit avec deux coupoles en verre Tiffany - la coupole du Preston Bradley Hall mesure 38 pieds de diamètre et figure parmi les plus grandes installations Tiffany au monde. Entrée gratuite, aucun billet nécessaire. La plupart des visiteurs de Millennium Park passent devant sans savoir que cela existe, ce qui le maintient agréablement peu fréquenté.",
+          "walk_from_main_route": {
+            "from": "Millennium Park",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Rookery Building lobby",
+          "wikidata_qid": "Q1665823",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rookery_Building",
+          "coordinates": {
+            "lat": 41.8793,
+            "lon": -87.6325
+          },
+          "neighborhood": "The Loop",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Le bâtiment de 1888 conçu par Burnham and Root avec une cour de lumière réaménagée par Frank Lloyd Wright en 1905. Le hall d'entrée est ouvert au public pendant les heures de bureau et l'accès est gratuit - l'escalier ornemental en fer forgé et l'atrium éclairé par le haut sont un précurseur direct de tous les hôtels à atrium jamais construits. Venez avant 17h en semaine.",
+          "walk_from_main_route": {
+            "from": "Art Institute of Chicago",
+            "distance_meters": 650,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Museum Campus et Burnham Harbor",
+      "cluster_tagline": "Trois institutions de classe mondiale sur une presqu'île au bord du lac - histoire naturelle, planétarium et aquarium",
+      "neighborhood_focus": "Museum Campus / Near South Side",
+      "neighborhood_description": "Le Museum Campus est un parc de 57 acres sur Burnham Harbor, juste au sud de Grant Park, conçu spécifiquement pour regrouper trois institutions majeures autour du bord du lac. Le Plan of Chicago de 1909 de Burnham envisageait le littoral comme définitivement public - la vue vers l'est depuis le campus sur Lake Michigan semble océanique.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "The Field Museum",
+        "wikidata_qid": "Q1122595",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Field_Museum_of_Natural_History",
+        "coordinates": {
+          "lat": 41.8664,
+          "lon": -87.617
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "L'un des plus grands musées d'histoire naturelle au monde. Sue, le squelette de T. rex le plus complet jamais découvert, trône dans Stanley Field Hall à l'entrée - elle a été relocalisée ici en 2018 et le nouveau montage montre correctement la queue à l'horizontale. La collection Ancient Egypt à l'étage supérieur comprend un complexe de tombes souterraines intact. Achetez vos billets en ligne pour éviter la file d'attente à l'entrée, qui devient longue dès 11h le week-end.",
+        "walk_to_next": {
+          "to": "Shedd Aquarium",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Shedd Aquarium",
+        "wikidata_qid": "Q1346851",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shedd_Aquarium",
+        "coordinates": {
+          "lat": 41.8676,
+          "lon": -87.6139
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "L'aquarium a ouvert en 1930 comme le plus grand aquarium couvert au monde. L'Oceanarium au niveau supérieur - un habitat pour bélugas et dauphins conçu pour ressembler à une crique du Pacific Northwest, avec un faux horizon se fondant dans Lake Michigan à travers le verre - est architecturalement différent de toute exposition d'aquarium construite auparavant. La section Wild Reef de récif corallien au niveau inférieur couvre les habitats des Caraïbes et de l'Indo-Pacifique avec des plongeurs dans les bassins aux heures de nourrissage programmées.",
+        "walk_to_next": {
+          "to": "Adler Planetarium",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Adler Planetarium and lakefront viewpoint",
+        "wikidata_qid": "Q489696",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Adler_Planetarium",
+        "coordinates": {
+          "lat": 41.8663,
+          "lon": -87.6067
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Le premier planétarium permanent de l'hémisphère occidental, ouvert en 1930. La terrasse extérieure à la pointe de la presqu'île du Museum Campus offre la meilleure vue dégagée sur l'horizon de Chicago - toute la courbe du littoral de Navy Pier au Loop est visible. Venez pour les 30 dernières minutes de jour et restez tandis que les tours s'illuminent. Le planétarium lui-même présente des spectacles du ciel nocturne certains soirs ; vérifiez le programme à l'avance.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Soldier Field",
+          "wikidata_qid": "Q327333",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Soldier_Field",
+          "coordinates": {
+            "lat": 41.8623,
+            "lon": -87.6167
+          },
+          "neighborhood": "Near South Side",
+          "duration_minutes": 30,
+          "type": "stadium",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Le stade à colonnade néoclassique de 1924, domicile des Chicago Bears, avec un ajout intérieur controversé de verre et d'acier de 2003 inséré à l'intérieur des colonnes originales. Promenez-vous le long de la colonnade extérieure pour voir le contraste - la juxtaposition du Greek Revival et du verre industriel du 21ème siècle est soit brillante soit désastreuse selon qui vous demandez. L'extérieur est accessible au public.",
+          "walk_from_main_route": {
+            "from": "The Field Museum",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Burnham Park lakefront path",
+          "wikidata_qid": "Q4999775",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Burnham_Park_(Chicago)",
+          "coordinates": {
+            "lat": 41.855,
+            "lon": -87.612
+          },
+          "neighborhood": "Near South Side",
+          "duration_minutes": 40,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Le sentier continu du bord du lac au sud du Museum Campus traverse Burnham Park le long de la rive ouverte du lac Michigan. Par temps clair, l'eau apparaît d'un bleu profond et l'horizon disparaît - un rappel que Chicago se trouve sur une mer intérieure. Le sentier est partagé avec les cyclistes, donc marchez dans la voie piétonne.",
+          "walk_from_main_route": {
+            "from": "Adler Planetarium",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "River North et le Magnificent Mile",
+      "cluster_tagline": "Le corridor commercial et culturel - galeries, tours emblématiques, et les ponts de la Chicago River",
+      "neighborhood_focus": "River North / Magnificent Mile",
+      "neighborhood_description": "River North, immédiatement au nord de la Chicago River, est le quartier de galeries le plus dense de la ville et abrite plusieurs tours emblématiques du milieu du siècle et de l'après-guerre. Michigan Avenue au nord de la rivière - le Magnificent Mile - est le corridor commercial et hôtelier bordé de quelques-unes des architectures les plus reconnaissables de Chicago, de la Tribune Tower au Hancock Center.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Tribune Tower and the Michigan Avenue Bridge",
+        "wikidata_qid": "Q608608",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tribune_Tower",
+        "coordinates": {
+          "lat": 41.8901,
+          "lon": -87.6244
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Cette tour Gothic Revival de 1925 fut remportée par Howells et Hood dans un concours international qui attira 263 candidatures et définit l'esthétique des gratte-ciel américains pendant une décennie. Parcourez lentement la base - les journalistes du Tribune ont intégré des fragments de bâtiments célèbres dans la façade inférieure, notamment des morceaux du Parthénon, du Taj Mahal, de Westminster Abbey, et du mur de Berlin, tous étiquetés avec de petites plaques. Le bâtiment est maintenant converti en condominiums mais les fragments au niveau du hall sont visibles publiquement depuis le trottoir.",
+        "walk_to_next": {
+          "to": "Marina City",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Marina City",
+        "wikidata_qid": "Q852392",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marina_City",
+        "coordinates": {
+          "lat": 41.8872,
+          "lon": -87.6284
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Les tours en épi de maïs de 1964 de Bertrand Goldberg sont les bâtiments les plus formellement originaux de Chicago - des cylindres de 65 étages avec un parking à ciel ouvert en spirale sur les 19 premiers étages visible de l'extérieur. Marchez jusqu'au niveau de la rivière entre les tours pour voir les planchers en béton radiaux d'en bas, angle qui explique le système structural. La House of Blues occupe la base ; le complexe fut conçu comme une ville autonome dans la ville incluant un bowling, une salle de sport, et une marina.",
+        "walk_to_next": {
+          "to": "360 Chicago Observation Deck (John Hancock Center)",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "360 Chicago Observation Deck",
+        "wikidata_qid": "Q765083",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/875_North_Michigan_Avenue",
+        "coordinates": {
+          "lat": 41.8988,
+          "lon": -87.6236
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "La terrasse d'observation du 94e étage est préférable au Skydeck de la Willis Tower pour s'orienter dans la ville car elle fait face au sud, plaçant tout le Loop et le bord du lac dans un même cadre au coucher du soleil. Achetez le billet à heure fixe en ligne pour éviter la queue de l'ascenseur. L'attraction TILT - une fenêtre qui s'incline vers l'extérieur à 30 degrés au-dessus de Michigan Avenue - est optionnelle et coûte un supplément mais la terrasse standard offre la vue essentielle. Les jours clairs permettent de voir quatre États.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Wrigley Building",
+          "wikidata_qid": "Q1264470",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wrigley_Building",
+          "coordinates": {
+            "lat": 41.8893,
+            "lon": -87.6245
+          },
+          "neighborhood": "Magnificent Mile",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "Cette tour de terre cuite de 1924 revêtue de brique vernissée blanche graduée qui devient progressivement plus claire vers le sommet. Le bâtiment est illuminé la nuit et la façade blanche se reflète sur la Chicago River - vue depuis le Michigan Avenue Bridge après la tombée de la nuit, c'est l'une des pièces d'architecture les plus délibérément théâtrales de la ville. La place entre les tours nord et sud est accessible au public.",
+          "walk_from_main_route": {
+            "from": "Tribune Tower",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Merchandise Mart",
+          "wikidata_qid": "Q1386718",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Merchandise_Mart",
+          "coordinates": {
+            "lat": 41.8885,
+            "lon": -87.6357
+          },
+          "neighborhood": "River North",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Ce bâtiment Art déco de 1930 occupe deux pâtés de maisons complets le long de la rivière - à son ouverture, il s'agissait du plus grand bâtiment au monde par superficie au sol. Les bustes en bronze de huit marchands sur la façade côté rivière (le Merchandise Mart Hall of Fame, incluant Marshall Field et F.W. Woolworth) constituent un élément excentrique de la mythologie commerciale américaine. Le hall d'entrée et les étages inférieurs sont accessibles au public pendant les heures d'ouverture.",
+          "walk_from_main_route": {
+            "from": "Marina City",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Lincoln Park et Old Town",
+      "cluster_tagline": "L'épine dorsale verte du côté nord - zoo gratuit, paysages urbains victoriens et sentier du bord du lac",
+      "neighborhood_focus": "Lincoln Park / Old Town",
+      "neighborhood_description": "Lincoln Park est le plus grand parc public de Chicago, s'étendant sur 7 miles le long du lac au nord du Near North Side. Old Town, immédiatement à l'ouest, conserve la plus forte concentration de cottages de l'époque victorienne et de logements ouvriers qui ont survécu à l'incendie de 1871. Ensemble, ils forment le corridor résidentiel le plus vivable et le plus riche historiquement de la ville.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 4600,
+      "day_walking_minutes": 58,
+      "morning": {
+        "activity_title": "Lincoln Park Zoo",
+        "wikidata_qid": "Q168571",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lincoln_Park_Zoo",
+        "coordinates": {
+          "lat": 41.9217,
+          "lon": -87.6336
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "L'un des derniers zoos gratuits des États-Unis - pas de frais d'entrée, pas de réservation requise. La maison des grands singes, avec son programme d'enrichissement comportemental, attire les visiteurs pour la plus longue durée. Le zoo ouvre à 10h mais le parc qui l'entoure est accessible dès l'aube, et le sentier du bord du lac qui traverse le parc à 7h du matin, avant l'arrivée des joggeurs, offre l'une des expériences urbaines les plus paisibles de Chicago. La Farm-in-the-Zoo à l'extrémité sud est étonnamment captivante pour les adultes - une véritable ferme de démonstration en activité au cœur d'une grande ville.",
+        "walk_to_next": {
+          "to": "Lincoln Park Conservatory",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Lincoln Park Conservatory",
+        "wikidata_qid": "Q6553714",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lincoln_Park_Conservatory",
+        "coordinates": {
+          "lat": 41.9231,
+          "lon": -87.6352
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "garden",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Ce conservatoire victorien en verre de 1895 est gratuit et presque jamais bondé. La Palm House abrite un palmier éventail Guadalupe de 50 pieds qui pousse dans le même pot depuis 1893. Par temps froid ou venteux, l'humidité tropicale à l'intérieur procure une véritable remise à zéro sensorielle. Quatre serres connectées - Palm, Fern, Orchid et Show - peuvent être visitées en 30 minutes ou sur une heure complète.",
+        "walk_to_next": {
+          "to": "Old Town Triangle Historic District",
+          "distance_meters": 1600,
+          "walking_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Old Town Triangle and Wells Street",
+        "wikidata_qid": "Q6038555",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Town,_Chicago",
+        "coordinates": {
+          "lat": 41.9101,
+          "lon": -87.6364
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le Old Town Triangle District contient la plus grande collection de cottages ouvriers d'avant l'incendie et d'immédiatement après l'incendie de Chicago, ainsi que de logements ouvriers construits par les églises, que l'on peut admirer sur Crilly Court, Menomonee Street et Eugene Street. Wells Street de North Avenue à Division Street est l'épine dorsale commerciale du quartier - le club de comédie Second City au 1616 N. Wells a formé plus d'humoristes américains que tout autre lieu ; des billets le jour même pour le spectacle tardif sont souvent disponibles à la billetterie.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Peggy Notebaert Nature Museum",
+          "wikidata_qid": "Q7162058",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Peggy_Notebaert_Nature_Museum",
+          "coordinates": {
+            "lat": 41.9268,
+            "lon": -87.6372
+          },
+          "neighborhood": "Lincoln Park",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Le sanctuaire des papillons - une enceinte de verre de 2 700 pieds carrés avec 75 espèces de papillons en vol libre - est l'exposition phare. Le musée est suffisamment petit pour être visité en 60 à 90 minutes et rarement surpeuplé. Idéal pour une matinée nuageuse avant le zoo.",
+          "walk_from_main_route": {
+            "from": "Lincoln Park Zoo",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "North Avenue Beach",
+          "wikidata_qid": "Q6016131",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/North_Avenue_Beach",
+          "coordinates": {
+            "lat": 41.9099,
+            "lon": -87.6352
+          },
+          "neighborhood": "Lincoln Park",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "La plage la plus urbaine du Midwest - une plage de sable blanc au bord du lac au pied des gratte-ciel, avec le pavillon de plage en forme de bateau à vapeur (1939) qui sert de buvette et de vestiaires. En été, les filets de volley-ball et la location de kayaks donnent l'impression d'être dans une station balnéaire. Au printemps et en automne, elle est presque déserte et la vue sur la ville depuis le bord de l'eau est exceptionnelle.",
+          "walk_from_main_route": {
+            "from": "Lincoln Park Conservatory",
+            "distance_meters": 1000,
+            "walking_minutes": 13
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Hyde Park et l'University of Chicago",
+      "cluster_tagline": "Le côté sud intellectuel - campus gothique, racines d'Obama, et le dernier grand parc de Burnham",
+      "neighborhood_focus": "Hyde Park / Woodlawn",
+      "neighborhood_description": "Hyde Park est le quartier le plus autonome de Chicago, construit comme une banlieue indépendante et annexé en 1889, puis façonné par l'University of Chicago en une enclave académique gothique au bord du lac. Robie House, le Museum of Science and Industry, et Jackson Park - le dernier grand projet d'Olmsted construit pour la World's Columbian Exposition de 1893 - forment un triangle culturel de 2 miles.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Museum of Science and Industry",
+        "wikidata_qid": "Q2519736",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_Science_and_Industry_(Chicago)",
+        "coordinates": {
+          "lat": 41.7906,
+          "lon": -87.5831
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Installé dans le bâtiment des Beaux-Arts de la World's Columbian Exposition de 1893 - la seule structure majeure de l'exposition à avoir survécu. Le sous-marin allemand U-505 capturé (le seul U-boot aux États-Unis) est l'exposition phare, accessible uniquement par visite guidée programmée qu'il faut réserver au guichet à l'arrivée. La reconstitution de la mine de charbon et la simulation d'orage dans la galerie météorologique sont invariablement les galeries les plus populaires auprès du grand public. Arrivez à l'ouverture pour réserver un créneau de visite de l'U-505 avant qu'ils ne soient complets.",
+        "walk_to_next": {
+          "to": "Jackson Park",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Jackson Park and the Wooded Island",
+        "wikidata_qid": "Q1648041",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jackson_Park,_Chicago",
+        "coordinates": {
+          "lat": 41.7897,
+          "lon": -87.5803
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Frederick Law Olmsted a conçu Jackson Park pour la Columbian Exposition de 1893 et son système de lagunes et Wooded Island comptent parmi les exemples les plus méconnus de son œuvre. La Wooded Island au centre de la lagune sud est un sanctuaire d'oiseaux désigné avec pratiquement aucun passage piéton - les espèces migratrices s'y concentrent au printemps et en automne. La réplique du pavillon japonais Ho-o-den sur l'île (construit pour l'exposition de 1893 et la seule structure de ce type subsistant de l'exposition) a directement influencé les premiers travaux Prairie Style de Frank Lloyd Wright.",
+        "walk_to_next": {
+          "to": "Robie House",
+          "distance_meters": 1600,
+          "walking_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Robie House",
+        "wikidata_qid": "Q900474",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Robie_House",
+        "coordinates": {
+          "lat": 41.7893,
+          "lon": -87.5999
+        },
+        "unesco_designation": {
+          "site_name": "The 20th-Century Architecture of Frank Lloyd Wright",
+          "year_inscribed": 2019,
+          "reference_number": 1496,
+          "url": "https://whc.unesco.org/en/list/1496"
+        },
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Le chef-d'œuvre Prairie Style de 1910 à l'angle de Woodlawn et 57th Street est l'œuvre architecturalement la plus aboutie de Frank Lloyd Wright. Les visites sont payantes et vont du rez-de-chaussée aux salons et salles à manger en porte-à-faux avec leurs verrières artistiques - 174 panneaux de verre artistique individuels dont les motifs géométriques évoluent avec la lumière au fil de la journée. Réservez la visite approfondie plutôt que la visite standard ; les 30 minutes supplémentaires incluent le niveau des chambres à l'étage, qui montre comment Wright a intégré la ligne de toit horizontale aux quartiers de nuit. Le Frank Lloyd Wright Trust organise les visites ; réservez via leur site web.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "University of Chicago Quadrangles",
+          "wikidata_qid": "Q131252",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Chicago",
+          "coordinates": {
+            "lat": 41.7886,
+            "lon": -87.5987
+          },
+          "neighborhood": "Hyde Park",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Les cours principales sont accessibles au public et les bâtiments Collegiate Gothic des années 1890 par Henry Ives Cobb comptent parmi l'architecture néo-gothique la plus convaincante d'Amérique - Cobb a étudié directement Oxford et Cambridge avant de les concevoir. La sculpture Nuclear Energy d'Henry Moore sur le parking à 57th et Ellis marque l'endroit sous les courts de squash où l'équipe d'Enrico Fermi a réalisé la première réaction nuc",
+          "walk_from_main_route": {
+            "from": "Robie House",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Oriental Institute Museum",
+          "wikidata_qid": "Q1025625",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Oriental_Institute_(Chicago)",
+          "coordinates": {
+            "lat": 41.7927,
+            "lon": -87.5996
+          },
+          "neighborhood": "Hyde Park",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Le musée de recherche sur le Proche-Orient ancien de l'University of Chicago, à l'entrée gratuite. Le taureau ailé à tête humaine (lamassu) de 16 pieds de la galerie assyrienne, provenant du palais de Sargon II à Khorsabad, fut excavé par l'institut dans les années 1920 et constitue l'une des sculptures assyriennes les plus grandes et les mieux préservées en dehors de l'Iraq. La statue de 17 pieds du roi King Tut dans la galerie égyptienne est la plus grande statue égyptienne antique de l'hémisphère occidental. Ce musée est véritablement sous-fréquenté par rapport à la qualité de sa collection.",
+          "walk_from_main_route": {
+            "from": "Robie House",
+            "distance_meters": 550,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    }
+  ]
+}

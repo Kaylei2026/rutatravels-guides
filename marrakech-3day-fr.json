@@ -1,0 +1,306 @@
+{
+  "destination": "Marrakech",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T13:12:30.324Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Medina - Jemaa el-Fna and the souks",
+    "Medina - Mouassine and the northern riads",
+    "Ville Nouvelle and Menara gardens"
+  ],
+  "guide_description": "Trois jours pour découvrir les strates essentielles de Marrakech : la place principale théâtrale et ses souks labyrinthiques, la médina nord plus tranquille avec ses mosquées et palais, et la ville nouvelle coloniale française avec ses jardins et sa culture muséale. Chaque journée forme un ensemble géographique cohérent à parcourir à pied.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 8200,
+  "total_walking_minutes": 103,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Jemaa el-Fna et les Souks",
+      "cluster_tagline": "Le théâtre vivant de la médina - charmeurs de serpents, montagnes d'épices et ruelles marchandes médiévales",
+      "neighborhood_focus": "Medina - Jemaa el-Fna and the souks",
+      "neighborhood_description": "La médina sud s'organise autour de Jemaa el-Fna, cette grande place que l'UNESCO a reconnue non pas comme un bâtiment mais comme un espace culturel immatériel. Au nord de la place, les souks s'étalent en ruelles spécialisées - teinturiers, tanneurs, selliers, dinandiers - suivant une géographie commerciale médiévale qui n'a pratiquement pas bougé en cinq siècles.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "Jemaa el-Fna",
+        "wikidata_qid": "Q192995",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jemaa_el-Fna",
+        "coordinates": {
+          "lat": 31.6258,
+          "lon": -7.9892
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "La place se lit complètement différemment selon l'heure. Le matin offre le moment le plus calme - les stands de jus s'installent, quelques conteurs s'échauffent, et les montagnes de l'Atlas sont visibles au sud avant que la brume de chaleur ne s'installe. Évitez les marchands de jus d'orange les plus proches de la fontaine centrale ; les étals du côté ouest vous servent le jus au même prix avec un démarchage moins agressif. L'inscription UNESCO de la place concerne le patrimoine oral, pas l'architecture - elle est protégée comme pratique culturelle vivante.",
+        "walk_to_next": {
+          "to": "Koutoubia Mosque",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Koutoubia Mosque and gardens",
+        "wikidata_qid": "Q392966",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Koutoubia_Mosque",
+        "coordinates": {
+          "lat": 31.6241,
+          "lon": -7.9938
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Les non-musulmans ne peuvent pas pénétrer dans la mosquée mais les jardins environnants sont ouverts et offrent la meilleure vue extérieure sur le minaret de 70 mètres, qui a servi de modèle à la Giralda de Séville et à la Tour Hassan de Rabat. Le sentier du jardin côté nord, parallèle à l'Avenue Mohammed V, donne une ligne de mire dégagée sur toute la façade du minaret sans que les groupes de touristes obstruent le premier plan.",
+        "walk_to_next": {
+          "to": "Souk Semmarine",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Jemaa el-Fna at dusk",
+        "wikidata_qid": "Q192995",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jemaa_el-Fna",
+        "coordinates": {
+          "lat": 31.6258,
+          "lon": -7.9892
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Une heure environ avant le coucher du soleil, la place se métamorphose - les grils des stands alimentaires s'allument, les musiciens Gnawa arrivent avec leurs castagnettes métalliques et leurs luths guembri à trois cordes, et la densité de foule triple. Observez cette transition depuis l'une des terrasses de café sur le toit du côté nord de la place - le Cafe de France et le Cafe Glacier offrent tous deux ce point de vue sans être particulièrement meilleurs l'un que l'autre. Sur la place même, restez sur l'anneau extérieur près des stands alimentaires où il est possible de circuler plutôt que dans la mêlée centrale des artistes.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Souk des Teinturiers (Dyers' Quarter)",
+          "wikidata_qid": "Q3483333",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Souk_Semmarine",
+          "coordinates": {
+            "lat": 31.6312,
+            "lon": -7.9872
+          },
+          "neighborhood": "Medina souks",
+          "duration_minutes": 30,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Le souk des teinturiers se trouve au bout de la Rue Mouassine et connaît le plus d'activité avant midi quand les écheveaux de laine teinte sont suspendus pour sécher dans les couleurs primaires à travers l'étroite ruelle. C'est un quartier de travail, pas une exposition de musée - aucun achat n'est requis et les ouvriers sont habitués aux observateurs. La lumière matinale tombe directement dans la ruelle entre 9h et 11h environ.",
+          "walk_from_main_route": {
+            "from": "Jemaa el-Fna",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        },
+        {
+          "activity_title": "Le Jardin Secret",
+          "wikidata_qid": "Q28742317",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Le_Jardin_Secret",
+          "coordinates": {
+            "lat": 31.6328,
+            "lon": -7.9882
+          },
+          "neighborhood": "Medina - Mouassine",
+          "duration_minutes": 45,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Un jardin islamique restauré du XVIe siècle à l'intérieur d'un riad historique du quartier Mouassine - divisé en jardin exotique et jardin islamique avec un canal d'irrigation central. La tour à l'arrière offre l'une des rares vues légales sur les toits de la médina depuis une terrasse sans avoir à acheter un repas. Prix d'entrée modique, rarement bondé avant 10h.",
+          "walk_from_main_route": {
+            "from": "Jemaa el-Fna",
+            "distance_meters": 780,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "La Médina Nord - Palais et Medersa",
+      "cluster_tagline": "Zelliges, plafonds en cèdre et architecture saadienne dans la haute médina plus tranquille",
+      "neighborhood_focus": "Medina - Mouassine and the northern riads",
+      "neighborhood_description": "La médina nord et centrale au-dessus des souks, où se concentrent les monuments de l'époque saadienne et mérinide. La Medersa Ben Youssef, le Musée de Marrakech et les ruelles étroites du quartier Mouassine se trouvent à dix minutes de marche les uns des autres - et la foule se fait nettement moins dense dès que l'on se dirige au nord du Souk el-Kebir.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Ben Youssef Madrasa",
+        "wikidata_qid": "Q698633",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Youssef_Madrasa",
+        "coordinates": {
+          "lat": 31.6338,
+          "lon": -7.9867
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "École coranique du XIVe siècle reconstruite par les Saadiens en 1565, capable de loger 900 étudiants dans les cellules qui entourent la cour centrale. La cour elle-même constitue le chef-d'œuvre architectural - trois registres de décoration superposés verticalement, depuis les mosaïques de zelliges complexes au niveau du sol, en passant par les arabesques en stuc sculpté au milieu, jusqu'aux treillis de mouqarnas en cèdre au sommet. Arrivez avant 9h30 pour photographier la cour sans le débordement des groupes de touristes depuis le corridor central.",
+        "walk_to_next": {
+          "to": "Musee de Marrakech",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Musee de Marrakech",
+        "wikidata_qid": "Q3329561",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marrakech_Museum",
+        "coordinates": {
+          "lat": 31.6334,
+          "lon": -7.9862
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Abrité dans le Palais Mnebhi du XIXe siècle, la collection d'arts et artisanats marocains du musée passe au second plan face à l'architecture elle-même - en particulier le dôme du hammam central converti en grand hall à lustres, avec une massive lampe en laiton suspendue au-dessus du sol dallé de marbre. Le billet combiné avec la Medersa Ben Youssef et la Koubba Ba'adiyn permet d'économiser et les trois sites sont adjacents. La Koubba, pavillon almoravide isolé du XIIe siècle qui a survécu, est le monument le plus ancien de Marrakech et souvent négligé.",
+        "walk_to_next": {
+          "to": "Bahia Palace",
+          "distance_meters": 1300,
+          "walking_minutes": 16
+        }
+      },
+      "evening": {
+        "activity_title": "Bahia Palace",
+        "wikidata_qid": "Q740921",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bahia_Palace",
+        "coordinates": {
+          "lat": 31.6219,
+          "lon": -7.9819
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Construit dans les années 1890 pour Si Moussa et son fils Ba Ahmed, grands vizirs du sultan - le nom signifie 'éclat'. Le palais compte 160 pièces organisées autour de huit cours, dont une douzaine environ sont ouvertes. La grande cour du riad avec son plafond peint en cèdre constitue la pièce maîtresse, mais la plus petite cour du harem au sud, généralement moins bondée, présente de meilleurs zelliges au niveau du sol. Sortez par la Rue Riad Zitoun el-Jdid et marchez vers le nord en direction de la médina plutôt que de refaire le même chemin.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Saadian Tombs",
+          "wikidata_qid": "Q1418022",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Saadian_Tombs",
+          "coordinates": {
+            "lat": 31.6183,
+            "lon": -7.9886
+          },
+          "neighborhood": "Medina - Kasbah",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Le mausolée de la dynastie saadienne, scellé par le sultan alaouite Moulay Ismail au XVIIe siècle et redécouvert seulement en 1917 - ce qui explique pourquoi les zelliges et le stuc sculpté sont dans un état remarquable compte tenu de leur âge. Le site est petit et le corridor d'entrée étroit ; les files d'attente se forment après 10h. La Chambre des Douze Colonnes est l'intérieur à rechercher, mais ne manquez pas le jardin extérieur des tombes mineures derrière, qui sont plus atmosphériques et moins visitées.",
+          "walk_from_main_route": {
+            "from": "Bahia Palace",
+            "distance_meters": 900,
+            "walking_minutes": 11
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Ville Nouvelle et Menara",
+      "cluster_tagline": "Modernisme colonial français, oliveraies et héritage d'Yves Saint Laurent",
+      "neighborhood_focus": "Ville Nouvelle and Menara gardens",
+      "neighborhood_description": "La ville nouvelle planifiée par les Français construite à partir de 1913 à l'extérieur des remparts de la médina, avec de larges boulevards bordés d'arbres, des façades art déco et un rythme urbain très différent du labyrinthe médiéval. Les jardins Menara et Majorelle ancrent respectivement les extrémités ouest et nord, et le Musée Yves Saint Laurent se trouve adjacent au Majorelle.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Jardin Majorelle",
+        "wikidata_qid": "Q1451294",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Majorelle_Garden",
+        "coordinates": {
+          "lat": 31.6414,
+          "lon": -8.0032
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Conçu par le peintre français Jacques Majorelle à partir de 1923 puis acquis par Yves Saint Laurent, qui l'a restauré après l'avoir acheté en 1980 pour le sauver d'un projet hôtelier. Le bleu cobalt caractéristique - le Bleu Majorelle, une couleur qu'il a fait breveter - recouvre le bâtiment de l'atelier et les pots contre lesquels la collection de plantes grasses est disposée. Réservez des billets à horaires fixes en ligne la veille ; les visiteurs sans réservation sont refoulés après 9h30 la plupart des matins. Le Musée berbère à l'intérieur de l'atelier est inclus dans le billet et sa collection de bijoux, textiles et instruments de musique du sud marocain est véritablement excellente.",
+        "walk_to_next": {
+          "to": "Musee Yves Saint Laurent Marrakech",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Musee Yves Saint Laurent Marrakech",
+        "wikidata_qid": "Q39055835",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Yves_Saint_Laurent_Marrakech",
+        "coordinates": {
+          "lat": 31.6409,
+          "lon": -8.0019
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Ouvert en 2017 dans un bâtiment de Studio KO - des écrans brise-soleil en terre cuite inspirés des moucharabiehs marocains sur une structure contemporaine rigoureuse. La galerie permanente retrace la relation de Saint Laurent avec le Maroc depuis sa première visite en 1966 à travers sa carrière, avec des présentations de haute couture en rotation et des salles audiovisuelles. Le programme d'expositions temporaires est constamment remarquable. La salle de lecture intérieure du bâtiment, avec sa collection de livres de mode et d'art, est ouverte aux visiteurs et constitue l'une des salles les plus silencieuses de Marrakech.",
+        "walk_to_next": {
+          "to": "Menara Gardens",
+          "distance_meters": 2500,
+          "walking_minutes": 31
+        }
+      },
+      "evening": {
+        "activity_title": "Menara Gardens and pavilion at sunset",
+        "wikidata_qid": "Q1386691",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Menara_Gardens",
+        "coordinates": {
+          "lat": 31.6133,
+          "lon": -8.0228
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Une oliveraie almohade du 12ème siècle d'environ 100 hectares entourant un grand bassin alimenté par un canal d'irrigation khettara souterrain depuis les montagnes de l'Atlas. Le pavillon saadien aux tuiles vertes se reflète dans l'eau immobile avec les pics de l'Atlas derrière lui par après-midi clairs - c'est l'image de carte postale de Marrakech qui n'est pas Jemaa el-Fna. Arrivez une heure avant le coucher du soleil quand la lumière éclaire directement les montagnes. Le jardin lui-même est gratuit ; l'intérieur du pavillon coûte une petite somme et la vue intérieure est peu remarquable comparée au reflet extérieur.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "El Badi Palace ruins",
+          "wikidata_qid": "Q1292511",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/El_Badi_Palace",
+          "coordinates": {
+            "lat": 31.6193,
+            "lon": -7.9856
+          },
+          "neighborhood": "Medina - Kasbah",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Le palais saadien du 16ème siècle, dépouillé par Moulay Ismail qui a passé 12 ans à le démanteler pour meubler sa nouvelle capitale à Meknes. Ce qui reste est une vaste cour en contrebas, des bassins et les murs où nichent les cigognes de ce qui fut décrit par un ambassadeur portugais comme l'un des plus beaux palais du monde. L'échelle reste lisible - parcourez les remparts du périmètre pour avoir la meilleure impression des proportions originales. Un minbar de la Mosquée Koutoubia est exposé dans un pavillon ici, préservé depuis le 12ème siècle.",
+          "walk_from_main_route": {
+            "from": "Bahia Palace",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    }
+  ]
+}

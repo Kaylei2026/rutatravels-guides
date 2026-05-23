@@ -1,0 +1,782 @@
+{
+  "destination": "New York",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:48:53.210Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Lower Manhattan / Financial District",
+    "Brooklyn Bridge / DUMBO / Brooklyn Heights",
+    "Midtown / Fifth Avenue",
+    "Museum Mile / Central Park",
+    "Greenwich Village / SoHo",
+    "Harlem / Morningside Heights",
+    "The High Line / Chelsea / Meatpacking"
+  ],
+  "guide_description": "Sept jours pour construire une vision cohérente de New York du sud de Manhattan vers le nord et au-delà de l'East River : le cœur financier colonial, le front de mer de Brooklyn, le canyon de Midtown, le corridor culturel de l'Upper East Side, le sud bohème, la capitale culturelle afro-américaine de Harlem, et la rive ouest transformée de l'industrie vers l'art. Chaque journée est géographiquement autonome.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 27950,
+  "total_walking_minutes": 350,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Lower Manhattan et le Financial District",
+      "cluster_tagline": "Là où New York a commencé - rues coloniales, un mémorial, et le bord du port",
+      "neighborhood_focus": "Lower Manhattan / Financial District",
+      "neighborhood_description": "La pointe originale de l'île de Manhattan, colonisée par les Hollandais sous le nom de New Amsterdam en 1624. Le plan des rues ici est pré-révolutionnaire et irrégulier, contrairement au reste de Manhattan. Wall Street, la première bourse, Trinity Church, et le 9/11 Memorial occupent quelques pâtés de maisons denses où quatre siècles d'histoire commerciale américaine se superposent.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3900,
+      "day_walking_minutes": 49,
+      "morning": {
+        "activity_title": "9/11 Memorial and Museum",
+        "wikidata_qid": "Q2516866",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_September_11_Memorial_%26_Museum",
+        "coordinates": {
+          "lat": 40.7115,
+          "lon": -74.0134
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Réservez les billets du musée en ligne avant votre arrivée - l'entrée sans réservation est possible mais les files d'attente sont longues dès le milieu de matinée. Les deux bassins de réflexion installés dans l'empreinte des Twin Towers constituent le mémorial ; le musée descend sept étages sous terre jusqu'au substrat rocheux originel. L'exposition la plus bouleversante présente les appels téléphoniques et messages vocaux enregistrés laissés par les passagers et employés de bureau le matin du 11 septembre 2001 - prévoyez plus de temps que vous ne le pensez nécessaire.",
+        "walk_to_next": {
+          "to": "Trinity Church",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Trinity Church and Wall Street",
+        "wikidata_qid": "Q1546910",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Trinity_Church,_Manhattan",
+        "coordinates": {
+          "lat": 40.7081,
+          "lon": -74.0134
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "L'église Gothic Revival de 1846 au bout de Wall Street, sur un site qui abrite une église depuis 1698. Alexander Hamilton est enterré dans le cimetière directement derrière le bâtiment, avec Robert Fulton et d'autres fondateurs. Le cimetière est l'un des plus anciens espaces verts survivants de Manhattan et les pierres tombales sont lisibles et historiquement riches. L'entrée à l'intérieur est gratuite.",
+        "walk_to_next": {
+          "to": "Battery Park and Statue of Liberty ferry",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Battery Park and the harbor view",
+        "wikidata_qid": "Q654095",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Battery_Park",
+        "coordinates": {
+          "lat": 40.7034,
+          "lon": -74.0171
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Le parc de 25 acres à la pointe sud de Manhattan, face au port et à la Statue of Liberty. Le Staten Island Ferry gratuit part du Whitehall Terminal deux pâtés de maisons à l'est et passe à moins d'un quart de mile de Liberty Island - la meilleure vue gratuite de la statue, particulièrement à l'heure dorée quand le cuivre orienté ouest devient lumineux. Castle Clinton dans le parc, une fortification de 1811 qui a survécu comme salle de concert et aquarium, mérite un passage rapide.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Charging Bull and Fearless Girl",
+          "wikidata_qid": "Q1064457",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Charging_Bull",
+          "coordinates": {
+            "lat": 40.7057,
+            "lon": -74.0134
+          },
+          "neighborhood": "Financial District",
+          "duration_minutes": 20,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Le bronze d'Arturo Di Modica de 1989, installé illégalement devant le Stock Exchange puis relocalisé un pâté de maisons au sud à Bowling Green. Fearless Girl fait maintenant face au taureau depuis le nord. Visitez tôt - dès 10h la zone grouille de groupes de touristes et obtenir une photo sans foule demande de la patience ou un grand angle.",
+          "walk_from_main_route": {
+            "from": "Trinity Church",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "South Street Seaport and Pier 17",
+          "wikidata_qid": "Q3490661",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/South_Street_Seaport",
+          "coordinates": {
+            "lat": 40.7069,
+            "lon": -74.003
+          },
+          "neighborhood": "South Street Seaport",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Le quartier marchand du XIXe siècle sur l'East River, avec les blocs pavés d'origine de Fulton Street et Schermerhorn Row (entrepôts de style fédéral de 1811) largement préservés. Le toit de Pier 17 offre une vue dégagée sur le Brooklyn Bridge depuis le côté sud - l'angle que la plupart des gens ne prennent jamais la peine de trouver.",
+          "walk_from_main_route": {
+            "from": "Trinity Church",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Brooklyn Bridge, DUMBO, et Brooklyn Heights",
+      "cluster_tagline": "Le passage industriel-romantique de l'East River et les quartiers à l'architecture la mieux préservée de Brooklyn",
+      "neighborhood_focus": "Brooklyn Bridge / DUMBO / Brooklyn Heights",
+      "neighborhood_description": "Le Brooklyn Bridge relie Lower Manhattan à DUMBO (Down Under the Manhattan Bridge Overpass), un ancien district industriel du front de mer avec des rues pavées et d'anciens entrepôts reconvertis. Une courte montée vers le sud mène à Brooklyn Heights, l'un des quartiers résidentiels du XIXe siècle les mieux préservés du pays, avec une célèbre Promenade qui surplombe tout le panorama de Manhattan.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 4550,
+      "day_walking_minutes": 57,
+      "morning": {
+        "activity_title": "Brooklyn Bridge",
+        "wikidata_qid": "Q18748",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+        "coordinates": {
+          "lat": 40.7061,
+          "lon": -73.9969
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Marchez depuis le côté Manhattan (entrée sur Centre Street près de City Hall) vers Brooklyn, ainsi vous faites face à la vue du panorama de Brooklyn avec les tours de Manhattan derrière vous. La passerelle piétonne et cyclable en bois est surélevée au-dessus des voies de circulation. Traversez tôt - vers 10h le passage piéton est bondé et les conflits avec la piste cyclable deviennent frustrants. Les tours en granit sont les plus anciennes tours de suspension à câbles d'acier structurel au monde.",
+        "walk_to_next": {
+          "to": "DUMBO waterfront",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "DUMBO and the Brooklyn Bridge Park",
+        "wikidata_qid": "Q1054380",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge_Park",
+        "coordinates": {
+          "lat": 40.7026,
+          "lon": -73.9969
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Le parc linéaire de 85 acres le long du front de mer de Brooklyn, construit sur d'anciens quais de transport maritime. La vue depuis Pier 1 vers le nord-ouest cadre ensemble le Brooklyn Bridge et le panorama du lower Manhattan - la même composition que la carte postale classique de New York. Marchez deux blocs à l'intérieur des terres sur Washington Street entre le Manhattan et le Brooklyn Bridges pour trouver l'ouverture où les deux ponts sont visibles simultanément, encadrés par les entrepôts en brique du XIXe siècle de chaque côté.",
+        "walk_to_next": {
+          "to": "Brooklyn Heights Promenade",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Brooklyn Heights Promenade",
+        "wikidata_qid": "Q1064061",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Heights_Promenade",
+        "coordinates": {
+          "lat": 40.698,
+          "lon": -73.9997
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Une passerelle en porte-à-faux d'un demi-mile au-dessus de l'autoroute BQE, avec un panorama ininterrompu face à l'ouest sur tout le panorama du lower Manhattan, le port, et la Statue of Liberty. Le coucher de soleil d'ici est l'une des vues emblématiques de New York - les tours du Financial District captent les derniers rayons tandis que l'eau devient argentée. Après le coucher de soleil, revenez à travers Brooklyn Heights par Columbia Heights et Willow Street pour voir les maisons mitoyennes de style fédéral et Greek Revival les mieux préservées de l'arrondissement.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "New York Transit Museum",
+          "wikidata_qid": "Q1750262",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_Transit_Museum",
+          "coordinates": {
+            "lat": 40.6886,
+            "lon": -73.99
+          },
+          "neighborhood": "Downtown Brooklyn",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Construit à l'intérieur d'une station de métro IND de 1936 désaffectée dans Downtown Brooklyn. Le niveau inférieur abrite une flotte de rames de métro d'origine de toutes les époques remontant à 1904 - les intérieurs sont accessibles et exactement comme ils étaient en service. La seule collection de tourniquets couvre 100 ans de contre-mesures à la fraude tarifaire. À dix minutes de marche au sud de DUMBO.",
+          "walk_from_main_route": {
+            "from": "DUMBO waterfront",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        },
+        {
+          "activity_title": "Jane's Carousel",
+          "wikidata_qid": "Q6153352",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jane%27s_Carousel",
+          "coordinates": {
+            "lat": 40.7026,
+            "lon": -73.9966
+          },
+          "neighborhood": "DUMBO",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un carrousel de 1922 sauvé d'un parc d'attractions défunt de l'Ohio et restauré sur 30 ans, maintenant abrité dans un pavillon de verre de Jean Nouvel sur le front de mer de Brooklyn. Il fonctionne toute l'année et coûte trois dollars le tour. La nuit, le pavillon éclairé se reflétant dans l'East River offre l'un des spectacles les plus inattendus et magnifiques de la ville.",
+          "walk_from_main_route": {
+            "from": "DUMBO waterfront",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Midtown et Fifth Avenue",
+      "cluster_tagline": "Le canyon au centre - Grand Central, le Chrysler Building, et la grille urbaine du panorama de midtown",
+      "neighborhood_focus": "Midtown East / Fifth Avenue",
+      "neighborhood_description": "Le cœur commercial de Manhattan entre la 42nd et la 57th Street, où la grille des gratte-ciel est la plus dense et où l'effet canyon des rues est le plus marqué. Grand Central Terminal, le Chrysler Building et St. Patrick's Cathedral se trouvent à six pâtés de maisons les uns des autres, représentant différents sommets de l'ambition architecturale new-yorkaise.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 3250,
+      "day_walking_minutes": 41,
+      "morning": {
+        "activity_title": "Grand Central Terminal",
+        "wikidata_qid": "Q180342",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_Central_Terminal",
+        "coordinates": {
+          "lat": 40.7527,
+          "lon": -73.9772
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La gare Beaux-Arts de 1913, sauvée de la démolition dans les années 1970 grâce à une bataille juridique menée par Jacqueline Kennedy Onassis. Le plafond du Main Concourse est peint avec les constellations d'hiver à la feuille d'or sur bleu de Prusse - les figures astronomiques sont inversées (peintes comme vues de l'extérieur de la sphère céleste, non depuis la Terre). Placez-vous sur le balcon ouest au-dessus du hall vers 9h du matin quand la lumière des navetteurs pénètre par les fenêtres du clerestory sud.",
+        "walk_to_next": {
+          "to": "Chrysler Building",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Chrysler Building",
+        "wikidata_qid": "Q175144",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chrysler_Building",
+        "coordinates": {
+          "lat": 40.7516,
+          "lon": -73.9755
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La tour Art déco de 1930, brièvement le plus haut bâtiment du monde avant d'être dépassée par l'Empire State. Le hall est ouvert au public et constitue l'un des plus beaux intérieurs Art déco de la ville - marbre africain, fresques d'acier et plafond voûté en brique marocaine. Les célèbres gargouilles en acier inoxydable en forme d'aigle du 61e étage se voient mieux depuis le niveau de la rue en regardant vers le haut sur Lexington Avenue à la 42nd Street.",
+        "walk_to_next": {
+          "to": "St. Patrick's Cathedral",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "St. Patrick's Cathedral and Rockefeller Center",
+        "wikidata_qid": "Q1434385",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Patrick%27s_Cathedral,_New_York_City",
+        "coordinates": {
+          "lat": 40.7585,
+          "lon": -73.9762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La cathédrale néo-gothique de 1878 sur Fifth Avenue, directement en face du complexe Rockefeller Center. Entrée libre ; aucun billet requis. Après la cathédrale, traversez Fifth Avenue vers les Channel Gardens du Rockefeller Center - la place en contrebas avec sa statue dorée de Prometheus, flanquée du RCA Building au-dessus. Le soir, la place est éclairée et la vue remontant le canal vers St. Patrick's constitue le pâté de maisons le plus resserré et cinématographique de Midtown.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Top of the Rock",
+          "wikidata_qid": "Q2360840",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Top_of_the_Rock_Observation_Deck",
+          "coordinates": {
+            "lat": 40.7594,
+            "lon": -73.9787
+          },
+          "neighborhood": "Midtown",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "L'observatoire au 70e étage du 30 Rockefeller Plaza, avec une vue qui inclut l'Empire State Building - que la propre terrasse de l'Empire State ne peut montrer. Réservez un créneau coucher de soleil pour la meilleure lumière sur le canyon de Midtown. Le niveau supérieur à ciel ouvert n'a pas de barrière de verre, contrairement aux étages supérieurs fermés de l'Empire State.",
+          "walk_from_main_route": {
+            "from": "St. Patrick's Cathedral",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "New York Public Library - Stephen A. Schwarzman Building",
+          "wikidata_qid": "Q1989353",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_Public_Library",
+          "coordinates": {
+            "lat": 40.7532,
+            "lon": -73.9822
+          },
+          "neighborhood": "Midtown",
+          "duration_minutes": 40,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La branche principale de style Beaux-Arts de 1911 sur Fifth Avenue, entrée gratuite. La Rose Main Reading Room au troisième étage - longue de 297 pieds avec des plafonds de 52 pieds et des peintures de plafond récemment restaurées - est l'un des intérieurs publics les plus grandioses de New York. Les lions de la bibliothèque, Patience et Fortitude, encadrent l'entrée de Fifth Avenue.",
+          "walk_from_main_route": {
+            "from": "Grand Central Terminal",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Museum Mile et Central Park",
+      "cluster_tagline": "Le corridor culturel de l'Upper East Side et 843 acres de nature sauvage aménagée",
+      "neighborhood_focus": "Museum Mile / Central Park",
+      "neighborhood_description": "Le tronçon de Fifth Avenue de la 82ème à la 105ème rue borde Central Park et abrite la plus forte concentration de grands musées de l'hémisphère occidental. Central Park lui-même - conçu par Frederick Law Olmsted et Calvert Vaux entre 1858 et 1876 - est un chef-d'œuvre d'architecture paysagère du 19ème siècle qui a remplacé un marécage et un bidonville par les poumons de la ville.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 4200,
+      "day_walking_minutes": 53,
+      "morning": {
+        "activity_title": "Metropolitan Museum of Art",
+        "wikidata_qid": "Q160236",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art",
+        "coordinates": {
+          "lat": 40.7794,
+          "lon": -73.9632
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Le plus grand musée d'art de l'hémisphère occidental - 17 départements de conservation couvrant 5 000 ans de civilisation. N'essayez pas de tout voir ; choisissez deux ou trois ailes. Le Temple of Dendur de l'aile d'art égyptien - un temple en grès de 15 av. J.-C. déplacé bloc par bloc depuis le Nil et reconstruit dans une galerie aux murs de verre - est la salle la plus surprenante du Met. L'installation sur le toit (ouverte de mai à octobre) offre la meilleure vue du musée vers Central Park et l'horizon de Midtown.",
+        "walk_to_next": {
+          "to": "Central Park - the Reservoir",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Central Park",
+        "wikidata_qid": "Q58328",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Central_Park",
+        "coordinates": {
+          "lat": 40.7851,
+          "lon": -73.9683
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Entrez au niveau de la 79ème rue depuis Fifth Avenue et marchez vers le nord-ouest jusqu'au Reservoir (90ème rue), puis vers le sud à travers le Ramble jusqu'à la Bethesda Terrace et Fountain. Ce parcours d'environ un mile traverse les terrains les plus variés du parc - le Ramble est un bois délibérément sauvage qui semble incroyablement isolé. La Bethesda Fountain est la seule sculpture officiellement commandée du parc, construite en 1873, et la terrasse à arcades au-dessus est l'endroit le plus photographié.",
+        "walk_to_next": {
+          "to": "Guggenheim Museum",
+          "distance_meters": 750,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Solomon R. Guggenheim Museum",
+        "wikidata_qid": "Q306788",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
+        "coordinates": {
+          "lat": 40.783,
+          "lon": -73.959
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Le bâtiment de Frank Lloyd Wright de 1959 est lui-même l'exposition principale - une rampe en spirale continue montant sur six étages autour d'un atrium central, avec la verrière au sommet. Prenez l'ascenseur jusqu'au sommet et descendez la rampe plutôt que de la monter, pour que la géométrie du bâtiment se révèle progressivement. La Thannhauser Collection d'œuvres impressionnistes et post-impressionnistes aux étages inférieurs est souvent négligée au profit des expositions temporaires.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Neue Galerie New York",
+          "wikidata_qid": "Q1756065",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Neue_Galerie_New_York",
+          "coordinates": {
+            "lat": 40.7824,
+            "lon": -73.9595
+          },
+          "neighborhood": "Upper East Side",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un petit musée à la conservation précise d'art allemand et autrichien du début du 20ème siècle dans un manoir Carrere and Hastings de 1914. Abrite le Portrait of Adele Bloch-Bauer I de Klimt (la Woman in Gold), acquis pour 135 millions de dollars en 2006. L'un des rares musées de New York qui n'a pas grandi au-delà de l'échelle humaine - une heure ici est plus captivante que trois dans une institution tentaculaire.",
+          "walk_from_main_route": {
+            "from": "Guggenheim Museum",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "The Conservatory Garden",
+          "wikidata_qid": "Q5161622",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Conservatory_Garden",
+          "coordinates": {
+            "lat": 40.7932,
+            "lon": -73.9514
+          },
+          "neighborhood": "Central Park",
+          "duration_minutes": 45,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Le seul jardin à la française à l'intérieur de Central Park, au 105th Street et Fifth Avenue - on y accède par les grilles en fer forgé ornementales de Vanderbilt. Trois sections : le jardin à la française au nord, la pergola de glycine italienne au centre, et le jardin de vivaces anglais au sud avec le mémorial Frances Hodgson Burnett. Presque entièrement ignoré par les visiteurs de première fois car il se trouve à l'extrémité nord de Museum Mile.",
+          "walk_from_main_route": {
+            "from": "Metropolitan Museum of Art",
+            "distance_meters": 1300,
+            "walking_minutes": 17
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Greenwich Village et SoHo",
+      "cluster_tagline": "Le quadrillage bohème - architecture en fonte, brownstones littéraires, et le front de mer Hudson",
+      "neighborhood_focus": "Greenwich Village / SoHo",
+      "neighborhood_description": "Greenwich Village est le quartier qui a refusé le plan en damier de Manhattan de 1811 et a gardé ses propres rues diagonales et petits pâtés de maisons - historiquement le centre de la vie littéraire, artistique et LGBTQ de New York. SoHo immédiatement au sud possède la plus grande concentration d'architecture en fonte au monde, construite comme quartier commercial dans les années 1860 et 1870 et convertie en galeries et lofts dans les années 1970.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Washington Square Park",
+        "wikidata_qid": "Q744826",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Washington_Square_Park",
+        "coordinates": {
+          "lat": 40.7308,
+          "lon": -73.9975
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Le centre social de Greenwich Village, construit sur un terrain de potiers où environ 20 000 personnes sont enterrées. L'arc de Stanford White de 1892 à l'entrée Fifth Avenue fut modelé sur l'Arc de Triomphe ; en 1917 Marcel Duchamp grimpa au sommet pour déclarer Greenwich Village république indépendante. Le parc est à son meilleur les matins de week-end quand les joueurs d'échecs s'installent aux tables du coin sud-ouest et que les musiciens se rassemblent autour de la fontaine centrale.",
+        "walk_to_next": {
+          "to": "MacDougal Street and Bleecker Street",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "SoHo Cast-Iron Historic District",
+        "wikidata_qid": "Q1622328",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/SoHo%E2%80%93Cast_Iron_Historic_District",
+        "coordinates": {
+          "lat": 40.7233,
+          "lon": -74.002
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Marchez vers le sud depuis Washington Square en descendant Greene Street - le pâté de maisons le plus intact de façades commerciales en fonte qui existe. Les façades en fonte étaient préfabriquées et boulonnées sur des structures de maçonnerie, permettant aux bâtiments d'être ornementés de colonnes, corniches et arcs moins cher que la pierre. Regardez en l'air - les détails sont tous au deuxième étage et au-dessus. Le coin de Greene et Prince Streets a cinq bâtiments intacts des années 1870 visibles simultanément.",
+        "walk_to_next": {
+          "to": "Hudson River Park - Pier 25",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "Hudson River Park",
+        "wikidata_qid": "Q1619609",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hudson_River_Park",
+        "coordinates": {
+          "lat": 40.7264,
+          "lon": -74.009
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Le parc linéaire de quatre miles le long du côté ouest de Manhattan, construit sur d'anciens quais de marchandises. Pier 25 à North Moore Street a un parcours de golf miniature, du beach-volley, et la meilleure vue de coucher de soleil sans obstruction sur New Jersey depuis le bas Manhattan. Marchez vers le nord jusqu'à Pier 45 dans West Village (à Christopher Street) pour un tronçon plus calme et une vue classique du coucher de soleil sur Hudson. La lumière occidentale ici n'est bloquée par aucun bâtiment jusqu'à l'horizon.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The Drawing Center",
+          "wikidata_qid": "Q5301374",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/The_Drawing_Center",
+          "coordinates": {
+            "lat": 40.7248,
+            "lon": -74.003
+          },
+          "neighborhood": "SoHo",
+          "duration_minutes": 45,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un musée sans collection entièrement dédié au dessin - historique, contemporain et expérimental - dans une étroite devanture de SoHo sur Wooster Street. Les expositions couvrent typiquement des siècles dans un seul cadre thématique. L'admission est bon marché et la programmation est constamment plus intéressante au mètre carré que les grandes galeries de Chelsea.",
+          "walk_from_main_route": {
+            "from": "SoHo Cast-Iron Historic District",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "St. Luke's Place and Leroy Street",
+          "wikidata_qid": "Q7586327",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St._Luke%27s_Place",
+          "coordinates": {
+            "lat": 40.7281,
+            "lon": -74.0035
+          },
+          "neighborhood": "Greenwich Village",
+          "duration_minutes": 20,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un seul pâté de maisons de 1852 composé de maisons mitoyennes de style Italianate qui donnent sur un parc triangulaire, constamment classé parmi les plus beaux paysages urbains résidentiels de New York. Jimmy Walker, maire de New York dans les années 1920, habitait au numéro 6. Les maisons sont pratiquement inchangées par rapport à la construction d'origine et le contraste avec le reste du centre-ville de Manhattan est saisissant.",
+          "walk_from_main_route": {
+            "from": "Washington Square Park",
+            "distance_meters": 550,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "Harlem et Morningside Heights",
+      "cluster_tagline": "La capitale culturelle de l'Amérique noire et les hauteurs universitaires au-dessus de l'Hudson",
+      "neighborhood_focus": "Harlem / Morningside Heights",
+      "neighborhood_description": "Harlem, centré sur la 125th Street, est la capitale culturelle de la vie afro-américaine depuis la Grande Migration du début du 20e siècle - le quartier qui a donné naissance à la Harlem Renaissance, au bebop, et à un flux continu de production littéraire et artistique. Morningside Heights à l'ouest se dresse sur un plateau au-dessus de l'Hudson, abritant la Columbia University, la Cathedral of St. John the Divine, et le Grant's Tomb.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3950,
+      "day_walking_minutes": 50,
+      "morning": {
+        "activity_title": "Cathedral Church of Saint John the Divine",
+        "wikidata_qid": "Q1088589",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cathedral_Church_of_Saint_John_the_Divine",
+        "coordinates": {
+          "lat": 40.8038,
+          "lon": -73.9622
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La plus grande cathédrale gothique au monde par son volume, commencée en 1892 et toujours officiellement inachevée - la tour sud reste incomplète et la construction reprend occasionnellement. La nef mesure 601 pieds de long. Les sept chapelles rayonnant depuis l'abside représentent chacune une communauté nationale différente de New York et ont été meublées grâce aux dons de ces communautés au début du 20e siècle. Les paons qui vivent sur le terrain sont réels et ne sont pas enfermés.",
+        "walk_to_next": {
+          "to": "Grant's Tomb",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "afternoon": {
+        "activity_title": "General Grant National Memorial",
+        "wikidata_qid": "Q1499948",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/General_Grant_National_Memorial",
+        "coordinates": {
+          "lat": 40.8079,
+          "lon": -73.9631
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Le plus grand mausolée d'Amérique du Nord, achevé en 1897, abritant les sarcophages d'Ulysses S. Grant et de sa femme Julia. Entrée gratuite. Les bancs en mosaïque qui entourent l'extérieur, installés dans les années 1970 dans le cadre d'un projet artistique communautaire inspiré du Park Güell de Gaudi, créent un choc esthétique saisissant et fascinant avec le monument néoclassique en granit qui se dresse au-dessus. La vue vers le nord sur l'Hudson depuis la terrasse environnante est l'une des meilleures du haut Manhattan.",
+        "walk_to_next": {
+          "to": "125th Street and the Apollo Theater",
+          "distance_meters": 1600,
+          "walking_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Apollo Theater",
+        "wikidata_qid": "Q334903",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Apollo_Theater",
+        "coordinates": {
+          "lat": 40.8098,
+          "lon": -73.9499
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Le théâtre de 1914 situé au 253 West 125th Street qui a lancé Ella Fitzgerald, James Brown, Billie Holiday, et Stevie Wonder parmi des centaines d'autres. L'Amateur Night du mercredi - qui se déroule de façon continue depuis 1934 - a toujours lieu et constitue le spectacle au meilleur rapport qualité-prix de New York (billets autour de 30 dollars, réservez à l'avance). Des visites sont disponibles les jours sans représentation. La marquise et la souche du Tree of Hope sur scène (frottée pour porter bonheur par les artistes avant chaque spectacle) sont les deux éléments essentiels.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Studio Museum in Harlem",
+          "wikidata_qid": "Q7627082",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Studio_Museum_in_Harlem",
+          "coordinates": {
+            "lat": 40.8082,
+            "lon": -73.9479
+          },
+          "neighborhood": "Harlem",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Fondé en 1968 comme le premier musée dédié à l'art noir américain, avec une collection axée sur les artistes d'origine africaine. Le nouveau bâtiment d'Adjaye Associates est en construction ; le musée fonctionne depuis un lieu temporaire sur Adam Clayton Powell Jr. Boulevard - vérifiez l'adresse actuelle avant de vous rendre sur place. Gratuit le dimanche.",
+          "walk_from_main_route": {
+            "from": "Apollo Theater",
+            "distance_meters": 250,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Strivers' Row",
+          "wikidata_qid": "Q7623765",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Strivers%27_Row",
+          "coordinates": {
+            "lat": 40.8126,
+            "lon": -73.9491
+          },
+          "neighborhood": "Harlem",
+          "duration_minutes": 25,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Les deux blocs des 138th et 139th Streets entre Adam Clayton Powell Jr. et Frederick Douglass Boulevards, conçus par Stanford White et James Brown Lord en 1891 comme maisons de ville de luxe. Vendues aux résidents noirs à partir des années 1910, elles sont devenues le foyer de figures de la Harlem Renaissance, notamment W.C. Handy et Eubie Blake. La rangée Stanford White du côté nord de la 139th Street est considérée comme son plus bel ouvrage résidentiel à New York.",
+          "walk_from_main_route": {
+            "from": "Apollo Theater",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "The High Line et Chelsea",
+      "cluster_tagline": "Le côté ouest post-industriel - un parc suspendu, un nouveau quartier et un district de galeries de classe mondiale",
+      "neighborhood_focus": "High Line / Chelsea / Meatpacking District",
+      "neighborhood_description": "The High Line est un parc surélevé de 1,45 mile construit sur une ligne de fret ferroviaire abandonnée de 1934 qui s'étend de Gansevoort Street vers le nord jusqu'à la 34th Street. En dessous, les rues du côté ouest de Chelsea abritent la plus forte concentration de galeries d'art contemporain au monde. Le Meatpacking District à l'extrémité sud est passé de sa fonction littérale du XIXe siècle pour devenir le pâté de maisons le plus dense de mode et de vie nocturne de Manhattan.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 4300,
+      "day_walking_minutes": 54,
+      "morning": {
+        "activity_title": "The High Line",
+        "wikidata_qid": "Q1191517",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/High_Line",
+        "coordinates": {
+          "lat": 40.7479,
+          "lon": -74.0048
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Entrez par l'extrémité sud de Gansevoort Street et marchez vers le nord - cette direction vous mène vers Hudson Yards et la lumière est meilleure pour la photographie le matin. La conception paysagère de Piet Oudolf utilise des vivaces et des graminées qui s'auto-ensemencent et changent radicalement selon les saisons, évoquant délibérément les plantes sauvages qui ont colonisé les voies après la fermeture de la ligne en 1980. Le 10th Avenue Square à la 17th Street est un gradin intégré surplombant l'avenue en contrebas - un exemple particulièrement efficace de théâtre urbain.",
+        "walk_to_next": {
+          "to": "Chelsea Galleries on West 22nd Street",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Chelsea Gallery District",
+        "wikidata_qid": "Q5089261",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chelsea_art_gallery_district",
+        "coordinates": {
+          "lat": 40.7484,
+          "lon": -74.0047
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Les six blocs des West 20th, 21st, 22nd, 24th et 25th Streets entre Tenth et Eleventh Avenues contiennent plus de 200 galeries, la majorité étant d'accès gratuit. C'est le marché primaire de l'art contemporain aux États-Unis. Les vernissages du jeudi (18h à 20h) sont les plus animés ; les après-midis en semaine sont plus calmes et les galeristes ont le temps de parler. Gagosian au 522 West 21st, Pace au 510 West 25th et David Zwirner au 519 West 19th sont les institutions phares.",
+        "walk_to_next": {
+          "to": "Whitney Museum of American Art",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Whitney Museum of American Art",
+        "wikidata_qid": "Q1568434",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Whitney_Museum_of_American_Art",
+        "coordinates": {
+          "lat": 40.7396,
+          "lon": -74.0089
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Le bâtiment de Renzo Piano de 2015 à la base de The High Line, avec des galeries extérieures en terrasses sur plusieurs étages face à l'Hudson. Le Whitney détient la plus grande collection d'art américain du XXe siècle existante - Edward Hopper, Georgia O'Keeffe, Jasper Johns, Jean-Michel Basquiat. Les vendredis et samedis soir, le musée est ouvert jusqu'à 22h avec une admission réduite après 19h, et les terrasses extérieures au crépuscule sur l'Hudson comptent parmi les meilleures expériences architecturales gratuites de New York.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hudson Yards and the Vessel",
+          "wikidata_qid": "Q55624028",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Vessel_(New_York_City)",
+          "coordinates": {
+            "lat": 40.754,
+            "lon": -74.0019
+          },
+          "neighborhood": "Hudson Yards",
+          "duration_minutes": 45,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La structure d'escalier en nid d'abeille de Thomas Heatherwick de 2019 au centre de Hudson Yards - 154 volées d'escaliers interconnectées, 2 500 marches et 80 paliers. Visite gratuite au niveau du sol, bien que la montée nécessite un billet (gratuit) avec créneau horaire. Le développement Hudson Yards environnant est le plus grand projet immobilier privé de l'histoire américaine et mérite d'être vu comme témoignage de l'urbanisme du XXIe siècle, indépendamment de l'opinion esth",
+          "walk_from_main_route": {
+            "from": "The High Line northern end",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Little Island",
+          "wikidata_qid": "Q105835126",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Little_Island",
+          "coordinates": {
+            "lat": 40.7394,
+            "lon": -74.011
+          },
+          "neighborhood": "Meatpacking District",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "sunset",
+          "notes": "Ce parc flottant de 2021 conçu par Heatherwick Studio est construit sur 132 piliers de béton en forme de tulipe au Pier 55, adjacent au Whitney. L'entrée est gratuite, avec réservation à heure fixe requise en haute saison (réservez via le site web de Little Island). Le terrain est délibérément vallonné pour un parc sur pilotis, offrant des perspectives variées sur l'Hudson vers le New Jersey. L'amphithéâtre orienté ouest accueille des spectacles gratuits en été.",
+          "walk_from_main_route": {
+            "from": "Whitney Museum of American Art",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

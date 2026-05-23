@@ -1,0 +1,374 @@
+{
+  "destination": "Paris",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Île de la Cité / Le Marais",
+    "Louvre / Tuileries / Palais-Royal",
+    "Eiffel / Champ de Mars / Invalides"
+  ],
+  "guide_description": "Trois jours pour couvrir l'essentiel de Paris : l'épine dorsale médiévale de la Seine, les musées de l'axe royal, et les monuments emblématiques de la Rive Gauche. Chaque journée est géographiquement autonome - choisissez l'ordre selon la météo, le décalage horaire, ou votre lieu de séjour.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5350,
+  "total_walking_minutes": 70,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Île de la Cité et Le Marais",
+      "cluster_tagline": "Paris médiéval sur la Seine - intérieurs gothiques et la plus ancienne place planifiée de la ville",
+      "neighborhood_focus": "Île de la Cité / Le Marais",
+      "neighborhood_description": "L'Île de la Cité est le cœur géographique et historique de Paris - l'établissement gallo-romain originel sur une île de la Seine. Le Marais, de l'autre côté de la rivière à l'est, est l'ancien quartier juif médiéval qui a échappé aux démolitions haussmaniennes du XIXe siècle, préservant ses rues étroites et ses hôtels particuliers aristocratiques.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1450,
+      "day_walking_minutes": 19,
+      "morning": {
+        "activity_title": "Sainte-Chapelle",
+        "wikidata_qid": "Q193517",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+        "coordinates": {
+          "lat": 48.8554,
+          "lon": 2.345
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La chapelle royale du XIIIe siècle construite par Louis IX pour abriter la Couronne d'épines. Évitez la chapelle basse et montez directement - quinze verrières s'élevant à quinze mètres racontent la majeure partie de la Bible, et le soleil matinal traversant la rosace orientée à l'est offre l'expérience lumineuse gothique la plus intense d'Europe. À l'intérieur du complexe du Palais de Justice, un contrôle de sécurité est donc requis à la porte d'entrée sur le Boulevard du Palais.",
+        "walk_to_next": {
+          "to": "Notre-Dame de Paris",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Notre-Dame de Paris",
+        "wikidata_qid": "Q160236",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+        "coordinates": {
+          "lat": 48.853,
+          "lon": 2.3499
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Rouverte en décembre 2024 après l'incendie de 2019. L'entrée est gratuite mais une réservation préalable avec créneau horaire via le site officiel de la cathédrale est obligatoire, avec des créneaux quotidiens limités. L'intérieur post-restauration est le plus propre que la cathédrale ait jamais été depuis plus de deux siècles - le calcaire nettoyé paraît presque jaune plutôt que le gris de suie du souvenir d'avant l'incendie. Le trésor et la montée des tours sont des billets payants séparés.",
+        "walk_to_next": {
+          "to": "Place des Vosges",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Place des Vosges and Le Marais wandering",
+        "wikidata_qid": "Q189660",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Place_des_Vosges",
+        "coordinates": {
+          "lat": 48.8554,
+          "lon": 2.3656
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La plus ancienne place planifiée de Paris (1612), un rectangle parfait à arcades qui a établi le modèle du design urbain résidentiel à travers l'Europe. Victor Hugo a vécu au numéro 6 - son appartement est maintenant un musée gratuit. Parcourez les rues environnantes - Rue des Rosiers, Rue Vieille-du-Temple, Rue des Francs-Bourgeois - pour la plus forte concentration d'hôtels particuliers du XVIIe siècle de Paris.",
+        "walk_to_next": {
+          "to": "Pont Neuf",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Pont Neuf at sunset",
+          "wikidata_qid": "Q207614",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pont_Neuf",
+          "coordinates": {
+            "lat": 48.857,
+            "lon": 2.3415
+          },
+          "neighborhood": "Île de la Cité",
+          "duration_minutes": 30,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Malgré son nom (Pont-Neuf), c'est le plus ancien pont encore debout de Paris, achevé en 1607. Le jardin du Vert-Galant à la pointe de l'île est le meilleur spot de coucher de soleil du centre de Paris - descendez l'escalier derrière la statue équestre d'Henri IV.",
+          "walk_from_main_route": {
+            "from": "Place des Vosges",
+            "distance_meters": 950,
+            "walking_minutes": 12
+          }
+        },
+        {
+          "activity_title": "Conciergerie",
+          "wikidata_qid": "Q200644",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Conciergerie",
+          "coordinates": {
+            "lat": 48.8566,
+            "lon": 2.3458
+          },
+          "neighborhood": "Île de la Cité",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Le palais royal médiéval, devenu plus tard une prison révolutionnaire où Marie Antoinette passa ses dernières semaines. La Salle des Gens d'Armes est l'une des plus vastes salles gothiques d'Europe encore conservées. Le billet combiné avec Sainte-Chapelle permet d'économiser quelques euros.",
+          "walk_from_main_route": {
+            "from": "Sainte-Chapelle",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Louvre, Tuileries et Palais-Royal",
+      "cluster_tagline": "L'axe royal - le plus grand musée d'art au monde, des jardins à la française et une galerie cachée du XVIIIe siècle",
+      "neighborhood_focus": "Louvre / Tuileries / 1st arrondissement",
+      "neighborhood_description": "Le quartier royal central de Paris, délimité par l'aile orientale du Louvre et s'étendant vers l'ouest le long des Tuileries jusqu'à la Place de la Concorde. Cet aménagement a été conçu sur quatre siècles comme un axe cérémonial unique allant du palais médiéval à la voie triomphale moderne.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Louvre Museum",
+        "wikidata_qid": "Q188709",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Louvre",
+        "coordinates": {
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Réservez le billet à créneaux horaires en ligne - l'entrée sans réservation est désormais rare et la file d'attente à la pyramide fait perdre une heure. Choisissez deux des trois ailes, pas les trois ; vouloir tout voir est l'erreur classique de la première visite. La plupart des visiteurs privilégient Denon (Mona Lisa, Renaissance italienne, sculpture grecque) et Sully (antiquités égyptiennes, peinture française). Fermé le mardi.",
+        "walk_to_next": {
+          "to": "Tuileries Garden",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tuileries Garden and Place de la Concorde",
+        "wikidata_qid": "Q207360",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tuileries_Garden",
+        "coordinates": {
+          "lat": 48.8635,
+          "lon": 2.3275
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le jardin à la française de Le Nôtre, conçu en 1664 - la même main et la même géométrie qu'à Versailles. Les bronzes de Maillol disséminés dans l'allée centrale sont des originaux. Marchez vers l'ouest jusqu'à la Place de la Concorde pour voir l'obélisque et la longue perspective sur les Champs-Élysées jusqu'à l'Arc de Triomphe.",
+        "walk_to_next": {
+          "to": "Palais-Royal",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Palais-Royal gardens and arcades",
+        "wikidata_qid": "Q194626",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palais-Royal",
+        "coordinates": {
+          "lat": 48.8634,
+          "lon": 2.3375
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "L'ancien palais du Cardinal Richelieu transformé en galerie marchande à arcades - le premier proto-centre commercial de Paris, ouvert au public en 1784. Les colonnes rayées noir et blanc de Daniel Buren dans la cour intérieure divisent les opinions mais se photographient bien. Les galeries couvertes côtés nord et est abritent quelques-unes des plus anciennes boutiques encore en activité à Paris.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Musée de l'Orangerie",
+          "wikidata_qid": "Q1064757",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l%27Orangerie",
+          "coordinates": {
+            "lat": 48.8638,
+            "lon": 2.3226
+          },
+          "neighborhood": "Tuileries",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Les huit panneaux monumentaux des Nymphéas de Monet dans deux salles ovales conçues selon ses spécifications. Souvent négligé à cause de la proximité du Louvre, mais une expérience plus petite, plus calme et sans doute plus transcendante. L'entrée sans réservation est généralement disponible sans files d'attente importantes.",
+          "walk_from_main_route": {
+            "from": "Tuileries Garden",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Galerie Vivienne",
+          "wikidata_qid": "Q1502608",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Galerie_Vivienne",
+          "coordinates": {
+            "lat": 48.8669,
+            "lon": 2.3402
+          },
+          "neighborhood": "2nd arrondissement",
+          "duration_minutes": 20,
+          "type": "street",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un passage couvert de 1823 avec des sols en mosaïque et une rotonde sous verrière - le plus beau des passages parisiens qui subsistent. À deux minutes à pied au nord des galeries du Palais-Royal ; ensemble, ils forment un parcours couvert continu pour un après-midi pluvieux.",
+          "walk_from_main_route": {
+            "from": "Palais-Royal",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Tour Eiffel et Invalides",
+      "cluster_tagline": "Rive gauche emblématique - la tour, le Champ de Mars et le dôme de Napoléon",
+      "neighborhood_focus": "7th arrondissement",
+      "neighborhood_description": "Le grand quartier de la rive gauche aménagé aux XVIIIe et XIXe siècles comme écrin pour l'armée française et l'Exposition universelle de 1889. Vastes espaces cérémoniels, monuments au dôme doré, et la structure la plus photographiée au monde.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Eiffel Tower",
+        "wikidata_qid": "Q243",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+        "coordinates": {
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Réservez en ligne des semaines à l'avance pour l'ascenseur jusqu'au sommet - les billets sur place sont quasi impossibles à obtenir en saison. Les billets pour monter à pied jusqu'au deuxième étage sont moins chers, avec moins d'attente et sans doute plus authentiques. La vue depuis le deuxième étage est en fait meilleure pour s'orienter ; le sommet, c'est pour la photo. La meilleure approche matinale se fait depuis Trocadéro pour l'angle carte postale avant de passer dessous et de traverser.",
+        "walk_to_next": {
+          "to": "Champ de Mars",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Champ de Mars and Rue Cler",
+        "wikidata_qid": "Q1057533",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Champ_de_Mars",
+        "coordinates": {
+          "lat": 48.8556,
+          "lon": 2.2986
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La longue pelouse qui s'étend de la Tour Eiffel vers le sud jusqu'à l'École Militaire - conçue comme terrain de manœuvres, c'est aujourd'hui un parc à pique-nique. Quelques rues à l'est, Rue Cler est l'une des meilleures rues marchandes traditionnelles qui subsistent dans la ville - piétonne, bordée de fromagers, bouchers et étals de primeurs, moins touristique que Rue Montorgueil.",
+        "walk_to_next": {
+          "to": "Les Invalides",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Les Invalides and Napoleon's Tomb",
+        "wikidata_qid": "Q172017",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Les_Invalides",
+        "coordinates": {
+          "lat": 48.8566,
+          "lon": 2.3125
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "monument",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "L'hôpital des vétérans de Louis XIV, qui abrite aujourd'hui le Musée de l'Armée et l'énorme sarcophage de porphyre de Napoléon sous le Dôme des Invalides doré à la feuille. Le dôme capte magnifiquement la lumière occidentale de fin d'après-midi. Le Musée de l'Armée est immense ; si vous manquez de temps, allez directement aux galeries 14-18/39-45 et au tombeau.",
+        "walk_to_next": {
+          "to": "Pont Alexandre III",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Musée Rodin",
+          "wikidata_qid": "Q205495",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Rodin",
+          "coordinates": {
+            "lat": 48.8553,
+            "lon": 2.3158
+          },
+          "neighborhood": "7th arrondissement",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "L'ancienne demeure et atelier de Rodin, qui expose aujourd'hui ses grands bronzes dans un jardin de trois hectares - Le Penseur, Les Bourgeois de Calais, Balzac. Le billet jardin seul est moins cher et sans doute la meilleure visite par beau temps. Ferme plus tôt que le Louvre (17h45 en été, 17h en hiver).",
+          "walk_from_main_route": {
+            "from": "Les Invalides",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Pont Alexandre III at sunset",
+          "wikidata_qid": "Q1188558",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pont_Alexandre_III",
+          "coordinates": {
+            "lat": 48.8636,
+            "lon": 2.3136
+          },
+          "neighborhood": "7th / 8th arrondissement",
+          "duration_minutes": 20,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Le pont le plus orné de Paris - statues dorées de style Beaux-Arts, lampadaires art nouveau, construit pour l'Exposition universelle de 1900. La perspective aligne le dôme des Invalides d'un côté et le Grand Palais de l'autre. Idéal à l'heure dorée avec les deux monuments illuminés.",
+          "walk_from_main_route": {
+            "from": "Les Invalides",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    }
+  ]
+}

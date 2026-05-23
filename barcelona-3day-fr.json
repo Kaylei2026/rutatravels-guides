@@ -1,0 +1,341 @@
+{
+  "destination": "Barcelona",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Barri Gòtic / El Born",
+    "Eixample / Gaudí axis",
+    "Montjuïc / Poble Sec"
+  ],
+  "guide_description": "Trois jours pour découvrir les couches essentielles de Barcelona : le cœur gothique médiéval, la trame de l'Eixample définie par Gaudí, et la colline de Montjuïc avec ses musées et son château. Chaque jour forme un ensemble géographique cohérent.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 7300,
+  "total_walking_minutes": 95,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Barri Gòtic et El Born",
+      "cluster_tagline": "Barcelona médiévale à pied - Cathédrale, remparts romains et quartier des marchands",
+      "neighborhood_focus": "Barri Gòtic / El Born",
+      "neighborhood_description": "Les deux quartiers médiévaux adjacents qui forment le cœur historique de Barcelona. Le Barri Gòtic est bâti sur des fondations romaines et centré sur la Cathédrale gothique ; El Born à l'est est l'ancien quartier des marchands, plus étroit, plus animé, avec la basilique Santa Maria del Mar en son cœur.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Cathedral of Barcelona (La Seu)",
+        "wikidata_qid": "Q56551",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cathedral_of_Barcelona",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1761
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La cathédrale gothique du XIVe siècle, souvent confondue avec la Sagrada Família de Gaudí mais architecturalement totalement distincte. Le cloître avec ses treize oies blanches (une pour chaque année de la vie de sainte Eulalie, selon la tradition) constitue le point central inattendu. Les terrasses du toit sont accessibles par ascenseur moyennant une petite participation et offrent une vue panoramique sur le quartier gothique que les foules de la Sagrada Família ne pensent rarement à rechercher.",
+        "walk_to_next": {
+          "to": "Plaça del Rei",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Plaça del Rei and the Roman walls",
+        "wikidata_qid": "Q807877",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1775
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La place royale médiévale, encadrée par le Palau Reial Major où Christophe Colomb aurait présenté ses découvertes à Ferdinand et Isabelle en 1493. L'entrée du MUHBA Barcelona History Museum sur la place descend sous terre vers un remarquable ensemble préservé de 4 km de la Barcino romaine - rues, teintureries, caves à vin - directement sous vos pieds. La visite de musée la plus surprenante de Barcelona.",
+        "walk_to_next": {
+          "to": "Santa Maria del Mar",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Santa Maria del Mar",
+        "wikidata_qid": "Q930687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+        "coordinates": {
+          "lat": 41.3838,
+          "lon": 2.1819
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Construite de 1329 à 1383 par les marchands et portefaix du quartier de la Ribera, financée entièrement par la classe ouvrière - le surnom local est \"la Cathédrale de la Mer\". L'intérieur gothique catalan pur est inhabituellement large et aéré comparé à ses homologues gothiques français, avec des proportions qui ont influencé les architectes depuis Gaudí. Le soleil de fin d'après-midi à travers la rosace est la récompense visuelle.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Picasso Museum",
+          "wikidata_qid": "Q832627",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Picasso",
+          "coordinates": {
+            "lat": 41.3853,
+            "lon": 2.1808
+          },
+          "neighborhood": "El Born",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La plus importante collection des œuvres de jeunesse de Picasso, abritée dans cinq hôtels particuliers médiévaux reliés d'El Born. La force du musée est de montrer Picasso avant qu'il ne devienne Picasso - les années académiques barcelonaises, la Période bleue, les variations sur Las Meninas de 1957. Fermé le lundi. Entrée gratuite le jeudi après-midi et le premier dimanche de chaque mois - ces créneaux font l'objet de longues files d'attente.",
+          "walk_from_main_route": {
+            "from": "Santa Maria del Mar",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Eixample et l'axe Gaudí",
+      "cluster_tagline": "Modernisme Barcelona - la Sagrada Família, Casa Batlló, et la trame urbaine qui les a planifiées",
+      "neighborhood_focus": "Eixample",
+      "neighborhood_description": "L'extension planifiée du 19e siècle de Barcelona au-delà des anciens remparts, tracée en 1859 selon une trame uniforme avec des angles coupés qui donne au quartier son rythme visuel de blocs octogonaux. Cette trame abrite la plus forte concentration mondiale de modernisme catalan (le mouvement art nouveau espagnol mené par Gaudí, Domènech et Puig).",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Sagrada Família",
+        "wikidata_qid": "Q5882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+        "coordinates": {
+          "lat": 41.4036,
+          "lon": 2.1744
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 120,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La basilique inachevée de Gaudí, commencée en 1882 et dont l'achèvement de la tour centrale Jesus Christ est maintenant prévu pour 2026. Réservez le billet d'entrée à heure fixe en ligne plusieurs semaines à l'avance - l'achat sur place est rare même en basse saison. Choisissez un créneau matinal pour profiter de la lumière de la façade Nativity orientée à l'est à travers les vitraux, qui inonde les colonnes intérieures de bleu et d'orange. Les billets pour l'ascenseur des tours (l'une des tours Nativity ou Passion) sont en supplément et valent le détour pour la vue rapprochée des détails des flèches.",
+        "walk_to_next": {
+          "to": "Casa Batlló (via Passeig de Gràcia)",
+          "distance_meters": 1800,
+          "walking_minutes": 23
+        }
+      },
+      "afternoon": {
+        "activity_title": "Casa Batlló and Passeig de Gràcia",
+        "wikidata_qid": "Q11910",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3",
+        "coordinates": {
+          "lat": 41.3917,
+          "lon": 2.165
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La rénovation par Gaudí en 1904 d'un immeuble d'habitation existant - les balcons courbes en forme d'os, le toit carrelé d'écailles de dragon, les colonnes des cheminées sont tous de lui. La visite intérieure est excellente (à réserver en ligne) mais chère ; pour les budgets serrés, la vue sur la façade depuis l'autre côté du Passeig de Gràcia constitue déjà une attraction majeure. Dans le même pâté de maisons se dresse Casa Amatller de Puig i Cadafalch - le contraste entre les styles des deux architectes fait tout l'intérêt de la Manzana de la Discordia (Pâté de la Discorde).",
+        "walk_to_next": {
+          "to": "Casa Milà (La Pedrera)",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Casa Milà (La Pedrera) at sunset",
+        "wikidata_qid": "Q83036",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Mil%C3%A0",
+        "coordinates": {
+          "lat": 41.3954,
+          "lon": 2.162
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La dernière œuvre civile de Gaudí, 1912 - les habitants l'ont surnommée 'La Pedrera' (La Carrière) pour sa façade de pierre brute. Le toit-terrasse, avec ses cheminées surréalistes en forme de casques de guerriers, est la partie célèbre - les billets d'entrée à heure fixe pour le coucher de soleil valent le surcoût. La visite nocturne 'Pedrera de Nit' projette des spectacles lumineux sur les cheminées et est plus atmosphérique que la visite de jour, bien que plus chère.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hospital de Sant Pau",
+          "wikidata_qid": "Q5907",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hospital_de_Sant_Pau",
+          "coordinates": {
+            "lat": 41.4117,
+            "lon": 2.1742
+          },
+          "neighborhood": "Eixample",
+          "duration_minutes": 75,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Le complexe hospitalier de Domènech i Montaner de 1902-1930 - 27 pavillons séparés reliés par des allées décorées de carreaux et des tunnels souterrains, conçus selon la théorie radicale que la beauté elle-même accélère la guérison. Récemment restauré et rouvert au public. Architecturalement sans doute plus soutenu que tout ce qu'a construit Gaudí, mais bien moins visité. Classé au patrimoine mondial de l'UNESCO à part entière. À 10 minutes à pied au nord de la Sagrada Família.",
+          "walk_from_main_route": {
+            "from": "Sagrada Família",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        },
+        {
+          "activity_title": "Palau de la Música Catalana",
+          "wikidata_qid": "Q83118",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Palau_de_la_M%C3%BAsica_Catalana",
+          "coordinates": {
+            "lat": 41.3875,
+            "lon": 2.175
+          },
+          "neighborhood": "Sant Pere (border of Eixample)",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La salle de concert de Domènech i Montaner de 1908, le seul auditorium d'Europe éclairé entièrement par la lumière naturelle à travers la coupole de vitraux. Les visites de jour sont bonnes ; assister à un vrai concert est transcendant et pas dramatiquement plus cher que la visite. Inscription UNESCO. Situé entre Eixample et El Born, faisable en échange.",
+          "walk_from_main_route": {
+            "from": "Casa Batlló",
+            "distance_meters": 1100,
+            "walking_minutes": 14
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Montjuïc et Poble Sec",
+      "cluster_tagline": "La colline des musées - art catalan, architecture de l'Exposition universelle de 1929 et panoramas méditerranéens",
+      "neighborhood_focus": "Montjuïc / Poble Sec",
+      "neighborhood_description": "Cette colline de 184 mètres qui s'élève depuis le front de mer occidental, réaménagée pour l'Exposition internationale de 1929 puis pour les Jeux olympiques de 1992. Elle abrite le Musée national d'art de Catalogne, la Fondation Joan Miró, le stade olympique et le château médiéval au sommet - ainsi que la plus forte concentration de vues panoramiques gratuites de Barcelona.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "MNAC - National Art Museum of Catalonia",
+        "wikidata_qid": "Q861252",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Art_Museum_of_Catalonia",
+        "coordinates": {
+          "lat": 41.3686,
+          "lon": 2.1531
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Installé dans le Palau Nacional de 1929, le Musée national d'art abrite la plus importante collection mondiale de fresques romanes - sauvées des églises de villages pyrénéens dans les années 1920 et reinstallées ici sur des formes d'absides reconstituées. Les galeries romanes à elles seules justifient la visite ; l'aile modernisme à l'étage présente les arts décoratifs de l'époque Gaudí. Gratuit le premier samedi après-midi et tous les dimanches après 15h. La terrasse offre une vue panoramique sur toute la ville.",
+        "walk_to_next": {
+          "to": "Fundació Joan Miró",
+          "distance_meters": 800,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Fundació Joan Miró",
+        "wikidata_qid": "Q637098",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fundaci%C3%B3_Joan_Mir%C3%B3",
+        "coordinates": {
+          "lat": 41.3686,
+          "lon": 2.1597
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Conçu par Josep Lluís Sert, ami de Miró (architecte, doyen du MIT, exilé de l'Espagne de Franco), le bâtiment de la fondation est lui-même l'une des grandes réussites architecturales muséales du XXe siècle - modernisme méditerranéen blanc avec galeries éclairées par le haut et terrasse de sculptures sur le toit. La collection est essentiellement constituée d'œuvres de Miró, organisée chronologiquement, avec une saisissante salle \"Hommage à Miró\" d'œuvres d'autres artistes offertes en son honneur.",
+        "walk_to_next": {
+          "to": "Montjuïc Castle",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Montjuïc Castle and the Mediterranean panorama",
+        "wikidata_qid": "Q623808",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Montju%C3%AFc_Castle",
+        "coordinates": {
+          "lat": 41.3636,
+          "lon": 2.1664
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Forteresse militaire du XVIIe siècle au sommet, avec une histoire politique brutale - utilisée par le régime de Franco pour emprisonner et exécuter des nationalistes Catalans. Désormais propriété de la ville et ouverte au public. La vue depuis les remparts orientaux couvre toute la côte méditerranéenne depuis la ville jusqu'à la mer ; les vues occidentales donnent sur le port et l'anneau olympique. Accès le plus facile par le téléphérique qui monte depuis la station Telefèric au-dessus de Poble Sec.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mies van der Rohe Pavilion",
+          "wikidata_qid": "Q83074",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Barcelona_Pavilion",
+          "coordinates": {
+            "lat": 41.3706,
+            "lon": 2.1503
+          },
+          "neighborhood": "Montjuïc",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Le pavillon allemand de Mies van der Rohe pour l'Exposition de 1929 - l'un des bâtiments les plus influents du XXe siècle, la déclaration fondatrice de l'architecture moderniste. L'original fut démoli après l'exposition ; il s'agit d'une reconstruction de 1986 sur le site original utilisant les matériaux et plans d'origine. Petit, extérieur libre d'accès, modeste droit d'entrée pour l'intérieur.",
+          "walk_from_main_route": {
+            "from": "MNAC",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Magic Fountain of Montjuïc",
+          "wikidata_qid": "Q1888988",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Magic_Fountain_of_Montju%C3%AFc",
+          "coordinates": {
+            "lat": 41.3711,
+            "lon": 2.1517
+          },
+          "neighborhood": "Montjuïc",
+          "duration_minutes": 30,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "Fontaine de 1929 avec spectacles chorégraphiés eau-lumière-musique les vendredis et samedis soirs (jeudi/vendredi/samedi en été, week-ends seulement en hiver, suspendus en période de sécheresse). Vérifiez les horaires avant de planifier - les spectacles dépendent des conditions météorologiques et de sécheresse. La foule est dense mais le spectacle est véritablement spectaculaire.",
+          "walk_from_main_route": {
+            "from": "MNAC",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "destination": "Tokyo",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Asakusa / Ueno"
+  ],
+  "guide_description": "Une journée dans le vieux Tokyo, centrée sur le complexe du temple Sensō-ji à Asakusa et s'étendant vers l'ouest jusqu'au quartier des musées du parc Ueno. La plus forte concentration de Tokyo d'avant-guerre et de l'époque d'Edo accessible à pied.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3200,
+  "total_walking_minutes": 42,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Asakusa et Ueno",
+      "cluster_tagline": "Le vieux Tokyo - le grand temple, la rivière et le parc des musées",
+      "neighborhood_focus": "Asakusa / Ueno",
+      "neighborhood_description": "Les quartiers du nord-est qui ont préservé plus de Tokyo d'avant-guerre que n'importe où ailleurs dans la ville. Asakusa s'articule autour du temple Sensō-ji, le plus ancien et le plus visité des temples bouddhistes de Tokyo. Le parc Ueno, à vingt minutes vers l'ouest, abrite la plus forte concentration de musées nationaux du Japon.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 42,
+      "morning": {
+        "activity_title": "Sensō-ji and Nakamise-dōri",
+        "wikidata_qid": "Q200035",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+        "coordinates": {
+          "lat": 35.7148,
+          "lon": 139.7967
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Le plus ancien temple bouddhiste de Tokyo, fondé en 645, avec l'imposante Kaminarimon rouge (porte du tonnerre) et son énorme lanterne de papier qui en font l'image emblématique. Arrivez avant 9h pour parcourir la rue d'approche Nakamise-dōri avant l'affluence des boutiques de souvenirs. L'entrée du hall principal du temple est gratuite ; la pagode à cinq étages qui l'accompagne est l'une des structures les plus photographiées de Tokyo. L'encens matinal qui s'élève devant le hall principal révèle le temple sous son meilleur jour.",
+        "walk_to_next": {
+          "to": "Sumida River Walk",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sumida River and Asakusa backstreets",
+        "wikidata_qid": "Q855847",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sumida_River",
+        "coordinates": {
+          "lat": 35.7106,
+          "lon": 139.8019
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le parc au bord de la Sumida offre la vue emblématique sur la Tokyo Skytree et le siège d'Asahi Beer (avec sa sculpture de flamme dorée de Philippe Starck, surnommée localement le caca doré). Parcourez les ruelles entre Sensō-ji et la rivière pour découvrir kappabashi-dōri (la rue des ustensiles de cuisine) et les boutiques cachées de l'époque d'Edo qui vendent encore éventails, pinceaux et galettes de riz. Traversez le pont Azuma pour la meilleure photo de la Skytree.",
+        "walk_to_next": {
+          "to": "Ueno Park",
+          "distance_meters": 2000,
+          "walking_minutes": 26
+        }
+      },
+      "evening": {
+        "activity_title": "Ueno Park and the Tokyo National Museum",
+        "wikidata_qid": "Q330923",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_National_Museum",
+        "coordinates": {
+          "lat": 35.7188,
+          "lon": 139.7762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Le plus grand et plus ancien musée du Japon, abritant la plus importante collection d'art japonais du pays - sabres, céramiques, sculptures bouddhistes, estampes ukiyo-e. Le Honkan (galerie japonaise) constitue l'essentiel si vous manquez de temps. Le parc Ueno lui-même est le parc de cerisiers en fleurs le plus apprécié de Tokyo au printemps et abrite le zoo de Tokyo, le musée national d'art occidental (Le Corbusier, UNESCO) et plusieurs musées plus petits. Le musée ferme à 17h ; arrivez avant 15h pour disposer d'un temps suffisant.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "National Museum of Western Art",
+          "wikidata_qid": "Q1362629",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Western_Art",
+          "coordinates": {
+            "lat": 35.7156,
+            "lon": 139.7757
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Le bâtiment principal a été conçu par Le Corbusier (sa seule œuvre en Asie de l'Est) et fait partie de l'inscription transnationale UNESCO couvrant 17 de ses bâtiments dans le monde. La collection va de la peinture européenne médiévale au début du XXe siècle, avec de remarquables fonds de Rodin et Monet. Fermé les lundis.",
+          "walk_from_main_route": {
+            "from": "Ueno Park",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Ameya-Yokochō Market",
+          "wikidata_qid": "Q620257",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ameya-Yokoch%C5%8D",
+          "coordinates": {
+            "lat": 35.7106,
+            "lon": 139.7747
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Marché en plein air sous les voies de la ligne JR Yamanote, descendant du marché noir d'après-guerre - désormais rempli de fruits de mer frais, de fruits, d'épices et de vêtements bon marché. L'ambiance est véritablement animée d'une manière que peu d'autres quartiers de Tokyo le sont encore. Idéal en fin d'après-midi quand les marchands crient leurs prix.",
+          "walk_from_main_route": {
+            "from": "Tokyo National Museum",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    }
+  ]
+}

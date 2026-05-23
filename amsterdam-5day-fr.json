@@ -1,0 +1,539 @@
+{
+  "destination": "Amsterdam",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T11:59:42.390Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Medieval Centre / De Wallen",
+    "Canal Ring / Grachtengordel",
+    "Museumplein / Oud-Zuid",
+    "Jordaan / Westerpark",
+    "De Pijp / Oost"
+  ],
+  "guide_description": "Cinq jours pour découvrir les couches essentielles d'Amsterdam : le cœur médiéval et ses plus anciens canaux, la couronne de canaux du Siècle d'or, le grand quartier des musées, les rues intimistes du Jordaan, et les quartiers ouvriers animés du 19e siècle au sud et à l'est du centre. Chaque journée est géographiquement autonome et se parcourt à pied sans avoir besoin du tramway.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 14950,
+  "total_walking_minutes": 187,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Centre médiéval et De Wallen",
+      "cluster_tagline": "Les plus anciennes rues d'Amsterdam - églises gothiques, le port d'origine et la place fondatrice de la ville",
+      "neighborhood_focus": "Medieval Centre / De Wallen",
+      "neighborhood_description": "L'établissement originel autour du barrage sur l'Amstel, délimité par les canaux Damrak et Rokin et les deux grandes églises médiévales. Le tracé des rues ici est antérieur à la couronne de canaux du Siècle d'or et conserve l'échelle condensée d'un port marchand pré-moderne.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "Nieuwe Kerk",
+        "wikidata_qid": "Q1179006",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nieuwe_Kerk,_Amsterdam",
+        "coordinates": {
+          "lat": 52.3731,
+          "lon": 4.8912
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Malgré son nom, il s'agit d'une église gothique du 15e siècle qui sert d'église de couronnement des monarques néerlandais depuis 1814. L'intérieur est vaste et généralement utilisé pour des expositions temporaires aux côtés du mémorial permanent à l'amiral de Ruyter. Entrez par le côté nord qui fait face à Dam Square plutôt que par le portail principal au sud - l'intérieur se révèle plus progressivement de cette façon.",
+        "walk_to_next": {
+          "to": "Dam Square",
+          "distance_meters": 80,
+          "walking_minutes": 1
+        }
+      },
+      "afternoon": {
+        "activity_title": "Dam Square and the Royal Palace",
+        "wikidata_qid": "Q215541",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dam_Square",
+        "coordinates": {
+          "lat": 52.3731,
+          "lon": 4.8932
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le centre géographique d'Amsterdam et l'emplacement du barrage originel sur l'Amstel. Le Palais royal côté ouest fut construit comme hôtel de ville en 1655 et son intérieur est ouvert aux visiteurs - la Salle des citoyens au rez-de-chaussée présente une carte du monde incrustée de marbre montrant Amsterdam au centre du monde connu, ce qui en dit long sur l'image que la ville avait d'elle-même durant le Siècle d'or.",
+        "walk_to_next": {
+          "to": "Oude Kerk",
+          "distance_meters": 520,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Oude Kerk and De Wallen",
+        "wikidata_qid": "Q1249985",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oude_Kerk,_Amsterdam",
+        "coordinates": {
+          "lat": 52.3745,
+          "lon": 4.8978
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Le plus ancien bâtiment d'Amsterdam (consacré en 1306), situé de manière improbable au milieu du quartier rouge. L'église fonctionne comme un lieu d'art contemporain tout en conservant son rôle historique - les expositions sont souvent excellentes et peu fréquentées. Les rues de canaux environnantes de De Wallen constituent le réseau de ruelles médiévales le mieux préservé d'Amsterdam ; parcourir Warmoesstraat et le parallèle Oudezijds Voorburgwal en début de soirée avant l'affluence donne une rare impression de l'échelle originelle de la ville.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Amsterdam Museum at the Amstelkring",
+          "wikidata_qid": "Q2631561",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_Ons%27_Lieve_Heer_op_Solder",
+          "coordinates": {
+            "lat": 52.3745,
+            "lon": 4.8969
+          },
+          "neighborhood": "De Wallen",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Une maison de canal de marchand du 17e siècle avec une église catholique cachée entièrement intacte dissimulée sur les trois étages supérieurs - construite durant la période où le culte catholique était officiellement interdit à Amsterdam. L'église peut accueillir 150 personnes et tient encore des offices. L'un des intérieurs les plus surprenants de la ville.",
+          "walk_from_main_route": {
+            "from": "Oude Kerk",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Schreierstoren",
+          "wikidata_qid": "Q2303039",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Schreierstoren",
+          "coordinates": {
+            "lat": 52.3762,
+            "lon": 4.9008
+          },
+          "neighborhood": "Medieval Centre",
+          "duration_minutes": 20,
+          "type": "fortress",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "L'une des dernières tours survivantes des remparts du XVe siècle d'Amsterdam, située à l'angle où le port de l'IJ rencontre le canal Geldersekade. Une plaque marque l'endroit d'où Henry Hudson est parti en 1609 pour le voyage qui a mené aux revendications hollandaises sur Manhattan. L'extérieur et l'angle du canal constituent l'intérêt principal - inutile d'entrer à l'intérieur.",
+          "walk_from_main_route": {
+            "from": "Oude Kerk",
+            "distance_meters": 330,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Grachtengordel - Western Canals",
+      "cluster_tagline": "La ceinture de canaux de l'Âge d'or à son point le plus tranquille - maisons patriciennes, cours cachées, et le refuge d'Anne Frank",
+      "neighborhood_focus": "Canal Ring West / Grachtengordel",
+      "neighborhood_description": "L'arc occidental de la ceinture de canaux du XVIIe siècle d'Amsterdam, classée à l'UNESCO, s'étendant du Brouwersgracht au nord jusqu'au Leidsegracht. Cette section fut développée en premier et demeure la plus intacte architecturalement, avec des maisons de marchands à pignons qui bordent le Herengracht, le Keizersgracht et le Prinsengracht.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Anne Frank House",
+        "wikidata_qid": "Q317576",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Anne_Frank_House",
+        "coordinates": {
+          "lat": 52.3752,
+          "lon": 4.8839
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Réservez le billet à horaire fixe des semaines à l'avance via le site officiel - c'est l'un des sites les plus visités des Pays-Bas et les visiteurs sans réservation sont refusés. L'Annexe secrète où Anne Frank et sept autres personnes se sont cachées pendant deux ans est conservée sans mobilier (les affaires de la famille furent confisquées après leur arrestation), ce qui rend les pièces vides plus saisissantes qu'une reconstitution ne le serait. Le journal original est exposé dans la section finale.",
+        "walk_to_next": {
+          "to": "Westerkerk",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Westerkerk",
+        "wikidata_qid": "Q942010",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westerkerk",
+        "coordinates": {
+          "lat": 52.3746,
+          "lon": 4.8835
+        },
+        "unesco_designation": {
+          "site_name": "Seventeenth-century canal ring area of Amsterdam inside the Singelgracht",
+          "year_inscribed": 2010,
+          "reference_number": 1349,
+          "url": "https://whc.unesco.org/en/list/1349"
+        },
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "L'église protestante d'Hendrik de Keyser achevée en 1631, la plus haute d'Amsterdam avec 85 mètres. Rembrandt y est enterré dans une tombe non marquée quelque part dans le sol - l'église le reconnaît mais l'emplacement exact s'est perdu. Montez à la tour Westertoren (billet séparé, visite guidée en petit groupe uniquement) pour une vue sur la ceinture de canaux qu'aucun autre point de vue d'Amsterdam n'égale.",
+        "walk_to_next": {
+          "to": "Herengracht",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Herengracht - the Golden Bend",
+        "wikidata_qid": "Q1410697",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Herengracht",
+        "coordinates": {
+          "lat": 52.3669,
+          "lon": 4.8901
+        },
+        "unesco_designation": {
+          "site_name": "Seventeenth-century canal ring area of Amsterdam inside the Singelgracht",
+          "year_inscribed": 2010,
+          "reference_number": 1349,
+          "url": "https://whc.unesco.org/en/list/1349"
+        },
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Le tronçon entre Leidsestraat et Vijzelstraat s'appelle le Golden Bend - la seule section où les marchands les plus riches d'Amsterdam ont construit des maisons de canal à double largeur à la fin du XVIIe siècle. Marchez sur la rive est vers le sud en direction de Leidsestraat au coucher du soleil pour que la lumière tombe directement sur les façades. Le Keizersgracht et le Prinsengracht courent parallèlement à un pâté de maisons de chaque côté et valent aussi la promenade - les trois canaux ensemble forment le cœur de la désignation UNESCO.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Begijnhof",
+          "wikidata_qid": "Q751876",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Begijnhof,_Amsterdam",
+          "coordinates": {
+            "lat": 52.3695,
+            "lon": 4.8892
+          },
+          "neighborhood": "Grachtengordel",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Une cour fermée du XIVe siècle d'hospices autour d'un jardin, fondée pour les Béguines - femmes catholiques laïques qui vivaient en communauté sans vœux formels. Entrez par le côté Spui par une porte en bois non signalée ; la cour est gratuite et ouverte quotidiennement mais les heures de silence sont respectées. La maison numéro 34 est la plus ancienne maison en bois d'Amsterdam (vers 1420) et est visuellement indiscernable de ses voisines.",
+          "walk_from_main_route": {
+            "from": "Herengracht Golden Bend",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Museumplein et Oud-Zuid",
+      "cluster_tagline": "La grande place des musées - art de classe mondiale, maîtres hollandais et le plus grandiose parc du XIXe siècle de la ville",
+      "neighborhood_focus": "Museumplein / Oud-Zuid",
+      "neighborhood_description": "Le campus culturel aménagé à la fin du XIXe siècle au sud de la ceinture de canaux. Trois des plus importantes collections nationales des Pays-Bas se trouvent à moins de 500 mètres les unes des autres sur une place paysagée, adossées aux rues résidentielles bourgeoises d'Oud-Zuid et au Vondelpark.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Rijksmuseum",
+        "wikidata_qid": "Q190804",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rijksmuseum",
+        "coordinates": {
+          "lat": 52.36,
+          "lon": 4.885
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Réservez vos créneaux d'entrée en ligne - le musée affiche complet et les créneaux matinaux sont nettement moins bondés. Le bâtiment lui-même est une cathédrale culturelle gothique-Renaissance de Cuypers (1885) ; traversez le passage couvert pour vélos avant d'entrer pour saisir l'ampleur du bâtiment. La Galerie d'Honneur au deuxième étage constitue le parcours essentiel - douze salles culminant avec la Ronde de Nuit de Rembrandt, qui avec ses 3,6 sur 4,4 mètres est plus grande que ne s'y attendent la plupart des visiteurs. La Laitière de Vermeer se trouve dans la même aile et est presque toujours moins fréquentée.",
+        "walk_to_next": {
+          "to": "Van Gogh Museum",
+          "distance_meters": 260,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Van Gogh Museum",
+        "wikidata_qid": "Q224124",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+        "coordinates": {
+          "lat": 52.3584,
+          "lon": 4.8811
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La plus grande collection au monde des œuvres de Van Gogh, organisée chronologiquement depuis la sombre période hollandaise jusqu'aux couleurs explosives d'Arles et Saint-Rémy en passant par les années parisiennes influencées par l'art japonais. Réservez en ligne - le musée fonctionne avec des créneaux d'entrée à capacité limitée stricte. Le quatrième étage qui présente ses troubles de santé mentale aux côtés des œuvres tardives constitue la curation muséale la plus intellectuellement honnête de la biographie d'un grand artiste en Europe.",
+        "walk_to_next": {
+          "to": "Vondelpark",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Vondelpark",
+        "wikidata_qid": "Q178885",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vondelpark",
+        "coordinates": {
+          "lat": 52.3581,
+          "lon": 4.8686
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Le parc central d'Amsterdam, 47 hectares de conception paysagère anglaise datant de 1865. L'entrée principale à l'est depuis Stadhouderskade est l'approche touristique ; entrez plutôt par le côté Vondelkerk au sud pour la longue vue diagonale sur le lac principal. En été, le théâtre de plein air accueille des concerts gratuits presque tous les soirs - consultez la programmation du Vondelpark Openluchttheater avant de vous y rendre.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Stedelijk Museum",
+          "wikidata_qid": "Q924335",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Stedelijk_Museum_Amsterdam",
+          "coordinates": {
+            "lat": 52.3581,
+            "lon": 4.8797
+          },
+          "neighborhood": "Museumplein",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Le musée national d'art moderne et contemporain, qui partage le Museumplein avec le Rijksmuseum et le Van Gogh. La collection permanente est particulièrement riche en De Stijl (Mondrian, Rietveld) et en avant-garde hollandaise d'après-guerre - des mouvements sous-représentés dans les collections internationales. L'extension baignoire de 2012 divise sur le plan architectural mais les galeries intérieures sont bien éclairées et faciles à parcourir.",
+          "walk_from_main_route": {
+            "from": "Van Gogh Museum",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Jordaan et Westerpark",
+      "cluster_tagline": "Le quartier le plus agréable à vivre d'Amsterdam - cours intérieures, galeries indépendantes et le meilleur marché de rue de la ville",
+      "neighborhood_focus": "Jordaan / Westerpark",
+      "neighborhood_description": "Le Jordaan fut construit au début du 17e siècle comme un quartier ouvrier juste à l'extérieur de la ceinture de canaux, son tracé suivant les lignes de drainage des anciens polders. Aujourd'hui, c'est le quartier résidentiel le plus recherché de la ville - petits canaux, rues étroites, cours intérieures appelées hofjes, et commerces indépendants qui ont résisté à la pression des chaînes de magasins qui menace la plupart des centres historiques européens.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3450,
+      "day_walking_minutes": 44,
+      "morning": {
+        "activity_title": "Noordermarkt and the Saturday market",
+        "wikidata_qid": "Q2572745",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Noordermarkt",
+        "coordinates": {
+          "lat": 52.3778,
+          "lon": 4.8836
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Le samedi, deux marchés se déroulent simultanément autour de l'église Noordermarkt : le Boerenmarkt (marché de producteurs biologiques) sur la place même et le marché aux puces et antiquités Noordermarkt le long du Prinsengracht et de la Westerstraat. Arrivez avant 10h quand les étals sont les plus garnis et que le quartier fait ses véritables courses plutôt que de poser pour les touristes. Le marché du lundi a un caractère différent - uniquement vêtements et textiles d'occasion.",
+        "walk_to_next": {
+          "to": "Jordaan hofjes",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Jordaan Hofjes Walk",
+        "wikidata_qid": "Q2365485",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hofje",
+        "coordinates": {
+          "lat": 52.374,
+          "lon": 4.882
+        },
+        "unesco_designation": {
+          "site_name": "Seventeenth-century canal ring area of Amsterdam inside the Singelgracht",
+          "year_inscribed": 2010,
+          "reference_number": 1349,
+          "url": "https://whc.unesco.org/en/list/1349"
+        },
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le Jordaan compte plus de vingt hofjes - cours fermées d'hospices construites par de riches marchands pour les personnes âgées démunies. La plupart sont encore résidentielles et ouvertes seulement en journée ; poussez la porte de la rue et entrez discrètement. Le Karthuizerhofje sur Karthuizerstraat (le plus grand d'Amsterdam) et le Sint Andrieshofje au Egelantiersgracht 107 sont les deux à privilégier. Ce dernier possède un tableau de carreaux de faïence dans le passage d'entrée daté de 1616.",
+        "walk_to_next": {
+          "to": "Westerpark",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Westerpark and Westergasfabriek",
+        "wikidata_qid": "Q2634713",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westerpark,_Amsterdam",
+        "coordinates": {
+          "lat": 52.3855,
+          "lon": 4.8716
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Un parc urbain aménagé autour de l'usine à gaz 19e siècle Westergasfabriek, dont les bâtiments industriels victoriens ont été convertis en cinémas, restaurants et espaces événementiels. Le parc longe le Westerkanaal et a un caractère beaucoup plus local que le Vondelpark. Les soirs de week-end en été, il y a presque toujours un événement en plein air au Gashouder ou au Transformatorhuis - consultez le site web du Westergasfabriek avant de venir.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Electric Ladyland - Museum of Fluorescent Art",
+          "wikidata_qid": "Q2319047",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Electric_Ladyland_(museum)",
+          "coordinates": {
+            "lat": 52.3741,
+            "lon": 4.8815
+          },
+          "neighborhood": "Jordaan",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un minuscule musée en sous-sol sur la Tweede Leliedwarsstraat entièrement consacré à l'art fluorescent et aux minéraux sous lumière ultraviolette. L'entrée est minimale, l'accès se fait par un head shop, et les visites sont assurées par le fondateur lui-même. Un créneau très spécialisé mais complètement unique - le genre de chose que seule une ville avec la tolérance du Jordaan pour l'excentricité individuelle pourrait maintenir pendant trente ans.",
+          "walk_from_main_route": {
+            "from": "Jordaan Hofjes Walk",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Brouwersgracht at dusk",
+          "wikidata_qid": "Q2662218",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Brouwersgracht",
+          "coordinates": {
+            "lat": 52.3786,
+            "lon": 4.8868
+          },
+          "neighborhood": "Jordaan",
+          "duration_minutes": 30,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Constamment élue la plus belle rue de canal d'Amsterdam par les résidents et architectes. Elle s'étend d'est en ouest à la pointe nord du Jordaan, si bien que le canal capte directement le soleil couchant. Les anciens entrepôts ont été convertis en appartements dans les années 1970 et conservent leurs portes de chargement et palans de toit comme texture architecturale.",
+          "walk_from_main_route": {
+            "from": "Noordermarkt",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "De Pijp et les Eastern Docklands",
+      "cluster_tagline": "L'Amsterdam ouvrier du 19ème siècle et son port industriel renaissent - le marché Albert Cuyp et NEMO",
+      "neighborhood_focus": "De Pijp / Oostelijk Havengebied",
+      "neighborhood_description": "De Pijp était le quartier ouvrier le plus dense d'Amsterdam, construit dans les années 1860 et 70 pour loger les travailleurs dans d'étroits immeubles locatifs. Aujourd'hui c'est le quartier le plus multiculturel de la ville, dominé par le marché Albert Cuyp. Les Eastern Docklands au nord sont les anciennes îles portuaires réaménagées depuis les années 1990 en vitrine de l'architecture contemporaine néerlandaise.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3000,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Albert Cuypmarkt",
+        "wikidata_qid": "Q879705",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Albert_Cuypmarkt",
+        "coordinates": {
+          "lat": 52.3551,
+          "lon": 4.8959
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Le plus grand marché de rue des Pays-Bas et l'un des plus grands d'Europe - 325 étals sur toute la longueur de l'Albert Cuypstraat, ouvert du lundi au samedi de 9h à 17h. Le marché mélange véritablement les stands alimentaires touristiques (stroopwafels, hareng cru) et les épiceries de quartier qui servent les communautés surinamaise, marocaine et turque du quartier. Allez d'abord vers l'extrémité ouest près de Ferdinand Bolstraat - cette section est la moins bondée et la plus authentique.",
+        "walk_to_next": {
+          "to": "Heineken Experience",
+          "distance_meters": 520,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sarphatipark",
+        "wikidata_qid": "Q2638491",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sarphatipark",
+        "coordinates": {
+          "lat": 52.3556,
+          "lon": 4.9002
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Le petit parc victorien au cœur de De Pijp, conçu en 1886 comme un poumon vert pour les denses îlots ouvriers qui l'entourent. Bien moins fréquenté que Vondelpark et vraiment utilisé par les familles et étudiants du quartier. Le monument à Samuel Sarphati au centre commémore le médecin juif qui milita pour la construction de De Pijp - il mourut en 1866 avant qu'aucune partie ne soit construite.",
+        "walk_to_next": {
+          "to": "NEMO Science Museum",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "evening": {
+        "activity_title": "NEMO Science Museum rooftop",
+        "wikidata_qid": "Q1820897",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/NEMO_Science_Museum",
+        "coordinates": {
+          "lat": 52.3742,
+          "lon": 4.9124
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "museum",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Le bâtiment en coque de cuivre vert de Renzo Piano qui surplombe l'entrée du tunnel IJ. La terrasse sur le toit est accessible gratuitement sans billet d'entrée au musée et offre le meilleur panorama surélevé sur le centre historique d'Amsterdam, le port et les Eastern Docklands à la fois. En été un bar sur le toit y fonctionne. Le bâtiment lui-même se voit mieux depuis le front de mer d'Oosterdok au niveau de l'eau - descendez jusqu'à la jetée avant de monter.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Eastern Docklands - Java Island and KNSM Island",
+          "wikidata_qid": "Q2472137",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Island,_Amsterdam",
+          "coordinates": {
+            "lat": 52.3749,
+            "lon": 4.9335
+          },
+          "neighborhood": "Oostelijk Havengebied",
+          "duration_minutes": 60,
+          "type": "street",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Les anciennes îles de fret réaménagées dans les années 1990 comme vitrine du design urbain néerlandais. Les maisons en terrasse de Java Island par différents architectes sur un cadre urbain commun constituent une expérience délibérée de variété sans chaos. Longez le quai sud pour les vues sur le port et les perspectives dégagées vers l'horizon du centre historique - c'est cet angle qui rend le cœur historique compact d'Amsterdam lisible dans sa totalité.",
+          "walk_from_main_route": {
+            "from": "NEMO Science Museum",
+            "distance_meters": 1200,
+            "walking_minutes": 15
+          }
+        },
+        {
+          "activity_title": "Joods Historisch Museum",
+          "wikidata_qid": "Q702726",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jewish_Historical_Museum,_Amsterdam",
+          "coordinates": {
+            "lat": 52.3674,
+            "lon": 4.9016
+          },
+          "neighborhood": "Jodenbuurt",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Quatre synagogues connectées des 17ème et 18ème siècles qui abritent l'histoire de la communauté juive d'Amsterdam - autrefois l'une des plus importantes et influentes d'Europe. Le complexe jouxte la Portuguese Synagogue, qui nécessite un billet séparé mais partage la même place. La combinaison de bâtiments historiques intacts et du poids de ce qui s'est passé ici entre 1940 et 1945 fait de ce lieu l'un des sites les plus bouleversants et importants des Pays-Bas.",
+          "walk_from_main_route": {
+            "from": "Sarphatipark",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "destination": "London",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Westminster / South Bank",
+    "The City / Tower",
+    "South Kensington / Hyde Park"
+  ],
+  "guide_description": "Trois jours pour découvrir l'essentiel de London : l'axe cérémoniel de Westminster, la City médiévale et financière avec sa tour classée UNESCO, et le triangle musées-parcs de South Kensington. Chaque journée est géographiquement cohérente.",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 6600,
+  "total_walking_minutes": 85,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Westminster et la South Bank",
+      "cluster_tagline": "L'axe cérémoniel de London - l'Abbey, Big Ben et la promenade de la Tamise",
+      "neighborhood_focus": "Westminster / South Bank",
+      "neighborhood_description": "Westminster est le siège du gouvernement britannique et l'église du couronnement de la monarchie, organisé autour de Parliament Square. La South Bank de l'autre côté de Westminster Bridge constitue le contrepoint culturel, bordée par la promenade fluviale, la London Eye et de grands lieux culturels.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Westminster Abbey",
+        "wikidata_qid": "Q5933",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+        "coordinates": {
+          "lat": 51.4994,
+          "lon": -0.1273
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Lieu de tous les couronnements anglais depuis 1066 et dernière demeure de dix-sept monarques. Réservez un billet horodaté en ligne pour éviter la queue. Le Poets' Corner (Chaucer, Dickens, Hardy, Browning) et la Coronation Chair sont les attractions évidentes ; le Cosmati Pavement souvent négligé, directement face au High Altar, est une mosaïque géométrique du 13ème siècle où ont lieu les vrais couronnements. Fermé le dimanche sauf pour les offices.",
+        "walk_to_next": {
+          "to": "Houses of Parliament",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Houses of Parliament and Big Ben",
+        "wikidata_qid": "Q41770",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
+        "coordinates": {
+          "lat": 51.4995,
+          "lon": -0.1248
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le Palais néo-gothique de Westminster, achevé en 1870 après l'incendie de l'édifice médiéval original en 1834. Les résidents du Royaume-Uni et du Commonwealth peuvent assister gratuitement aux débats en faisant la queue à Cromwell Green ; les visiteurs internationaux peuvent réserver des visites payantes les jours sans séance (généralement les samedis et semaines de pause parlementaire). Big Ben est la cloche, pas la tour - la tour elle-même est l'Elizabeth Tower, récemment restaurée dans ses couleurs victoriennes d'origine.",
+        "walk_to_next": {
+          "to": "London Eye via Westminster Bridge",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "South Bank and London Eye at sunset",
+        "wikidata_qid": "Q121130",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/London_Eye",
+        "coordinates": {
+          "lat": 51.5033,
+          "lon": -0.1196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Traversez Westminster Bridge pour la photo classique du Parlement et de l'Eye. Monter dans l'Eye est une question de budget - la vue est spectaculaire mais chère, et une promenade gratuite sur la South Bank vers l'est en direction de la Tate Modern offre le même panorama gratuitement. La meilleure lumière pour les photos se trouve dans les 30 minutes avant le coucher du soleil, quand la façade est du Parlement attrape les derniers reflets dorés.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Churchill War Rooms",
+          "wikidata_qid": "Q1133979",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Churchill_War_Rooms",
+          "coordinates": {
+            "lat": 51.5024,
+            "lon": -0.1294
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Le complexe souterrain où Churchill dirigeait les opérations britanniques de la Seconde Guerre mondiale, préservé exactement comme en 1945 - y compris une Cabinet Room avec la chaise que Churchill mordillait pendant les réunions. Réservez à l'avance ; c'est l'un des musées les plus visités de London et l'entrée sans réservation est rare.",
+          "walk_from_main_route": {
+            "from": "Houses of Parliament",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "St. James's Park",
+          "wikidata_qid": "Q216914",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St_James%27s_Park",
+          "coordinates": {
+            "lat": 51.5025,
+            "lon": -0.1342
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Le plus ancien des parcs royaux de Londres, avec un petit lac de pélicans (un cadeau d'un ambassadeur russe en 1664, entretenu continuellement depuis). Le pont qui traverse le lac offre l'une des vues les plus sous-estimées de Londres - Buckingham Palace dans une direction, les tours de Whitehall dans l'autre.",
+          "walk_from_main_route": {
+            "from": "Westminster Abbey",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "The City et Tower of London",
+      "cluster_tagline": "De forteresse médiévale à cœur financier - mille ans d'histoire londonienne stratifiés le long de la Tamise",
+      "neighborhood_focus": "The City / Tower",
+      "neighborhood_description": "Le Square Mile qui était la Londinium romaine et qui est resté toute la ville jusqu'à l'époque Tudor - maintenant le quartier financier de Londres, mais avec son tracé de rues médiévales, la Tower of London et St. Paul's Cathedral tous préservés. Le kilomètre carré le plus dense archéologiquement de Grande-Bretagne.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Tower of London",
+        "wikidata_qid": "Q11953",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_of_London",
+        "coordinates": {
+          "lat": 51.5081,
+          "lon": -0.0759
+        },
+        "unesco_designation": {
+          "site_name": "Tower of London",
+          "year_inscribed": 1988,
+          "reference_number": 488,
+          "url": "https://whc.unesco.org/en/list/488"
+        },
+        "duration_minutes": 180,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "La White Tower de William the Conqueror de 1078, plus 900 ans d'ajouts - palais royal, prison, trésor, monnaie et zoo à différentes époques. Réservez en ligne avant l'arrivée. Les visites guidées des Yeoman Warder (Beefeater) sont gratuites avec l'admission, ont lieu toutes les 30 minutes, et sont étonnamment la meilleure partie - spirituelles, irrévérencieuses et historiquement riches. La file d'attente des Crown Jewels avance le plus rapidement dans la première heure après l'ouverture.",
+        "walk_to_next": {
+          "to": "Tower Bridge",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tower Bridge and the riverside walk",
+        "wikidata_qid": "Q83125",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+        "coordinates": {
+          "lat": 51.5055,
+          "lon": -0.0754
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le pont basculant victorien souvent confondu avec London Bridge (qui est le pont ordinaire en amont). La passerelle entre les tours - maintenant avec des planchers de verre - est une attraction payante, mais traverser le tablier routier est gratuit et offre le même point de vue. Le pont se lève environ 800 fois par an ; l'horaire est publié en ligne et s'arrêter pour voir une levée en vaut la peine.",
+        "walk_to_next": {
+          "to": "St. Paul's Cathedral",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "St. Paul's Cathedral",
+        "wikidata_qid": "Q173882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St_Paul%27s_Cathedral",
+        "coordinates": {
+          "lat": 51.5138,
+          "lon": -0.0984
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Le chef-d'œuvre de Christopher Wren, achevé en 1710 après que le Great Fire ait détruit la cathédrale médiévale. La Whispering Gallery dans le dôme - 257 marches - a le truc acoustique qui lui donne son nom (un chuchotement contre le mur est audible à 30 mètres de distance du côté opposé). Entrée gratuite pour les offices ; billet requis pour les visites générales. Ferme vers 16h30 en semaine donc vérifiez les horaires avant de prévoir le coucher du soleil.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museum of London Docklands",
+          "wikidata_qid": "Q1948674",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_London_Docklands",
+          "coordinates": {
+            "lat": 51.5074,
+            "lon": -0.0234
+          },
+          "neighborhood": "Canary Wharf",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Musée gratuit dans un entrepôt à sucre géorgien reconverti, racontant l'histoire du port de Londres et le commerce (y compris l'histoire inconfortable de l'esclavage) qui a construit la ville moderne. Un trajet de 10 minutes en DLR depuis Tower Hill. Mieux visité comme alternative par jour de pluie à la promenade au bord de la rivière.",
+          "walk_from_main_route": {
+            "from": "Tower Bridge",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Borough Market",
+          "wikidata_qid": "Q913969",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Borough_Market",
+          "coordinates": {
+            "lat": 51.5055,
+            "lon": -0.0908
+          },
+          "neighborhood": "Southwark",
+          "duration_minutes": 60,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Le plus ancien marché alimentaire de Londres, en activité continue depuis le 13ème siècle, désormais la destination gastronomique de référence de Londres. Plus fréquenté vendredi et samedi ; fermé le dimanche. Le marché de jour du mardi au jeudi est plus calme et les commerçants ont plus de temps pour discuter. Une halte déjeuner naturelle entre Tower Bridge et St. Paul's via la rive sud.",
+          "walk_from_main_route": {
+            "from": "Tower Bridge",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "South Kensington et Hyde Park",
+      "cluster_tagline": "Le triangle des musées - trois collections de classe mondiale et le plus grandiose parc royal de Londres",
+      "neighborhood_focus": "South Kensington / Hyde Park",
+      "neighborhood_description": "Le quartier culturel victorien créé grâce aux bénéfices de la Great Exhibition de 1851, avec trois des plus grands musées du monde regroupés autour d'Exhibition Road. Au nord, de l'autre côté de Kensington Gore, Hyde Park et Kensington Gardens forment 250 hectares d'espaces verts royaux contigus.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Victoria and Albert Museum",
+        "wikidata_qid": "Q213322",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum",
+        "coordinates": {
+          "lat": 51.4966,
+          "lon": -0.1722
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Le plus grand musée mondial d'arts décoratifs et de design - 2,8 millions d'objets répartis dans 145 galeries. Entrée gratuite. Les cast courts (moulages en plâtre grandeur nature de la colonne de Trajan et du David de Michel-Ange, réalisés à l'époque où les musées victoriens collectionnaient les reproductions plutôt que les originaux) sont uniques à Londres. Le café du jardin sous les salles décorées par William Morris offre l'un des déjeuners de musée les plus agréables de la ville.",
+        "walk_to_next": {
+          "to": "Natural History Museum",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Natural History Museum",
+        "wikidata_qid": "Q309388",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London",
+        "coordinates": {
+          "lat": 51.4967,
+          "lon": -0.1764
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Entrée gratuite. Le squelette de baleine bleue de Hintze Hall (qui a remplacé Dippy le dinosaure en 2017) suspendu dans la nef centrale constitue la vue emblématique du bâtiment. Le simulateur de tremblement de terre dans la galerie Volcanoes and Earthquakes, recréant le séisme de Kobe de 1995 dans une reconstitution d'épicerie japonaise, est l'exposition la plus surprenante. Les familles dominent les week-ends - privilégiez un après-midi de semaine si vous voulez de l'espace pour réfléchir.",
+        "walk_to_next": {
+          "to": "Hyde Park Serpentine",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Hyde Park and the Serpentine at sunset",
+        "wikidata_qid": "Q83494",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hyde_Park,_London",
+        "coordinates": {
+          "lat": 51.5074,
+          "lon": -0.1657
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Parc royal de 350 acres, ouvert au public par Charles Ier en 1637. Le lac Serpentine (avec le Diana Memorial Fountain sur sa rive sud) constitue le point focal naturel. La location de bateaux est disponible au lac ; les Serpentine Galleries côté sud accueillent des expositions d'art contemporain et un célèbre pavillon d'été commandé chaque année. Speakers' Corner à l'extrémité nord-est (Marble Arch) accueille encore les orateurs du dimanche matin.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Science Museum",
+          "wikidata_qid": "Q674773",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Science_Museum,_London",
+          "coordinates": {
+            "lat": 51.4978,
+            "lon": -0.1745
+          },
+          "neighborhood": "South Kensington",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Entrée gratuite. La Rocket de Stephenson, le module de commande d'Apollo 10, la première machine analytique de Babbage. La galerie Information Age au deuxième étage présente le récit le mieux structuré - elle retrace la communication depuis le premier câble transatlantique jusqu'à l'internet moderne. Moins pris d'assaut par les enfants que le Natural History Museum d'à côté.",
+          "walk_from_main_route": {
+            "from": "Victoria and Albert Museum",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Kensington Gardens and Palace",
+          "wikidata_qid": "Q1059306",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kensington_Gardens",
+          "coordinates": {
+            "lat": 51.5074,
+            "lon": -0.1801
+          },
+          "neighborhood": "Kensington",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Le prolongement occidental de Hyde Park, techniquement un parc royal distinct. Kensington Palace, situé à la limite ouest, a été la résidence de tous les monarques britanniques de William III à la reine Victoria - c'est aujourd'hui la demeure du Prince et de la Princesse de Wales. L'Albert Memorial, sur le côté sud, constitue le plus grandiose hommage de Victoria à son défunt époux, récemment restauré dans son état doré d'origine.",
+          "walk_from_main_route": {
+            "from": "Hyde Park Serpentine",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}
