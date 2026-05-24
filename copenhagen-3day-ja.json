@@ -1,0 +1,346 @@
+{
+  "destination": "Copenhagen",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:25:03.372Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Slotsholmen / Indre By",
+    "Frederiksstaden / Nyhavn",
+    "Frederiksberg / Vesterbro"
+  ],
+  "guide_description": "Copenhagenの本質的な魅力を3日間で巡る：市の行政中心部にある中世の島要塞、北東部のバロック様式の王室地区と運河地区、そしてFrederiksberg宮殿庭園を中心とした緑豊かな西部地区。各日程は地理的にまとまっています。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 6110,
+  "total_walking_minutes": 77,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Slotsholmenと旧市街",
+      "cluster_tagline": "島要塞とその周辺に発達した中世の街路網",
+      "neighborhood_focus": "Slotsholmen / Indre By",
+      "neighborhood_description": "Slotsholmenは運河によって市の他の地域から分離された小さな島で、Christiansborg宮殿とデンマーク国会議事堂があります。周辺のIndre By地区にはCopenhagenで最も古い街路パターンが保存されており、Round TowerやLatin Quarterへも徒歩圏内です。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1820,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Christiansborg Palace",
+        "wikidata_qid": "Q331498",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christiansborg_Palace",
+        "coordinates": {
+          "lat": 55.6763,
+          "lon": 12.5797
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "世界で唯一、政府の三権すべて（議会、最高裁判所、王室接客間）を収容する建物です。王室接客間は有料ですが、タペストリー・ホールだけでも見る価値があります。ここにはMargrethe II女王が依頼したスタイルでデンマークの歴史を描いた15枚の記念碑的なタペストリーが展示されています。宮殿の塔は無料で毎日開放されており、エレベーターで上がって外部テラスを歩けば、市内中心部で最も高い公共展望台からの眺めを楽しめます。",
+        "walk_to_next": {
+          "to": "National Museum of Denmark",
+          "distance_meters": 350,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "National Museum of Denmark",
+        "wikidata_qid": "Q657211",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Denmark",
+        "coordinates": {
+          "lat": 55.6753,
+          "lon": 12.5763
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "デンマーク最大の博物館で、Christiansborgから運河を挟んだ真向かいにあるバロック様式のPrince's Palaceを占めています。先史時代のコレクションが最大の見どころで、3,400年前の金箔を施した青銅製の祭祀用品である太陽の馬車（Solvognen）は、それだけでスカンジナビア半島で最も注目すべき遺物です。入場無料なので、この一帯全体を雨の日に巡る拠点として自然な選択となります。",
+        "walk_to_next": {
+          "to": "Round Tower",
+          "distance_meters": 750,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Round Tower",
+        "wikidata_qid": "Q656829",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Round_Tower",
+        "coordinates": {
+          "lat": 55.6814,
+          "lon": 12.5756
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "17世紀の天文観測所で、階段ではなく連続したらせん状のスロープがあります。Peter大帝が馬に乗って頂上まで上がったと伝えられるほど幅が広いものです。34.8メートルの高さにある展望台からは、Indre Byの銅屋根を360度見渡すことができます。閉館前の最後の1時間に上れば、街が金色に染まる様子を見ることができます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Ruins of Absalon's Castle",
+          "wikidata_qid": "Q4665267",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ruins_under_Christiansborg_Palace",
+          "coordinates": {
+            "lat": 55.6761,
+            "lon": 12.5801
+          },
+          "neighborhood": "Slotsholmen",
+          "duration_minutes": 40,
+          "type": "archaeological_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Christiansborgの地下にある、1167年にBishop Absalonがコペンハーゲンを建設した際に築いた12世紀の城の発掘された基礎部分です。宮殿の共通チケットに含まれているか、単体でも購入できます。明るく照らされた歩道が地下レベルで元の石壁の間を縫って通っており、文字通り街の起源となった場所に立つ貴重な機会を提供しています。",
+          "walk_from_main_route": {
+            "from": "Christiansborg Palace",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Thorvaldsens Museum",
+          "wikidata_qid": "Q2411706",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Thorvaldsens_Museum",
+          "coordinates": {
+            "lat": 55.6766,
+            "lon": 12.5784
+          },
+          "neighborhood": "Slotsholmen",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "1848年に建設されたこの美術館は、Canovaに匹敵したデンマークの新古典主義彫刻家Bertel Thorvaldsenの全作品を収蔵するために建てられました。外壁のフリーズには、Copenhagenが彼を故郷に迎え入れる際に船から彼の作品が荷揚げされる様子が描かれています。Thorvaldsenは美術館の中庭の庭園に埋葬されており、この島で最も静寂な場所の一つとなっています。",
+          "walk_from_main_route": {
+            "from": "Christiansborg Palace",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "FrederiksstadanとNyhavn",
+      "cluster_tagline": "バロック様式の王室地区、運河地区、そして街を特徴づける水辺",
+      "neighborhood_focus": "Frederiksstaden / Nyhavn",
+      "neighborhood_description": "Frederiksstadanは18世紀に計画された地区で、Amalienborg Palace Squareを中心とした厳格な八角形の格子状に配置されています。北側はKastellet要塞と港湾地区に、南西側はNyhavnに接続しています。Nyhavnは修復された運河沿いにカラフルな商家が並ぶ地区で、Copenhagenの最も象徴的な景観となっています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2290,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Amalienborg Palace and Square",
+        "wikidata_qid": "Q332683",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Amalienborg",
+        "coordinates": {
+          "lat": 55.6839,
+          "lon": 12.5928
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "castle",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "八角形の広場を囲んで配置された4つの同一のロココ様式宮殿で、中央にはFrederik V世の騎馬像が立っています。衛兵交代式はRosenborg Castleから午前11時30分に出発し、正午きっかりにここに到着します。この時間に合わせて訪問する価値があります。Palace Christian VIIIにあるAmalienborg Museumでは王室の居住区画に最も親密にアクセスでき、一翼は現在も王室が実際に使用しています。",
+        "walk_to_next": {
+          "to": "The Marble Church (Frederiks Kirke)",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "The Marble Church",
+        "wikidata_qid": "Q656850",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Frederik%27s_Church",
+        "coordinates": {
+          "lat": 55.6845,
+          "lon": 12.5907
+        },
+        "unesco_designation": null,
+        "duration_minutes": 40,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Frederiks Kirkeは建設途中で資金が尽き、完成まで150年を要しました。直径31メートルのドームはスカンジナビアでも最大級の一つです。内部への入場は無料で、夏の週末にはガイド付きのドーム登頂ツアーが実施され、彩色されたドラム部分を間近で見た後、Frederiksstadtの屋根線上の外部歩道に出ることができます。",
+        "walk_to_next": {
+          "to": "Kastellet",
+          "distance_meters": 850,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Nyhavn Canal",
+        "wikidata_qid": "Q660993",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nyhavn",
+        "coordinates": {
+          "lat": 55.6796,
+          "lon": 12.5908
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "17世紀に市の中心部と港を結ぶために建設された運河で、Hans Christian Andersenは生涯の異なる時期に20番、67番、18番に住んでいました。南岸（日当たりの良い側）は観光客で賑わいますが、北岸に行けばより少ない人込みで彩色されたファサードの適切な眺めを楽しめます。運河の河口は港に面しており、ハーバーバスが運行されています。このエリアと島々を結ぶ安価な移動手段です。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kastellet",
+          "wikidata_qid": "Q655870",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kastellet,_Copenhagen",
+          "coordinates": {
+            "lat": 55.6892,
+            "lon": 12.5942
+          },
+          "neighborhood": "Frederiksstaden",
+          "duration_minutes": 40,
+          "type": "fortress",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "1626年に建設された星型のルネサンス要塞で、現在も現役の軍事基地として北ヨーロッパでも最も保存状態の良い同種の要塞の一つです。敷地内は自由に歩くことができ、土塁の城壁は外周に沿って連続した歩道を形成しています。Little Mermaid像は東門のすぐ外の岩の上にあり、正門から徒歩5分の距離にあります。",
+          "walk_from_main_route": {
+            "from": "The Marble Church",
+            "distance_meters": 850,
+            "walking_minutes": 11
+          }
+        },
+        {
+          "activity_title": "SMK - National Gallery of Denmark",
+          "wikidata_qid": "Q671248",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Gallery_of_Denmark",
+          "coordinates": {
+            "lat": 55.6886,
+            "lon": 12.5774
+          },
+          "neighborhood": "Osterbro",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Denmarkの最大の美術館で、19世紀の建物とガラスの橋で繋がっています。Danish Golden Ageのギャラリー - Eckersberg、Kobke、Hammershoi - が、国際的な代替選択肢よりもここを優先する理由です。常設展は火曜日は無料で、それ以外は有料チケットで企画展も見られますが、通常は企画展の方が見どころです。",
+          "walk_from_main_route": {
+            "from": "Kastellet",
+            "distance_meters": 900,
+            "walking_minutes": 11
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "FrederiksborgとVesterbro",
+      "cluster_tagline": "宮殿庭園、Tivoli、そして市内で最も雰囲気のある労働者街",
+      "neighborhood_focus": "Frederiksberg / Vesterbro",
+      "neighborhood_description": "Frederiksborgは技術的にはCopenhagenに完全に囲まれた独立した自治体で、丘の上の宮殿と動物園に隣接する正式庭園を中心としています。Vestbroは中央駅に向かって東に延び、2000年代に歓楽街からKodbyenの古い食肉処理場周辺の密度の高いクリエイティブな地区へと変貌しました。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Frederiksberg Gardens and Palace",
+        "wikidata_qid": "Q1386444",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Frederiksberg_Gardens",
+        "coordinates": {
+          "lat": 55.6733,
+          "lon": 12.5226
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "運河沿いの丘陵地に広がる32ヘクタールのEnglish風ロマンチック庭園で、手漕ぎボートのレンタルも可能。東斜面にあるChinese Pavilionは1799年に建てられ、Scandinaviaで最も美しいシノワズリ様式の庭園建築の一つ。正門ではなくFrederiksberg Alleから入園し、南側から丘を登って宮殿のテラスに向かうと、眼下に広がる庭園を最高の角度で眺めることができる。",
+        "walk_to_next": {
+          "to": "Frederiksberg Palace",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tivoli Gardens",
+        "wikidata_qid": "Q495699",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tivoli_Gardens",
+        "coordinates": {
+          "lat": 55.6736,
+          "lon": 12.5681
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "1843年開園の世界で2番目に古い現役遊園地で、観光客向けの後付け施設ではなく、Copenhagenの市民アイデンティティを体現する本物のスポット。Walt DisneyもDisneyland設計前にここを訪れている。Wooden Roller Coasterは1914年製で、世界最古級の現役木製コースターの一つ。午後入園は夕方より安く、夕暮れ時に提灯やイルミネーションが灯る様子を見るため滞在するのがおすすめ。",
+        "walk_to_next": {
+          "to": "Kodbyen (Meatpacking District)",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Kodbyen - Copenhagen Meatpacking District",
+        "wikidata_qid": "Q12330699",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/K%C3%B8dbyen",
+        "coordinates": {
+          "lat": 55.6683,
+          "lon": 12.5556
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "20世紀初頭の白タイル張り食肉工場群で、現在も数軒の精肉店と共にバー、レストラン、ギャラリーが入居している。White Meat City区域は夕方が最も活気があり、バーのテラス席が埋まり始める19時頃の到着がおすすめ。Nyhavnと違い、ここは地元Copenhagener達が実際に出かける場所で、観光地中心部とは価格帯や客層が明らかに異なる。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Ny Carlsberg Glyptotek",
+          "wikidata_qid": "Q671222",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ny_Carlsberg_Glyptotek",
+          "coordinates": {
+            "lat": 55.6727,
+            "lon": 12.5716
+          },
+          "neighborhood": "Vesterbro",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Carl JacobsenがCarlsberg醸造所の利益で1897年に建設した美術館で、Rome以外では屈指の古代地中海彫刻コレクションと充実したフランス印象派部門を誇る。美術館中央部のWinter Garden（ヤシの木が茂るガラス張りアトリウム）は入場無料で、地元の人々が静かな昼食スポットとして利用している。火曜日は入館無料。",
+          "walk_from_main_route": {
+            "from": "Tivoli Gardens",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Rosenborg Castle",
+          "wikidata_qid": "Q332485",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rosenborg_Castle",
+          "coordinates": {
+            "lat": 55.6858,
+            "lon": 12.5774
+          },
+          "neighborhood": "Indre By",
+          "duration_minutes": 75,
+          "type": "castle",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "1606年から1624年にかけて建設されたChristian IV世のオランダ・ルネサンス様式の夏の宮殿で、現在は地下の金庫室にデンマーク王室の宝冠宝器類が収蔵されています。3階の騎士の間には17世紀当時のオリジナルの調度品がそのまま残されており、戴冠式で使用された王座を3体の銀のライオンが守っています。周囲のKing's Gardenは、Copenhagen最古の公共庭園で、城が閉館している時でも無料で入園できます。",
+          "walk_from_main_route": {
+            "from": "Tivoli Gardens",
+            "distance_meters": 1300,
+            "walking_minutes": 16
+          }
+        }
+      ]
+    }
+  ]
+}

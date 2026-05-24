@@ -1,0 +1,128 @@
+{
+  "destination": "Barcelona",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Barri Gòtic / El Born"
+  ],
+  "guide_description": "Barcelonaの中世の中心部を歩く一日コース。Gothic Cathedralを起点として東のEl Bornエリアまで広がります。狭い石畳の路地、ローマ時代の遺構、そしてヨーロッパで最も密度の高い中世建築群の一つを1 kmのルートで巡ります。",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 1800,
+  "total_walking_minutes": 23,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Barri GòticとEl Born",
+      "cluster_tagline": "中世のBarcelonaを徒歩で巡る - Cathedral、ローマ時代の城壁、商人街",
+      "neighborhood_focus": "Barri Gòtic / El Born",
+      "neighborhood_description": "Barcelonaの歴史的中心部を形成する隣接する二つの中世地区。Barri Gòticはローマ時代の遺構の上に建てられ、Gothic Cathedralを中心としています。東側のEl Bornはかつての商人街で、より狭く活気があり、中心にはSanta Maria del Marのバシリカが建っています。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Cathedral of Barcelona (La Seu)",
+        "wikidata_qid": "Q56551",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cathedral_of_Barcelona",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1761
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "14世紀のゴシック様式大聖堂で、ガウディのSagrada Famíliaとよく混同されるが、建築様式は全く異なる。回廊には13羽の白いガチョウがいる（伝承によると聖Eulaliaの生涯の年数を表している）のが意外な見どころ。屋上テラスは小額の料金でエレベーターでアクセスでき、Sagrada Famíliaの観光客がめったに探し求めないゴシック地区を見渡す屋上からの眺望が楽しめる。",
+        "walk_to_next": {
+          "to": "Plaça del Rei",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Plaça del Rei and the Roman walls",
+        "wikidata_qid": "Q807877",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1775
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "中世の王の広場で、1493年にColumbusがFerdinandとIsabellaに発見を報告したとされるPalau Reial Majorに囲まれている。広場にあるMUHBA Barcelona History Museumの入口から地下に降りると、足元の真下に驚くほど保存状態の良い4kmのローマ時代のBarcino遺跡がある - 街路、染物工場、ワイナリーなど。Barcelonaで最も驚きの博物館見学体験。",
+        "walk_to_next": {
+          "to": "Santa Maria del Mar",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Santa Maria del Mar",
+        "wikidata_qid": "Q930687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+        "coordinates": {
+          "lat": 41.3838,
+          "lon": 2.1819
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Ribera地区の商人や荷運び人によって1329-1383年に建設され、労働者階級によって全額資金提供された - 地元では「海の大聖堂」と呼ばれている。純粋なカタルーニャ・ゴシック様式の内部は、フランスゴシック様式と比べて異例に幅広く開放的で、ガウディ以降の建築家たちに影響を与えた比例感を持つ。バラ窓を通して差し込む午後遅い時間の日光が視覚的な報酬。Ildefonso Falconesによるバシリカ小説が2000年代に海外で有名にした。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Picasso Museum",
+          "wikidata_qid": "Q832627",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Picasso",
+          "coordinates": {
+            "lat": 41.3853,
+            "lon": 2.1808
+          },
+          "neighborhood": "El Born",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Picassoの初期作品の最大コレクションで、El Bornの繋がった5つの中世の館に収蔵されている。この美術館の強みは、Picassoになる前のPicassoを見せることにある - Barcelonaでの学究的な時代、青の時代、1957年のLas Meninas連作。月曜休館。木曜午後と毎月第1日曜日は入場無料 - これらの時間帯は大変混雑する。",
+          "walk_from_main_route": {
+            "from": "Santa Maria del Mar",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Plaça Reial",
+          "wikidata_qid": "Q1132498",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_Reial",
+          "coordinates": {
+            "lat": 41.3803,
+            "lon": 2.175
+          },
+          "neighborhood": "Barri Gòtic",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "La Ramblaから少し離れた19世紀のアーケード広場で、ヤシの木と若きAntoni Gaudíがデザインした2本の鋳鉄製街灯が特徴的です。これは1879年の彼の初期の有償依頼の一つでした。広場のバーやレストランは日中は観光客向けですが、夜になると建築的な雰囲気が一変します。Santa Maria del MarからCarrer del Bisbe経由で戻ると、この地区で最も写真撮影されているゴシック様式の橋を見ることができます。",
+          "walk_from_main_route": {
+            "from": "Cathedral of Barcelona",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    }
+  ]
+}

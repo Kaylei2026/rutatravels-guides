@@ -1,0 +1,484 @@
+{
+  "destination": "Copenhagen",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:26:47.498Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Indre By - Slotsholmen",
+    "Nyhavn - Frederiksstaden",
+    "Rosenborg - Osterbro",
+    "Vesterbro - Frederiksberg",
+    "Christianshavn"
+  ],
+  "guide_description": "Copenhagen の本質を5日間で巡る：街の起源である中世の島要塞、運河地区と王室バロック地区、庭園と宮殿の北部エリア、食肉処理場と公園の西部地域、そして港の向こう側にある独立した運河島。各日程は地理的にまとまっており、地下鉄を使わずに歩いて回れます。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 18200,
+  "total_walking_minutes": 228,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Slotsholmen と Indre By",
+      "cluster_tagline": "建国の島 - 王権、中世の小道、市庁舎広場",
+      "neighborhood_focus": "Indre By / Slotsholmen",
+      "neighborhood_description": "Slotsholmen は Copenhagen の中心にある小さな島で、1167年に司教 Absalon が最初の城を建てた場所です。現在は Christiansborg Palace と数多くの民主的機関が置かれています。周囲の Indre By の中世の小道が格子状に広がり、19世紀の Stroget ショッピング街と市庁舎広場を結んでいます。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Christiansborg Palace",
+        "wikidata_qid": "Q319851",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christiansborg_Palace",
+        "coordinates": {
+          "lat": 55.6763,
+          "lon": 12.5796
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "世界で唯一、国家の三権すべて（議会、最高裁判所、首相官邸）を収容する建物で、王室迎賓館とともに島を共有しています。無料の塔展望デッキからは、Copenhagen中心部の最高のパノラマが楽しめます。エレベーターで上がり、最後に階段を登ると、緑の銅屋根の上に開放的な展望台があります。Bishop Absalonが1167年に建てた元の城の遺跡が地下に保存されており、メインチケットに含まれています。",
+        "walk_to_next": {
+          "to": "Thorvaldsens Museum",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Thorvaldsens Museum",
+        "wikidata_qid": "Q671888",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Thorvaldsens_Museum",
+        "coordinates": {
+          "lat": 55.6757,
+          "lon": 12.5782
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "彫刻家Bertel Thorvaldsenの生涯の作品と彼の個人的な古美術品コレクションを収蔵するため、1848年に建てられました。彼のCopenhagenへの凱旋帰国を描いた外壁のフリーズが建物の周りを連続して巡っています。Thorvaldsen自身の墓が中央の中庭にあり、この規模の美術館としては珍しく親密な配置となっています。18歳未満は入場無料で、大人料金も手頃な価格設定です。",
+        "walk_to_next": {
+          "to": "Copenhagen City Hall",
+          "distance_meters": 850,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Copenhagen City Hall and Radhuspladsen",
+        "wikidata_qid": "Q1313098",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Copenhagen_City_Hall",
+        "coordinates": {
+          "lat": 55.6757,
+          "lon": 12.5683
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "1905年のNational Romantic様式の赤レンガ建築がStrogetの西端に位置しています。メインホール内のJens Olsenによる時計は、これまでに作られた機械式天文時計の中でも最も複雑なもので、製作に27年を要し、300年間で0.4秒の精度を誇ります。この時計は平日のガイドツアーで見学できます。夕暮れ時のRadhuspladssenから、Stroget沿いに東の運河方面を眺めると、街の方向感覚を最もシンプルに把握できます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The National Museum of Denmark",
+          "wikidata_qid": "Q657010",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Denmark",
+          "coordinates": {
+            "lat": 55.6751,
+            "lon": 12.5739
+          },
+          "neighborhood": "Indre By",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Christiansborgから徒歩5分の、デンマーク最大の文化史博物館です。2階の青銅器時代コレクションは秀逸で、紀元前900年の金箔を施した馬車型円盤Trundholm太陽戦車が最も印象的な展示品です。Viking展示も充実しており、簡略化されていません。入場無料です。",
+          "walk_from_main_route": {
+            "from": "Christiansborg Palace",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "NyhavnとFrederiksstaden",
+      "cluster_tagline": "彩色運河とバロック様式の王室街区 - Copenhagenで最も有名な顔",
+      "neighborhood_focus": "Nyhavn / Frederiksstaden",
+      "neighborhood_description": "Nyhavnは17世紀に港と市内中心部を結ぶために掘られた運河で、その北岸に並ぶ色鮮やかに塗られた商家はデンマークで最も写真に撮られる風景です。5分ほど北に向かうと、Frederiksstaden は18世紀の王室地区で、フランス・バロック様式の格子状に設計され、8角形の広場を中心に四隅すべてに宮殿が配置されています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3600,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Nyhavn Canal",
+        "wikidata_qid": "Q186434",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nyhavn",
+        "coordinates": {
+          "lat": 55.6796,
+          "lon": 12.5912
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "北岸ではなく南岸を歩きましょう。南側からは彩色されたファサードを正面に見ることができ、朝の光が直接当たります。Hans Christian Andersenは時期によって18番、20番、67番に住んでおり、20番には小さな記念プレートが設置されています。朝の10時前に到着すれば、午前中頃には北岸のベンチを埋め尽くすツアーグループより先に楽しむことができます。",
+        "walk_to_next": {
+          "to": "Amalienborg Palace",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Amalienborg Palace",
+        "wikidata_qid": "Q318940",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Amalienborg",
+        "coordinates": {
+          "lat": 55.6839,
+          "lon": 12.5932
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "castle",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "八角形の広場に建つ4つの同一のロココ様式宮殿で、現在もデンマーク王室の居住地となっている。正午の衛兵交代式はChristiansborgを11:30amに出発し、正午にAmalienborgに到着する - 可能であればタイミングを合わせる価値がある。Amalienborg MuseumはChristian IX世とFrederick VIII世の宮殿の一部を占め、19世紀からほぼ変わらぬ王室の居住空間を展示している。Amalienborg Slotspladsの中央に立ち、西方向の軸線を見ると、宮殿の間に完璧に額縁のように収まったMarble Churchのドームを見ることができる。",
+        "walk_to_next": {
+          "to": "The Marble Church",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "The Marble Church",
+        "wikidata_qid": "Q1398433",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_Church,_Copenhagen",
+        "coordinates": {
+          "lat": 55.6841,
+          "lon": 12.5899
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Frederiks KirkeはRomeのSt. Peter's大聖堂を緩やかに模倣して建てられ、Frederick V世が資金不足に陥ったため建設に150年を要した。内部のドームは直径31メートルで、Scandinaviaで最大である。ドームの回廊は週末の午後に一般公開され、格間天井画の間近での鑑賞と、銅製ドラム上部の屋上回廊を巡ることができる。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The Little Mermaid",
+          "wikidata_qid": "Q221656",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)",
+          "coordinates": {
+            "lat": 55.6929,
+            "lon": 12.5993
+          },
+          "neighborhood": "Langelinie",
+          "duration_minutes": 20,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Edvard Eriksenによるブロンズ像は1913年に除幕され、高さ1.25メートルと予想より小さいことで有名である。人混みを避けて見学する機会を得るには早朝に行くとよい。正午頃には人に囲まれてしまう。公園を横切るのではなく、Langelinie遊歩道を北に向かって歩くことをお勧めする - 港の景色を楽しめ、上方のCitadel要塞の規模を実感することができる。",
+          "walk_from_main_route": {
+            "from": "Amalienborg Palace",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        },
+        {
+          "activity_title": "Kastellet",
+          "wikidata_qid": "Q1720454",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kastellet,_Copenhagen",
+          "coordinates": {
+            "lat": 55.6908,
+            "lon": 12.5956
+          },
+          "neighborhood": "Frederiksstaden",
+          "duration_minutes": 30,
+          "type": "fortress",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "17世紀の星型要塞で、技術的には現在も軍事施設だが歩行者に開放されている。土塁の城壁と堀は完全に残っており、外周を歩くには約20分かかり、17世紀の城塞幾何学がどのように機能したかを明確に理解できる。内部の風車と礼拝堂は当時のままである。",
+          "walk_from_main_route": {
+            "from": "Amalienborg Palace",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Rosenborgと美術館地区",
+      "cluster_tagline": "ルネッサンス式庭園と国立コレクションが最も密集した市内エリア",
+      "neighborhood_focus": "Rosenborg / Osterbro approach",
+      "neighborhood_description": "Kongens Have庭園とRosenborg城は中世都市の北端に位置し、Norreport駅から徒歩5分の場所にあります。周辺のブロックには国立美術館、地質博物館、Hirschsprung Collectionが近距離に集まっており、ロンドンのSouth Kensingtonエリアに相当するCopenhagen文化地区となっています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Rosenborg Castle",
+        "wikidata_qid": "Q322383",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rosenborg_Castle",
+        "coordinates": {
+          "lat": 55.6861,
+          "lon": 12.5772
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "1606年から1624年に建設されたChristian 4世のオランダ・ルネッサンス様式の離宮で、現在は17世紀以降のデンマーク王室史を時代順に展示する博物館となっています。地下の宝物庫には王冠宝器が収蔵されており、Christian 4世の王冠や1671年以来すべてのデンマーク戴冠式で使用されてきた王権の象徴が展示されています。3階の大広間には創建当時の天井画と、等身大の3頭の銀のライオンに挟まれた王座があり、荒唐無稽でありながら壮麗な光景を呈しています。",
+        "walk_to_next": {
+          "to": "Kongens Have",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Kongens Have",
+        "wikidata_qid": "Q2542714",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kongens_Have",
+        "coordinates": {
+          "lat": 55.6865,
+          "lon": 12.5754
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Copenhagenで最も古い公園で、18世紀に市民に開放され、入場無料です。Rosenborgを囲む庭園の幾何学的配置は17世紀フランス式正庭園のオリジナルレイアウトで、外側の部分はよりカジュアルなイングリッシュパーク様式になっています。夏の午後にはHercules Pavilion近くで人形劇が上演されます。これは純粋に地元の催しで、ほとんどの観光客が気づかずに素通りしてしまいます。",
+        "walk_to_next": {
+          "to": "National Gallery of Denmark",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "National Gallery of Denmark - Statens Museum for Kunst",
+        "wikidata_qid": "Q671384",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Statens_Museum_for_Kunst",
+        "coordinates": {
+          "lat": 55.6891,
+          "lon": 12.5768
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "1896年の建物と1998年のモダニスト棟が光に満ちた彫刻ストリートで繋がれた、デンマークの国立美術コレクション。デンマーク黄金時代コレクション（Eckersberg、Hammershoi、Lundbye）が訪問する最大の理由で、国際的にはあまり紹介されていません。古い棟の大型Rubens作品は予想以上に素晴らしいものです。常設展は入場無料。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The Hirschsprung Collection",
+          "wikidata_qid": "Q1622492",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hirschsprung_Collection",
+          "coordinates": {
+            "lat": 55.6906,
+            "lon": 12.5768
+          },
+          "neighborhood": "Osterbro",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "たばこ王Heinrich Hirschsprungが個人収集した19世紀デンマーク美術コレクションで、1902年に国に遺贈され、公園内に専用に建設された新古典主義のパビリオンに展示されています。海外からの観光客はほとんどいません。Hammershoiの部屋だけでも—不思議な静けさを湛えたグレートーンの室内画—手頃な入場料を払う価値があります。",
+          "walk_from_main_route": {
+            "from": "National Gallery of Denmark",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "VesterbroとFrederiksberg",
+      "cluster_tagline": "食肉加工地区、王室の丘陵公園、そしてCopenhagen最高のフードマーケット",
+      "neighborhood_focus": "Vesterbro / Frederiksberg",
+      "neighborhood_description": "Vesterbro は Copenhagen の労働者階級の食肉処理場地区でしたが、現在は市内で最も活気ある食とデザインの街となっています。徒歩で西に10分のところにある Frederiksberg は完全に独立した自治体で、見晴らしの良い丘陵公園と夏の王室離宮がある裕福なガーデンシティです。この2つの地区を合わせると、市内で最も住みやすく、観光客が最も少ない一日観光コースになります。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 4200,
+      "day_walking_minutes": 53,
+      "morning": {
+        "activity_title": "Torvehallerne Market",
+        "wikidata_qid": "Q12329584",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Torvehallerne",
+        "coordinates": {
+          "lat": 55.6833,
+          "lon": 12.5689
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Israels Plads にある2つの屋根付きガラス製マーケットホールで、約60の店舗があります。東側入口近くの Hall 1 にある燻製魚とオープンサンドイッチのカウンターは、Copenhagen で最も模倣されているランチです。ディルとマスタードを添えたライ麦パンの塩漬けサーモンは、smørrebrød がどういうものかを知る上で妥当な基準となります。昼食の行列ができる前の午前9時から11時の間に行くのがおすすめです。外周の花屋は、ホールよりも古い歴史ある屋外市場の名残です。",
+        "walk_to_next": {
+          "to": "Meatpacking District - Kodbyen",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "afternoon": {
+        "activity_title": "Kodbyen - the Meatpacking District",
+        "wikidata_qid": "Q3856563",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/K%C3%B8dbyen",
+        "coordinates": {
+          "lat": 55.6702,
+          "lon": 12.5537
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "1879年から1934年にかけて建設された、機能的に異なる3つの区域 - Brown Meat City、White Meat City、Grey Meat City があり、すべて当時のタイル張りの内装と鋳鉄製の設備がそのまま残されています。White Meat City が現在最も活気のある区域で、かつての精肉場だった建物にレストランやギャラリーが入っています。日中は比較的静かで、ほとんどの店舗は午後5時から本格的にオープンしますが、白い外壁の建築は午後の光の中で最も美しく見えます。",
+        "walk_to_next": {
+          "to": "Frederiksberg Gardens",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "evening": {
+        "activity_title": "Frederiksberg Gardens and Palace",
+        "wikidata_qid": "Q1393018",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Frederiksberg_Gardens",
+        "coordinates": {
+          "lat": 55.6731,
+          "lon": 12.5232
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Copenhagenで最も洗練された景観 - 宮殿近くの正式なフランス式花壇庭園から始まり、丘を下るにつれて湖と運河のあるロマンチックなイギリス式公園へと変化します。Frederiksberg Palaceが頂上にあり、現在も王立陸軍士官学校によって使用されています。外観とテラスは見学可能です。下の湖の島にあるChinese pavilionは1799年に建てられ、Scandinaviaで最も風変わりな王室の装飾建築の一つです。宮殿のテラスからの夕日は、街の中心部に向かって屋根越しに東の景色を眺められます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Cisternerne",
+          "wikidata_qid": "Q15643930",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cisternerne",
+          "coordinates": {
+            "lat": 55.6742,
+            "lon": 12.5204
+          },
+          "neighborhood": "Frederiksberg",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Frederiksberg Hillの地下にある19世紀の淡水貯水槽で、現代アートとインスタレーションのスペースに改装されました。アーチ型のレンガ造りの部屋の床には薄い水の膜があり、アーチ型の天井を鏡のように映し出します。この空間はCopenhagenの他の場所では体験できない本当にユニークな場所です。公園内のGlass Hall近くの目立たない入口からアクセスできます。",
+          "walk_from_main_route": {
+            "from": "Frederiksberg Gardens",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Christianshavn",
+      "cluster_tagline": "港の向こう側の運河島 - Church of Our Saviour、理想郷の自由都市、そして水辺の城壁",
+      "neighborhood_focus": "Christianshavn",
+      "neighborhood_description": "Christianshavnは1617年にChristian IV世によって商業・海軍地区として建設された人工島で、内港によって旧市街から隔てられています。オランダ様式の運河と城壁により、Copenhagenの他の地区とは建築的に異なる特徴を持っています。東端部では、Christianiaが1971年以来自治区として運営されています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3500,
+      "day_walking_minutes": 44,
+      "morning": {
+        "activity_title": "Church of Our Saviour",
+        "wikidata_qid": "Q1392025",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Church_of_Our_Saviour,_Copenhagen",
+        "coordinates": {
+          "lat": 55.6731,
+          "lon": 12.5929
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "1752年建造の外部らせん階段は、尖塔の外側を反時計回りに巻いており、最後の150段を登ります。手すりは腰の高さで、階段は上に向かって狭くなるため、本当に露出した状態になります。頂上の金球からの眺めは、街全体と港を一望できます。Baroque様式の内装には4階建ての彫刻が施されたオルガンケースと、デンマーク象勲章を象徴する象と城のモチーフが全体に施されています。港が輝き、南にOresund橋が見える晴れた朝に訪れることをお勧めします。",
+        "walk_to_next": {
+          "to": "Christiania",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Freetown Christiania",
+        "wikidata_qid": "Q207784",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Freetown_Christiania",
+        "coordinates": {
+          "lat": 55.6731,
+          "lon": 12.5993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "1971年に不法占拠者が使われなくなった軍事兵舎を占拠して設立されました。約800人の住民が、デンマーク国家との交渉による半自治的な取り決めの下で今でも生活しています。Pusher Streetでの写真撮影は禁止されていますが、湖エリア、コミュニティガーデン、工芸工房を含む地区の他の場所では歓迎されています。建築は50年間にわたって蓄積されたリサイクル材料による本物のフォークビルトのパッチワークです。最も雰囲気のある部分を見るには、東端の城壁湖に向かって歩いてください。",
+        "walk_to_next": {
+          "to": "Christianshavn Canal",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Christianshavn Canal and Ramparts",
+        "wikidata_qid": "Q1075498",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christianshavn_Canal",
+        "coordinates": {
+          "lat": 55.6729,
+          "lon": 12.5866
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Knippelsbro橋からTrangravenの跳ね橋まで、中央運河の全長を歩いてみてください。運河の南側（Overgaden Neden Vandet）は夕方の光が最も美しく、ここの運河沿いの家々は1670年代から1690年代のもので、市内に現存する最古の建物の一つです。Christianshavn Vold沿いの外側城壁歩道はより静かで、オランダ人が設計した元の要塞の幾何学的構造を最もよく感じることができます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Danish Architecture Center - Blox",
+          "wikidata_qid": "Q56226296",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/BLOX",
+          "coordinates": {
+            "lat": 55.6733,
+            "lon": 12.5793
+          },
+          "neighborhood": "Christianshavn",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Slotsholmenの向かいの港の縁に直接建つ、OMAによる2018年の積み重ねられたキューブ状の建物。デンマークおよびスカンジナビアの建築と都市デザインに関するDACの展示は常に質の高いキュレーションがなされています。建物の南側にある屋上テラスは無料でアクセスでき、水の向こうのChristiansborgの塔を珍しい低いアングルから眺めることができます。",
+          "walk_from_main_route": {
+            "from": "Christianshavn Canal",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

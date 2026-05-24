@@ -1,0 +1,712 @@
+{
+  "destination": "Rome",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-17T13:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Centro Storico",
+    "Monti / Ancient Rome",
+    "Vatican City / Borgo",
+    "Trastevere",
+    "Villa Borghese / Tridente",
+    "Aventino / Testaccio",
+    "Tivoli (day trip)"
+  ],
+  "guide_description": "Rome の必見スポット、静かな南部の丘陵地帯、そしてユネスコ世界遺産豊かな Tivoli への日帰り旅行を7日間で巡ります。各日程は地理的にまとまった構成になっています。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 15020,
+  "total_walking_minutes": 192,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Centro Storico Loop",
+      "cluster_tagline": "徒歩で回れる歴史地区のバロック広場と古代神殿",
+      "neighborhood_focus": "Centro Storico",
+      "neighborhood_description": "Tiber 川の湾曲部と Via del Corso に挟まれた歴史地区の密集エリア。古代ローマ神殿、バロック様式の広場、市場広場が2000年の歴史を刻む街路に重なり合っています。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1020,
+      "day_walking_minutes": 13,
+      "morning": {
+        "activity_title": "Pantheon",
+        "wikidata_qid": "Q1142794",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "coordinates": {
+          "lat": 41.8986,
+          "lon": 12.4769
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "オクルス（天窓）の光が室内にきれいに差し込む様子を見るには、開館時刻（9am）に到着しましょう。その後はツアーグループで床が埋まってしまいます。平日は少額の入場料がかかりますが、日曜日のミサは無料です（ただし内部での移動は制限されます）。",
+        "walk_to_next": {
+          "to": "Piazza Navona",
+          "distance_meters": 320,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Piazza Navona and Sant'Agnese in Agone",
+        "wikidata_qid": "Q207110",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_Navona",
+        "coordinates": {
+          "lat": 41.8992,
+          "lon": 12.4731
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Stadium of Domitianの敷地に建てられたため、細長い形をしています。Fountain of the Four RiversはBerniniの作品で、向かいの教会のファサードは彼のライバルBorrominiによるもので、1650年代以来この広場を挟んで対峙しています。",
+        "walk_to_next": {
+          "to": "Trevi Fountain",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Trevi Fountain after dark",
+        "wikidata_qid": "Q1747689",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Trevi_Fountain",
+        "coordinates": {
+          "lat": 41.9009,
+          "lon": 12.4833
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 30,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "日没頃にライトアップが始まり、昼間の自撮り騒動からは想像できないほど噴水がきれいに見えます。Felliniaが『La Dolce Vita』で使った演出効果を味わうには、メインの混雑した通りではなくVia della Stamperiaからアプローチしてください。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Campo de' Fiori",
+          "wikidata_qid": "Q207258",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Campo_de%27_Fiori",
+          "coordinates": {
+            "lat": 41.8956,
+            "lon": 12.4722
+          },
+          "neighborhood": "Centro Storico",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "朝の青果市場は約2pmまで続き、その後夕方早くにはaperitivoを楽しむ広場へと様変わりします。中央にある憂鬱な表情の像は、1600年に異端の罪でここで火刑に処されたGiordano Brunoです。",
+          "walk_from_main_route": {
+            "from": "Piazza Navona",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Ancient Rome",
+      "cluster_tagline": "帝国の中心部 - Colosseum、Forum、Palatineが一つの連続した考古学公園に",
+      "neighborhood_focus": "Monti / Celio / Palatino",
+      "neighborhood_description": "古代都市が統治され、娯楽が提供されていたローマ中心部の南東の湾曲部。Colosseum、Forum、Palatineは共通チケットで入場でき、約1平方キロメートルに及ぶ単一の考古学ゾーンを形成している。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1900,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Colosseum",
+        "wikidata_qid": "Q10285",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colosseum",
+        "coordinates": {
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 90,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "時間指定入場チケットは数日前にオンラインで予約すること - 当日券購入者は通常2時間の行列に並ぶことになる。Colosseum/Forum/Palatine共通チケットは24時間有効。",
+        "walk_to_next": {
+          "to": "Roman Forum",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Roman Forum",
+        "wikidata_qid": "Q210081",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roman_Forum",
+        "coordinates": {
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 120,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Colosseumの側からではなく、Via dei Fori Imperialiから入場してください。アーチを通って下りながら歩く高低差のあるルートが映画的なアプローチです。水を持参しましょう。ほとんど日陰がなく、大理石の通路が熱を反射します。",
+        "walk_to_next": {
+          "to": "Piazza del Campidoglio",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Piazza del Campidoglio and Capitoline views",
+        "wikidata_qid": "Q200831",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_del_Campidoglio",
+        "coordinates": {
+          "lat": 41.8932,
+          "lon": 12.4828
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Capitoline Hillにあるミケランジェロの広場です。右側の急な階段ではなく、cordonataのスロープを登って上がりましょう。Palazzo Senatorioの裏側を歩くと、Forumの素晴らしい眺望を無料で楽しめます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Capitoline Museums",
+          "wikidata_qid": "Q193375",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Capitoline_Museums",
+          "coordinates": {
+            "lat": 41.893,
+            "lon": 12.4827
+          },
+          "neighborhood": "Campitelli",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "世界最古の公共博物館（1471年創設）です。マルクス・アウレリウス皇帝の騎馬像のオリジナルのブロンズ像がここに保管されています。外の広場にあるのはレプリカです。",
+          "walk_from_main_route": {
+            "from": "Piazza del Campidoglio",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Vatican City",
+      "cluster_tagline": "世界最小の国とキリスト教世界最大の教会",
+      "neighborhood_focus": "Vatican City / Borgo",
+      "neighborhood_description": "Tiberを渡って西に歩いて行くことができるRome市内の独立国家。Vatican Museums、Sistine Chapel、St. Peter'sは一体となって、地球上で最も多くの人が訪れる宗教・文化施設の一つを形成している。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Vatican Museums and Sistine Chapel",
+        "wikidata_qid": "Q160821",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vatican_Museums",
+        "coordinates": {
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        "unesco_designation": {
+          "site_name": "Vatican City",
+          "year_inscribed": 1984,
+          "reference_number": 286,
+          "url": "https://whc.unesco.org/en/list/286"
+        },
+        "duration_minutes": 180,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "公式博物館サイトで数週間前にオンライン予約を取ること。当日券の列は繁忙期には3時間を超えることが頻繁にある。Sistine Chapel内では右に進むとSt. Peter'sに直接出ることができる。",
+        "walk_to_next": {
+          "to": "St. Peter's Basilica",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "St. Peter's Basilica",
+        "wikidata_qid": "Q12512",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica",
+        "coordinates": {
+          "lat": 41.9022,
+          "lon": 12.4533
+        },
+        "unesco_designation": {
+          "site_name": "Vatican City",
+          "year_inscribed": 1984,
+          "reference_number": 286,
+          "url": "https://whc.unesco.org/en/list/286"
+        },
+        "duration_minutes": 90,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "入場は無料だがSt. Peter's Squareでの手荷物検査の列が長くなることがある。服装規定は厳格に守られており、肩と膝を覆うこと、例外はない。ドーム登頂は別料金で、入り口で購入する価値がある。",
+        "walk_to_next": {
+          "to": "Castel Sant'Angelo",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Castel Sant'Angelo and the bridge at sunset",
+        "wikidata_qid": "Q189476",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Sant%27Angelo",
+        "coordinates": {
+          "lat": 41.9031,
+          "lon": 12.4663
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Hadrian廟から教皇の要塞、そして博物館へと変貌を遂げた建物。内部を見学しなくても、Ponte Sant'Angeloに並ぶBerniniがデザインした10体の天使像は、Romeで最高の夕日散歩コースの一つです。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Via della Conciliazione approach",
+          "wikidata_qid": "Q1377610",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Via_della_Conciliazione",
+          "coordinates": {
+            "lat": 41.9025,
+            "lon": 12.4595
+          },
+          "neighborhood": "Borgo",
+          "duration_minutes": 15,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Mussolini時代に建設された大通りで、中世のBorgo地区を貫いてSt. Peter's大聖堂への壮大なアプローチを作り出しています。",
+          "walk_from_main_route": {
+            "from": "Castel Sant'Angelo",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Trastevere",
+      "cluster_tagline": "石畳の街路、中世のモザイク、そしてRomeで最も愛される地区",
+      "neighborhood_focus": "Trastevere",
+      "neighborhood_description": "Vaticanの南、Tiber川の向こう側に位置するTrastevereは、Romeで最も情緒あふれる地区です。中世の狭い路地、蔦に覆われたファサード、そして現在は高級化されたバーやtrattoriaの中にも今なお息づく労働者階級の歴史が魅力的です。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1400,
+      "day_walking_minutes": 18,
+      "morning": {
+        "activity_title": "Santa Maria in Trastevere",
+        "wikidata_qid": "Q200751",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_in_Trastevere",
+        "coordinates": {
+          "lat": 41.8895,
+          "lon": 12.4694
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "3世紀から途切れることなく一般の礼拝が続けられている、Romeで最も古い教会の一つです。Christの隣に玉座に座るMaryを描いた12世紀の後陣モザイクが見どころの中心となっています。",
+        "walk_to_next": {
+          "to": "Villa Farnesina",
+          "distance_meters": 500,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Villa Farnesina",
+        "wikidata_qid": "Q1093297",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Farnesina",
+        "coordinates": {
+          "lat": 41.8929,
+          "lon": 12.4664
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Raphaelによるフレスコ画で知られるRenaissance様式のヴィラです。Vaticanほど混雑しておらず、それでいて匹敵する芸術的魅力を持っています。Cupid and PsycheのLoggiaとTriumph of Galateaがハイライトです。日曜日は休館ですが、毎月第2日曜日のみ開館しています。",
+        "walk_to_next": {
+          "to": "Gianicolo Hill viewpoint",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Gianicolo Hill at sunset",
+        "wikidata_qid": "Q207365",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Janiculum",
+        "coordinates": {
+          "lat": 41.895,
+          "lon": 12.4622
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "七つの丘の一つではありませんが、Romeの最高のパノラマビューが楽しめます。VittorianoからSt. Peter's大聖堂まで、歴史的なスカイライン全体が東に広がります。テラス下から毎日正午に大砲が撃たれ、この伝統は1847年から続いています。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Santa Cecilia in Trastevere",
+          "wikidata_qid": "Q1356942",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Cecilia_in_Trastevere",
+          "coordinates": {
+            "lat": 41.8875,
+            "lon": 12.4761
+          },
+          "neighborhood": "Trastevere",
+          "duration_minutes": 30,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "Stefano Maderno作の殉教聖人の不気味なほどリアルな彫刻が祭壇の下に安置されています。修道女の聖歌隊席にあるCavalliniのフレスコ画は少額の入場料が必要で、午前中の限られた時間のみ見学できます。",
+          "walk_from_main_route": {
+            "from": "Santa Maria in Trastevere",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Villa BorgheseとTridenteエリア",
+      "cluster_tagline": "Rome最大の公園、世界屈指の美術館、そしてTiber川に向かって下る優雅な街並み",
+      "neighborhood_focus": "Pinciano / Campo Marzio",
+      "neighborhood_description": "中央Romeの北東部に位置するエリアで、市内最大の公園と優雅なTridenteの街並みが出会う場所です。Tridenteは、Piazza del Popoloから南へ扇状に延びる3つの通りで、17世紀以来Romeで最もファッショナブルな住所として知られています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 37,
+      "morning": {
+        "activity_title": "Galleria Borghese",
+        "wikidata_qid": "Q190044",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Galleria_Borghese",
+        "coordinates": {
+          "lat": 41.9142,
+          "lon": 12.4922
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "事前予約と時間指定入場が必須です。BerniniのApollo and DaphneとDavid、Caravaggioの作品群、そしてCanovaのPauline Bonaparteが展示されています。2時間の見学時間制限は厳格に守られています。",
+        "walk_to_next": {
+          "to": "Pincio Terrace",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Pincio Terrace and Villa Borghese gardens",
+        "wikidata_qid": "Q1054815",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pincian_Hill",
+        "coordinates": {
+          "lat": 41.9114,
+          "lon": 12.4789
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Pincio terraceからはPiazza del Popoloを見下ろし、屋根越しにSt. Peter's domeまでの遠景を楽しめます。広いエリアを効率よく回りたい場合は、入口付近でレンタサイクルが利用できます。",
+        "walk_to_next": {
+          "to": "Piazza di Spagna",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Spanish Steps and Piazza di Spagna",
+        "wikidata_qid": "Q193510",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Spanish_Steps",
+        "coordinates": {
+          "lat": 41.9061,
+          "lon": 12.4828
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "PincioからSpanish Stepsの頂上へ下りましょう。階段に座ることは禁止されており、少額の罰金が科せられます。地元の人々は階段を歩いて下り、下の広場を利用しています。右下の小さなピンク色の家でKeatsが亡くなりました。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Piazza del Popolo",
+          "wikidata_qid": "Q207690",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_del_Popolo",
+          "coordinates": {
+            "lat": 41.9108,
+            "lon": 12.4764
+          },
+          "neighborhood": "Campo Marzio",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "北東角にあるSanta Maria del Popolo basilicaには、Caravaggioの最も力強い作品2点（Conversion of SaulとCrucifixion of Peter）が、建設当初の礼拝堂に掲げられています。",
+          "walk_from_main_route": {
+            "from": "Pincio Terrace",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "AventinとTestaccio",
+      "cluster_tagline": "St. Peter's の鍵穴からの眺め、オレンジの木のパノラマ、そしてRomeの食通たちに愛される元食肉処理場地区",
+      "neighborhood_focus": "Aventino / Testaccio",
+      "neighborhood_description": "Rome の中心部で最も静かな地区。Aventine は7つの丘のひとつで、緑豊かな住宅街であり、市内最高の無料展望スポットが2つある。下のTestaccio は古代の陶器の破片の山の上に築かれた街で、現在はRome で最も信頼できる庶民的な美食地区となっている。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2400,
+      "day_walking_minutes": 30,
+      "morning": {
+        "activity_title": "Giardino degli Aranci and Santa Sabina",
+        "wikidata_qid": "Q3766873",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Giardino_degli_Aranci",
+        "coordinates": {
+          "lat": 41.8842,
+          "lon": 12.4789
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "裏手のテラスからはTiber 川越しにSt. Peter's のドームを望む広大なパノラマが楽しめる。これは市内のどの有料展望台にも負けない眺めでありながら無料である。隣のSanta Sabina は5世紀の聖堂で、十字架刑の最古の図像として知られる彫刻が施された糸杉の扉が当時のまま残されている。",
+        "walk_to_next": {
+          "to": "Aventine Keyhole",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Aventine Keyhole (Priory of the Knights of Malta)",
+        "wikidata_qid": "Q3568909",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_del_Priorato_di_Malta",
+        "coordinates": {
+          "lat": 41.8836,
+          "lon": 12.4775
+        },
+        "unesco_designation": null,
+        "duration_minutes": 20,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "修道院のドアにある青銅の鍵穴を覗くと、St. Peter's大聖堂のドームが生垣に囲まれた庭園の小道に完璧にフレーミングされて見えます。これは1760年代にPiranesiが設計した視覚的トリックで、3つの主権領土（Italy、Order of Malta、Vatican）を一つの視線に収めています。ピークシーズンには15-20人の列ができることも。朝10時前か夕日の時間帯がおすすめです。",
+        "walk_to_next": {
+          "to": "Pyramid of Cestius",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Pyramid of Cestius and the Non-Catholic Cemetery",
+        "wikidata_qid": "Q207751",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pyramid_of_Cestius",
+        "coordinates": {
+          "lat": 41.8761,
+          "lon": 12.4811
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "紀元前18-12年にローマの行政官の墓として建設された本格的なエジプト様式のピラミッドで、現在は交通量の多い交差点に取り残されています。隣接するのはNon-Catholic Cemetery（Protestant CemetryまたはEnglish Cemeteryとも呼ばれる）で、KeatsとShelleyが埋葬されている静寂な壁に囲まれた庭園です。墓地は午後5時頃に閉まります。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mercato di Testaccio",
+          "wikidata_qid": "Q3739620",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Testaccio_Market",
+          "coordinates": {
+            "lat": 41.8786,
+            "lon": 12.4761
+          },
+          "neighborhood": "Testaccio",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "古い屋外市場に代わって建てられた屋根付きの現代的な市場で、現在ではRome最高の食品市場として広く認められています。午前中のみの営業で、ほとんどの店舗は午後2-3時頃に閉まります。",
+          "walk_from_main_route": {
+            "from": "Pyramid of Cestius",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "Tivoli日帰り旅行",
+      "cluster_tagline": "Romeから1時間、2つのUNESCO世界遺産の別荘 - Hadrian皇帝の帝室別邸とRenaissance時代の水庭園傑作",
+      "neighborhood_focus": "Tivoli (outside Rome)",
+      "neighborhood_description": "Romeから東30kmのSabine丘陵にある小さな町で、1500年にわたるローマの余暇の歴史を物語る2つのUNESCO世界遺産がある。地方鉄道（Roma TiburtinaからTivoliまで約1時間）またはCotralバスでアクセス可能。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3500,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Hadrian's Villa (Villa Adriana)",
+        "wikidata_qid": "Q207614",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hadrian%27s_Villa",
+        "coordinates": {
+          "lat": 41.9419,
+          "lon": 12.7747
+        },
+        "unesco_designation": {
+          "site_name": "Villa Adriana (Tivoli)",
+          "year_inscribed": 1999,
+          "reference_number": 907,
+          "url": "https://whc.unesco.org/en/list/907"
+        },
+        "duration_minutes": 180,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Hadrian皇帝の2世紀の別邸 - 宮殿、浴場、劇場、水盤が120ヘクタールに広がる巨大な複合施設。復元されたエジプト風列柱廊を持つCanopus水盤が象徴的な景観。最低3時間は必要；敷地は広大で日陰は部分的のみ。",
+        "walk_to_next": {
+          "to": "Villa d'Este (via bus to Tivoli town)",
+          "distance_meters": 6000,
+          "walking_minutes": 20
+        }
+      },
+      "afternoon": {
+        "activity_title": "Villa d'Este",
+        "wikidata_qid": "Q207688",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_d%27Este",
+        "coordinates": {
+          "lat": 41.9633,
+          "lon": 12.7967
+        },
+        "unesco_designation": {
+          "site_name": "Villa d'Este, Tivoli",
+          "year_inscribed": 2001,
+          "reference_number": 1025,
+          "url": "https://whc.unesco.org/en/list/1025"
+        },
+        "duration_minutes": 120,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "16世紀の枢機卿の別荘で、ヨーロッパ最高の精巧な水庭園を持つ - 段々状の噴水、今も演奏する水力オルガン、庭園の全長を流れるHundred Fountains水路。下り道は急斜面；歩きやすい靴が必須。",
+        "walk_to_next": {
+          "to": "Tivoli town center",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Tivoli town and return to Rome",
+        "wikidata_qid": "Q42622",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tivoli,_Lazio",
+        "coordinates": {
+          "lat": 41.9633,
+          "lon": 12.7989
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "電車で戻る前に、Tivoliの中世の街並みを少し散策してみましょう。Roma Tiburtinaへの普通列車は午後7時前に乗ることを目指してください。夜間は運行本数が減ります。Villa d'EsteからRomeのホテルまでは移動時間90分を見込んでおきましょう。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Villa Gregoriana waterfalls",
+          "wikidata_qid": "Q3994830",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Gregoriana",
+          "coordinates": {
+            "lat": 41.9656,
+            "lon": 12.8019
+          },
+          "neighborhood": "Tivoli",
+          "duration_minutes": 90,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "TivoliのAniene川が120メートルの高さから幾重にも連なる滝を作る峡谷にある、FAI管理の自然保護区です。他の2つのスポットで既に5時間歩いている場合は、ここはスキップしても構いません。",
+          "walk_from_main_route": {
+            "from": "Villa d'Este",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "destination": "Tokyo",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Asakusa / Ueno",
+    "Shibuya / Harajuku",
+    "Shinjuku"
+  ],
+  "guide_description": "Tokyoの本質的なコントラストを3日間で巡る：古き寺院街のAsakusa、若者ファッションと神社の軸となるShibuya/Harajuku、そして超高層ビルと夜の街のShinjuku。各日程は独立した鉄道ハブとなっています。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 9000,
+  "total_walking_minutes": 118,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "AsakusaとUeno",
+      "cluster_tagline": "古きTokyo - 大寺院、川、そして博物館公園",
+      "neighborhood_focus": "Asakusa / Ueno",
+      "neighborhood_description": "戦前のTokyoを市内のどこよりも多く保存している北東部の地区。AsakusaはSensō-ji寺院を中心としており、これはTokyoで最古かつ最も参拝者の多い仏教寺院です。西へ20分のUeno Parkには、日本で最も密集した国立博物館群があります。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 42,
+      "morning": {
+        "activity_title": "Sensō-ji and Nakamise-dōri",
+        "wikidata_qid": "Q200035",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+        "coordinates": {
+          "lat": 35.7148,
+          "lon": 139.7967
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "645年に創建された東京最古の仏教寺院で、巨大な朱色のKaminarimon（Thunder Gate）とその大きな提灯が絵葉書でおなじみの光景です。午前9時前に到着してお土産の人混みが始まる前にNakamise-dōriの参道を歩きましょう。本堂への入場は無料で、隣接する五重塔は東京で最も写真に撮られる建造物の一つです。早朝に本堂前で立ち上る線香の煙こそ、この寺院の最も美しい姿です。",
+        "walk_to_next": {
+          "to": "Sumida River Walk",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sumida River and Asakusa backstreets",
+        "wikidata_qid": "Q855847",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sumida_River",
+        "coordinates": {
+          "lat": 35.7106,
+          "lon": 139.8019
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Sumida川沿いの公園からは、Tokyo SkytreeとAsahi Beer本社（Philippe Starckによる黄金の炎の彫刻があり、地元では黄金のうんちと呼ばれています）への象徴的な眺めが楽しめます。Sensō-jiと川の間の路地を歩いて、kappabashi-dōri（道具街）や、今でも扇子、筆、煎餅を売る江戸時代から続く隠れた店々を探してみてください。最高のSkytreeの写真を撮るにはAzuma Bridgeを渡りましょう。",
+        "walk_to_next": {
+          "to": "Ueno Park",
+          "distance_meters": 2000,
+          "walking_minutes": 26
+        }
+      },
+      "evening": {
+        "activity_title": "Ueno Park and the Tokyo National Museum",
+        "wikidata_qid": "Q330923",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_National_Museum",
+        "coordinates": {
+          "lat": 35.7188,
+          "lon": 139.7762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "日本最大最古の博物館で、国内最重要の日本美術コレクション（刀剣、陶磁器、仏教彫刻、浮世絵）を所蔵しています。時間がない場合はHonkan（日本ギャラリー）が中核となります。Ueno Park自体は春の桜の季節には東京で最も愛される花見の公園で、Tokyo Zoo、National Museum of Western Art（Le Corbusier設計、UNESCO）、その他いくつかの小さな博物館があります。博物館は午後5時に閉館するので、十分な時間を確保するには午後3時までに到着してください。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "National Museum of Western Art",
+          "wikidata_qid": "Q1362629",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Western_Art",
+          "coordinates": {
+            "lat": 35.7156,
+            "lon": 139.7757
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "本館はLe Corbusier（東アジアで唯一の作品）により設計され、世界中の彼の建築17件を対象とした多国間UNESCO登録の一部となっています。コレクションは中世ヨーロッパ絵画から20世紀初頭まで、RodinとMonetの充実したコレクションを含みます。月曜日休館。",
+          "walk_from_main_route": {
+            "from": "Ueno Park",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Ameya-Yokochō Market",
+          "wikidata_qid": "Q620257",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ameya-Yokoch%C5%8D",
+          "coordinates": {
+            "lat": 35.7106,
+            "lon": 139.7747
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "JR Yamanote線の高架下にある青空市場で、戦後の闇市から発展したもの。現在は新鮮な魚介類、果物、香辛料、安い衣類などがところ狭しと並んでいる。東京の他の地域では今やほとんど見られないような、本当に活気あふれる熱気に満ちている。屋台の店主たちが値段を呼び上げる夕方遅い時間帯が一番おすすめ。",
+          "walk_from_main_route": {
+            "from": "Tokyo National Museum",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "ShibuyaとHarajuku",
+      "cluster_tagline": "若者の東京 - 有名なスクランブル交差点、ファッション街、そして緑豊かな偉大なるMeiji神社",
+      "neighborhood_focus": "Shibuya / Harajuku / Omotesandō",
+      "neighborhood_description": "現代東京を象徴する西の軸線 - Shibuyaの歩行者スクランブル交差点、Harajukuの若者ファッション地区、Omotesandōの高級ブティック街、そして森に囲まれたMeiji Jingū神社。これらすべてがYamanote線の駅沿いを20分歩くだけでつながっている。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Meiji Jingū Shrine",
+        "wikidata_qid": "Q229121",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Meiji_Shrine",
+        "coordinates": {
+          "lat": 35.6764,
+          "lon": 139.6993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "明治天皇と昭憲皇太后を祀る神道の神社で、70ヘクタールの植樹された森に囲まれています（1920年代に一本一本手作業で寄贈・植樹された木々）。巨大な木造の鳥居をくぐり、砂利道を歩く参道は、まるで東京を離れたかのような感覚になります。神社本体は戦後に再建されたものですが、明治時代の元の設計を維持しています。入場無料。内苑は別料金ですが、6月の花菖蒲園は一見の価値があります。",
+        "walk_to_next": {
+          "to": "Harajuku / Takeshita Street",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Harajuku and Omotesandō",
+        "wikidata_qid": "Q193063",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harajuku",
+        "coordinates": {
+          "lat": 35.67,
+          "lon": 139.7034
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Takeshita-dōriは若者ファッションが密集する路地で、クレープ、キャラクターカフェ、かわいいファッションで溢れ、週末は肩が触れ合うほどの人込みになります。並行するOmotesandō大通りは対極の存在で、東京で最も建築が集中した幅広い並木道です（Herzog and de MeuronによるPrada Aoyama、伊東豊雄によるTod's、SANAAによるDior）。この地域を特徴づけるコントラストを感じるために、両方を歩いてみてください。",
+        "walk_to_next": {
+          "to": "Shibuya Crossing",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Shibuya Crossing at sunset",
+        "wikidata_qid": "Q11409538",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Crossing",
+        "coordinates": {
+          "lat": 35.6595,
+          "lon": 139.7004
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Shibuya Stationの外にある有名な歩行者スクランブル交差点では、ピーク時には一回の信号で最大3,000人が横断します。Tsutaya書店の上にあるStarbucksは定番の見学スポットですが、いつも混雑しています。より広い眺望を求めるなら、Shibuya Scramble SquareにあるShibuya Sky展望台が現代的な代替案です。LEDの看板が交差点を照らす夜間が最もフォトジェニックです。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Yoyogi Park",
+          "wikidata_qid": "Q1153304",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Yoyogi_Park",
+          "coordinates": {
+            "lat": 35.6716,
+            "lon": 139.6949
+          },
+          "neighborhood": "Harajuku / Shibuya",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Meiji Shrineに隣接していますが世俗的な、東京最大級の公共公園の一つです。日曜日には公園が活気づきます：入口近くのロカビリーダンサー、フリスビーリーグ、ドラムサークル、そして様々な場所でのカポエイラグループ。東端にある丹下健三による1964年Olympic Yoyogi National Gymnasiumは、日本の20世紀を代表する建築の一つです。",
+          "walk_from_main_route": {
+            "from": "Meiji Jingū Shrine",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Shibuya Sky observation deck",
+          "wikidata_qid": "Q60743130",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Scramble_Square",
+          "coordinates": {
+            "lat": 35.6585,
+            "lon": 139.7019
+          },
+          "neighborhood": "Shibuya",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "2019年にオープンしたShibuya Scramble Squareの46階にある屋外ルーフトップ展望デッキ。有名なスクランブル交差点を真下に見下ろすことができ、晴れた日にはMount Fujiまで一直線に見渡せます。時間指定チケットはオンラインで予約を。夕日の時間帯は1〜2日前に売り切れます。強風時は閉鎖。",
+          "walk_from_main_route": {
+            "from": "Shibuya Crossing",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Shinjuku",
+      "cluster_tagline": "超高層ビル群のTokyo - 都庁舎、戦後の横丁バー、そして都内最大のターミナル駅",
+      "neighborhood_focus": "Shinjuku",
+      "neighborhood_description": "世界で最も利用者の多い駅（1日360万人）を中心に発展した西側の地区。西側の超高層ビル群には無料のMetropolitan Government展望デッキがあり、東側はKabukichō歓楽街と戦後の小さなバーが迷路のように並ぶGolden Gaiエリアに広がっている。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Shinjuku Gyoen National Garden",
+        "wikidata_qid": "Q1322323",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shinjuku_Gyoen",
+        "coordinates": {
+          "lat": 35.6852,
+          "lon": 139.71
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "58ヘクタールの皇室庭園で、伝統的な日本庭園、French formal、English landscapeの3つの異なる様式に分かれている。元々はEdo時代の武家屋敷だった。Tokyo都内で入園料を取る数少ない公園の一つ（料金は安め）だが、その代わり大人数のグループや飲酒は禁止されており、YoyogiやUenoと比べてかなり静かな環境が保たれている。月曜日は休園。3月下旬から4月上旬の桜の見頃には開園時から行列ができる。",
+        "walk_to_next": {
+          "to": "Tokyo Metropolitan Government Building",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tokyo Metropolitan Government Building observation deck",
+        "wikidata_qid": "Q260462",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Government_Building",
+        "coordinates": {
+          "lat": 35.6896,
+          "lon": 139.6917
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Kenzō Tangeが1991年に設計した双子のタワーからなる都庁舎で、建設当時はTokyoで最も高い建物だった。2つの展望台（北展望室と南展望室、どちらも地上202メートル）は完全に無料。晴れた日には南西方向にMount Fujiまで見渡すことができる。南展望室の方が早く閉まり、北展望室は22時まで開いているため夜景を楽しむなら北がおすすめ。同様の景色が楽しめるShibuya SkyやTokyo Towerと比べて混雑が少ない。",
+        "walk_to_next": {
+          "to": "Golden Gai / Omoide Yokochō",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Golden Gai and Omoide Yokochō",
+        "wikidata_qid": "Q5580547",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_Gai",
+        "coordinates": {
+          "lat": 35.694,
+          "lon": 139.7045
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "約200軒のマイクロバーが軒を連ねる6本の細い路地。ほとんどの店が6～10人程度の小さな席数で、多くが厳格なテーマ（jazz、punk、文学、特定の年代など）を持っている。戦後Tokyoの面影を残す貴重な場所。ほとんどのバーでチャージ料金（¥500-1500）がかかるが、場の雰囲気を尊重する観光客には親切で、2～3人を超えるグループは断られる。駅の西側にあるOmoide Yokochō（Memory Lane）は焼き鳥横丁版で、より安く、煙っぽく、入りやすい。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hanazono Shrine",
+          "wikidata_qid": "Q1148860",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hanazono_Shrine",
+          "coordinates": {
+            "lat": 35.694,
+            "lon": 139.7035
+          },
+          "neighborhood": "Shinjuku",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Golden GaiとKabukichō歓楽街の間に信じられないほど巧妙に挟まれたShintō神社。赤い鳥居と周囲のネオンサインとのコントラストはShinjukuを象徴する光景の一つ。地元の人々は商売繁盛の祈願に訪れる。日曜日に開かれる小さな蚤の市はTokyo都内で最も心地よい市場の一つ。",
+          "walk_from_main_route": {
+            "from": "Golden Gai",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}

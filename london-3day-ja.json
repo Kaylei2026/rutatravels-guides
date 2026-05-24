@@ -1,0 +1,361 @@
+{
+  "destination": "London",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Westminster / South Bank",
+    "The City / Tower",
+    "South Kensington / Hyde Park"
+  ],
+  "guide_description": "London の必見スポットを3日間で巡るコース：格式ある Westminster の中心軸、UNESCO の Tower を擁する中世・金融街 City、そして South Kensington の博物館・公園エリア。各日程は地理的にまとまりのあるエリアで構成されています。",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 6600,
+  "total_walking_minutes": 85,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Westminster と South Bank",
+      "cluster_tagline": "London の格式ある中心軸 - Abbey、Big Ben、そして Thames の遊歩道",
+      "neighborhood_focus": "Westminster / South Bank",
+      "neighborhood_description": "Westminster は英国政府の中枢であり、君主制の戴冠式教会でもあり、Parliament Square を中心としています。Westminster Bridge の向こうの South Bank は文化的な対照をなし、川沿いの遊歩道、London Eye、そして主要な芸術施設が立ち並んでいます。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Westminster Abbey",
+        "wikidata_qid": "Q5933",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+        "coordinates": {
+          "lat": 51.4994,
+          "lon": -0.1273
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "1066年以来すべてのイングランド戴冠式が行われた場所で、17人の君主が眠る墓所でもあります。オンラインで時間指定チケットを予約して行列をスキップしましょう。Poets' Corner（Chaucer、Dickens、Hardy、Browningなど）とCoronation Chairが明らかな見どころですが、見落とされがちなのがHigh Altarの真正面にあるCosmati Pavementで、実際の戴冠式が行われる13世紀の幾何学モザイクです。日曜日は礼拝以外は閉館。",
+        "walk_to_next": {
+          "to": "Houses of Parliament",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Houses of Parliament and Big Ben",
+        "wikidata_qid": "Q41770",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
+        "coordinates": {
+          "lat": 51.4995,
+          "lon": -0.1248
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "1834年に中世の建物が焼失した後、1870年に完成したネオゴシック様式のPalace of Westminster。イギリスおよびコモンウェルス諸国の住民は、Cromwell Greenで列に並べば討論を無料で見学できます。海外からの訪問者は、非開会日（通常土曜日や休会期間）に有料ツアーを予約できます。Big Benは鐘の名前で、塔ではありません。塔自体はElizabeth Towerで、最近元のヴィクトリア朝の色に修復されました。",
+        "walk_to_next": {
+          "to": "London Eye via Westminster Bridge",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "South Bank and London Eye at sunset",
+        "wikidata_qid": "Q121130",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/London_Eye",
+        "coordinates": {
+          "lat": 51.5033,
+          "lon": -0.1196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "国会議事堂とEyeの定番写真を撮るならWestminster Bridgeを歩きましょう。Eyeに乗るかどうかは予算次第です。眺望は素晴らしいですが高額で、Tate Modern方面へ向かうSouth Bankの無料散歩でも同じスカイラインを無料で楽しめます。撮影に最適な光は日没30分前で、国会議事堂の東面が最後の金色の光に照らされます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Churchill War Rooms",
+          "wikidata_qid": "Q1133979",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Churchill_War_Rooms",
+          "coordinates": {
+            "lat": 51.5024,
+            "lon": -0.1294
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Churchillが第二次世界大戦中にイギリスの作戦を指揮した地下バンカー施設で、1945年当時のまま完璧に保存されています。会議中にChurchillが噛んでいた椅子があるCabinet Roomも含まれています。事前予約必須。ロンドンで最も人気の博物館の一つで、当日入場はほぼ不可能です。",
+          "walk_from_main_route": {
+            "from": "Houses of Parliament",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "St. James's Park",
+          "wikidata_qid": "Q216914",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St_James%27s_Park",
+          "coordinates": {
+            "lat": 51.5025,
+            "lon": -0.1342
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Londonで最も古い王立公園で、ペリカンのいる小さな湖があります（1664年にロシア大使からの贈り物で、それ以来ずっと維持されています）。湖にかかる橋からは、Londonで最も過小評価されている眺めの一つを楽しめます - 一方向にBuckingham Palace、もう一方向にWhitehallの塔群が見えます。",
+          "walk_from_main_route": {
+            "from": "Westminster Abbey",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "The CityとTower of London",
+      "cluster_tagline": "中世の要塞から金融の中心地へ - Thamesに沿って重なり合うLondonの千年の歴史",
+      "neighborhood_focus": "The City / Tower",
+      "neighborhood_description": "Roman Londiniumであったこの1平方マイルは、Tudor時代まで都市全体でした - 現在はLondonの金融街ですが、中世の街路パターン、Tower of London、St. Paul's Cathedralがすべて保存されています。イギリスで考古学的に最も密度の高い1平方キロメートルです。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Tower of London",
+        "wikidata_qid": "Q11953",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_of_London",
+        "coordinates": {
+          "lat": 51.5081,
+          "lon": -0.0759
+        },
+        "unesco_designation": {
+          "site_name": "Tower of London",
+          "year_inscribed": 1988,
+          "reference_number": 488,
+          "url": "https://whc.unesco.org/en/list/488"
+        },
+        "duration_minutes": 180,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "William the Conquerorの1078年建造のWhite Towerに、900年間にわたって増築された建物群。時代により王宮、牢獄、国庫、造幣所、動物園として使用されました。事前にオンライン予約を推奨。入場料に含まれるYeoman Warder（Beefeater）のツアーは30分毎に開催され、意外にもここが最大の見どころ。機知に富み、不敬で、歴史的内容が濃厚です。Crown Jewelsの行列は開館後1時間が最も早く進みます。",
+        "walk_to_next": {
+          "to": "Tower Bridge",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tower Bridge and the riverside walk",
+        "wikidata_qid": "Q83125",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+        "coordinates": {
+          "lat": 51.5055,
+          "lon": -0.0754
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "しばしばLondon Bridge（上流にある質素な橋）と混同されるVictoria時代の跳ね橋。塔間の歩道は現在ガラス床になっており有料アトラクションですが、道路レベルを無料で渡っても同様の眺望が楽しめます。年間約800回橋が上がり、スケジュールはオンラインで公開されています。跳ね橋の瞬間に立ち会う価値があります。",
+        "walk_to_next": {
+          "to": "St. Paul's Cathedral",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "St. Paul's Cathedral",
+        "wikidata_qid": "Q173882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St_Paul%27s_Cathedral",
+        "coordinates": {
+          "lat": 51.5138,
+          "lon": -0.0984
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "大火災で中世の大聖堂が焼失した後、Christopher Wrenが設計し1710年に完成した傑作。ドーム内のWhispering Gallery（257段上）では、その名の由来となる音響効果を体験できます（壁に向かってささやくと30メートル離れた反対側に聞こえます）。礼拝参加は無料、一般見学は有料。平日は16時30分頃に閉館するため、夕日見学を計画する際は時間を確認してください。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museum of London Docklands",
+          "wikidata_qid": "Q1948674",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_London_Docklands",
+          "coordinates": {
+            "lat": 51.5074,
+            "lon": -0.0234
+          },
+          "neighborhood": "Canary Wharf",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "改装されたGeorgia時代の砂糖倉庫にある無料博物館。Londonの港と、現代都市を築いた貿易（不快な奴隷制の歴史も含む）の物語を展示。Tower HillからDLRで10分。川沿い散歩の雨天代替案として訪問するのがよいでしょう。",
+          "walk_from_main_route": {
+            "from": "Tower Bridge",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Borough Market",
+          "wikidata_qid": "Q913969",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Borough_Market",
+          "coordinates": {
+            "lat": 51.5055,
+            "lon": -0.0908
+          },
+          "neighborhood": "Southwark",
+          "duration_minutes": 60,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "13世紀から続く営業を誇るLondonで最も古い食品市場で、現在はLondonを代表する食の名所となっています。金曜と土曜が最も賑わい、日曜は休業。火曜から木曜の日中の市場は落ち着いており、商人たちとゆっくり話をする時間があります。Tower BridgeからSt. Paul'sまで南岸を歩く途中の自然なランチスポットです。",
+          "walk_from_main_route": {
+            "from": "Tower Bridge",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "South KensingtonとHyde Park",
+      "cluster_tagline": "博物館トライアングル - 3つの世界クラスのコレクションとLondonで最も壮大な王立公園",
+      "neighborhood_focus": "South Kensington / Hyde Park",
+      "neighborhood_description": "1851年のGreat Exhibitionの収益で作られたVictoria朝の文化地区で、Exhibition Roadの周辺に世界有数の3つの博物館が集まっています。Kensington Goreの北側には、Hyde ParkとKensington Gardensが連なり、250ヘクタールの王立公園地を形成しています。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Victoria and Albert Museum",
+        "wikidata_qid": "Q213322",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum",
+        "coordinates": {
+          "lat": 51.4966,
+          "lon": -0.1722
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "世界最大の装飾芸術とデザインの博物館 - 145のギャラリーに280万点の収蔵品。入館無料。キャストコート（Trajan's ColumnやMichelangelo's Davidの実物大石膏レプリカ。Victorian時代の博物館がオリジナルではなく複製を収集していた時代の産物）はLondon独特のもの。William Morrisの装飾が施された部屋の下にあるガーデンカフェは、市内で最も心地よい博物館ランチスポットの一つ。",
+        "walk_to_next": {
+          "to": "Natural History Museum",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Natural History Museum",
+        "wikidata_qid": "Q309388",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London",
+        "coordinates": {
+          "lat": 51.4967,
+          "lon": -0.1764
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "入館無料。中央のホールに吊るされたHintze Hallのシロナガスクラの骨格標本（2017年に恐竜のDippyに代わって設置）が、この建物の代表的な見どころ。Volcanoes and Earthquakes galleryの地震シミュレーター（日本の模擬食料品店内で1995年のKobe地震を再現）が最も驚きの展示。週末は家族連れで混雑 - ゆっくり見学したいなら平日の午後がおすすめ。",
+        "walk_to_next": {
+          "to": "Hyde Park Serpentine",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Hyde Park and the Serpentine at sunset",
+        "wikidata_qid": "Q83494",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hyde_Park,_London",
+        "coordinates": {
+          "lat": 51.5074,
+          "lon": -0.1657
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "350エーカーの王立公園、1637年にCharles I世によって一般開放。Serpentine湖（南岸にDiana Memorial Fountainがある）が自然な中心点となっている。湖でのボート貸し出しあり。南側のSerpentine Galleriesでは現代アートの企画展と、有名な夏季パビリオンプロジェクトを開催。北東端（Marble Arch）のSpeakers' Cornerでは今でも日曜日の朝に演説者たちが集まる。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Science Museum",
+          "wikidata_qid": "Q674773",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Science_Museum,_London",
+          "coordinates": {
+            "lat": 51.4978,
+            "lon": -0.1745
+          },
+          "neighborhood": "South Kensington",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "入館無料。Stephenson's Rocket、Apollo 10司令船、初期のBabbage解析機関を展示。2階のInformation Age galleryが最も優れたキュレーション - 最初の大西洋横断ケーブルから現代インターネットまでの通信の歴史を辿る。隣のNatural History Museumほど子供たちで混雑していない。",
+          "walk_from_main_route": {
+            "from": "Victoria and Albert Museum",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Kensington Gardens and Palace",
+          "wikidata_qid": "Q1059306",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kensington_Gardens",
+          "coordinates": {
+            "lat": 51.5074,
+            "lon": -0.1801
+          },
+          "neighborhood": "Kensington",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Hyde Parkの西側に続く公園で、厳密には別の王立公園です。西端にあるKensington Palaceは、William III世からQueen Victoriaまでのすべての英国君主の居住地でした。現在はPrince and Princess of Walesの住まいとなっています。南端にあるAlbert Memorialは、Victoriaが亡き夫に捧げた最も壮大な記念碑で、最近金めっきされた当初の状態に修復されました。",
+          "walk_from_main_route": {
+            "from": "Hyde Park Serpentine",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

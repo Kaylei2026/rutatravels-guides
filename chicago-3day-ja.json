@@ -1,0 +1,346 @@
+{
+  "destination": "Chicago",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:54:42.035Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "The Loop / Millennium Park",
+    "Museum Campus / Near South Side",
+    "River North / Magnificent Mile"
+  ],
+  "guide_description": "Chicago の見どころを 3 日間で巡るコース：湖畔の公園とパブリックアートがある建築の街 Loop、湖畔に世界クラスの科学・自然史博物館が集まる Museum Campus、そして Magnificent Mile と Chicago River の建築回廊がある River North のギャラリー地区。各日程は地理的にまとまった構成になっています。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 7800,
+  "total_walking_minutes": 98,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "The Loop と Millennium Park",
+      "cluster_tagline": "Chicago の建築の中心地 - 超高層ビル群、パブリックアート、湖畔の Grant Park",
+      "neighborhood_focus": "The Loop / Millennium Park",
+      "neighborhood_description": "The Loop は Chicago の中心業務地区で、周囲を囲む高架鉄道から名前が付けられ、アメリカ建築の発祥地でもあります。超高層ビルは 1880年代にここで発明されました。東端にある Millennium Park は、かつての操車場跡地に造られた屋外文化施設で、記念碑的なパブリックアートや夏季の無料コンサートが楽しめます。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "Chicago Architecture Center River Cruise",
+        "wikidata_qid": "Q5096549",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Architecture_Center",
+        "coordinates": {
+          "lat": 41.8865,
+          "lon": -87.6245
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Chicago Architecture Centerは、Chicago River沿いで決定版となる建築ボートツアーを運営しています。75分間、訓練を受けたドーセントによる解説付きで50以上の建物を巡ります。Michigan Avenueと川の合流点（通りレベルではなく、lower Wacker Driveレベル）から乗船します。朝の出発時間なら東向きのファサードが最高の光の下で見られ、午後の便よりもボートが混雑しません。事前にオンライン予約を。週末ツアーは数日前に売り切れます。",
+        "walk_to_next": {
+          "to": "Millennium Park",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Millennium Park and Cloud Gate",
+        "wikidata_qid": "Q309822",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Millennium_Park",
+        "coordinates": {
+          "lat": 41.8827,
+          "lon": -87.6233
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Anish KapoorのCloud Gate彫刻は、誰もがBeanと呼んでいますが、歪んだパノラマで街のスカイラインを反射し、真下から見るのが最も興味深く、凹面の下側が方向感覚を失わせる魚眼レンズ状のドームを作り出します。北へ歩いてJaume PlensaのCrown Fountainへ。50フィートの2つのガラスブロック塔にChicagoansの顔が映し出され、定期的に水を噴き出します。後方のJay Pritzker Pavilionバンドシェルは、Frank Gehryの唯一の恒久的公共作品です。",
+        "walk_to_next": {
+          "to": "Art Institute of Chicago",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Art Institute of Chicago",
+        "wikidata_qid": "Q239303",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Art_Institute_of_Chicago",
+        "coordinates": {
+          "lat": 41.8796,
+          "lon": -87.6237
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "アメリカで最も素晴らしい美術館の一つで、特に印象派の作品が充実しています。SeuratのA Sunday on La Grande JatteとGrant WoodのAmerican Gothicが両方とも同じ建物内にあります。Michigan Avenueのライオン像のメイン入口ではなく、Monroe StreetのModern Wingから入館してください。Modern Wingの方が混雑が少なく、歴史的建物と内部でつながっています。木曜日の夜は20時まで開館しています。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Chicago Cultural Center",
+          "wikidata_qid": "Q1066038",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Cultural_Center",
+          "coordinates": {
+            "lat": 41.8836,
+            "lon": -87.6248
+          },
+          "neighborhood": "The Loop",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Chicagoの元公立図書館で、1897年に開館し、現在は無料の展示・イベントスペースとなっています。2つのTiffanyガラスドーム（直径38フィートのPreston Bradley Hallと、Garland Hallのもの）は、世界最大級のTiffanyモザイクの一つです。入場は無料で、建物はほぼいつも混雑していません。Millennium Park前後の実用的な休憩場所です。",
+          "walk_from_main_route": {
+            "from": "Millennium Park",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Rookery Building",
+          "wikidata_qid": "Q1370915",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rookery_Building",
+          "coordinates": {
+            "lat": 41.8793,
+            "lon": -87.6325
+          },
+          "neighborhood": "The Loop",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "1888年に建てられたBurnham and Rootによる建物で、1905年にFrank Lloyd Wrightが改装した光庭のある内装を持つ。Chicagoで最も美しい内部空間の一つで、営業時間中は完全に無料で入場できる。エレベーターで上層階に上がり、周囲のバルコニーから吹き抜けを見下ろしてみよう。装飾的な鉄細工と白い釉薬をかけたレンガが層状の垂直構成を作り出しており、上からの方がはるかによく写真に収まる。",
+          "walk_from_main_route": {
+            "from": "Art Institute of Chicago",
+            "distance_meters": 750,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Museum Campus",
+      "cluster_tagline": "湖畔の科学と自然 - Lake Michiganに突き出した半島にある世界クラスの3つのコレクション",
+      "neighborhood_focus": "Museum Campus / Near South Side",
+      "neighborhood_description": "Museum Campusは、Grant Parkのすぐ南にある湖畔の半島に位置する57エーカーの公園で、3つの主要な施設 - Field Museum、Shedd Aquarium、Adler Planetariumの拠点となっている。遮るもののない湖の眺望と真北に広がる市街地のスカイラインを持つこの配置は、世界で最もドラマチックな博物館環境の一つである。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Field Museum of Natural History",
+        "wikidata_qid": "Q1122595",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Field_Museum_of_Natural_History",
+        "coordinates": {
+          "lat": 41.8664,
+          "lon": -87.617
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "世界最大級の自然史博物館の一つで、植物学、地質学、人類学、動物学の分野で4000万点の標本を所蔵している。これまでに発見された中で最も完全なT-rexの骨格の一つであるSueは、メインのStanley Field Hallに展示されており、より新しい展示があるにもかかわらず、今でも建物の目玉となっている。開館時刻の9amに到着することをお勧めする。学校団体が到着する前の最初の45分間はホールが静かに見学できる。古代エジプト展示室と地下のEvolving Planet hallが、常設展示の中でも特に優れた二つの展示である。",
+        "walk_to_next": {
+          "to": "Shedd Aquarium",
+          "distance_meters": 450,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Shedd Aquarium",
+        "wikidata_qid": "Q1144567",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shedd_Aquarium",
+        "coordinates": {
+          "lat": 41.8676,
+          "lon": -87.6139
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "1930年に開館したSheddは、アメリカ内陸部で海水コレクションを常設した初の水族館である。中央ロタンダのCaribbean Reefタンクは複数のレベルから見ることができる。上階のバルコニーから見下ろすと、楕円形のタンクの断面全体を見ることができる。イルカとベルーガのショーが人気の呼び物だが、上階のPacific white-sided dolphinの生息地展示は混雑が少なく、動物たちを目線の高さで間近に観察できる。",
+        "walk_to_next": {
+          "to": "Adler Planetarium lakefront viewpoint",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Adler Planetarium and lakefront skyline view",
+        "wikidata_qid": "Q1531147",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Adler_Planetarium",
+        "coordinates": {
+          "lat": 41.8664,
+          "lon": -87.6067
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Adlerの入り口にある西向きの広場からは、Monroe Harbor越しにChicago skylineの最高の眺望が楽しめる。Willis TowerからLake Shore Driveのタワー群まで、北側のスカイライン全体が水面に映る光景が望める。この眺望ポイントは、Chicagoスカイラインの定番構図として写真家によって日常的に利用されている。Adler自体は西半球初のプラネタリウム（1930年）である。時間が合えばSky Theaterのショーを見る価値がある。日没前に半島の外周を一周して歩くことをお勧めする。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Soldier Field",
+          "wikidata_qid": "Q849075",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Soldier_Field",
+          "coordinates": {
+            "lat": 41.8623,
+            "lon": -87.6167
+          },
+          "neighborhood": "Museum Campus",
+          "duration_minutes": 30,
+          "type": "stadium",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Chicago Bearsの本拠地であるSoldier Fieldの1924年築ネオクラシカル様式の列柱外観は、Field MuseumとParkingの間のMuseum Campusの遊歩道から見ることができる。外側の列柱は自由に歩くことができ、1920年代のドーリア式円柱と、その間に挿入された2003年の現代的なボウル型内装との対比は、アメリカスポーツ界でもよりシュールな建築的瞬間の一つである。試合のない日には内部見学ツアーが利用できる。",
+          "walk_from_main_route": {
+            "from": "Field Museum of Natural History",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Northerly Island",
+          "wikidata_qid": "Q3343966",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Northerly_Island",
+          "coordinates": {
+            "lat": 41.8618,
+            "lon": -87.6082
+          },
+          "neighborhood": "Museum Campus",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Adler Planetariumの南にある人工半島で、かつてはMeigs Field空港があった場所だが、現在は在来草原の復元地と湖畔公園になっている。1.5マイルの外周歩道からは、Lake Michiganの東側を遮るもののない景色が楽しめる。Museum Campusで唯一、街の景色が完全に見えなくなり、湖の壮大なスケールを実感できる場所だ。春には渡り鳥が飛来し、本格的なバードウォッチングスポットとなる。",
+          "walk_from_main_route": {
+            "from": "Adler Planetarium",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "River Northと Magnificent Mile",
+      "cluster_tagline": "Chicagoの商業の背骨 - 川、Tribune Tower、そしてGold Coastへのアプローチ",
+      "neighborhood_focus": "River North / Magnificent Mile",
+      "neighborhood_description": "Magnificent MileはChicago Riverの北側のMichigan Avenue沿いの区間で、歴史的な初期の摩天楼とWater Towerが立ち並んでいる。Water Towerは1871年のGreat Chicago Fireを生き延びた数少ない建造物の一つである。すぐ西側のRiver Northは、Chicagoのギャラリー地区で、Manhattanに次ぐアートギャラリーの集積地となっている。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3000,
+      "day_walking_minutes": 37,
+      "morning": {
+        "activity_title": "Chicago Riverwalk",
+        "wikidata_qid": "Q5094380",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Riverwalk",
+        "coordinates": {
+          "lat": 41.8876,
+          "lon": -87.6347
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Chicago Riverの南岸に沿って、Lake Shore Driveから西のLake Streetまで続く低層レベルの歩行者道路。川沿いの高層ビルの日光に照らされたファサードを眺めるため、太陽を直視することなく、朝は東向きに歩くのがおすすめ。Michigan AvenueとState Streetの間の区間は5つの連続する橋の下を通り、跳ね橋の下部構造を見上げる角度からの眺めは見過ごされがちなChicagoの撮影スポット。夏季にはRiverwalkから複数のカヤックレンタル業者が営業している。",
+        "walk_to_next": {
+          "to": "Tribune Tower",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tribune Tower",
+        "wikidata_qid": "Q838305",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tribune_Tower",
+        "coordinates": {
+          "lat": 41.8904,
+          "lon": -87.6244
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "23か国から263の応募があった1922年のデザインコンペティション後にChicago Tribune用に建設された1925年のゴシック様式超高層建築で、アメリカ建築史の決定的な出来事となった。街路レベルでビルの基部を歩いてみよう。世界中の有名な建物や記念物の148の断片が外装の石灰石に埋め込まれており、Parthenon、万里の長城、Taj Mahal、ベルリンの壁の一部などが含まれている。各断片にはラベルが付いている。現在は住宅として使用されているため、内部へのアクセスは制限されている。",
+        "walk_to_next": {
+          "to": "Water Tower Place and Chicago Water Tower",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Chicago Water Tower",
+        "wikidata_qid": "Q1066958",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Water_Tower",
+        "coordinates": {
+          "lat": 41.8923,
+          "lon": -87.6239
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "1871年のGreat Chicago Fireから生き延びた数少ない建物の一つで、城郭風ゴシック石灰石タワーは1869年に市の給水システムの圧力調整装置として建設され、火災からのChicagoの復興のシンボルとなった。Oscar Wildeは1882年にこれを醜悪な建造物と呼んだが、これは少数派の意見ではなかった。しかし現在では市内で最も撮影される建造物の一つとなっている。通りの真向かいにあるChicago Avenue Pumping Stationは同じ建築家によるもので、現在も稼働している。建物が西日に包まれる夕日の時刻にMichigan Avenueを北へ歩いてみよう。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Driehaus Museum",
+          "wikidata_qid": "Q5309141",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Driehaus_Museum",
+          "coordinates": {
+            "lat": 41.8956,
+            "lon": -87.6222
+          },
+          "neighborhood": "Gold Coast",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "1879年建設のSamuel M. Nickerson Mansion（その時代には並外れた石の内装でMarble Palaceとして知られていた）は、Chicagoに現存する最高のGilded Age時代の邸宅内装である。入場料が必要で、部屋が混雑することがないよう来館者数は少数に抑えられている。メインホールのステンドグラス天井と上階のオニキス暖炉の装飾が特筆すべき見どころ。Water TowerからErie Streetを北へ1ブロック寄り道した場所にある。",
+          "walk_from_main_route": {
+            "from": "Chicago Water Tower",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Wrigley Building",
+          "wikidata_qid": "Q1534399",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Wrigley_Building",
+          "coordinates": {
+            "lat": 41.8893,
+            "lon": -87.6249
+          },
+          "neighborhood": "Magnificent Mile",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "Wrigley Buildingの1924年建造の白いテラコッタ製タワーは、Tribune Towerから川を挟んで南向きに建っており、夜間は投光器でライトアップされ、段階的に施された白い釉薬が際立って見えます。この建物は反射率を最大化するため、基部から頂上にかけて6段階の白さのテラコッタで設計されています。夜が最適な鑑賞時間で、Michigan Avenue Bridgeのたもとの広場からは、WrigleyとTribuneの両建物を構図に収めた古典的な二塔の眺めを楽しめます。",
+          "walk_from_main_route": {
+            "from": "Tribune Tower",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

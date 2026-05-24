@@ -1,0 +1,341 @@
+{
+  "destination": "Barcelona",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Barri Gòtic / El Born",
+    "Eixample / Gaudí axis",
+    "Montjuïc / Poble Sec"
+  ],
+  "guide_description": "Barcelona の本質的な3つの層を3日間で巡ります：中世の Gothic 地区の中心部、Gaudí によって特徴づけられた Eixample の碁盤目状街区、そして博物館と城のある Montjuïc の丘。各日程は地理的にまとまった範囲で構成されています。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 7300,
+  "total_walking_minutes": 95,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Barri Gòtic と El Born",
+      "cluster_tagline": "中世の Barcelona を徒歩で巡る - Cathedral、ローマ時代の城壁、商人街",
+      "neighborhood_focus": "Barri Gòtic / El Born",
+      "neighborhood_description": "Barcelona の歴史的中心部を形成する隣接する2つの中世地区。Barri Gòtic はローマ時代の基盤の上に建てられ、Gothic Cathedral を中心としています。東側の El Born は元商人街で、より狭く活気があり、中心には Santa Maria del Mar 聖堂があります。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Cathedral of Barcelona (La Seu)",
+        "wikidata_qid": "Q56551",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cathedral_of_Barcelona",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1761
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "14世紀のゴシック様式大聖堂で、ガウディのSagrada Famíliaとよく混同されるが、建築様式は全く異なる。13羽の白いガチョウがいる回廊（伝統的に聖エウラリアの人生の年数を表す）が意外な見どころ。屋上テラスは少額の料金でエレベーターでアクセスでき、Sagrada Famíliaの観光客がめったに探さないゴシック地区の屋上からの眺めを楽しめる。",
+        "walk_to_next": {
+          "to": "Plaça del Rei",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Plaça del Rei and the Roman walls",
+        "wikidata_qid": "Q807877",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1775
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "中世の王室広場で、1493年にコロンブスがFerdinandとIsabellaに発見を報告したとされるPalau Reial Majorに囲まれている。広場にあるMUHBA Barcelona History Museumの入口から地下に降りると、足元の真下に驚くほど保存状態の良い4kmのローマ時代のBarcino（街路、染色工房、ワイナリー）が広がっている。Barcelonaで最も驚きの博物館体験。",
+        "walk_to_next": {
+          "to": "Santa Maria del Mar",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Santa Maria del Mar",
+        "wikidata_qid": "Q930687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+        "coordinates": {
+          "lat": 41.3838,
+          "lon": 2.1819
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "1329年から1383年にかけてRibera地区の商人と荷役労働者によって建設され、労働者階級によって完全に資金提供された。地元では「海の大聖堂」と呼ばれている。純粋なカタルーニャ・ゴシック様式の内部は、フランス・ゴシック様式と比べて異常に幅広く開放的で、ガウディ以降の建築家たちに影響を与えたプロポーションを持つ。バラ窓を通る午後遅い陽光が視覚的な報酬となる。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Picasso Museum",
+          "wikidata_qid": "Q832627",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Picasso",
+          "coordinates": {
+            "lat": 41.3853,
+            "lon": 2.1808
+          },
+          "neighborhood": "El Born",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "El Bornの5つの連結された中世の邸宅に収蔵されているピカソ初期作品の最大コレクション。この美術館の強みは、ピカソがピカソになる前の姿を見せることで、Barcelonaでのアカデミック時代、青の時代、1957年のLas Meninas変奏曲などが展示されている。月曜日は休館。木曜日の午後と毎月第1日曜日は入場無料だが、その時間帯は長い列ができる。",
+          "walk_from_main_route": {
+            "from": "Santa Maria del Mar",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Eixample とGaudí軸",
+      "cluster_tagline": "モデルニスモのBarcelona - Sagrada Família、Casa Batlló、そしてそれらを計画したグリッド",
+      "neighborhood_focus": "Eixample",
+      "neighborhood_description": "1859年に設計された、Barcelona の旧市街の城壁外への19世紀の計画的拡張地区。面取りされた角を持つ統一されたグリッド状に配置され、この地区に八角形ブロックの視覚的リズムを与えています。このグリッドは、世界で最も密度の高いカタルーニャ・モデルニスモ（Gaudí、Domènech、Puigが牽引したスペインのアール・ヌーヴォー運動）の集積地となっています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Sagrada Família",
+        "wikidata_qid": "Q5882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+        "coordinates": {
+          "lat": 41.4036,
+          "lon": 2.1744
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 120,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Gaudíが手がけた未完の大聖堂で、1882年に着工し、現在は中央のJesus Christ塔が2026年に完成予定です。時間指定入場券は数週間前にオンラインで予約してください。当日券はオフシーズンでもほとんど入手できません。東向きのNativity facadeのステンドグラスから差し込む光を楽しむなら午前中の時間帯を選びましょう。青とオレンジの光が聖堂内部の柱を照らします。塔のエレベーター券（NativityまたはPassionの塔のいずれか）は別料金ですが、尖塔の詳細を間近で見ることができるので価値があります。",
+        "walk_to_next": {
+          "to": "Casa Batlló (via Passeig de Gràcia)",
+          "distance_meters": 1800,
+          "walking_minutes": 23
+        }
+      },
+      "afternoon": {
+        "activity_title": "Casa Batlló and Passeig de Gràcia",
+        "wikidata_qid": "Q11910",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3",
+        "coordinates": {
+          "lat": 41.3917,
+          "lon": 2.165
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Gaudíが1904年に既存のアパート建築を改築したもので、骨のような曲線の バルコニー、竜の鱗のようなタイル屋根、煙突の柱群は全て彼の作品です。内部見学ツアーは素晴らしい内容ですが（オンライン予約）料金は高め。予算重視なら、Passeig de Gràciaの向かい側からファサードを眺めるだけでも十分見どころです。同じブロックにはPuig i CadafalchによるCasa Amatllerもあり、二人の建築家のスタイルの対比こそがManzana de la Discordia（不和のブロック）と呼ばれる所以です。",
+        "walk_to_next": {
+          "to": "Casa Milà (La Pedrera)",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Casa Milà (La Pedrera) at sunset",
+        "wikidata_qid": "Q83036",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Mil%C3%A0",
+        "coordinates": {
+          "lat": 41.3954,
+          "lon": 2.162
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Gaudíの最後の世俗建築、1912年の作品。地元の人々は荒々しい石造りのファサードから'La Pedrera'（石切り場）と呼んでいます。屋上の超現実的な戦士の兜のような煙突群が有名な見どころで、夕日の時間指定チケットは割増料金を払う価値があります。夜の'Pedrera de Nit'見学では煙突に光のショーが投影され、昼間のツアーより料金は高いものの、より幻想的な体験ができます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hospital de Sant Pau",
+          "wikidata_qid": "Q5907",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hospital_de_Sant_Pau",
+          "coordinates": {
+            "lat": 41.4117,
+            "lon": 2.1742
+          },
+          "neighborhood": "Eixample",
+          "duration_minutes": 75,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Domènech i Montanerが1902-1930年に手がけた病院複合施設。27の独立したパビリオンがタイル装飾の遊歩道と地下トンネルで結ばれており、美しさ自体が治癒を促進するという革新的な理論に基づいて設計されました。最近修復されて一般公開されています。建築的にはGaudíの作品よりも一貫性があると言えますが、訪問者ははるかに少ないです。独自にUNESCO世界遺産に登録されています。Sagrada Famíliaから北に徒歩10分です。",
+          "walk_from_main_route": {
+            "from": "Sagrada Família",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        },
+        {
+          "activity_title": "Palau de la Música Catalana",
+          "wikidata_qid": "Q83118",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Palau_de_la_M%C3%BAsica_Catalana",
+          "coordinates": {
+            "lat": 41.3875,
+            "lon": 2.175
+          },
+          "neighborhood": "Sant Pere (border of Eixample)",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Domènech i Montanerによる1908年のコンサートホール。ステンドグラスのドームからの自然光のみで照明される、ヨーロッパ唯一のオーディトリアムです。昼間のツアーも良いですが、実際のコンサートに参加すれば感動的な体験ができ、ツアーより劇的に高いわけでもありません。UNESCO登録物件です。EixampleとEl Bornの間に位置し、立ち寄りスポットとして組み込みやすい場所です。",
+          "walk_from_main_route": {
+            "from": "Casa Batlló",
+            "distance_meters": 1100,
+            "walking_minutes": 14
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Montjuïc and Poble Sec",
+      "cluster_tagline": "博物館の丘 - Catalanアート、1929年万国博覧会の建築、そして地中海のパノラマ",
+      "neighborhood_focus": "Montjuïc / Poble Sec",
+      "neighborhood_description": "西側の海岸線からそびえ立つ184メートルの丘で、1929年国際博覧会、そして1992年オリンピックのために再開発されました。National Art Museum of Catalonia、Joan Miró Foundation、オリンピックスタジアム、そして頂上の中世の城があり、さらにBarcelonaで最も密集した無料パノラマビューのスポットでもあります。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "MNAC - National Art Museum of Catalonia",
+        "wikidata_qid": "Q861252",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Art_Museum_of_Catalonia",
+        "coordinates": {
+          "lat": 41.3686,
+          "lon": 2.1531
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "1929年のPalau Nacionalに収蔵されているNational Art Museumには、世界で最も重要なロマネスク様式のフレスコ画コレクションがあります。これらは1920年代にPyrenean山脈の村の教会から救出され、ここで復元された後陣の形で再設置されました。ロマネスク様式のギャラリーだけでも訪問する価値があります。上階のmodernisme棟ではGaudí時代の装飾芸術を展示しています。毎月第1土曜日の午後と毎週日曜日の午後3時以降は無料です。テラスからは街を見渡すパノラマビューが楽しめます。",
+        "walk_to_next": {
+          "to": "Fundació Joan Miró",
+          "distance_meters": 800,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Fundació Joan Miró",
+        "wikidata_qid": "Q637098",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fundaci%C3%B3_Joan_Mir%C3%B3",
+        "coordinates": {
+          "lat": 41.3686,
+          "lon": 2.1597
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Miróの友人Josep Lluís Sert（建築家、MIT学部長、Franco政権下のスペインからの亡命者）によって設計された財団の建物は、それ自体が20世紀の偉大な美術館建築の一つです。白い地中海のモダニズム建築で、天窓のあるギャラリーと屋上彫刻テラスを備えています。コレクションは圧倒的にMiróの作品が占め、年代順に整理されており、Miróに敬意を表して他の芸術家から贈られた作品を展示する印象的な「Tribute to Miró」の部屋があります。",
+        "walk_to_next": {
+          "to": "Montjuïc Castle",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Montjuïc Castle and the Mediterranean panorama",
+        "wikidata_qid": "Q623808",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Montju%C3%AFc_Castle",
+        "coordinates": {
+          "lat": 41.3636,
+          "lon": 2.1664
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "頂上にある17世紀の軍事要塞で、残酷な政治的歴史を持ちます。Franco政権によってCatalunyaの民族主義者を収監・処刑するために使用されました。現在は市が所有し、一般公開されています。東側の城壁からの眺めは、市街地から海まで地中海沿岸全体を見渡せます。西側の眺めは港とOlympic ringを見下ろします。Poble Sec上方のTelefèric駅からケーブルカーで上がるのが最も簡単なアクセス方法です。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mies van der Rohe Pavilion",
+          "wikidata_qid": "Q83074",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Barcelona_Pavilion",
+          "coordinates": {
+            "lat": 41.3706,
+            "lon": 2.1503
+          },
+          "neighborhood": "Montjuïc",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "1929年万国博覧会のためのMies van der Roheのドイツ館で、20世紀で最も影響力のある建物の一つ、モダニスト建築の基礎的な宣言です。オリジナルは博覧会後に解体されました。これは1986年に元の敷地に、オリジナルの材料と図面を使用して再建されたものです。小さく、外観は無料で見学でき、内部は適度な入場料がかかります。",
+          "walk_from_main_route": {
+            "from": "MNAC",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Magic Fountain of Montjuïc",
+          "wikidata_qid": "Q1888988",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Magic_Fountain_of_Montju%C3%AFc",
+          "coordinates": {
+            "lat": 41.3711,
+            "lon": 2.1517
+          },
+          "neighborhood": "Montjuïc",
+          "duration_minutes": 30,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "1929年の噴水で、金曜と土曜の夜に水・光・音楽のコレオグラフィーショーが行われます（夏季は木曜・金曜・土曜、冬季は週末のみ、干ばつ時は中止）。計画を立てる前にスケジュールを確認してください。ショーは天候と干ばつ状況に左右されます。観客は密集しますが、演出は本当に壮観です。",
+          "walk_from_main_route": {
+            "from": "MNAC",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

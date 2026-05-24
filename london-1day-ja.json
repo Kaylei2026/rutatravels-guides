@@ -1,0 +1,138 @@
+{
+  "destination": "London",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Westminster / South Bank"
+  ],
+  "guide_description": "London の儀式的な Thames の背骨に沿った徒歩の一日。Westminster Abbey から Houses of Parliament を通り、川を渡って South Bank まで。政治と王室の都市の中心部を一つのループで巡ります。",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 2200,
+  "total_walking_minutes": 28,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Westminster と South Bank",
+      "cluster_tagline": "London の儀式的な背骨 - Abbey、Big Ben、そして Thames の遊歩道",
+      "neighborhood_focus": "Westminster / South Bank",
+      "neighborhood_description": "Westminster は英国政府の所在地であり、君主制の戴冠式教会でもあり、Parliament Square を中心としています。Westminster Bridge を渡った向こう側の South Bank は文化的な対極をなし、川沿いの遊歩道、London Eye、そして主要な芸術施設が立ち並んでいます。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Westminster Abbey",
+        "wikidata_qid": "Q5933",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+        "coordinates": {
+          "lat": 51.4994,
+          "lon": -0.1273
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "1066年以来のすべてのイングランド戴冠式の場であり、17人の君主が埋葬されている場所。行列をスキップするためにオンラインで時間指定チケットを予約しよう。Poets' Corner（Chaucer、Dickens、Hardy、Browning）とCoronation Chairが明らかな見どころだが、しばしば見落とされがちなのがHigh Altarの真正面にあるCosmati Pavement。13世紀の幾何学的モザイクで、実際の戴冠式が行われる場所である。日曜日は礼拝以外は閉館。",
+        "walk_to_next": {
+          "to": "Houses of Parliament",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Houses of Parliament and Big Ben",
+        "wikidata_qid": "Q41770",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
+        "coordinates": {
+          "lat": 51.4995,
+          "lon": -0.1248
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "中世の建物が1834年に焼失した後、1870年に完成したネオゴシック様式のPalace of Westminster。イギリスおよびコモンウェルス諸国の住民は、Cromwell Greenで列に並べば討論を無料で見学できる。海外からの観光客は議会休会日（通常土曜日と休会週）に有料ツアーを予約可能。Big Benは鐘の名前で、塔ではない。塔自体はElizabeth Towerで、最近ビクトリア朝時代の元の色に修復された。",
+        "walk_to_next": {
+          "to": "London Eye via Westminster Bridge",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "South Bank and London Eye at sunset",
+        "wikidata_qid": "Q121130",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/London_Eye",
+        "coordinates": {
+          "lat": 51.5033,
+          "lon": -0.1196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "定番のParliamentとEyeの写真を撮るならWestminster Bridgeを歩こう。Eyeに乗るかどうかは予算次第。眺めは壮観だが高額で、Tate Modern方面へ東にSouth Bankを無料で散歩すれば、お金をかけずに同じスカイラインを楽しめる。撮影に最適な光は日没前の30分間で、この時間にParliamentの東面が最後の黄金の光を受ける。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Churchill War Rooms",
+          "wikidata_qid": "Q1133979",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Churchill_War_Rooms",
+          "coordinates": {
+            "lat": 51.5024,
+            "lon": -0.1294
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Churchillが第二次世界大戦中にイギリスの作戦を指揮した地下要塞施設で、1945年当時のまま完璧に保存されている。会議中にChurchillが噛んだ椅子があるCabinet Roomも含まれている。事前予約必須。ロンドンで最も訪問者の多い博物館のひとつで、当日入場はほとんど不可能。",
+          "walk_from_main_route": {
+            "from": "Houses of Parliament",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "St. James's Park",
+          "wikidata_qid": "Q216914",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St_James%27s_Park",
+          "coordinates": {
+            "lat": 51.5025,
+            "lon": -0.1342
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Londonで最も古い王立公園で、ペリカンがいる小さな湖があります（1664年にロシア大使からの贈り物で、それ以来ずっと飼育されています）。湖にかかる橋からは、Londonで最も過小評価されている景色の一つを楽しめます。一方向にBuckingham Palace、もう一方向にWhitehallの塔々が見えます。",
+          "walk_from_main_route": {
+            "from": "Westminster Abbey",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    }
+  ]
+}

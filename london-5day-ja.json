@@ -1,0 +1,534 @@
+{
+  "destination": "London",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Westminster / South Bank",
+    "The City / Tower",
+    "South Kensington / Hyde Park",
+    "Covent Garden / British Museum",
+    "Greenwich"
+  ],
+  "guide_description": "London の必見スポットに加えて、West End の文化地区と UNESCO の海洋遺産 Greenwich を巡る5日間。各日程は地理的にまとまった構成となっています。",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 10800,
+  "total_walking_minutes": 140,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Westminster と South Bank",
+      "cluster_tagline": "London の儀式的中枢 - Abbey、Big Ben、そして Thames 河畔の遊歩道",
+      "neighborhood_focus": "Westminster / South Bank",
+      "neighborhood_description": "Westminster は英国政府の所在地であり、王室の戴冠式教会でもあり、Parliament Square を中心としています。Westminster Bridge の向こう側の South Bank は文化的な対照をなし、河畔の遊歩道、London Eye、主要な芸術施設が立ち並んでいます。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Westminster Abbey",
+        "wikidata_qid": "Q5933",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+        "coordinates": {
+          "lat": 51.4994,
+          "lon": -0.1273
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "1066年以来すべての英国戴冠式が行われ、17人の君主が埋葬されている場所。列に並ばずに済むよう、時間指定チケットをオンラインで予約しましょう。Poets' Corner（Chaucer、Dickens、Hardy、Browning）とCoronation Chairが明らかな見どころですが、High Altarの直前にある見過ごされがちなCosmati Pavementは、実際の戴冠式が行われる13世紀の幾何学模様のモザイクです。日曜日は礼拝以外は閉館。",
+        "walk_to_next": {
+          "to": "Houses of Parliament",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Houses of Parliament and Big Ben",
+        "wikidata_qid": "Q41770",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
+        "coordinates": {
+          "lat": 51.4995,
+          "lon": -0.1248
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "ネオゴシック様式のPalace of Westminster。1834年に中世の建物が焼失した後、1870年に完成。英国および英連邦諸国の住民は、Cromwell Greenで列に並べば討論を無料で見学可能。海外からの訪問者は、議会非開催日（通常土曜日と休会期間）に有料ツアーを予約できます。Big Benは鐘の名前で、塔ではありません。塔自体はElizabeth Towerで、最近ビクトリア朝時代の色彩に復元されました。",
+        "walk_to_next": {
+          "to": "London Eye via Westminster Bridge",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "South Bank and London Eye at sunset",
+        "wikidata_qid": "Q121130",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/London_Eye",
+        "coordinates": {
+          "lat": 51.5033,
+          "lon": -0.1196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "定番の議会とEyeの写真を撮るならWestminster Bridgeを歩きましょう。Eyeに乗るかどうかは予算次第です。景色は素晴らしいですが高額で、Tate Modern方面へ東に向かうSouth Bankの無料散歩でも同じスカイラインを無料で楽しめます。撮影に最適な光は日没前30分、議会の東面が最後の黄金色に染まる時間帯です。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Churchill War Rooms",
+          "wikidata_qid": "Q1133979",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Churchill_War_Rooms",
+          "coordinates": {
+            "lat": 51.5024,
+            "lon": -0.1294
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "ChurchillがWWII作戦を指揮した地下壕複合施設で、1945年当時のまま完璧に保存されています。会議中にChurchillが噛んでいた椅子があるCabinet Roomも含まれます。事前予約必須。ロンドンで最も人気の博物館の一つで、当日入場はほぼ不可能です。",
+          "walk_from_main_route": {
+            "from": "Houses of Parliament",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "The City and Tower of London",
+      "cluster_tagline": "中世の要塞から金融の中心地へ - Thames川沿いに積み重ねられたLondonの千年の歴史",
+      "neighborhood_focus": "The City / Tower",
+      "neighborhood_description": "かつてRoman Londiniumであり、Tudor時代まで街全体であったThe Square Mile - 現在はLondonの金融街だが、中世の街路パターン、Tower of London、St. Paul's Cathedralがすべて保存されている。Britainで最も考古学的に密度の高い1平方キロメートル。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Tower of London",
+        "wikidata_qid": "Q11953",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_of_London",
+        "coordinates": {
+          "lat": 51.5081,
+          "lon": -0.0759
+        },
+        "unesco_designation": {
+          "site_name": "Tower of London",
+          "year_inscribed": 1988,
+          "reference_number": 488,
+          "url": "https://whc.unesco.org/en/list/488"
+        },
+        "duration_minutes": 180,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "William the Conquerorの1078年のWhite Towerに加え、900年にわたる増築 - 時代によって王宮、監獄、宝物庫、造幣所、動物園として使用された。到着前にオンラインで予約を。Yeoman Warder（Beefeater）ツアーは入場料に含まれ無料で、30分毎に実施され、意外にも最も素晴らしい見どころ - 機知に富み、不遜で、歴史的に濃厚。Crown Jewelsの列は開館後最初の1時間が最も早く進む。",
+        "walk_to_next": {
+          "to": "Tower Bridge",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tower Bridge and the riverside walk",
+        "wikidata_qid": "Q83125",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+        "coordinates": {
+          "lat": 51.5055,
+          "lon": -0.0754
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "しばしばLondon Bridge（上流にある地味な橋）と間違えられるヴィクトリア朝の跳開橋。タワー間の歩道は現在ガラス床が設置されており有料のアトラクションですが、車道デッキを歩いて渡るのは無料で同じ眺望が楽しめます。この橋は年間約800回開閉し、スケジュールはオンラインで公開されているので、開閉を見るために立ち止まる価値があります。",
+        "walk_to_next": {
+          "to": "St. Paul's Cathedral",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "St. Paul's Cathedral",
+        "wikidata_qid": "Q173882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St_Paul%27s_Cathedral",
+        "coordinates": {
+          "lat": 51.5138,
+          "lon": -0.0984
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Christopher Wrenの傑作で、大火災で中世の大聖堂が破壊された後、1710年に完成しました。ドーム内のWhispering Galleryは257段上った場所にあり、その名前の由来となった音響効果があります（壁にささやいた声が反対側30メートル離れた場所でも聞こえます）。礼拝への参加は無料入場、一般見学にはチケットが必要です。平日は午後4時30分頃に閉まるため、夕日を計画している場合は事前に時間を確認してください。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Borough Market",
+          "wikidata_qid": "Q913969",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Borough_Market",
+          "coordinates": {
+            "lat": 51.5055,
+            "lon": -0.0908
+          },
+          "neighborhood": "Southwark",
+          "duration_minutes": 60,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "13世紀から継続して営業している、Londonで最も古いフードマーケットで、現在はLondonの最高級グルメスポットです。金曜と土曜が最も賑やか、日曜は休業。火曜から木曜の昼間のマーケットは比較的静かで、商人たちも話をする時間があります。Tower BridgeからSt. Paul'sまで南岸経由で移動する際の自然なランチスポットです。",
+          "walk_from_main_route": {
+            "from": "Tower Bridge",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "South KensingtonとHyde Park",
+      "cluster_tagline": "ミュージアム・トライアングル - 世界クラスのコレクション3つとLondonで最も壮大な王室公園",
+      "neighborhood_focus": "South Kensington / Hyde Park",
+      "neighborhood_description": "1851年Great Exhibitionの収益から生まれたVictoria朝の文化地区で、Exhibition Roadの周辺に世界有数の博物館3つが集まっています。Kensington Gore北側には、Hyde ParkとKensington Gardensが250ヘクタールの連続した王室公園を形成しています。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Victoria and Albert Museum",
+        "wikidata_qid": "Q213322",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum",
+        "coordinates": {
+          "lat": 51.4966,
+          "lon": -0.1722
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "世界最大の装飾芸術・デザイン博物館 - 145のギャラリーに280万点の収蔵品を展示。入場無料。キャスト・コート（Victoria朝の博物館がオリジナルではなく複製品を収集していた時代に作られた、Trajan's ColumnとMichelangeloのDavidの等身大石膏模型）はLondonでここだけの展示です。William Morrisが装飾を手がけた部屋の下にあるガーデンカフェは、市内で最も快適な博物館ランチスポットの一つです。",
+        "walk_to_next": {
+          "to": "Natural History Museum",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Natural History Museum",
+        "wikidata_qid": "Q309388",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London",
+        "coordinates": {
+          "lat": 51.4967,
+          "lon": -0.1764
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "入場無料。中央のネーブに吊り下げられたHintze Hallのシロナガスクラの骨格標本（2017年に恐竜のDippyに代わって設置）が、この建物の象徴的な光景です。Volcanoes and Earthquakes galleryの地震シミュレーターは、日本の食料品店を模した店内で1995年のKobe地震を再現しており、最も驚きの展示となっています。週末は家族連れで賑わうため、じっくり見学したい方は平日の午後がおすすめです。",
+        "walk_to_next": {
+          "to": "Hyde Park Serpentine",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Hyde Park and the Serpentine at sunset",
+        "wikidata_qid": "Q83494",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hyde_Park,_London",
+        "coordinates": {
+          "lat": 51.5074,
+          "lon": -0.1657
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "350エーカーの王室公園で、1637年にCharles I世により一般開放されました。Serpentine湖（南岸にDiana Memorial Fountainがあります）が自然な中心となっています。湖ではボートレンタルが利用でき、南側のSerpentine Galleriesでは現代アートの企画展と有名な夏のパビリオン・コミッションが開催されます。北東端（Marble Arch）のSpeakers' Cornerでは、今でも日曜日の朝に街頭演説者たちが集まります。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Science Museum",
+          "wikidata_qid": "Q674773",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Science_Museum,_London",
+          "coordinates": {
+            "lat": 51.4978,
+            "lon": -0.1745
+          },
+          "neighborhood": "South Kensington",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "入場無料。StephensonのRocket、Apollo 10司令船、初代のBabbage解析機関が展示されています。2階のInformation Age galleryが最も優れた展示構成で、最初の大西洋横断ケーブルから現代のインターネットまでの通信の歴史をたどります。隣のNatural History Museumほど子供たちで混雑していません。",
+          "walk_from_main_route": {
+            "from": "Victoria and Albert Museum",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Covent GardenとBritish Museum",
+      "cluster_tagline": "West Endの文化的中心地 - 世界初の公立博物館、広場、そしてTheatreland",
+      "neighborhood_focus": "Covent Garden / Bloomsbury / Soho",
+      "neighborhood_description": "ロンドン中心部のエンターテインメントと博物館地区 - Covent Gardenの17世紀の広場と旧青果市場、Bloomsburyにあるthe British Museumの啓蒙時代の宝庫、そしてPiccadillyまで西に広がるSohoの密集したレストランと劇場群。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 27,
+      "morning": {
+        "activity_title": "British Museum",
+        "wikidata_qid": "Q6373",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/British_Museum",
+        "coordinates": {
+          "lat": 51.5194,
+          "lon": -0.127
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "入場無料、1753年に世界初の公立博物館として設立。Norman Foster設計のガラス屋根で覆われたthe Great Courtだけでも訪れる価値がある。必見：Rosetta Stone（Room 4）、Parthenon marbles（Room 18、物議を醸しており、そのように表示されている）、エジプトのミイラ展示室（Rooms 62-63）、Sutton Hoo helmet（Room 41）、Lewis Chessmen（Room 40）。3～4つの展示室に絞って、すべては見られないことを受け入れよう - この博物館には800万点の収蔵品がある。",
+        "walk_to_next": {
+          "to": "Covent Garden",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Covent Garden Piazza",
+        "wikidata_qid": "Q205662",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Covent_Garden",
+        "coordinates": {
+          "lat": 51.5117,
+          "lon": -0.124
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Inigo Jonesが1631年に設計した広場 - イングランド初の計画的な公共広場で、彼がGrand Tourで見たイタリアの広場をモデルにした。the Apple Market（中央のガラス温室内）では工芸品を販売しており、周辺の通りにはthe Royal Opera Houseやthe London Transport Museumがある。大道芸人たちは輪番制のライセンス制度で広場で活動しており、火曜から木曜の午後の時間帯に最高の芸を見ることができる。",
+        "walk_to_next": {
+          "to": "Trafalgar Square / National Gallery",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Trafalgar Square and the National Gallery",
+        "wikidata_qid": "Q180788",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Gallery",
+        "coordinates": {
+          "lat": 51.5089,
+          "lon": -0.1283
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "入場無料。13世紀から1900年までの2,300点の絵画 - Van EyckのArnolfini Portrait、VelazquezのRokeby Venus、TurnerのFighting Temeraire、Van GoghのSunflowers。隣接するthe National Portrait Gallery（こちらも無料、最近改装された）は時間があれば併せて訪れたい。Nelson's Columnと回転展示のFourth Plinth sculpture commissionがあるTrafalgar Square自体は、ロンドンの祝典と抗議活動のデフォルト会場である。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sir John Soane's Museum",
+          "wikidata_qid": "Q1622130",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sir_John_Soane%27s_Museum",
+          "coordinates": {
+            "lat": 51.5172,
+            "lon": -0.1175
+          },
+          "neighborhood": "Holborn",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "入場無料。Regency時代の建築家Sir John Soaneが1837年に残したままの状態で保存された自宅で、エジプトの石棺、Hogarthの絵画、ローマ時代の遺物、そして建築上の発明品がぎっしりと詰め込まれています。Londonで最も奇妙で愛される小さな博物館の一つです。月曜休館。",
+          "walk_from_main_route": {
+            "from": "British Museum",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        },
+        {
+          "activity_title": "Seven Dials",
+          "wikidata_qid": "Q1373893",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Seven_Dials,_London",
+          "coordinates": {
+            "lat": 51.5145,
+            "lon": -0.1267
+          },
+          "neighborhood": "Covent Garden",
+          "duration_minutes": 30,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "一つの日時計の柱から7本の通りが放射状に延びる、最小限の土地に最大限の住宅を配置するという17世紀の都市実験です。現在はCovent GardenとSoho本体の間にある高級独立系ショッピング街となっています。北端のCambridge TheatreではMatilda the Musicalが上演されています。",
+          "walk_from_main_route": {
+            "from": "Covent Garden",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Maritime Greenwich",
+      "cluster_tagline": "ユネスコ世界遺産のMaritime Greenwich - 本初子午線、Royal Observatory、そして英国で最も美しい海軍建築があります",
+      "neighborhood_focus": "Greenwich",
+      "neighborhood_description": "London中心部の南東にある川沿いの区域で、WrenとHawksmoorによる最も壮大な規模の海軍・天文学関連建物群のUNESCO世界遺産があります。Thames Clipperの遊覧船（最も風光明媚なアプローチ）、DLR、または鉄道でアクセス可能です。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Old Royal Naval College",
+        "wikidata_qid": "Q1788916",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Royal_Naval_College",
+        "coordinates": {
+          "lat": 51.4831,
+          "lon": 0.005
+        },
+        "unesco_designation": {
+          "site_name": "Maritime Greenwich",
+          "year_inscribed": 1997,
+          "reference_number": 795,
+          "url": "https://whc.unesco.org/en/list/795"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Christopher Wrenによる左右対称の川沿い複合建築群で、元々は退役船員のためのRoyal Hospital（1696年）でした。「英国のSistine Chapel」と呼ばれることもあるPainted Hallは、James Thornhillがフレスコ画を完成させるのに19年を要し、最近大規模な修復が行われました。向かいのChapel of St. Peter and St. Paulはより控えめですが、合わせて見る価値があります。",
+        "walk_to_next": {
+          "to": "National Maritime Museum / Queen's House",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Queen's House and National Maritime Museum",
+        "wikidata_qid": "Q1199074",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Queen%27s_House",
+        "coordinates": {
+          "lat": 51.481,
+          "lon": 0.005
+        },
+        "unesco_designation": {
+          "site_name": "Maritime Greenwich",
+          "year_inscribed": 1997,
+          "reference_number": 795,
+          "url": "https://whc.unesco.org/en/list/795"
+        },
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Inigo Jonesの1635年のQueen's Houseは、イギリス初の真の古典建築でした。英国建築が中世後期から Renaissance様式へと転換した瞬間を表しています。両博物館とも入場無料です。Queen's House内のTulip Stairsは、イングランド初の幾何学的自立階段です。Maritime Museumのコレクションは膨大で、Nelsonギャラリーと極地展示が最も充実した見どころです。",
+        "walk_to_next": {
+          "to": "Royal Observatory",
+          "distance_meters": 700,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Royal Observatory and the Prime Meridian",
+        "wikidata_qid": "Q994014",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
+        "coordinates": {
+          "lat": 51.4769,
+          "lon": 0.0005
+        },
+        "unesco_designation": {
+          "site_name": "Maritime Greenwich",
+          "year_inscribed": 1997,
+          "reference_number": 795,
+          "url": "https://whc.unesco.org/en/list/795"
+        },
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Greenwich丘陵にあるChristopher Wrenの1675年の天文台で、最終的に（1884年に）世界の経度ゼロ地点として子午線が引かれた場所です。中庭にある子午線そのものが定番の写真スポットです。Flamsteed House（歴史的な部屋だけなら入場無料）とカメラ・オブスキュラは、あまり知られていない見どころです。天文台のすぐ下にある展望テラスからは、Canary Wharfのスカイラインの最高の無料パノラマビューが楽しめます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Cutty Sark",
+          "wikidata_qid": "Q654648",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cutty_Sark",
+          "coordinates": {
+            "lat": 51.4828,
+            "lon": -0.0095
+          },
+          "neighborhood": "Greenwich",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "1869年に建造された現存する最後の茶葉輸送快速帆船で、現在はドライドックで保存され、船体の下を歩けるよう3メートル持ち上げられています。2007年の火災で大きな被害を受けましたが、2012年に元の木材を見えるように修復されました。船体下部から見上げる船の流線型は、London の他のどの博物館でも体験できない独特なものです。",
+          "walk_from_main_route": {
+            "from": "Old Royal Naval College",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Greenwich Park",
+          "wikidata_qid": "Q1547351",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Greenwich_Park",
+          "coordinates": {
+            "lat": 51.4769,
+            "lon": 0.0005
+          },
+          "neighborhood": "Greenwich",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "London最古の囲まれた王立公園で、かつてはTudor朝の狩猟場でした。Observatory への丘の上り道は、1660年代の短いイングランド滞在時に Le Notre（Versailles と同じ造園家）が植えたマロニエ並木の間を通ります。南東角の Wilderness 区域にいるダマジカの群れは、16世紀から途切れることなく続いています。",
+          "walk_from_main_route": {
+            "from": "Royal Observatory",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}

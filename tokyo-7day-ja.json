@@ -1,0 +1,657 @@
+{
+  "destination": "Tokyo",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Asakusa / Ueno",
+    "Shibuya / Harajuku",
+    "Shinjuku",
+    "Akihabara / Yanaka",
+    "Ginza / Imperial Palace",
+    "Kamakura (day trip)",
+    "Nikko (day trip)"
+  ],
+  "guide_description": "7日間でTokyoの主要エリアを巡り、さらに2つの日帰り旅行を含みます：大仏で知られる中世の都Kamakuraと、UNESCO登録のNikko神社群です。各日程は地理的にまとまっているため、天候や体力、宿泊先の立地に応じて順序を調整できます。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 21500,
+  "total_walking_minutes": 280,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "AsakusaとUeno",
+      "cluster_tagline": "古き東京 - 大寺院、川、そして博物館公園",
+      "neighborhood_focus": "Asakusa / Ueno",
+      "neighborhood_description": "市内で最も戦前のTokyoの面影を残す北東部地区です。Asakusaは、Tokyoで最古かつ最も参拝者の多い仏教寺院であるSensō-ji templeを中心としています。西へ20分のUeno Parkには、日本で最も密度の高い国立博物館群があります。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 42,
+      "morning": {
+        "activity_title": "Sensō-ji and Nakamise-dōri",
+        "wikidata_qid": "Q200035",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+        "coordinates": {
+          "lat": 35.7148,
+          "lon": 139.7967
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "645年に創建されたTokyo最古の仏教寺院。巨大な赤いKaminarimon（雷門）とその大きな提灯は絵はがきの定番です。午前9時前に到着してNakamise-dōri参道を歩けば、お土産の人混みを避けられます。本堂への入場は無料。隣接する五重塔はTokyoで最も写真に撮られる建造物の一つです。早朝に本堂前で立ち上がる線香の煙こそが、この寺の最も美しい姿です。",
+        "walk_to_next": {
+          "to": "Sumida River Walk",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sumida River and Asakusa backstreets",
+        "wikidata_qid": "Q855847",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sumida_River",
+        "coordinates": {
+          "lat": 35.7106,
+          "lon": 139.8019
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Sumida川沿いの公園からはTokyo SkytreeとAsahi Beer本社（Philippe Starkによる金色の炎の彫刻があり、地元では「金のうんち」と呼ばれている）への象徴的な眺望が楽しめます。Sensō-jiと川の間の路地を歩けば、kappabashi-dōri（かっぱ橋道具街）や、扇子、筆、せんべいなどを今でも売っている隠れたEdo時代の店を見つけることができます。Azuma Bridgeを渡ればSkytreeの最高の写真が撮れます。",
+        "walk_to_next": {
+          "to": "Ueno Park",
+          "distance_meters": 2000,
+          "walking_minutes": 26
+        }
+      },
+      "evening": {
+        "activity_title": "Ueno Park and the Tokyo National Museum",
+        "wikidata_qid": "Q330923",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_National_Museum",
+        "coordinates": {
+          "lat": 35.7188,
+          "lon": 139.7762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Japan最大最古の博物館で、国内で最も重要な日本美術コレクション（刀剣、陶磁器、仏教彫刻、浮世絵版画）を所蔵しています。時間がない場合はHonkan（日本館）が中核となります。Ueno Park自体は春のTokyo一の桜の名所で、Tokyo Zoo、National Museum of Western Art（Le Corbusier設計、UNESCO登録）、その他いくつかの小さな博物館があります。博物館は午後5時に閉館するため、十分な時間を確保するには午後3時までに到着してください。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "National Museum of Western Art",
+          "wikidata_qid": "Q1362629",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Western_Art",
+          "coordinates": {
+            "lat": 35.7156,
+            "lon": 139.7757
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "主要建物はLe Corbusier（東アジアでの唯一の作品）によって設計され、世界各地の彼の建築17件を対象とした多国間UNESCO登録の一部となっています。コレクションは中世ヨーロッパ絵画から20世紀初頭までで、RodinとMonetの作品を豊富に所蔵しています。月曜日休館。",
+          "walk_from_main_route": {
+            "from": "Ueno Park",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Shibuyaと Harajuku",
+      "cluster_tagline": "若者の Tokyo - 有名な交差点、ファッション街、そして森の中の偉大な Meiji 神社",
+      "neighborhood_focus": "Shibuya / Harajuku / Omotesandō",
+      "neighborhood_description": "現代 Tokyo を定義する西の軸 - Shibuya の歩行者スクランブル、Harajuku の若者ファッション地区、Omotesandō の高級大通り、そして Meiji Jingū の森の神社、これら全てが Yamanote 線の駅沿いを20分で歩ける一本の道でつながっています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Meiji Jingū Shrine",
+        "wikidata_qid": "Q229121",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Meiji_Shrine",
+        "coordinates": {
+          "lat": 35.6764,
+          "lon": 139.6993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Emperor Meiji と Empress Shōken のための神道神社で、70ヘクタールの植樹された森に囲まれています（1920年代にすべての木が手作業で寄贈・植樹されました）。巨大な木製の鳥居と砂利道のアプローチを歩くと、まるで Tokyo を完全に離れたような気分になります。神社自体は戦後に再建されましたが、元の明治時代の設計を維持しています。入場無料。内苑は別料金の区画ですが、6月の花菖蒲園は一見の価値があります。",
+        "walk_to_next": {
+          "to": "Harajuku / Takeshita Street",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Harajuku and Omotesandō",
+        "wikidata_qid": "Q193063",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harajuku",
+        "coordinates": {
+          "lat": 35.67,
+          "lon": 139.7034
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Takeshita-dōriは若者ファッションがぎっしり詰まった路地で、クレープ、キャラクターカフェ、かわいいファッションが週末には肩と肩がぶつかり合うほど混雑します。平行するOmotesandō大通りは正反対の極致で、東京で最も建築が集中した幅広い並木道です（Herzog and de MeuronによるPrada Aoyama、伊東豊雄によるTod's、SANAAによるDior）。この街を特徴づけるコントラストを体験するため、両方を歩いてみてください。",
+        "walk_to_next": {
+          "to": "Shibuya Crossing",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Shibuya Crossing at sunset",
+        "wikidata_qid": "Q11409538",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Crossing",
+        "coordinates": {
+          "lat": 35.6595,
+          "lon": 139.7004
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Shibuya Station前の有名な歩行者スクランブル交差点では、ピーク時には1回の信号で最大3,000人が横断します。Tsutaya書店上のStarbucksが定番の見学スポットですが、いつも混雑しています。Shibuya Scramble Squareの新しいShibuya Sky展望台は、より広い視野を楽しめる現代的な選択肢です。LED看板が交差点を照らす夜間が最もフォトジェニックです。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Shibuya Sky observation deck",
+          "wikidata_qid": "Q60743130",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Scramble_Square",
+          "coordinates": {
+            "lat": 35.6585,
+            "lon": 139.7019
+          },
+          "neighborhood": "Shibuya",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "2019年開業のShibuya Scramble Square 46階にある屋外屋上展望台。有名な交差点を真下に見下ろし、晴れた日にはMount Fujiまで一直線に見渡せます。時間指定チケットをオンラインで予約してください。サンセットの時間帯は1〜2日前に売り切れます。強風時は閉鎖されます。",
+          "walk_from_main_route": {
+            "from": "Shibuya Crossing",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Shinjuku",
+      "cluster_tagline": "超高層ビル群のTokyo - 都庁舎、戦後の横丁バー、そして都内最大の鉄道ターミナル",
+      "neighborhood_focus": "Shinjuku",
+      "neighborhood_description": "世界で最も利用者の多い駅（1日360万人の乗降客）を中心に発達した西部地区。西側の超高層ビル群には無料の都庁展望台があり、東側はKabukichō歓楽街と戦後の小さなバーが迷路のように並ぶGolden Gaiへと広がっている。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Shinjuku Gyoen National Garden",
+        "wikidata_qid": "Q1322323",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shinjuku_Gyoen",
+        "coordinates": {
+          "lat": 35.6852,
+          "lon": 139.71
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "58ヘクタールの皇室庭園で、日本の伝統庭園、フランス式整形庭園、イングリッシュ・ランドスケープの3つの異なる様式に分かれている。もともとは江戸時代の大名屋敷だった場所。Tokyoの公園では珍しく入園料がかかる（料金は控えめ）が、その代わり大きなグループや飲酒は禁止されており、YoyogiやUenoと比べて格段に静かな環境が保たれている。月曜休園。3月下旬から4月上旬の桜の最盛期には開園時から行列ができる。",
+        "walk_to_next": {
+          "to": "Tokyo Metropolitan Government Building",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tokyo Metropolitan Government Building observation deck",
+        "wikidata_qid": "Q260462",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Government_Building",
+        "coordinates": {
+          "lat": 35.6896,
+          "lon": 139.6917
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Kenzō Tangeが手がけた1991年建設の双子の塔からなる都庁舎で、建設当時はTokyo最高層の建造物だった。2つの展望台（北と南、どちらも地上202メートル）は完全に無料。晴れた日には南西方向にMount Fujiまで見渡せる。南展望台の方が閉館時間が早く、北展望台は22時まで開いており夕方の利用により適している。同等の景色が楽しめるShibuya SkyやTokyo Towerよりも混雑が少ない。",
+        "walk_to_next": {
+          "to": "Golden Gai / Omoide Yokochō",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Golden Gai and Omoide Yokochō",
+        "wikidata_qid": "Q5580547",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_Gai",
+        "coordinates": {
+          "lat": 35.694,
+          "lon": 139.7045
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "約200軒のマイクロバーがひしめく6つの狭い横丁。ほとんどの店が6〜10人しか座れず、多くが厳格なテーマ（ジャズ、パンク、文学、特定の年代など）を持っている。戦後東京の生き残りの一片。ほとんどのバーでカバーチャージ（¥500-1500）がかかるが、場の雰囲気を尊重する観光客には親切で、2〜3人より大きなグループは断られる。駅西側のOmoide Yokochō（Memory Lane）は焼き鳥横丁版で、より安く、煙っぽく、アクセスしやすい。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hanazono Shrine",
+          "wikidata_qid": "Q1148860",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hanazono_Shrine",
+          "coordinates": {
+            "lat": 35.694,
+            "lon": 139.7035
+          },
+          "neighborhood": "Shinjuku",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Golden GaiとKabukichō歓楽街の間に信じがたいほど挟まれた神社。赤い鳥居と周囲のネオンサインの対比は、新宿を象徴する光景の一つ。地元の人々は商売繁盛の祈願に訪れる。日曜日に開かれる小さなフリーマーケットは東京で最も心地よいものの一つ。",
+          "walk_from_main_route": {
+            "from": "Golden Gai",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Akihabaraと Yanaka",
+      "cluster_tagline": "エレクトロニックな東京と昔ながらの東京の出会い - オタク街と生き残った下町",
+      "neighborhood_focus": "Akihabara / Yanaka / Nezu",
+      "neighborhood_description": "隣接する二つの世界。Akihabaraは電子機器、アニメ、ゲームサブカルチャーの世界的中心地で、戦後のラジオ部品市場から発展した。電車で数駅北のYanakaは、1923年の地震と1945年の空襲の両方を生き延びた東京でも数少ない街のひとつ。狭い路地、木造の店舗、数多くの小さな寺院が残る。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3300,
+      "day_walking_minutes": 43,
+      "morning": {
+        "activity_title": "Akihabara Electric Town",
+        "wikidata_qid": "Q201020",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Akihabara",
+        "coordinates": {
+          "lat": 35.7022,
+          "lon": 139.7745
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "street",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "6ブロックにわたる多階層の電子機器、アニメ、マンガ、ゲームショップ群 - オタク文化の世界的中心地。Don Quijote、Yodobashi Camera、Mandarake、Super Potato Retro Game Shopが有名なランドマーク。Chuō-dōriの「メイドカフェ」は観光現象。本当に面白い店は、メインストリートから離れた場所にひっそりとある多階層の中古品専門店。平日の朝は混雑が少ない。",
+        "walk_to_next": {
+          "to": "Yanaka via train (Ueno → Nippori)",
+          "distance_meters": 2500,
+          "walking_minutes": 32
+        }
+      },
+      "afternoon": {
+        "activity_title": "Yanaka Cemetery and old-town walk",
+        "wikidata_qid": "Q11543793",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Yanaka_Cemetery",
+        "coordinates": {
+          "lat": 35.7256,
+          "lon": 139.7706
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "東京最大級の墓地のひとつ（1872年創設）で、かつての寺院群の敷地に建設された。中央の道を通る桜並木は、東京で最も情緒ある春の風景のひとつ。Tokugawa王朝最後の将軍が眠る。周辺のYanaka地区は、1923年の地震と第二次世界大戦の爆撃の両方を逃れた数少ない地域のひとつ。小さな木造店舗と古き東京の雰囲気が最も集中しているYanaka Ginza商店街を歩いてみよう。",
+        "walk_to_next": {
+          "to": "Nezu Shrine",
+          "distance_meters": 800,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Nezu Shrine",
+        "wikidata_qid": "Q1281272",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nezu_Shrine",
+        "coordinates": {
+          "lat": 35.72,
+          "lon": 139.7611
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "東京最古の神社のひとつ（伝説では1900年前創建、現在の建物は1706年、重要文化財指定）。丘の中腹に続く朱色の鳥居のトンネルは、京都の有名なFushimi Inariのより小さく静かなバージョンで、古き東京で最も写真に撮られるスポットのひとつ。裏手のツツジ園は4月に見事に咲き誇り、シーズン中は少額の入園料を払う価値が十分にある。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kanda Myōjin Shrine",
+          "wikidata_qid": "Q1722851",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kanda_Shrine",
+          "coordinates": {
+            "lat": 35.7019,
+            "lon": 139.7681
+          },
+          "neighborhood": "Akihabara",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Akihabaraの端にある主要な神社で、その立地を活かした特色ある取り組みを行っています。アニメをテーマにしたお守りを販売し、IT関係者向けの技術祈願祭を開催しています。神社自体は1,270年の歴史を持ちますが、第二次世界大戦後のコンクリート造りの再建は当時としては異例なほど先進的でした。Akihabara本体からYanakaへ向かう北行きの電車への途中に立ち寄るのに最適です。",
+          "walk_from_main_route": {
+            "from": "Akihabara Electric Town",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Ginzaと皇居",
+      "cluster_tagline": "High Tokyo - 皇居の庭園、歌舞伎座、そして元祖高級ショッピング街",
+      "neighborhood_focus": "Ginza / Marunouchi / Chiyoda",
+      "neighborhood_description": "江戸城跡地に建てられた東京中心部の威信ある地区です。皇居の内部は一般公開されていませんが、東御苑（無料開放）では城の石垣が保存されています。すぐ南のGinzaは日本初の西洋式商店街で、アジアで最もデパートと高級ブランド旗艦店が密集している地域です。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Imperial Palace East Gardens",
+        "wikidata_qid": "Q1147334",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Imperial_Palace_East_Gardens",
+        "coordinates": {
+          "lat": 35.6852,
+          "lon": 139.7575
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Edo Castle（徳川将軍家の居住地）の旧本丸・東御苑には、巨大な石垣、破壊された天守閣の土台、そして日本庭園があります。入園無料。月曜日と金曜日は休園。東側の二の丸庭園が最も美しいです。皇居外濠沿いの散歩道（桜田門から平川門まで）は、都心で楽しめる最高の無料散歩コースの一つです。",
+        "walk_to_next": {
+          "to": "Ginza",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ginza shopping district",
+        "wikidata_qid": "Q201038",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ginza",
+        "coordinates": {
+          "lat": 35.6717,
+          "lon": 139.7649
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "日本初の西洋式商店街で、江戸時代にここにあった銀貨鋳造所にちなんで名付けられました。中央通りと晴海通りの交差点がシンボル的な中心地です。週末の午後には中央通りが車両通行止めになり、「歩行者天国」となります。伊東屋本店（12階建て）、Ginza Six（建築的な見どころ）、和光（象徴的な時計塔の建物）が代表的なランドマークです。",
+        "walk_to_next": {
+          "to": "Kabukiza Theatre",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Kabukiza Theatre",
+        "wikidata_qid": "Q1148104",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kabuki-za",
+        "coordinates": {
+          "lat": 35.6694,
+          "lon": 139.7672
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "after_dark",
+        "notes": "Tokyo の主要な歌舞伎劇場で、現在の建物は2013年に建設されました（建築家隈研吾氏らの協働）。伝統的なファサードを保ちつつ、背後にモダンなタワーを配しています。全公演は4-5時間ですが、観光客向けに一幕見席が用意されており、通常料金よりもかなり安く観劇できます。夜間にライトアップされた外観は、Ginza で最も写真に撮られる建物の一つです。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hama-rikyū Gardens",
+          "wikidata_qid": "Q1149086",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hama-riky%C5%AB_Gardens",
+          "coordinates": {
+            "lat": 35.6597,
+            "lon": 139.7625
+          },
+          "neighborhood": "Tsukiji / Shimbashi",
+          "duration_minutes": 60,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "かつて徳川将軍家の鴨猟場だった場所で、現在は海水が潮の満ち引きで中央の池を満たす伝統的な回遊式庭園となっています。池の中島にある茶屋では、庭園の来園者に抹茶を提供しています。ここからSumida Riverを遡ってAsakusaまで水上バスが運行されており、Tokyoのその地域をまだ訪れていない場合は、Ginzaを後にする素晴らしい方法です。",
+          "walk_from_main_route": {
+            "from": "Ginza",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "Kamakura日帰り旅行",
+      "cluster_tagline": "中世の将軍の都 - 大仏、古刹、そして海辺のビーチ",
+      "neighborhood_focus": "Kamakura (outside Tokyo)",
+      "neighborhood_description": "1185年から1333年まで続いた日本初の武家の都で、TokyoからJR横須賀線で南へ1時間。街は小さく歩きやすく、鎌倉時代の主要な仏教寺院や神社がぎっしりと詰まっています。大仏（Daibutsu）が象徴的な見どころですが、Engaku-jiやHase-dera寺院の方がより充実した体験ができると言えるでしょう。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3600,
+      "day_walking_minutes": 47,
+      "morning": {
+        "activity_title": "Kōtoku-in and the Great Buddha (Daibutsu)",
+        "wikidata_qid": "Q1276702",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in",
+        "coordinates": {
+          "lat": 35.3168,
+          "lon": 139.5358
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "1252年に鋳造された高さ13.35メートルの青銅製座仏像 - もともとは木造の堂内に安置されていましたが、1498年の津波で流され、それ以来屋外に座しています。品格ある表情と美しいプロポーションにより、国宝に指定されています。少額の追加料金で、中空の内部に入ることができます。人混みを避けて撮影するなら、開門時刻（8時）に到着することをお勧めします。",
+        "walk_to_next": {
+          "to": "Hase-dera Temple",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Hase-dera Temple",
+        "wikidata_qid": "Q1108800",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hase-dera_(Kamakura)",
+        "coordinates": {
+          "lat": 35.3122,
+          "lon": 139.5333
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Sagami Bay上の丘陵地に建てられた寺院群で、高さ9メートルの観音（慈悲の菩薩）木造仏像があり、これは日本最大の木彫仏像です。展望テラスからは東京圏で最高の無料海岸景色の一つを楽しめます。亡くなった子供たちを供養する小さな地蔵像の庭園は、Kamakuraで最も写真に撮られ、最も心を打つ光景です。",
+        "walk_to_next": {
+          "to": "Tsurugaoka Hachimangū",
+          "distance_meters": 2400,
+          "walking_minutes": 31
+        }
+      },
+      "evening": {
+        "activity_title": "Tsurugaoka Hachimangū",
+        "wikidata_qid": "Q1131794",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tsurugaoka_Hachiman-g%C5%AB",
+        "coordinates": {
+          "lat": 35.3262,
+          "lon": 139.5564
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Kamakuraの主要な神道神社で、中世都市の精神的中心地として1063年に創建、1180年に再編されました。Yuigahama beachからの広い参道（Wakamiya-ōji street）が神社まで真っ直ぐ続いており、日本屈指の計画的な儀式軸の一つです。境内の博物館では神社が所蔵する中世の刀装具コレクションを展示しています。Tokyoへの帰りのJRは午後7時前を目指しましょう。それ以降も電車は運行していますが、夜間は本数が減ります。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Engaku-ji",
+          "wikidata_qid": "Q1234716",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Engaku-ji",
+          "coordinates": {
+            "lat": 35.337,
+            "lon": 139.547
+          },
+          "neighborhood": "Kita-Kamakura",
+          "duration_minutes": 75,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Kamakura五大禅寺の一つで、1282年に元寇で戦死した日本と蒙古の兵士たちを慰霊するために創建されました。舎利殿は日本最古の禅宗建築の一つです。Kamakura本駅の一つ手前のKita-Kamakura stationから簡単にアクセスでき、Tokyoから南下する際の便利な最初の立ち寄り地点です。",
+          "walk_from_main_route": {
+            "from": "Tsurugaoka Hachimangū",
+            "distance_meters": 1500,
+            "walking_minutes": 20
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "Nikkō日帰り旅行",
+      "cluster_tagline": "ユネスコの山岳神社 - 東京北部の杉林にあるTokugawa霊廟群",
+      "neighborhood_focus": "Nikkō (outside Tokyo)",
+      "neighborhood_description": "東京から電車で北へ2時間の山間の町で、日本で最も精巧な神社群があり、ユネスコ世界遺産に登録されている。Tōshō-gū神社（幕府を創設したTokugawa Ieyasu の霊廟）とその周辺の寺院群は、400年の歴史を持つ暗号杉の森の中に佇んでいる。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Nikkō Tōshō-gū",
+        "wikidata_qid": "Q183454",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nikk%C5%8D_T%C5%8Dsh%C5%8D-g%C5%AB",
+        "coordinates": {
+          "lat": 36.7575,
+          "lon": 139.5994
+        },
+        "unesco_designation": {
+          "site_name": "Shrines and Temples of Nikkō",
+          "year_inscribed": 1999,
+          "reference_number": 913,
+          "url": "https://whc.unesco.org/en/list/913"
+        },
+        "duration_minutes": 150,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "1603年から1868年まで日本を統治した幕府の創設者Tokugawa Ieyasu の霊廟。1617年に建設され、日本の宗教建築では珍しい贅沢さを誇る - 金箔、漆、そして建物全体に5,000体を超える個別の彫刻が施されている。有名な「見ざる言わざる聞かざる」の三猿は神厩舎にある。開門時刻の9amに到着することをお勧めする。正午までには本当に混雑する。",
+        "walk_to_next": {
+          "to": "Futarasan Shrine",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Futarasan Shrine and Rinnō-ji Temple",
+        "wikidata_qid": "Q1118143",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Futarasan_Shrine",
+        "coordinates": {
+          "lat": 36.7589,
+          "lon": 139.5969
+        },
+        "unesco_designation": {
+          "site_name": "Shrines and Temples of Nikkō",
+          "year_inscribed": 1999,
+          "reference_number": 913,
+          "url": "https://whc.unesco.org/en/list/913"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "ユネスコ登録の他の2つの構成要素。Futarasan Shrineはより古い聖地（782年創建、周辺の山の神々に捧げられた）で、Tōshō-gūより静かで装飾も控えめである。Rinnō-jiは関連する仏教寺院群で、そのSanbutsudō（三仏堂）には3体の巨大な金箔木造仏像が安置されている。3つの施設すべてを含む共通券の方がお得である。",
+        "walk_to_next": {
+          "to": "Shinkyō Bridge and Kanmangafuchi Abyss",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "Shinkyō Bridge and the cedar approach",
+        "wikidata_qid": "Q1218547",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shinky%C5%8D_(bridge)",
+        "coordinates": {
+          "lat": 36.7503,
+          "lon": 139.6033
+        },
+        "unesco_designation": {
+          "site_name": "Shrines and Temples of Nikkō",
+          "year_inscribed": 1999,
+          "reference_number": 913,
+          "url": "https://whc.unesco.org/en/list/913"
+        },
+        "duration_minutes": 45,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Daiya River にかかる朱塗りの神橋は、Nikkō 神社エリアへの象徴的な入り口です。橋を渡るには少額の料金がかかりますが、隣接する道路橋から無料で写真撮影できます。川の渓谷は、周囲のカエデが色づく晩秋に特に美しい写真が撮れます。Tokyo への電車（Asakusa または Shinjuku 経由で約2時間）は6pm までに乗ることをおすすめします。それ以降も電車はありますが、本数が少なくなります。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kanmangafuchi Abyss",
+          "wikidata_qid": "Q11468020",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kanmangafuchi_Abyss",
+          "coordinates": {
+            "lat": 36.7461,
+            "lon": 139.5897
+          },
+          "neighborhood": "Nikkō",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Daiya River 沿いの渓谷で、約70体の風化した地蔵像（地元では「化け地蔵」と呼ばれる）が小道に沿って並んでいます。メインの神社群よりもずっと静かで、小道は原生林の中を縫うように続き、参拝者が着せた赤い前掛けやニット帽をかぶった地蔵像たちが、この地域で最も雰囲気のある短い散歩道の一つを作り出しています。",
+          "walk_from_main_route": {
+            "from": "Shinkyō Bridge",
+            "distance_meters": 1500,
+            "walking_minutes": 20
+          }
+        }
+      ]
+    }
+  ]
+}

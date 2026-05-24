@@ -1,0 +1,374 @@
+{
+  "destination": "Paris",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Île de la Cité / Le Marais",
+    "Louvre / Tuileries / Palais-Royal",
+    "Eiffel / Champ de Mars / Invalides"
+  ],
+  "guide_description": "Parisの必見スポットを3日間で巡るコース：中世のSeine川沿いエリア、王室ゆかりの美術館、そして象徴的なLeft Bank地区の名所。各日程は地理的にまとまっているので、天候や時差ボケ、宿泊先に応じて順番を決めてください。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5350,
+  "total_walking_minutes": 70,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Île de la CitéとLe Marais",
+      "cluster_tagline": "Seine川沿いの中世Paris - ゴシック様式の内装と市内最古の計画的広場",
+      "neighborhood_focus": "Île de la Cité / Le Marais",
+      "neighborhood_description": "Île de la CitéはParisの地理的・歴史的中心部で、Seine川の島に築かれた元々のGallo-Roman居住地です。川を挟んで東側にあるLe Maraisは、中世のユダヤ人街で、19世紀のHaussmannによる都市改造を免れ、狭い街路と貴族の邸宅が保存されています。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1450,
+      "day_walking_minutes": 19,
+      "morning": {
+        "activity_title": "Sainte-Chapelle",
+        "wikidata_qid": "Q193517",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+        "coordinates": {
+          "lat": 48.8554,
+          "lon": 2.345
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Louis IX が茨の冠を安置するために建造した13世紀の王室礼拝堂。下の礼拝堂は飛ばして上階へ向かいましょう。15メートルの高さまで立ち上がる15枚のステンドグラスが聖書の大部分を物語っており、東向きのバラ窓を通す朝の陽光は、ヨーロッパで最も強烈なゴシック建築の光体験をもたらします。Palais de Justice 複合施設内にあるため、Boulevard du Palais の入場ゲートでセキュリティチェックが必要です。",
+        "walk_to_next": {
+          "to": "Notre-Dame de Paris",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Notre-Dame de Paris",
+        "wikidata_qid": "Q160236",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+        "coordinates": {
+          "lat": 48.853,
+          "lon": 2.3499
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "2019年の火災を経て2024年12月に再オープン。入場は無料ですが、大聖堂の公式ウェブサイトから事前の時間指定予約が必要で、1日の枠数は限定されています。修復後の内部は、200年以上ぶりに見る美しさです。清掃された石灰岩は、火災前の記憶にある煤けたグレーではなく、ほぼ黄色に見えるほどです。宝物庫と塔の登頂は別途有料チケットが必要です。",
+        "walk_to_next": {
+          "to": "Place des Vosges",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Place des Vosges and Le Marais wandering",
+        "wikidata_qid": "Q189660",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Place_des_Vosges",
+        "coordinates": {
+          "lat": 48.8554,
+          "lon": 2.3656
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Paris最古の計画都市広場（1612年）で、完璧なアーケード付き長方形がヨーロッパ全土の住宅都市設計の模範となりました。Victor Hugo は6番地に住んでいました。現在彼のアパートメントは無料の博物館になっています。周辺の通り、Rue des Rosiers、Rue Vieille-du-Temple、Rue des Francs-Bourgeois を歩けば、Paris で最も密集した17世紀の貴族邸宅群を見ることができます。",
+        "walk_to_next": {
+          "to": "Pont Neuf",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Pont Neuf at sunset",
+          "wikidata_qid": "Q207614",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pont_Neuf",
+          "coordinates": {
+            "lat": 48.857,
+            "lon": 2.3415
+          },
+          "neighborhood": "Île de la Cité",
+          "duration_minutes": 30,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "名前は Pont Neuf（新橋）ですが、実際は Paris に現存する最古の橋で、1607年に完成しました。島の先端にある Vert-Galant 庭園は Paris 中心部で最高の夕日スポットです。Henri IV 騎馬像の後ろにある階段を降りて行きましょう。",
+          "walk_from_main_route": {
+            "from": "Place des Vosges",
+            "distance_meters": 950,
+            "walking_minutes": 12
+          }
+        },
+        {
+          "activity_title": "Conciergerie",
+          "wikidata_qid": "Q200644",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Conciergerie",
+          "coordinates": {
+            "lat": 48.8566,
+            "lon": 2.3458
+          },
+          "neighborhood": "Île de la Cité",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "中世の王宮で、後に革命時の監獄となり、Marie Antoinetteが最期の数週間を過ごした場所です。Salle des Gens d'Armesは、ヨーロッパに現存する最大級のゴシック様式のホールの一つです。Sainte-Chapelleとの共通券を購入すると数ユーロお得になります。",
+          "walk_from_main_route": {
+            "from": "Sainte-Chapelle",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Louvre、Tuileries、Palais-Royal",
+      "cluster_tagline": "王室の軸線 - 世界最大の美術館、整形庭園、そして隠れた18世紀のアーケード",
+      "neighborhood_focus": "Louvre / Tuileries / 1st arrondissement",
+      "neighborhood_description": "Parisの中心的な王室地区で、Louvreの東翼を起点とし、Tuileriesを通って西のPlace de la Concordeまで延びています。この配置は4世紀にわたって、中世の宮殿から近代的な凱旋の道まで、一つの儀式的な軸線として設計されました。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Louvre Museum",
+        "wikidata_qid": "Q188709",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Louvre",
+        "coordinates": {
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "時間指定入場券をオンラインで予約しましょう。当日券での入場は今では稀で、ピラミッドの列で1時間を無駄にしてしまいます。3つの翼すべてではなく、そのうち2つを選びましょう。すべてを見ようとするのは、初回訪問でよくある典型的な間違いです。ほとんどの訪問者は、Denon（Mona Lisa、イタリア・ルネサンス、ギリシャ彫刻）とSully（エジプト古代遺物、フランス絵画）を優先します。火曜日は休館です。",
+        "walk_to_next": {
+          "to": "Tuileries Garden",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tuileries Garden and Place de la Concorde",
+        "wikidata_qid": "Q207360",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tuileries_Garden",
+        "coordinates": {
+          "lat": 48.8635,
+          "lon": 2.3275
+        },
+        "unesco_designation": {
+          "site_name": "Paris, Banks of the Seine",
+          "year_inscribed": 1991,
+          "reference_number": 600,
+          "url": "https://whc.unesco.org/en/list/600"
+        },
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "1664年に設計されたLe Nôtreの正式庭園で、Versaillesと同じ設計者による同じ幾何学的デザインです。中央のalléeに点在するMaillolのブロンズ像は本物です。西へ歩いてPlace de la Concordeのオベリスクへ向かい、Champs-ÉlyséesからArc de Triompheまでの長い眺望をお楽しみください。",
+        "walk_to_next": {
+          "to": "Palais-Royal",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Palais-Royal gardens and arcades",
+        "wikidata_qid": "Q194626",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palais-Royal",
+        "coordinates": {
+          "lat": 48.8634,
+          "lon": 2.3375
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Richelieu枢機卿の元宮殿がアーケード式ショッピングギャラリーに変わった建物で、1784年に一般公開されたパリ初のプロト・モールです。内庭にあるDaniel Burenの白黒ストライプの柱は賛否両論ですが、写真映えします。北側と東側の屋根付きアーケードには、パリで現在も営業している最古の店舗がいくつかあります。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Musée de l'Orangerie",
+          "wikidata_qid": "Q1064757",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l%27Orangerie",
+          "coordinates": {
+            "lat": 48.8638,
+            "lon": 2.3226
+          },
+          "neighborhood": "Tuileries",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Monetの仕様に合わせて設計された2つの楕円形の部屋に展示された8枚の記念碑的な睡蓮パネル。Louvreが近いため見落とされがちですが、より小規模で静寂に満ち、より超越的な体験ができると言えるでしょう。通常、長い列に並ぶことなく当日券で入場できます。",
+          "walk_from_main_route": {
+            "from": "Tuileries Garden",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Galerie Vivienne",
+          "wikidata_qid": "Q1502608",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Galerie_Vivienne",
+          "coordinates": {
+            "lat": 48.8669,
+            "lon": 2.3402
+          },
+          "neighborhood": "2nd arrondissement",
+          "duration_minutes": 20,
+          "type": "street",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "1823年に建設されたモザイクの床とガラス屋根の円形ホールを持つ屋根付きアーケードで、現存するParis のアーケードの中で最も美しいものです。Palais-Royal のアーケードから北に徒歩2分の距離にあり、雨の午後には両方を合わせて連続した屋内ルートを楽しめます。",
+          "walk_from_main_route": {
+            "from": "Palais-Royal",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Eiffel Tower と Invalides",
+      "cluster_tagline": "象徴的な Left Bank - 塔、Champ de Mars、そして Napoleon のドーム",
+      "neighborhood_focus": "7th arrondissement",
+      "neighborhood_description": "18世紀から19世紀にかけてフランス軍と1889年の万国博覧会の舞台として整備された壮大な Left Bank 地区です。広大な式典用スペース、金色のドームを持つ記念碑群、そして地球上で最も写真に撮られる建造物があります。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Eiffel Tower",
+        "wikidata_qid": "Q243",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+        "coordinates": {
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "頂上へのエレベーターはオンラインで数週間前に予約しましょう。シーズン中は当日券を入手するのはほぼ不可能です。第2展望台への階段チケットは安く、行列も短く、より雰囲気があるとも言えます。第2展望台からの眺めは実際には位置関係を把握するのに優れており、頂上は写真撮影のためのものです。朝のベストなアプローチはTrocadéroから絵葉書のようなアングルで撮影してから、下を歩いて渡ることです。",
+        "walk_to_next": {
+          "to": "Champ de Mars",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Champ de Mars and Rue Cler",
+        "wikidata_qid": "Q1057533",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Champ_de_Mars",
+        "coordinates": {
+          "lat": 48.8556,
+          "lon": 2.2986
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Eiffel Towerから南にÉcole Militaireまで延びる長い緑地帯で、パレード会場として設計されましたが、現在はピクニック公園となっています。東に数ブロック行ったRue Clerは、市内に残る最高の伝統的なマーケット通りの一つです。歩行者専用で、チーズ店、肉屋、青果店が立ち並び、Rue Montorgueilよりも観光地化されていません。",
+        "walk_to_next": {
+          "to": "Les Invalides",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Les Invalides and Napoleon's Tomb",
+        "wikidata_qid": "Q172017",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Les_Invalides",
+        "coordinates": {
+          "lat": 48.8566,
+          "lon": 2.3125
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "monument",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "Louis XIV世の退役軍人病院で、現在は陸軍博物館とNapoléonの巨大な斑岩の石棺が金箔を施されたDôme des Invalidesの下に安置されています。ドームは午後遅くの西日を美しく受けます。陸軍博物館は巨大なので、時間がなければ第一次・第二次世界大戦のギャラリーと墓廟に直行しましょう。",
+        "walk_to_next": {
+          "to": "Pont Alexandre III",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Musée Rodin",
+          "wikidata_qid": "Q205495",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Rodin",
+          "coordinates": {
+            "lat": 48.8553,
+            "lon": 2.3158
+          },
+          "neighborhood": "7th arrondissement",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Rodinの旧邸宅兼アトリエで、現在は3ヘクタールの庭園に彼の主要なブロンズ作品群（考える人、Calais市民、Balzac）を展示しています。庭園のみのチケットは安く、晴れた日にはこちらの方が良い見学になるでしょう。Louvreより閉館時間が早いです（夏季17:45、冬季17:00）。",
+          "walk_from_main_route": {
+            "from": "Les Invalides",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Pont Alexandre III at sunset",
+          "wikidata_qid": "Q1188558",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pont_Alexandre_III",
+          "coordinates": {
+            "lat": 48.8636,
+            "lon": 2.3136
+          },
+          "neighborhood": "7th / 8th arrondissement",
+          "duration_minutes": 20,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Parisで最も装飾が美しい橋 - Beaux-Arts様式の金箔を施した彫像とアールヌーボー様式の街灯が特徴的で、1900年の万国博覧会のために建設された。この橋からの眺望では、一方にLes Invalidesのドームが、もう一方にGrand Palaisが一直線に並んで見える。両方の建造物がライトアップされるゴールデンアワーが最も美しい。",
+          "walk_from_main_route": {
+            "from": "Les Invalides",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    }
+  ]
+}

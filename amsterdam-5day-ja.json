@@ -1,0 +1,539 @@
+{
+  "destination": "Amsterdam",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T11:59:42.390Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Medieval Centre / De Wallen",
+    "Canal Ring / Grachtengordel",
+    "Museumplein / Oud-Zuid",
+    "Jordaan / Westerpark",
+    "De Pijp / Oost"
+  ],
+  "guide_description": "Amsterdamの本質的な魅力を5日間で巡る：中世の中心部と最古の水路、黄金時代の運河環状地区、素晴らしい美術館地区、親密なJordaanの街並み、そして中心部の南と東に広がる活気ある19世紀の労働者街。各日程は地理的にまとまっており、トラムを使わずに徒歩で回ることができます。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 14950,
+  "total_walking_minutes": 187,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Medieval CentreとDe Wallen",
+      "cluster_tagline": "Amsterdamで最も古い街並み - ゴシック様式の教会群、元来の港、そして街の発祥の地となった広場",
+      "neighborhood_focus": "Medieval Centre / De Wallen",
+      "neighborhood_description": "Amstel damを中心とした最初の集落地で、DamrakとRokin運河、そして2つの偉大な中世教会によって区画されています。ここの街路構造は黄金時代の運河環状地区よりも古く、近世以前の交易港の凝縮された規模を今に伝えています。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "Nieuwe Kerk",
+        "wikidata_qid": "Q1179006",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nieuwe_Kerk,_Amsterdam",
+        "coordinates": {
+          "lat": 52.3731,
+          "lon": 4.8912
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "名前とは裏腹に、この15世紀のゴシック様式教会は1814年以来オランダ君主の戴冠式教会として使われています。内部は広大で、Admiral de Ruyterの常設記念碑と並んで通常は企画展示に使用されています。メインの南側入口ではなく、Dam Square側の北側入口から入ることをお勧めします。その方が内部の美しさがより徐々に現れてきます。",
+        "walk_to_next": {
+          "to": "Dam Square",
+          "distance_meters": 80,
+          "walking_minutes": 1
+        }
+      },
+      "afternoon": {
+        "activity_title": "Dam Square and the Royal Palace",
+        "wikidata_qid": "Q215541",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dam_Square",
+        "coordinates": {
+          "lat": 52.3731,
+          "lon": 4.8932
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Amsterdamの地理的中心であり、Amstel川にかけられた最初のダムがあった場所です。西側のRoyal Palaceは1655年に市庁舎として建設され、内部は見学可能です。1階のCitizens' Hallには、当時知られていた世界の中心にAmsterdamを配置した大理石象嵌の世界地図があり、黄金時代における街の自己認識がよく分かります。",
+        "walk_to_next": {
+          "to": "Oude Kerk",
+          "distance_meters": 520,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Oude Kerk and De Wallen",
+        "wikidata_qid": "Q1249985",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oude_Kerk,_Amsterdam",
+        "coordinates": {
+          "lat": 52.3745,
+          "lon": 4.8978
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Amsterdamで最古の建物（1306年聖別）で、驚くことに歓楽街の真ん中に位置しています。この教会は歴史的役割と同時に現代アートの会場としても機能しており、展示は往々にして素晴らしく、混雑していません。周辺のDe Wallenの運河沿いの道は、Amsterdamで最もよく保存された中世の路地網です。人混みがピークに達する前の夕方早い時間にWarmoesstraatと並行するOudezijds Voorburgwalを散策すると、街の本来のスケールを珍しく実感できます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Amsterdam Museum at the Amstelkring",
+          "wikidata_qid": "Q2631561",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_Ons%27_Lieve_Heer_op_Solder",
+          "coordinates": {
+            "lat": 52.3745,
+            "lon": 4.8969
+          },
+          "neighborhood": "De Wallen",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "17世紀の商人の運河沿い邸宅で、上の3フロアに完全に隠されたカトリック教会があります。これはAmsterdamでカトリックの礼拝が公式に禁じられていた時代に建てられました。この教会は150人収容でき、現在も礼拝が行われています。市内で最も驚きに満ちた内部空間のひとつです。",
+          "walk_from_main_route": {
+            "from": "Oude Kerk",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Schreierstoren",
+          "wikidata_qid": "Q2303039",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Schreierstoren",
+          "coordinates": {
+            "lat": 52.3762,
+            "lon": 4.9008
+          },
+          "neighborhood": "Medieval Centre",
+          "duration_minutes": 20,
+          "type": "fortress",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Amsterdam15世紀の城壁の最後の現存する塔の一つで、IJ港とGeldersekade運河が交わる角に位置している。1609年にHenry Hudsonがオランダによるマンハッタン領有権獲得につながる航海に出発した場所を示すプレートがある。外観と運河の角が見どころで、内部に入る必要はない。",
+          "walk_from_main_route": {
+            "from": "Oude Kerk",
+            "distance_meters": 330,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Grachtengordel - Western Canals",
+      "cluster_tagline": "最も静寂なGolden Age運河環状地区 - 貴族の邸宅、隠れた中庭、そしてAnne Frankの隠れ家",
+      "neighborhood_focus": "Canal Ring West / Grachtengordel",
+      "neighborhood_description": "AmsterdamのUNESCO登録17世紀運河環状地区の西側部分で、北のBrouwersgrachtsから南のLeidsegrachtまで延びている。この区域は最初に開発され、現在でも建築学的に最も完全な状態を保っており、Herengracht、Keizersgracht、Prinsengrachtに沿って切妻屋根の商人の家々が立ち並んでいる。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Anne Frank House",
+        "wikidata_qid": "Q317576",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Anne_Frank_House",
+        "coordinates": {
+          "lat": 52.3752,
+          "lon": 4.8839
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "公式サイトから数週間前に時間指定入場券を予約してください。Nederlandsで最も人気の観光地の一つで、当日券購入者は入場を断られます。Anne Frankと他の7人が2年間隠れ住んだ隠れ家は、家具なしで保存されています（逮捕後に家族の所持品は没収されました）。空っぽの部屋は復元されたものより一層心に響きます。オリジナルの日記は最終セクションで展示されています。",
+        "walk_to_next": {
+          "to": "Westerkerk",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Westerkerk",
+        "wikidata_qid": "Q942010",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westerkerk",
+        "coordinates": {
+          "lat": 52.3746,
+          "lon": 4.8835
+        },
+        "unesco_designation": {
+          "site_name": "Seventeenth-century canal ring area of Amsterdam inside the Singelgracht",
+          "year_inscribed": 2010,
+          "reference_number": 1349,
+          "url": "https://whc.unesco.org/en/list/1349"
+        },
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Hendrik de Keyserによる1631年完成のプロテスタント教会で、高さ85メートルのAmsterdam最高峰です。Rembrandtがここの床のどこかの無名の墓に埋葬されています。教会側もこの事実を認めていますが、正確な場所は失われました。Westertorenの塔に登ると（別料金、少人数ガイド付きのみ）、Amsterdamの他のどの展望地も敵わない運河環状地区の眺めが楽しめます。",
+        "walk_to_next": {
+          "to": "Herengracht",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Herengracht - the Golden Bend",
+        "wikidata_qid": "Q1410697",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Herengracht",
+        "coordinates": {
+          "lat": 52.3669,
+          "lon": 4.8901
+        },
+        "unesco_designation": {
+          "site_name": "Seventeenth-century canal ring area of Amsterdam inside the Singelgracht",
+          "year_inscribed": 2010,
+          "reference_number": 1349,
+          "url": "https://whc.unesco.org/en/list/1349"
+        },
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "LeidsestraatとVijzelstraat間の区間はGolden Bendと呼ばれ、17世紀後期にAmsterdamの最裕福な商人たちが2倍幅の運河沿い邸宅を建てた唯一のエリアです。夕日の時間に東岸をLeidsestraat方向へ南下すると、光がファサードに直接当たります。KeizergrachtとPrinsengrachtが両側に1ブロックずつ平行して走っており、こちらも散策の価値があります。この3つの運河が一体となって、UNESCO指定の中核を成しています。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Begijnhof",
+          "wikidata_qid": "Q751876",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Begijnhof,_Amsterdam",
+          "coordinates": {
+            "lat": 52.3695,
+            "lon": 4.8892
+          },
+          "neighborhood": "Grachtengordel",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "14世紀の中庭を囲む施療院の建物群で、庭園があります。Beguinesのために創設されました。彼女たちは正式な修道誓願なしに共同生活を送る在俗のカトリック女性でした。Spui側から目印のない木製ドアを通って入場します。中庭は無料で毎日開放されていますが、静寂時間は尊重されています。34番の家はAmsterdam最古の木造家屋（1420年頃）で、隣家と見た目では区別がつきません。",
+          "walk_from_main_route": {
+            "from": "Herengracht Golden Bend",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Museumplein と Oud-Zuid",
+      "cluster_tagline": "偉大な美術館広場 - 世界クラスの芸術作品、オランダの巨匠たち、そして市内で最も壮大な19世紀の公園",
+      "neighborhood_focus": "Museumplein / Oud-Zuid",
+      "neighborhood_description": "運河環状地区の南に19世紀後半に造成された文化地区。オランダで最も重要な国立コレクション3つが、整備された広場の500メートル以内に集まっており、背景にはOud-Zuidのブルジョア住宅街とVondelparkが広がっている。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Rijksmuseum",
+        "wikidata_qid": "Q190804",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rijksmuseum",
+        "coordinates": {
+          "lat": 52.36,
+          "lon": 4.885
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "時間指定チケットをオンラインで予約しておこう - 美術館は売り切れになり、午前の時間帯は格段に混雑が少ない。建物自体がCuypersによるゴシック・ルネサンス様式の文化の大聖堂（1885年）である。入館前に屋根付き自転車通路を歩いて、建物の規模を実感してみよう。2階のGallery of Honourが必須のルートで、12の展示室を巡り、最後にRembrandtのNight Watchにたどり着く。この作品は3.6×4.4メートルで、多くの人が想像するより大きい。VermeerのThe Milkmaidは同じ棟にあり、ほぼ常に混雑が少ない。",
+        "walk_to_next": {
+          "to": "Van Gogh Museum",
+          "distance_meters": 260,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Van Gogh Museum",
+        "wikidata_qid": "Q224124",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+        "coordinates": {
+          "lat": 52.3584,
+          "lon": 4.8811
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Van Goghの世界最大のコレクションを所蔵し、暗いオランダ時代から日本の影響を受けたParis時代、そしてArlesとSaint-Remyでの爆発的な色彩まで、年代順に展示されています。オンラインでの予約が必要です。美術館は厳格な時間指定入場制を採用しています。4階では彼の精神的な苦悩と晩年の作品が併せて展示されており、ヨーロッパの主要芸術家の伝記に関する美術館キュレーションの中で最も知的に誠実な内容となっています。",
+        "walk_to_next": {
+          "to": "Vondelpark",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Vondelpark",
+        "wikidata_qid": "Q178885",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vondelpark",
+        "coordinates": {
+          "lat": 52.3581,
+          "lon": 4.8686
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Amsterdamの中央公園で、1865年に造られた47ヘクタールのイングリッシュガーデン様式の公園です。Stadhouderskadesにある東側のメインエントランスが一般的な観光客のアプローチですが、南側のVondelkerk側から入ると、メインレイクまでの長い対角線の眺めを楽しめます。夏には野外劇場でほぼ毎晩無料コンサートが開催されるので、出かける前にVondelpark Openluchttheaterのスケジュールを確認しましょう。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Stedelijk Museum",
+          "wikidata_qid": "Q924335",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Stedelijk_Museum_Amsterdam",
+          "coordinates": {
+            "lat": 52.3581,
+            "lon": 4.8797
+          },
+          "neighborhood": "Museumplein",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "現代美術とコンテンポラリーアートの国立美術館で、RijksmuseumやVan Gogh美術館とともにMuseumpleinに位置しています。常設コレクションはDe Stijl（MondrianやRietveld）と戦後オランダ前衛芸術が充実しており、これらは国際的なコレクションでは見る機会の少ない分野です。2012年の浴槽型増築部分は建築的に賛否が分かれますが、内部のギャラリーは採光が良く、見学しやすい構造になっています。",
+          "walk_from_main_route": {
+            "from": "Van Gogh Museum",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "JordaanとWesterpark",
+      "cluster_tagline": "Amsterdam最も住みやすい地区 - 中庭、独立系ギャラリー、そして市内最高のストリートマーケット",
+      "neighborhood_focus": "Jordaan / Westerpark",
+      "neighborhood_description": "Jordaanは17世紀初頭に運河環状地区のすぐ外側に労働者階級の地区として建設され、その街路網は古いpolderの排水線に沿って作られました。現在では市内で最も人気の高い住宅地となっており、小さな運河、狭い通り、hofjesと呼ばれるポケット中庭、そしてヨーロッパのほとんどの歴史的中心部が直面するチェーン店の圧力に屈することなく生き残った独立系ショップがあります。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3450,
+      "day_walking_minutes": 44,
+      "morning": {
+        "activity_title": "Noordermarkt and the Saturday market",
+        "wikidata_qid": "Q2572745",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Noordermarkt",
+        "coordinates": {
+          "lat": 52.3778,
+          "lon": 4.8836
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "土曜日にはNoordermarkt教会周辺で2つのマーケットが同時開催されます：広場ではBoerenmarkt（有機農産物市場）が、PrinsengrachetとWesterstraat沿いではNoordermarkt蚤の市・アンティーク市場が開かれます。観光客向けのポーズではなく、地元の人々が実際に食材の買い物をしている10am前に、屋台が最も充実している時間帯に到着しましょう。月曜日のマーケットは異なる性格で、古着とテキスタイルのみの販売となります。",
+        "walk_to_next": {
+          "to": "Jordaan hofjes",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Jordaan Hofjes Walk",
+        "wikidata_qid": "Q2365485",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hofje",
+        "coordinates": {
+          "lat": 52.374,
+          "lon": 4.882
+        },
+        "unesco_designation": {
+          "site_name": "Seventeenth-century canal ring area of Amsterdam inside the Singelgracht",
+          "year_inscribed": 2010,
+          "reference_number": 1349,
+          "url": "https://whc.unesco.org/en/list/1349"
+        },
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Jordaanには20以上のhofjesがあります。これらは裕福な商人が高齢の貧しい人々のために建てた囲まれた救貧院の中庭です。ほとんどが現在も住宅として使われており、日中のみ開放されています。街の扉を押して静かに中に入ってください。Karthuizerstraat沿いのKarthuizerhofje（Amsterdam最大）とEgelantiersgracht 107のSint Andrieshofjeが優先して訪れる価値のある2つです。後者は1616年の年代が記されたタイル画が入口通路にあります。",
+        "walk_to_next": {
+          "to": "Westerpark",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Westerpark and Westergasfabriek",
+        "wikidata_qid": "Q2634713",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westerpark,_Amsterdam",
+        "coordinates": {
+          "lat": 52.3855,
+          "lon": 4.8716
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "19世紀のWestergasfabriekガス工場跡地を中心に造られた市立公園で、ヴィクトリア朝時代の産業建築物が映画館、レストラン、イベントスペースに改装されています。公園はWesterkanaal沿いに広がり、Vondelparkよりもはるかに地元らしい雰囲気を持っています。夏の週末の夜には、GashouderやTransformatorhuisでほぼ必ずアウトドアイベントが開催されているので、到着前にWestergasfabriekのウェブサイトをチェックしてみてください。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Electric Ladyland - Museum of Fluorescent Art",
+          "wikidata_qid": "Q2319047",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Electric_Ladyland_(museum)",
+          "coordinates": {
+            "lat": 52.3741,
+            "lon": 4.8815
+          },
+          "neighborhood": "Jordaan",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Tweede Leliedwarsstraatにある小さな地下博物館で、紫外線の下で光る蛍光アートと鉱物に特化しています。入館料はわずかで、入口はヘッドショップを通り、創設者自身がツアーを行っています。極めて特殊な分野ですが完全にユニークで、Jordaanの個人の風変わりさに対する寛容さがあるからこそ30年間続けられる、そんな都市だからこその存在です。",
+          "walk_from_main_route": {
+            "from": "Jordaan Hofjes Walk",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Brouwersgracht at dusk",
+          "wikidata_qid": "Q2662218",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Brouwersgracht",
+          "coordinates": {
+            "lat": 52.3786,
+            "lon": 4.8868
+          },
+          "neighborhood": "Jordaan",
+          "duration_minutes": 30,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "住民と建築家の両方から一貫してAmsterdamで最も美しい運河通りと評価されています。Jordaanの北端を東西に走っているため、運河が沈む夕日を真正面から受けます。ここにある古い倉庫群は1970年代にアパートに改装され、荷物用ドアや屋根の滑車が建築的なテクスチャーとして残されています。",
+          "walk_from_main_route": {
+            "from": "Noordermarkt",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "De PijpとEastern Docklands",
+      "cluster_tagline": "19世紀の労働者のAmsterdamとその工業港の再生 - Albert Cuyp市場とNEMO",
+      "neighborhood_focus": "De Pijp / Oostelijk Havengebied",
+      "neighborhood_description": "De Pijpは1860年代から70年代にかけて建設されたAmsterdamで最も人口密度の高い労働者階級の地区で、狭い長屋ブロックに労働者を収容していました。現在はAlbert Cuyp市場を中心とした市内で最も多文化的な地区となっています。北側のEastern Docklandsは、1990年代以降にオランダ現代建築のショーケースとして再開発された旧港湾島嶼部です。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3000,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Albert Cuypmarkt",
+        "wikidata_qid": "Q879705",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Albert_Cuypmarkt",
+        "coordinates": {
+          "lat": 52.3551,
+          "lon": 4.8959
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "オランダ最大、ヨーロッパでも有数の規模を誇る路上市場で、Albert Cuypstraat沿いに325の屋台が立ち並び、月曜から土曜の午前9時から午後5時まで営業しています。観光客向けの食べ物の屋台（stroopwafels、生ニシン）と、この地区のSuriname系、Morocco系、Turkey系住民にサービスを提供する日用品の屋台が混在している本物の市場です。まずはFerdinand Bolstraat近くの西端から回ることをお勧めします。この区域が最も混雑が少なく、地元色が強いエリアです。",
+        "walk_to_next": {
+          "to": "Heineken Experience",
+          "distance_meters": 520,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sarphatipark",
+        "wikidata_qid": "Q2638491",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sarphatipark",
+        "coordinates": {
+          "lat": 52.3556,
+          "lon": 4.9002
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "De Pijpの中心部にある小さなVictorian様式の公園で、1886年に周囲の人口密度の高い労働者階級居住区の憩いの場として設計されました。Vondelparkほど観光客に知られておらず、地元の家族や学生たちに実際に利用されています。中央にあるSamuel Sarphatiの記念碑は、De Pijp建設を推進したユダヤ系医師を記念したもので、彼は建設が始まる前の1866年に亡くなりました。",
+        "walk_to_next": {
+          "to": "NEMO Science Museum",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "evening": {
+        "activity_title": "NEMO Science Museum rooftop",
+        "wikidata_qid": "Q1820897",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/NEMO_Science_Museum",
+        "coordinates": {
+          "lat": 52.3742,
+          "lon": 4.9124
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "museum",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Renzo Pianoが設計した緑色の銅製船体のような建物が、IJ tunnelの入り口上に架かっています。屋上テラスは美術館のチケットを購入せずに無料でアクセスでき、Amsterdam旧市街、港、Eastern Docklardsを同時に見渡せる最高の高台パノラマを提供します。夏には屋上バーが営業しています。建物自体は水面レベルのOosterdok waterfrontから眺めるのがベストです。上に登る前に、桟橋まで下りて歩いてみてください。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Eastern Docklands - Java Island and KNSM Island",
+          "wikidata_qid": "Q2472137",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Island,_Amsterdam",
+          "coordinates": {
+            "lat": 52.3749,
+            "lon": 4.9335
+          },
+          "neighborhood": "Oostelijk Havengebied",
+          "duration_minutes": 60,
+          "type": "street",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "1990年代にオランダの都市住宅デザインの見本として再開発された旧貨物島です。Java Islandのテラスハウスは、共通の都市フレームワークの中で異なる建築家が設計したもので、混沌なき多様性の意図的な実験です。港の眺めと旧市街のスカイラインへの遮られない視線を楽しむには南岸を歩いてください。この角度からAmsterdamのコンパクトな歴史的中心部が全体として理解できる景色が広がります。",
+          "walk_from_main_route": {
+            "from": "NEMO Science Museum",
+            "distance_meters": 1200,
+            "walking_minutes": 15
+          }
+        },
+        {
+          "activity_title": "Joods Historisch Museum",
+          "wikidata_qid": "Q702726",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jewish_Historical_Museum,_Amsterdam",
+          "coordinates": {
+            "lat": 52.3674,
+            "lon": 4.9016
+          },
+          "neighborhood": "Jodenbuurt",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "17世紀と18世紀に建てられた4つの繋がったシナゴーグで、かつてヨーロッパ最大かつ最も影響力のあったAmsterdamのユダヤ人コミュニティの歴史を収蔵しています。この複合施設はPortuguese Synagogueに隣接しており、こちらは別チケットですが同じ広場にあります。無傷の歴史的建物と1940年から1945年の間にここで起こったことの重みが組み合わさり、オランダで最も厳粛で重要な場所の一つとなっています。",
+          "walk_from_main_route": {
+            "from": "Sarphatipark",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    }
+  ]
+}
