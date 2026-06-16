@@ -1,0 +1,128 @@
+{
+  "destination": "San Sebastian",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:16:37.773Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Parte Vieja / Monte Urgull / La Concha"
+  ],
+  "guide_description": "One day covering the essential arc of San Sebastian: the medieval Old Town with its pintxos bars and baroque church, the hilltop fortress overlooking the Bay of Biscay, and the curved La Concha promenade at sunset. Everything is walkable within a compact peninsula.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3200,
+  "total_walking_minutes": 40,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Parte Vieja and Monte Urgull",
+      "cluster_tagline": "Old Town pintxos bars, a hilltop fortress, and the most beautiful bay in Spain",
+      "neighborhood_focus": "Parte Vieja / Monte Urgull / La Concha",
+      "neighborhood_description": "San Sebastian's Parte Vieja is a dense grid of narrow streets between the port and the river Urumea, rebuilt after a British and Portuguese assault burned most of the city in 1813. Monte Urgull rises directly behind it, topped by a castle and a giant Christ statue, with unobstructed views across the bay. La Concha curves west from the Old Town as one of the most celebrated urban beaches in Europe.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 40,
+      "morning": {
+        "activity_title": "Basilica of Santa Maria del Coro",
+        "wikidata_qid": "Q1068308",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_of_Santa_Maria_del_Coro",
+        "coordinates": {
+          "lat": 43.3237,
+          "lon": -1.9757
+        },
+        "unesco_designation": null,
+        "duration_minutes": 40,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The 18th-century churrigueresque facade on Calle Mayor is the architectural anchor of the Old Town. Enter from the narrow street side rather than the main facade to get the full theatrical reveal of the gilded retablo inside. Morning light enters through the rear windows and lands directly on the high altar - by midday the interior is considerably darker.",
+        "walk_to_next": {
+          "to": "Monte Urgull and Castillo de la Mota",
+          "distance_meters": 450,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Monte Urgull and Castillo de la Mota",
+        "wikidata_qid": "Q15634949",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monte_Urgull",
+        "coordinates": {
+          "lat": 43.3264,
+          "lon": -1.9808
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The hill is freely accessible via multiple staircase paths from the Parte Vieja - the shortest ascent starts at the north end of Calle San Juan and takes about twelve minutes. The castle museum is small but the gun batteries and rampart walks give a complete panorama: the mouth of the bay to the north, Monte Igueldo to the west, the Urumea river mouth to the east. The Sacred Heart statue at the summit is visible from most of the city and functions as the best orientation point in San Sebastian.",
+        "walk_to_next": {
+          "to": "Playa de la Concha and Paseo de la Concha",
+          "distance_meters": 850,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Paseo de la Concha and Playa de la Concha",
+        "wikidata_qid": "Q1479931",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/La_Concha_beach",
+        "coordinates": {
+          "lat": 43.3199,
+          "lon": -1.9865
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Walk the full length of the promenade from the Old Town end to the Peine del Viento sculpture at the far western tip - the complete arc is just under two kilometers and takes about twenty-five minutes at a stroll. The wrought-iron balustrade railings and Belle Epoque lampposts are the original 19th-century ironwork. Sunset hits Monte Igueldo directly at the western end, silhouetting the Eduardo Chillida wind combs against the Atlantic - arrive at the Peine del Viento site fifteen minutes before sunset for the full effect.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Bretxa Market",
+          "wikidata_qid": "Q16003780",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mercado_de_la_Bretxa",
+          "coordinates": {
+            "lat": 43.3244,
+            "lon": -1.9768
+          },
+          "neighborhood": "Parte Vieja",
+          "duration_minutes": 30,
+          "type": "market",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "The covered food market at the edge of the Parte Vieja, split across two levels - the underground hall handles fish and meat while the street-level arcade above handles produce. The fish counter is the best place in the city to see what is actually in the pintxos being served that evening: spider crab, anchovies, kokotxas (cod cheeks), and sea urchin all appear depending on season. Open until roughly 2pm on weekdays.",
+          "walk_from_main_route": {
+            "from": "Basilica of Santa Maria del Coro",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Aquarium of San Sebastian",
+          "wikidata_qid": "Q2827852",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Aquarium_of_San_Sebasti%C3%A1n",
+          "coordinates": {
+            "lat": 43.3257,
+            "lon": -1.9785
+          },
+          "neighborhood": "Parte Vieja",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Occupying the former naval building at the harbor mouth, the aquarium has a strong section on the history of Basque deep-sea fishing and whaling that puts the pintxos culture into real historical context - the Basques were fishing the Grand Banks of Newfoundland before Columbus. The tunnel tank is the standard draw but the maritime history floor is the reason locals still visit. Good fallback if weather rolls in off the Atlantic.",
+          "walk_from_main_route": {
+            "from": "Basilica of Santa Maria del Coro",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

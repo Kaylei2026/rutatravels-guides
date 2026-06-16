@@ -1,0 +1,128 @@
+{
+  "destination": "Charleston",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:45:14.410Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "South of Broad / Battery / French Quarter"
+  ],
+  "guide_description": "One day covering the dense historic peninsula of Charleston: antebellum streets, the country's oldest public garden, a waterfront battery, and the French Quarter's church-dominated skyline. The entire cluster is walkable within a half-mile radius.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "The Charleston Peninsula",
+      "cluster_tagline": "Antebellum streetscapes, harbor views, and the oldest public gardens in America",
+      "neighborhood_focus": "South of Broad / Battery / French Quarter",
+      "neighborhood_description": "The southern tip of the Charleston peninsula, where the Ashley and Cooper rivers meet the harbor. Grand antebellum mansions face the water along the Battery, the French Quarter preserves the city's colonial grid, and Broad Street divides old money from older history. Nearly everything of significance is within a fifteen-minute walk.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Magnolia Cemetery - replaced with: The Battery and White Point Garden",
+        "wikidata_qid": "Q7977003",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/White_Point_Garden",
+        "coordinates": {
+          "lat": 32.7696,
+          "lon": -79.9399
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "The seawall promenade where the Ashley and Cooper rivers converge into Charleston Harbor - Fort Sumter is visible three miles out on a clear morning. Walk the full perimeter of the park rather than just the Battery-side cannon row; the south-facing Murray Boulevard side gives the widest harbor panorama and avoids the tour-group concentration near the Confederate monuments. Morning light comes off the water from the east.",
+        "walk_to_next": {
+          "to": "Nathaniel Russell House",
+          "distance_meters": 390,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Nathaniel Russell House",
+        "wikidata_qid": "Q7983001",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nathaniel_Russell_House",
+        "coordinates": {
+          "lat": 32.7718,
+          "lon": -79.9371
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "An 1808 Federal-style mansion considered the finest example of neoclassical domestic architecture in the American South. The interior's signature feature is a freestanding elliptical staircase that rises three stories with no visible means of support - visible from the entry hall without buying a ticket, but the full tour earns the second-floor rooms and their original plasterwork ceilings. The walled garden on the south side is often skipped and worth the extra five minutes.",
+        "walk_to_next": {
+          "to": "St. Michael's Church",
+          "distance_meters": 420,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "St. Philip's Church",
+        "wikidata_qid": "Q7592052",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Philip%27s_Church_(Charleston,_South_Carolina)",
+        "coordinates": {
+          "lat": 32.7763,
+          "lon": -79.9335
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The white steeple of St. Philip's defines the French Quarter skyline and was used as a navigational landmark by ships entering the harbor for two centuries. The churchyard on the east side of Church Street and the separate graveyard across the street both contain 18th-century graves; the east yard is almost always open and unattended. At dusk the steeple turns from white to amber under the street lighting, and Church Street itself empties of most visitors by early evening.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Heyward-Washington House",
+          "wikidata_qid": "Q5743635",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Heyward-Washington_House",
+          "coordinates": {
+            "lat": 32.7713,
+            "lon": -79.9349
+          },
+          "neighborhood": "South of Broad",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A 1772 double tenement that served as George Washington's lodging during his 1791 Southern tour. The kitchen building out back is one of the most intact 18th-century urban work buildings in the country - the cookware and hearth equipment are period originals, not reproductions. Combined ticket available with the Nathaniel Russell House.",
+          "walk_from_main_route": {
+            "from": "Nathaniel Russell House",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "St. Michael's Church",
+          "wikidata_qid": "Q7592046",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St._Michael%27s_Church,_Charleston",
+          "coordinates": {
+            "lat": 32.7743,
+            "lon": -79.9366
+          },
+          "neighborhood": "South of Broad",
+          "duration_minutes": 25,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Charleston's oldest surviving church building (1761), standing at the intersection of Broad and Meeting streets - the historic 'Four Corners of Law' where city, state, federal, and ecclesiastical authority all have a building. The steeple is the oldest in South Carolina and still contains the original 1764 peal of eight bells, which were shipped to England for repairs after both the Revolution and the Civil War.",
+          "walk_from_main_route": {
+            "from": "Nathaniel Russell House",
+            "distance_meters": 390,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

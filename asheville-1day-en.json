@@ -1,0 +1,128 @@
+{
+  "destination": "Asheville",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:51:00.108Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Downtown Asheville / Pack Square / River Arts District"
+  ],
+  "guide_description": "One day covering Asheville's essential character: the Gilded Age architecture of Pack Square, the murals and studios of the River Arts District, and the art deco civic fabric that makes this small Appalachian city unlike anything else in the American South.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Pack Square to River Arts District",
+      "cluster_tagline": "Art deco downtown and working artists' studios along the French Broad River",
+      "neighborhood_focus": "Downtown Asheville / Pack Square / River Arts District",
+      "neighborhood_description": "Asheville's compact downtown is built around Pack Square, a civic core that retained its early-20th-century architecture through a combination of Depression-era bankruptcy and later historic preservation. A short drive or long walk southwest along Depot Street leads to the River Arts District, a former industrial corridor of brick warehouses converted into over 200 working studios.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Biltmore Estate",
+        "wikidata_qid": "Q811915",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+        "coordinates": {
+          "lat": 35.5399,
+          "lon": -82.5521
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "George Vanderbilt's 8,000-acre estate built between 1889 and 1895 - the largest privately owned house in the United States at 178,926 square feet. Buy tickets online in advance; gate walk-ups pay a premium and morning entry avoids the midday crowd in the main house. Start in the basement and work up: the bowling alley, swimming pool, and servants' quarters are less photographed than the banquet hall but reveal more about how the estate actually functioned. The formal gardens designed by Frederick Law Olmsted are a separate circuit worth an hour after the house.",
+        "walk_to_next": {
+          "to": "Pack Square Park",
+          "distance_meters": 1560,
+          "walking_minutes": 20
+        }
+      },
+      "afternoon": {
+        "activity_title": "Pack Square Park and Asheville City Hall",
+        "wikidata_qid": "Q4854618",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Asheville_City_Hall",
+        "coordinates": {
+          "lat": 35.5751,
+          "lon": -82.5513
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Asheville City Hall, completed in 1928, is one of the most unusual art deco civic buildings in the American South - a pink-and-green terra cotta octagonal tower with a pyramidal roof, designed by Douglas Ellington. Stand across Pack Square on the Vance Monument side and look up the full facade; the polychrome detail on the upper stories reads as almost Aztec Revival at that distance. The surrounding block along Patton Avenue holds the S and W Cafeteria Building and the Kress Building, both original 1920s commercial art deco.",
+        "walk_to_next": {
+          "to": "River Arts District",
+          "distance_meters": 1300,
+          "walking_minutes": 16
+        }
+      },
+      "evening": {
+        "activity_title": "River Arts District studios",
+        "wikidata_qid": "Q7336680",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/River_Arts_District",
+        "coordinates": {
+          "lat": 35.5652,
+          "lon": -82.5696
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The district runs roughly along Depot Street and the adjacent rail corridor between the Clingman and Haywood Road ends. Studios are open most days but check the RAD website for designated Open Studio weekends when every space unlocks simultaneously. The Wedge Brewing complex on Islington Street sits inside a former foundry and is a practical anchor for the western end of the district - order a beer and ask which studios nearby are actively working that afternoon.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Thomas Wolfe Memorial",
+          "wikidata_qid": "Q7796916",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Wolfe_Memorial",
+          "coordinates": {
+            "lat": 35.5781,
+            "lon": -82.5481
+          },
+          "neighborhood": "Downtown Asheville",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The boarding house where Thomas Wolfe grew up, the Old Kentucky Home run by his mother Julia - it is the literal setting of Look Homeward, Angel. The restored Victorian interior is modest but the guided tours run tight and specific: rangers explain exactly which rooms Wolfe fictionalized and how the townspeople reacted when the novel was published in 1929. A small visitor center with exhibits sits directly across from the house.",
+          "walk_from_main_route": {
+            "from": "Pack Square Park",
+            "distance_meters": 390,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Basilica of Saint Lawrence",
+          "wikidata_qid": "Q4867977",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_of_Saint_Lawrence,_Asheville",
+          "coordinates": {
+            "lat": 35.5765,
+            "lon": -82.5541
+          },
+          "neighborhood": "Downtown Asheville",
+          "duration_minutes": 30,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Completed in 1909 and designed by Rafael Guastavino, the Spanish engineer who also tiled the ceiling of Grand Central Terminal and the Ellis Island Registry Room. The self-supporting elliptical Catalan tile dome - 58 by 82 feet - contains no internal supports and is one of the largest such domes in North America. Enter from Haywood Street and look up immediately; the dome is best appreciated from the back of the nave before you approach the altar.",
+          "walk_from_main_route": {
+            "from": "Pack Square Park",
+            "distance_meters": 610,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

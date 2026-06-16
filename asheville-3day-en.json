@@ -1,0 +1,326 @@
+{
+  "destination": "Asheville",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:52:15.304Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Downtown / Pack Square",
+    "Montford / Grove Park",
+    "Biltmore Estate"
+  ],
+  "guide_description": "Three days covering Asheville's essential character: the arts-saturated downtown core, the turn-of-the-century residential districts and grand inn perched above the city, and the sprawling Vanderbilt estate that put western North Carolina on the map. Each day is geographically self-contained and can be reordered based on weather or accommodation location.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5460,
+  "total_walking_minutes": 68,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Downtown Arts Core",
+      "cluster_tagline": "Art Deco blocks, murals, and the civic heart of a mountain city",
+      "neighborhood_focus": "Downtown / Pack Square",
+      "neighborhood_description": "Asheville's walkable downtown is a dense grid of 1920s and 1930s Art Deco commercial buildings that survived urban renewal largely intact. Pack Square is the civic anchor, with galleries, independent shops, and the city's best street-level architecture radiating outward in all directions.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1560,
+      "day_walking_minutes": 20,
+      "morning": {
+        "activity_title": "Asheville Art Museum",
+        "wikidata_qid": "Q4807958",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Asheville_Art_Museum",
+        "coordinates": {
+          "lat": 35.5751,
+          "lon": -82.5515
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Reopened in 2019 in a renovated and expanded building anchoring the east side of Pack Square. The permanent collection focuses on 20th and 21st-century American art with strong representation from Appalachian artists. Arrive at opening to avoid school groups that arrive mid-morning.",
+        "walk_to_next": {
+          "to": "Pack Square Park",
+          "distance_meters": 80,
+          "walking_minutes": 1
+        }
+      },
+      "afternoon": {
+        "activity_title": "Pack Square Park",
+        "wikidata_qid": "Q7124662",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pack_Square_Park",
+        "coordinates": {
+          "lat": 35.5752,
+          "lon": -82.5522
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The civic plaza at the center of downtown, formed from the merger of Pack Square and Court Plaza. The Vance Monument obelisk at its center was dedicated to Zebulon Vance, wartime governor of North Carolina. The square is the best orientation point for the downtown grid - stand here and identify which Art Deco rooflines you want to explore next.",
+        "walk_to_next": {
+          "to": "Thomas Wolfe Memorial",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Thomas Wolfe Memorial",
+        "wikidata_qid": "Q7795509",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Wolfe_Memorial",
+        "coordinates": {
+          "lat": 35.5785,
+          "lon": -82.5484
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The preserved boarding house where novelist Thomas Wolfe grew up, the setting for his autobiographical novel Look Homeward, Angel. The house burned in 1998 and was restored to its 1916 appearance. The adjacent visitor center holds Wolfe's original manuscripts and a recreated version of his New York City apartment workspace.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Flat Iron Building",
+          "wikidata_qid": "Q5458526",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Flat_Iron_Building_(Asheville,_North_Carolina)",
+          "coordinates": {
+            "lat": 35.5762,
+            "lon": -82.5541
+          },
+          "neighborhood": "Downtown",
+          "duration_minutes": 15,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Asheville's 1926 triangular office building at the wedge intersection of Battery Park Avenue and Wall Street - a smaller cousin to New York's Flatiron. The surrounding Block occupies the base of what was Battery Hill before it was leveled in the 1920s boom; the soil removed from the hill was used to fill in a creek and extend the downtown street grid.",
+          "walk_from_main_route": {
+            "from": "Pack Square Park",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Basilica of Saint Lawrence",
+          "wikidata_qid": "Q4867066",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_of_Saint_Lawrence,_Asheville",
+          "coordinates": {
+            "lat": 35.5774,
+            "lon": -82.5543
+          },
+          "neighborhood": "Downtown",
+          "duration_minutes": 30,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A 1909 Spanish Baroque church designed by Rafael Guastavino, the Catalan engineer behind the tiled vaulting in New York's Grand Central and the National Building Museum. The self-supporting elliptical dome - 58 by 82 feet with no internal supports - is his handiwork and one of the largest freestanding elliptical domes in North America. Enter from Haywood Street for the full nave reveal.",
+          "walk_from_main_route": {
+            "from": "Pack Square Park",
+            "distance_meters": 390,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Montford and Grove Park",
+      "cluster_tagline": "Victorian streetscapes, Arts and Crafts architecture, and mountain views from a legendary inn",
+      "neighborhood_focus": "Montford / Grove Park",
+      "neighborhood_description": "Montford is Asheville's oldest intact residential neighborhood, platted in the 1890s and lined with Queen Anne, Colonial Revival, and Craftsman homes. To the north, the Grove Park Inn sits on the ridge of Sunset Mountain, built in 1913 from locally quarried boulders and still hosting guests in its original stone lodge.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Montford Historic District",
+        "wikidata_qid": "Q6906223",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Montford_Historic_District",
+        "coordinates": {
+          "lat": 35.5862,
+          "lon": -82.5567
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Walk the main spine of Montford Avenue north from Haywood Street - the blocks between Watauga and Pearson contain the densest concentration of late Victorian architecture in the city. Look for the Richard Sharp Smith-designed cottages: Smith was the supervising architect of Biltmore Estate and later opened a private practice in Asheville, stamping Montford with his distinctive pebbledash stucco and half-timbering.",
+        "walk_to_next": {
+          "to": "Riverside Cemetery",
+          "distance_meters": 520,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Riverside Cemetery",
+        "wikidata_qid": "Q7335166",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Riverside_Cemetery_(Asheville,_North_Carolina)",
+        "coordinates": {
+          "lat": 35.5901,
+          "lon": -82.5588
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "A Victorian rural cemetery established in 1885 on a wooded hillside above the French Broad River. Thomas Wolfe and O. Henry (William Sydney Porter) are both buried here - Wolfe's grave is marked with a simple stone near the main entrance path, O. Henry's in a separate section to the west. Free, always open, with a printed self-guided walking map available at the entrance gate.",
+        "walk_to_next": {
+          "to": "The Grove Park Inn",
+          "distance_meters": 1430,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "The Grove Park Inn",
+        "wikidata_qid": "Q5614589",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Grove_Park_Inn",
+        "coordinates": {
+          "lat": 35.5952,
+          "lon": -82.5382
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Built in 1913 by E.W. Grove using boulders quarried directly from Sunset Mountain - the original stone lodge took 400 workers just 11 months to complete. Non-guests can walk in and use the Great Hall, which has two fireplaces large enough to stand inside. Walk out to the west terrace at sunset for an unobstructed view across the Asheville basin to the Blue Ridge Parkway ridge.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "North Carolina Arboretum - Overlook Trail",
+          "wikidata_qid": "Q7062217",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/North_Carolina_Arboretum",
+          "coordinates": {
+            "lat": 35.5077,
+            "lon": -82.6094
+          },
+          "neighborhood": "Bent Creek",
+          "duration_minutes": 90,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "A 434-acre botanical garden at the edge of the Pisgah National Forest, about 15 minutes south of downtown by car. The bonsai exhibition greenhouse is a year-round anchor; the Blue Ridge Quilt Garden changes planting each season. Go on a weekday morning to avoid the weekend trail crowds on the Bent Creek watershed loop.",
+          "walk_from_main_route": {
+            "from": "The Grove Park Inn",
+            "distance_meters": 7800,
+            "walking_minutes": 98
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Biltmore Estate",
+      "cluster_tagline": "America's largest private home, Olmsted-designed grounds, and a working winery in the Blue Ridge foothills",
+      "neighborhood_focus": "Biltmore Estate",
+      "neighborhood_description": "George Vanderbilt's 8,000-acre estate, now reduced to roughly 8,000 acres of managed land south of Asheville. Richard Morris Hunt designed the 250-room chateau in the French Renaissance style; Frederick Law Olmsted designed the approach road and gardens. The estate remains privately owned and operated as a paid attraction with its own winery, hotel, and village.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Biltmore House",
+        "wikidata_qid": "Q527799",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+        "coordinates": {
+          "lat": 35.5406,
+          "lon": -82.5515
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Buy tickets online in advance - the estate sets daily entry caps and walk-up availability is unreliable on weekends. The self-guided house tour covers roughly 70 rooms across four floors, including the bowling alley and indoor swimming pool in the basement. Start on the top floor and work down to finish in the kitchen quarters, which most visitors do in reverse and find rushed.",
+        "walk_to_next": {
+          "to": "Walled Garden and Conservatory",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Biltmore Walled Garden and Conservatory",
+        "wikidata_qid": "Q527799",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+        "coordinates": {
+          "lat": 35.5385,
+          "lon": -82.5538
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Olmsted's four-acre walled kitchen and cutting garden, now maintained as an ornamental garden with seasonal plantings managed in the original Victorian framework. The adjacent Conservatory - a steel-and-glass Victorian greenhouse - holds the estate's propagation operation and is often overlooked by visitors heading directly to the winery. Walk the azalea garden path on the south side of the walled garden for the best framed view back toward the chateau.",
+        "walk_to_next": {
+          "to": "Antler Hill Village and Winery",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Antler Hill Village and Biltmore Winery",
+        "wikidata_qid": "Q527799",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+        "coordinates": {
+          "lat": 35.5361,
+          "lon": -82.5573
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The estate winery is housed in the original dairy complex, a brick Romanesque Revival building designed by Richard Morris Hunt. The complimentary tasting included with estate admission covers the standard wines; reserve and library tastings cost extra but are worth it for the aged Cabernet Sauvignon program. The outdoor terrace behind the winery has a direct sightline to the back lawn of the chateau across the estate meadow.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Approach Road Walk",
+          "wikidata_qid": "Q527799",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+          "coordinates": {
+            "lat": 35.5451,
+            "lon": -82.5486
+          },
+          "neighborhood": "Biltmore Estate",
+          "duration_minutes": 40,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Olmsted designed the three-mile approach road specifically so the chateau would remain invisible until the final bend - a deliberate compression-and-reveal sequence. Most visitors drive it; walking or cycling it (bikes available at Antler Hill Village) gives you time to read the landscape management Olmsted intended, with the forest canopy opening onto the esplanade only at the very end.",
+          "walk_from_main_route": {
+            "from": "Biltmore House",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        },
+        {
+          "activity_title": "Bass Pond and Lagoon Trail",
+          "wikidata_qid": "Q527799",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+          "coordinates": {
+            "lat": 35.533,
+            "lon": -82.5601
+          },
+          "neighborhood": "Biltmore Estate",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "The south end of the estate grounds, away from the main visitor traffic around the house and winery. The lagoon and bass pond were part of Olmsted's original naturalistic landscape plan and remain one of the least visited sections of the property. The trail connects back to Antler Hill Village in about 30 minutes of easy walking.",
+          "walk_from_main_route": {
+            "from": "Antler Hill Village and Biltmore Winery",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

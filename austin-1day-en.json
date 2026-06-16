@@ -1,0 +1,128 @@
+{
+  "destination": "Austin",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:41:35.510Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Downtown / Capitol District / Sixth Street"
+  ],
+  "guide_description": "One day anchored in Austin's walkable downtown core - the Texas State Capitol and its grounds, the Congress Avenue corridor, the South Congress bridge bat colony, and the live-music strip of Sixth Street. The sequence builds from civic history in the morning to the city's defining outdoor spectacle at dusk.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3250,
+  "total_walking_minutes": 41,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Capitol Hill to Sixth Street",
+      "cluster_tagline": "Texas politics, Congress Avenue history, and a nightly bat exodus on the Colorado River",
+      "neighborhood_focus": "Downtown / Capitol District / Sixth Street",
+      "neighborhood_description": "Austin's downtown is organized along a single north-south spine - Congress Avenue - running from the Colorado River north to the Texas State Capitol. The capitol grounds, the Bullock Texas State History Museum, and Sixth Street's honky-tonk blocks are all within a kilometer of each other, making this a rare American downtown that rewards walking.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3250,
+      "day_walking_minutes": 41,
+      "morning": {
+        "activity_title": "Texas State Capitol",
+        "wikidata_qid": "Q816649",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Texas_State_Capitol",
+        "coordinates": {
+          "lat": 30.2747,
+          "lon": -97.7403
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Free guided tours leave from the south foyer on a rolling schedule starting at 8:30am on weekdays - no reservation needed. The rotunda's \"whispering gallery\" effect is real: stand directly under the star inset in the floor and speak quietly; someone standing under the opposite wall will hear you clearly. The building is intentionally seven feet taller than the US Capitol - walk around to the north side and look up at the dome from the back lawn for the cleanest unobstructed view.",
+        "walk_to_next": {
+          "to": "Bullock Texas State History Museum",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Bullock Texas State History Museum",
+        "wikidata_qid": "Q4991786",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bullock_Texas_State_History_Museum",
+        "coordinates": {
+          "lat": 30.2793,
+          "lon": -97.7394
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Three floors organized around the three flags that have governed Texas - Spanish, Mexican, and American. The first-floor permanent gallery has the original Stephen F. Austin land grant documents and the recovered hull section of La Belle, the 1686 French shipwreck found in Matagorda Bay in 1995. Skip the IMAX unless you have extra time; the permanent collection is the stronger argument for the entry fee.",
+        "walk_to_next": {
+          "to": "Congress Avenue Bridge",
+          "distance_meters": 1600,
+          "walking_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Congress Avenue Bridge bat colony",
+        "wikidata_qid": "Q5159311",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Congress_Avenue_Bridge",
+        "coordinates": {
+          "lat": 30.2607,
+          "lon": -97.7452
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "From late March through October, 1.5 million Mexican free-tailed bats roost under the bridge's expansion joints and emerge in a continuous column at dusk - typically 20 to 45 minutes after sunset. The best free viewing spot is the pedestrian railing on the east side of the bridge's lower deck, looking west so the bats spiral up against the sky rather than away from you. Bat Conservation International posts daily emergence time estimates online; consult before you go.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sixth Street Historic District",
+          "wikidata_qid": "Q7511684",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sixth_Street_(Austin,_Texas)",
+          "coordinates": {
+            "lat": 30.2677,
+            "lon": -97.7404
+          },
+          "neighborhood": "Downtown Austin",
+          "duration_minutes": 60,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "The Victorian commercial storefronts between Congress Avenue and IH-35 date to the 1870s - the buildings are older than the live music reputation. On weekends east of Red River Street (the \"East Sixth\" extension) is where locals tend to go; the core pedestrianized blocks between Congress and Brazos are louder and more tourist-facing. Doors open from 10pm and cover charges are rare before midnight.",
+          "walk_from_main_route": {
+            "from": "Congress Avenue Bridge",
+            "distance_meters": 950,
+            "walking_minutes": 12
+          }
+        },
+        {
+          "activity_title": "Blanton Museum of Art",
+          "wikidata_qid": "Q1466197",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Blanton_Museum_of_Art",
+          "coordinates": {
+            "lat": 30.2819,
+            "lon": -97.7393
+          },
+          "neighborhood": "UT Campus / Capitol District",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "One of the largest university art museums in the United States, on the edge of the UT Austin campus three blocks north of the Bullock. The permanent collection of 20,000 works skews toward Latin American art and Old Master prints - both collections are stronger than most visitors expect. The Ellsworth Kelly outdoor chapel \"Austin\" opened in 2018 and requires a separate timed entry; it seats 30 people inside a building of pure colored light and is worth the extra step if slots are available.",
+          "walk_from_main_route": {
+            "from": "Bullock Texas State History Museum",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    }
+  ]
+}

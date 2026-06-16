@@ -1,0 +1,143 @@
+{
+  "destination": "Cinque Terre",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:06:25.682Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Vernazza / Corniglia / Monterosso"
+  ],
+  "guide_description": "One day covering the heart of the Cinque Terre: the most dramatic of the five villages, the trail that links them along the cliff face, and the best sunset perch on the Ligurian coast. The sequence runs south to north by train, then proceeds on foot where the terrain allows.",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 4550,
+  "total_walking_minutes": 57,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Vernazza, Corniglia, and Monterosso",
+      "cluster_tagline": "Pastel fishing villages stacked on Ligurian cliffs above a turquoise sea",
+      "neighborhood_focus": "Vernazza / Corniglia / Monterosso",
+      "neighborhood_description": "Three of the five villages that make up the Cinque Terre national park and UNESCO World Heritage Site. Vernazza is the most intact medieval harbor village in the group. Corniglia sits alone on a promontory with no beach access - the only one of the five. Monterosso is the northernmost and largest, with the only proper sandy beach and a 14th-century tower dividing the old town from the modern strip.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 4550,
+      "day_walking_minutes": 57,
+      "morning": {
+        "activity_title": "Vernazza",
+        "wikidata_qid": "Q82546",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vernazza",
+        "coordinates": {
+          "lat": 44.1352,
+          "lon": 9.6837
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Arrive by first morning train from La Spezia or Levanto before the day-tripper surge peaks around 10:30am. The medieval harbor square, Piazza Marconi, opens directly onto the water - buy a focaccia from the bakery at the top of the main caruggio and eat it at the harbor wall while the light is still low and the fishing boats are out. Climb to the Doria Castle tower at the north end of the harbor for a panorama over the entire village roofline - the tower fee is a few euros and the view is the definitive Cinque Terre photograph.",
+        "walk_to_next": {
+          "to": "Corniglia",
+          "distance_meters": 3100,
+          "walking_minutes": 39
+        }
+      },
+      "afternoon": {
+        "activity_title": "Corniglia",
+        "wikidata_qid": "Q56003",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Corniglia",
+        "coordinates": {
+          "lat": 44.1225,
+          "lon": 9.7072
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 60,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Corniglia is the quietest of the five villages because reaching it requires either climbing 382 steps from the train station (the Lardarina staircase) or taking a shuttle bus. Most day-trippers skip it for this reason, which means the narrow lanes around Via Fieschi and the belvedere at the northern end of the village are reliably uncrowded even in peak season. The terrace at the end of the main street looks directly down the cliff to the sea with no railing interruption - one of the most vertiginous views on the coast.",
+        "walk_to_next": {
+          "to": "Monterosso al Mare",
+          "distance_meters": 1450,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "Monterosso al Mare",
+        "wikidata_qid": "Q82561",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monterosso_al_Mare",
+        "coordinates": {
+          "lat": 44.1459,
+          "lon": 9.6549
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Take the train north from Corniglia to avoid the difficult cliff trail in fading light - the train takes four minutes and runs until late. Walk through the pedestrian tunnel connecting the new town to the old, and position yourself at the Torre Aurora breakwater on the western side of the old harbor before sunset - the tower divides the two halves of the bay and the western exposure means the light hits the water and the terracotta facades directly. The beach promenade in the new town is where locals eat gelato in the evening; skip the tourist restaurants and look for anchovy-based dishes on menus in the old town lanes.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sentiero Azzurro - Via dell'Amore section",
+          "wikidata_qid": "Q3939673",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Via_dell%27Amore",
+          "coordinates": {
+            "lat": 44.1028,
+            "lon": 9.7318
+          },
+          "neighborhood": "Riomaggiore / Manarola",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "The Via dell'Amore is the easiest and most famous section of the coastal trail, cut into the cliff between Riomaggiore and Manarola - roughly 1.2 kilometers of paved path with barrier rails. It has been intermittently closed for rockfall repairs for years; check the official Cinque Terre park website the morning of your visit for current status before committing to Riomaggiore as a starting point. If open, do it early to avoid the worst of the crowds and walk from Riomaggiore toward Manarola, which puts the sea views on your left.",
+          "walk_from_main_route": {
+            "from": "Vernazza",
+            "distance_meters": 5200,
+            "walking_minutes": 65
+          }
+        },
+        {
+          "activity_title": "Santa Margherita di Antiochia, Vernazza",
+          "wikidata_qid": "Q56029",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Church_of_Santa_Margherita_di_Antiochia,_Vernazza",
+          "coordinates": {
+            "lat": 44.1352,
+            "lon": 9.6832
+          },
+          "neighborhood": "Vernazza",
+          "duration_minutes": 20,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "The 14th-century Gothic church built directly on the harbor edge at Vernazza, with an octagonal bell tower that features in nearly every postcard view of the village. The interior is small but has a painted wooden crucifix attributed to the 15th century and side altars faced in Carrara marble. Door is usually open in the morning before services; entry is free.",
+          "walk_from_main_route": {
+            "from": "Vernazza",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}

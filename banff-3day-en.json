@@ -1,0 +1,371 @@
+{
+  "destination": "Banff",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:22:01.964Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Banff Townsite",
+    "Lake Louise and Moraine Lake Corridor",
+    "Icefields Parkway South"
+  ],
+  "guide_description": "Three days in the Canadian Rockies anchored by Banff National Park. Day one explores the townsite and its immediate alpine surroundings. Day two heads northwest to the jewel lakes of the Lake Louise corridor. Day three drives north along the Icefields Parkway to Columbia Icefield - the most dramatic high-mountain highway in North America.",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 7540,
+  "total_walking_minutes": 95,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Banff Townsite and Sulphur Mountain",
+      "cluster_tagline": "The historic park gateway - hot springs, a gondola summit, and a canyon walk",
+      "neighborhood_focus": "Banff Townsite",
+      "neighborhood_description": "Canada's most visited national park town sits in a tight valley between Tunnel Mountain and Sulphur Mountain at 1383 meters elevation. The townsite contains the park's oldest infrastructure - a hot springs bathhouse, a cave of thermal water, and a gondola that lifts visitors onto a ridge with unobstructed Rocky Mountain panoramas in every direction.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Cave and Basin National Historic Site",
+        "wikidata_qid": "Q2945732",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cave_and_Basin_National_Historic_Site",
+        "coordinates": {
+          "lat": 51.1714,
+          "lon": -115.5856
+        },
+        "unesco_designation": {
+          "site_name": "Canadian Rocky Mountain Parks",
+          "year_inscribed": 1984,
+          "reference_number": 304,
+          "url": "https://whc.unesco.org/en/list/304"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The thermal sulphur spring discovered in 1883 that directly triggered the creation of Canada's entire national parks system. The basin pool is no longer swimmable but you can descend through the original hand-dug tunnel to stand at the cave mouth above the thermal water. The boardwalk behind the building follows the warm-water marsh where the endangered Banff Springs snail still lives - look for the orange-tinted ground around the outflow vents.",
+        "walk_to_next": {
+          "to": "Banff Upper Hot Springs",
+          "distance_meters": 1300,
+          "walking_minutes": 16
+        }
+      },
+      "afternoon": {
+        "activity_title": "Banff Gondola and Sulphur Mountain Summit",
+        "wikidata_qid": "Q4856252",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Banff_Gondola",
+        "coordinates": {
+          "lat": 51.1618,
+          "lon": -115.5551
+        },
+        "unesco_designation": {
+          "site_name": "Canadian Rocky Mountain Parks",
+          "year_inscribed": 1984,
+          "reference_number": 304,
+          "url": "https://whc.unesco.org/en/list/304"
+        },
+        "duration_minutes": 120,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The gondola lifts to 2281 meters in eight minutes, but the payoff is the boardwalk ridge walk to Sanson Peak at the far end - a 1.4-kilometer trail that puts Bow Valley, the Fairholme Range, and Mount Rundle simultaneously in view. Book the gondola ticket online to avoid queuing at the base station. The on-site restaurant is expensive and mediocre; eat before you come.",
+        "walk_to_next": {
+          "to": "Johnston Canyon",
+          "distance_meters": 380,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Bow River and Banff Avenue at dusk",
+        "wikidata_qid": "Q1008701",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bow_River",
+        "coordinates": {
+          "lat": 51.1784,
+          "lon": -115.5708
+        },
+        "unesco_designation": {
+          "site_name": "Canadian Rocky Mountain Parks",
+          "year_inscribed": 1984,
+          "reference_number": 304,
+          "url": "https://whc.unesco.org/en/list/304"
+        },
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Walk the short path from Central Park down to the Bow River footbridge for the classic Mount Rundle reflection in the river - alpenglow on the mountain's eastern face turns pink-orange in the 30 minutes after sunset. This is also the best spot to see elk, which graze the riverbank regularly in the evening hours; stay at least 30 meters away and never approach them.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Johnston Canyon Lower Falls",
+          "wikidata_qid": "Q6254741",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Johnston_Canyon",
+          "coordinates": {
+            "lat": 51.2469,
+            "lon": -115.8322
+          },
+          "neighborhood": "Bow Valley Parkway",
+          "duration_minutes": 90,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "A catwalk trail bolted directly into the canyon wall above Johnston Creek leads to a 30-meter falls in a slot gorge. The lower falls are 1.1 kilometers from the trailhead; upper falls add another 1.6 kilometers. Go early morning - this trail gets extremely congested by 10am and the parking lot fills by 8am in summer. The canyon stays cooler than the valley floor on hot days.",
+          "walk_from_main_route": {
+            "from": "Banff Gondola base",
+            "distance_meters": 19500,
+            "walking_minutes": 244
+          }
+        },
+        {
+          "activity_title": "Banff Park Museum National Historic Site",
+          "wikidata_qid": "Q2882432",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Banff_Park_Museum_National_Historic_Site",
+          "coordinates": {
+            "lat": 51.1767,
+            "lon": -115.5706
+          },
+          "neighborhood": "Banff Townsite",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A 1903 log building on Banff Avenue containing a Victorian natural history collection that has been preserved in its original cabinet style rather than updated into modern displays - it reads as a museum of museology as much as a nature museum. The mounted wildlife specimens are period taxidermy, not modern replicas. Good rainy-day alternative if weather grounds the gondola.",
+          "walk_from_main_route": {
+            "from": "Bow River footbridge",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Lake Louise and Moraine Lake",
+      "cluster_tagline": "Two glacier-fed lakes of extraordinary color in the highest valley in the park",
+      "neighborhood_focus": "Lake Louise and Moraine Lake Corridor",
+      "neighborhood_description": "Fifty kilometers northwest of the townsite, the Lake Louise area contains two of the most photographed lakes in the world - both fed by glacial meltwater that carries suspended rock flour giving the water its famous turquoise-teal color. The surrounding peaks include some of the Rockies' most dramatic vertical relief.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3460,
+      "day_walking_minutes": 43,
+      "morning": {
+        "activity_title": "Moraine Lake and Valley of the Ten Peaks",
+        "wikidata_qid": "Q1247609",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Moraine_Lake",
+        "coordinates": {
+          "lat": 51.3217,
+          "lon": -116.1817
+        },
+        "unesco_designation": {
+          "site_name": "Canadian Rocky Mountain Parks",
+          "year_inscribed": 1984,
+          "reference_number": 304,
+          "url": "https://whc.unesco.org/en/list/304"
+        },
+        "duration_minutes": 120,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Private vehicles can no longer drive directly to Moraine Lake in summer - a Parks Canada shuttle or commercial tour bus is required from Lake Louise or Banff. Book the shuttle weeks ahead; it sells out. Arrive at the rockpile viewpoint above the boathouse within the first hour of the shuttle's morning run before mist lifts and tour groups stack up. The lake color is most saturated from late June through mid-September when glacial melt is at peak flow.",
+        "walk_to_next": {
+          "to": "Lake Louise",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Lake Louise and the Plain of Six Glaciers Trail",
+        "wikidata_qid": "Q865197",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_Louise,_Alberta",
+        "coordinates": {
+          "lat": 51.4163,
+          "lon": -116.2138
+        },
+        "unesco_designation": {
+          "site_name": "Canadian Rocky Mountain Parks",
+          "year_inscribed": 1984,
+          "reference_number": 304,
+          "url": "https://whc.unesco.org/en/list/304"
+        },
+        "duration_minutes": 150,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The lakeshore path runs 2 kilometers from the Fairmont Chateau to the far end where the Plain of Six Glaciers trail begins its climb toward the Victoria Glacier. Most visitors walk only 200 meters and turn back at the boathouse - continue to the far end for significantly fewer people and a direct view up the glacier tongue. The teahouse at the upper trail is a Parks Canada-licensed backcountry hut serving simple food, open mid-June through mid-October.",
+        "walk_to_next": {
+          "to": "Lake Louise Gondola viewpoint",
+          "distance_meters": 1560,
+          "walking_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Lake Louise Gondola and Whitehorn Mountain Views",
+        "wikidata_qid": "Q6485029",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_Louise_Mountain_Resort",
+        "coordinates": {
+          "lat": 51.4283,
+          "lon": -116.1783
+        },
+        "unesco_designation": {
+          "site_name": "Canadian Rocky Mountain Parks",
+          "year_inscribed": 1984,
+          "reference_number": 304,
+          "url": "https://whc.unesco.org/en/list/304"
+        },
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The ski resort gondola operates in summer to Whitehorn Lodge at 2100 meters, looking directly across the valley at Mount Victoria and the full sweep of the Ten Peaks. The sightline is the inverse of the lake view - you are looking down onto the Chateau and the lake's turquoise surface. Late afternoon light turns the limestone walls amber. The gondola closes earlier than the townsite attractions; confirm last-ride times before driving up.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mirror Lake and Lake Agnes Teahouse",
+          "wikidata_qid": "Q6478926",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_Agnes_Teahouse",
+          "coordinates": {
+            "lat": 51.4267,
+            "lon": -116.2317
+          },
+          "neighborhood": "Lake Louise backcountry",
+          "duration_minutes": 180,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "A 3.6-kilometer trail from the Chateau climbs 385 meters to Lake Agnes and its century-old teahouse - the oldest in the park, serving tea and homemade baked goods with no electricity or running water. The hike passes Mirror Lake at the halfway point where the Big Beehive rock formation reflects on calm mornings. Cash or card accepted at the teahouse; arrive before 1pm to avoid the queue at the counter.",
+          "walk_from_main_route": {
+            "from": "Lake Louise lakeshore",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Icefields Parkway and Columbia Icefield",
+      "cluster_tagline": "The great glacial highway - 230 kilometers of mountain corridor ending at a Pleistocene ice mass",
+      "neighborhood_focus": "Icefields Parkway South",
+      "neighborhood_description": "The Icefields Parkway runs between Lake Louise and Jasper through the spine of the Canadian Rockies, passing more than a hundred glaciers, a dozen waterfalls, and multiple wildlife corridors. The southern section between Lake Louise and the Columbia Icefield is the most dramatic stretch, culminating at the Athabasca Glacier - one of the most accessible glaciers in North America.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Peyto Lake Viewpoint",
+        "wikidata_qid": "Q1384663",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Peyto_Lake",
+        "coordinates": {
+          "lat": 51.7236,
+          "lon": -116.5292
+        },
+        "unesco_designation": {
+          "site_name": "Canadian Rocky Mountain Parks",
+          "year_inscribed": 1984,
+          "reference_number": 304,
+          "url": "https://whc.unesco.org/en/list/304"
+        },
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "A short but steep 800-meter walk from the Bow Summit parking area at 2088 meters - the highest point on the Icefields Parkway accessible by car. The lake's color is an electric turquoise that photographs as almost unreal; the wolf-head silhouette shape is visible from the upper deck of the viewpoint platform. Morning light from the east illuminates the lake surface more directly than afternoon. The upper extended viewpoint adds 500 meters of trail and significantly reduces the crowd density.",
+        "walk_to_next": {
+          "to": "Mistaya Canyon",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Athabasca Glacier and Columbia Icefield",
+        "wikidata_qid": "Q836584",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Athabasca_Glacier",
+        "coordinates": {
+          "lat": 52.185,
+          "lon": -117.2522
+        },
+        "unesco_designation": {
+          "site_name": "Canadian Rocky Mountain Parks",
+          "year_inscribed": 1984,
+          "reference_number": 304,
+          "url": "https://whc.unesco.org/en/list/304"
+        },
+        "duration_minutes": 150,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Park at the Icefield Centre and walk the moraine path to the glacier toe - the posted markers showing the glacier's historical extent at various decades make the retreat visible in a way no signage alone achieves. The Ice Explorer vehicle tours drive onto the glacier itself and are worth booking if you want to stand on the ice; walking to the marked public access point on foot is free. Crampons are not required at the public walk-on zone but the ice is uneven and always cold. Bring a wind layer regardless of valley temperature.",
+        "walk_to_next": {
+          "to": "Sunwapta Falls",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Sunwapta Falls",
+        "wikidata_qid": "Q7643590",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sunwapta_Falls",
+        "coordinates": {
+          "lat": 52.2161,
+          "lon": -117.6406
+        },
+        "unesco_designation": {
+          "site_name": "Canadian Rocky Mountain Parks",
+          "year_inscribed": 1984,
+          "reference_number": 304,
+          "url": "https://whc.unesco.org/en/list/304"
+        },
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The Sunwapta River drops through a narrow basalt canyon 55 kilometers north of the Icefield Centre. The main upper falls are a 200-meter walk from the parking area; the lower falls require a 1-kilometer trail through spruce forest and reward with a narrower, deeper gorge that most parkway drivers skip entirely. Stop on the return leg south so you approach the canyon from the upper trail rather than driving past it.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mistaya Canyon",
+          "wikidata_qid": "Q6882168",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mistaya_Canyon",
+          "coordinates": {
+            "lat": 51.8122,
+            "lon": -116.6411
+          },
+          "neighborhood": "Icefields Parkway South",
+          "duration_minutes": 40,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A 500-meter path descends from the roadside parking area to a deep limestone slot canyon where the Mistaya River has carved a series of pothole formations over thousands of years. The canyon is narrow enough that you can touch both walls from the bridge. Extremely quick stop relative to the visual payoff - the best free five minutes on the southern Parkway.",
+          "walk_from_main_route": {
+            "from": "Peyto Lake viewpoint",
+            "distance_meters": 12000,
+            "walking_minutes": 150
+          }
+        },
+        {
+          "activity_title": "Glacier Skywalk",
+          "wikidata_qid": "Q20015427",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Glacier_Skywalk",
+          "coordinates": {
+            "lat": 52.2197,
+            "lon": -117.4758
+          },
+          "neighborhood": "Columbia Icefield",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A glass-floored observation platform cantilevered 280 meters above the Sunwapta Valley floor, 5 kilometers north of the Icefield Centre. Ticketed and accessible only via shuttle from the Icefield Centre parking lot. The Skywalk and Ice Explorer are often sold as a combined ticket - check pricing at the Centre before buying separately. The glass floor is the feature but the open-air cliff-edge walkway sections are more dramatic for non-acrophobics.",
+          "walk_from_main_route": {
+            "from": "Athabasca Glacier toe",
+            "distance_meters": 5200,
+            "walking_minutes": 65
+          }
+        }
+      ]
+    }
+  ]
+}

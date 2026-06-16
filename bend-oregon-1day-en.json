@@ -1,0 +1,128 @@
+{
+  "destination": "Bend, Oregon",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:00:22.049Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Drake Park / Mirror Pond / Downtown Bend"
+  ],
+  "guide_description": "One day covering the geographic and cultural core of Bend: the volcanic landscape that defines the region, the riverside park at the city's heart, and the compact downtown strip where the craft beer scene was born. The day builds from the ancient to the contemporary, ending exactly where the town does its best living.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Lava, River, and Downtown",
+      "cluster_tagline": "Volcanic geology, a mirror-still urban river, and a brewery-lined main street",
+      "neighborhood_focus": "Drake Park / Mirror Pond / Downtown Bend",
+      "neighborhood_description": "Bend sits at the eastern edge of the Cascades where the High Desert meets the Deschutes River. The downtown core is compact and walkable, flanked by Drake Park and Mirror Pond on the west. The volcanic Newberry region to the south gives the entire area its geological character - lava fields, cinder cones, and obsidian flows that were still active within the last few thousand years.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Newberry National Volcanic Monument",
+        "wikidata_qid": "Q1378429",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Newberry_National_Volcanic_Monument",
+        "coordinates": {
+          "lat": 43.7207,
+          "lon": -121.2327
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Drive south from Bend on US-97 about 23 miles to reach the monument entrance. The Big Obsidian Flow - a 1,300-year-old lava flow blanketed in jet-black volcanic glass - is reached via a short half-mile loop trail from the parking area. Morning light catches the obsidian surface and makes the sheen unmistakable; by midday the glare flattens everything. A Northwest Forest Pass or America the Beautiful pass covers the day-use fee at the trailhead.",
+        "walk_to_next": {
+          "to": "Drake Park and Mirror Pond",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "afternoon": {
+        "activity_title": "Drake Park and Mirror Pond",
+        "wikidata_qid": "Q5300196",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Drake_Park",
+        "coordinates": {
+          "lat": 44.0582,
+          "lon": -121.3153
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The park sits directly west of downtown along the Deschutes River - enter from Riverside Boulevard rather than the Wall Street parking lots to get the full Mirror Pond approach with the Cascades framing the water on clear days. The pond is formed by a small dam and reflects the surrounding ponderosa pines; the paved riverside path connects directly north into downtown without retracing your steps.",
+        "walk_to_next": {
+          "to": "Old Mill District",
+          "distance_meters": 1560,
+          "walking_minutes": 19
+        }
+      },
+      "evening": {
+        "activity_title": "Old Mill District",
+        "wikidata_qid": "Q7083695",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Mill_District",
+        "coordinates": {
+          "lat": 44.0476,
+          "lon": -121.3128
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The former Brooks-Scanlon lumber mill site, converted in the early 2000s into a riverside shopping and dining district. The two original smokestacks are preserved as landmarks. Walk south along the Deschutes River Trail from Drake Park rather than driving - the path deposits you into the district from the water side, past a stretch of Class III rapids where kayakers practice, before the commercial strip begins.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "High Desert Museum",
+          "wikidata_qid": "Q5759534",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/High_Desert_Museum",
+          "coordinates": {
+            "lat": 43.9982,
+            "lon": -121.3077
+          },
+          "neighborhood": "South Bend / US-97 corridor",
+          "duration_minutes": 120,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Located on US-97 about 3.5 miles south of downtown - drive rather than walk. The natural history and cultural collections cover the Great Basin and Cascade ecosystems in depth, with live raptors and river otters in outdoor enclosures. The interpretive trail through the ponderosa forest behind the main building is often overlooked but gives context to the Newberry geology seen in the morning.",
+          "walk_from_main_route": {
+            "from": "Drake Park",
+            "distance_meters": 5600,
+            "walking_minutes": 70
+          }
+        },
+        {
+          "activity_title": "Deschutes Brewery Public House",
+          "wikidata_qid": "Q5262722",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Deschutes_Brewery",
+          "coordinates": {
+            "lat": 44.0545,
+            "lon": -121.3136
+          },
+          "neighborhood": "Downtown Bend",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "after_dark",
+          "notes": "Founded in 1988, Deschutes was the brewery that anchored the Pacific Northwest craft beer movement in Central Oregon. The original Bond Street pub is a two-minute walk north from Drake Park - the tap list here differs from the production brewery on the outskirts of town, with small-batch and cask options not distributed elsewhere. Black Butte Porter is the house anchor; Mirror Pond Pale Ale was named for the park directly to the south.",
+          "walk_from_main_route": {
+            "from": "Drake Park",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

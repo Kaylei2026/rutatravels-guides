@@ -1,0 +1,306 @@
+{
+  "destination": "Aspen",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:54:09.377Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Downtown Aspen Core",
+    "Aspen Mountain and Ajax Surrounds",
+    "Maroon Bells and Ashcroft Corridor"
+  ],
+  "guide_description": "Three days covering Aspen's essential character: the compact Victorian silver-boom downtown, the mountain culture and arts institutions clustered around the base of Ajax, and the spectacular wilderness corridors just outside town. Each day is geographically self-contained and can be reordered based on weather and season.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5200,
+  "total_walking_minutes": 65,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Downtown Aspen Core",
+      "cluster_tagline": "Victorian silver-rush streets, public art, and the town's original civic bones",
+      "neighborhood_focus": "Downtown Aspen Core",
+      "neighborhood_description": "Aspen was platted in 1880 during a silver boom and its downtown grid survives almost intact - brick commercial blocks, the original Wheeler Opera House, and a walkable core that covers about eight square blocks. The pedestrian mall and surrounding streets hold the town's museums, galleries, and historic landmarks within easy walking distance of one another.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1400,
+      "day_walking_minutes": 18,
+      "morning": {
+        "activity_title": "Wheeler Opera House",
+        "wikidata_qid": "Q7989717",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wheeler_Opera_House",
+        "coordinates": {
+          "lat": 39.1911,
+          "lon": -106.8196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Built in 1889 by silver magnate Jerome B. Wheeler and listed on the National Register of Historic Places. The ground-floor lobby is open to the public during box office hours and shows the original Romanesque Revival sandstone detailing and pressed-tin ceilings. Check the performance calendar before you arrive - even if you are not staying for a show, the building's front facade on East Hyman Avenue is the best single piece of Victorian commercial architecture in town.",
+        "walk_to_next": {
+          "to": "Aspen Art Museum",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Aspen Art Museum",
+        "wikidata_qid": "Q4804185",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen_Art_Museum",
+        "coordinates": {
+          "lat": 39.1905,
+          "lon": -106.8167
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Shigeru Ban's 2014 building is as much the attraction as what is inside - the woven timber screen facade and the rooftop sculpture terrace with mountain views are worth the visit even on a quick day. Entry is free, which is unusual for a museum of this caliber. The rooftop deck faces south toward Aspen Mountain and is one of the best free elevated viewpoints in town.",
+        "walk_to_next": {
+          "to": "Hotel Jerome",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Hotel Jerome",
+        "wikidata_qid": "Q5903280",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hotel_Jerome",
+        "coordinates": {
+          "lat": 39.1913,
+          "lon": -106.8186
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "after_dark",
+        "notes": "Opened in 1889 by the same Jerome Wheeler who built the opera house, and one of the finest surviving Victorian resort hotels in the American West. The J-Bar in the back has been operating continuously since Prohibition ended in 1933 - order at the original mahogany bar and sit in the leather booths rather than the newer lounge extension. The hotel lobby alone is worth walking through for the period ironwork and skylights.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Aspen Historical Society - Holden-Marolt Mining and Ranching Museum",
+          "wikidata_qid": "Q97352278",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Holden-Marolt_Mining_and_Ranching_Museum",
+          "coordinates": {
+            "lat": 39.1954,
+            "lon": -106.8317
+          },
+          "neighborhood": "West End",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A preserved ore-processing site on the western edge of town showing the industrial infrastructure behind Aspen's silver boom - ore cars, stamp mills, and the original arrastra grinding wheel still in place. Most visitors skip it in favor of the mountain, which means you often have the site nearly to yourself. The open-air layout means this is best in dry weather.",
+          "walk_from_main_route": {
+            "from": "Wheeler Opera House",
+            "distance_meters": 1100,
+            "walking_minutes": 14
+          }
+        },
+        {
+          "activity_title": "Hyman Avenue Mall",
+          "wikidata_qid": "Q113762680",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen,_Colorado",
+          "coordinates": {
+            "lat": 39.1908,
+            "lon": -106.8196
+          },
+          "neighborhood": "Downtown Aspen Core",
+          "duration_minutes": 30,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The two-block pedestrian stretch on Hyman between Mill and Galena is Aspen's most concentrated block of 1880s commercial Victorian architecture. Walk the alley behind the south side for the rear facades and loading docks, which are less restored and show the original brick construction more honestly than the renovated storefronts.",
+          "walk_from_main_route": {
+            "from": "Wheeler Opera House",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Aspen Mountain and the Cultural Campus",
+      "cluster_tagline": "Ajax summit views, gondola culture, and the music and ideas institutions at the mountain's base",
+      "neighborhood_focus": "Aspen Mountain Base and Music Campus",
+      "neighborhood_description": "The southern edge of downtown where the Gondola Plaza anchors a cluster of cultural institutions - the Aspen Music Festival tent, the Aspen Institute campus, and the Benedict Music Tent are all within a short walk of the Silver Queen Gondola base. This is the zone where Aspen's identity as a mountain resort fused with its postwar transformation into an intellectual and arts destination.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Silver Queen Gondola to the Aspen Mountain Summit",
+        "wikidata_qid": "Q2343055",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen_Mountain",
+        "coordinates": {
+          "lat": 39.1836,
+          "lon": -106.8197
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The gondola runs in summer for sightseeing and mountain biking, not just ski season. The summit at 11,212 feet has a 360-degree view taking in the Elk Mountains, the Maroon Bells to the southwest, and Capitol Peak to the northwest. Go early - afternoon thunderstorms build rapidly in summer above treeline and the gondola may pause operations. The Sundeck restaurant at the top serves lunch if you time it right.",
+        "walk_to_next": {
+          "to": "Aspen Institute",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Aspen Institute Campus",
+        "wikidata_qid": "Q666093",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen_Institute",
+        "coordinates": {
+          "lat": 39.1869,
+          "lon": -106.8258
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The Aspen Institute's 40-acre campus is publicly walkable and contains several Herbert Bayer-designed landscape features - the Marble Garden with its geometric earthwork mounds, and the Bayer-designed dome of the Health Center. Bayer, a Bauhaus master who moved to Aspen in 1946, shaped much of the Institute's visual identity. The grounds are free to walk; events and seminars require registration.",
+        "walk_to_next": {
+          "to": "Benedict Music Tent",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Benedict Music Tent",
+        "wikidata_qid": "Q4887700",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Benedict_Music_Tent",
+        "coordinates": {
+          "lat": 39.1882,
+          "lon": -106.8241
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Harry Teague's 2000 tent structure for the Aspen Music Festival seats 2,050 inside and allows lawn seating outside on the grass at reduced ticket prices. If there is a festival performance scheduled, the lawn tickets are one of the best-value cultural experiences in the Rockies - full orchestra sound with the mountain behind the stage. Check the Aspen Music Festival schedule well ahead of your visit; the summer season runs mid-June through mid-August.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Anderson Ranch Arts Center",
+          "wikidata_qid": "Q4754038",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Anderson_Ranch_Arts_Center",
+          "coordinates": {
+            "lat": 39.2067,
+            "lon": -106.9458
+          },
+          "neighborhood": "Snowmass Village",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A working arts campus in Snowmass Village, about 10 miles from downtown Aspen by the free Roaring Fork Transit Authority bus. The galleries showing resident artist work are free and the barn-complex setting is worth the trip even if nothing is currently on exhibition. The ceramics and printmaking studios are occasionally open for public viewing during workshop sessions.",
+          "walk_from_main_route": {
+            "from": "Benedict Music Tent",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Maroon Bells and Ashcroft Ghost Town",
+      "cluster_tagline": "The Elk Mountains wilderness - the most photographed peaks in North America and a silver-rush ghost town",
+      "neighborhood_focus": "Maroon Creek Valley and Castle Creek Valley",
+      "neighborhood_description": "Two parallel valleys southwest of Aspen that together show the range of the surrounding wilderness. Maroon Creek Valley leads to the Maroon Bells, twin 14,000-foot peaks reflected in Maroon Lake. Castle Creek Valley leads to Ashcroft, a nearly intact 1880s silver camp that was abandoned by 1885. Both valleys are reachable by RFTA bus from Rubey Park transit center, making a car optional.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Maroon Bells",
+        "wikidata_qid": "Q917279",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maroon_Bells",
+        "coordinates": {
+          "lat": 39.0708,
+          "lon": -106.9894
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Private vehicles are prohibited on Maroon Creek Road from late May through early November - take the RFTA Maroon Bells Express bus from Rubey Park transit center in downtown Aspen, which runs from around 8am. The classic reflection shot is from the west shore of Maroon Lake looking southeast at first light; by 10am the tour buses have arrived and the foreground is crowded. The Crater Lake trail (3.6 miles round trip) takes you past the crowds and into the Maroon Bells-Snowmass Wilderness proper.",
+        "walk_to_next": {
+          "to": "Ashcroft Ghost Town",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ashcroft Ghost Town",
+        "wikidata_qid": "Q4804162",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ashcroft,_Colorado",
+        "coordinates": {
+          "lat": 38.9997,
+          "lon": -106.9097
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Twelve original 1880s structures survive at Ashcroft, stabilized by the Aspen Historical Society and free to walk through. The Hotel View, the assay office, and the general store are all open-roofed but structurally stabilized. The site sits at 9,500 feet in the Castle Creek Valley with the Elk Mountains rising sharply on both sides - at peak the town had 2,000 residents; it was abandoned completely by 1885 when the silver ore played out. The self-guided trail takes about 45 minutes but allow extra time to read the interpretive panels, which are unusually detailed.",
+        "walk_to_next": {
+          "to": "Pine Creek Cookhouse view",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Castle Creek Valley drive and Pine Creek Cookhouse",
+        "wikidata_qid": "Q110142748",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ashcroft,_Colorado",
+        "coordinates": {
+          "lat": 39.0044,
+          "lon": -106.9128
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The Pine Creek Cookhouse sits at the end of a Nordic ski trail system 12 miles up Castle Creek Road from Aspen and is accessible by car in summer. The log building at 9,700 feet serves dinner and lunch on a deck with direct views up toward the Pearl Pass high alpine zone. Reservations are essential - call ahead. The drive back down Castle Creek Road at dusk, with the valley narrowing and the creek audible below, is one of the best unmarked scenic drives in the Roaring Fork Valley.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Grottos Ice Caves",
+          "wikidata_qid": "Q5614381",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Grottos,_Colorado",
+          "coordinates": {
+            "lat": 39.1358,
+            "lon": -106.8803
+          },
+          "neighborhood": "Hunter Creek Valley",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "A short pullout off Highway 82 about 9 miles east of Aspen leads to a 0.5-mile trail along the Roaring Fork River to a series of marble caves and ice formations carved by the river. The main ice cave holds ice through midsummer in wet years. The trailhead is easy to miss - look for the signed pull-off just past the Weller campground on the south side of the highway.",
+          "walk_from_main_route": {
+            "from": "Maroon Bells",
+            "distance_meters": 2000,
+            "walking_minutes": 25
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "destination": "Moab",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:03:47.945Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Arches National Park",
+    "Canyonlands National Park - Island in the Sky",
+    "Downtown Moab / Colorado River Corridor"
+  ],
+  "guide_description": "Three days built around Moab's two national parks and the canyon corridor that ties them together. Day one focuses on Arches and its iconic sandstone fins. Day two moves to Island in the Sky for vast mesa-edge panoramas. Day three stays closer to town, pairing the Colorado River and local geology with the quieter human history of the canyon country.",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 18200,
+  "total_walking_minutes": 228,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Arches - Fins, Windows, and the Arch",
+      "cluster_tagline": "The world's densest concentration of natural stone arches in a single red-rock park",
+      "neighborhood_focus": "Arches National Park",
+      "neighborhood_description": "A 119-square-mile park just five miles north of Moab, preserving over 2,000 sandstone arches carved by water, ice, and salt movement in the Entrada Sandstone. The park road climbs from the valley floor through three distinct sections - the Windows, the Fiery Furnace, and the Devils Garden - each with its own character.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 8500,
+      "day_walking_minutes": 107,
+      "morning": {
+        "activity_title": "Delicate Arch",
+        "wikidata_qid": "Q783697",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Delicate_Arch",
+        "coordinates": {
+          "lat": 38.7436,
+          "lon": -109.4993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The three-mile round-trip trail climbs 480 feet of exposed slickrock with no shade; start by 7am in summer to beat both heat and the crowds that pack the trail by 9am. The arch is invisible until the last turn at the rim - the theatrical reveal over the drop into the bowl is the payoff. Carry at least two liters of water per person regardless of forecast temperature.",
+        "walk_to_next": {
+          "to": "The Windows Section",
+          "distance_meters": 4800,
+          "walking_minutes": 60
+        }
+      },
+      "afternoon": {
+        "activity_title": "The Windows Section",
+        "wikidata_qid": "Q7761027",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Windows_Section",
+        "coordinates": {
+          "lat": 38.6876,
+          "lon": -109.5372
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Two large arches - North Window and South Window - connected by a short loop trail, plus the isolated Turret Arch nearby. The primitive loop behind South Window cuts behind the arches and removes almost all other visitors from the composition; most people stand in front and miss the back angle completely. Double Arch is a two-minute walk from the same parking area and is the largest arch in the park by opening size.",
+        "walk_to_next": {
+          "to": "Balanced Rock",
+          "distance_meters": 2800,
+          "walking_minutes": 35
+        }
+      },
+      "evening": {
+        "activity_title": "Balanced Rock at sunset",
+        "wikidata_qid": "Q4849623",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Balanced_Rock_(Arches_National_Park)",
+        "coordinates": {
+          "lat": 38.7006,
+          "lon": -109.5641
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "A 128-foot boulder perched on a narrow pedestal that has been visibly eroding for decades - one of the park's most photographed silhouettes. The short loop trail circles the base. Positioned near the park entrance, it is the logical last stop on an exit drive, and the low-angle evening light turns the Entrada Sandstone from orange to deep red within about twenty minutes of sunset.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Park Avenue Viewpoint and Trail",
+          "wikidata_qid": "Q97310298",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arches_National_Park",
+          "coordinates": {
+            "lat": 38.6578,
+            "lon": -109.5717
+          },
+          "neighborhood": "Arches National Park",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "The first pullout after the entrance station, where a row of sandstone fins creates a skyline that genuinely resembles a Manhattan streetwall. The two-mile one-way trail drops into the canyon below; arrange a car shuttle to the Courthouse Towers viewpoint at the far end rather than backtracking.",
+          "walk_from_main_route": {
+            "from": "Balanced Rock",
+            "distance_meters": 5200,
+            "walking_minutes": 65
+          }
+        },
+        {
+          "activity_title": "Sand Dune Arch",
+          "wikidata_qid": "Q7413682",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sand_Dune_Arch",
+          "coordinates": {
+            "lat": 38.7317,
+            "lon": -109.5353
+          },
+          "neighborhood": "Arches National Park",
+          "duration_minutes": 30,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A short, shaded slot-canyon approach leads to a small arch sheltered between two fins - one of the few spots in the park with natural shade and soft sand underfoot. Particularly good for children or as a midday refuge during hot weather when every other trail is unpleasant.",
+          "walk_from_main_route": {
+            "from": "The Windows Section",
+            "distance_meters": 2100,
+            "walking_minutes": 26
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Island in the Sky",
+      "cluster_tagline": "A flat-topped mesa 1,000 feet above two canyons - the canyon country from above",
+      "neighborhood_focus": "Canyonlands National Park - Island in the Sky",
+      "neighborhood_description": "The northernmost of Canyonlands' three districts, reached by a 32-mile drive from Moab. A broad sandstone mesa bounded by sheer cliffs dropping to the White Rim and then again to the Colorado and Green Rivers. The viewpoints here operate at a different spatial scale than Arches - distances measured in miles rather than meters.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 6900,
+      "day_walking_minutes": 87,
+      "morning": {
+        "activity_title": "Mesa Arch",
+        "wikidata_qid": "Q6820001",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mesa_Arch",
+        "coordinates": {
+          "lat": 38.3872,
+          "lon": -109.8658
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "A half-mile trail to an arch that frames the canyon 800 feet below. At sunrise the underside of the arch glows orange from light reflecting off the canyon walls beneath - one of the most widely reproduced landscape photographs in the American Southwest. To actually see it rather than photograph over a shoulder, arrive twenty minutes before sunrise and claim a position slightly to the left of center; tripods fill the prime spots by forty minutes before first light.",
+        "walk_to_next": {
+          "to": "Grand View Point",
+          "distance_meters": 3900,
+          "walking_minutes": 49
+        }
+      },
+      "afternoon": {
+        "activity_title": "Grand View Point",
+        "wikidata_qid": "Q5592111",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_View_Point",
+        "coordinates": {
+          "lat": 38.3133,
+          "lon": -109.8655
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "The southernmost point of the Island in the Sky mesa road, with a two-mile out-and-back trail along the very edge of the rim. On a clear day the view extends into three states and reveals the layered geology of a hundred million years in a single panorama. The White Rim Road visible 1,300 feet below is the classic four-wheel-drive circuit that takes most vehicles three days to complete.",
+        "walk_to_next": {
+          "to": "Upheaval Dome",
+          "distance_meters": 3000,
+          "walking_minutes": 38
+        }
+      },
+      "evening": {
+        "activity_title": "Upheaval Dome overlooks",
+        "wikidata_qid": "Q7897502",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Upheaval_Dome",
+        "coordinates": {
+          "lat": 38.4267,
+          "lon": -109.9283
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "A half-mile trail to two successive rim overlooks above a circular rock structure still debated by geologists - either a collapsed salt dome or an ancient meteor impact crater. The second overlook adds only a quarter-mile but reveals the full bowl where the first does not. Whether impact or evaporite, the geometry is unlike anything else in canyon country.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Green River Overlook",
+          "wikidata_qid": "Q5596167",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Canyonlands_National_Park",
+          "coordinates": {
+            "lat": 38.4017,
+            "lon": -109.9267
+          },
+          "neighborhood": "Canyonlands National Park - Island in the Sky",
+          "duration_minutes": 30,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "A short walk from a pullout to a west-facing rim view directly above the Green River as it bends through Stillwater Canyon. The western exposure makes this the best sunset viewpoint on the Island in the Sky - the river 1,000 feet below reflects the sky after the mesa top has gone dark.",
+          "walk_from_main_route": {
+            "from": "Upheaval Dome",
+            "distance_meters": 2600,
+            "walking_minutes": 33
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Colorado River Corridor and Moab Town",
+      "cluster_tagline": "The canyon at river level - petroglyphs, geology, and the town that grew from uranium and adventure",
+      "neighborhood_focus": "Downtown Moab / Colorado River Corridor",
+      "neighborhood_description": "The stretch of US-128 northeast of Moab follows the Colorado River through a thousand-foot-deep canyon before the river bends south toward Arches. Combined with downtown Moab's small grid of outfitter shops and local museums, this day stays close to town and trades park-scale wilderness for human-scale canyon access.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Moab Museum",
+        "wikidata_qid": "Q97310553",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Moab_Museum",
+        "coordinates": {
+          "lat": 38.5733,
+          "lon": -109.5492
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "A compact but well-organized natural and cultural history museum covering the Colorado Plateau's geology, the Ute and Ancestral Puebloan peoples, and Moab's uranium boom of the 1950s that turned a quiet Mormon ranching town into a boomtown overnight. The uranium section is the most specific to Moab and least covered elsewhere; the ore samples and period photographs are the highlight. Good first-day or bad-weather option, but scheduled here on day three so the two park days build context for the geology exhibits.",
+        "walk_to_next": {
+          "to": "Courthouse Wash Rock Art Panel",
+          "distance_meters": 1600,
+          "walking_minutes": 20
+        }
+      },
+      "afternoon": {
+        "activity_title": "Courthouse Wash Rock Art Panel",
+        "wikidata_qid": "Q5178580",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Courthouse_Wash",
+        "coordinates": {
+          "lat": 38.6247,
+          "lon": -109.5817
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "A large panel of Barrier Canyon-style pictographs on the canyon wall just north of the US-191 bridge over Courthouse Wash, about four miles north of downtown Moab. The large anthropomorphic figures with hollow eyes and no legs are among the most intact examples of this pre-Puebloan style in the region. The panel was vandalized with bleach in 1980 and partially restored; the restoration seam is visible in raking light from the right side of the panel.",
+        "walk_to_next": {
+          "to": "Colorado River at Takeout Beach",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Colorado River at the Moab Valley",
+        "wikidata_qid": "Q258647",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colorado_River",
+        "coordinates": {
+          "lat": 38.5731,
+          "lon": -109.5481
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The stretch of US-128 northeast of Moab follows the river at water level - pull off at any of the gravel beaches for direct river access. The canyon walls catch red-orange evening light from the west while the river runs cold and fast below. If time allows, drive as far as the Fisher Towers turnoff at mile 21 for the cluster of freestanding red spires rising 900 feet that served as a backdrop in several Western films and a 1979 Ford truck advertisement.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Dead Horse Point State Park",
+          "wikidata_qid": "Q1181452",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dead_Horse_Point_State_Park",
+          "coordinates": {
+            "lat": 38.4833,
+            "lon": -109.7333
+          },
+          "neighborhood": "Dead Horse Point / Mesa country",
+          "duration_minutes": 90,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "sunset",
+          "notes": "A separate state park 32 miles from Moab requiring its own day pass, but positioned on a peninsula of mesa 2,000 feet above a gooseneck of the Colorado River. The view encompasses more vertical relief than anywhere accessible by a paved road in the region. The opening scene of Thelma and Louise was filmed here. Best visited on the way back from Island in the Sky since the access road is shared for the first 23 miles.",
+          "walk_from_main_route": {
+            "from": "Moab Museum",
+            "distance_meters": 42000,
+            "walking_minutes": 525
+          }
+        },
+        {
+          "activity_title": "Moab Giants Dinosaur Museum",
+          "wikidata_qid": "Q28543330",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Moab_Giants",
+          "coordinates": {
+            "lat": 38.6017,
+            "lon": -109.5783
+          },
+          "neighborhood": "North Moab",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A privately operated paleontology museum and outdoor dinosaur track site four miles north of downtown on US-191. The trackway section shows actual in-situ Jurassic footprints with interpretive panels explaining track-maker behavior. More substantive than the roadside signage suggests; the indoor exhibit on Morrison Formation paleontology is the same geological era as the Entrada Sandstone visible throughout the park days.",
+          "walk_from_main_route": {
+            "from": "Courthouse Wash Rock Art Panel",
+            "distance_meters": 1800,
+            "walking_minutes": 23
+          }
+        }
+      ]
+    }
+  ]
+}

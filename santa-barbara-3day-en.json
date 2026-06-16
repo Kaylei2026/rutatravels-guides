@@ -1,0 +1,326 @@
+{
+  "destination": "Santa Barbara",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:57:59.222Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Downtown / El Pueblo Viejo",
+    "The Waterfront / Stearns Wharf",
+    "Mission / Riviera"
+  ],
+  "guide_description": "Three days covering Santa Barbara's essential triad: the Spanish Colonial Revival downtown with its courthouse and historic core, the harbor and waterfront strip, and the Mission district climbing toward the Santa Ynez foothills. Each day is geographically self-contained.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5460,
+  "total_walking_minutes": 68,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "El Pueblo Viejo - Downtown Core",
+      "cluster_tagline": "Spanish Colonial Revival architecture and civic grandeur in a walkable historic grid",
+      "neighborhood_focus": "Downtown / El Pueblo Viejo",
+      "neighborhood_description": "The few blocks bracketed by State Street, Anacapa Street, and Figueroa Street form the historic core of Santa Barbara. A 1925 earthquake wiped much of the old downtown; what replaced it was a unified Spanish Colonial Revival reconstruction enforced by strict design ordinances that remain in force today, making this one of the most architecturally coherent downtowns in the American West.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1430,
+      "day_walking_minutes": 18,
+      "morning": {
+        "activity_title": "Santa Barbara County Courthouse",
+        "wikidata_qid": "Q7419130",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_County_Courthouse",
+        "coordinates": {
+          "lat": 34.4258,
+          "lon": -119.714
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Free entry and free guided tours depart Monday through Saturday at 10am from the main entrance on Anacapa Street. Climb the El Mirador clock tower for the best elevated view of the red-tile roofline stretching to the ocean - the tower is accessible via an elevator inside the building, not the staircase most visitors attempt first. The Mural Room upstairs has WPA-era paintings depicting California history that most visitors walk past without reading.",
+        "walk_to_next": {
+          "to": "Santa Barbara Historical Museum",
+          "distance_meters": 350,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Santa Barbara Historical Museum",
+        "wikidata_qid": "Q7419099",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Historical_Museum",
+        "coordinates": {
+          "lat": 34.4247,
+          "lon": -119.7121
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The complex includes an adobe building from the 1780s still standing in the rear courtyard - the Covarrubias Adobe, one of the oldest structures in the city. The museum itself is small and manageable in under an hour; the adobe and its garden are the real draw and are accessible from the De la Guerra Street entrance. Free admission.",
+        "walk_to_next": {
+          "to": "State Street",
+          "distance_meters": 280,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "State Street and El Paseo arcade",
+        "wikidata_qid": "Q7599098",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/State_Street_(Santa_Barbara)",
+        "coordinates": {
+          "lat": 34.4208,
+          "lon": -119.7029
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Walk State Street south from De la Guerra toward the waterfront as the light drops and the storefronts turn amber. Duck into El Paseo - the 1920s arcade built around the De la Guerra Adobe at 812 State Street - which is one of the first examples of the Spanish Colonial Revival commercial style and easy to miss if you stay on the main sidewalk. The passage connects through to De la Guerra Street and loops back through a courtyard with a fountain.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Santa Barbara Museum of Art",
+          "wikidata_qid": "Q7419096",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Museum_of_Art",
+          "coordinates": {
+            "lat": 34.4262,
+            "lon": -119.7143
+          },
+          "neighborhood": "Downtown",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Strong collection of American and Asian art, plus a dedicated antiquities gallery. Closed Mondays. Located directly across Anacapa Street from the Courthouse, so it slots naturally between the two morning and afternoon stops without retracing steps.",
+          "walk_from_main_route": {
+            "from": "Santa Barbara County Courthouse",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Presidio of Santa Barbara State Historic Park",
+          "wikidata_qid": "Q2103928",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Presidio_of_Santa_Barbara_State_Historic_Park",
+          "coordinates": {
+            "lat": 34.4253,
+            "lon": -119.7131
+          },
+          "neighborhood": "El Pueblo Viejo",
+          "duration_minutes": 40,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The last Spanish Royal Presidio built in Alta California, founded 1782. The two reconstructed adobe buildings on Canon Perdido Street contain the original chapel and officers' quarters. The ongoing reconstruction project is visible from the street - they are building new adobe sections using original lime-mortar techniques, which is worth watching if workers are on site.",
+          "walk_from_main_route": {
+            "from": "Santa Barbara Historical Museum",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Waterfront and Stearns Wharf",
+      "cluster_tagline": "California coast at its most direct - a working wharf, harbor seals, and a palm-lined beach walk",
+      "neighborhood_focus": "The Waterfront / Harbor",
+      "neighborhood_description": "Santa Barbara's waterfront runs roughly two kilometers along Cabrillo Boulevard, from the harbor and Stearns Wharf in the center to East Beach and the breakwater. The Santa Ynez Mountains make a backdrop behind the city as you look north from the water, which is why Santa Barbara feels distinctly unlike any other Southern California beach town.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Stearns Wharf",
+        "wikidata_qid": "Q7610094",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Stearns_Wharf",
+        "coordinates": {
+          "lat": 34.4085,
+          "lon": -119.6919
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "The oldest working wooden wharf on the West Coast, built in 1872. Walk to the far end for unobstructed views of the mountains and the harbor simultaneously - the angle that puts both in frame only works from the wharf tip. The small shark tank at the Nature Conservancy display mid-wharf is free and takes ten minutes; worth it if you have children or just like sharks. Morning fog typically burns off by 9am.",
+        "walk_to_next": {
+          "to": "Santa Barbara Harbor and Breakwater",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Santa Barbara Harbor and Breakwater",
+        "wikidata_qid": "Q7419087",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Harbor",
+        "coordinates": {
+          "lat": 34.4062,
+          "lon": -119.6877
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Walk the outer breakwater all the way to the lighthouse at the end - the round trip is about 1.6 kilometers and most tourists turn back at the first bend. Californian sea lions haul out on the docks inside the harbor near the commercial fishing pier, visible from the public walkway without any viewpoint ticket or access fee. The harbor's Lido Restaurant row faces west and is the best spot on the waterfront for a late lunch with sun exposure.",
+        "walk_to_next": {
+          "to": "East Beach",
+          "distance_meters": 780,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "East Beach and Cabrillo Boulevard at sunset",
+        "wikidata_qid": "Q5331726",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/East_Beach,_Santa_Barbara",
+        "coordinates": {
+          "lat": 34.4107,
+          "lon": -119.676
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Sunset here faces the Channel Islands on clear days - Santa Cruz Island is visible roughly 40 kilometers offshore, and in winter the silhouette is sharp enough to mistake for a low coastal range. The palm-lined stretch of Cabrillo Boulevard between the volleyball nets and the Cabrillo Arts Pavilion is the least crowded section of the beach walk after 5pm when the parking lot turnover slows.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Santa Barbara Maritime Museum",
+          "wikidata_qid": "Q7419094",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Maritime_Museum",
+          "coordinates": {
+            "lat": 34.4073,
+            "lon": -119.6891
+          },
+          "neighborhood": "The Waterfront",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Located in the old Naval Reserve building on the inner harbor. The Chumash canoe (tomol) exhibit is the most historically substantive thing on the waterfront; the Channel Island Chumash paddled these plank-built canoes 40 kilometers offshore to the islands before any European contact. Good rainy-day alternative to the breakwater walk.",
+          "walk_from_main_route": {
+            "from": "Santa Barbara Harbor and Breakwater",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Mission and the Riviera",
+      "cluster_tagline": "The Queen of the Missions above the city, with a botanical garden and hillside views",
+      "neighborhood_focus": "Mission / Upper State Street / Riviera",
+      "neighborhood_description": "The neighborhoods climbing north and east from downtown toward the Santa Ynez foothills. The Mission sits on a slight rise at the top of Laguna Street, giving it a commanding position over the city that was deliberate - Franciscan missions were sited to be visible from the surrounding agricultural landscape. The Santa Barbara Botanic Garden occupies the canyon behind it.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Mission Santa Barbara",
+        "wikidata_qid": "Q1424400",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mission_Santa_Barbara",
+        "coordinates": {
+          "lat": 34.4396,
+          "lon": -119.7138
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Founded 1786 and the only California mission to remain continuously under Franciscan administration. The twin-tower facade is unique among the 21 missions; most have a single tower. Enter the church through the museum wing to the left of the main door - the self-guided audio tour is included with admission and covers the aqueduct system behind the building, which still carries water and is often ignored. The cemetery to the right of the church contains the graves of over 4,000 Chumash people and is one of the oldest continuously used cemeteries in California.",
+        "walk_to_next": {
+          "to": "Santa Barbara Botanic Garden",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "afternoon": {
+        "activity_title": "Santa Barbara Botanic Garden",
+        "wikidata_qid": "Q7419084",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Botanic_Garden",
+        "coordinates": {
+          "lat": 34.4473,
+          "lon": -119.7138
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "A 78-acre native California plant garden in Mission Canyon. Walk through the redwood grove section first - the coastal redwoods planted here in the 1930s are now tall enough that the grove feels genuinely immersive despite being non-native terrain. The dam crossing trail loops back past the 1807 mission aqueduct stonework, which is original and free to walk alongside. Bring water for the upper canyon loop.",
+        "walk_to_next": {
+          "to": "Santa Barbara Museum of Natural History",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Santa Barbara Museum of Natural History",
+        "wikidata_qid": "Q7419095",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Museum_of_Natural_History",
+        "coordinates": {
+          "lat": 34.4429,
+          "lon": -119.7143
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The Chumash hall is the strongest exhibit in the building and among the better indigenous cultural collections on the California coast - the full-sized reproduction of a Chumash painted cave ceiling in the entryway is based on the Chumash Painted Cave site in the hills above town. The blue whale skeleton displayed outside under the oak trees is 87 feet long and viewable even after closing from the Puesta del Sol Road sidewalk.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Franceschi Park viewpoint",
+          "wikidata_qid": "Q5481907",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Franceschi_Park",
+          "coordinates": {
+            "lat": 34.4395,
+            "lon": -119.7072
+          },
+          "neighborhood": "Riviera",
+          "duration_minutes": 30,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "A small hilltop park on the Riviera above Mission Street with one of the cleanest panoramic views over the city to the Channel Islands. Drive or ride up Franceschi Road - it is not a practical walk from the Mission cluster. The ruins of the Fenwick estate perimeter wall are still visible at the park edge and give the viewpoint a slightly melancholy character that State Street does not.",
+          "walk_from_main_route": {
+            "from": "Mission Santa Barbara",
+            "distance_meters": 900,
+            "walking_minutes": 11
+          }
+        },
+        {
+          "activity_title": "Chumash Painted Cave State Historic Park",
+          "wikidata_qid": "Q5118268",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chumash_Painted_Cave_State_Historic_Park",
+          "coordinates": {
+            "lat": 34.5057,
+            "lon": -119.7877
+          },
+          "neighborhood": "San Marcos Pass",
+          "duration_minutes": 30,
+          "type": "archaeological_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "A sandstone cave in the mountains above the city containing some of the most elaborate polychrome Chumash rock paintings in California, protected behind a locked iron grate that allows viewing without entry. A 20-minute drive up Highway 154 from downtown; the cave is 50 meters from the parking pullout. Morning light enters the cave mouth and illuminates the paintings most clearly between 9am and 11am.",
+          "walk_from_main_route": {
+            "from": "Santa Barbara Botanic Garden",
+            "distance_meters": 14000,
+            "walking_minutes": 175
+          }
+        }
+      ]
+    }
+  ]
+}

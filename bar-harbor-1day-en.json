@@ -1,0 +1,128 @@
+{
+  "destination": "Bar Harbor",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:04:24.735Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Acadia National Park / Bar Harbor Village"
+  ],
+  "guide_description": "One day combining the carriage roads and summit of Acadia National Park with the compact village waterfront of Bar Harbor - the island's only town and the gateway to the park. The day moves from high granite ridgelines in the morning to tidal bars and harbor views by evening.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Acadia and Bar Harbor Village",
+      "cluster_tagline": "Granite summits, carriage roads, and a working Maine harbor in a single compact island day",
+      "neighborhood_focus": "Acadia National Park / Bar Harbor Village",
+      "neighborhood_description": "Mount Desert Island holds both Acadia National Park - the first national park east of the Mississippi - and the town of Bar Harbor, a Victorian-era summer colony turned gateway village. The park's road network, built by the Rockefeller family, and its rocky Atlantic coastline are within a few miles of the village green, making a genuine mountain-to-harbor day possible on foot and by car.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Cadillac Mountain",
+        "wikidata_qid": "Q975556",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cadillac_Mountain",
+        "coordinates": {
+          "lat": 44.3524,
+          "lon": -68.2234
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "At 1,530 feet, the highest point on the US Atlantic coast north of Brazil - from early October through early March you can be among the first people in the continental United States to see the sunrise. A timed vehicle reservation is required from May through October and sells out weeks ahead; book through Recreation.gov the moment your window opens. Walk the South Ridge Trail rather than the summit loop if crowds are heavy - it extends from the parking area and thins out fast.",
+        "walk_to_next": {
+          "to": "Thunder Hole",
+          "distance_meters": 1300,
+          "walking_minutes": 16
+        }
+      },
+      "afternoon": {
+        "activity_title": "Thunder Hole",
+        "wikidata_qid": "Q7712359",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Thunder_Hole",
+        "coordinates": {
+          "lat": 44.3178,
+          "lon": -68.1868
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "A narrow sea chasm in the pink granite of Ocean Path where incoming waves compress air and water into a booming crash audible from a hundred meters away. The effect is loudest and most dramatic about two hours before high tide with a moderate ocean swell - check a tide table the morning of your visit. Park on the Ocean Path pullouts and walk the flat gravel path south from Sand Beach rather than driving directly to Thunder Hole, which has limited parking.",
+        "walk_to_next": {
+          "to": "Bar Harbor Village Green and Bar Island",
+          "distance_meters": 1560,
+          "walking_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Bar Island and the Bar Harbor Village Green",
+        "wikidata_qid": "Q4856517",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bar_Harbor,_Maine",
+        "coordinates": {
+          "lat": 44.3876,
+          "lon": -68.2039
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "At low tide a gravel bar emerges from the harbor connecting the town to Bar Island - the town is literally named for it. The window to cross and return is roughly two hours centered on low tide; the town dock posts a handwritten daily tide chart. Walk to the island's modest summit clearing for an unobstructed view back across the harbor to the Porcupine Islands silhouetted at dusk. The Village Green back in town is surrounded by Victorian shingle-style cottages and makes a natural end point for a drink or lobster roll at one of the restaurants facing the water.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Jordan Pond House and Jordan Pond",
+          "wikidata_qid": "Q6275869",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_Pond_House",
+          "coordinates": {
+            "lat": 44.3215,
+            "lon": -68.2537
+          },
+          "neighborhood": "Acadia National Park",
+          "duration_minutes": 75,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "A glacially carved pond ringed by spruce forest with The Bubbles - two smooth rounded hills - reflected in the surface at the north end. The Jordan Pond House serves popovers with jam on its lawn, a tradition dating to the 1890s that has outlasted every change of ownership. The 3.2-mile shore path around the pond is flat and well-maintained; the view north from the south lawn is exactly the postcard image of Acadia that appears in every park brochure.",
+          "walk_from_main_route": {
+            "from": "Thunder Hole",
+            "distance_meters": 4200,
+            "walking_minutes": 53
+          }
+        },
+        {
+          "activity_title": "Abbe Museum",
+          "wikidata_qid": "Q4667011",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Abbe_Museum",
+          "coordinates": {
+            "lat": 44.3878,
+            "lon": -68.2044
+          },
+          "neighborhood": "Bar Harbor Village",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A tribally owned museum dedicated to the Wabanaki peoples who have inhabited Mount Desert Island for at least 12,000 years - far predating the park and the summer colony. The downtown Bar Harbor building opened in 2001 and holds rotating exhibitions curated with Wabanaki community input. A good rainy-day anchor in the village, and one of the few museums in the US where the community being represented has direct curatorial control.",
+          "walk_from_main_route": {
+            "from": "Bar Harbor Village Green",
+            "distance_meters": 120,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "destination": "Charlotte",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:47:07.898Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Uptown Charlotte / Fourth Ward"
+  ],
+  "guide_description": "One day in Charlotte's Uptown core, covering the city's banking-era skyline district, its best history museum, a Victorian-era neighborhood pocket, and the public arts trail that threads them together. The cluster is walkable end-to-end and mixes indoor depth with outdoor orientation.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2080,
+  "total_walking_minutes": 26,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Uptown Charlotte",
+      "cluster_tagline": "A New South skyline built on gold rush money, explored on foot in a day",
+      "neighborhood_focus": "Uptown Charlotte / Fourth Ward",
+      "neighborhood_description": "Charlotte's Uptown is a compact grid of four wards that grew from a colonial courthouse crossroads into the second-largest banking center in the United States. Fourth Ward, the northwest quadrant, preserves a pocket of Victorian-era houses behind the glass towers. The whole cluster is navigable on foot between the history museum, the arts district, and the central plaza.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Levine Museum of the New South",
+        "wikidata_qid": "Q6537732",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Levine_Museum_of_the_New_South",
+        "coordinates": {
+          "lat": 35.2271,
+          "lon": -80.8456
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The permanent Cotton Fields to Skyscrapers exhibition is the most coherent single-room explanation of how the post-Civil War South industrialized, using Charlotte as a case study. The section on the Piedmont textile mill villages - where families moved from farms into company-owned housing and worked a single machine their entire lives - is unexpectedly affecting. Start here before the skyline context makes sense.",
+        "walk_to_next": {
+          "to": "Charlotte Museum of History / Hezekiah Alexander House",
+          "distance_meters": 430,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Bechtler Museum of Modern Art",
+        "wikidata_qid": "Q4877441",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bechtler_Museum_of_Modern_Art",
+        "coordinates": {
+          "lat": 35.2272,
+          "lon": -80.8427
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The Bechtler family assembled mid-century European modernism in Switzerland for decades before donating it to Charlotte - which means a small American city holds original Giacometti bronzes, Miro ceramics, and a Warhol portrait of Andreas Bechtler's grandmother. The building is a Mario Botta design; the lobby atrium with its skylight grid is worth a minute before you start the galleries. Located on the southern edge of Levine Center for the Arts, so you can cross between here and the Mint Museum Uptown on the same block.",
+        "walk_to_next": {
+          "to": "Fourth Ward historic neighborhood",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Fourth Ward and Romare Bearden Park",
+        "wikidata_qid": "Q7362005",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Romare_Bearden_Park",
+        "coordinates": {
+          "lat": 35.2289,
+          "lon": -80.8468
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Romare Bearden Park sits at the edge of Fourth Ward and is named for the collage artist born in Charlotte in 1911. Walk north through the park into Fourth Ward proper - the streets immediately behind it hold a half-dozen intact Queen Anne and Eastlake Victorian houses dating to the 1880s, a physical anomaly inside a glass-tower district. The park fountain terrace faces east toward the Duke Energy tower and catches the reflected light of sunset off the glass facade opposite.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mint Museum Uptown",
+          "wikidata_qid": "Q6538026",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mint_Museum",
+          "coordinates": {
+            "lat": 35.2267,
+            "lon": -80.8423
+          },
+          "neighborhood": "Uptown Charlotte",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The Uptown branch focuses on craft and design rather than fine art - the ceramics and glass collection on the upper floors is one of the strongest in the Southeast. It shares the Levine Center for the Arts campus with the Bechtler, so if you are already there in the afternoon a combined visit requires no extra transit, just budget the time.",
+          "walk_from_main_route": {
+            "from": "Bechtler Museum of Modern Art",
+            "distance_meters": 80,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Harvey B. Gantt Center for African-American Arts and Culture",
+          "wikidata_qid": "Q5677720",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Harvey_B._Gantt_Center_for_African-American_Arts_%2B_Culture",
+          "coordinates": {
+            "lat": 35.2261,
+            "lon": -80.8441
+          },
+          "neighborhood": "Uptown Charlotte",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Named for Charlotte's first Black mayor and the first Black student admitted to Clemson University. The permanent collection anchors African American artistic production in the Carolinas specifically, not just broadly nationally - the folk art and quilting sections have regional specificity that larger institutions tend to flatten. Also on the Levine Center campus, making it a natural third stop if you have the afternoon.",
+          "walk_from_main_route": {
+            "from": "Bechtler Museum of Modern Art",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "destination": "Queenstown",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:18:38.723Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Queenstown Town Centre / Waterfront / Bob's Peak"
+  ],
+  "guide_description": "One day covering the essential Queenstown experience: the lakefront town centre, the Remarkables panorama from Bob's Peak, and the historic gold-rush precinct of Arrowtown as an afternoon excursion. The day builds from lake-level wandering to an elevated vantage point and ends with the town's best sunset strip.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Queenstown Lakefront and Bob's Peak",
+      "cluster_tagline": "Alpine lake town at the foot of the Remarkables - waterfront, gondola ridge, and gold-rush history",
+      "neighborhood_focus": "Queenstown Town Centre / Waterfront / Bob's Peak",
+      "neighborhood_description": "Queenstown sits on a narrow peninsula jutting into Lake Wakatipu, backed by the steep Queenstown Hill. The town centre is compact and walkable, with the waterfront promenade, Steamer Wharf, and the gondola base all within a few minutes of each other. Bob's Peak rises 450 metres directly above the town and gives the definitive panorama of the lake and the Remarkables range.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Queenstown Gardens",
+        "wikidata_qid": "Q7270237",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Queenstown_Gardens",
+        "coordinates": {
+          "lat": -45.0311,
+          "lon": 168.6608
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "The gardens occupy the entire tombolo peninsula that shelters the town marina. Walk the outer perimeter path clockwise - the eastern shore faces directly across to Cecil Peak and gives the clearest unobstructed view of the Remarkables range, with the water glassy before the afternoon wind picks up. The Douglas fir trees in the interior date from the 1870s planting and are among the largest in the South Island.",
+        "walk_to_next": {
+          "to": "Queenstown Waterfront and Steamer Wharf",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Skyline Queenstown Gondola and Bob's Peak",
+        "wikidata_qid": "Q7534757",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Skyline_Queenstown",
+        "coordinates": {
+          "lat": -45.0244,
+          "lon": 168.6586
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "The gondola base is a short walk uphill from the Beach Street end of the town centre - follow Brecon Street rather than the tourist strip to reach it without the crowds. At the top, walk left past the luge track to the ridge lookout point, which is about 100 metres beyond where most visitors stop - the full arc of Lake Wakatipu from the Remarkables to Cecil Peak opens up from there. If cloud sits on the Remarkables, wait 20 minutes; the valley frequently clears by midday.",
+        "walk_to_next": {
+          "to": "Steamer Wharf",
+          "distance_meters": 910,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Steamer Wharf and Queenstown Bay waterfront",
+        "wikidata_qid": "Q124399991",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Queenstown,_New_Zealand",
+        "coordinates": {
+          "lat": -45.0302,
+          "lon": 168.6617
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Steamer Wharf is the old commercial jetty - the carved wooden structure is original and the lake views from its outer end are unobstructed. Sunset over Cecil Peak turns the lake a deep orange on clear evenings. Walk the lakefront promenade south from the wharf toward the memorial park rather than staying on the busy Rees Street side - the park bench strip faces due west and gets the full colour without the restaurant foot traffic.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Arrowtown",
+          "wikidata_qid": "Q754131",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arrowtown",
+          "coordinates": {
+            "lat": -44.9411,
+            "lon": 168.8286
+          },
+          "neighborhood": "Arrow River / Arrowtown",
+          "duration_minutes": 120,
+          "type": "town",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "A preserved 1860s gold-rush town 20 kilometres northeast of Queenstown, reached by bus or rental car via State Highway 6. Buckingham Street retains most of its original schist-stone shopfronts. Walk down to the Arrow River behind the main street - Chinese miners' stone huts along the riverbank are some of the best-preserved gold-rush Chinese settlement evidence in New Zealand, and the interpretive signs are unusually detailed.",
+          "walk_from_main_route": {
+            "from": "Queenstown Town Centre",
+            "distance_meters": 26000,
+            "walking_minutes": 325
+          }
+        },
+        {
+          "activity_title": "Queenstown Hill Time Walk",
+          "wikidata_qid": "Q55623756",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Queenstown_Hill",
+          "coordinates": {
+            "lat": -45.0194,
+            "lon": 168.6686
+          },
+          "neighborhood": "Queenstown Hill",
+          "duration_minutes": 90,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "The 90-minute return walk to the Basket of Dreams sculpture at the summit starts from Edinburgh Place, one block from the town centre. The track is well-graded but exposed near the top - the view from the summit bench looks down the full length of Lake Wakatipu and is distinctly different from the gondola perspective, facing northeast rather than south. Go early before the afternoon westerly builds.",
+          "walk_from_main_route": {
+            "from": "Queenstown Gardens",
+            "distance_meters": 1300,
+            "walking_minutes": 16
+          }
+        }
+      ]
+    }
+  ]
+}

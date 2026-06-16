@@ -1,0 +1,326 @@
+{
+  "destination": "Austin",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:42:52.305Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Downtown / Capitol District",
+    "South Congress / South Austin",
+    "University of Texas / Hyde Park"
+  ],
+  "guide_description": "Three days covering Austin's essential characters: the political and entertainment core around the Capitol and Sixth Street, the eccentric and walkable South Congress corridor, and the university-anchored cultural district with its world-class museums. Each day is geographically self-contained.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5980,
+  "total_walking_minutes": 75,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Capitol Hill and the Entertainment Core",
+      "cluster_tagline": "Texas political power, a grand Victorian statehouse, and live music after dark",
+      "neighborhood_focus": "Downtown / Capitol District",
+      "neighborhood_description": "The dense urban center of Austin, anchored at the north by the Texas State Capitol on its commanding hill and descending south through Congress Avenue to the Colorado River. The Sixth Street Entertainment District runs parallel to the east, and the bars and venues that made Austin famous begin warming up by early evening.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 27,
+      "morning": {
+        "activity_title": "Texas State Capitol",
+        "wikidata_qid": "Q743422",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Texas_State_Capitol",
+        "coordinates": {
+          "lat": 30.2747,
+          "lon": -97.7403
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Free guided tours run every 30 minutes from the south foyer - they are genuinely informative and access the Senate and House chambers. The building is deliberately seven feet taller than the US Capitol; stand at the center of the rotunda and look straight up at the star to confirm it. The grounds include several monuments worth a slow circuit on the way out.",
+        "walk_to_next": {
+          "to": "Bullock Texas State History Museum",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Bullock Texas State History Museum",
+        "wikidata_qid": "Q4988844",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bullock_Texas_State_History_Museum",
+        "coordinates": {
+          "lat": 30.2794,
+          "lon": -97.7394
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Three floors covering Texas from pre-Columbian settlement through the oil boom and the space program. The first-floor artifacts are the strongest - the bronze star embedded in the entry floor and the giant bronze eagle over the main staircase set the tone. The IMAX theater runs a Texas history film that is surprisingly well-produced and a good recovery from the heat.",
+        "walk_to_next": {
+          "to": "Congress Avenue Bridge",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Congress Avenue Bridge bat colony emergence",
+        "wikidata_qid": "Q5159500",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Congress_Avenue_Bridge",
+        "coordinates": {
+          "lat": 30.2618,
+          "lon": -97.7449
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "From mid-March through October, up to 1.5 million Mexican free-tailed bats emerge from the bridge's expansion joints starting around 30 minutes before sunset. Position yourself on the east sidewalk looking west so the fading sky is behind the cloud of bats. The Statesman overlook on the south bank is a good secondary vantage and is less crowded than the bridge itself. Check Bat Conservation International's flight forecast online the day before.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sixth Street Entertainment District",
+          "wikidata_qid": "Q7530399",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sixth_Street_(Austin,_Texas)",
+          "coordinates": {
+            "lat": 30.2689,
+            "lon": -97.7388
+          },
+          "neighborhood": "Downtown",
+          "duration_minutes": 120,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "The pedestrianized section between Congress and Red River runs about six blocks of venues in historic late-1800s buildings. The blocks east of Trinity Street (the Red River Cultural District end) skew toward indie rock and local acts rather than the tourist-facing cover-band bars on the western end. Arrive after 9pm when the street closes to cars on weekends.",
+          "walk_from_main_route": {
+            "from": "Congress Avenue Bridge",
+            "distance_meters": 850,
+            "walking_minutes": 11
+          }
+        },
+        {
+          "activity_title": "Texas Governor's Mansion",
+          "wikidata_qid": "Q7705011",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Texas_Governor%27s_Mansion",
+          "coordinates": {
+            "lat": 30.2744,
+            "lon": -97.7431
+          },
+          "neighborhood": "Capitol District",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "One of the oldest continuously occupied executive mansions in the US, built in 1856 in Greek Revival style. Free tours run on a limited schedule (check the official website for current days and times) and cover the public rooms and their period furnishings. Reserve in advance as group sizes are small.",
+          "walk_from_main_route": {
+            "from": "Texas State Capitol",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "South Congress and Barton Springs",
+      "cluster_tagline": "Austin's eccentric main street and a limestone spring-fed swimming hole in the city's largest park",
+      "neighborhood_focus": "South Congress / South Austin",
+      "neighborhood_description": "South Congress Avenue (SoCo) runs south from the river through an eclectic strip of vintage shops, food trailers, and independently owned hotels that became the physical expression of Keep Austin Weird. Zilker Park sits a few blocks west, stretching along Barton Creek and containing Barton Springs Pool, a natural swimming hole fed by underground aquifers.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1980,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Barton Springs Pool",
+        "wikidata_qid": "Q2884340",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Barton_Springs_Pool",
+        "coordinates": {
+          "lat": 30.2634,
+          "lon": -97.7711
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "A three-acre swimming pool fed by underground springs that hold a constant 68 degrees Fahrenheit year-round - shockingly cold on entry but ideal in Austin summer heat. Arrive before 10am to get a spot on the limestone banks before the weekend crowds arrive. The pool is closed on Thursday mornings for cleaning; check the Parks Department site before going. Sunscreen is not allowed in the water.",
+        "walk_to_next": {
+          "to": "Zilker Park",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Zilker Park",
+        "wikidata_qid": "Q2453850",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Zilker_Park",
+        "coordinates": {
+          "lat": 30.2669,
+          "lon": -97.7716
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Austin's 350-acre central park along the south bank of the Colorado River. The view north from the park's lawn toward the downtown skyline across Town Lake is the defining Austin postcard. The Barton Creek Greenbelt trailhead is accessible from the southwest corner of the park for anyone who wants to extend into hill country terrain.",
+        "walk_to_next": {
+          "to": "South Congress Avenue",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "South Congress Avenue",
+        "wikidata_qid": "Q7571079",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/South_Congress_Avenue",
+        "coordinates": {
+          "lat": 30.2497,
+          "lon": -97.7499
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Walk the strip from Mary Street north toward the river as the sun drops behind the hills - the Capitol dome is visible dead ahead at the end of the avenue, framed by the storefronts. The food trailer parks clustered between Oltorf and Elizabeth streets are the most efficient way to sample Austin's food culture without committing to a full restaurant. Allen's Boots and Lucy in Disguise with Diamonds are the two landmark independent shops worth going inside even if you are not buying.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Blanton Museum of Art",
+          "wikidata_qid": "Q2904447",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Blanton_Museum_of_Art",
+          "coordinates": {
+            "lat": 30.2806,
+            "lon": -97.7393
+          },
+          "neighborhood": "University of Texas",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "If the afternoon heat makes outdoor plans unappealing, the Blanton is a 20-minute rideshare from Zilker. The Latin American collection is exceptional and undervisited. Ellsworth Kelly's Austin - a freestanding chapel-like stone building with colored glass panels - is on the museum grounds and is one of the most quietly affecting contemporary art installations in the American South.",
+          "walk_from_main_route": {
+            "from": "Zilker Park",
+            "distance_meters": 2200,
+            "walking_minutes": 28
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "University of Texas and Hyde Park",
+      "cluster_tagline": "A landmark university campus, world-class archives, and Austin's most livable early-20th-century neighborhood",
+      "neighborhood_focus": "University of Texas / Hyde Park",
+      "neighborhood_description": "The University of Texas at Austin campus covers 433 acres immediately north of the Capitol and contains several museums and landmark buildings in its own right. Hyde Park, the Victorian-era neighborhood east of the campus, is Austin's most intact pre-car residential district, with bungalows and oaks lining avenues that run to independent coffeehouses and bookstores.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1900,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "LBJ Presidential Library",
+        "wikidata_qid": "Q6464737",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lyndon_Baines_Johnson_Library_and_Museum",
+        "coordinates": {
+          "lat": 30.2861,
+          "lon": -97.7381
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "One of the strongest presidential libraries in the country, largely because the LBJ years encompassed the Civil Rights Act, the Great Society, and Vietnam simultaneously - the documentary record is staggering. The reproduction of the Oval Office as it looked in 1968 is on the top floor and is more detailed than most. Admission is free. The reading room on the fourth floor overlooks the campus and is worth a look even if you skip the exhibit floors.",
+        "walk_to_next": {
+          "to": "University of Texas at Austin campus",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "University of Texas at Austin - Main Mall and Tower",
+        "wikidata_qid": "Q49213",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Texas_at_Austin",
+        "coordinates": {
+          "lat": 30.2849,
+          "lon": -97.7341
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "The Main Mall runs south from the UT Tower to the South Mall fountain in a formal axis of live oaks - walk the center of the mall looking north for the intended composition. The Tower observation deck is open for tours on a reservation basis through the UT visitor center; book online in advance as spots fill quickly. The Littlefield Fountain at the south end of the mall is an ambitious 1933 bronze monument that anchors the ensemble.",
+        "walk_to_next": {
+          "to": "Harry Ransom Center",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Harry Ransom Center",
+        "wikidata_qid": "Q1585131",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harry_Ransom_Center",
+        "coordinates": {
+          "lat": 30.2788,
+          "lon": -97.7394
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "A humanities research center and museum that holds one of the finest literary and photography archives in the world. On permanent display: a Gutenberg Bible (one of only five complete copies in the US), a copy of the first photograph ever made, and rotating exhibits from archives including works by Frida Kahlo, Ernest Hemingway, and Norman Mailer. Admission is free. The permanent display cases are compact enough to see meaningfully in under an hour.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Texas Memorial Museum",
+          "wikidata_qid": "Q7717499",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Texas_Memorial_Museum",
+          "coordinates": {
+            "lat": 30.2824,
+            "lon": -97.7341
+          },
+          "neighborhood": "University of Texas",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The natural history museum of the UT campus, housed in a 1936 Art Deco building designed for the Texas Centennial. The dinosaur hall on the upper floor contains a Onchopristis skull and a full Quetzalcoatlus northropi - the largest flying creature ever discovered, found in Big Bend. Often overlooked by visitors to the Blanton and Ransom Center immediately nearby.",
+          "walk_from_main_route": {
+            "from": "University of Texas at Austin - Main Mall and Tower",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Elisabet Ney Museum",
+          "wikidata_qid": "Q5360267",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Elisabet_Ney_Museum",
+          "coordinates": {
+            "lat": 30.3034,
+            "lon": -97.7294
+          },
+          "neighborhood": "Hyde Park",
+          "duration_minutes": 45,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The preserved studio of German-born sculptor Elisabet Ney, who came to Texas in 1870 and became the state's first major sculptor. The building is an eccentric 1892 castle-like structure she designed herself, still filled with original plaster models including her statues of Sam Houston and Stephen F. Austin. One of the quietest and most genuinely surprising small museums in Texas, with almost no tourist infrastructure around it.",
+          "walk_from_main_route": {
+            "from": "LBJ Presidential Library",
+            "distance_meters": 1350,
+            "walking_minutes": 17
+          }
+        }
+      ]
+    }
+  ]
+}

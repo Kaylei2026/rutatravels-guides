@@ -1,0 +1,356 @@
+{
+  "destination": "Dubrovnik",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:16:02.581Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Old Town - Stradun and the City Walls",
+    "Old Town - Rector's Palace, Cathedral, and the Eastern Quarters",
+    "Lokrum Island and Mount Srd"
+  ],
+  "guide_description": "Three days covering Dubrovnik's essential layers: the medieval main spine and its ring of walls, the civic and ecclesiastical core of the eastern Old Town, and the natural escarpment above the city paired with the forested island directly offshore. Each day is geographically self-contained and can be reordered based on ferry schedules, weather, or crowd levels.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5590,
+  "total_walking_minutes": 70,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Stradun and the City Walls",
+      "cluster_tagline": "The marble spine and the ring of ramparts that define one of Europe's best-preserved medieval cities",
+      "neighborhood_focus": "Old Town - Stradun and City Walls",
+      "neighborhood_description": "The Old Town's limestone-paved main street runs 300 meters from the Pile Gate to the Ploce Gate, flanked by baroque churches, fountains, and covered market alcoves. The encircling walls - nearly two kilometers of rampart - sit directly on top of this dense urban fabric, creating an experience unlike any other medieval circuit in Europe.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Stradun (Placa)",
+        "wikidata_qid": "Q1256447",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Stradun",
+        "coordinates": {
+          "lat": 42.6414,
+          "lon": 18.1082
+        },
+        "unesco_designation": {
+          "site_name": "Old City of Dubrovnik",
+          "year_inscribed": 1979,
+          "reference_number": 95,
+          "url": "https://whc.unesco.org/en/list/95"
+        },
+        "duration_minutes": 45,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Walk the Stradun before 8am and you have the polished limestone almost to yourself - the surface is worn to a mirror sheen by centuries of foot traffic and is genuinely slippery when wet. The street was rebuilt on a uniform baroque plan after the 1667 earthquake, which is why every ground-floor facade is identical in height and doorway width. Start at the Pile Gate end and walk toward the bell tower for the perspective that widens as you approach.",
+        "walk_to_next": {
+          "to": "City Walls of Dubrovnik",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "City Walls of Dubrovnik",
+        "wikidata_qid": "Q1088539",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Walls_of_Dubrovnik",
+        "coordinates": {
+          "lat": 42.6413,
+          "lon": 18.1083
+        },
+        "unesco_designation": {
+          "site_name": "Old City of Dubrovnik",
+          "year_inscribed": 1979,
+          "reference_number": 95,
+          "url": "https://whc.unesco.org/en/list/95"
+        },
+        "duration_minutes": 120,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Enter from the Pile Gate side and walk counterclockwise - this puts the Adriatic on your left for most of the circuit and saves the highest section over the eastern rooftops for the second half. The walls cover 1,940 meters and rise up to 25 meters; the full loop takes 90 minutes at a comfortable pace. Go before 10am or after 4pm in summer - the exposed stone sections have no shade and temperatures spike. Ticket offices also sit at the Ploce and St. Luke's Gate entrances.",
+        "walk_to_next": {
+          "to": "Onofrio's Large Fountain",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Onofrio's Large Fountain and the Pile Gate",
+        "wikidata_qid": "Q3350682",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Onofrio%27s_Large_Fountain",
+        "coordinates": {
+          "lat": 42.6416,
+          "lon": 18.1065
+        },
+        "unesco_designation": {
+          "site_name": "Old City of Dubrovnik",
+          "year_inscribed": 1979,
+          "reference_number": 95,
+          "url": "https://whc.unesco.org/en/list/95"
+        },
+        "duration_minutes": 30,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The 1444 fountain once supplied the city via a 12-kilometer aqueduct from the Rijeka Dubrovacka river. In the evening, locals gather here and along the Stradun benches in the Ragusan equivalent of the Italian passeggiata. Sit on the steps below the outer Pile Gate arch - the westward view catches the last light over the sea, and the inner double-gate structure frames the city walls dramatically at dusk.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Church of St. Saviour",
+          "wikidata_qid": "Q5109220",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Church_of_St._Saviour,_Dubrovnik",
+          "coordinates": {
+            "lat": 42.6416,
+            "lon": 18.107
+          },
+          "neighborhood": "Old Town",
+          "duration_minutes": 20,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The small Renaissance votive church built immediately after the 1520 earthquake - one of the rare buildings that survived the far more destructive 1667 quake intact. It sits directly next to Onofrio's fountain and is now used as a concert and gallery space. Entry is usually free and the interior is one of the calmer spaces in the Old Town.",
+          "walk_from_main_route": {
+            "from": "Onofrio's Large Fountain",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Franciscan Monastery and Pharmacy Museum",
+          "wikidata_qid": "Q3085308",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Franciscan_monastery,_Dubrovnik",
+          "coordinates": {
+            "lat": 42.6416,
+            "lon": 18.1073
+          },
+          "neighborhood": "Old Town",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "The monastery cloister is one of the finest Romanesque-Gothic examples in Dalmatia, and the pharmacy inside has been operating continuously since 1317, making it one of the oldest in Europe. The small museum shows original 14th-century apothecary equipment and medieval remedy recipes. The garden courtyard is quiet even when the Stradun outside is packed.",
+          "walk_from_main_route": {
+            "from": "Stradun",
+            "distance_meters": 80,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Rector's Palace, Cathedral, and the Eastern Old Town",
+      "cluster_tagline": "The civic and ecclesiastical heart - where the Republic of Ragusa was governed and its wealth displayed",
+      "neighborhood_focus": "Old Town - Pred Dvorom / Gundulic Square",
+      "neighborhood_description": "The eastern half of the Old Town clusters around Pred Dvorom square, where the Rector's Palace and the cathedral face each other across a narrow passage. Behind them, Gundulic Square hosts the morning market and a web of steep staircase lanes climbs toward the walls. This is the part of the Old Town that is densest in civic history and least dominated by souvenir shops.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1560,
+      "day_walking_minutes": 20,
+      "morning": {
+        "activity_title": "Rector's Palace",
+        "wikidata_qid": "Q2440532",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rector%27s_Palace,_Dubrovnik",
+        "coordinates": {
+          "lat": 42.6407,
+          "lon": 18.1112
+        },
+        "unesco_designation": {
+          "site_name": "Old City of Dubrovnik",
+          "year_inscribed": 1979,
+          "reference_number": 95,
+          "url": "https://whc.unesco.org/en/list/95"
+        },
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "The seat of government of the Republic of Ragusa from the 15th century. The elected Rector was required to live here for his entire one-month term and was forbidden from leaving without official permission - the institutional logic of limiting individual power in a merchant republic. The Gothic-Renaissance loggia on the ground floor is largely original; the interior holds period furniture, portraits, and one of the best collections of Ragusan-era keys and locks in existence. Go early before cruise-ship groups arrive mid-morning.",
+        "walk_to_next": {
+          "to": "Dubrovnik Cathedral",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Dubrovnik Cathedral",
+        "wikidata_qid": "Q677611",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dubrovnik_Cathedral",
+        "coordinates": {
+          "lat": 42.6404,
+          "lon": 18.1116
+        },
+        "unesco_designation": {
+          "site_name": "Old City of Dubrovnik",
+          "year_inscribed": 1979,
+          "reference_number": 95,
+          "url": "https://whc.unesco.org/en/list/95"
+        },
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The baroque replacement for the Romanesque cathedral destroyed in the 1667 earthquake, completed in 1713. The Treasury holds a gold reliquary of St. Blaise's skull and one of the largest surviving medieval gold reliquary collections in the Adriatic. The Titian altarpiece in the sacristy is genuine and is often overlooked by visitors who only pass through the nave. Modest entry fee for the Treasury.",
+        "walk_to_next": {
+          "to": "Gundulic Square",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "evening": {
+        "activity_title": "Gundulic Square and evening market",
+        "wikidata_qid": "Q3082648",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gunduli%C4%87eva_poljana",
+        "coordinates": {
+          "lat": 42.6401,
+          "lon": 18.1109
+        },
+        "unesco_designation": {
+          "site_name": "Old City of Dubrovnik",
+          "year_inscribed": 1979,
+          "reference_number": 95,
+          "url": "https://whc.unesco.org/en/list/95"
+        },
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "The market square named for the baroque poet Ivan Gundulic, whose statue anchors the center. The morning produce market winds down by noon, but in the evening the outdoor restaurants around the square fill up and the steep staircase lanes - Ulica od Puca and the Jesuit Steps behind the square - are far quieter than the Stradun. The Jesuit Steps in particular are a direct reference point for anyone who watched Game of Thrones filmed here.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Church of St. Ignatius and the Jesuit Steps",
+          "wikidata_qid": "Q3082718",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St._Ignatius_Church,_Dubrovnik",
+          "coordinates": {
+            "lat": 42.6397,
+            "lon": 18.1109
+          },
+          "neighborhood": "Old Town",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "The largest baroque church in Dubrovnik, designed by a student of Borromini and completed in 1725. The broad curved staircase in front - modeled on the Spanish Steps in Rome - is a good late-afternoon perch above the rooftops. The interior trompe-l'oeil frescoes covering the nave ceiling and choir depict scenes from Ignatius's life and are among the finest baroque painting in Croatia.",
+          "walk_from_main_route": {
+            "from": "Gundulic Square",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Dominican Monastery Museum",
+          "wikidata_qid": "Q3766576",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dominican_Monastery,_Dubrovnik",
+          "coordinates": {
+            "lat": 42.6415,
+            "lon": 18.1133
+          },
+          "neighborhood": "Old Town",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Built into the eastern city wall in the 14th century, meaning the monastery's outer wall is the defensive rampart itself. The Gothic-Renaissance cloister has a particularly refined arcade, and the museum holds Triptych of St. Dominic by Nikola Bozidarcevic - one of the finest examples of Ragusan Renaissance painting. Considerably less crowded than the Rector's Palace for the same quality of medieval interior.",
+          "walk_from_main_route": {
+            "from": "Rector's Palace",
+            "distance_meters": 390,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Lokrum Island and Mount Srd",
+      "cluster_tagline": "Forest island and limestone ridge - the natural escarpment that frames the city from two directions",
+      "neighborhood_focus": "Lokrum Island / Mount Srd",
+      "neighborhood_description": "Two short excursions from the Old Town that reward visitors with inverse perspectives on the city. Lokrum is a forested island 600 meters offshore, reachable by a 15-minute ferry from the Old Town harbor. Mount Srd is the 412-meter limestone ridge directly above the city, reachable by cable car from just outside the Ploce Gate.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1930,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Lokrum Island",
+        "wikidata_qid": "Q905250",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lokrum",
+        "coordinates": {
+          "lat": 42.6272,
+          "lon": 18.1231
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Ferries run from the Old Port approximately every 30 minutes in season and the crossing takes about 15 minutes; buy the round-trip ticket at the dock, which also covers island entry. The Benedictine monastery ruins in the center hold a small natural history museum and the preserved cloister where Richard the Lionheart reputedly sheltered after a shipwreck in 1192. The Dead Sea Lake on the southeastern tip is a saltwater pool connected to the sea by underground channels - calmer and cleaner than the main swimming rocks. Arrive on the first or second morning ferry before the cruise-ship day-trippers fill the island by 10am.",
+        "walk_to_next": {
+          "to": "Dubrovnik Cable Car - lower station",
+          "distance_meters": 1300,
+          "walking_minutes": 16
+        }
+      },
+      "afternoon": {
+        "activity_title": "Dubrovnik Cable Car and Fort Imperial",
+        "wikidata_qid": "Q5311843",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dubrovnik_cable_car",
+        "coordinates": {
+          "lat": 42.6393,
+          "lon": 18.1175
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "The cable car climbs 778 meters of horizontal distance and 405 meters of elevation in under four minutes. At the top, Fort Imperial is a Napoleonic-era hexagonal fortress with a small museum dedicated to the 1991-92 Siege of Dubrovnik - the maps showing which buildings were struck by Serbian and Montenegrin artillery and the before-and-after photographs of the Old Town rooftops give necessary historical context that the city center alone cannot convey. The panorama from the fort walls takes in the entire Elaphiti archipelago, Lokrum below, and on clear days the coast as far as Montenegro.",
+        "walk_to_next": {
+          "to": "Banje Beach viewpoint",
+          "distance_meters": 430,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Banje Beach and the Old Town harbor at sunset",
+        "wikidata_qid": "Q16524902",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Banje_beach",
+        "coordinates": {
+          "lat": 42.638,
+          "lon": 18.1163
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Banje is the closest beach to the Old Town, a short walk outside the Ploce Gate. The western-facing shingle beach gives the only unobstructed ground-level view of the Old Town walls and the Adriatic together at the same angle - the shot that appears on virtually every Dubrovnik postcard. Arrive 30 minutes before sunset and take the low rock ledge on the northern end of the beach for the cleanest sightline, away from the beach club infrastructure that dominates the southern section.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Fort Lovrijenac",
+          "wikidata_qid": "Q1475032",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Fort_Lovrijenac",
+          "coordinates": {
+            "lat": 42.6411,
+            "lon": 18.1044
+          },
+          "neighborhood": "Old Town - Western Quarter",
+          "duration_minutes": 45,
+          "type": "fortress",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "sunset",
+          "notes": "The free-standing triangular fortress built on a 37-meter rock outside the Pile Gate - technically separate from the city walls and sold as a separate entry ticket. The inner walls carry the Latin inscription Non Bene Pro Toto Libertas Venditur Auro (Freedom is not well sold for all the gold in the world), the motto of the Ragusan Republic. The upper terrace looks back across the sea gate toward the Old Town and is one of the best sunset positions in the city, with the walls curving away in both directions below you.",
+          "walk_from_main_route": {
+            "from": "Banje Beach",
+            "distance_meters": 1170,
+            "walking_minutes": 15
+          }
+        }
+      ]
+    }
+  ]
+}
