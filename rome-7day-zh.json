@@ -1,0 +1,712 @@
+{
+  "destination": "Rome",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-17T13:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Centro Storico",
+    "Monti / Ancient Rome",
+    "Vatican City / Borgo",
+    "Trastevere",
+    "Villa Borghese / Tridente",
+    "Aventino / Testaccio",
+    "Tivoli (day trip)"
+  ],
+  "guide_description": "七天行程涵盖罗马的精华景点、较为宁静的南部山区，以及富有联合国教科文组织遗产的蒂沃利一日游。每天的游览路线在地理位置上相对独立。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 15020,
+  "total_walking_minutes": 192,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Centro Storico Loop",
+      "cluster_tagline": "在可步行的历史中心区欣赏巴洛克广场和古代神庙",
+      "neighborhood_focus": "Centro Storico",
+      "neighborhood_description": "位于Tiber河弯曲处与Via del Corso之间的密集历史街区。古罗马神庙、巴洛克广场和市集广场层叠在两千多年的城市街道网格之上。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1020,
+      "day_walking_minutes": 13,
+      "morning": {
+        "activity_title": "Pantheon",
+        "wikidata_qid": "Q1142794",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "coordinates": {
+          "lat": 41.8986,
+          "lon": 12.4769
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "早上9点开门时到达，这样可以看到光线清晰地照射到室内，在导游团队涌入之前。工作日现在需要支付少量入场费；周日弥撒免费但会限制室内活动。",
+        "walk_to_next": {
+          "to": "Piazza Navona",
+          "distance_meters": 320,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Piazza Navona and Sant'Agnese in Agone",
+        "wikidata_qid": "Q207110",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_Navona",
+        "coordinates": {
+          "lat": 41.8992,
+          "lon": 12.4731
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "建在Domitian体育场的旧址上，这就是为什么形状是椭圆形的。四河喷泉是贝尼尼的作品；对面的教堂立面是他的竞争对手博罗米尼设计的 - 自1650年代以来，这两位艺术家一直在广场对面争论。",
+        "walk_to_next": {
+          "to": "Trevi Fountain",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Trevi Fountain after dark",
+        "wikidata_qid": "Q1747689",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Trevi_Fountain",
+        "coordinates": {
+          "lat": 41.9009,
+          "lon": 12.4833
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 30,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "日落时分开始照明，喷泉看起来比白天自拍游客拥挤时要干净得多。从Via della Stamperia而不是主要人流街道靠近，可以看到费里尼在《甜蜜生活》中使用的视角。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Campo de' Fiori",
+          "wikidata_qid": "Q207258",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Campo_de%27_Fiori",
+          "coordinates": {
+            "lat": 41.8956,
+            "lon": 12.4722
+          },
+          "neighborhood": "Centro Storico",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "上午有农产品市场，持续到下午2点左右，然后在傍晚转变为开胃酒广场。中央那尊沉闷的雕像是乔尔达诺·布鲁诺，他因异端邪说在1600年在这里被烧死。",
+          "walk_from_main_route": {
+            "from": "Piazza Navona",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "古罗马",
+      "cluster_tagline": "帝国中心 - 斗兽场、论坛、帕拉蒂尼山在一个连续的考古公园内",
+      "neighborhood_focus": "Monti / Celio / Palatino",
+      "neighborhood_description": "中罗马东南角的弯曲地带，这里是古城的统治和娱乐中心。斗兽场、论坛和帕拉蒂尼山共用一张门票和一个占地近一平方公里的考古区域。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1900,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Colosseum",
+        "wikidata_qid": "Q10285",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colosseum",
+        "coordinates": {
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 90,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "提前几天在线预订定时进场票 - 现场购票通常需要排队2小时。斗兽场/论坛/帕拉蒂尼山的联票有效期为24小时。",
+        "walk_to_next": {
+          "to": "Roman Forum",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Roman Forum",
+        "wikidata_qid": "Q210081",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roman_Forum",
+        "coordinates": {
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 120,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "从Via dei Fori Imperiali入口进入，不要从Colosseum一侧进 - 沿着拱门向下行走的高度变化会给你带来电影般的视觉效果。记得带上水；这里几乎没有阴凉处，大理石路面会反射热量。",
+        "walk_to_next": {
+          "to": "Piazza del Campidoglio",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Piazza del Campidoglio and Capitoline views",
+        "wikidata_qid": "Q200831",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_del_Campidoglio",
+        "coordinates": {
+          "lat": 41.8932,
+          "lon": 12.4828
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Michelangelo在Capitoline Hill上设计的广场 - 应该走cordonata坡道上去，而不是选择右侧陡峭的楼梯。绕过Palazzo Senatorio后面，你会看到Forum最美的免费景观之一。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Capitoline Museums",
+          "wikidata_qid": "Q193375",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Capitoline_Museums",
+          "coordinates": {
+            "lat": 41.893,
+            "lon": 12.4827
+          },
+          "neighborhood": "Campitelli",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "世界上最古老的公共博物馆（成立于1471年）。原始的青铜Marcus Aurelius骑马雕像就在这里 - 外面广场上的那个是复制品。",
+          "walk_from_main_route": {
+            "from": "Piazza del Campidoglio",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Vatican City",
+      "cluster_tagline": "世界上最小的国家和基督教世界最大的教堂",
+      "neighborhood_focus": "Vatican City / Borgo",
+      "neighborhood_description": "一个位于罗马内部的独立国家，向西穿过Tiber河即可到达。Vatican Museums、Sistine Chapel和St. Peter's合在一起构成了世界上访问量最大的宗教和文化遗址之一。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Vatican Museums and Sistine Chapel",
+        "wikidata_qid": "Q160821",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vatican_Museums",
+        "coordinates": {
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        "unesco_designation": {
+          "site_name": "Vatican City",
+          "year_inscribed": 1984,
+          "reference_number": 286,
+          "url": "https://whc.unesco.org/en/list/286"
+        },
+        "duration_minutes": 180,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "提前数周在官方博物馆网站上在线预订 - 旺季时现场排队通常需要超过3小时。进入Sistine Chapel后，如果向右走可以直接前往St. Peter's。",
+        "walk_to_next": {
+          "to": "St. Peter's Basilica",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "St. Peter's Basilica",
+        "wikidata_qid": "Q12512",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica",
+        "coordinates": {
+          "lat": 41.9022,
+          "lon": 12.4533
+        },
+        "unesco_designation": {
+          "site_name": "Vatican City",
+          "year_inscribed": 1984,
+          "reference_number": 286,
+          "url": "https://whc.unesco.org/en/list/286"
+        },
+        "duration_minutes": 90,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "进入是免费的，但St. Peter's Square的安检队伍可能很长。服装规定是强制的 - 肩膀和膝盖必须遮盖，没有例外。登顶圆顶需要单独购票，可在入口处购买。",
+        "walk_to_next": {
+          "to": "Castel Sant'Angelo",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Castel Sant'Angelo and the bridge at sunset",
+        "wikidata_qid": "Q189476",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Sant%27Angelo",
+        "coordinates": {
+          "lat": 41.9031,
+          "lon": 12.4663
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "哈德良陵墓原本是教宗堡垒，现在是博物馆。即使你不进入内部参观，Ponte Sant'Angelo 桥上林立着十尊由贝尔尼尼设计的天使雕像，是罗马最美的日落散步地点之一。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Via della Conciliazione approach",
+          "wikidata_qid": "Q1377610",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Via_della_Conciliazione",
+          "coordinates": {
+            "lat": 41.9025,
+            "lon": 12.4595
+          },
+          "neighborhood": "Borgo",
+          "duration_minutes": 15,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "这条墨索里尼时代的大道穿过中世纪的 Borgo 区，为圣彼得大殿提供了一条纪念碑式的入口。",
+          "walk_from_main_route": {
+            "from": "Castel Sant'Angelo",
+            "distance_meters": 350,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Trastevere",
+      "cluster_tagline": "鹅卵石街道、中世纪马赛克，以及罗马最受人喜爱的社区。",
+      "neighborhood_focus": "Trastevere",
+      "neighborhood_description": "台伯河南岸梵蒂冈对面的特拉斯特维雷是罗马气氛最浓厚的街区 - 狭窄的中世纪街道、爬满常春藤的建筑立面，以及仍在这些如今已成为高档酒吧和小餐馆的地方闪烁的劳工阶级历史。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1400,
+      "day_walking_minutes": 18,
+      "morning": {
+        "activity_title": "Santa Maria in Trastevere",
+        "wikidata_qid": "Q200751",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_in_Trastevere",
+        "coordinates": {
+          "lat": 41.8895,
+          "lon": 12.4694
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "罗马最古老的教堂之一，自3世纪以来就有持续进行公众礼拜的传统。12世纪的后殿马赛克镶嵌画描绘玛丽亚端坐于基督身旁，是教堂的核心看点。",
+        "walk_to_next": {
+          "to": "Villa Farnesina",
+          "distance_meters": 500,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Villa Farnesina",
+        "wikidata_qid": "Q1093297",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Farnesina",
+        "coordinates": {
+          "lat": 41.8929,
+          "lon": 12.4664
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "一座带有拉斐尔壁画的文艺复兴时期别墅 - 游客远少于梵蒂冈，但艺术价值不相上下。丘比特与普赛克回廊和加拉忒亚的胜利是主要亮点。周日闭馆，除了每月第二个周日外。",
+        "walk_to_next": {
+          "to": "Gianicolo Hill viewpoint",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Gianicolo Hill at sunset",
+        "wikidata_qid": "Q207365",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Janiculum",
+        "coordinates": {
+          "lat": 41.895,
+          "lon": 12.4622
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "虽然不是罗马七丘之一，但却是观赏罗马全景的最佳地点 - 从维托里亚诺纪念堂到圣彼得大教堂的整条历史地平线向东展开。每天正午时分，会从露台下方发射一门大炮，这是自1847年以来的传统。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Santa Cecilia in Trastevere",
+          "wikidata_qid": "Q1356942",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Cecilia_in_Trastevere",
+          "coordinates": {
+            "lat": 41.8875,
+            "lon": 12.4761
+          },
+          "neighborhood": "Trastevere",
+          "duration_minutes": 30,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "Stefano Maderno创作的殉难圣人雕像栩栩如生，安放在祭坛下方。修女唱诗班中的Cavallini壁画需要支付小额费用，仅在上午特定时间开放。",
+          "walk_from_main_route": {
+            "from": "Santa Maria in Trastevere",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Villa Borghese和Tridente",
+      "cluster_tagline": "Rome宏伟的城市公园、世界级美术馆，以及向Tiber河畔延伸的优雅街道",
+      "neighborhood_focus": "Pinciano / Campo Marzio",
+      "neighborhood_description": "Rome中心城区的东北部分，这里是城市最宏伟的公园与优雅的Tridente街道网络的交汇处 - 从Piazza del Popolo向南扇形展开的三条街道自17世纪以来就是Rome最时尚的地址所在。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 37,
+      "morning": {
+        "activity_title": "Galleria Borghese",
+        "wikidata_qid": "Q190044",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Galleria_Borghese",
+        "coordinates": {
+          "lat": 41.9142,
+          "lon": 12.4922
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "需要提前预订并按时间段入场。这里展有贝尼尼的《阿波罗与达芙妮》和《大卫》，以及卡拉瓦乔的作品和卡诺瓦的《保利娜·波拿巴肖像》。两小时的参观时间限制严格执行。",
+        "walk_to_next": {
+          "to": "Pincio Terrace",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Pincio Terrace and Villa Borghese gardens",
+        "wikidata_qid": "Q1054815",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pincian_Hill",
+        "coordinates": {
+          "lat": 41.9114,
+          "lon": 12.4789
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Pincio露台俯瞰Piazza del Popolo，可远眺屋顶对面的圣彼得大教堂圆顶。入口附近有自行车租赁服务，如果想要更快地游览可以租用。",
+        "walk_to_next": {
+          "to": "Piazza di Spagna",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Spanish Steps and Piazza di Spagna",
+        "wikidata_qid": "Q193510",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Spanish_Steps",
+        "coordinates": {
+          "lat": 41.9061,
+          "lon": 12.4828
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "从Pincio下降至西班牙阶梯顶部。在阶梯上坐着已被禁止，违者会被罚款 - 当地人通常是走下阶梯，然后在下方的广场活动。济慈去世的那间小粉红房子就在底部右侧。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Piazza del Popolo",
+          "wikidata_qid": "Q207690",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_del_Popolo",
+          "coordinates": {
+            "lat": 41.9108,
+            "lon": 12.4764
+          },
+          "neighborhood": "Campo Marzio",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Santa Maria del Popolo大殿位于东北角，内部展有卡拉瓦乔最有力的两幅画作（《扫罗的皈依》和《彼得的受难》），它们仍悬挂在原本的礼拜堂内。",
+          "walk_from_main_route": {
+            "from": "Pincio Terrace",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "冒险山和特斯塔喀区",
+      "cluster_tagline": "圣彼得大教堂的钥孔视角、橙树全景以及罗马昔日屠宰场改建的美食街区",
+      "neighborhood_focus": "Aventino / Testaccio",
+      "neighborhood_description": "罗马最安静的中心街区。冒险山是七座山丘之一，绿树成荫且居民众多，拥有该市两个最佳免费观景点。下方的特斯塔喀建在古代陶罐碎片堆积的土丘上，现已成为罗马最可靠的工薪阶层美食街区。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2400,
+      "day_walking_minutes": 30,
+      "morning": {
+        "activity_title": "Giardino degli Aranci and Santa Sabina",
+        "wikidata_qid": "Q3766873",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Giardino_degli_Aranci",
+        "coordinates": {
+          "lat": 41.8842,
+          "lon": 12.4789
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "后面的露台可以欣赏到跨越台伯河到圣彼得大教堂穹顶的宽阔全景 - 与城市中任何付费观景点不相上下，且完全免费。隔壁的Santa Sabina是一座5世纪的大殿，保留着刻有柏树图案的原始大门，上面描绘了已知最早的基督受难像之一。",
+        "walk_to_next": {
+          "to": "Aventine Keyhole",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Aventine Keyhole (Priory of the Knights of Malta)",
+        "wikidata_qid": "Q3568909",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_del_Priorato_di_Malta",
+        "coordinates": {
+          "lat": 41.8836,
+          "lon": 12.4775
+        },
+        "unesco_designation": null,
+        "duration_minutes": 20,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "通过修道院门上的青铜钥匙孔往外看，你会看到圣彼得大教堂的圆顶被一条树篱环绕的花园小径完美地框起来 - 这是18世纪60年代由Piranesi设计的光学视觉魔法，将三个主权领土（意大利、马耳他骑士团、梵蒂冈）完美地排列在一条视线上。旺季时排队可能达到15-20人深；建议在上午10点前前往或等到日落时分。",
+        "walk_to_next": {
+          "to": "Pyramid of Cestius",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Pyramid of Cestius and the Non-Catholic Cemetery",
+        "wikidata_qid": "Q207751",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pyramid_of_Cestius",
+        "coordinates": {
+          "lat": 41.8761,
+          "lon": 12.4811
+        },
+        "unesco_designation": {
+          "site_name": "Historic Centre of Rome",
+          "year_inscribed": 1980,
+          "reference_number": 91,
+          "url": "https://whc.unesco.org/en/list/91"
+        },
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "一座真正的埃及风格金字塔，建于公元前18-12年，原为一位罗马地方官员的陵墓，现在矗立在繁忙的十字路口。相邻的是非天主教公墓（也被称为Protestant Cemetery或English Cemetery） - 一片宁静的围墙花园，济慈和雪莱都葬在这里。公墓大约下午5点关闭。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mercato di Testaccio",
+          "wikidata_qid": "Q3739620",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Testaccio_Market",
+          "coordinates": {
+            "lat": 41.8786,
+            "lon": 12.4761
+          },
+          "neighborhood": "Testaccio",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "这是一个现代化的有顶棚市场，取代了原来的露天市场，现在被广泛认为是罗马最好的食品市场。仅在上午活跃 - 大多数摊位在下午2-3点左右关闭。",
+          "walk_from_main_route": {
+            "from": "Pyramid of Cestius",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "Tivoli一日游",
+      "cluster_tagline": "距罗马一小时车程的两座联合国教科文组织别墅 - Hadrian 皇帝的行宫和文艺复兴水花园杰作",
+      "neighborhood_focus": "Tivoli (outside Rome)",
+      "neighborhood_description": "位于Rome东部30公里Sabine山区的小镇，拥有两处联合国教科文组织世界遗产地，共同讲述了1500年间罗马休闲文化的发展历程。可乘坐区域火车（Roma Tiburtina至Tivoli，约1小时）或Cotral公交车到达。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3500,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Hadrian's Villa (Villa Adriana)",
+        "wikidata_qid": "Q207614",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hadrian%27s_Villa",
+        "coordinates": {
+          "lat": 41.9419,
+          "lon": 12.7747
+        },
+        "unesco_designation": {
+          "site_name": "Villa Adriana (Tivoli)",
+          "year_inscribed": 1999,
+          "reference_number": 907,
+          "url": "https://whc.unesco.org/en/list/907"
+        },
+        "duration_minutes": 180,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "哈德良皇帝2世纪的行宫 - 一个庞大的建筑群，包括宫殿、浴场、剧场和水池，占地120公顷。Canopus游泳池及其重建的埃及风格柱廊是标志性景观。建议预留至少3小时；遗址面积巨大且遮荫不足。",
+        "walk_to_next": {
+          "to": "Villa d'Este (via bus to Tivoli town)",
+          "distance_meters": 6000,
+          "walking_minutes": 20
+        }
+      },
+      "afternoon": {
+        "activity_title": "Villa d'Este",
+        "wikidata_qid": "Q207688",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_d%27Este",
+        "coordinates": {
+          "lat": 41.9633,
+          "lon": 12.7967
+        },
+        "unesco_designation": {
+          "site_name": "Villa d'Este, Tivoli",
+          "year_inscribed": 2001,
+          "reference_number": 1025,
+          "url": "https://whc.unesco.org/en/list/1025"
+        },
+        "duration_minutes": 120,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "16世纪红衣主教的别墅，拥有欧洲最精雕细琢的水花园 - 阶梯喷泉、仍可演奏的水力管风琴，以及贯穿花园的百泉溪渠。下行地形陡峭；舒适的鞋类必不可少。",
+        "walk_to_next": {
+          "to": "Tivoli town center",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Tivoli town and return to Rome",
+        "wikidata_qid": "Q42622",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tivoli,_Lazio",
+        "coordinates": {
+          "lat": 41.9633,
+          "lon": 12.7989
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "在回程火车前在Tivoli中世纪中心短暂漫步。目标是在晚上7点前乘坐前往Roma Tiburtina的区域火车 - 晚间班次较少。从Villa d'Este到您的Rome酒店预留90分钟的门到门时间。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Villa Gregoriana waterfalls",
+          "wikidata_qid": "Q3994830",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Gregoriana",
+          "coordinates": {
+            "lat": 41.9656,
+            "lon": 12.8019
+          },
+          "neighborhood": "Tivoli",
+          "duration_minutes": 90,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "一个由FAI管理的自然保护区，位于Tivoli下方的峡谷中，Aniene河在一系列瀑布中下降120米。如果您已经在其他两个地方行走了5小时，则可以跳过。",
+          "walk_from_main_route": {
+            "from": "Villa d'Este",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    }
+  ]
+}

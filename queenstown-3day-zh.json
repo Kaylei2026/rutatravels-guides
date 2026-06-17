@@ -1,0 +1,286 @@
+{
+  "destination": "Queenstown",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:19:53.345Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Queenstown Town Centre / Waterfront",
+    "Arrowtown",
+    "Glenorchy Road Corridor / Lake Hayes"
+  ],
+  "guide_description": "三天深度游览皇后镇的核心风景：湖滨城镇中心和天际线山脊，坐落在秋色峡谷中的淘金历史村庄Arrowtown，以及北向Glenorchy的风景走廊，在那里Dart河与Humboldt Mountains相汇。每一天的地理位置都相对独立。",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 5460,
+  "total_walking_minutes": 68,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Queenstown Waterfront and Skyline",
+      "cluster_tagline": "湖边城镇中心 - 殖民时期的码头、湖滨花园和能俯瞰Remarkables全景的山脊",
+      "neighborhood_focus": "Queenstown Town Centre / Waterfront",
+      "neighborhood_description": "紧凑的市中心坐落在伸入Lake Wakatipu的半岛上，Remarkables山脉在东南方向的水对岸形成近乎垂直的山墙。Pier Street、The Mall和Marine Parade在步行距离内连接各主要地标，而Skyline缆车从城镇边缘直接上升。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1690,
+      "day_walking_minutes": 21,
+      "morning": {
+        "activity_title": "Queenstown Gardens",
+        "wikidata_qid": "Q7271143",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Queenstown_Gardens",
+        "coordinates": {
+          "lat": -45.0338,
+          "lon": 168.6636
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "这座半岛花园建于1867年,是湖面全天看起来最宁静的时刻 - 晨雾笼罩在Remarkables的山沟中,水面如镜,还未有喷气快艇的打扰。沿着周边步道走完整圈,而不是走内部的玫瑰花园环线,可以不间断地欣赏湖景和山景。这里种植的花旗松和巨杉在新西兰来说异常高大。",
+        "walk_to_next": {
+          "to": "Queenstown Beach and TSS Earnslaw wharf",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "TSS Earnslaw",
+        "wikidata_qid": "Q2474930",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/TSS_Earnslaw",
+        "coordinates": {
+          "lat": -45.0309,
+          "lon": 168.6618
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "这艘1912年建造的双螺旋煤炭蒸汽船是南半球仍在定期客运服务中最古老的船只。90分钟的湖上巡游包括参观机舱,你可以近距离观看炉工铲煤的场景 - 这不是一个精心打磨的博物馆展品,而是一个真正运行的1912年蒸汽设施。请直接在Steamer Wharf售票处订票;Walter Peak牧场远足延伸路线增加两小时和下午茶,但需要留出完整的半天时间。",
+        "walk_to_next": {
+          "to": "Skyline Queenstown gondola base",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Skyline Queenstown",
+        "wikidata_qid": "Q7536830",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Skyline_Queenstown",
+        "coordinates": {
+          "lat": -45.0233,
+          "lon": 168.6583
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "缆车上升450米到达Bob's Peak,从那里可以看到Remarkables、Cecil Peak、Walter Peak和Lake Wakatipu完整的Z形弯曲在一个视野内对齐。在日落前45分钟开始上山 - 山脉会在湖对岸呈现从粉色到橙色的变化,同时下方的城镇灯光也亮了起来。顶部的餐厅价格过高;建议在城镇用餐,上来只是为了看景色。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kiwi Birdlife Park",
+          "wikidata_qid": "Q6421052",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kiwi_Birdlife_Park",
+          "coordinates": {
+            "lat": -45.0247,
+            "lon": 168.6578
+          },
+          "neighborhood": "Queenstown Town Centre",
+          "duration_minutes": 75,
+          "type": "park",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "一个位于Skyline缆车基地正下方的规模不大但运营良好的保护区,饲养着在夜间展示屋中的几维鸟以及各种本地鸟类。几维鸟观看室光线昏暗,鸟类活跃 - 比野生环境中的观赏更可靠,因为几维鸟在无捕食者保护区外已基本绝迹。下雨天很好的备选方案,在去缆车之前。",
+          "walk_from_main_route": {
+            "from": "Skyline Queenstown gondola base",
+            "distance_meters": 80,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "箭镇",
+      "cluster_tagline": "秋色峡谷中的淘金村 - 石砌小屋、华人定居遗迹和Arrow River的历史",
+      "neighborhood_focus": "Arrowtown",
+      "neighborhood_description": "箭镇位于Queenstown东北方向20公里处,是新西兰保存最完好的淘金定居点。Buckingham Street沿街排列着片岩石砌小屋,Arrow River在水位较低时仍能淘出金粉,河滩上部分恢复的华人定居点是南半球华人采矿社区仅存的几处完整物证之一。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2210,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Lakes District Museum",
+        "wikidata_qid": "Q6480886",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lakes_District_Museum",
+        "coordinates": {
+          "lat": -44.9385,
+          "lon": 168.8295
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "在游览小镇前从这里开始 - 博物馆的淘金时代和毛利人展区为你即将在户外看到的景象提供背景。藏品包括原始的水力采矿槽、采矿执照和华人官员的信函,这些信函揭示了华人矿工遭受系统性税收和空间隔离的情况。工作人员主持的院子里的淘金活动面向家庭游客,耗时约十分钟,难度比看起来要大。",
+        "walk_to_next": {
+          "to": "Buckingham Street historic precinct",
+          "distance_meters": 120,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Buckingham Street and Arrowtown historic precinct",
+        "wikidata_qid": "Q729985",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arrowtown",
+        "coordinates": {
+          "lat": -44.9383,
+          "lon": 168.8302
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "沿着Buckingham Street从博物馆步行至树线，这条林荫大道两侧种满了落叶树（由早期定居者种植），是南岛从4月下旬至5月期间最上镜的秋色景观之一。石头小屋大多仍为私人住宅而非店铺，值得注意的是早期仓促建造与后来精心建造的石材切割质量存在差异。位于西端的新西兰银行分行（1875年）是新西兰现存最小的银行建筑。",
+        "walk_to_next": {
+          "to": "Arrow River Chinese Settlement",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Arrow River Chinese Settlement",
+        "wikidata_qid": "Q4793005",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arrowtown_Chinese_Settlement",
+        "coordinates": {
+          "lat": -44.9347,
+          "lon": 168.8289
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "从主街沿着Arrow River步道向下游行走，可到达部分重建的中国区域的小屋和石造建筑，这片区域原本被刻意安排在远离欧洲城镇的易洪泛河岸上。解说牌以不同寻常的坦率方式讲述了种族歧视性税收和空间隔离的历史。傍晚从西方射来的光线能够清晰地照亮片岩石墙，河流在这里足够浅，可以看到矿工们开采过的砾石床。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Lake Hayes",
+          "wikidata_qid": "Q6474766",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_Hayes",
+          "coordinates": {
+            "lat": -44.9833,
+            "lon": 168.8333
+          },
+          "neighborhood": "Lake Hayes",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Queenstown-Arrowtown道路上的这个小冰川湖是Otago地区最上镜的倒影景观之一 - Coronet Peak和Crown Range的倒影在平静的上午10点前最清晰。在前往Arrowtown的途中在此停留，而不是返回时停留 - 它几乎正好位于Queenstown和镇中心之间的中点。一条碎石步行小径环绕整个湖泊，耗时约75分钟。",
+          "walk_from_main_route": {
+            "from": "Arrowtown",
+            "distance_meters": 7000,
+            "walking_minutes": 88
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Glenorchy Road Corridor",
+      "cluster_tagline": "新西兰风景最优美的驾驶路线 - 辫状河流、山毛榉林和Dart River平原",
+      "neighborhood_focus": "Glenorchy Road Corridor / Glenorchy",
+      "neighborhood_description": "从Queenstown到Glenorchy的45公里道路沿着Lake Wakatipu的西岸延伸，穿过一系列冰川雕刻而成的景观 - 山毛榉林、湿地、辫状河口，最终到达湖北端的Dart River三角洲。Glenorchy本身是一个小型农业和户外导游村，也曾作为Peter Jackson执导的《指环王》的取景地。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1560,
+      "day_walking_minutes": 19,
+      "morning": {
+        "activity_title": "Bennett's Bluff Lookout",
+        "wikidata_qid": "Q62059535",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Glenorchy,_New_Zealand",
+        "coordinates": {
+          "lat": -45.0022,
+          "lon": 168.5786
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "在从Queenstown前往Glenorchy的道路上，距离Queenstown约12公里处的标记停靠点驶出。观景台位于一个急转弯上方，从这里可以首次看到上湖的全景 - Humboldt山脉和Richardson山脉分别框住两侧，在晴朗的晨光下水呈现出深蓝绿色。从停车处步行仅需三分钟。这是整条道路上最好的静态摄影地点，通常被直接驾往Glenorchy的游客忽视。",
+        "walk_to_next": {
+          "to": "Glenorchy Lagoon Walkway",
+          "distance_meters": 460,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Glenorchy Lagoon Walkway",
+        "wikidata_qid": "Q7206543",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Glenorchy,_New_Zealand",
+        "coordinates": {
+          "lat": -44.8522,
+          "lon": 168.3908
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "在Glenorchy镇边缘穿过本地湿地和山毛榉林的平坦环形步道，向北可看到Dart River山谷的景致，向南可看到沿湖而下的景观。泻湖本身是一条浅辫状河道，天堂鸭和苍鹭经常出现在此。步道从Glenorchy码头有标识；全程环线需预留60 - 75分钟。如果时间允许，Kinloch方向提供一条更长的步行路线。",
+        "walk_to_next": {
+          "to": "Glenorchy Wharf",
+          "distance_meters": 390,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Glenorchy Wharf",
+        "wikidata_qid": "Q5566066",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Glenorchy,_New_Zealand",
+        "coordinates": {
+          "lat": -44.8508,
+          "lon": 168.3886
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "主街尽头的老木制码头是瓦卡蒂普湖的北端终点，向南可以看到整条80公里长的湖景。在日落时分到达这里意味着光线从你身后的西部山脉照射过来，照亮了Dart三角洲对面的Humboldt Range。主街上的Glenorchy Cafe是村里唯一的餐饮选择 - 如果想在开车返回前吃饭，请在下午4点前到达。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Paradise Road and Dart River valley",
+          "wikidata_qid": "Q7132251",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Paradise,_New_Zealand",
+          "coordinates": {
+            "lat": -44.7833,
+            "lon": 168.3833
+          },
+          "neighborhood": "Paradise / Glenorchy",
+          "duration_minutes": 90,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "从Glenorchy北上通往Paradise农业区的未铺装道路穿过被用于彼得·杰克逊电影中的洛斯罗林和艾辛格场景的山毛榉林空地。标准的两驱汽车在干燥条件下可以通行这条道路；雨后应避免行驶。从最后的停车区到Dart河岸的山谷地板步行大约需要20分钟。Glenorchy以外没有任何设施。",
+          "walk_from_main_route": {
+            "from": "Glenorchy Wharf",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "destination": "San Sebastian",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:18:03.777Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Parte Vieja (Old Town)",
+    "Centro / Gros",
+    "Monte Igueldo / Ondarreta"
+  ],
+  "guide_description": "Trois jours pour découvrir l'essence de San Sebastian : la Parte Vieja dense en pintxos surplombant la baie, la promenade Belle Époque et les rives du centre-ville, ainsi que les plages plus tranquilles de l'ouest et les panoramas depuis les collines. Chaque jour est géographiquement autonome et peut se parcourir à pied.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 6110,
+  "total_walking_minutes": 77,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Parte Vieja - la Vieille Ville",
+      "cluster_tagline": "La plus forte concentration de bars à pintxos au monde, coincée entre une colline fortifiée et la baie",
+      "neighborhood_focus": "Parte Vieja",
+      "neighborhood_description": "Le vieux quartier de San Sebastian est un réseau serré de ruelles étroites reconstruit au début du 19e siècle après un incendie. Il est bordé par le promontoire Monte Urgull au nord, la baie de La Concha à l'ouest et l'embouchure du fleuve Urumea à l'est. Chaque rez-de-chaussée semble être un bar ; chaque comptoir de bar présente un paysage de pintxos.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1820,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Monte Urgull and Castillo de la Mota",
+        "wikidata_qid": "Q1953383",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monte_Urgull",
+        "coordinates": {
+          "lat": 43.3244,
+          "lon": -1.9817
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Montez depuis la Parte Vieja en empruntant l'escalier qui part de la Plaza de Zuloaga plutôt que le chemin plus long du port - il faut environ 15 minutes et vous dépose directement aux créneaux du château. La statue du Cristo de la Mota au sommet offre une vue à 360 degrés sur la baie de La Concha, les deux collines qui l'encadrent et toute l'étendue de la côte cantabrique. L'intérieur du château renferme un petit musée gratuit consacré à l'histoire militaire de la ville.",
+        "walk_to_next": {
+          "to": "Basilica de Santa Maria del Coro",
+          "distance_meters": 480,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Basilica de Santa Maria del Coro",
+        "wikidata_qid": "Q1055860",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_of_Santa_Mar%C3%ADa_del_Coro",
+        "coordinates": {
+          "lat": 43.3232,
+          "lon": -1.9818
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La façade churrigueresque de la Calle Mayor est l'une des plus théâtrales façades baroques du Pays basque - cherchez les ancres sculptées et les motifs maritimes travaillés dans la pierre, une référence à l'identité maritime de la ville. L'intérieur est plus frais et plus calme que la rue à l'extérieur, et les voûtes peintes sont faciles à manquer si vous gardez les yeux au niveau du comptoir.",
+        "walk_to_next": {
+          "to": "Plaza de la Constitucion",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Plaza de la Constitucion and pintxos crawl",
+        "wikidata_qid": "Q6070046",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Plaza_de_la_Constituci%C3%B3n,_San_Sebasti%C3%A1n",
+        "coordinates": {
+          "lat": 43.3226,
+          "lon": -1.9826
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Les balcons numérotés aux étages supérieurs de la place étaient à l'origine loués comme loges pour regarder les corridas quand l'arène occupait la plaza - les numéros sont toujours peints. Pour la tournée des pintxos, le classique consiste à prendre un ou deux pintxos et un txakoli à chaque bar plutôt qu'un repas complet ; le Bar Nestor sur la Calle Pescaderia est célèbre pour sa tortilla (seulement deux faites par jour, réservez une part à votre arrivée), et le Bar Zeruko sur la Calle Pescaderia propose des pintxos froids d'avant-garde servis dans de petits verres.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "San Telmo Museoa",
+          "wikidata_qid": "Q1575591",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/San_Telmo_Museum",
+          "coordinates": {
+            "lat": 43.3241,
+            "lon": -1.9822
+          },
+          "neighborhood": "Parte Vieja",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un couvent dominicain du 16e siècle agrandi d'une remarquable aile moderne en acier perforé qui s'intègre à la pente du Monte Urgull. La collection permanente couvre l'histoire et l'ethnographie basques de la préhistoire au 20e siècle ; les peintures murales du cloître par Jose Maria Sert sont énormes et techniquement impressionnantes. Le meilleur refuge pour les jours de pluie dans la Parte Vieja.",
+          "walk_from_main_route": {
+            "from": "Basilica de Santa Maria del Coro",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Bretxa Market",
+          "wikidata_qid": "Q16253900",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bretxa_Market",
+          "coordinates": {
+            "lat": 43.3228,
+            "lon": -1.9799
+          },
+          "neighborhood": "Parte Vieja",
+          "duration_minutes": 30,
+          "type": "market",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "Le marché couvert sur Plaza de Sarriegi propose une halle aux poissons à l'étage supérieur et une halle aux produits en bas - à visiter de préférence avant midi quand les vendeurs d'anchois et de bonite sont encore actifs. La variété de fruits de mer cantabriques conservés et frais exposés sur un seul comptoir offre une introduction utile à ce qui caractérise la cuisine locale.",
+          "walk_from_main_route": {
+            "from": "Plaza de la Constitucion",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "La Concha, Centro et Gros",
+      "cluster_tagline": "Promenade Belle Époque, la plage vedette de la ville et le quartier des surfeurs de l'autre côté du fleuve",
+      "neighborhood_focus": "Centro / Gros / La Concha",
+      "neighborhood_description": "L'expansion en grille du XIXe siècle de San Sebastian épouse la rive sud de la baie de La Concha et s'étend au - delà du fleuve Urumea vers Gros, le quartier plus jeune longeant la plage de Zurriola. La promenade Paseo de la Concha, les jardins du Palais Miramar et les balustrades à colonnes ont tous été construits pendant la résidence d'été de la famille royale espagnole.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2340,
+      "day_walking_minutes": 30,
+      "morning": {
+        "activity_title": "Paseo de la Concha",
+        "wikidata_qid": "Q2360286",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/La_Concha_Bay",
+        "coordinates": {
+          "lat": 43.3194,
+          "lon": -1.9901
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Parcourez l'intégralité de la promenade depuis l'extrémité de la vieille ville jusqu'au promontoire Miramar plutôt que de rebrousser chemin - les balustrades en fer avec leurs découpes en forme de coquille Saint-Jacques ont été conçues par Jose Goicoa dans les années 1880 et constituent la signature visuelle de la baie. La plateforme de ponton flottante ancrée au large est l'embarcadère du ferry Isla de Santa Clara ; en début de matinée, la plage est utilisée exclusivement par les nageurs locaux qui font des longueurs parallèlement à la côte.",
+        "walk_to_next": {
+          "to": "Palacio de Miramar",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Palacio de Miramar and gardens",
+        "wikidata_qid": "Q3893516",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Miramar_Palace,_San_Sebasti%C3%A1n",
+        "coordinates": {
+          "lat": 43.3172,
+          "lon": -1.9987
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La Reine régente Maria Cristina a fait construire cette maison de campagne de style anglais en 1893 sur le promontoire qui sépare La Concha de la plage Ondarreta. L'intérieur du palais n'est pas accessible au public mais les jardins sont gratuits et la position sur le promontoire offre des vues simultanées sur les deux baies. Le jardin de roses formel de la terrasse inférieure donne directement sur l'océan Atlantique ouvert.",
+        "walk_to_next": {
+          "to": "Kursaal Congress Centre",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Kursaal Congress Centre and Zurriola Beach",
+        "wikidata_qid": "Q2445702",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kursaal_Congress_Centre_and_Auditorium",
+        "coordinates": {
+          "lat": 43.3228,
+          "lon": -1.9726
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Les deux auditoriums cubiques translucides de Rafael Moneo sur le front de plage Zurriola se découvrent au mieux au crépuscule quand l'éclairage intérieur brille à travers les panneaux de verre feuilleté comme deux rochers illuminés. Le quartier Gros derrière le bâtiment est l'endroit où mangent les surfeurs locaux et les jeunes résidents - les bars à pintxos ici (Calle de Zabaleta, Calle de General Jauregui) sont moins touristiques et légèrement moins chers que la Parte Vieja, avec autant de qualité.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Isla de Santa Clara",
+          "wikidata_qid": "Q1653666",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Clara_Island,_San_Sebasti%C3%A1n",
+          "coordinates": {
+            "lat": 43.3226,
+            "lon": -1.9942
+          },
+          "neighborhood": "La Concha Bay",
+          "duration_minutes": 90,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "La petite île ancrée au centre de la baie La Concha assure un ferry saisonnier depuis le port (environ juin à septembre). L'île dispose d'une petite plage, d'un phare et de bancs de pique-nique offrant sans doute le meilleur angle pour admirer le panorama complet de la baie. Dépendant des marées - la crique de baignade sur le côté sud n'est accessible qu'à marée basse.",
+          "walk_from_main_route": {
+            "from": "Paseo de la Concha",
+            "distance_meters": 390,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Monte Igueldo et Ondarreta",
+      "cluster_tagline": "La colline occidentale avec vues panoramiques, un funiculaire centenaire, et l'extrémité tranquille de la baie",
+      "neighborhood_focus": "Monte Igueldo / Ondarreta",
+      "neighborhood_description": "Le promontoire occidental qui ferme la baie de La Concha, accessible par la plage résidentielle tranquille d'Ondarreta. Monte Igueldo a été aménagé au début du XXe siècle en tant que colline de loisirs - funiculaire, parc d'attractions vintage, et une tour belvédère qui offre la vue définitive sur l'arc complet de la baie. Les sculptures Peine del Viento à la base de la colline font partie des œuvres d'art public les plus célébrées d'Espagne.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Peine del Viento",
+        "wikidata_qid": "Q1419528",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Peine_del_Viento",
+        "coordinates": {
+          "lat": 43.3151,
+          "lon": -2.0034
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Les trois sculptures en acier rouillé d'Eduardo Chillida sont ancrées directement dans la plateforme rocheuse façonnée par les vagues à la base de Monte Igueldo - venez à marée haute ou lors d'une houle de l'ouest quand la mer s'engouffre dans les soufflures creusées dans les rochers, projetant des jets d'eau dans les airs. La promenade terrasse environnante a été conçue par Luis Pena Ganchegui ; la relation intégrée entre la sculpture, la géologie et la mer est l'essentiel, pas seulement les objets isolés.",
+        "walk_to_next": {
+          "to": "Funicular de Igueldo",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Funicular de Igueldo and Monte Igueldo summit",
+        "wikidata_qid": "Q1778952",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monte_Igueldo_funicular",
+        "coordinates": {
+          "lat": 43.3145,
+          "lon": -2.0018
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Le funiculaire fonctionne depuis 1912 et les wagons en bois sont d'origine, la montée prenant environ quatre minutes avec un croisement des wagons au point médian. Au sommet, dépassez les manèges du parc d'attractions vintage pour atteindre la tour belvédère en pierre à l'extrémité de la crête, d'où vous jouirez d'une vue dégagée : l'arc de La Concha, les deux collines qui l'encadrent, la vieille ville en damier, et par temps clair la côte basque française vers Biarritz. Le parc d'attractions est discret et surtout destiné aux enfants, mais le roller coaster intégré dans la pente date de 1928.",
+        "walk_to_next": {
+          "to": "Ondarreta Beach",
+          "distance_meters": 860,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Ondarreta Beach and Paseo Eduard Chillida",
+        "wikidata_qid": "Q6099066",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ondarreta_beach",
+        "coordinates": {
+          "lat": 43.3163,
+          "lon": -2.0003
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Ondarreta est la plage résidentielle fréquentée par les habitants qui trouvent La Concha trop surpeuplée en été, l'extrémité ouest, la plus proche de Monte Igueldo, restant à l'ombre plus tôt mais recevant les derniers rayons horizontaux sur l'eau. Longez la promenade du front de mer en direction du centre-ville pour profiter de la vue panoramique complète de la baie au niveau du sol, avec Monte Urgull visible à l'extrémité et la vieille ville en silhouette contre le ciel du soir.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museo Chillida-Leku",
+          "wikidata_qid": "Q1420204",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chillida-Leku",
+          "coordinates": {
+            "lat": 43.2628,
+            "lon": -2.0356
+          },
+          "neighborhood": "Hernani (outskirts)",
+          "duration_minutes": 120,
+          "type": "art_museum",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Ancienne ferme et jardin de sculptures d'Eduardo Chillida, rouverts en 2019 après une fermeture de dix ans. Environ 40 œuvres de grande taille en acier et pierre sont dispersées sur 11 hectares de forêt, l'expérience de découvrir une forme en acier corten de deux tonnes dans une clairière de chênes est incomparable à tout musée de sculpture conventionnel. Nécessite un taxi ou un bus depuis le centre-ville (environ 20 minutes vers le sud en direction de Hernani), à prévoir comme une demi-journée plutôt qu'un arrêt rapide.",
+          "walk_from_main_route": {
+            "from": "Ondarreta Beach",
+            "distance_meters": 4200,
+            "walking_minutes": 53
+          }
+        },
+        {
+          "activity_title": "Real Club de Tenis de San Sebastian",
+          "wikidata_qid": "Q19876346",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Real_Club_de_Tenis_de_San_Sebasti%C3%A1n",
+          "coordinates": {
+            "lat": 43.3165,
+            "lon": -1.9997
+          },
+          "neighborhood": "Ondarreta",
+          "duration_minutes": 15,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Le bâtiment du club de 1909 donnant sur la plage d'Ondarreta est un bel exemple de l'architecture de villégiature Belle Époque qui a caractérisé la ville pendant l'époque de résidence royale estivale. À observer depuis la promenade comme témoignage du contexte urbain du début du XXe siècle, particulièrement aux côtés des cabines royales de bain toujours présentes sur la plage.",
+          "walk_from_main_route": {
+            "from": "Ondarreta Beach",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    }
+  ]
+}

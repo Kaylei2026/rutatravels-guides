@@ -1,0 +1,326 @@
+{
+  "destination": "Charlotte",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:48:26.961Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Uptown / Third Ward",
+    "Fourth Ward / NoDa",
+    "South End / Dilworth"
+  ],
+  "guide_description": "Tre giorni alla scoperta del carattere essenziale di Charlotte: il compatto nucleo finanziario di Uptown con i suoi musei e il distretto dell'arena, il vittoriano Fourth Ward e il corridoio artistico di NoDa a nord, e la South End facilmente percorribile a piedi con la sua pista di birrifici e arti. Ogni giorno è geograficamente autonomo e costruisce un quadro coerente di una città che si è reinventata più volte.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5200,
+  "total_walking_minutes": 65,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Uptown e Third Ward",
+      "cluster_tagline": "Il nucleo finanziario di Charlotte - storia NASCAR di fama mondiale, un'arena dal prestigioso passato e un parco fiancheggiato da sculture",
+      "neighborhood_focus": "Uptown / Third Ward",
+      "neighborhood_description": "Uptown Charlotte è il centro storico originale della città, costruito su due percorsi commerciali nativi americani che divennero Trade Street e Tryon Street. Third Ward, direttamente a sud del nucleo urbano, ospita il principale campus culturale della città, compreso Romare Bearden Park e NASCAR Hall of Fame.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1600,
+      "day_walking_minutes": 20,
+      "morning": {
+        "activity_title": "NASCAR Hall of Fame",
+        "wikidata_qid": "Q6971722",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/NASCAR_Hall_of_Fame",
+        "coordinates": {
+          "lat": 35.2257,
+          "lon": -80.8393
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Acquista i biglietti online per evitare la fila alla biglietteria nei fine settimana affollati. La mostra Glory Road mette in evidenza diciotto auto storiche a grandezza naturale su una sezione di pista ovale in pendenza - cammina lungo la ringhiera esterna e guarda verso il basso per avere la migliore percezione delle proporzioni. Le cabine del simulatore di guida al piano superiore si prenotano velocemente; assicurati un posto non appena entri.",
+        "walk_to_next": {
+          "to": "Romare Bearden Park",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Romare Bearden Park",
+        "wikidata_qid": "Q7364222",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Romare_Bearden_Park",
+        "coordinates": {
+          "lat": 35.2274,
+          "lon": -80.8427
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Prende il nome dal collage artist nato a Charlotte i cui lavori sono esposti al MoMA. Il parco delimita il bordo occidentale di Uptown e si collega tramite un ponte pedonale allo Bank of America Stadium. La grande fontana all'estremità meridionale è il riferimento visivo più diretto ai collage a tema acquatico di Bearden - leggi il pannello interpretativo prima di guardare i getti d'acqua e l'effetto diventerà ovvio.",
+        "walk_to_next": {
+          "to": "Mint Museum Uptown",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Mint Museum Uptown",
+        "wikidata_qid": "Q6867010",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mint_Museum",
+        "coordinates": {
+          "lat": 35.2272,
+          "lon": -80.8368
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Il ramo di Uptown si concentra su artigianato, design e moda piuttosto che duplicare il campus di Randolph Road. La collezione di ceramiche americane e di arti e mestieri da studio al terzo piano è di significato nazionale e raramente affollata - la reputazione del museo attrae i visitatori alle gallerie contemporanee per prime, lasciando i piani dell'artigianato piacevolmente navigabili. Aperto fino alle 21:00 nei mercoledì.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Levine Center for the Arts campus",
+          "wikidata_qid": "Q6534399",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Levine_Center_for_the_Arts",
+          "coordinates": {
+            "lat": 35.2266,
+            "lon": -80.8363
+          },
+          "neighborhood": "Third Ward",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La piazza condivisa tra Mint Museum Uptown, Bechtler Museum of Modern Art e Harvey B. Gantt Center for African-American Arts and Culture forma un campus culturale compatto senza equivalenti altrove nelle Carolinas. Il rivestimento esterno del Gantt Center fa riferimento ai motivi della stoffa kente africana - guarda l'edificio dall'angolo tra South Tryon e Stonewall affinché la geometria sia leggibile correttamente.",
+          "walk_from_main_route": {
+            "from": "Mint Museum Uptown",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Bechtler Museum of Modern Art",
+          "wikidata_qid": "Q4877964",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bechtler_Museum_of_Modern_Art",
+          "coordinates": {
+            "lat": 35.2269,
+            "lon": -80.8373
+          },
+          "neighborhood": "Third Ward",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Una collezione privata della famiglia svizzera donata alla città - Giacometti, Miro, Calder e Warhol in un edificio di Mario Botta. Più piccola della Mint ma la qualità della collezione supera di gran lunga le aspettative per una città americana di medie dimensioni. Il bronzo di Giacometti all'esterno dell'ingresso è un originale autentico, non una replica in fusione.",
+          "walk_from_main_route": {
+            "from": "Mint Museum Uptown",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Fourth Ward e NoDa",
+      "cluster_tagline": "Paesaggi vittoriani, una cattedrale gotica e il distretto artistico originale di Charlotte",
+      "neighborhood_focus": "Fourth Ward / NoDa",
+      "neighborhood_description": "Fourth Ward è il quartiere residenziale del XIX secolo meglio preservato di Charlotte, immediatamente a nord della griglia di Uptown, con un parco vittoriano al suo centro e la chiesa più antica della città sul suo bordo. NoDa, a due miglia a nord-est lungo North Davidson Street, è l'ex villaggio di fabbriche tessili che è diventato il centro della galeria e della musica di Charlotte.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1900,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Fourth Ward Historic District",
+        "wikidata_qid": "Q5459396",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fourth_Ward,_Charlotte",
+        "coordinates": {
+          "lat": 35.2321,
+          "lon": -80.8448
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Inizia la passeggiata a Alexander Park su West Ninth Street, il centro geografico del ward, e procedi a spirale verso l'esterno. Il blocco di North Pine Street tra Seventh e Ninth contiene la concentrazione più fitta di cottage originali Queen Anne e Italianate. La maggior parte delle facciate si affaccia a est, quindi la luce del mattino è la scelta giusta per vedere chiaramente la falegnameria dipinta sui porticati.",
+        "walk_to_next": {
+          "to": "St. Peter's Catholic Church",
+          "distance_meters": 500,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "St. Peter's Catholic Church, Charlotte",
+        "wikidata_qid": "Q7588644",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Peter%27s_Catholic_Church_(Charlotte,_North_Carolina)",
+        "coordinates": {
+          "lat": 35.2292,
+          "lon": -80.8446
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "La chiesa cattolica più antica di Charlotte, fondata nel 1851. L'attuale struttura in stile Gothic Revival risale al 1893 e si trova all'angolo tra Tryon e Seventh, rendendola l'ancora visiva tra Fourth Ward e Uptown. Le vetrate colorate dell'interno sono di provenienza tedesca dalla costruzione originale e raramente discusse nelle guide cittadine - chiedi alla porta laterale se è chiusa al di fuori degli orari di messa.",
+        "walk_to_next": {
+          "to": "NoDa Arts District",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "NoDa Arts District",
+        "wikidata_qid": "Q6974404",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/NoDa,_Charlotte",
+        "coordinates": {
+          "lat": 35.2433,
+          "lon": -80.8277
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La mostra di gallerie di NoDa si concentra sulla sezione di North Davidson tra 35th e 37th Streets, dove una dozzina di gallerie, locali musicali e birrifici condividono le vetrine dei mulini riconvertite. Il primo e il terzo venerdì sono serate ufficiali di mostra di gallerie con orari prolungati, ma la strada è percorribile in qualsiasi serata. Lo storico Neighborhood Theatre all'estremità settentrionale della via è stato un locale di musica dal vivo dal 1945.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Camp North End",
+          "wikidata_qid": "Q105775587",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Camp_North_End",
+          "coordinates": {
+            "lat": 35.2526,
+            "lon": -80.8381
+          },
+          "neighborhood": "North End",
+          "duration_minutes": 60,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un'ex fabbrica di montaggio Ford e un deposito logistico dell'esercito convertiti in un campus misto di 76 acri con food hall, studi e spazi per eventi. L'ossatura dell'edificio - acciaio esposto, pavimenti in cemento originale, porte di carico - è conservata meglio qui che nella maggior parte dei progetti di riconversione adattiva. L'outpost di Gideon's Bakehouse qui ha spesso attese più brevi rispetto alle sedi dell'aeroporto o",
+          "walk_from_main_route": {
+            "from": "NoDa Arts District",
+            "distance_meters": 950,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "South End e Dilworth",
+      "cluster_tagline": "Il percorso delle birrerie lungo una linea ferroviaria convertita, verso il primo sobborgo con tram della città di Charlotte",
+      "neighborhood_focus": "South End / Dilworth",
+      "neighborhood_description": "South End occupa l'antico corridoio industriale lungo South Boulevard, ricostruito negli ultimi due decenni attorno alla linea LYNX light rail nella più densa concentrazione di birrerie, gallerie e architettura di riuso adattivo della città. Dilworth, immediatamente a est, è il primo sobborgo pianificato con tram della città risalente agli anni 1890, con bungalow intatti e una strada principale ombrosa.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1700,
+      "day_walking_minutes": 21,
+      "morning": {
+        "activity_title": "Charlotte Rail Trail",
+        "wikidata_qid": "Q108165019",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Charlotte_Rail_Trail",
+        "coordinates": {
+          "lat": 35.2133,
+          "lon": -80.8519
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Una greenway di 3,5 miglia convertita da un antico corridoio merci CSX, che attraversa il cuore di South End con installazioni di arte pubblica ogni poche centinaia di metri. Iniziate dalla stazione light rail di Bland Street e camminate verso nord in direzione di Uptown - i murales industriali sulle pareti di contenimento sono più concentrati nel primo miglio. Le mattine dei giorni feriali sono significativamente più tranquille rispetto ai fine settimana.",
+        "walk_to_next": {
+          "to": "Sycamore Brewing / South End Brewery Row",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Latta Park, Dilworth",
+        "wikidata_qid": "Q6492559",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Latta_Park",
+        "coordinates": {
+          "lat": 35.2125,
+          "lon": -80.8387
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Il fulcro di Dilworth, progettato dalla ditta Olmsted nel 1891 come parco terminale per la linea tranviaria di Edward Dilworth Latta. Il lago poco profondo e la volta di querce mature sono insoliti in un quartiere di Charlotte che altrimenti si è densificato significativamente. Entrare da East Park Avenue e percorrere il perimetro per vedere gli alloggi in stile cottage originale degli anni 1890 sui blocchi circostanti.",
+        "walk_to_next": {
+          "to": "East Boulevard, Dilworth",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "East Boulevard commercial strip, Dilworth",
+        "wikidata_qid": "Q5329523",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dilworth,_Charlotte",
+        "coordinates": {
+          "lat": 35.2098,
+          "lon": -80.8426
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "East Boulevard tra Scott e Cleveland è la strada commerciale principale di Dilworth e la zona ristorazione più percorribile a piedi di Charlotte. A differenza dei magazzini convertiti di South End, la scala qui è quella dei negozi in mattoni dei primi anni 1920 - 1950 a due piani - lotti stretti, marciapiedi coperti, attività locali indipendenti piuttosto che catene regionali. La Dilworth Tasting Room sul lato nord della strada propone una lista di birre locali in rotazione; il personale conosce bene la storia del quartiere.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Harvey B. Gantt Center for African-American Arts and Culture",
+          "wikidata_qid": "Q5678282",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Harvey_B._Gantt_Center_for_African-American_Arts_%26_Culture",
+          "coordinates": {
+            "lat": 35.2263,
+            "lon": -80.8368
+          },
+          "neighborhood": "Third Ward",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Intitolato al primo sindaco di colore di Charlotte, il Gantt Center ospita la John and Vivian Hewitt Collection di arte afroamericana - una delle collezioni private più significative a passare in mani pubbliche nel Southeast. Le gallerie della collezione permanente si trovano al piano superiore; le esposizioni temporanee spesso hanno un testo narrativo più lungo rispetto a istituzioni simili, il che premia una lettura più attenta piuttosto che una rapida passeggiata.",
+          "walk_from_main_route": {
+            "from": "Latta Park",
+            "distance_meters": 1300,
+            "walking_minutes": 16
+          }
+        },
+        {
+          "activity_title": "Freedom Park",
+          "wikidata_qid": "Q5500789",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Freedom_Park_(Charlotte)",
+          "coordinates": {
+            "lat": 35.2032,
+            "lon": -80.8404
+          },
+          "neighborhood": "Dilworth",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Il parco urbano più utilizzato di Charlotte si trova all'estremità sud di Dilworth lungo Little Sugar Creek, con un piccolo lago e una connessione di greenway che si estende per diversi chilometri nella più ampia rete di sentieri Four Mile Creek. Il Veterans Memorial all'ingresso del parco su East Boulevard è sobrio secondo gli standard civici di Charlotte - una serie di muri in granito piuttosto che un monumento figurativo, il che lo rende più t",
+          "walk_from_main_route": {
+            "from": "Latta Park",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

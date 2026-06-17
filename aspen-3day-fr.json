@@ -1,0 +1,306 @@
+{
+  "destination": "Aspen",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:54:09.377Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Downtown Aspen Core",
+    "Aspen Mountain and Ajax Surrounds",
+    "Maroon Bells and Ashcroft Corridor"
+  ],
+  "guide_description": "Trois jours pour découvrir l'essence d'Aspen : le centre-ville victorien compact de la ruée vers l'argent, la culture de montagne et les institutions artistiques regroupées autour de la base d'Ajax, et les spectaculaires corridors de nature sauvage juste à l'extérieur de la ville. Chaque jour est géographiquement autonome et peut être réorganisé selon la météo et la saison.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5200,
+  "total_walking_minutes": 65,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Downtown Aspen Core",
+      "cluster_tagline": "Les rues victoriennes de la ruée vers l'argent, l'art public et les fondations civiques originelles de la ville",
+      "neighborhood_focus": "Downtown Aspen Core",
+      "neighborhood_description": "Aspen a été tracée en 1880 lors d'une ruée vers l'argent et sa grille de centre-ville subsiste presque intacte - des blocs commerciaux en brique, la Wheeler Opera House originelle, et un centre piétonnier qui couvre environ huit pâtés de maisons. La galerie marchande piétonnière et les rues environnantes concentrent les musées, galeries et monuments historiques de la ville, tous facilement accessibles à pied.",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1400,
+      "day_walking_minutes": 18,
+      "morning": {
+        "activity_title": "Wheeler Opera House",
+        "wikidata_qid": "Q7989717",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wheeler_Opera_House",
+        "coordinates": {
+          "lat": 39.1911,
+          "lon": -106.8196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Construit en 1889 par le magnat de l'argent Jerome B. Wheeler et inscrit au National Register of Historic Places. Le hall du rez-de-chaussée est ouvert au public pendant les heures de vente des billets et présente les détails originaux de grès de style Romanesque Revival et les plafonds en tôle emboutie. Consultez le calendrier des représentations avant votre arrivée - même si vous ne restez pas pour un spectacle, la façade avant du bâtiment sur East Hyman Avenue est le plus bel exemple d'architecture commerciale victorienne de la ville.",
+        "walk_to_next": {
+          "to": "Aspen Art Museum",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Aspen Art Museum",
+        "wikidata_qid": "Q4804185",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen_Art_Museum",
+        "coordinates": {
+          "lat": 39.1905,
+          "lon": -106.8167
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Le bâtiment de Shigeru Ban datant de 2014 est aussi attrayant que ce qu'il contient - la façade en écran de bois tressé et la terrasse de sculpture sur le toit avec vue sur les montagnes méritent une visite même lors d'une journée rapide. L'entrée est gratuite, ce qui est inhabituel pour un musée de ce calibre. Le pont sur le toit fait face au sud vers Aspen Mountain et est l'un des meilleurs points de vue en hauteur gratuits de la ville.",
+        "walk_to_next": {
+          "to": "Hotel Jerome",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Hotel Jerome",
+        "wikidata_qid": "Q5903280",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hotel_Jerome",
+        "coordinates": {
+          "lat": 39.1913,
+          "lon": -106.8186
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "after_dark",
+        "notes": "Ouvert en 1889 par le même Jerome Wheeler qui a construit l'opéra, et l'un des plus beaux hôtels de villégiature victoriens subsistants de l'Ouest américain. Le J-Bar à l'arrière fonctionne en continu depuis la fin de la Prohibition en 1933 - commandez au bar en acajou original et installez-vous dans les cabines en cuir plutôt que dans l'extension du salon plus récente. Le hall de l'hôtel seul vaut la peine d'être parcouru pour la ferronnerie de l'époque et les lucarnes.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Aspen Historical Society - Holden-Marolt Mining and Ranching Museum",
+          "wikidata_qid": "Q97352278",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Holden-Marolt_Mining_and_Ranching_Museum",
+          "coordinates": {
+            "lat": 39.1954,
+            "lon": -106.8317
+          },
+          "neighborhood": "West End",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un site de traitement du minerai préservé à la limite ouest de la ville montrant l'infrastructure industrielle derrière le boom de l'argent d'Aspen - les wagons de minerai, les broyeurs à timbres et la roue d'",
+          "walk_from_main_route": {
+            "from": "Wheeler Opera House",
+            "distance_meters": 1100,
+            "walking_minutes": 14
+          }
+        },
+        {
+          "activity_title": "Hyman Avenue Mall",
+          "wikidata_qid": "Q113762680",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen,_Colorado",
+          "coordinates": {
+            "lat": 39.1908,
+            "lon": -106.8196
+          },
+          "neighborhood": "Downtown Aspen Core",
+          "duration_minutes": 30,
+          "type": "street",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "La promenade piétonne de deux pâtés de maisons sur Hyman entre Mill et Galena est le bloc le plus concentré d'architecture commerciale victorienne des années 1880 d'Aspen. Parcourez l'allée derrière le côté sud pour découvrir les façades arrière et les quais de chargement, moins restaurés et qui révèlent plus honnêtement la construction en brique d'origine que les façades commerciales rénovées.",
+          "walk_from_main_route": {
+            "from": "Wheeler Opera House",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Aspen Mountain et le Cultural Campus",
+      "cluster_tagline": "Les vues du sommet d'Ajax, la culture de la télécabine, et les institutions de musique et d'idées à la base de la montagne",
+      "neighborhood_focus": "Aspen Mountain Base and Music Campus",
+      "neighborhood_description": "L'extrémité sud du centre-ville où le Gondola Plaza sert de point d'ancrage à un ensemble d'institutions culturelles : la tente du Aspen Music Festival, le campus du Aspen Institute, et le Benedict Music Tent sont tous à distance de marche du base de la Silver Queen Gondola. C'est la zone où l'identité d'Aspen en tant que station de montagne a fusionné avec sa transformation d'après-guerre en destination intellectuelle et artistique.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Silver Queen Gondola to the Aspen Mountain Summit",
+        "wikidata_qid": "Q2343055",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen_Mountain",
+        "coordinates": {
+          "lat": 39.1836,
+          "lon": -106.8197
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "La télécabine fonctionne en été pour l'observation et le vélo de montagne, pas seulement en saison de ski. Le sommet à 11 212 pieds offre une vue à 360 degrés sur les Elk Mountains, les Maroon Bells au sud-ouest et Capitol Peak au nord-ouest. Arrivez tôt - les orages de l'après-midi se forment rapidement en été au-dessus de la limite des arbres et la télécabine peut interrompre ses opérations. Le restaurant Sundeck au sommet sert le déjeuner si vous arrivez au bon moment.",
+        "walk_to_next": {
+          "to": "Aspen Institute",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Aspen Institute Campus",
+        "wikidata_qid": "Q666093",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen_Institute",
+        "coordinates": {
+          "lat": 39.1869,
+          "lon": -106.8258
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Le campus de 40 acres de l'Aspen Institute est accessible au public et contient plusieurs éléments paysagers conçus par Herbert Bayer - le Marble Garden avec ses monticules de terrassement géométriques et le dôme du Health Center conçu par Bayer. Bayer, maître du Bauhaus qui s'est installé à Aspen en 1946, a façonné une grande partie de l'identité visuelle de l'Institut. Les terrains sont libres d'accès ; les événements et séminaires nécessitent une inscription.",
+        "walk_to_next": {
+          "to": "Benedict Music Tent",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Benedict Music Tent",
+        "wikidata_qid": "Q4887700",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Benedict_Music_Tent",
+        "coordinates": {
+          "lat": 39.1882,
+          "lon": -106.8241
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "La structure de tente de 2000 de Harry Teague pour l'Aspen Music Festival accueille 2 050 personnes à l'intérieur et permet des places sur la pelouse à l'extérieur à des tarifs réduits. S'il y a une représentation du festival programmée, les tickets de pelouse constituent l'une des meilleures expériences culturelles à bas prix des Rocheuses - le son d'un orchestre complet avec la montagne derrière la scène. Consultez le programme de l'Aspen Music Festival bien avant votre visite ; la saison estivale s'étend de la mi-juin à la mi-août.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Anderson Ranch Arts Center",
+          "wikidata_qid": "Q4754038",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Anderson_Ranch_Arts_Center",
+          "coordinates": {
+            "lat": 39.2067,
+            "lon": -106.9458
+          },
+          "neighborhood": "Snowmass Village",
+          "duration_minutes": 60,
+          "type": "art_museum",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un campus artistique actif à Snowmass Village, à environ 10 miles au sud du centre-ville d'Aspen par l'autobus gratuit de la Roaring",
+          "walk_from_main_route": {
+            "from": "Benedict Music Tent",
+            "distance_meters": 500,
+            "walking_minutes": 6
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Maroon Bells et Ashcroft Ghost Town",
+      "cluster_tagline": "La nature sauvage des Elk Mountains - les pics les plus photographiés en Amérique du Nord et une ville fantôme de la ruée vers l'argent",
+      "neighborhood_focus": "Maroon Creek Valley and Castle Creek Valley",
+      "neighborhood_description": "Deux vallées parallèles au sud-ouest d'Aspen qui ensemble montrent la diversité de la nature sauvage environnante. Maroon Creek Valley mène aux Maroon Bells, deux pics jumeaux de 14 000 pieds reflétés dans Maroon Lake. Castle Creek Valley mène à Ashcroft, un camp minier des années 1880 pratiquement intact qui a été abandonné en 1885. Les deux vallées sont accessibles en bus RFTA depuis le centre de transport Rubey Park, ce qui rend la voiture facultative.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Maroon Bells",
+        "wikidata_qid": "Q917279",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maroon_Bells",
+        "coordinates": {
+          "lat": 39.0708,
+          "lon": -106.9894
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Les véhicules privés sont interdits sur Maroon Creek Road de fin mai à début novembre - prenez le bus RFTA Maroon Bells Express depuis le centre de transport Rubey Park dans le centre-ville d'Aspen, qui circule à partir d'environ 8h du matin. Le cliché de reflet classique se prend depuis la rive ouest de Maroon Lake en regardant vers le sud-est à la première lumière ; à 10h du matin, les bus de tourisme sont arrivés et l'avant-plan est bondé. Le sentier Crater Lake (3,6 milles aller-retour) vous fait passer au-delà des foules et dans la nature sauvage de Maroon Bells-Snowmass proprement dite.",
+        "walk_to_next": {
+          "to": "Ashcroft Ghost Town",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ashcroft Ghost Town",
+        "wikidata_qid": "Q4804162",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ashcroft,_Colorado",
+        "coordinates": {
+          "lat": 38.9997,
+          "lon": -106.9097
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Douze structures originales des années 1880 subsistent à Ashcroft, stabilisées par l'Aspen Historical Society et libres d'accès. Le Hotel View, le bureau d'essai et le magasin général sont tous sans toit mais structurellement stabilisés. Le site se situe à 9 500 pieds dans la Castle Creek Valley avec les Elk Mountains s'élevant abruptement de part et d'autre (au pic, la ville comptait 2 000 résidents ; elle a été complètement abandonnée en 1885 lorsque le minerai d'argent s'est épuisé). Le sentier autoguidé prend environ 45 minutes, mais prévoyez du temps supplémentaire pour lire les panneaux d'interprétation, qui sont exceptionnellement détaillés.",
+        "walk_to_next": {
+          "to": "Pine Creek Cookhouse view",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Castle Creek Valley drive and Pine Creek Cookhouse",
+        "wikidata_qid": "Q110142748",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ashcroft,_Colorado",
+        "coordinates": {
+          "lat": 39.0044,
+          "lon": -106.9128
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La Pine Creek Cookhouse se situe au bout d'un système de sentiers de ski nordique à 12 miles en amont de Castle Creek Road depuis Aspen et est accessible en voiture en été. Le bâtiment en rondins à 9 700 pieds sert le dîner et le déjeuner sur une terrasse avec vue directe vers la zone alpine élevée de Pearl Pass. Les réservations sont essentielles (appelez à l'avance). La descente de Castle Creek Road au crépuscule, la vallée se rétrécissant et le ruisseau audible en contrebas, constitue l'une des plus belles routes panoramiques non signalées de la Roaring Fork Valley.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Grottos Ice Caves",
+          "wikidata_qid": "Q5614381",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Grottos,_Colorado",
+          "coordinates": {
+            "lat": 39.1358,
+            "lon": -106.8803
+          },
+          "neighborhood": "Hunter Creek Valley",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Une petite aire de stationnement sur Highway 82 à environ 9 miles à l'est d'Aspen mène à un sentier de 0,5 mile le long de la Roaring Fork River vers une série de grottes de marbre et de formations de glace creusées par la rivière. La grotte de glace principale retient la glace jusqu'à la mi-été les années humides. Le départ du sentier est facile à manquer (cherchez l'aire de stationnement signalisée juste après le W",
+          "walk_from_main_route": {
+            "from": "Maroon Bells",
+            "distance_meters": 2000,
+            "walking_minutes": 25
+          }
+        }
+      ]
+    }
+  ]
+}

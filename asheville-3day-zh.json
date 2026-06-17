@@ -1,0 +1,326 @@
+{
+  "destination": "Asheville",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:52:15.304Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Downtown / Pack Square",
+    "Montford / Grove Park",
+    "Biltmore Estate"
+  ],
+  "guide_description": "三天时间深入体验Asheville的核心魅力：艺术气息浓厚的城市中心，世纪之交的住宅区和俯瞰城市的宏伟客栈，以及使北卡罗来纳州西部闻名遐迩的范德比尔特庄园。每一天的路线都在地理位置上相对独立，可根据天气或住宿地点灵活调整顺序。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5460,
+  "total_walking_minutes": 68,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "城市中心艺术区",
+      "cluster_tagline": "装饰艺术风格街区、壁画和山城的公民中心",
+      "neighborhood_focus": "Downtown / Pack Square",
+      "neighborhood_description": "Asheville步行友好的城市中心是一个密集的方形网格布局，汇集了1920年代和1930年代保存完好的装饰艺术风格商业建筑。Pack Square是城市中心枢纽，周围辐射着众多画廊、独立商店和城市最精美的街道建筑。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1560,
+      "day_walking_minutes": 20,
+      "morning": {
+        "activity_title": "Asheville Art Museum",
+        "wikidata_qid": "Q4807958",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Asheville_Art_Museum",
+        "coordinates": {
+          "lat": 35.5751,
+          "lon": -82.5515
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "2019年在翻新扩建的建筑中重新开放，该建筑坐落在Pack Square的东侧。常设收藏专注于20世纪和21世纪美国艺术，其中阿巴拉契亚艺术家的作品占有重要地位。建议在开放时间早些到达，以避免上午中期到达的学生团体。",
+        "walk_to_next": {
+          "to": "Pack Square Park",
+          "distance_meters": 80,
+          "walking_minutes": 1
+        }
+      },
+      "afternoon": {
+        "activity_title": "Pack Square Park",
+        "wikidata_qid": "Q7124662",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pack_Square_Park",
+        "coordinates": {
+          "lat": 35.5752,
+          "lon": -82.5522
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "位于市中心的市民广场，由Pack Square和Court Plaza的合并而成。广场中心的Vance Monument方尖碑是为纪念北卡罗来纳州内战时期州长Zebulon Vance而建立的。该广场是了解市中心街道布局的最佳位置 - 站在这里，你可以确定接下来想探索哪些Art Deco风格的屋顶线。",
+        "walk_to_next": {
+          "to": "Thomas Wolfe Memorial",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Thomas Wolfe Memorial",
+        "wikidata_qid": "Q7795509",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Wolfe_Memorial",
+        "coordinates": {
+          "lat": 35.5785,
+          "lon": -82.5484
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "保留完好的寄宿公寓，小说家Thomas Wolfe在此长大，这也是他的自传体小说《Look Homeward, Angel》的背景地。该建筑在1998年被烧毁，后被修复至1916年的原貌。相邻的游客中心展示了Wolfe的原始手稿和他纽约市工作室的复原版本。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Flat Iron Building",
+          "wikidata_qid": "Q5458526",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Flat_Iron_Building_(Asheville,_North_Carolina)",
+          "coordinates": {
+            "lat": 35.5762,
+            "lon": -82.5541
+          },
+          "neighborhood": "Downtown",
+          "duration_minutes": 15,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Asheville于1926年建造的三角形办公楼，位于Battery Park Avenue和Wall Street的楔形交叉口处 - 是纽约Flatiron Building的较小版本。周围Block街区占据了曾经的Battery Hill山脚，该山在1920年代的繁荣时期被夷平；从山上挖出的土壤被用来填充一条溪流并扩展市中心街道网络。",
+          "walk_from_main_route": {
+            "from": "Pack Square Park",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Basilica of Saint Lawrence",
+          "wikidata_qid": "Q4867066",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_of_Saint_Lawrence,_Asheville",
+          "coordinates": {
+            "lat": 35.5774,
+            "lon": -82.5543
+          },
+          "neighborhood": "Downtown",
+          "duration_minutes": 30,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "一座1909年建成的西班牙巴洛克风格教堂，由加泰罗尼亚工程师Rafael Guastavino设计。他也是纽约Grand Central和National Building Museum内瓷砖拱顶的设计者。这座自支撑椭圆形圆顶宽58英尺、长82英尺，内部没有支撑结构，是他的杰作，也是北美最大的自由站立椭圆形圆顶之一。从Haywood Street入口进入可以欣赏到完整的中殿景观。",
+          "walk_from_main_route": {
+            "from": "Pack Square Park",
+            "distance_meters": 390,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Montford和Grove Park",
+      "cluster_tagline": "维多利亚时代的街景、工艺美术建筑风格，以及从传奇旅馆眺望的山景",
+      "neighborhood_focus": "Montford / Grove Park",
+      "neighborhood_description": "Montford是Asheville保存完好的最古老住宅区，城市规划于1890年代，街道两旁林立着皇后安妮式、殖民地复兴式和工艺美术风格住宅。向北是Grove Park Inn，坐落在Sunset Mountain的山脊上，建于1913年，采用当地开采的巨石建造，至今仍在原始的石砌宾馆中招待客人。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Montford Historic District",
+        "wikidata_qid": "Q6906223",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Montford_Historic_District",
+        "coordinates": {
+          "lat": 35.5862,
+          "lon": -82.5567
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "沿着Haywood Street北向步行Montford Avenue主街道 - Watauga和Pearson之间的街区包含城市中密度最高的维多利亚晚期建筑群。留意Richard Sharp Smith设计的小别墅：Smith曾是Biltmore Estate的监督建筑师，后来在Asheville开设了私人建筑事务所，用他独特的卵石灰泥和半木结构风格为Montford留下了烙印。",
+        "walk_to_next": {
+          "to": "Riverside Cemetery",
+          "distance_meters": 520,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Riverside Cemetery",
+        "wikidata_qid": "Q7335166",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Riverside_Cemetery_(Asheville,_North_Carolina)",
+        "coordinates": {
+          "lat": 35.5901,
+          "lon": -82.5588
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "1885年建立的维多利亚式乡村公墓，位于French Broad River上方的林地山坡上。Thomas Wolfe和O. Henry（William Sydney Porter）都埋葬在这里 - Wolfe的墓地用简单的石碑标记，位于主入口步道附近，O. Henry的墓地在西侧的单独区域。免费入场，全年开放，入口处提供印制的自游导览地图。",
+        "walk_to_next": {
+          "to": "The Grove Park Inn",
+          "distance_meters": 1430,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "The Grove Park Inn",
+        "wikidata_qid": "Q5614589",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Grove_Park_Inn",
+        "coordinates": {
+          "lat": 35.5952,
+          "lon": -82.5382
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "1913年由E.W. Grove建造，采用直接从Sunset Mountain采石场开采的巨石建成 - 原始的石头小屋用时11个月，耗费400名工人才得以完成。非住客也可以步入并使用Great Hall，其中有两个壁炉大到足以站进人去。日落时分走到西露台，可以尽览Asheville盆地及Blue Ridge Parkway山脊的壮阔景色。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "North Carolina Arboretum - Overlook Trail",
+          "wikidata_qid": "Q7062217",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/North_Carolina_Arboretum",
+          "coordinates": {
+            "lat": 35.5077,
+            "lon": -82.6094
+          },
+          "neighborhood": "Bent Creek",
+          "duration_minutes": 90,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "一个434英亩的植物园，位于Pisgah National Forest边缘，距离市中心南方车程约15分钟。盆景展览温室是全年开放的重点，Blue Ridge Quilt Garden根据季节更换种植。选择工作日上午前往以避免周末登山步道上Bent Creek分水岭环线的人群。",
+          "walk_from_main_route": {
+            "from": "The Grove Park Inn",
+            "distance_meters": 7800,
+            "walking_minutes": 98
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Biltmore庄园",
+      "cluster_tagline": "美国最大的私人住宅、Olmsted设计的园景和蓝岭山麓的运营酒庄",
+      "neighborhood_focus": "Biltmore Estate",
+      "neighborhood_description": "George Vanderbilt的8000英亩庄园，现已缩减至Asheville南部约8000英亩的管理用地。Richard Morris Hunt以法国文艺复兴风格设计了这座250间房的城堡；Frederick Law Olmsted设计了进庄园的道路和花园。该庄园仍由私人所有并运营为付费景点，拥有自己的酒庄、酒店和村庄。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 24,
+      "morning": {
+        "activity_title": "Biltmore House",
+        "wikidata_qid": "Q527799",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+        "coordinates": {
+          "lat": 35.5406,
+          "lon": -82.5515
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "提前在线购票 - 庄园设有每日入场人数上限，周末现场购票的可用性不稳定。自助导览的房屋参观涵盖四层楼中的约70间房间，包括地下室的保龄球馆和室内游泳池。从顶层开始向下参观，最后在厨房区结束，大多数游客反向参观会感到仓促。",
+        "walk_to_next": {
+          "to": "Walled Garden and Conservatory",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Biltmore Walled Garden and Conservatory",
+        "wikidata_qid": "Q527799",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+        "coordinates": {
+          "lat": 35.5385,
+          "lon": -82.5538
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Olmsted设计的四英亩围墙花园原为厨房和花卉采摘园,如今按照维多利亚风格的原始框架精心维护,种植季节性花卉。相邻的温室是一座钢铁和玻璃构成的维多利亚式温室,承担着庄园的植物繁殖工作,但常被直奔酒庄的游客忽视。沿着围墙花园南侧的杜鹃花园小径漫步,可以获得回看chateau的最佳取景角度。",
+        "walk_to_next": {
+          "to": "Antler Hill Village and Winery",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Antler Hill Village and Biltmore Winery",
+        "wikidata_qid": "Q527799",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+        "coordinates": {
+          "lat": 35.5361,
+          "lon": -82.5573
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "庄园酒庄设在原有的乳制品加工厂建筑内,这是一栋由Richard Morris Hunt设计的砖砌罗马式复兴风格建筑。庄园门票附赠的免费品酒涵盖标准葡萄酒,珍藏和库存品酒需另外付费,但对于陈年赤霞珠项目而言物超所值。酒庄后方的露天观景台可以直观看到跨越庄园草地的chateau后花坛。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Approach Road Walk",
+          "wikidata_qid": "Q527799",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+          "coordinates": {
+            "lat": 35.5451,
+            "lon": -82.5486
+          },
+          "neighborhood": "Biltmore Estate",
+          "duration_minutes": 40,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Olmsted特意设计了长达三英里的进园道路,使得chateau在最后一个转弯处之前始终保持隐形 - 这是一个精心策划的压缩与释放序列。大多数游客选择自驾;步行或骑行(Antler Hill Village提供自行车租赁)则让你有时间体会Olmsted设计的景观管理意图,森林林冠在最后一刻才向广场开放。",
+          "walk_from_main_route": {
+            "from": "Biltmore House",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        },
+        {
+          "activity_title": "Bass Pond and Lagoon Trail",
+          "wikidata_qid": "Q527799",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Biltmore_Estate",
+          "coordinates": {
+            "lat": 35.533,
+            "lon": -82.5601
+          },
+          "neighborhood": "Biltmore Estate",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "庄园地产的南端,远离房屋和酒庄周边的主要游客流量。泻湖和鲈鱼池是Olmsted原始自然景观设计的一部分,是该地产访问度最低的区域之一。步道可以在约30分钟的轻松步行后回到Antler Hill Village。",
+          "walk_from_main_route": {
+            "from": "Antler Hill Village and Biltmore Winery",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

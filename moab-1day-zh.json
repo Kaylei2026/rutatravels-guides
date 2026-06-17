@@ -1,0 +1,128 @@
+{
+  "destination": "Moab",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:02:25.765Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Arches National Park / Colorado River Corridor"
+  ],
+  "guide_description": "围绕定义了Moab的红岩地貌安排的一整天行程：上午游览国家公园的砂岩石墙和拱门，中午沿着Colorado River峡谷探险，日落时分观赏峡谷边缘的光影秀。这些景点集中在镇北方沿着US-191和Utah-128分布，使得景点间的驾车时间最少。",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 5460,
+  "total_walking_minutes": 68,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Arches和Colorado Corridor",
+      "cluster_tagline": "Entrada砂岩、沙漠拱门和雕刻而成的河流峡谷",
+      "neighborhood_focus": "Arches National Park / Colorado River Corridor",
+      "neighborhood_description": "Moab镇北方和东北方的峡谷地带 - Arches National Park距离Main Street仅五公里，Utah-128沿着Colorado River向东蜿蜒。这两条路线共同呈现了Colorado Plateau的地质故事，可以通过一条可驾驶的环线游览。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 5460,
+      "day_walking_minutes": 68,
+      "morning": {
+        "activity_title": "Delicate Arch",
+        "wikidata_qid": "Q1183461",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Delicate_Arch",
+        "coordinates": {
+          "lat": 38.7436,
+          "lon": -109.4993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "这条4.8公里的往返步道在光滑的红岩地面上上升146米，几乎没有遮阴，夏季最晚早上7点出发才能在高温变得危险前完成。拱门只在步道末端的砂岩盆地边缘才能看到，所以事先不要看照片；到达边缘时的空间惊喜才是整个体验的精妙之处。Arches的定时入园许可证在4月至10月期间需要，通过Recreation.gov出售，通常提前数周就会售罄。",
+        "walk_to_next": {
+          "to": "Landscape Arch",
+          "distance_meters": 4160,
+          "walking_minutes": 52
+        }
+      },
+      "afternoon": {
+        "activity_title": "Landscape Arch",
+        "wikidata_qid": "Q6491113",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Landscape_Arch",
+        "coordinates": {
+          "lat": 38.7918,
+          "lon": -109.6063
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "通过Devils Garden前往Landscape Arch的步道是2.6公里的往返平坦碎石路径，与Delicate Arch不同，中午的高温也能轻松应对。Landscape Arch跨度为88米，是北美最长的天然拱门；1991年下侧掉落了一块岩板，使得岩石丝带在一侧明显变薄。Devils Garden步道起点还拥有公园唯一开发完善的露营地，如果你计划在此停留值得留意。",
+        "walk_to_next": {
+          "to": "Colorado River Overlook - Utah-128 viewpoint near Moab",
+          "distance_meters": 1300,
+          "walking_minutes": 16
+        }
+      },
+      "evening": {
+        "activity_title": "Dead Horse Point State Park",
+        "wikidata_qid": "Q5249694",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dead_Horse_Point_State_Park",
+        "coordinates": {
+          "lat": 38.4822,
+          "lon": -109.7342
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "一座狭窄的台地颈部，三侧有300米的垂直落差进入Colorado River的葫芦形河道，这与电影《Thelma and Louise》的开场和《Mission Impossible 2》的结局使用的景观相同。在日落前45分钟到达，沿着东缘步道经过主观景点前往Shafer Canyon观景点，这会将钾盐蒸发池（它们鲜艳的蓝绿色来自添加的染料）置于峡谷壁下方的前景中。需另行支付州立公园入园费；公园距离Moab镇30分钟车程。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Balanced Rock",
+          "wikidata_qid": "Q4850534",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Balanced_Rock_(Arches_National_Park)",
+          "coordinates": {
+            "lat": 38.7016,
+            "lon": -109.5642
+          },
+          "neighborhood": "Arches National Park",
+          "duration_minutes": 20,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "一块39米高的巨石矗立在狭窄的Entrada砂岩基座上，环绕步道为0.5公里，耗时不超过20分钟。它直接坐落在公园主干道上，位于入口与Delicate Arch转向之间，是早晨和下午活动之间零迂回的便利景点。",
+          "walk_from_main_route": {
+            "from": "Delicate Arch trailhead",
+            "distance_meters": 390,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Corona Arch",
+          "wikidata_qid": "Q5172270",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Corona_Arch",
+          "coordinates": {
+            "lat": 38.5747,
+            "lon": -109.6278
+          },
+          "neighborhood": "Bureau of Land Management - Moab Field Office",
+          "duration_minutes": 120,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "一座33米高的独立拱门,位于Arches南边US-191公路附近的BLM土地上 - 无需支付公园门票,无需预约进入时间,人数也远少于国家公园内的任何景点。4.8公里的往返路线包括一段短梯子和一段有铁链辅助的光滑岩石路段。站在拱门下方能更好地欣赏其真实规模 - 拱门的开口足以让直升机飞过,实际上也曾有人这样做过。",
+          "walk_from_main_route": {
+            "from": "Landscape Arch",
+            "distance_meters": 1040,
+            "walking_minutes": 13
+          }
+        }
+      ]
+    }
+  ]
+}

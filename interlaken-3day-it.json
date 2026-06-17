@@ -1,0 +1,306 @@
+{
+  "destination": "Interlaken",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:26:00.750Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Interlaken Ost / Hohematte",
+    "Harder Kulm / Unterseen",
+    "Jungfraujoch / Lauterbrunnen Valley"
+  ],
+  "guide_description": "Tre giorni nel gateway dell'Oberland bernese: la passeggiata sul lago e i classici punti panoramici nel primo giorno, il vecchio villaggio di Unterseen e il crinale sopra la città nel secondo giorno, e l'escursione ad alta quota nella Lauterbrunnen Valley nel terzo giorno. Ogni giorno è geograficamente autonomo e scalabile in base alle condizioni meteorologiche.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5980,
+  "total_walking_minutes": 75,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Hohematte e la Ost Promenade",
+      "cluster_tagline": "Il cuore pianeggiante di Interlaken - il grande prato, il parco del casinò e l'Aare tra due laghi",
+      "neighborhood_focus": "Interlaken Ost / Hohematte",
+      "neighborhood_description": "L'Hohematte è il prato protetto al centro di Interlaken che ha mantenuto la città aperta alla vista del Jungfrau per due secoli. Il quartiere orientale intorno alla stazione Interlaken Ost concentra i grandiosi hotel Belle Epoque, il parco del casinò Kursaal e il canale che collega il Lago di Thun e il Lago di Brienz.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Hohematte park and Jungfrau panorama",
+        "wikidata_qid": "Q1616849",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hohematte",
+        "coordinates": {
+          "lat": 46.6863,
+          "lon": 7.8632
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Il prato di 14 ettari è protetto da una servitù del XIX secolo che impedisce qualsiasi costruzione in grado di ostruire la vista sulla Jungfrau dal passeggio Hoheweg. Posizionatevi all'estremità occidentale del prato su Hoheweg e guardate verso sud - nelle mattine limpide la Jungfrau, il Monch e l'Eiger riempiono completamente lo spazio tra le facciate degli hotel. I parapendisti atterrano qui a partire da metà mattina.",
+        "walk_to_next": {
+          "to": "Kursaal Interlaken",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Kursaal Interlaken and casino gardens",
+        "wikidata_qid": "Q1789358",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kursaal_Interlaken",
+        "coordinates": {
+          "lat": 46.6872,
+          "lon": 7.8698
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "L'edificio Kursaal del 1859 e il suo giardino ornamentale circostante sono stati il motore sociale del boom turistico di Interlaken nel XIX secolo. Il giardino stesso è liberamente accessibile e disegnato nello stile paesaggistico inglese, con una sezione di rose formale direttamente dietro il padiglione principale. L'edificio continua a operare come casinò e spazio eventi - l'attrazione principale sono l'esterno e i giardini, non l'interno.",
+        "walk_to_next": {
+          "to": "Aare channel and Lake Brienz shore",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Aare channel and Lake Brienz shoreline at sunset",
+        "wikidata_qid": "Q4768",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_Brienz",
+        "coordinates": {
+          "lat": 46.7167,
+          "lon": 7.9833
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Camminate a nord dalla stazione Interlaken Ost lungo il canale dell'Aare verso la riva del Lake Brienz. Il Brienzersee assume un colore turchese distintivo dall'acqua di fusione glaciale e cattura l'alpenglow sulle vette del Brienzer Rothorn a nord - est dopo il tramonto. Il sentiero lungo la sponda meridionale del canale è tranquillo, pianeggiante e pressoché completamente libero dal traffico turistico rispetto a Hoheweg.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Touristik-Museum der Jungfrau-Region",
+          "wikidata_qid": "Q2419689",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Touristik-Museum_der_Jungfrau-Region",
+          "coordinates": {
+            "lat": 46.6864,
+            "lon": 7.8508
+          },
+          "neighborhood": "Unterseen",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Ospitato in un edificio del XVII secolo a Unterseen, il museo documenta come Interlaken si è trasformata da tenuta monastica agostiniana nella prima destinazione di turismo montano moderno d'Europa. La collezione di litografie alpine del XIX secolo e manifesti turistici delle origini è tra le migliori della Svizzera. Un buon punto di appoggio per le giornate piovose",
+          "walk_from_main_route": {
+            "from": "Hohematte park",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Harder Kulm e Unterseen",
+      "cluster_tagline": "La cresta sopra la città e il villaggio più antico della valle - altitudine e tracciato medievale in un'unica giornata",
+      "neighborhood_focus": "Harder Kulm / Unterseen",
+      "neighborhood_description": "Harder Kulm a 1322 metri si trova direttamente sopra Interlaken sulla cresta nord, raggiungibile con la funicolare da vicino Interlaken Ost. Unterseen, attraverso l'Aare a ovest, è il vero villaggio medievale che precede la moderna città turistica e conserva la chiesa del XVII secolo, la piazza e il paesaggio di vie con case in legno.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Harder Kulm viewpoint",
+        "wikidata_qid": "Q874537",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harder_Kulm",
+        "coordinates": {
+          "lat": 46.6986,
+          "lon": 7.8664
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "La funicolare dalla stazione inferiore vicino a Interlaken Ost impiega otto minuti e funziona dalle prime ore del mattino. Il Two Lakes Bridge in vetta è una passerella a sbalzo che si estende sulla cresta - posizionatevi su di essa per la vista simultanea del Lago di Thun (a ovest, verdastro) e del Lago di Brienz (a est, turchese), con il massiccio Eiger - Monch - Jungfrau direttamente a sud. Andate prima delle 10 di mattina, poiché la terrazza si riempie di gruppi turistici a metà mattina e l'accumulo di nuvole sui picchi accelera da mezzogiorno in poi.",
+        "walk_to_next": {
+          "to": "Unterseen old village",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "afternoon": {
+        "activity_title": "Unterseen old village and Stadtplatz",
+        "wikidata_qid": "Q113935",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Unterseen",
+        "coordinates": {
+          "lat": 46.6847,
+          "lon": 7.8467
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Attraversa l'Aare sul ponte pedonale Spielmatte ed entra a Unterseen attraverso la sua piazza principale originale, la Stadtplatz. Il villaggio ottenne i diritti di mercato nel 1279 e la disposizione della sua piazza centrale è cambiata poco da allora. La torre della chiesa nello sfondo della fotografia classica di Unterseen è la Chiesa Riformata di Unterseen del XIV secolo - la torre stessa è più antica della navata.",
+        "walk_to_next": {
+          "to": "Lake Thun shoreline",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Lake Thun western shore at sunset",
+        "wikidata_qid": "Q3438",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_Thun",
+        "coordinates": {
+          "lat": 46.6833,
+          "lon": 7.7167
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Cammina o prendi l'autobus locale verso ovest da Unterseen fino all'area della stazione Interlaken West e continua fino al sentiero della riva del Thunersee. La vista verso est lungo il lago in direzione delle Alpi Bernesi è l'angolo classico delle cartoline - la piramide del Niesen sulla riva meridionale cattura l'alpenglow circa 20 minuti dopo che il sole diretto lascia l'acqua. Il sentiero tra la riva e la linea ferroviaria è pianeggiante e impiega circa 15 minuti per raggiungere il miglior punto panoramico aperto.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Beatenhoehle - St. Beatus Caves",
+          "wikidata_qid": "Q885756",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St._Beatus_Caves",
+          "coordinates": {
+            "lat": 46.7153,
+            "lon": 7.7847
+          },
+          "neighborhood": "Lake Thun north shore",
+          "duration_minutes": 90,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Una rete di grotte stalattitiche sulla riva settentrionale del Lago di Thun, raggiungibile in barca dal molo di Interlaken West in circa 20 minuti. Il percorso guidato attraverso il sistema di grotte è di 1 chilometro e si mantiene a una temperatura costante di 10 gradi Celsius - porta uno strato aggiuntivo indipendentemente dal meteo in superficie. La leggenda dell'eremita irlandese Beatus che ha cristianizzato le grotte nel VI secolo è integrata nella presentazione del sito.",
+          "walk_from_main_route": {
+            "from": "Lake Thun western shore",
+            "distance_meters": 0,
+            "walking_minutes": 0
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Lauterbrunnen Valley",
+      "cluster_tagline": "La valle scavata dai ghiacciai con 72 cascate, il paesaggio che ha definito l'idea romantica della Svizzera",
+      "neighborhood_focus": "Jungfraujoch / Lauterbrunnen Valley",
+      "neighborhood_description": "La Lauterbrunnen Valley si estende verso sud da Interlaken come una trincea con pareti quasi verticali scavata da un ghiacciaio del Pleistocene, con 72 cascate che precipitano dalle scogliere inclusa la Staubbachfall di 297 metri. Il villaggio della valle, Lauterbrunnen, è la base per la ferrovia a cremagliera che sale a Wengen, Kleine Scheidegg e infine a Jungfraujoch a 3454 metri.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1830,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Staubbach Falls, Lauterbrunnen",
+        "wikidata_qid": "Q698025",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Staubbach_Falls",
+        "coordinates": {
+          "lat": 46.5933,
+          "lon": 7.9086
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "La Staubbachfall si getta 297 metri dalla parete della valle direttamente dietro il villaggio di Lauterbrunnen, una delle cascate a caduta libera più alte d'Europa e lo spettacolo che ispirò sia Goethe che Byron a scrivere versi. Il sentiero panoramico dal fondo della valle richiede circa 10 minuti; un sentiero più ripido sale fino a una piattaforma di grotta nella zona degli spruzzi. La luce mattutina colpisce la cascata direttamente; nel pomeriggio la parete rocciosa cade in ombra. Il treno da Interlaken Ost a Lauterbrunnen impiega 20 minuti.",
+        "walk_to_next": {
+          "to": "Trummelbach Falls",
+          "distance_meters": 1430,
+          "walking_minutes": 18
+        }
+      },
+      "afternoon": {
+        "activity_title": "Trummelbach Falls",
+        "wikidata_qid": "Q696687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tr%C3%BCmmelbach_Falls",
+        "coordinates": {
+          "lat": 46.5742,
+          "lon": 7.9056
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Dieci cascate glaciali all'interno della montagna, accessibili tramite ascensore a tunnel e passerelle scavate nella roccia, le uniche cascate sotterranee alimentate da ghiacciai aperte al pubblico in Europa. I ghiacciai dell'Eiger, Mönch e Jungfrau si drenano attraverso questo sistema, spingendo fino a 20.000 litri al secondo attraverso spirali rocciose strette al momento della fusione massima. Porta uno strato impermeabile indipendentemente dal clima esterno; gli spruzzi all'interno sono continui e i passaggi sono stretti",
+        "walk_to_next": {
+          "to": "Lauterbrunnen village center",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Lauterbrunnen valley floor walk at dusk",
+        "wikidata_qid": "Q693976",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lauterbrunnen",
+        "coordinates": {
+          "lat": 46.5933,
+          "lon": 7.9086
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Il fondovalle tra il villaggio di Lauterbrunnen e la base dello Staubbachfall è un sentiero pianeggiante attraverso un prato con il panorama completo della parete rocciosa visibile in entrambe le direzioni. Al tramonto, il riflesso alpino sale sulla parete orientale di 1000 metri dal basso verso l'alto nel corso di circa 15 minuti mentre la luce diretta si ritira. Prendete l'ultimo treno per Interlaken - il tragitto da Lauterbrunnen a Interlaken Ost funziona fino a tardi la sera.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kleine Scheidegg",
+          "wikidata_qid": "Q662916",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kleine_Scheidegg",
+          "coordinates": {
+            "lat": 46.5853,
+            "lon": 7.9594
+          },
+          "neighborhood": "Bernese Alps",
+          "duration_minutes": 120,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "L'alto valico montano a 2061 metri tra Wengen e Grindelwald, raggiungibile con la ferrovia a cremagliera da Lauterbrunnen. La parete nord dell'Eiger si erge direttamente sopra il binario della stazione - la parete che ha sconfitto gli alpinisti per 30 anni prima della sua prima ascensione nel 1938. Nelle giornate limpide i ristoranti della terrazza qui offrono la vista più prossima e accessibile a livello del suolo della Eiger Nordwand disponibile ovunque. Abbigliatevi per almeno 10 gradi più freddo rispetto al fondovalle.",
+          "walk_from_main_route": {
+            "from": "Lauterbrunnen village center",
+            "distance_meters": 0,
+            "walking_minutes": 0
+          }
+        },
+        {
+          "activity_title": "Murren village",
+          "wikidata_qid": "Q70607",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/M%C3%BCrren",
+          "coordinates": {
+            "lat": 46.5592,
+            "lon": 7.8928
+          },
+          "neighborhood": "Lauterbrunnen Valley west wall",
+          "duration_minutes": 90,
+          "type": "town",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Un villaggio senza automobili arroccato sulla parete occidentale della Valle di Lauterbrunnen a 1638 metri, raggiungibile con la funivia da Stechelberg al fondovalle. Il villaggio non ha accesso stradale e la strada principale è un vicolo di 500 metri con balconate in legno e visuali dirette verso la Jungfrau. Combinatelo con una visita allo Schilthorn in una mattina limpida per il panorama a 360 gradi che include il Matterhorn all'orizzonte occidentale.",
+          "walk_from_main_route": {
+            "from": "Trummelbach Falls",
+            "distance_meters": 0,
+            "walking_minutes": 0
+          }
+        }
+      ]
+    }
+  ]
+}

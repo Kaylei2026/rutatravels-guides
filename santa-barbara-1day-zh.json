@@ -1,0 +1,128 @@
+{
+  "destination": "Santa Barbara",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:56:40.088Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Downtown / El Pueblo Viejo / Waterfront"
+  ],
+  "guide_description": "一日游行程涵盖圣塔芭芭拉紧凑的历史中心：市中心公民区的西班牙殖民复兴建筑风格、山上的传教所，以及State Street脚下的运营港口。各个景点之间都在步行距离内或短途车程范围内。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3380,
+  "total_walking_minutes": 43,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Mission、Courthouse和Harbor",
+      "cluster_tagline": "坐落在Santa Ynez山麓和太平洋之间的西班牙殖民复兴城市",
+      "neighborhood_focus": "Downtown / El Pueblo Viejo / Waterfront",
+      "neighborhood_description": "圣塔芭芭拉的市中心在1925年地震后按照统一的西班牙殖民复兴风格重建，以白色灰泥、红瓦屋顶和带拱廊的店面为特色，这些都由城市条例强制规定。传教所坐落在北边几个街区的低矮山脊上，而Stearns Wharf和港口则位于State Street的南端。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3380,
+      "day_walking_minutes": 43,
+      "morning": {
+        "activity_title": "Santa Barbara County Courthouse",
+        "wikidata_qid": "Q7422012",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_County_Courthouse",
+        "coordinates": {
+          "lat": 34.4257,
+          "lon": -119.7144
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "建于1929年，这是加州最精美的西班牙殖民地复兴式市政建筑。免费的自助导览让你可以自己漫步于下沉式花园庭院和壁画装饰的议事厅。登上El Mirador钟楼 - 屋顶观景台提供了城市网格、身后群山和晴朗早晨Channel Islands的最佳无遮挡景观。",
+        "walk_to_next": {
+          "to": "Old Mission Santa Barbara",
+          "distance_meters": 1040,
+          "walking_minutes": 13
+        }
+      },
+      "afternoon": {
+        "activity_title": "Old Mission Santa Barbara",
+        "wikidata_qid": "Q1075518",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Mission_Santa_Barbara",
+        "coordinates": {
+          "lat": 34.4367,
+          "lon": -119.713
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "成立于1786年，是唯一从未脱离方济各会掌控的加州传教团。双塔立面是1820年对维特鲁威的罗马神庙前立面的诠释 - 修士们是根据书上的插图设计的，而非真实建筑。自助导览包括原始的Serra礼拜堂、埋有Chumash人的墓地，以及修道院侧厅的小型博物馆。从Laguna街向上坡方向靠近，可以欣赏被Santa Ynez山脉框架装饰的完整立面景观。",
+        "walk_to_next": {
+          "to": "Stearns Wharf",
+          "distance_meters": 2080,
+          "walking_minutes": 26
+        }
+      },
+      "evening": {
+        "activity_title": "Stearns Wharf and Santa Barbara Harbor",
+        "wikidata_qid": "Q7605392",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Stearns_Wharf",
+        "coordinates": {
+          "lat": 34.4083,
+          "lon": -119.692
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "建于1872年，Stearns Wharf是西海岸现存最古老的木制码头。走到尽头，可以看到Santa Barbara海岸线的背面景观，以及日落时分山麓变成粉红色的美景。港口末端的鱼市场直接从船上销售新鲜海胆和螃蟹 - 比码头上的游客餐厅更好、更便宜的选择。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Santa Barbara Museum of Natural History Sea Center",
+          "wikidata_qid": "Q7422013",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Museum_of_Natural_History_Sea_Center",
+          "coordinates": {
+            "lat": 34.4089,
+            "lon": -119.6916
+          },
+          "neighborhood": "Waterfront",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "一个建在码头上、架设在水面上的紧凑型海洋科学中心 - 触摸池让你可以接触当地潮间带物种，包括海星和海胆。如果下午雾气从Channel吹来，这是个不错的选择，因为展览完全密闭，码头位置意味着从Stearns Wharf无需额外步行。",
+          "walk_from_main_route": {
+            "from": "Stearns Wharf",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Santa Barbara Botanic Garden",
+          "wikidata_qid": "Q7422010",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_Botanic_Garden",
+          "coordinates": {
+            "lat": 34.4533,
+            "lon": -119.7133
+          },
+          "neighborhood": "Mission Canyon",
+          "duration_minutes": 75,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "建立于1926年，完全致力于展示加州本土植物，五英里的步道网络包括一座经过修复的Chumash大坝和一片古老的红杉林，大多数游客会错过这片红杉林，因为它位于峡谷的深处。从Mission沿着Mission Canyon Road驱车十分钟即可到达；建议在上午游览，此时还未到炎热时段，自然衔接早间活动。",
+          "walk_from_main_route": {
+            "from": "Old Mission Santa Barbara",
+            "distance_meters": 1950,
+            "walking_minutes": 24
+          }
+        }
+      ]
+    }
+  ]
+}

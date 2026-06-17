@@ -1,0 +1,351 @@
+{
+  "destination": "Cinque Terre",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:07:44.832Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Riomaggiore and Manarola",
+    "Corniglia and Vernazza",
+    "Monterosso al Mare"
+  ],
+  "guide_description": "Tre giorni attraversando tutti e cinque i villaggi di Cinque Terre da sud a nord, utilizzando una combinazione del sentiero costiero, del treno e dei percorsi dell'alta cresta. Ogni giorno è geograficamente autonomo attorno a uno o due villaggi adiacenti, progredendo dalle drammatiche scogliere meridionali alle spiagge più ampie di Monterosso.",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 8450,
+  "total_walking_minutes": 106,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Riomaggiore e Manarola",
+      "cluster_tagline": "I due villaggi più meridionali - case dipinte ripide che si tuffano direttamente nel Mar Ligure",
+      "neighborhood_focus": "Riomaggiore and Manarola",
+      "neighborhood_description": "L'estremità meridionale dell'arco di Cinque Terre. Riomaggiore è il villaggio più fotografato, con le sue case multicolori impilate in un'orrida stretta. Manarola, a breve distanza in treno o a piedi su un'escursione ripida verso nord - ovest, si trova su un promontorio roccioso sopra un'insenatura naturale per nuotare. Il tratto di sentiero costiero tra i due, la Via dell'Amore, è stato a lungo la passeggiata più famosa di Cinque Terre.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Riomaggiore",
+        "wikidata_qid": "Q82637",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Riomaggiore",
+        "coordinates": {
+          "lat": 44.0993,
+          "lon": 9.7375
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Arriva con il primo treno del mattino da La Spezia per battere l'onda dei visitatori giornalieri. Il principale caruggio (vicolo) che corre dalla stazione ferroviaria al porto è la spina dorsale del villaggio - percorrilo fino al piccolo porto e arrampicati sulla rampa del castello a sinistra per una vista panoramica sulla baia piena di barche prima che la luce diventi troppo forte.",
+        "walk_to_next": {
+          "to": "Via dell'Amore viewpoint above Riomaggiore",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Via dell'Amore",
+        "wikidata_qid": "Q3567116",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Via_dell%27Amore",
+        "coordinates": {
+          "lat": 44.1017,
+          "lon": 9.7321
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Il famoso sentiero a strapiombo scavato nella roccia negli anni 1920 ha riaperto a tratti dopo anni di chiusure dovute a frane - controlla il sito web del Parco Nazionale delle Cinque Terre prima di arrivare poiché l'accesso cambia stagionalmente. La passeggiata è lunga solo circa un chilometro e richiede una Cinque Terre Card a pagamento. Esci dal lato di Manarola e scendi nel villaggio anziché tornare indietro.",
+        "walk_to_next": {
+          "to": "Manarola",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Manarola sunset viewpoint",
+        "wikidata_qid": "Q82631",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manarola",
+        "coordinates": {
+          "lat": 44.1067,
+          "lon": 9.7283
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La fotografia classica di Manarola viene scattata dal sentiero roccioso sul lato nord-ovest del porto - segui la passerella oltre le grotte di stoccaggio delle barche e arrampicati circa cinquanta metri fino alla piattaforma di cemento piatta sopra l'acqua. Il tramonto qui illumina le case impilate di oro da ovest. Il porto stesso ha una piscina naturale nella baia sotto la gru - i locali nuotano qui fino a tarda sera.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Castello di Riomaggiore",
+          "wikidata_qid": "Q3661944",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Castle_of_Riomaggiore",
+          "coordinates": {
+            "lat": 44.0999,
+            "lon": 9.7368
+          },
+          "neighborhood": "Riomaggiore",
+          "duration_minutes": 30,
+          "type": "castle",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "La fortezza del XIII secolo sulla cresta sopra Riomaggiore è stata parzialmente restaurata e ora ospita mostre e una terrazza sul tetto. La salita dal vicolo principale richiede circa cinque minuti e la vista a sud lungo la costa verso La Spezia è disponibile da nessun altro punto del villaggio.",
+          "walk_from_main_route": {
+            "from": "Riomaggiore harbor",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Corniglia e Vernazzo",
+      "cluster_tagline": "Un villaggio su una collina sopra i vigneti e il porto più fotogenico delle Cinque Terre",
+      "neighborhood_focus": "Corniglia and Vernazza",
+      "neighborhood_description": "Corniglia è l'unico dei cinque villaggi senza accesso diretto al mare - si trova su una scogliera a 100 metri di altitudine, circondato da vigneti terrazzati che coltivano l'uva per il vino dolce Sciacchetra. Vernazzo, il villaggio successivo a nord, ha la struttura medievale più intatta dei cinque e l'unico vero porto naturale, circondato da una torre del XV secolo.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3600,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Corniglia",
+        "wikidata_qid": "Q82620",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Corniglia",
+        "coordinates": {
+          "lat": 44.1208,
+          "lon": 9.7127
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 75,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Dalla stazione ferroviaria, la scalinata Lardarina di 382 gradini sale fino al villaggio - è l'unico percorso a piedi e richiede circa dieci minuti. Corniglia riceve una frazione dei visitatori di Vernazzo o Manarola e ha un'atmosfera notevolmente più tranquilla. Il belvedere all'estremità settentrionale del villaggio, oltre la chiesa di San Pietro, offre una vista chiara verso nord lungo la costa in direzione di Vernazzo.",
+        "walk_to_next": {
+          "to": "Corniglia to Vernazza trail (SVA Trail 7V)",
+          "distance_meters": 500,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Coastal trail - Corniglia to Vernazza",
+        "wikidata_qid": "Q1065890",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cinque_Terre",
+        "coordinates": {
+          "lat": 44.1285,
+          "lon": 9.7043
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Il sentiero da Corniglia a Vernazzo (Trail 7V, circa 3,5 km) è il più gratificante tra i percorsi che collegano i villaggi - sale ripidamente sopra i vigneti con viste di ritorno verso Corniglia prima di scendere attraverso il versante terrazzato verso Vernazzo. È richiesta una Cinque Terre Card valida. Le condizioni del sentiero variano secondo la stagione; il sito del parco pubblica lo stato di apertura giornaliero. Indossa scarpe con buona aderenza e porta con te dell'acqua, non ci sono punti di rifornimento lungo il percorso.",
+        "walk_to_next": {
+          "to": "Vernazza harbor",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Vernazza",
+        "wikidata_qid": "Q82614",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vernazza",
+        "coordinates": {
+          "lat": 44.1353,
+          "lon": 9.6837
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La piazza di Vernazzo si apre direttamente sul porto - uno dei pochi nella Cinque Terre dove puoi sederti a un tavolo e guardare dritto verso il mare. Per la vista più elevata, sali la scala esterna della torre del Doria Castle sulla punta rocciosa alla fine della banchina; il biglietto di ingresso costa pochi euro e il panorama abbraccia l'intera curva della costa. Ritorna a La Spezia o Monterosso al Mare in treno dopo cena.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Church of Santa Margherita di Antiochia, Vernazza",
+          "wikidata_qid": "Q3671302",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Church_of_Santa_Margherita_d%27Antiochia,_Vernazza",
+          "coordinates": {
+            "lat": 44.1351,
+            "lon": 9.6832
+          },
+          "neighborhood": "Vernazza",
+          "duration_minutes": 20,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La chiesa gotica del XIV secolo si trova direttamente sulla piazza portuale di Vernazzo con la sua facciata in marmo striato rivolta verso l'acqua. L'interno è piccolo ma contiene un notevole politttico d'altare e una Madonna attribuita alla scuola gotica ligure. Vale la pena entrarvi per sfuggire al caldo di mezzogiorno prima che il porto si riempia di folle nel tardo pomeriggio.",
+          "walk_from_main_route": {
+            "from": "Vernazza harbor",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Monterosso al Mare",
+      "cluster_tagline": "Il villaggio più settentrionale - una vera spiaggia, una chiesa Barocca, e le migliori acciughe della Liguria",
+      "neighborhood_focus": "Monterosso al Mare",
+      "neighborhood_description": "Il più grande e orientato verso il turismo tra i cinque villaggi, diviso tra un centro storico medievale e un nuovo quartiere balneare collegati da una galleria nella scogliera. Monterosso ha l'unica vera spiaggia sabbiosa delle Cinque Terre e una tradizione di pesca che fornisce le rinomate acciughe sott'olio della regione. La collina terrazzata sopra il centro storico ospita la fortezza Doria in rovina e la chiesa dei Cappuccini.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2750,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Monterosso al Mare old town",
+        "wikidata_qid": "Q82605",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monterosso_al_Mare",
+        "coordinates": {
+          "lat": 44.1469,
+          "lon": 9.6554
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Il centro storico medievale si incentra sulla Piazza Garibaldi e sulla Chiesa di San Giovanni Battista a strisce. La mattina è il momento giusto per passeggiare nei vicoli prima che le folle di bagnanti colonizzino il lungomare. Le barche da pesca si lanciano ancora dalla spiaggia all'estremità settentrionale del centro storico prima delle 8am - le acciughe sbarcate qui vengono vendute fresche ai piccoli banchi del mercato su Via Roma prima di mezzogiorno.",
+        "walk_to_next": {
+          "to": "Convento dei Cappuccini",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Convento dei Cappuccini and Torre Aurora",
+        "wikidata_qid": "Q3671536",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monastery_of_the_Capuchins,_Monterosso_al_Mare",
+        "coordinates": {
+          "lat": 44.1462,
+          "lon": 9.6533
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Il monastero dei Cappuccini del XVII secolo si trova sul promontorio che separa il vecchio Monterosso dal nuovo quartiere balneare, raggiungibile da una scalinata fiancheggiata da cipressi dal centro storico. L'adiacente Torre Aurora è una torre medievale ora incorporata nel muro del giardino del monastero. La terrazza fuori dalla chiesa guarda a sud l'intera linea costiera delle Cinque Terre ed è uno dei migliori punti panoramici del parco nazionale.",
+        "walk_to_next": {
+          "to": "Monterosso beach",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Monterosso beach and waterfront promenade",
+        "wikidata_qid": "Q82605",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monterosso_al_Mare",
+        "coordinates": {
+          "lat": 44.1492,
+          "lon": 9.6615
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La lunga spiaggia è esposta a ovest, rendendola il miglior punto di osservazione dei tramonti nelle Cinque Terre, poiché il sole scende direttamente nel mare alla fine dell'arco sabbioso. La sezione spiaggia gratuita si trova all'estremità settentrionale più lontana, oltre la fila di concessioni di lettini a pagamento. La passeggiata lungo il lungomare inizia intorno alle 18 e l'enoteca all'angolo settentrionale della città vecchia serve Sciacchetra, il vino da dessert ambrato locale prodotto dai vigneti in collina, al bicchiere.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sentiero Verde Azzurro - Vernazza to Monterosso segment",
+          "wikidata_qid": "Q1065890",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cinque_Terre",
+          "coordinates": {
+            "lat": 44.141,
+            "lon": 9.6695
+          },
+          "neighborhood": "Cinque Terre National Park",
+          "duration_minutes": 120,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Il sentiero di 3,2 km da Vernazzo a Monterosso è il segmento più impegnativo del percorso costiero, con circa 200 metri di salita e discesa su terreno roccioso. Partite da Vernazzo al mattino presto prima che il caldo si intensifichi e arrivate a Monterosso in tempo per una nuotata. Il punto più alto del sentiero si affaccia a nord sul Golfo di Genova senza alcun altro villaggio visibile, la sensazione più isolata dell'intero percorso.",
+          "walk_from_main_route": {
+            "from": "Monterosso al Mare train station",
+            "distance_meters": 1600,
+            "walking_minutes": 20
+          }
+        },
+        {
+          "activity_title": "Church of San Giovanni Battista, Monterosso",
+          "wikidata_qid": "Q3671525",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Church_of_San_Giovanni_Battista,_Monterosso_al_Mare",
+          "coordinates": {
+            "lat": 44.1467,
+            "lon": 9.6551
+          },
+          "neighborhood": "Monterosso al Mare",
+          "duration_minutes": 20,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "La chiesa gotica del XIV secolo nel centro della città vecchia ha una facciata di marmo distintamente bianca e nera, caratteristica comune dell'architettura gotica ligure. Il rosone sopra il portale è uno dei migliori esempi conservati dello stile nella regione. L'ingresso è gratuito; l'interno è fresco e tranquillo nei pomeriggi caldi.",
+          "walk_from_main_route": {
+            "from": "Monterosso al Mare old town",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}

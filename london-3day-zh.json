@@ -1,0 +1,361 @@
+{
+  "destination": "London",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Westminster / South Bank",
+    "The City / Tower",
+    "South Kensington / Hyde Park"
+  ],
+  "guide_description": "三天游览伦敦精华：庄严肃穆的Westminster中轴线、中世纪金融区City及其联合国教科文组织世界遗产Tower，以及South Kensington的博物馆与公园三角区。每天的行程在地理位置上都相对独立。",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 6600,
+  "total_walking_minutes": 85,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Westminster及南岸",
+      "cluster_tagline": "伦敦的庄严中轴线 - Abbey、Big Ben及泰晤士河滨河长廊",
+      "neighborhood_focus": "Westminster / South Bank",
+      "neighborhood_description": "Westminster是英国政府所在地和君主加冕教堂的所在地，以Parliament Square为中心。跨越Westminster Bridge的对岸South Bank是文化的对应区域，沿岸分布着滨河长廊、London Eye和主要艺术场馆。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Westminster Abbey",
+        "wikidata_qid": "Q5933",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+        "coordinates": {
+          "lat": 51.4994,
+          "lon": -0.1273
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "自1066年以来每次英国加冕礼的举办地，也是十七位君主的安葬处。在线预订定时票券可以跳过排队。诗人角（包括乔叟、狄更斯、哈代、勃朗宁等人）和加冕椅是主要看点；常被忽视的High Altar前的Cosmati Pavement是一块13世纪的几何马赛克，实际加冕仪式就在这里举行。周日不开放，除非有礼拜活动。",
+        "walk_to_next": {
+          "to": "Houses of Parliament",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Houses of Parliament and Big Ben",
+        "wikidata_qid": "Q41770",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
+        "coordinates": {
+          "lat": 51.4995,
+          "lon": -0.1248
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "新哥特式的Palace of Westminster在1870年竣工，其前身为中世纪建筑，于1834年在大火中被毁。英国和英联邦居民可以在Cromwell Green排队免费观看辩论；国际游客可在议会不开会期间（通常为周六和休会周）预订付费导览。大本钟指的是钟，而非钟楼 - 钟楼本身叫Elizabeth Tower，最近已修复至原来的维多利亚时期色彩。",
+        "walk_to_next": {
+          "to": "London Eye via Westminster Bridge",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "South Bank and London Eye at sunset",
+        "wikidata_qid": "Q121130",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/London_Eye",
+        "coordinates": {
+          "lat": 51.5033,
+          "lon": -0.1196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "步行过Westminster Bridge可拍到经典的Parliament和Eye合影。是否乘坐Eye观景轮是预算问题 - 景观确实壮观但价格不菲，免费沿South Bank向东步行至Tate Modern可以看到相同的城市天际线，无需花费。最佳摄影光线是日落前30分钟，此时Parliament的东面被最后的金色阳光照亮。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Churchill War Rooms",
+          "wikidata_qid": "Q1133979",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Churchill_War_Rooms",
+          "coordinates": {
+            "lat": 51.5024,
+            "lon": -0.1294
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "丘吉尔在二战期间指挥英国作战的地下掩体综合体，完全保留了1945年的原貌 - 包括一间内阁室，里面有丘吉尔在会议期间咀嚼过的椅子。提前预订；这是伦敦访问量最大的博物馆之一，临时入场很少有位置。",
+          "walk_from_main_route": {
+            "from": "Houses of Parliament",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "St. James's Park",
+          "wikidata_qid": "Q216914",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St_James%27s_Park",
+          "coordinates": {
+            "lat": 51.5025,
+            "lon": -0.1342
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "伦敦最古老的皇家公园，园内有一个小湖，湖中养着鹈鹕（这是1664年俄罗斯大使的礼物，一直保存至今）。横跨湖面的桥梁提供了伦敦最被低估的景观之一 - 一个方向是白金汉宫，另一个方向是Whitehall的塔楼。",
+          "walk_from_main_route": {
+            "from": "Westminster Abbey",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "The City and Tower of London",
+      "cluster_tagline": "从中世纪堡垒到金融中心 - 沿着泰晤士河层叠着伦敦千年的历史",
+      "neighborhood_focus": "The City / Tower",
+      "neighborhood_description": "这个平方英里曾是罗马时期的Londinium，一直保持到都铎王朝时期都是整个城市所在地 - 如今是伦敦的金融区，但仍保留着中世纪的街道格局、Tower of London和St. Paul's Cathedral。英国考古遗迹最密集的平方公里。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Tower of London",
+        "wikidata_qid": "Q11953",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_of_London",
+        "coordinates": {
+          "lat": 51.5081,
+          "lon": -0.0759
+        },
+        "unesco_designation": {
+          "site_name": "Tower of London",
+          "year_inscribed": 1988,
+          "reference_number": 488,
+          "url": "https://whc.unesco.org/en/list/488"
+        },
+        "duration_minutes": 180,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "征服者威廉在1078年建造的白塔，加上900年来的各种增建，曾经是皇家宫殿、监狱、国库、铸币厂和动物园。建议提前在线预订。禁卫军（Beefeater）导游包含在门票中，每30分钟出发一次，意外地成为整个景点的亮点--幽默风趣、不拘一格又历史信息丰富。皇冠珠宝展厅的队伍在开放后的第一个小时内移动最快。",
+        "walk_to_next": {
+          "to": "Tower Bridge",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tower Bridge and the riverside walk",
+        "wikidata_qid": "Q83125",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+        "coordinates": {
+          "lat": 51.5055,
+          "lon": -0.0754
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "这座维多利亚时期的开启桥经常被误认为是伦敦桥（实际上伦敦桥是上游那座造型简朴的桥）。塔之间的人行道现在铺设了玻璃地板，这是付费景点，但在路面甲板上行走是免费的，视角同样壮观。这座桥每年大约抬升800次，时间表已在线公布，停下来观看一次抬升是值得的。",
+        "walk_to_next": {
+          "to": "St. Paul's Cathedral",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "St. Paul's Cathedral",
+        "wikidata_qid": "Q173882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St_Paul%27s_Cathedral",
+        "coordinates": {
+          "lat": 51.5138,
+          "lon": -0.0984
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "克里斯托弗·雷恩设计的杰作，在大火摧毁中世纪大教堂后于1710年竣工。穹顶内的耳语廊--需登257级台阶--具有声学特性，因此得名（贴着墙壁的低语在对面30米处清晰可闻）。参加礼拜活动免费进入；一般参观需购票。工作日下午4点30分左右关闭，建议提前查询时间再规划日落观景。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Museum of London Docklands",
+          "wikidata_qid": "Q1948674",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_London_Docklands",
+          "coordinates": {
+            "lat": 51.5074,
+            "lon": -0.0234
+          },
+          "neighborhood": "Canary Wharf",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "免费博物馆位于一座改造的Georgian风格糖仓库内，讲述伦敦港口的故事以及建立现代城市的贸易历史（包括令人不适的奴隶贸易历史）。从Tower Hill乘坐DLR轻轨10分钟即可到达。作为雨天替代河滨散步的选择再合适不过。",
+          "walk_from_main_route": {
+            "from": "Tower Bridge",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Borough Market",
+          "wikidata_qid": "Q913969",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Borough_Market",
+          "coordinates": {
+            "lat": 51.5055,
+            "lon": -0.0908
+          },
+          "neighborhood": "Southwark",
+          "duration_minutes": 60,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "伦敦历史最悠久的食品市场，自13世纪以来一直在运营。现已成为伦敦首屈一指的美食目的地。周五和周六最为繁忙；周日休市。周二至周四白天的市场相对平静，商贩们有更多时间闲聊。这是从Tower Bridge经south bank前往St. Paul's途中的理想午餐地点。",
+          "walk_from_main_route": {
+            "from": "Tower Bridge",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "South Kensington和Hyde Park",
+      "cluster_tagline": "博物馆三角区 - 三个世界级的收藏馆和伦敦最宏伟的皇家公园",
+      "neighborhood_focus": "South Kensington / Hyde Park",
+      "neighborhood_description": "这个维多利亚时期的文化区由1851年Great Exhibition的收益建立而成，三座世界顶级博物馆聚集在Exhibition Road周围。向北跨越Kensington Gore，Hyde Park和Kensington Gardens形成了250公顷连续的皇家园林。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Victoria and Albert Museum",
+        "wikidata_qid": "Q213322",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum",
+        "coordinates": {
+          "lat": 51.4966,
+          "lon": -0.1722
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "世界最大的装饰艺术与设计博物馆，拥有145个展厅和280万件藏品。免费入场。铸造厅展出了图拉真纪功柱和米开朗基罗《大卫》的真人尺寸石膏铸模，这是伦敦独有的，源于维多利亚时代博物馆收集复制品而非原作的传统。William Morris装饰房间下方的花园咖啡馆提供伦敦最宜人的博物馆午餐体验之一。",
+        "walk_to_next": {
+          "to": "Natural History Museum",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Natural History Museum",
+        "wikidata_qid": "Q309388",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London",
+        "coordinates": {
+          "lat": 51.4967,
+          "lon": -0.1764
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "免费入场。Hintze厅的蓝鲸骨骼标本（2017年取代恐龙Dippy）悬挂在中央大厅，是这座建筑的标志性景观。火山与地震展厅内的地震模拟装置以日本杂货店为场景重现了1995年神户地震，是最令人惊喜的展览。周末以家庭游客为主，如果想有充足的思考空间，请在工作日下午前往。",
+        "walk_to_next": {
+          "to": "Hyde Park Serpentine",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Hyde Park and the Serpentine at sunset",
+        "wikidata_qid": "Q83494",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hyde_Park,_London",
+        "coordinates": {
+          "lat": 51.5074,
+          "lon": -0.1657
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "350英亩的皇家公园，1637年由查理一世向公众开放。Serpentine湖（南岸有戴安娜王妃纪念喷泉）是自然的焦点。湖畔提供租赁船只服务；南侧的Serpentine Galleries展出不断变化的当代艺术作品，以及著名的夏季亭阁设计竞赛。东北角（Marble Arch）的Speakers' Corner仍然在周日早晨举办露天演讲。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Science Museum",
+          "wikidata_qid": "Q674773",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Science_Museum,_London",
+          "coordinates": {
+            "lat": 51.4978,
+            "lon": -0.1745
+          },
+          "neighborhood": "South Kensington",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "免费入场。Stephenson's Rocket火车头、Apollo 10指挥舱和第一台Babbage分析机。二楼的Information Age展厅是最精心策划的叙事展览，追溯了从第一条跨大西洋电缆到现代互联网的通信发展历程。相比隔壁的Natural History Museum，这里游客较少拥挤。",
+          "walk_from_main_route": {
+            "from": "Victoria and Albert Museum",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Kensington Gardens and Palace",
+          "wikidata_qid": "Q1059306",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kensington_Gardens",
+          "coordinates": {
+            "lat": 51.5074,
+            "lon": -0.1801
+          },
+          "neighborhood": "Kensington",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "肯辛顿花园（Kensington Gardens）是海德公园（Hyde Park）向西的延续，严格来说是一个独立的皇家公园。位于西边边缘的肯辛顿宫（Kensington Palace）曾是从威廉三世到维多利亚女王期间每位英国君主的住所，现在是威尔士王妃和王子的住处。南边边缘的艾伯特纪念碑（Albert Memorial）是维多利亚女王为已故丈夫建造的最宏伟的纪念碑，最近已修复至其原有的镀金状态。",
+          "walk_from_main_route": {
+            "from": "Hyde Park Serpentine",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

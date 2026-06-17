@@ -1,0 +1,564 @@
+{
+  "destination": "New York",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:46:13.723Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Lower Manhattan / Financial District",
+    "Brooklyn Bridge / DUMBO / Brooklyn Heights",
+    "Midtown / Fifth Avenue",
+    "Upper West Side / Central Park",
+    "East Village / Lower East Side"
+  ],
+  "guide_description": "穿越纽约五大地区，每个都有独特的地理和文化特色：下曼哈顿的殖民地和金融中心、布鲁克林的桥梁和褐石住宅区、中城的摩天大楼走廊、上西区的博物馆街和公园，以及下东城移民汇聚的街道。每一天都是自成一体且可在该地区内步行游览的行程。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 17550,
+  "total_walking_minutes": 219,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "下曼哈顿和金融区",
+      "cluster_tagline": "殖民地和商业中心 - 纽约的发源地，也曾差点成为其终点",
+      "neighborhood_focus": "Lower Manhattan / Financial District",
+      "neighborhood_description": "曼哈顿南端是纽约市最古老的持续城市格局，由荷兰人在1626年建立为新阿姆斯特丹。在几个街区范围内，矗立着原始的殖民地街道网格、亚历山大·汉密尔顿的墓地、华盛顿首次就职典礼的遗址，以及9月11日纪念馆。这里每个街区所承载的历史厚重感在全市无与伦比。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3250,
+      "day_walking_minutes": 41,
+      "morning": {
+        "activity_title": "9/11 Memorial and Museum",
+        "wikidata_qid": "Q1076123",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_September_11_Memorial_%26_Museum",
+        "coordinates": {
+          "lat": 40.7115,
+          "lon": -74.0134
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "两个足迹池位于户外，免费参观；下方的博物馆需要提前预订定时票。从遗址北侧的玻璃馆进入博物馆。Foundation Hall展厅围绕幸存的泥浆墙和从Ground Zero移除的最后一根钢柱而建，是任何美国纪念馆中建筑结构最引人注目的空间。开放时间就到达可以避免学生团体，他们通常在上午10点左右大量涌入。",
+        "walk_to_next": {
+          "to": "Wall Street and Federal Hall",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Federal Hall National Memorial",
+        "wikidata_qid": "Q1399051",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Federal_Hall",
+        "coordinates": {
+          "lat": 40.7074,
+          "lon": -74.0102
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Wall Street上的希腊复兴式建筑标志着乔治·华盛顿于1789年4月30日宣誓就职美国总统的地点。目前的1842年结构替代了原来的Federal Hall。免费入场 - 这是纽约历史意义最重大且人烟最稀少的景点之一。内部圆形大厅以万神殿为原型，远比狭窄的街道外观要宏伟得多。",
+        "walk_to_next": {
+          "to": "Trinity Church",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Battery Park and the Harbor from the Staten Island Ferry",
+        "wikidata_qid": "Q577472",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Staten_Island_Ferry",
+        "coordinates": {
+          "lat": 40.7014,
+          "lon": -74.0131
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Staten Island渡轮免费，全天24小时运营，距自由女神像800米范围内 - 比从Battery Park的付费渡轮更近。在Manhattan脚下的Whitehall Terminal登船。往程时登上上层甲板的右舷（右侧）可以观看自由女神像，返程时登左舷（左侧）可以观看Lower Manhattan的天际线。往返耗时50分钟，无需在Staten Island下船。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Trinity Church and Churchyard",
+          "wikidata_qid": "Q2293217",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Trinity_Church,_Manhattan",
+          "coordinates": {
+            "lat": 40.7081,
+            "lon": -74.0134
+          },
+          "neighborhood": "Financial District",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Wall Street头部的这座1846年哥特复兴式教堂是纽约在1890年之前最高的建筑。亚历山大·汉密尔顿埋葬在教堂南侧的墓地里 - 他的墓用白色方尖碑标记。墓地也是金融区最安静的户外空间，由古老的榆树遮荫，周围是玻璃高塔。",
+          "walk_from_main_route": {
+            "from": "Federal Hall",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Fraunces Tavern Museum",
+          "wikidata_qid": "Q1449408",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Fraunces_Tavern",
+          "coordinates": {
+            "lat": 40.7034,
+            "lon": -74.0115
+          },
+          "neighborhood": "Financial District",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "这座1719年的建筑曾是华盛顿1783年与其军官进行告别演讲的地点，是曼哈顿现存最古老的建筑。楼上的博物馆规模不大，但演讲举行的长厅已被重建。一楼仍然作为酒吧和餐厅运营 - 曼哈顿少数几个可以在真正的前革命时期房间内饮酒的地方之一。",
+          "walk_from_main_route": {
+            "from": "9/11 Memorial",
+            "distance_meters": 650,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Brooklyn Bridge、DUMBO和Brooklyn Heights",
+      "cluster_tagline": "定义天际线的大桥 - 维多利亚时期的工程杰作、滨水景观和褐砂石林荫道",
+      "neighborhood_focus": "Brooklyn Bridge / DUMBO / Brooklyn Heights",
+      "neighborhood_description": "Brooklyn Bridge将下曼哈顿与布鲁克林历史最悠久、建筑保存最完整的社区相连。DUMBO是桥下曾经的工业滨水区，如今是五个行政区内曼哈顿天际线摄影最密集的地方。位于上方高地的Brooklyn Heights保留了城市现存最精美的19世纪褐砂石排屋，沿着East River边缘有一条林荫步道。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Brooklyn Bridge walkway",
+        "wikidata_qid": "Q83079",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+        "coordinates": {
+          "lat": 40.7061,
+          "lon": -73.9969
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "从曼哈顿走向布鲁克林，不要反向走 - 这样你会面对布鲁克林的高楼，曼哈顿天际线在你身后逐渐消退。行人通道高架在车道上方；要待在行人区域（画出的线条很重要，因为骑自行车的人速度很快）。第一个塔锚点距离曼哈顿入口约700米，是整个过桥过程中视角最好的单一位置 - 在那里停留而不是在中点。",
+        "walk_to_next": {
+          "to": "DUMBO waterfront",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "DUMBO and Brooklyn Bridge Park",
+        "wikidata_qid": "Q1064103",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge_Park",
+        "coordinates": {
+          "lat": 40.7024,
+          "lon": -73.9939
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Washington街在桥塔之间向上的景色 - 背景是Manhattan Bridge - 是纽约最常被拍照的街道画面。站在Washington街和Water街的交叉口向北看。Brooklyn Bridge Park沿着滨水区延伸1.3英里，从桥向南至Atlantic Avenue；Pier 1可以直接看到天际线，Pier 6有沙滩排球区和维多利亚式拱廊下的旋转木马。",
+        "walk_to_next": {
+          "to": "Brooklyn Heights Promenade",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Brooklyn Heights Promenade",
+        "wikidata_qid": "Q810636",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Heights_Promenade",
+        "coordinates": {
+          "lat": 40.6962,
+          "lon": -73.9992
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "一条悬臂式木板路悬跨在Brooklyn - Queens Expressway上，长度为三分之一英里，拥有对Lower Manhattan和两座桥梁的无遮挡视野。这里的日落使曼哈顿天际线沐浴在正西方的光线中。后面的住宅街道 - Willow Street、Pierrepont Street、Montague Terrace - 形成了美国最完整的联邦式和希腊复兴建筑街景，走完它们需要十分钟。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "New York Transit Museum",
+          "wikidata_qid": "Q1755738",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_Transit_Museum",
+          "coordinates": {
+            "lat": 40.6883,
+            "lon": -73.9901
+          },
+          "neighborhood": "Brooklyn Heights",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "建在一个已停用的1936年IND地铁站内，下层月台上有可以回溯到1904年的原始地铁车厢，你可以上车并坐在里面。仅是旋转栅门收藏就跨越了纽约八十年的票价收集历史。从Promenade向南步行十分钟 - 对于天气不好的日子是个不错的备选方案。",
+          "walk_from_main_route": {
+            "from": "Brooklyn Heights Promenade",
+            "distance_meters": 650,
+            "walking_minutes": 9
+          }
+        },
+        {
+          "activity_title": "Jane's Carousel",
+          "wikidata_qid": "Q1679887",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jane%27s_Carousel",
+          "coordinates": {
+            "lat": 40.7027,
+            "lon": -73.9901
+          },
+          "neighborhood": "DUMBO",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "一座1922年手工雕刻的木制旋转木马，经过25年的修复，安装在Brooklyn Bridge Park水边由Nouvel设计的玻璃展馆内。大多数日子都可以花少量费用乘坐。该展馆直接位于Brooklyn桥和Manhattan桥之间，从这个位置很难拍出不好看的照片。",
+          "walk_from_main_route": {
+            "from": "DUMBO waterfront",
+            "distance_meters": 250,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Midtown和Fifth Avenue",
+      "cluster_tagline": "竖立的城市 - Art Deco摩天大楼、Rockefeller Center以及Midtown峡谷在其最戏剧性的形态",
+      "neighborhood_focus": "Midtown / Fifth Avenue",
+      "neighborhood_description": "Midtown走廊在42街至57街之间是世界上最密集的20世纪地标建筑集中地 - Chrysler Building、Grand Central Terminal、Rockefeller Center、St. Patrick's Cathedral和New York Public Library都在彼此相距数个街区之内。Fifth Avenue是组织脊柱，在这里网格的逻辑最易辨认。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Grand Central Terminal",
+        "wikidata_qid": "Q180916",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_Central_Terminal",
+        "coordinates": {
+          "lat": 40.7527,
+          "lon": -73.9772
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "这座1913年落成的美术馆艺术建筑是免费进入的,也是纽约最精美的室内空间之一。Main Concourse的天花板上绘有2,500颗星星的天蓝色星图,以其反向绘制而著称(从天外望向天球,而非从地球望向天空)。在上午9点之前站在东侧上层阳台上,可以观看上班高峰期的人流涌动。下层Oyster Bar外的Whispering Gallery复制了教堂穹顶的声学效应。",
+        "walk_to_next": {
+          "to": "Rockefeller Center",
+          "distance_meters": 850,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Rockefeller Center",
+        "wikidata_qid": "Q214214",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rockefeller_Center",
+        "coordinates": {
+          "lat": 40.7587,
+          "lon": -73.9787
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "这座22栋建筑组成的装饰艺术风格建筑群建于1930-1939年,最好的游览方式是沿着Channel Gardens从Fifth Avenue步行向30 Rock方向前进 - 通过两侧建筑框架看向镀金的Prometheus雕像和Lower Plaza的视角被设计成了一条处理庄严的长廊。Top of the Rock观景台(需付费)提供了与Empire State Building不同的天际线视角:从67层楼高的地方向南眺望Empire State Building。建筑群西侧的Radio City Music Hall提供大堂导览。",
+        "walk_to_next": {
+          "to": "St. Patrick's Cathedral",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "New York Public Library and Bryant Park",
+        "wikidata_qid": "Q1699233",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_Public_Library_Stephen_A._Schwarzman_Building",
+        "coordinates": {
+          "lat": 40.7532,
+          "lon": -73.9822
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "这座1911年落成的美术馆艺术风格的旗舰图书馆是免费进入的。第三层的Rose Main Reading Room - 一个297英尺长、52英尺高的大厅,拥有原始木镶板和黄铜阅读灯 - 是纽约少数几个真正宏伟壮观的室内空间之一,而大多数游客都会错过。位于Fifth Avenue的图书馆狮子被命名为Patience(南)和Fortitude(北),是大萧条时期由市长LaGuardia命名的。图书馆正后方的Bryant Park是城市管理最好的小型公园。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "St. Patrick's Cathedral",
+          "wikidata_qid": "Q207543",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St._Patrick%27s_Cathedral,_New_York",
+          "coordinates": {
+            "lat": 40.7586,
+            "lon": -73.9762
+          },
+          "neighborhood": "Midtown",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "这座1878年落成的哥特复兴式大教堂位于Fifth Avenue,免费进入,且从Rockefeller Center出发基本无需绕路,因为就在街对面。白色大理石外立面与周围玻璃塔楼之间的对比从内部通过玫瑰花窗向外眺望时比从街道上看更加引人注目。工作日中午的弥撒在12:30pm举行,教堂在弥撒前后对游客开放。",
+          "walk_from_main_route": {
+            "from": "Rockefeller Center",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Chrysler Building lobby",
+          "wikidata_qid": "Q186306",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chrysler_Building",
+          "coordinates": {
+            "lat": 40.7516,
+            "lon": -73.9755
+          },
+          "neighborhood": "Midtown East",
+          "duration_minutes": 20,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "这座1930年的装饰艺术风格塔楼的大厅在营业时间内向公众免费开放。非洲大理石墙壁、描绘航空和工业的天花板壁画以及原始电梯门是纽约保存最完整的1930年代商业内部装饰之一。该建筑距离Grand Central只有五分钟的步行路程 - 建议结合早上开始参观，这样可以避开人流高峰。",
+          "walk_from_main_route": {
+            "from": "Grand Central Terminal",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Upper West Side和Central Park",
+      "cluster_tagline": "文化和绿色中心 - 博物馆大道、公园的文学景观和Dakota街区",
+      "neighborhood_focus": "Upper West Side / Central Park",
+      "neighborhood_description": "Upper West Side从72街到86街，是城市知识和文化身份的中心 - Lincoln Center、American Museum of Natural History和Metropolitan Museum of Art都在Central Park西边界的步行距离内。公园本身由Frederick Law Olmsted和Calvert Vaux设计，于1858年开放，是整个曼哈顿上城西侧的组织性景观。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3900,
+      "day_walking_minutes": 49,
+      "morning": {
+        "activity_title": "American Museum of Natural History",
+        "wikidata_qid": "Q217717",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/American_Museum_of_Natural_History",
+        "coordinates": {
+          "lat": 40.7813,
+          "lon": -73.974
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Theodore Roosevelt Rotunda 入口大厅以50英尺高的腕龙昂起后腿保护幼龙的雕像而闻名，立刻定下了参观的基调。生物多样性展厅和海洋生物展厅（蓝鲸悬挂在蓝色照明的展厅中）是恐龙展厅之外最值得看的两个展厅。位于西北角的 Rose Center for Earth and Space 是一个独立的 Hayden Planetarium，位于玻璃立方体内，值得购买额外门票。开门时就到达：恐龙展厅很快就会人满为患。",
+        "walk_to_next": {
+          "to": "Central Park - Strawberry Fields and the Ramble",
+          "distance_meters": 400,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Central Park",
+        "wikidata_qid": "Q43244",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Central_Park",
+        "coordinates": {
+          "lat": 40.7851,
+          "lon": -73.9683
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "从72街入口进入，前往 Strawberry Fields（泪滴形状的花园，用来纪念 John Lennon，位于 Central Park West 的 Dakota 公寓楼对面，Lennon 在那里被枪杀）。从那里沿着东北方向的小径进入 Ramble，这是一个36英亩的设计林地，蜿蜒的小径刻意设计得令人迷失方向，Olmsted 称之为他最重要的设计挑战。位于 Ramble 东北边缘的 Belvedere Castle 配有免费望远镜和最佳的360度公园景观。",
+        "walk_to_next": {
+          "to": "Metropolitan Museum of Art",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Metropolitan Museum of Art",
+        "wikidata_qid": "Q160236",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art",
+        "coordinates": {
+          "lat": 40.7794,
+          "lon": -73.9632
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "周五和周六营业至晚上9点 - 屋顶雕塑花园（5月至10月开放）是博物馆中利用率最低的空间，在日落时分可以直接看到 Central Park 的树线景观。在工作日晚间，埃及展厅和美国展厅的时期房间几乎没有人。Sackler Wing 中的 Temple of Dendur，一座完整的公元前15年埃及神庙，于1965年从尼罗河逐块搬迁而来，在大厅安静且西方光线透过玻璃墙洒入时观看效果最佳。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "The Dakota",
+          "wikidata_qid": "Q1193877",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/The_Dakota",
+          "coordinates": {
+            "lat": 40.7763,
+            "lon": -73.9797
+          },
+          "neighborhood": "Upper West Side",
+          "duration_minutes": 15,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "这座1884年的德国文艺复兴风格公寓楼是 John Lennon 生活的地方，他于1980年12月8日在这里被枪杀。这栋楼是私人建筑，你只能从街道上观看。Central Park West 上的拱形马车入口是 Lennon 被杀害时返回的地方。两侧各有一个 Dakota 陶土头像的大门，是纽约建筑入口中装饰最精美的之一。",
+          "walk_from_main_route": {
+            "from": "Central Park - Strawberry Fields",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "New-York Historical Society",
+          "wikidata_qid": "Q1416290",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/New-York_Historical_Society",
+          "coordinates": {
+            "lat": 40.779,
+            "lon": -73.9737
+          },
+          "neighborhood": "Upper West Side",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "纽约历史最悠久的博物馆（成立于1804年），位于Central Park West上，与美国自然历史博物馆正对面。四楼画廊展出了奥杜邦为《美洲鸟类》创作的全部435幅原始水彩画 - 不是复制品，而是真迹，以轮流展出的方式呈现。同楼层的Henry Luce III Center是一个可见式收藏展示空间，收藏了40,000件物品，没有墙面标签，鼓励自主探索。",
+          "walk_from_main_route": {
+            "from": "American Museum of Natural History",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "East Village和Lower East Side",
+      "cluster_tagline": "移民的层次积累与反文化的记忆 - 这个城市在街道层面历史最丰富的社区",
+      "neighborhood_focus": "East Village / Lower East Side",
+      "neighborhood_description": "Houston Street和14th Street之间、Bowery以东的街区，每英亩的移民历史层次比美国任何其他地方都更加密集。德国、犹太人、意大利、波多黎各和乌克兰社区各自留下了永久的物质痕迹 - 被改建成摇滚俱乐部的犹太教堂、被保护成博物馆的廉租公寓楼、从废弃地块开辟的社区花园。与下曼哈顿几乎任何其他地方相比，这个社区在这里更好地抵抗了士绅化。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3500,
+      "day_walking_minutes": 44,
+      "morning": {
+        "activity_title": "Tenement Museum",
+        "wikidata_qid": "Q7702624",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tenement_Museum",
+        "coordinates": {
+          "lat": 40.7187,
+          "lon": -73.99
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "只能通过导游讲解参观 - 需提前在线预订，因为旅游团常常提前数天售罄。Orchard Street 上的两座建筑保存了1860年代至1930年代真实移民家庭的公寓；不同的导游讲解团介绍不同家庭的故事（德国犹太人、意大利天主教徒、东欧犹太人）。97 Orchard Street 建筑内的公寓被精心恢复到特定的年份而非笼统的历史时期；Rogarshevsky 家族的公寓被保留在1918年的样貌，细节最为丰富。可根据最感兴趣的家族历史来选择导游讲解团。",
+        "walk_to_next": {
+          "to": "Orchard Street and the Lower East Side",
+          "distance_meters": 100,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Lower East Side Tenement neighborhood walk",
+        "wikidata_qid": "Q503827",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lower_East_Side",
+        "coordinates": {
+          "lat": 40.7153,
+          "lon": -73.9867
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "沿 Orchard Street 向北步行至 Delancey，然后向东到 Essex Street Market（1940年推车市场的继承者，现已是有顶棚的食品大厅）。从那里沿 Essex 向北到 Rivington，然后向西到 Eldridge Street 上的 Eldridge Street Synagogue - 这座1887年的摩尔式哥特建筑经过近期修复，保留了原始的玫瑰花窗，西侧窗户是艺术家 Kiki Smith 在2010年安装的现代替代品。从街道上可以看到同一立面上原始窗户与新窗户的对比，无需进入建筑内部。",
+        "walk_to_next": {
+          "to": "St. Marks Place and Tompkins Square Park",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Tompkins Square Park and St. Marks Place",
+        "wikidata_qid": "Q7819253",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tompkins_Square_Park",
+        "coordinates": {
+          "lat": 40.7261,
+          "lon": -73.9816
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "这片十英亩的广场自南北战争征兵骚乱以来，见证了东村的每一个重大政治时刻。南侧的棋桌在大多数午后和晚间都有人使用。St. Marks Place（East 8th Street）在 Second 和 Third Avenues 之间的路段是1960年代反主流文化的中心 - 96 St. Marks Place 这座建筑曾同时是托洛茨基阅读室（1917年）和安迪·沃霍尔的 Electric Circus（1967年）。First Avenue 和 Avenue A 之间的街区汇集了最密集的酒吧、黑胶唱片店和餐饮选择，是结束一天的理想去处。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Eldridge Street Synagogue",
+          "wikidata_qid": "Q5361498",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Eldridge_Street_Synagogue",
+          "coordinates": {
+            "lat": 40.7139,
+            "lon": -73.9927
+          },
+          "neighborhood": "Lower East Side",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "这座1887年的犹太教堂是纽约东欧犹太移民首次专门修建的。修复工程耗时20年，投入$20 million；主礼拜堂是城市中最美丽的宗教室内空间之一。导游讲解团每个整点时间出发；导游讲解关于修建它的具体家族的背景信息，使得室内空间的意义以自助参观无法达到的方式变得清晰易懂。",
+          "walk_from_main_route": {
+            "from": "Tenement Museum",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Museum at Eldridge Street",
+          "wikidata_qid": "Q15061731",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_at_Eldridge_Street",
+          "coordinates": {
+            "lat": 40.7139,
+            "lon": -73.9927
+          },
+          "neighborhood": "Lower East Side",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Eldridge Street Synagogue 内的博物馆专门展示该教堂及周边社区的移民历史。周六闭馆。如果想同时参观 Tenement Museum，建议购买两个博物馆的联票，并互相参照 - 它们共同展现了德国犹太人和东欧犹太人在同一片街区内的移民经历。",
+          "walk_from_main_route": {
+            "from": "Tenement Museum",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

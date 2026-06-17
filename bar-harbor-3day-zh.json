@@ -1,0 +1,306 @@
+{
+  "destination": "Bar Harbor",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:05:46.256Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Bar Harbor Village and Shore Path",
+    "Acadia National Park - Cadillac Mountain and Carriage Roads",
+    "Acadia National Park - Jordan Pond and the South Loop"
+  ],
+  "guide_description": "在 Mount Desert Island 停留三天，以 Bar Harbor 村为基地，深入 Acadia National Park。第一天游览村庄滨水区和海滨步道。第二、三天深入公园 - 分别游览马车道网络山顶和南池环线。每天自成一体，可根据天气情况调整顺序。",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 9100,
+  "total_walking_minutes": 114,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Bar Harbor Village 和 Shore Path",
+      "cluster_tagline": "繁忙的滨水城镇和 Frenchman Bay 上方长达一英里的海滨步道",
+      "neighborhood_focus": "Bar Harbor Village and Shore Path",
+      "neighborhood_description": "Bar Harbor 坐落在 Mount Desert Island 的东北海岸，面朝 Frenchman Bay 和 Porcupine Islands。这个村庄保留了 19 世纪晚期避暑地的特色 - 规整的市中心网格布局，清晰的港口边界，以及一条公众可达的海滨步道，其历史甚至早于国家公园的建立。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "Bar Harbor Village Green and Agamont Park",
+        "wikidata_qid": "Q4856421",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bar_Harbor,_Maine",
+        "coordinates": {
+          "lat": 44.3876,
+          "lon": -68.2041
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Agamont Park位于城镇码头的顶端，可以欣赏到村庄内Frenchman Bay和Porcupine Islands最开阔无遮挡的景观。请在第一批观鲸船大约早上8点出发前抵达 - 港口的船只和清晨照射在岛屿上的阳光共同构成了绝佳的景象。内陆一个街区的绿地在周日早晨举办农贸市场。",
+        "walk_to_next": {
+          "to": "Shore Path",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Shore Path",
+        "wikidata_qid": "Q7501820",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shore_Path_(Bar_Harbor)",
+        "coordinates": {
+          "lat": 44.3861,
+          "lon": -68.2001
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "沿着花岗岩海岸线的平坦一英里步道，自1880年以来一直向公众开放，通过跨越私人小屋地产的地役权进行维护。步道从城镇码头向南延伸至Bar Island陆桥区域。从Agamont Park开始顺时针行走 - 整个过程中Frenchman Bay始终在你的左侧，Porcupine Islands会随着你的移动而改变视角。穿着防滑鞋；岩石在潮湿时容易打滑。",
+        "walk_to_next": {
+          "to": "Abbe Museum",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Abbe Museum",
+        "wikidata_qid": "Q4666328",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Abbe_Museum",
+        "coordinates": {
+          "lat": 44.3881,
+          "lon": -68.2069
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "一家由部落管理的博物馆，讲述缅因州Wabanaki民族12,000年的历史 - 是全州仅有的此类机构。位于市中心的建筑于2001年开放，展示核心常设展览；轮换展览涉及当代Wabanaki艺术和政治。原始的1928年砌石建筑位于Acadia国家公园内的Sieur de Monts Spring - 值得在第二天作为短途迂回路线进行参观。淡季周二闭馆。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Bar Island at low tide",
+          "wikidata_qid": "Q4856421",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bar_Harbor,_Maine",
+          "coordinates": {
+            "lat": 44.3944,
+            "lon": -68.2094
+          },
+          "neighborhood": "Bar Harbor Village",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "一条碎石堤坝在低潮前后各约三小时内将城镇与Bar Island连接起来 - 请在前一天查阅NOAA潮汐图表，而不是笼统的估计值。走到岛上，沿短步道到达西侧观景点，然后在堤坝被淹没前返回。当地人通过从城镇码头末端观察堤坝来计时；当堤坝边缘开始变窄时，你大约还有45分钟的时间。",
+          "walk_from_main_route": {
+            "from": "Agamont Park",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Cadillac Mountain和马车道",
+      "cluster_tagline": "Acadia的山顶和由洛克菲勒资助的公园东半部分的马车道网络",
+      "neighborhood_focus": "Acadia National Park - Cadillac Mountain and Carriage Roads",
+      "neighborhood_description": "Acadia国家公园的东部区域覆盖了Mount Desert Island北半部分的大部分地区,包括Cadillac Mountain - 海拔1,530英尺,是美国东海岸的最高点,从10月初到3月初,是整个美国连续领土中第一个看到日出的地方。小约翰·D·洛克菲勒资助并设计了45英里的碎石马车道,在1913年到1940年之间穿过这片地形。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Cadillac Mountain Summit",
+        "wikidata_qid": "Q1022537",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cadillac_Mountain",
+        "coordinates": {
+          "lat": 44.3521,
+          "lon": -68.2239
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "从5月底到10月期间,驾车上山需要购买定时车辆预约(通过Recreation.gov购买) - 需要提前数周预订,因为当日车位通常在上午7点前就售出。山顶环形步道耗时30分钟,景观覆盖从Porcupine Islands东部到Schoodic Peninsula的全景,以及向南跨越岛屿到海洋的景色。无论下方天气如何,请携带防风外层;山顶的温度始终比Bar Harbor低10到15度。",
+        "walk_to_next": {
+          "to": "Eagle Lake Carriage Road",
+          "distance_meters": 2200,
+          "walking_minutes": 28
+        }
+      },
+      "afternoon": {
+        "activity_title": "Eagle Lake Carriage Road Loop",
+        "wikidata_qid": "Q5333167",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eagle_Lake_(Maine)",
+        "coordinates": {
+          "lat": 44.3647,
+          "lon": -68.2563
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "绕Eagle Lake的6英里马车道环线是公园中最平坦、最易通行的路线，适合步行、骑行或两者结合。Bar Harbor的自行车租赁店会将自行车送到Route 233上的Eagle Lake停车场。湖的南侧倒映着Cadillac Mountain的风景；北段路线在山毛榉和桦树的树冠下蜿蜒，几乎听不到车辆噪音。",
+        "walk_to_next": {
+          "to": "Sieur de Monts Spring",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "Sieur de Monts Spring and Wild Gardens of Acadia",
+        "wikidata_qid": "Q7512119",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sieur_de_Monts_Spring",
+        "coordinates": {
+          "lat": 44.3681,
+          "lon": -68.2028
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "一处泉水汇聚的空地，是Acadia的第一任管理员George Dorr建造原始公园基础设施的地方。Acadia野生植物园是占地半英亩的本地植物群落集合，按栖息地类型组织：沼泽、荒地、针叶林和高山草甸。1928年建造的原始Abbe Museum石砌八边形建筑位于此处，至今仍按季节开放。泉水全年流入一个石盆；下午晚些时候空地比较安静，因为早晨的登山者已经散去。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Precipice Trail viewpoint",
+          "wikidata_qid": "Q1022537",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cadillac_Mountain",
+          "coordinates": {
+            "lat": 44.3622,
+            "lon": -68.2003
+          },
+          "neighborhood": "Acadia National Park",
+          "duration_minutes": 180,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Acadia最暴露的铁梯路线，通过1,000英尺近乎垂直的花岗岩攀登Champlain Mountain东面。这不是一次普通的登山 - 铁梯和铁制把手在大部分攀登过程中都起承重作用。4月至8月中旬关闭，以保护游隼筑巢。在非关闭日期，务必在早上8点前开始登山，以避免下午在暴露的上部山面遭遇雷暴。",
+          "walk_from_main_route": {
+            "from": "Sieur de Monts Spring",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Jordan Pond和South Loop",
+      "cluster_tagline": "Acadia南部的冰川侵蚀地形 - 清澈的池塘、海洋悬崖和沙滩",
+      "neighborhood_focus": "Acadia National Park - Jordan Pond and the South Loop",
+      "neighborhood_description": "Acadia南部位于Mount Desert Island上，沿着Park Loop Road而行，景观与北部完全不同 - 较少受山峰主导，更多沿海特色。Jordan Pond坐落在由冰川侵蚀形成的山谷中，两侧是Bubbles和Penobscot Mountain；Ocean Path沿着大西洋海岸线延伸，经过Thunder Hole和Otter Cliffs下方。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 34,
+      "morning": {
+        "activity_title": "Jordan Pond Path",
+        "wikidata_qid": "Q6277020",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_Pond_(Maine)",
+        "coordinates": {
+          "lat": 44.3203,
+          "lon": -68.2558
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "环绕Jordan Pond的3.3英里环形步道在南岸和东岸地势平坦，北部则需经过木制木板路上升穿过沼泽地。北端映照着Bubbles - 两座近乎对称的冰川沉积丘陵 - 倒映在水面上，该水体在法律上必须保持洁净状态，因为它是Bar Harbor的饮用水源，清洁度明显高于公园内其他可比湖泊。顺时针开始步行可在接近时始终看到Bubbles。夏季时建议在上午9点前到达，以便在Jordan Pond House停车场获得停车位。",
+        "walk_to_next": {
+          "to": "Thunder Hole",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "afternoon": {
+        "activity_title": "Thunder Hole and Ocean Path",
+        "wikidata_qid": "Q7711168",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Thunder_Hole",
+        "coordinates": {
+          "lat": 44.3097,
+          "lon": -68.1859
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "粉红色花岗岩海岸线上的一个海蚀洞，汹涌的海浪被压缩成在停车区都能听见的响亮撞击声。效果在高潮前两小时且中等浪高时最为壮观 - 前一晚应查看潮汐表和Frenchman Bay的NOAA浮标预报。连接Thunder Hole南部至Otter Cliffs的Ocean Path是一条2英里长的平坦碎石小路，沿着Acadia最壮观的海岸线段延伸。",
+        "walk_to_next": {
+          "to": "Sand Beach",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Sand Beach",
+        "wikidata_qid": "Q7413108",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sand_Beach_(Acadia_National_Park)",
+        "coordinates": {
+          "lat": 44.3267,
+          "lon": -68.1839
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "缅因州波特兰以北海岸线上少数几个沙滩之一 - 沙子大约70%由贝壳碎片组成而非石英，这使得沙滩呈现出独特的淡粉棕色，有别于大西洋中部海滩。即使在8月，水温平均也只有55华氏度，因此大多数游客选择散步而非游泳。沙滩面向东南方向；傍晚的阳光斜射其上，岬角在夕阳下闪闪发光。大头迹象步道环绕东侧岬角，全长1.5英里，如果体力允许值得一走。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Otter Cliffs",
+          "wikidata_qid": "Q7112104",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Otter_Cliffs",
+          "coordinates": {
+            "lat": 44.3022,
+            "lon": -68.1867
+          },
+          "neighborhood": "Acadia National Park",
+          "duration_minutes": 45,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "100英尺高的花岗岩壁直接临落大西洋 - 这是美国东海岸从里约热内卢以北最高的岬角悬崖。Park Loop Road上有一个小停靠处可直接进入；Ocean Path的南端在此终止。攀岩者在大多数早晨都在岩壁上活动，从悬崖顶部可以看到他们。请远离悬崖边缘 - 花岗岩表面剥落，边缘的稳定性不如看起来那么好。",
+          "walk_from_main_route": {
+            "from": "Thunder Hole",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        },
+        {
+          "activity_title": "Jordan Pond House",
+          "wikidata_qid": "Q6277020",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_Pond_(Maine)",
+          "coordinates": {
+            "lat": 44.3203,
+            "lon": -68.2558
+          },
+          "neighborhood": "Acadia National Park",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "Jordan Pond House的下午茶传统可以追溯到1870年代，当时Nellie McIntire开始为马车道游客供应泡芙和茶水。现在的建筑是1979年重建的，原建筑毁于火灾，但在草坪上俯瞰池塘享用泡芙配草莓酱的传统仪式保持不变。下午茶服务从上午11:30开始；尽早到达，否则在夏季午后可能需要等候30分钟。",
+          "walk_from_main_route": {
+            "from": "Jordan Pond Path",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}

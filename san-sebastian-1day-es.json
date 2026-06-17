@@ -1,0 +1,128 @@
+{
+  "destination": "San Sebastian",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:16:37.773Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Parte Vieja / Monte Urgull / La Concha"
+  ],
+  "guide_description": "Un día cubriendo el arco esencial de San Sebastian: el casco antiguo medieval con sus bares de pintxos e iglesia barroca, la fortaleza en la cima de una colina que domina la Bahía de Vizcaya, y el paseo curvo de La Concha al atardecer. Todo es accesible a pie dentro de una península compacta.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3200,
+  "total_walking_minutes": 40,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Parte Vieja y Monte Urgull",
+      "cluster_tagline": "Bares de pintxos del casco antiguo, una fortaleza en la cima de una colina, y la bahía más bella de España",
+      "neighborhood_focus": "Parte Vieja / Monte Urgull / La Concha",
+      "neighborhood_description": "La Parte Vieja de San Sebastian es una densa malla de calles estrechas entre el puerto y el río Urumea, reconstruida después de que un asalto británico y portugués quemara gran parte de la ciudad en 1813. Monte Urgull se alza directamente detrás, coronado por un castillo y una estatua gigante de Cristo, con vistas sin obstáculos sobre la bahía. La Concha se curva hacia el oeste desde el casco antiguo como una de las playas urbanas más célebres de Europa.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 40,
+      "morning": {
+        "activity_title": "Basilica of Santa Maria del Coro",
+        "wikidata_qid": "Q1068308",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_of_Santa_Maria_del_Coro",
+        "coordinates": {
+          "lat": 43.3237,
+          "lon": -1.9757
+        },
+        "unesco_designation": null,
+        "duration_minutes": 40,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La fachada churrigueresca del siglo XVIII en Calle Mayor es el ancla arquitectónica del Casco Viejo. Entra desde el lado de la calle estrecha en lugar de la fachada principal para obtener la revelación teatral completa del retablo dorado en el interior. La luz matutina entra a través de las ventanas traseras e incide directamente en el altar mayor - a mediodía el interior es considerablemente más oscuro.",
+        "walk_to_next": {
+          "to": "Monte Urgull and Castillo de la Mota",
+          "distance_meters": 450,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Monte Urgull and Castillo de la Mota",
+        "wikidata_qid": "Q15634949",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monte_Urgull",
+        "coordinates": {
+          "lat": 43.3264,
+          "lon": -1.9808
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "La colina es accesible libremente a través de múltiples caminos de escaleras desde la Parte Vieja - el ascenso más corto comienza en el extremo norte de Calle San Juan y tarda aproximadamente doce minutos. El museo del castillo es pequeño pero las baterías de cañones y los paseos de la muralla ofrecen un panorama completo: la desembocadura de la bahía al norte, Monte Igueldo al oeste, la desembocadura del río Urumea al este. La estatua del Sagrado Corazón en la cima es visible desde la mayor parte de la ciudad y funciona como el mejor punto de orientación en San Sebastian.",
+        "walk_to_next": {
+          "to": "Playa de la Concha and Paseo de la Concha",
+          "distance_meters": 850,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Paseo de la Concha and Playa de la Concha",
+        "wikidata_qid": "Q1479931",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/La_Concha_beach",
+        "coordinates": {
+          "lat": 43.3199,
+          "lon": -1.9865
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Recorre toda la longitud del paseo marítimo desde el extremo del Casco Viejo hasta la escultura Peine del Viento en la punta más occidental - el arco completo es de poco menos de dos kilómetros y tarda aproximadamente veinticinco minutos a paso de paseo. Las barandillas de balustre de hierro forjado y las farolas Belle Epoque son el herraje original del siglo XIX. La puesta de sol incide directamente en Monte Igueldo en el extremo occidental, silueteando los peines de viento de Eduardo Chillida contra el Atlántico - llega al sitio Peine del Viento quince minutos antes de la puesta de sol para obtener el efecto completo.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Bretxa Market",
+          "wikidata_qid": "Q16003780",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mercado_de_la_Bretxa",
+          "coordinates": {
+            "lat": 43.3244,
+            "lon": -1.9768
+          },
+          "neighborhood": "Parte Vieja",
+          "duration_minutes": 30,
+          "type": "market",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "El mercado de alimentos cubierto en el borde de la Parte Vieja, dividido en dos niveles - la sala subterránea maneja pescado y",
+          "walk_from_main_route": {
+            "from": "Basilica of Santa Maria del Coro",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Aquarium of San Sebastian",
+          "wikidata_qid": "Q2827852",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Aquarium_of_San_Sebasti%C3%A1n",
+          "coordinates": {
+            "lat": 43.3257,
+            "lon": -1.9785
+          },
+          "neighborhood": "Parte Vieja",
+          "duration_minutes": 75,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Ubicado en el antiguo edificio naval en la boca del puerto, el acuario tiene una sección importante dedicada a la historia de la pesca de altura vasca y la caza de ballenas que pone la cultura de los pintxos en su verdadero contexto histórico: los vascos ya estaban pescando en los Grand Banks de Newfoundland antes que Colón. El túnel tanque es la atracción habitual, pero la planta de historia marítima es la razón por la que los lugareños siguen visitando. Una buena alternativa si el tiempo empeora viniendo del Atlántico.",
+          "walk_from_main_route": {
+            "from": "Basilica of Santa Maria del Coro",
+            "distance_meters": 260,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

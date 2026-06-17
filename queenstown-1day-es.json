@@ -1,0 +1,128 @@
+{
+  "destination": "Queenstown",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:18:38.723Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Queenstown Town Centre / Waterfront / Bob's Peak"
+  ],
+  "guide_description": "Un día cubriendo la experiencia esencial de Queenstown: el centro de la ciudad junto al lago, el panorama de The Remarkables desde Bob's Peak, y el histórico distrito de la fiebre del oro de Arrowtown como una excursión por la tarde. El día progresa desde el paseo a nivel del lago hasta un punto de vista elevado y termina en la mejor zona de puesta de sol de la ciudad.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Queenstown Lakefront y Bob's Peak",
+      "cluster_tagline": "Pueblo alpino junto al lago en las faldas de The Remarkables - frente al agua, cresta de teleférico e historia de la fiebre del oro",
+      "neighborhood_focus": "Queenstown Town Centre / Waterfront / Bob's Peak",
+      "neighborhood_description": "Queenstown se sitúa en una península estrecha que se adentra en Lake Wakatipu, respaldada por la empinada Queenstown Hill. El centro de la ciudad es compacto y accesible a pie, con el paseo marítimo, Steamer Wharf y la base del teleférico a pocos minutos los unos de los otros. Bob's Peak se eleva 450 metros directamente sobre la ciudad y ofrece el panorama definitivo del lago y la cordillera de The Remarkables.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Queenstown Gardens",
+        "wikidata_qid": "Q7270237",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Queenstown_Gardens",
+        "coordinates": {
+          "lat": -45.0311,
+          "lon": 168.6608
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Los jardines ocupan toda la península de tómbolo que resguarda la marina del pueblo. Recorre el sendero del perímetro exterior en el sentido de las agujas del reloj - la costa oriental mira directamente hacia Cecil Peak y ofrece la vista más clara e sin obstáculos de la cordillera Remarkables, con el agua tranquila antes de que el viento de la tarde se levante. Los árboles de abeto Douglas en el interior datan de la plantación de los años 1870 y se encuentran entre los más grandes de la Isla Sur.",
+        "walk_to_next": {
+          "to": "Queenstown Waterfront and Steamer Wharf",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Skyline Queenstown Gondola and Bob's Peak",
+        "wikidata_qid": "Q7534757",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Skyline_Queenstown",
+        "coordinates": {
+          "lat": -45.0244,
+          "lon": 168.6586
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "La base del teleférico está a corta distancia a pie cuesta arriba desde el extremo de Beach Street del centro del pueblo - sigue Brecon Street en lugar de la zona turística para llegar sin las multitudes. En la cima, camina hacia la izquierda pasando la pista de luge hasta el punto de mirador de la cresta, que está aproximadamente 100 metros más allá de donde se detienen la mayoría de los visitantes - el arco completo del Lake Wakatipu desde Remarkables hasta Cecil Peak se abre desde allí. Si las nubes cubren Remarkables, espera 20 minutos; el valle frecuentemente se despeja al mediodía.",
+        "walk_to_next": {
+          "to": "Steamer Wharf",
+          "distance_meters": 910,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Steamer Wharf and Queenstown Bay waterfront",
+        "wikidata_qid": "Q124399991",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Queenstown,_New_Zealand",
+        "coordinates": {
+          "lat": -45.0302,
+          "lon": 168.6617
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Steamer Wharf es el viejo muelle comercial - la estructura de madera tallada es original y las vistas del lago desde su extremo exterior son sin obstáculos. La puesta de sol sobre Cecil Peak tiñe el lago de un naranja profundo en noches despejadas. Camina por el paseo frente al lago hacia el sur desde el muelle hacia el parque conmemorativo en lugar de permanecer en el lado concurrido de Rees Street - la hilera de bancos del parque mira hacia el oeste y recibe todo el color sin el tráfico de los restaurantes.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Arrowtown",
+          "wikidata_qid": "Q754131",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arrowtown",
+          "coordinates": {
+            "lat": -44.9411,
+            "lon": 168.8286
+          },
+          "neighborhood": "Arrow River / Arrowtown",
+          "duration_minutes": 120,
+          "type": "town",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "Una ciudad de la fiebre del oro preservada de los años 1860, ubicada a 20 kilómetros al noreste de Queenstown, accesible en autobús o automóvil de alquiler a través de State Highway 6",
+          "walk_from_main_route": {
+            "from": "Queenstown Town Centre",
+            "distance_meters": 26000,
+            "walking_minutes": 325
+          }
+        },
+        {
+          "activity_title": "Queenstown Hill Time Walk",
+          "wikidata_qid": "Q55623756",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Queenstown_Hill",
+          "coordinates": {
+            "lat": -45.0194,
+            "lon": 168.6686
+          },
+          "neighborhood": "Queenstown Hill",
+          "duration_minutes": 90,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "El paseo de ida y vuelta de 90 minutos hasta la escultura Basket of Dreams en la cumbre comienza desde Edinburgh Place, a una cuadra del centro de la ciudad. El sendero está bien acondicionado pero expuesto cerca de la cima, la vista desde el banco en la cumbre se extiende por toda la longitud del Lake Wakatipu y es notablemente diferente a la perspectiva del teleférico, mirando hacia el noreste en lugar del sur. Vaya temprano antes de que se levante el viento oeste de la tarde.",
+          "walk_from_main_route": {
+            "from": "Queenstown Gardens",
+            "distance_meters": 1300,
+            "walking_minutes": 16
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "destination": "Barcelona",
+  "duration_days": 5,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Barri Gòtic / El Born",
+    "Eixample / Gaudí axis",
+    "Montjuïc / Poble Sec",
+    "Park Güell / Gràcia",
+    "Barceloneta / Waterfront"
+  ],
+  "guide_description": "五天时间游览Barcelona的精华景点，包括Gaudí的山顶公园、充满村庄氛围的Gràcia区以及地中海海滨。每天的行程都在地理上相对集中。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 12700,
+  "total_walking_minutes": 166,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Barri Gòtic和El Born",
+      "cluster_tagline": "步行游览中世纪Barcelona - Cathedral、罗马城墙和商人区",
+      "neighborhood_focus": "Barri Gòtic / El Born",
+      "neighborhood_description": "这两个相邻的中世纪街区构成了Barcelona的历史核心。Barri Gòtic建在罗马地基之上，以哥特式Cathedral为中心；东侧的El Born是昔日的商人区，街道更狭窄，更加热闹，以Santa Maria del Mar大教堂为核心。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Cathedral of Barcelona (La Seu)",
+        "wikidata_qid": "Q56551",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cathedral_of_Barcelona",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1761
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "这座14世纪的哥特式大教堂经常被误认为是高迪的Sagrada Família，但在建筑风格上完全不同。回廊里养着十三只白鹅（按传统说法，代表圣Eulalia生命中的每一年），是这里意想不到的焦点。花少量费用可乘电梯登上屋顶露台，俯瞰整个哥特区，这是Sagrada Família的游客很少想到要寻找的景观。",
+        "walk_to_next": {
+          "to": "Plaça del Rei",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Plaça del Rei and the Roman walls",
+        "wikidata_qid": "Q807877",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1775
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "这个中世纪的皇家广场由Palau Reial Major环绕，据说哥伦布曾在1493年在此向Ferdinand和Isabella呈报他的发现。从广场上的MUHBA Barcelona History Museum入口向下，可以参观到脚下保存完好的4公里Roman Barcino遗址--街道、染坊、酒庄--就在地底下。这是Barcelona最令人惊喜的博物馆参观体验。",
+        "walk_to_next": {
+          "to": "Santa Maria del Mar",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Santa Maria del Mar",
+        "wikidata_qid": "Q930687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+        "coordinates": {
+          "lat": 41.3838,
+          "lon": 2.1819
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "建于1329-1383年，由Ribera社区的商人和搬运工建造，完全由工人阶级出资--当地昵称为\"海上大教堂\"。纯正的加泰罗尼亚哥特式内部比法式哥特同类建筑更加宽敞明亮，其比例影响了从高迪以来的众多建筑师。傍晚阳光透过玫瑰窗洒入是最美的视觉享受。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Picasso Museum",
+          "wikidata_qid": "Q832627",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Picasso",
+          "coordinates": {
+            "lat": 41.3853,
+            "lon": 2.1808
+          },
+          "neighborhood": "El Born",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "这里收藏着毕加索早期作品的最大藏品，坐落在El Born区五座相连的中世纪宅邸中。博物馆的特色在于展现成名前的毕加索--Barcelona求学时期、蓝色时期、1957年的Las Meninas系列变奏。周一闭馆。周四下午和每月第一个周日免费参观--这些时段排队人数很多。",
+          "walk_from_main_route": {
+            "from": "Santa Maria del Mar",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Eixample和Gaudí轴线",
+      "cluster_tagline": "Barcelona现代主义 - Sagrada Família、Casa Batlló，以及规划它们的网格",
+      "neighborhood_focus": "Eixample",
+      "neighborhood_description": "19世纪Barcelona在古城墙外的计划扩建区，于1859年按统一网格布局，采用切角设计，形成了该街区独特的八角形街区视觉节奏。这个网格区域拥有世界上最密集的加泰罗尼亚现代主义建筑群（这是由Gaudí、Domènech和Puig领导的西班牙新艺术运动）。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Sagrada Família",
+        "wikidata_qid": "Q5882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+        "coordinates": {
+          "lat": 41.4036,
+          "lon": 2.1744
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 120,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Gaudí未完成的教堂，始建于1882年，现预计将在2026年完成中央Jesus Christ塔楼。需要提前几周在线预订限时入场票 - 即使是淡季现场购票也很少见。选择上午时段可以欣赏东向Nativity立面的光线穿过彩色玻璃，将室内柱子染成蓝色和橙色。塔楼电梯票（Nativity或Passion塔楼之一）需要额外付费，但非常值得，可以近距离观赏尖塔细节。",
+        "walk_to_next": {
+          "to": "Casa Batlló (via Passeig de Gràcia)",
+          "distance_meters": 1800,
+          "walking_minutes": 23
+        }
+      },
+      "afternoon": {
+        "activity_title": "Casa Batlló and Passeig de Gràcia",
+        "wikidata_qid": "Q11910",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3",
+        "coordinates": {
+          "lat": 41.3917,
+          "lon": 2.165
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Gaudí于1904年改建的既有公寓楼--弯曲的骨状阳台、龙鳞瓦屋顶、烟囱柱都出自他的设计。内部导览很棒（网上订票），但价格不菲；如果预算有限，从Passeig de Gràcia对面欣赏外观本身就是一大景点。同一街区内还有Puig i Cadafalch设计的Casa Amatller--两位建筑师风格的对比正是Manzana de la Discordia（不和谐街区）的看点所在。",
+        "walk_to_next": {
+          "to": "Casa Milà (La Pedrera)",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Casa Milà (La Pedrera) at sunset",
+        "wikidata_qid": "Q83036",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Mil%C3%A0",
+        "coordinates": {
+          "lat": 41.3954,
+          "lon": 2.162
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Gaudí最后的世俗作品，建于1912年--当地人因其粗犷的石材外观称其为'La Pedrera'（采石场）。屋顶及其超现实主义的武士头盔式烟囱是最著名的部分--定时入场的日落门票值得加价购买。晚间的'Pedrera de Nit'参观会在烟囱上投射灯光秀，比白天的游览更有氛围，不过价格也更高。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hospital de Sant Pau",
+          "wikidata_qid": "Q5907",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hospital_de_Sant_Pau",
+          "coordinates": {
+            "lat": 41.4117,
+            "lon": 2.1742
+          },
+          "neighborhood": "Eixample",
+          "duration_minutes": 75,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Domènech i Montaner于1902-1930年建造的医院建筑群--27个独立的展馆通过装饰着瓷砖的步行道和地下隧道相连，设计基于美景本身能促进康复的激进理论。最近修复完成并重新对公众开放。从建筑角度来说，其完整性可能超过Gaudí的任何作品，但游客却少得多。本身就是UNESCO世界遗产。",
+          "walk_from_main_route": {
+            "from": "Sagrada Família",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Montjuïc和Poble Sec",
+      "cluster_tagline": "博物馆山 - Catalan艺术、1929年世界博览会建筑和地中海全景",
+      "neighborhood_focus": "Montjuïc / Poble Sec",
+      "neighborhood_description": "这座184米高的山丘从西部海滨拔地而起，为1929年国际博览会重新开发，又为1992年奥运会再次改造。这里坐落着National Art Museum of Catalonia、Joan Miró Foundation、奥林匹克体育场，以及山顶的中世纪城堡--还拥有Barcelona最密集的免费全景观景点。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "MNAC - National Art Museum of Catalonia",
+        "wikidata_qid": "Q861252",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Art_Museum_of_Catalonia",
+        "coordinates": {
+          "lat": 41.3686,
+          "lon": 2.1531
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "National Art Museum坐落在1929年的Palau Nacional内，收藏着世界上最重要的罗马式壁画收藏--这些壁画在1920年代从Pyrenean村庄教堂中抢救出来，在这里按重建的后殿形式重新安装。仅罗马式画廊就值得专程参观；楼上的modernisme展厅涵盖了Gaudí时代的装饰艺术。每月第一个星期六下午和每个星期天下午3点后免费开放。露台可以俯瞰城市全景。",
+        "walk_to_next": {
+          "to": "Fundació Joan Miró",
+          "distance_meters": 800,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Fundació Joan Miró",
+        "wikidata_qid": "Q637098",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fundaci%C3%B3_Joan_Mir%C3%B3",
+        "coordinates": {
+          "lat": 41.3686,
+          "lon": 2.1597
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "由Miró的朋友Josep Lluís Sert设计（建筑师、MIT院长、Franco's Spain的流亡者），基金会大楼本身就是20世纪博物馆建筑的杰作之一--白色地中海现代主义风格，配有天窗画廊和屋顶雕塑露台。藏品以Miró的作品为主，按时间顺序展出，还有一个引人注目的\"Tribute to Miró\"展厅，陈列着其他艺术家为纪念他而创作的作品。",
+        "walk_to_next": {
+          "to": "Montjuïc Castle",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Montjuïc Castle and the Mediterranean panorama",
+        "wikidata_qid": "Q623808",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Montju%C3%AFc_Castle",
+        "coordinates": {
+          "lat": 41.3636,
+          "lon": 2.1664
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "这座17世纪的军事要塞位于山顶，有着残酷的政治历史--曾被Franco政权用来监禁和处决Catalan民族主义者。现在归市政府所有，对公众开放。从东侧城墙可以俯瞰从城市延伸到海上的整个Mediterranean海岸线；西侧则可以俯视港口和奥林匹克区。最便捷的到达方式是搭乘从Poble Sec上方Telefèric站出发的缆车。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Mies van der Rohe Pavilion",
+          "wikidata_qid": "Q83074",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Barcelona_Pavilion",
+          "coordinates": {
+            "lat": 41.3706,
+            "lon": 2.1503
+          },
+          "neighborhood": "Montjuïc",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "这是Mies van der Rohe为1929年博览会设计的German pavilion--20世纪最具影响力的建筑之一，是现代主义建筑的奠基之作。原建筑在博览会后被拆除；现在这座是1986年在原址上按照原始材料和图纸重建的。建筑外观小巧，可以免费绕行参观，内部参观需支付少量门票费。",
+          "walk_from_main_route": {
+            "from": "MNAC",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Park Güell和Gràcia",
+      "cluster_tagline": "山顶上的Gaudí作品和Barcelona的村庄风情街区",
+      "neighborhood_focus": "Park Güell / Gràcia",
+      "neighborhood_description": "城市北部的山坡上，Gaudí在此建造了他最上镜的公园，以及毗邻的Gràcia区--这里在1897年之前一直是独立城镇，至今仍保留着小广场、低矮建筑，以及Barcelona中心区最具本土气息的氛围。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Park Güell",
+        "wikidata_qid": "Q170842",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Park_G%C3%BCell",
+        "coordinates": {
+          "lat": 41.4145,
+          "lon": 2.1527
+        },
+        "unesco_designation": {
+          "site_name": "Works of Antoni Gaudí",
+          "year_inscribed": 1984,
+          "reference_number": 320,
+          "url": "https://whc.unesco.org/en/list/320"
+        },
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "1900年开始建设，最初是为Gaudí的赞助人Eusebi Güell打造的豪华住宅开发项目，但以失败告终--最终只建成了两栋房屋，1922年市政府购买了这片土地作为公园开放。著名的纪念区（巨龙阶梯、柱廊大厅、波浪瓷砖露台）现在需要预约门票；周围的公园免费开放，值得漫步游览。请在线预订定时门票；现场购票不可能。建议开园时到达，避开旅行团。",
+        "walk_to_next": {
+          "to": "Plaça de la Vila de Gràcia",
+          "distance_meters": 1500,
+          "walking_minutes": 20
+        }
+      },
+      "afternoon": {
+        "activity_title": "Plaça de la Vila de Gràcia",
+        "wikidata_qid": "Q11935367",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gr%C3%A0cia",
+        "coordinates": {
+          "lat": 41.4022,
+          "lon": 2.1564
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "前Gràcia镇的中心广场，以1862年建造的钟楼（Torre del Rellotge）为主要标志，这座钟楼曾是19世纪末加泰罗尼亚共和运动的政治象征。广场是整个街区的中心--向任何方向步行五分钟，都能走到绿树成荫的狭窄街道、小书店、苦艾酒吧和瓷砖门面的面包房。工作日下午最佳，当地人居多。",
+        "walk_to_next": {
+          "to": "Plaça del Sol",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Plaça del Sol after dark",
+        "wikidata_qid": "Q11935430",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gr%C3%A0cia",
+        "coordinates": {
+          "lat": 41.4017,
+          "lon": 2.1542
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Gràcia的客厅般的广场，以19世纪工人合作社命名。比Gothic Quarter的Plaça Reial游客压力更小，是当地人傍晚时分坐下来喝一杯的更好选择。周围的街道如Carrer de Verdi和Carrer de Torrent de l'Olla汇集了Barcelona一些最好的小餐厅。每年八月中旬，Gràcia的居民会为Festa Major装饰街道，让整个街区变身十天。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Casa Vicens",
+          "wikidata_qid": "Q1052406",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Casa_Vicens",
+          "coordinates": {
+            "lat": 41.4044,
+            "lon": 2.1497
+          },
+          "neighborhood": "Gràcia",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "这是Gaudí接受委托的第一个重要作品(1883-1888)，为一位瓷砖制造商建造--因此外立面密布瓷砖装饰。经过大规模修复后，直到2017年才对公众开放。相比其他被联合国教科文组织列入世界遗产的Gaudí建筑，这里规模较小，游客也较少；是与Park Güell安排在同一天游览的绝佳搭配。距离Plaça de la Vila de Gràcia步行五分钟。",
+          "walk_from_main_route": {
+            "from": "Plaça de la Vila de Gràcia",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Barceloneta和海滨区",
+      "cluster_tagline": "地中海边的Barcelona--渔民区、Olympic海滩和港口",
+      "neighborhood_focus": "Barceloneta / Port Vell",
+      "neighborhood_description": "这个三角形半岛位于老港口和地中海之间，1753年按照规划网格布局，为修建Citadel时迁移的水手和码头工人提供住所。如今这里是Barcelona市中心海滩最集中的地带，沿岸遍布海鲜餐厅，还有奥运时期的海滨重建项目。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Maritime Museum (Drassanes Reials)",
+        "wikidata_qid": "Q1133778",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maritime_Museum_of_Barcelona",
+        "coordinates": {
+          "lat": 41.3753,
+          "lon": 2.1761
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "这座博物馆坐落在中世纪的Royal Shipyards (Drassanes Reials)内，这是欧洲现存最大的哥特式民用建筑之一--13世纪建造的巨大石制拱顶大厅，当时用于建造地中海战舰。馆藏的核心是Don Juan of Austria在1571年Battle of Lepanto中使用的旗舰的全尺寸复制品。不过建筑本身才是更大的看点。",
+        "walk_to_next": {
+          "to": "Port Vell / Rambla del Mar",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Port Vell and Barceloneta beach",
+        "wikidata_qid": "Q1768717",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Barceloneta",
+        "coordinates": {
+          "lat": 41.3789,
+          "lon": 2.19
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "从La Rambla脚下沿着Passeig de Joan de Borbó向东漫步港口--Barceloneta街区的核心区域是建在原军事填海地上的狭窄网格状高瘦公寓楼群。海滩本身是为1992年奥运会从零开始建造的。位于海滩东端的Frank Gehry Fish雕塑是分隔Barceloneta和Vila Olímpica的地标。",
+        "walk_to_next": {
+          "to": "Parc de la Ciutadella",
+          "distance_meters": 1200,
+          "walking_minutes": 16
+        }
+      },
+      "evening": {
+        "activity_title": "Parc de la Ciutadella at sunset",
+        "wikidata_qid": "Q1071019",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Parc_de_la_Ciutadella",
+        "coordinates": {
+          "lat": 41.3878,
+          "lon": 2.1864
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "建在1715年Bourbon要塞的旧址上，该要塞最终被拆除，在1880年代改建为Barcelona的第一个公共公园。1888年Universal Exposition的展览场地、Catalan Parliament大楼、动物园，以及瀑布喷泉（年轻的Gaudí曾作为学生助手参与设计）都位于园区范围内。这里是海滩的天然平衡点：绿意盎然、宁静祥和，深受当地人喜爱。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Arc de Triomf",
+          "wikidata_qid": "Q1374164",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arc_de_Triomf,_Barcelona",
+          "coordinates": {
+            "lat": 41.3911,
+            "lon": 2.1808
+          },
+          "neighborhood": "Sant Pere",
+          "duration_minutes": 20,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "这座砖石和赤陶制成的凯旋门是1888年Universal Exposition的礼仪入口--与Paris的同名建筑不同，它不是军事性质的，而是商业性的，浮雕代表着艺术和工业。从凯旋门通往Ciutadella公园的Passeig de Lluís Companys大道是一条宽阔的林荫步道，深受滑板爱好者欢迎。",
+          "walk_from_main_route": {
+            "from": "Parc de la Ciutadella",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    }
+  ]
+}

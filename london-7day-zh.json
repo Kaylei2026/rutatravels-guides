@@ -1,0 +1,707 @@
+{
+  "destination": "London",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Westminster / South Bank",
+    "The City / Tower",
+    "South Kensington / Hyde Park",
+    "Covent Garden / British Museum",
+    "Greenwich",
+    "Camden / Regent's Park",
+    "Kew (day trip)"
+  ],
+  "guide_description": "为期七天的行程涵盖伦敦的主要景点、West End文化中心、联合国教科文组织认定的Greenwich海事遗产地、西北部的另类社区，以及到Kew的植物园一日游。每天的路线在地理位置上都是独立的。",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 16400,
+  "total_walking_minutes": 210,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Westminster和South Bank",
+      "cluster_tagline": "伦敦的仪式中轴线 - Abbey、Big Ben和泰晤士河滨河长廊",
+      "neighborhood_focus": "Westminster / South Bank",
+      "neighborhood_description": "Westminster是英国政府所在地和王室加冕教堂所在地，以Parliament Square为中心。跨越Westminster Bridge的对岸South Bank是文化对标，沿河滨河长廊分布着London Eye和主要艺术场馆。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Westminster Abbey",
+        "wikidata_qid": "Q5933",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+        "coordinates": {
+          "lat": 51.4994,
+          "lon": -0.1273
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "自1066年以来每次英国加冕礼的举办地，也是十七位君主的埋葬地。请在线预订定时票证以跳过排队。诗人角（乔叟、狄更斯、哈代、勃朗宁）和加冕椅是明显的看点；经常被忽视的Cosmati Pavement位于主祭坛前方，是一条13世纪的几何马赛克，实际加冕礼就在此举行。周日关闭，仅在礼拜时开放。",
+        "walk_to_next": {
+          "to": "Houses of Parliament",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Houses of Parliament and Big Ben",
+        "wikidata_qid": "Q41770",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
+        "coordinates": {
+          "lat": 51.4995,
+          "lon": -0.1248
+        },
+        "unesco_designation": {
+          "site_name": "Westminster Palace, Westminster Abbey and Saint Margaret's Church",
+          "year_inscribed": 1987,
+          "reference_number": 426,
+          "url": "https://whc.unesco.org/en/list/426"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "新哥特式的Palace of Westminster在1870年完成，原中世纪建筑在1834年烧毁后重建。英国和英联邦居民可以在Cromwell Green排队免费观看议会辩论；国际游客可在非会议日（通常为周六和议会休会期间）预订付费导览。大本钟是钟，不是塔 - 塔本身叫Elizabeth Tower，最近已恢复其原有的维多利亚风格色彩。",
+        "walk_to_next": {
+          "to": "London Eye via Westminster Bridge",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "South Bank and London Eye at sunset",
+        "wikidata_qid": "Q121130",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/London_Eye",
+        "coordinates": {
+          "lat": 51.5033,
+          "lon": -0.1196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "在Westminster Bridge上漫步可以拍到经典的国会与伦敦眼的合照。是否乘坐伦敦眼是个预算问题 - 景色壮观但价格不菲，免费沿South Bank向东漫步至Tate Modern可以看到相同的天际线而无需花费。最佳摄影光线是日落前30分钟，此时国会的东面被最后的金色阳光照亮。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Churchill War Rooms",
+          "wikidata_qid": "Q1133979",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Churchill_War_Rooms",
+          "coordinates": {
+            "lat": 51.5024,
+            "lon": -0.1294
+          },
+          "neighborhood": "Westminster",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "这是丘吉尔指挥英国第二次世界大战作战的地下掩体建筑群，保持1945年时的原样 - 包括一间内阁室，里面有丘吉尔开会时咀嚼过的椅子。请提前预订；这是伦敦访问量最大的博物馆之一，现场购票入场很少。",
+          "walk_from_main_route": {
+            "from": "Houses of Parliament",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "伦敦城和伦敦塔",
+      "cluster_tagline": "从中世纪堡垒到金融中心 - 千年伦敦历史沿泰晤士河层层叠积",
+      "neighborhood_focus": "The City / Tower",
+      "neighborhood_description": "罗马伦敦城（Londinium）所在的方形英里，直到都铎王朝时期都是整个城市的范围 - 现在是伦敦的金融区，但保留了中世纪的街道格局、伦敦塔和圣保罗大教堂。英国考古遗迹最密集的平方公里。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Tower of London",
+        "wikidata_qid": "Q11953",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_of_London",
+        "coordinates": {
+          "lat": 51.5081,
+          "lon": -0.0759
+        },
+        "unesco_designation": {
+          "site_name": "Tower of London",
+          "year_inscribed": 1988,
+          "reference_number": 488,
+          "url": "https://whc.unesco.org/en/list/488"
+        },
+        "duration_minutes": 180,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "征服者威廉在1078年修建的白塔，加上900年来的各项增建 - 曾先后作为皇家宫殿、监狱、国库、铸币厂和动物园。请提前在线预订。禁卫军（Beefeater）讲解员导游免费随门票赠送，每30分钟出发一次，意外地成为最精彩的部分 - 机智、不失礼数且历史知识丰富。皇冠珠宝的排队队伍在开放后的第一小时移动最快。",
+        "walk_to_next": {
+          "to": "Tower Bridge",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tower Bridge and the riverside walk",
+        "wikidata_qid": "Q83125",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+        "coordinates": {
+          "lat": 51.5055,
+          "lon": -0.0754
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "这座维多利亚风格的开启桥常被误认为是伦敦桥(伦敦桥是上游那座普通的桥)。塔楼之间的走道现在装有玻璃地板,是付费景点,但在路面甲板上行走是免费的,视角相同。这座桥每年升起约800次;时间表在线发布,停留观看升桥过程很值得。",
+        "walk_to_next": {
+          "to": "St. Paul's Cathedral",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "St. Paul's Cathedral",
+        "wikidata_qid": "Q173882",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St_Paul%27s_Cathedral",
+        "coordinates": {
+          "lat": 51.5138,
+          "lon": -0.0984
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "克里斯托弗·雷恩的杰作,在大火摧毁中世纪大教堂后于1710年竣工。穹顶内的低语廊 - 需爬257步 - 因其名字由来的声学效应而闻名(靠在墙边的低语声在对面30米处可以听到)。参加礼拜免费进入;参观需购票。工作日下午4点半左右关闭,所以在计划日落行程前请确认时间。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Borough Market",
+          "wikidata_qid": "Q913969",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Borough_Market",
+          "coordinates": {
+            "lat": 51.5055,
+            "lon": -0.0908
+          },
+          "neighborhood": "Southwark",
+          "duration_minutes": 60,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "伦敦最古老的食品市场,自13世纪以来持续运营,现已成为伦敦首屈一指的美食目的地。周五和周六人最多;周日关闭。周二至周四白天的市场相对平静,商户有更多时间交谈。是从Tower Bridge经南岸前往St. Paul's的天然午餐停靠点。",
+          "walk_from_main_route": {
+            "from": "Tower Bridge",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "South Kensington和Hyde Park",
+      "cluster_tagline": "博物馆三角区 - 三个世界级的收藏和伦敦最宏伟的皇家公园",
+      "neighborhood_focus": "South Kensington / Hyde Park",
+      "neighborhood_description": "这个维多利亚时代的文化区由1851年大展览的收益建成，世界三大博物馆簇拥在Exhibition Road周围。向北跨越Kensington Gore，Hyde Park和Kensington Gardens形成了250公顷连片的皇家园林。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Victoria and Albert Museum",
+        "wikidata_qid": "Q213322",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum",
+        "coordinates": {
+          "lat": 51.4966,
+          "lon": -0.1722
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "世界上最大的装饰艺术和设计博物馆 - 拥有145个展厅中的280万件藏品。免费入场。铸造厅（图拉真纪念柱和米开朗琪罗《大卫》的等比例石膏铸件，维多利亚时代的博物馆收集复制品而非原作时期制作）是伦敦独有的。William Morris装饰房间下的花园咖啡馆是城市中最宜人的博物馆用餐地点之一。",
+        "walk_to_next": {
+          "to": "Natural History Museum",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Natural History Museum",
+        "wikidata_qid": "Q309388",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London",
+        "coordinates": {
+          "lat": 51.4967,
+          "lon": -0.1764
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "免费入场。Hintze Hall的蓝鲸骨骼展示（2017年替代了恐龙Dippy）悬挂在中央大厅，是该建筑的标志景观。《火山和地震》展厅中的地震模拟器重现了1995年神户地震，设置在模拟日本杂货店内，是最令人惊喜的展品。周末以家庭游客为主 - 如果想要宽敞的思考空间，可以选择工作日下午参观。",
+        "walk_to_next": {
+          "to": "Hyde Park Serpentine",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Hyde Park and the Serpentine at sunset",
+        "wikidata_qid": "Q83494",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hyde_Park,_London",
+        "coordinates": {
+          "lat": 51.5074,
+          "lon": -0.1657
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "占地350英亩的皇家公园，由查理一世于1637年向公众开放。Serpentine湖（南岸有戴安娜纪念喷泉）是其自然焦点。湖边提供船只租赁服务；南侧的Serpentine Galleries展出当代艺术作品，并举办著名的夏季展亭设计竞赛。东北端的Speakers' Corner（靠近Marble Arch）仍然是周日早晨街头演说家的聚集地。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Science Museum",
+          "wikidata_qid": "Q674773",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Science_Museum,_London",
+          "coordinates": {
+            "lat": 51.4978,
+            "lon": -0.1745
+          },
+          "neighborhood": "South Kensington",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "免费入场。Stephenson's Rocket、Apollo 10指挥舱、第一台Babbage分析机。二楼的Information Age展厅叙述最为精良 - 追溯了从第一条跨大西洋电缆到现代互联网的通信发展历程。相比隔壁的自然历史博物馆，这里人流密度要小得多。",
+          "walk_from_main_route": {
+            "from": "Victoria and Albert Museum",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Covent Garden和British Museum",
+      "cluster_tagline": "West End的文化中心 - 世界上第一家公共博物馆、广场和剧院区",
+      "neighborhood_focus": "Covent Garden / Bloomsbury / Soho",
+      "neighborhood_description": "伦敦中心区的娱乐和博物馆区：Covent Garden 的 17 世纪广场和前果品市场，Bloomsbury 的大英博物馆（启蒙运动时期的珍宝库），以及 Soho 密集的餐厅和剧院一直延伸至 Piccadilly。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 27,
+      "morning": {
+        "activity_title": "British Museum",
+        "wikidata_qid": "Q6373",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/British_Museum",
+        "coordinates": {
+          "lat": 51.5194,
+          "lon": -0.127
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "免费入场，成立于 1753 年，是世界上第一个公共博物馆。由 Norman Foster 设计的玻璃顶覆盖的 Great Court 本身就值得一看。必看展品：Rosetta Stone（4 号展厅），帕特农神庙大理石雕像（18 号展厅，争议展品已标注），埃及木乃伊展廊（62-63 号展厅），Sutton Hoo 头盔（41 号展厅），Lewis Chessmen（40 号展厅）。选择三到四个展廊，接受你无法看遍全部的事实 - 博物馆收藏 800 万件文物。",
+        "walk_to_next": {
+          "to": "Covent Garden",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Covent Garden Piazza",
+        "wikidata_qid": "Q205662",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Covent_Garden",
+        "coordinates": {
+          "lat": 51.5117,
+          "lon": -0.124
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Inigo Jones 于 1631 年设计的广场 - 英国首个规划的公共广场，以他 Grand Tour 期间在意大利看到的广场为蓝本。Apple Market（中央玻璃房）出售工艺品；周围街道拥有 Royal Opera House 和 London Transport Museum。街头艺人在轮流许可证制度下在广场表演 - 周二至周四下午时段有最好的表演。",
+        "walk_to_next": {
+          "to": "Trafalgar Square / National Gallery",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Trafalgar Square and the National Gallery",
+        "wikidata_qid": "Q180788",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/National_Gallery",
+        "coordinates": {
+          "lat": 51.5089,
+          "lon": -0.1283
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "免费入场。2,300 幅绘画跨越 13 世纪至 1900 年 - Van Eyck 的《Arnolfini Portrait》，Velazquez 的《Rokeby Venus》，Turner 的《Fighting Temeraire》，Van Gogh 的《Sunflowers》。隔壁的 National Portrait Gallery（也免费，最近翻新）如果时间允许是很好的补充。Trafalgar Square 本身拥有 Nelson's Column 和轮流展出的 Fourth Plinth 雕塑委托作品，是伦敦默认的庆祝和抗议场所。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sir John Soane's Museum",
+          "wikidata_qid": "Q1622130",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sir_John_Soane%27s_Museum",
+          "coordinates": {
+            "lat": 51.5172,
+            "lon": -0.1175
+          },
+          "neighborhood": "Holborn",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "免费入场。摄政时代的建筑师约翰·索恩爵士将自己的住宅保存得完全如1837年他离世时的样子 - 房间里堆满了埃及石棺、霍加斯绘画、罗马遗迹和建筑创意。伦敦最奇异、最受喜爱的小型博物馆之一。周一闭馆。",
+          "walk_from_main_route": {
+            "from": "British Museum",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Maritime Greenwich",
+      "cluster_tagline": "联合国教科文组织认定的Maritime Greenwich - 子午线、皇家天文台以及英国最美丽的海军建筑",
+      "neighborhood_focus": "Greenwich",
+      "neighborhood_description": "伦敦市中心东南方向的河滨自治市镇，是联合国教科文组织世界遗产保护区，汇集了由Wren和Hawksmoor设计的宏大规模的海军和天文建筑群。可乘坐Thames Clipper河上快艇（风景最优美的路线）、DLR或铁路前往。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Old Royal Naval College",
+        "wikidata_qid": "Q1788916",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Royal_Naval_College",
+        "coordinates": {
+          "lat": 51.4831,
+          "lon": 0.005
+        },
+        "unesco_designation": {
+          "site_name": "Maritime Greenwich",
+          "year_inscribed": 1997,
+          "reference_number": 795,
+          "url": "https://whc.unesco.org/en/list/795"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Christopher Wren设计的对称河滨建筑群,原本是退役海员皇家医院(1696年)。《绘画大厅》有时被称为英国的西斯廷礼拜堂,由James Thornhill耗时十九年绘制壁画,最近刚完成重大修复。对面的St. Peter and St. Paul礼拜堂风格更为简洁,但值得一并参观。",
+        "walk_to_next": {
+          "to": "National Maritime Museum / Queen's House",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Queen's House and National Maritime Museum",
+        "wikidata_qid": "Q1199074",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Queen%27s_House",
+        "coordinates": {
+          "lat": 51.481,
+          "lon": 0.005
+        },
+        "unesco_designation": {
+          "site_name": "Maritime Greenwich",
+          "year_inscribed": 1997,
+          "reference_number": 795,
+          "url": "https://whc.unesco.org/en/list/795"
+        },
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Inigo Jones在1635年设计的Queen's House是英国第一座真正的古典建筑,标志着英国建筑从晚期中世纪风格转变为文艺复兴风格的历史时刻。两座博物馆都免费入场。Queen's House内的Tulip Stairs是英国第一座几何自支撑楼梯。Maritime Museum的馆藏规模庞大,Nelson展厅和Polar展览是最值得单独参观的亮点。",
+        "walk_to_next": {
+          "to": "Royal Observatory",
+          "distance_meters": 700,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Royal Observatory and the Prime Meridian",
+        "wikidata_qid": "Q994014",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
+        "coordinates": {
+          "lat": 51.4769,
+          "lon": 0.0005
+        },
+        "unesco_designation": {
+          "site_name": "Maritime Greenwich",
+          "year_inscribed": 1997,
+          "reference_number": 795,
+          "url": "https://whc.unesco.org/en/list/795"
+        },
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Christopher Wren在1675年建造的天文台位于Greenwich山上,后来在这里确定了子午线(1884年)作为全球经度零度线。院子里的经线本身是最明显的拍照地点。Flamsteed House(仅进入历史房间免费)和暗箱是鲜为人知的景点。天文台正下方的观景平台提供了伦敦最佳的免费全景视角,可俯瞰Canary Wharf天际线。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Cutty Sark",
+          "wikidata_qid": "Q654648",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cutty_Sark",
+          "coordinates": {
+            "lat": 51.4828,
+            "lon": -0.0095
+          },
+          "neighborhood": "Greenwich",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "最后一艘幸存的茶叶快帆船,建于1869年,现已保存在干船坞中并抬高三米,让游客可以在船体下方行走。该船在2007年遭火灾破坏,2012年得以修复,原始木材依然可见。从船体下方观看船的线条设计,这种体验在伦敦其他博物馆中独一无二。",
+          "walk_from_main_route": {
+            "from": "Old Royal Naval College",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "Camden和Regent's Park",
+      "cluster_tagline": "运河畔伦敦 - 摄政时期排房、另类市集和城市最宏伟的规划公园",
+      "neighborhood_focus": "Camden / Regent's Park / Primrose Hill",
+      "neighborhood_description": "这些西北地区是约翰·纳什在1810年代规划设计的摄政时期花园郊区，加上沿着Regent's Canal发展而来的战后反主流文化街区。Camden Market是伦敦最具特色的购物体验之一；Primrose Hill是城市最佳的免费全景观景点。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2400,
+      "day_walking_minutes": 32,
+      "morning": {
+        "activity_title": "Regent's Park and the Open Air Theatre",
+        "wikidata_qid": "Q207577",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Regent%27s_Park",
+        "coordinates": {
+          "lat": 51.5313,
+          "lon": -0.157
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "约翰·纳什于1811年设计的皇家公园，四周环绕着他设计的奶油色摄政时期排房（Cumberland Terrace和Park Crescent保存最完好）。中心的Queen Mary's Gardens拥有12000朵玫瑰；西侧的划船湖出租划艇。Open Air Theatre在一个树木葱郁的露天剧场内上演夏季莎士比亚戏剧和音乐剧，这是伦敦最受欢迎的季节性演出场地之一。",
+        "walk_to_next": {
+          "to": "Camden Market via canal",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "afternoon": {
+        "activity_title": "Camden Market and Regent's Canal",
+        "wikidata_qid": "Q907791",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Camden_Market",
+        "coordinates": {
+          "lat": 51.5417,
+          "lon": -0.1467
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "六个互相连接的市场，出售复古服装、街头小食、黑胶唱片、皮革制品和各种稀奇古怪的物品 - 这是源于1970年代朋克和哥特亚文化的产物，正是这些文化曾让这个街区声名远扬。周末人流最多；工作日相对平静。可以从公园沿Regent's Canal河畔步道前往 - 半小时的步行路线会经过London Zoo和Snowdon Aviary，让你在抵达市场人群之前充分体验这个街区的独特魅力。",
+        "walk_to_next": {
+          "to": "Primrose Hill summit",
+          "distance_meters": 1000,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Primrose Hill at sunset",
+        "wikidata_qid": "Q1366907",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Primrose_Hill",
+        "coordinates": {
+          "lat": 51.5391,
+          "lon": -0.1605
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "63米长的草地山顶，也是伦敦中心六个受保护全景观景点之一（其他观景点包括Greenwich和Hampstead Heath的景观）。视野范围从Shard穿过Eye延伸到St. Paul's和BT Tower。山顶上的铁制铭牌上刻有维多利亚时代的全景图案，标注了每个地标建筑。带上野餐食物来这里；当地人都这样做。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "ZSL London Zoo",
+          "wikidata_qid": "Q170731",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/London_Zoo",
+          "coordinates": {
+            "lat": 51.5354,
+            "lon": -0.1538
+          },
+          "neighborhood": "Regent's Park",
+          "duration_minutes": 120,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "世界上最古老的科学动物园（1828年），位于Regent's Park北边。亮点包括Berthold Lubetkin企鹅池（1934年的现代主义地标建筑，虽然已不再用于饲养企鹅但作为建筑结构被保留下来）和沿着运河的Snowdon Aviary。更适合家庭游客而非独自旅行的游客。",
+          "walk_from_main_route": {
+            "from": "Regent's Park",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        },
+        {
+          "activity_title": "Jewish Museum London",
+          "wikidata_qid": "Q6193434",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jewish_Museum_London",
+          "coordinates": {
+            "lat": 51.543,
+            "lon": -0.145
+          },
+          "neighborhood": "Camden",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "一个精心打造的小型博物馆，展示英国犹太人生活和历史，包括大屠杀幸存者证词展廊和现存最古老的英文希伯来语祈祷书。周六和周一关闭。目前在新大楼迁址前以缩减形式运营 - 请查看网站了解当前地址。",
+          "walk_from_main_route": {
+            "from": "Camden Market",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "Kew Gardens 一日游",
+      "cluster_tagline": "UNESCO 皇家植物园 - 伦敦西南部 300 英亩的植物收藏",
+      "neighborhood_focus": "Kew (outside central London)",
+      "neighborhood_description": "位于伦敦西南部 Thames 河畔的 Kew 皇家植物园是联合国教科文组织世界遗产地（自 2003 年起），拥有世界上最大、最多样化的植物学和真菌学收藏。可乘坐 District 线地铁至 Kew Gardens 站抵达（从伦敦市中心约需 35 分钟），或在夏季乘坐河上游船到达。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Palm House and Victorian glasshouses",
+        "wikidata_qid": "Q3895041",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Palm_House,_Kew_Gardens",
+        "coordinates": {
+          "lat": 51.4811,
+          "lon": -0.2917
+        },
+        "unesco_designation": {
+          "site_name": "Royal Botanic Gardens, Kew",
+          "year_inscribed": 2003,
+          "reference_number": 1084,
+          "url": "https://whc.unesco.org/en/list/1084"
+        },
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Decimus Burton 设计的 1848 年 Palm House 是世界上保存最完好的维多利亚时期铁木结构建筑 - 它是随后所有冬季花园、火车站和展览厅的建筑原型。隔壁的 Temperate House（2018 年经过五年翻修后重新开放）是世界上最大的维多利亚时期玻璃温室。在线预订 Kew Gardens 日票可享折扣。",
+        "walk_to_next": {
+          "to": "Treetop Walkway and arboretum",
+          "distance_meters": 800,
+          "walking_minutes": 10
+        }
+      },
+      "afternoon": {
+        "activity_title": "Treetop Walkway and Kew arboretum",
+        "wikidata_qid": "Q108061131",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kew_Gardens",
+        "coordinates": {
+          "lat": 51.4783,
+          "lon": -0.2942
+        },
+        "unesco_designation": {
+          "site_name": "Royal Botanic Gardens, Kew",
+          "year_inscribed": 2003,
+          "reference_number": 1084,
+          "url": "https://whc.unesco.org/en/list/1084"
+        },
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Xstrata Treetop Walkway于2008年开放,长200米,距地面高18米,穿过橡树、甜栗树和椴树林的树冠 - 这是伦敦游客最接近在活跃森林内行走的体验。更广阔的树木园拥有超过14,000棵独立树木,其中包括Capability Brown在1760年代种植的标本。",
+        "walk_to_next": {
+          "to": "Princess of Wales Conservatory",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Princess of Wales Conservatory and Kew Palace",
+        "wikidata_qid": "Q1755957",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Princess_of_Wales_Conservatory",
+        "coordinates": {
+          "lat": 51.4853,
+          "lon": -0.296
+        },
+        "unesco_designation": {
+          "site_name": "Royal Botanic Gardens, Kew",
+          "year_inscribed": 2003,
+          "reference_number": 1084,
+          "url": "https://whc.unesco.org/en/list/1084"
+        },
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "现代温室(1987年)包含十个不同的气候区,从干旱到热带潮湿,包括亚马逊区域标志性的巨大睡莲垫。隔壁的Kew Palace是英国皇家宫殿中最小的 - 乔治三世的红砖避暑地,他在患病期间在此度过了一些时光。计划在下午5点前离开,以便赶上District线返回伦敦市中心,避开晚间高峰时段。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Great Pagoda",
+          "wikidata_qid": "Q1325553",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Great_Pagoda",
+          "coordinates": {
+            "lat": 51.4747,
+            "lon": -0.2925
+          },
+          "neighborhood": "Kew Gardens",
+          "duration_minutes": 45,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "William Chambers设计的1762年中式塔楼 - 欧洲第一座刻意打造的中国风建筑,在当时引起了轰动。2018年经过修复,原有的80条木制龙被重新安装在檐角上。攀登253级台阶可以欣赏到花园南部和泰晤士河的壮观景色。",
+          "walk_from_main_route": {
+            "from": "Treetop Walkway",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

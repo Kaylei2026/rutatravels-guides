@@ -1,0 +1,286 @@
+{
+  "destination": "Santorini",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:11:54.983Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Fira",
+    "Oia",
+    "Akrotiri / Red Beach"
+  ],
+  "guide_description": "在破火山口边缘和火山南部停留三天：首府Fira因其悬崖博物馆和火山口景观而闻名，Oia以著名的蓝圆顶教堂和日落仪式著称，史前埋藏城市Akrotiri与壮观的火山海岸线相映成趣。每一天都是地理位置独立的。",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 6290,
+  "total_walking_minutes": 79,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Fira - 破火山口上的首府",
+      "cluster_tagline": "岛屿的城市中心 - 悬崖小径、火山地质和世界级的史前收藏",
+      "neighborhood_focus": "Fira",
+      "neighborhood_description": "圣托里尼的首府坐落在西部破火山口边缘，海拔约260米。该镇密集且便于步行，破火山口小径向北延伸至Firostefani，向南通往缆车站。两座重要的博物馆位于天主教区附近，彼此相距仅几分钟的步程。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1980,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Museum of Prehistoric Thera",
+        "wikidata_qid": "Q3099439",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_Prehistoric_Thera",
+        "coordinates": {
+          "lat": 36.4167,
+          "lon": 25.4319
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "岛上最好的单一博物馆，也是第3天前往Akrotiri遗址的必要准备。展品的核心是米诺斯时代的壁画《拳击儿童》和著名的《蓝猴》壁画，两者都是在Akrotiri火山灰层下发现的。建议在开放时间到达(夏季上午8点)，在邮轮旅游团抵达之前参观；该建筑没有空调，到上午中段会变得很热。",
+        "walk_to_next": {
+          "to": "Archaeological Museum of Thera",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Archaeological Museum of Thera",
+        "wikidata_qid": "Q4775462",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Archaeological_Museum_of_Thera",
+        "coordinates": {
+          "lat": 36.4172,
+          "lon": 25.4314
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "archaeological_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "位于东正教大主教座堂的正对面，这座较老的博物馆展示了史前Thera博物馆所没有的古风时期和古典时期的文物 - 几何纹样陶器、古风时期的库罗斯雕像残片，以及在Mesa Vouno的古代Thera城发现的文物。游客较少，不如对街的史前收藏那么拥挤，意味着可以从容地参观。周二闭馆。",
+        "walk_to_next": {
+          "to": "Fira Caldera Path toward Firostefani",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Fira Caldera Path and Firostefani viewpoint",
+        "wikidata_qid": "Q1402040",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fira",
+        "coordinates": {
+          "lat": 36.4166,
+          "lon": 25.4313
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "从天主教堂沿着火山口边缘路向北走向Firostefani - 在Firostefani突出处路径变宽，村庄位于Fira上方，可以看到毫无遮挡的火山口全景，同时避开了Fira的纪念品摊贩。Nea Kameni火山岛直接位于下方；日落时火山口的水从灰绿色变成深靛蓝色。可以原路返回或通过主干道返回 - 任选一种方式约15分钟。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Gyzi Megaron",
+          "wikidata_qid": "Q17494200",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gyzi_Megaron",
+          "coordinates": {
+            "lat": 36.4178,
+            "lon": 25.4312
+          },
+          "neighborhood": "Fira",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "一座17世纪的威尼斯宅邸，现在由一个文化基金会运营，展示历史地图、喷发前Santorini的版画和当地手稿。建筑本身 - 拱形天花板、刻石门框 - 是主要看点。位于火山口路径的正上方，易于在两个上午博物馆之间穿插参观。",
+          "walk_from_main_route": {
+            "from": "Archaeological Museum of Thera",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Oia和北部火山口",
+      "cluster_tagline": "蓝色圆顶、洞穴房屋和岛上最受欢迎的日落观景点",
+      "neighborhood_focus": "Oia",
+      "neighborhood_description": "Oia位于火山口北缘的最北端,距离Fira公路距离11公里,由沿着悬崖边缘的著名登山步道连接。这个村庄大部分建在浮石悬崖内的洞穴房屋中,称为yposkafa,这些房屋是在1956年地震摧毁了上方的传统建筑后开凿的。标志性的蓝色圆顶教堂可以从主购物街后面的一条小巷拍摄。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3000,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Fira to Oia Caldera Hiking Trail",
+        "wikidata_qid": "Q1009715",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oia,_Santorini",
+        "coordinates": {
+          "lat": 36.4618,
+          "lon": 25.3753
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "从Fira北部经Imerovigli到Oia的10公里火山口边缘登山道是到达的最佳方式 - 从南边进入Oia的路线提供了从村庄本身看不到的火山口景观。夏季最迟不要晚于上午8点出发;这条小径暴露在阳光下,几乎没有遮荫,最后1公里进入Oia是陡峭的下坡,路面是松散的鹅卵石。穿着有摩擦力的鞋子,不要穿凉鞋。这条小径踏迹分明但某些地方没有标记 - 要走在山脊的火山口一侧。",
+        "walk_to_next": {
+          "to": "Oia Blue Domes viewpoint",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Oia village and the blue-domed churches",
+        "wikidata_qid": "Q1009715",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oia,_Santorini",
+        "coordinates": {
+          "lat": 36.4618,
+          "lon": 25.3753
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "那张著名的蓝色圆顶照片是从主步行街后面的小巷拍摄的 - 向北经过 Atlantis 书店,在小风车处左转;景观点在狭窄小路向下约 80 米处。下午时分,可以探索主街下方的 yposkafa 洞穴房屋小巷,那里是大多数游客完全错过的安静住宅区 Oia。海军海事博物馆值得花 30 分钟参观,如果你想了解 Oia 作为 19 世纪船长小镇的历史,以及旅游业如何改变了这个地方。",
+        "walk_to_next": {
+          "to": "Oia Castle ruins - sunset point",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Oia Castle ruins at sunset",
+        "wikidata_qid": "Q1009715",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oia,_Santorini",
+        "coordinates": {
+          "lat": 36.4637,
+          "lon": 25.3727
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "位于 Oia 最西北端的拜占庭城堡平台是官方日落聚集点,人山人海 - 至少要在日落前 90 分钟到达才能占据一个墙边位置。太阳在西北方向的开放爱琴海上落下,下方是卡尔德拉火山口,左边是 Thirassia 岛弧;在太阳落下后,光的序列持续约 20 分钟,然后颜色褪去。如果城堡太拥挤,只需向后 200 米的 Perivolos 步道上的高地平台提供相同的方位,但空间更充裕。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Thirassia island day visit",
+          "wikidata_qid": "Q644662",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Thirassia",
+          "coordinates": {
+            "lat": 36.4333,
+            "lon": 25.3417
+          },
+          "neighborhood": "Thirassia",
+          "duration_minutes": 120,
+          "type": "town",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "卡尔德拉西边的岛屿可以从 Oia 下方的 Ammoudi 湾乘小渡轮到达。Thirassia 的上村小路没有汽车,几乎没有旅游基础设施 - 小餐馆都是真正的渔业工作场所,而不是做作的装饰。从港口到 Manolas 村的 220 级阶梯爬升与 Fira 缆车上升的地质特征相同,但几乎完全没有人烟。",
+          "walk_from_main_route": {
+            "from": "Oia village",
+            "distance_meters": 650,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Akrotiri 和火山南部地区",
+      "cluster_tagline": "青铜时代城市，被火山灰掩埋，岛屿最壮观的海岸地质景观",
+      "neighborhood_focus": "Akrotiri / Mesa Pigadia",
+      "neighborhood_description": "岛屿的西南端拥有爱琴海最重要的考古遗址 - Minoan时期的Akrotiri城镇，自公元前约1627年以来就被火山灰覆盖保存。沿海岸向东短途驾驶可到达Red Beach，由同一次火山喷发的熔岩流入海而形成。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1310,
+      "day_walking_minutes": 16,
+      "morning": {
+        "activity_title": "Akrotiri Archaeological Site",
+        "wikidata_qid": "Q185540",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Akrotiri_(Santorini)",
+        "coordinates": {
+          "lat": 36.3518,
+          "lon": 25.4046
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "archaeological_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "整个遗址由现代生物气候屋顶遮蔽，在任何天气条件下都可正常游览。发掘区包含多层Cycladic建筑，完整的楼梯、排水系统和原位放置的地层储存罐 - 这种程度的保存城市遗迹在青铜时代爱琴海地区无与伦比。在入口租用语音导览而不是阅读说明牌；没有讲解的情况下空间定位会令人困惑。著名的壁画已被转移至雅典国家博物馆和Fira的Museum of Prehistoric Thera - 遗址本身展示的是这些壁画的复制品。",
+        "walk_to_next": {
+          "to": "Red Beach",
+          "distance_meters": 910,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Red Beach",
+        "wikidata_qid": "Q3439604",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Beach,_Santorini",
+        "coordinates": {
+          "lat": 36.3475,
+          "lon": 25.3969
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "海滩由红色和黑色火山浮岩悬崖直接落入大海而形成 - 其色彩与爱琴海蓝色的对比是看点所在，而不是游泳（海滩狭窄且多石头）。从Akrotiri停车场出发走700米海岸步道而不是乘船到达；步行方式能够充分体验地质景观的震撼，随着悬崖逐渐呈现在眼前。岩石坠落警告牌是有原因的 - 不要站在海滩东端的悬崖下方。",
+        "walk_to_next": {
+          "to": "Ancient Thera on Mesa Vouno",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Ancient Thera on Mesa Vouno",
+        "wikidata_qid": "Q776866",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ancient_Thera",
+        "coordinates": {
+          "lat": 36.3633,
+          "lon": 25.4594
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "这座古老的希腊和罗马城市坐落在Kamari和Perissa海滩之间一条狭窄的396米山脊上 - 从Kamari出发的道路铺装完好可通行,或者可以从Perissa出发进行陡峭的45分钟登山。与Akrotiri相比,该遗址几乎总是人迹稀少,从山脊上的景色是岛上最美的:可以同时看到两条海岸线,在晴朗的日子里,西北方向可以看到火山口和Fira。Apollo Karneios的Temenos保留了公元前7世纪体操竞赛的雕刻铭文。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Lighthouse of Akrotiri",
+          "wikidata_qid": "Q1261068",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Akrotiri_Lighthouse",
+          "coordinates": {
+            "lat": 36.3394,
+            "lon": 25.3969
+          },
+          "neighborhood": "Akrotiri",
+          "duration_minutes": 30,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "位于岛屿南端的1892年灯塔遥望无人居住的Christiana小岛。道路在一个小停车场结束,西向视野开阔 - 如果第2天觉得Oia的人群太多,这是另一个观看日落的好去处,周围没有人,地平线清晰。",
+          "walk_from_main_route": {
+            "from": "Red Beach",
+            "distance_meters": 1300,
+            "walking_minutes": 16
+          }
+        }
+      ]
+    }
+  ]
+}

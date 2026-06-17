@@ -1,0 +1,747 @@
+{
+  "destination": "Istanbul",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-18T11:57:17.848Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Sultanahmet",
+    "Grand Bazaar / Beyazit / Suleymaniye",
+    "Eminonu / Karakoy / Galata",
+    "Beyoglu / Istiklal / Pera",
+    "Besiktas / Dolmabahce / Ortakoy",
+    "Uskudar / Kadikoy (Asian Shore)",
+    "Bosphorus Cruise / Princes Islands"
+  ],
+  "guide_description": "七天行程涵盖伊斯坦布尔的主要地理区域:位于第一山丘的拜占庭和奥斯曼帝国皇室中心、金角湾的商业街区、北岸的19世纪国际化城区，以及较为安静的亚洲一侧。最后一天乘渡轮穿越博斯普鲁斯海峡，从水上体验这座城市。每一天在地理上都相对独立，可根据天气或渡轮班次进行调整。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 19890,
+  "total_walking_minutes": 249,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Imperial Sultanahmet",
+      "cluster_tagline": "拜占庭和奥斯曼帝国的中心 - 两个世界遗迹相隔仅五分钟",
+      "neighborhood_focus": "Sultanahmet",
+      "neighborhood_description": "Constantinople的第一山丘，拜占庭和奥斯曼帝国都选择在此放置其最重要的纪念碑。Hagia Sophia和Blue Mosque隔着Hippodrome广场相对而立，Topkapi Palace占据了博斯普鲁斯海峡上方的岬角。这是这座城市历史最悠久且持续有人居住的地区。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Hagia Sophia",
+        "wikidata_qid": "Q12506",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+        "coordinates": {
+          "lat": 41.0086,
+          "lon": 28.9802
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "入场免费但上午9时起会形成排队等候。在开放时间抵达（根据祈祷时间安排）可以在中午人群到来前欣赏穹顶。上层走廊的伟大马赛克 - 特别是Deesis基督像 - 需要爬上南走廊坡道，以便在旅游团队填满空间前观看。该建筑仍是一座活跃的清真寺，因此需要脱鞋，并遮盖肩膀和头发。",
+        "walk_to_next": {
+          "to": "Sultanahmet Mosque (Blue Mosque)",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sultanahmet Mosque",
+        "wikidata_qid": "Q44113",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque",
+        "coordinates": {
+          "lat": 41.0054,
+          "lon": 28.9768
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "从北侧庭院门进入，而不是南侧的游客通道 - 从北侧看庭院喷泉和六座尖塔是建筑师Sedefkar Mehmed设想的观景角度。装饰上层走廊的21,000块Iznik瓷砖是现存最集中的17世纪瓷砖工艺展示。在祈祷时间（每天约五次，每次约30分钟）内不对非信徒开放。",
+        "walk_to_next": {
+          "to": "Hippodrome of Constantinople",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Hippodrome of Constantinople and the Obelisk of Theodosius",
+        "wikidata_qid": "Q213207",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hippodrome_of_Constantinople",
+        "coordinates": {
+          "lat": 41.0061,
+          "lon": 28.9745
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 45,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "古代战车竞赛场的中轴线如今是一座行人公园。Theodosius的埃及方尖碑仍然竖立在其原始罗马基座上，基座上刻有皇室成员观看比赛的浮雕。在南端，从公元324年从Delphi运来的Serpent Column是Istanbul现存最古老的希腊遗迹。傍晚时段当日游大巴车离开后，整个区域最为安静。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Basilica Cistern",
+          "wikidata_qid": "Q179923",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_Cistern",
+          "coordinates": {
+            "lat": 41.0084,
+            "lon": 28.9779
+          },
+          "neighborhood": "Sultanahmet",
+          "duration_minutes": 45,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "一座6世纪的拜占庭地下水库，由336根大理石柱支撑。西北角用作柱基的两个美杜莎头像 - 一个侧向，一个倒置 - 来历不明，也许是拍照最多的细节。2022年的翻修改变了游客路线并改善了照明，但也增加了一些引发争议的戏剧装置。",
+          "walk_from_main_route": {
+            "from": "Hagia Sophia",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Mosaic Museum",
+          "wikidata_qid": "Q6924895",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Great_Palace_Mosaic_Museum",
+          "coordinates": {
+            "lat": 41.0048,
+            "lon": 28.9762
+          },
+          "neighborhood": "Sultanahmet",
+          "duration_minutes": 40,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "一座很少拥挤的博物馆，建在大拜占庭宫殿的原位马赛克地板上。该宫殿遗迹在1935年被发现于Arasta Bazaar地下。狩猎和动物场景是地中海地区现存最精美的晚期古代地板马赛克。从Blue Mosque东南角的Arasta Bazaar拱廊入口进入。",
+          "walk_from_main_route": {
+            "from": "Sultanahmet Mosque",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Topkapi及第一山宫殿建筑群",
+      "cluster_tagline": "博斯普鲁斯海峡上方半岛上六个世纪的奥斯曼帝国皇权",
+      "neighborhood_focus": "Topkapi / Gulhane",
+      "neighborhood_description": "历史半岛的东端，奥斯曼苏丹从1453年起直到19世纪在此建造和扩建他们的宫殿建筑群。Topkapi与其说是一栋建筑，不如说是积累了400多年的一系列庭院和亭阁，从露台上可以看到博斯普鲁斯海峡和金角湾的景色。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2340,
+      "day_walking_minutes": 29,
+      "morning": {
+        "activity_title": "Topkapi Palace",
+        "wikidata_qid": "Q179224",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Topkap%C4%B1_Palace",
+        "coordinates": {
+          "lat": 41.0115,
+          "lon": 28.9833
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 180,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "同时购买主票和单独的后宫票 - 后宫有一个独立的入口在宫内几分钟的地方，通常在午前中段就会售罄。第四庭院的财政室收藏着托普卡帕匕首和86克拉的勺子钻石。在第四庭院的露台上花些时间，这里可以欣赏到伊斯坦布尔最美的景色之一，金角湾、博斯普鲁斯海峡和马尔马拉海在这里汇聚。",
+        "walk_to_next": {
+          "to": "Istanbul Archaeological Museums",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Istanbul Archaeological Museums",
+        "wikidata_qid": "Q681946",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Istanbul_Archaeological_Museums",
+        "coordinates": {
+          "lat": 41.0105,
+          "lon": 28.9813
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "托普卡帕脚下的一个建筑群内有三座博物馆。主楼内的亚历山大石棺是不容错过的展品 - 一具4世纪BC的马其顿大理石石棺，上面有战争浮雕，保留着近乎原始的绘画色彩。穿过庭院的古代东方博物馆收藏了美索不达米亚泥板，包括世界上最早的地图之一。比上面的宫殿游客少得多。",
+        "walk_to_next": {
+          "to": "Gulhane Park",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Gulhane Park and Bosphorus viewpoint",
+        "wikidata_qid": "Q1056659",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/G%C3%BClhane_Park",
+        "coordinates": {
+          "lat": 41.0133,
+          "lon": 28.9812
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "托普卡帕宫的前外花园，现在是一个向海岸延伸的公共公园。走到东北角的露台，站在水上方可以看到博斯普鲁斯海峡的不受阻碍的景色，亚洲在700米外的地方开始。公园内的茶馆用郁金香形的玻璃杯提供茶水，开放时间一直延续到天黑之后。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hagia Irene",
+          "wikidata_qid": "Q231316",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hagia_Irene",
+          "coordinates": {
+            "lat": 41.0119,
+            "lon": 28.9815
+          },
+          "neighborhood": "Topkapi",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "伊斯坦布尔现存最古老的教堂，早于圣索菲亚大教堂，从未被改建成清真寺。它坐落在托普卡帕的第一庭院内，但需要单独购票。半圆形后殿的马赛克是一个简单的金色十字 - 8世纪的拜占庭圣像破坏运动清除了所有人物形象，此后从未恢复。音响效果非凡，现在被用作音乐厅。",
+          "walk_from_main_route": {
+            "from": "Topkapi Palace entrance",
+            "distance_meters": 100,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Grand Bazaar、Beyazit 和 Suleymaniye",
+      "cluster_tagline": "奥斯曼帝国商业和宗教的心脏 - 世界上最古老的山顶清真寺下方的有顶市集",
+      "neighborhood_focus": "Beyazit / Suleymaniye",
+      "neighborhood_description": "奥斯曼帝国伊斯坦布尔的商业和学术中心,位于金角湾上方的第三座山丘上。Grand Bazaar 建于穆罕默德二世时期的 1460 年代,是新奥斯曼帝国首都的经济引擎。其上方的 Suleymaniye Mosque 建筑群由建筑师 Sinan 于 1550 年设计,是奥斯曼帝国皇帝雄心壮志的标志性宣言。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Grand Bazaar",
+        "wikidata_qid": "Q41768",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_Bazaar,_Istanbul",
+        "coordinates": {
+          "lat": 41.0106,
+          "lon": 28.9682
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "61 条有顶街道和超过 4,000 家商店,面积达 30,600 平方米 - 在开放时间(上午 9 点)到达,此时商人还在整理货物,购买压力较小。中心的 Bedesten 是最古老的部分,原本是贵重物品的安全金库;这里的古董和珠宝商人比旅游外围的商人更认真。集市在星期日关闭。",
+        "walk_to_next": {
+          "to": "Suleymaniye Mosque",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Suleymaniye Mosque",
+        "wikidata_qid": "Q178048",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque",
+        "coordinates": {
+          "lat": 41.0163,
+          "lon": 28.9638
+        },
+        "unesco_designation": {
+          "site_name": "Historic Areas of Istanbul",
+          "year_inscribed": 1985,
+          "reference_number": 356,
+          "url": "https://whc.unesco.org/en/list/356"
+        },
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "锡南的杰作，完成于1558年，当时他已70岁高龄。内部实现了蓝色清真寺试图达到的效果：一个广阔统一的穹顶空间，光线从138扇窗户射入，锡南精心调整了这些窗户玻璃的不同色调。苏莱曼大帝及其妻子赫莱姆的陵墓位于清真寺后面的花园中。北侧山坡露台拥有金角湾的全景，大多数游客完全错过了这一点。",
+        "walk_to_next": {
+          "to": "Egyptian Bazaar (Spice Market)",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Egyptian Bazaar and Eminonu waterfront",
+        "wikidata_qid": "Q477032",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Egyptian_Bazaar",
+        "coordinates": {
+          "lat": 41.0166,
+          "lon": 28.9712
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "位于叶尼清真寺脚下的17世纪香料市场。内部商店出售藏红花、干果、土耳其软糖和香料混合物。比大巴扎更有用的补给地。离开市场后，步行100米前往埃米诺努滨水区 - 加拉塔大桥和渡轮码头之间的这一段是巴勒克埃克梅克（鱼三明治）船只停靠了数十年的地方。一定要吃一个。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Beyazit Square and Istanbul University Gate",
+          "wikidata_qid": "Q964839",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Beyaz%C4%B1t_Square",
+          "coordinates": {
+            "lat": 41.0106,
+            "lon": 28.9638
+          },
+          "neighborhood": "Beyazit",
+          "duration_minutes": 20,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "古罗马论坛广场，现在以贝亚齐特清真寺（1506年）和19世纪奥斯曼巴洛克风格的伊斯坦布尔大学门为中心。从广场可以看到的消防塔是1828年的石砌岗哨，曾用作该市的火灾警报系统。东侧拱廊中的二手书市场值得慢慢游览。",
+          "walk_from_main_route": {
+            "from": "Grand Bazaar",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Galata Bridge upper and lower decks",
+          "wikidata_qid": "Q758045",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Galata_Bridge",
+          "coordinates": {
+            "lat": 41.0183,
+            "lon": 28.9739
+          },
+          "neighborhood": "Eminonu",
+          "duration_minutes": 25,
+          "type": "bridge",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "490米长的双层甲板桥，跨越金角湾的入口。上层甲板两侧排列着渔民，他们随时在海峡中投竿垂钓。下层甲板是一个有顶棚的餐厅长廊 - 选择时应根据水景而非兜售者的推销。在日落时分向西眺望金角湾，看法蒂赫清真寺的轮廓，此时最为美妙。",
+          "walk_from_main_route": {
+            "from": "Egyptian Bazaar",
+            "distance_meters": 350,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "Karakoy、Galata 和塔楼",
+      "cluster_tagline": "从热那亚贸易殖民地到波西米亚风格的滨水区 - 中世纪塔楼坐落在一个运作中的港口上方",
+      "neighborhood_focus": "Karakoy / Galata",
+      "neighborhood_description": "Golden Horn 北岸的这片社区曾是中世纪君士坦丁堡的热那亚商人殖民地，以建于1348年的瞭望塔为标志。如今，滨水的 Karakoy 汇聚了运作中的渡轮码头、19世纪的银行建筑以及密集的当代画廊和咖啡烘焙店。上方的 Galata 地势更陡峭，更加宁静，建筑风格也更加统一协调。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2180,
+      "day_walking_minutes": 27,
+      "morning": {
+        "activity_title": "Galata Tower",
+        "wikidata_qid": "Q190671",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Galata_Tower",
+        "coordinates": {
+          "lat": 41.0256,
+          "lon": 28.9744
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "67米高的热那亚瞭望塔是城市中最好的360度方位参考点。提前在线购票 - 到上午10点时电梯排队会非常长。晨光洒向南方的 Sultanahmet 半岛，这是欣赏风景的最佳时刻。Galata Mevlevihanesi（梅夫拉维托钵林）位于 Galip Dede Caddesi 北面不远处，大多数周日举办旋转舞仪式。",
+        "walk_to_next": {
+          "to": "Istanbul Modern",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "afternoon": {
+        "activity_title": "Istanbul Modern",
+        "wikidata_qid": "Q3148874",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Istanbul_Modern",
+        "coordinates": {
+          "lat": 41.0274,
+          "lon": 28.9836
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "土耳其领先的当代艺术博物馆，2023年在Karakoy博斯普鲁斯滨水区的新Renzo Piano建筑中重新开放。常设展览涵盖了19世纪末以来的土耳其艺术，摄影档案库尤其出众。顶楼餐厅可饱览博斯普鲁斯海峡的开阔景色，即使不参观博物馆也值得来喝杯咖啡。从Galata乘坐电车或步行下来，不要试图从主干道找到它。",
+        "walk_to_next": {
+          "to": "Karakoy waterfront and Kemankes Caddesi",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Karakoy waterfront and Kemankes Caddesi",
+        "wikidata_qid": "Q6368006",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Karakoy",
+        "coordinates": {
+          "lat": 41.022,
+          "lon": 28.9743
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Kemankes Caddesi从渡轮码头通往Tophane的这段街道已成为城市最集中的独立酒吧、天然葡萄酒进口商和meyhane风格餐厅所在地。坐位餐厅需要预订，但街道上的酒吧可接待临时客人。位于终点的运营渡轮码头是黄昏时观看博斯普鲁斯海峡交通的最佳地点之一。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Galata Mevlevihanesi Museum",
+          "wikidata_qid": "Q5519861",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Galata_Mevlevihanesi",
+          "coordinates": {
+            "lat": 41.028,
+            "lon": 28.9742
+          },
+          "neighborhood": "Galata",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "伊斯坦布尔历史最悠久的现役梅夫拉维苦行僧修道院，成立于1491年。博物馆展示了苏菲派教团的历史，展品包括乐器、手稿和仪式物品。八角形的sema大厅 - 旋转厅 - 是建筑的中心部分。每周日下午5点在此举行公开sema仪式，门票需通过博物馆提前一周预订。",
+          "walk_from_main_route": {
+            "from": "Galata Tower",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "Beyoglu和Istiklal Avenue",
+      "cluster_tagline": "这座充满国际气息的19世纪城市以其宏伟的大道、历史悠久的拱廊和山顶墓地的景色而闻名",
+      "neighborhood_focus": "Beyoglu / Pera / Cihangir",
+      "neighborhood_description": "Galata以北的山城曾是19世纪君士坦丁堡的欧洲区，以Pera地区的使馆、酒店和百货公司而著称。Istiklal Caddesi是一条1.4公里长的步行街。这个街区向西陡峭下降进入Cihangir，这是城市中建筑保存最完整、波西米亚风格最浓厚的地区。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2650,
+      "day_walking_minutes": 34,
+      "morning": {
+        "activity_title": "Pera Museum",
+        "wikidata_qid": "Q1951634",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pera_Museum",
+        "coordinates": {
+          "lat": 41.034,
+          "lon": 28.9769
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "这是一个经过精心改造的19世纪酒店内的精选收藏。常设展览包括东方主义绘画和专门展示土耳其第一位重要画家Osman Hamdi Bey作品的展厅。他的作品《驯龟者》(1906)是博物馆的代表作，也是最常被复制的奥斯曼帝国时期绘画之一。比主要景点的人少得多，通常参观时间不超过两小时。",
+        "walk_to_next": {
+          "to": "Istiklal Caddesi and the Tunel tram",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Istiklal Caddesi",
+        "wikidata_qid": "Q703927",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/%C4%B0stiklal_Avenue",
+        "coordinates": {
+          "lat": 41.0335,
+          "lon": 28.9769
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "从Tunel步行全程1.4公里到Taksim，但要左转进入有顶棚的拱廊，而不是全程走在主干道上。Cite de Pera、Atlas Pasaji和Cercle d'Orient的通道保留了19世纪有顶棚购物拱廊的建筑风格，这种风格在建筑词汇上比大巴扎早了400年。山路上的历史红色电车很上镜，但人极其拥挤 - 步行既快又更有意思。",
+        "walk_to_next": {
+          "to": "Taksim Square",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Cihangir neighborhood and Firuzaga Mosque view",
+        "wikidata_qid": "Q1059936",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cihangir,_Istanbul",
+        "coordinates": {
+          "lat": 41.0289,
+          "lon": 28.9821
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Istiklal以西的陡峭街道向Bosphorus下倾，形成了这座城市最宜居且建筑风格最协调的社区。从Istiklal与街道交汇处沿着Cihangir Caddesi向下走，继续下降 - 在每条横街都能在公寓楼之间看到Bosphorus。Firuzaga Mosque周围的咖啡馆聚集区是Istanbul最好的社区广场，几乎完全是当地人的天地，从任何面向西的咖啡馆露台看日落，景色就在水面正下方。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Taksim Square and Ataturk Cultural Center",
+          "wikidata_qid": "Q208886",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Taksim_Square",
+          "coordinates": {
+            "lat": 41.0369,
+            "lon": 28.9852
+          },
+          "neighborhood": "Beyoglu",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Istiklal的北端由1928年建成的Republic Monument和重建的Ataturk文化中心(AKM)标记，于2021年重新开放。如果有演出或展览安排，Ataturk文化中心值得进去看看 - 其内部翻新是近期土耳其建筑中最有趣的公共建筑项目之一。",
+          "walk_from_main_route": {
+            "from": "Istiklal Caddesi northern end",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Tunel funicular",
+          "wikidata_qid": "Q745068",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/T%C3%BCnel",
+          "coordinates": {
+            "lat": 41.0278,
+            "lon": 28.9749
+          },
+          "neighborhood": "Beyoglu",
+          "duration_minutes": 10,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Tunel地下缆车轨道于1875年开通，是伦敦之后世界上第二古老的地下铁路。单条隧道长573米，连接水滨的Karakoy和Istiklal的南端 - 一张票，90秒的车程。乘坐一次可以感受历史气息和欣赏车站内原始木制车厢的风貌。",
+          "walk_from_main_route": {
+            "from": "Pera Museum",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "亚洲岸 - Uskudar和Kadikoy",
+      "cluster_tagline": "安静的亚洲一侧 - 奥斯曼时期的滨水圣殿、维多利亚时代的市场大厅，以及从水对岸看到的城市景观",
+      "neighborhood_focus": "Uskudar / Kadikoy",
+      "neighborhood_description": "Istanbul亚洲一侧的海岸，从Eminonu或Karakoy乘渡轮20分钟即可到达。Uskudar历史更悠久，具有更浓厚的奥斯曼特色，以Sinan清真寺和离岸的Maiden Tower为标志。南边的Kadikoy更热闹、更年轻，以有顶的市场和密集的酒吧街为中心。渡轮穿越本身将欧洲城市重新呈现为其设计初衷的天际线。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3230,
+      "day_walking_minutes": 41,
+      "morning": {
+        "activity_title": "Uskudar waterfront and Mihrimah Sultan Mosque",
+        "wikidata_qid": "Q1061782",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mihrimah_Sultan_Mosque,_%C3%9Csk%C3%BCdar",
+        "coordinates": {
+          "lat": 41.023,
+          "lon": 29.0141
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Sinan为苏莱曼之女Mihrimah设计的1548年清真寺规模更小、游客较少，但被认为是他技术最精湛的作品之一。单尖塔和低矮的圆顶轮廓从渡轮上清晰可见。清真寺前的Uskudar滨水广场是亚洲一侧的功能中心 - 芝麻圈小贩和树下的茶馆已在此经营了几代人。",
+        "walk_to_next": {
+          "to": "Maiden's Tower (Kiz Kulesi)",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Maiden's Tower",
+        "wikidata_qid": "Q654897",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maiden%27s_Tower",
+        "coordinates": {
+          "lat": 41.0211,
+          "lon": 29.0041
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "这座位于离岸200米小岛上的拜占庭小塔在漫长的历史中曾用作灯塔、隔离站和餐厅。从Salacak登陆点出发有短途船梭往返 - 船票必须在码头的售票亭购买，不能在线购买。从塔楼阳台上可以看到难得一见的水中视角，能同时看到欧洲和亚洲两侧的海岸线。",
+        "walk_to_next": {
+          "to": "Kadikoy Market and Moda",
+          "distance_meters": 1800,
+          "walking_minutes": 23
+        }
+      },
+      "evening": {
+        "activity_title": "Kadikoy Carsi market district",
+        "wikidata_qid": "Q944692",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kad%C4%B1k%C3%B6y",
+        "coordinates": {
+          "lat": 40.9907,
+          "lon": 29.0231
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "market",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Kadikoy的有顶市场和周围街道是伊斯坦布尔最好的食品购物地点 - Yasa Caddesi上的鱼类市场大厅、其后面步行街上的屠夫和奶酪商、以及再往东一个街区的Kadife Sokak上的酒馆街。这个社区完全保留了本地特色,是品尝正宗伊斯坦布尔晚餐而不用支付Sultanahmet旅游溢价的最佳地点。从Kadikoy乘渡轮返回欧洲 - 黄昏时25分钟的渡轮之旅是伊斯坦布尔最美的城市景观。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Camlica Hill",
+          "wikidata_qid": "Q1055949",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/%C3%87aml%C4%B1ca",
+          "coordinates": {
+            "lat": 41.0278,
+            "lon": 29.0556
+          },
+          "neighborhood": "Uskudar",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "sunset",
+          "notes": "亚洲海岸的最高点,高度288米,拥有360度全景,在晴朗的日子里可以看到王子岛和马尔马拉海。从Uskudar乘出租车前往,而不要尝试步行上山。巨大的新Camlica清真寺(2019年,容纳63,000人)主宰着山顶,仅因其规模就值得进去参观。",
+          "walk_from_main_route": {
+            "from": "Uskudar waterfront",
+            "distance_meters": 3500,
+            "walking_minutes": 44
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "Dolmabahce、Besiktas和博斯普鲁斯海岸",
+      "cluster_tagline": "19世纪的滨水宫殿、足球狂热的社区和奥斯曼巴洛克海岸",
+      "neighborhood_focus": "Besiktas / Dolmabahce / Ortakoy",
+      "neighborhood_description": "老城墙以北的欧洲一侧博斯普鲁斯海峡沿岸，在19世纪得到开发，当时奥斯曼宫廷放弃了托普卡帕皇宫，转而在海水边建造现代宫殿。Dolmabahce、Besiktas和Ortakoy三个社区由一条连贯的滨水步道相连，整个过程中海峡始终在右侧50米处。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 4550,
+      "day_walking_minutes": 57,
+      "morning": {
+        "activity_title": "Dolmabahce Palace",
+        "wikidata_qid": "Q183776",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dolmab%C3%A2h%C3%A7e_Palace",
+        "coordinates": {
+          "lat": 41.039,
+          "lon": 29.0013
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "1856年建成的这座宫殿取代了托普卡帕皇宫，成为奥斯曼帝国的政府所在地，其博斯普鲁斯海滨立面长达600米 - 是世界上任何宫殿中最长的立面。参观仅限有导游带领，分为两条独立路线（Selamlik国事厅和Haremlik居住区）。水晶楼梯及其Baccarat扶手和仪式厅中重达4.5吨的波希米亚水晶吊灯是两处必看之处。建议在线预订 - 在旺季中午前游览时段就会售罄。",
+        "walk_to_next": {
+          "to": "Besiktas waterfront and Barbaros Hayreddin Pasha Tomb",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "afternoon": {
+        "activity_title": "Besiktas waterfront and Ciragan Palace",
+        "wikidata_qid": "Q1066040",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/%C3%87ira%C4%9Fan_Palace",
+        "coordinates": {
+          "lat": 41.0449,
+          "lon": 29.0073
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "1867年由苏丹Abdulaziz建造的奥斯曼巴洛克式宫殿，现已改为酒店。沿博斯普鲁斯海峡的外立面可从滨水人行道上自由欣赏，堪称城市中19世纪奥斯曼建筑最精美的建筑段落。穿过酒店花园（作为通道可供公众进入）前往滨水露台 - 向上眺望博斯普鲁斯海峡朝向悬索桥的景色极佳，酒店在此提供茶水服务。",
+        "walk_to_next": {
+          "to": "Ortakoy Mosque",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "evening": {
+        "activity_title": "Ortakoy Mosque and the Bosphorus Bridge",
+        "wikidata_qid": "Q1076265",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ortak%C3%B6y_Mosque",
+        "coordinates": {
+          "lat": 41.0479,
+          "lon": 29.0267
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "这座1856年建成的小型新巴洛克式清真寺坐落在伸入博斯普鲁斯海峡的码头上，直接位于1973年悬索桥下方 - 奥斯曼巴洛克建筑与20世纪斜拉桥工程的并置构成了伊斯坦布尔继圣索菲亚大教堂之后最常被摄影的景象。清真寺后面的广场在黄昏时分挤满了kumpir（烤土豆）小摊和华夫饼小贩。在日落前约30分钟抵达，在滨水步道朝东北方向的位置等候，可在金色光线中拍摄到桥梁与清真寺的完美构图。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Naval Museum Besiktas",
+          "wikidata_qid": "Q15981507",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Naval_Museum,_Istanbul",
+          "coordinates": {
+            "lat": 41.0415,
+            "lon": 29.0038
+          },
+          "neighborhood": "Besiktas",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "奥斯曼帝国皇家划艇收藏是来这里的主要原因 - 一个苏丹们使用的仪式划艇厅，包括一艘1856年的驳船，长40米，有镀金的船尾舱。收藏中最长的奥斯曼帝国皇家划艇由144名桨手划动。大多数在Dolmabahce和Besiktas之间行走的游客完全忽视了这个地方。",
+          "walk_from_main_route": {
+            "from": "Dolmabahce Palace",
+            "distance_meters": 850,
+            "walking_minutes": 11
+          }
+        },
+        {
+          "activity_title": "Yildiz Park",
+          "wikidata_qid": "Q7591781",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Y%C4%B1ld%C4%B1z_Park",
+          "coordinates": {
+            "lat": 41.047,
+            "lon": 29.0136
+          },
+          "neighborhood": "Besiktas",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Ciragan Palace上方的林地山坡曾是Yildiz Palace的私人皇家花园，于1944年向公众开放。这个公园拥有伊斯坦布尔市中心罕见的真正林地特征 - 47公顷的橡树和悬铃木，以及溪流。公园内的Malta Kiosk是城市中较好的茶馆之一，最初是作为苏丹的周末别墅而建造的。",
+          "walk_from_main_route": {
+            "from": "Ciragan Palace",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

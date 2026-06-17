@@ -1,0 +1,128 @@
+{
+  "destination": "Aspen",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:52:50.275Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Aspen Downtown / Wagner Park / Aspen Mountain Base"
+  ],
+  "guide_description": "Une journée pour explorer le centre historique et piétonnier d'Aspen - une ville victorienne de la ruée vers l'argent qui a survécu à l'effondrement économique et s'est réinventée en tant que destination culturelle et de ski. Le parcours va du centre-ville civique en grille régulière à la base du téléphérique de montagne et revient par le corridor des arts, offrant une vue cohérente de la ville sans avoir besoin d'une voiture.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 1690,
+  "total_walking_minutes": 22,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Downtown Aspen et Mountain Base",
+      "cluster_tagline": "Des rues victorienne de la ruée vers l'argent au pied des Rockies",
+      "neighborhood_focus": "Aspen Downtown / Wagner Park / Aspen Mountain Base",
+      "neighborhood_description": "Le centre-ville compact d'Aspen est une grille minière des années 1880 presque parfaitement préservée, dont les blocs commerciaux en brique et les bâtiments civiques en brique et grès ont survécu au krach de l'argent de 1893 parce que la ville était trop endettée pour les démolir. La base du téléphérique se trouve à la limite sud de la ville, et le campus culturel ancré par le Wheeler Opera House et l'Aspen Art Museum se trouvent à moins de cinq minutes à pied de tous les lieux d'intérêt.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1690,
+      "day_walking_minutes": 22,
+      "morning": {
+        "activity_title": "Wheeler Opera House",
+        "wikidata_qid": "Q7993088",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wheeler_Opera_House",
+        "coordinates": {
+          "lat": 39.1911,
+          "lon": -106.8196
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Construit en 1889 par le magnat de l'argent Jerome B. Wheeler, l'opéra anchor Mill Street et constitue l'expression la plus claire des ambitions de l'époque dorée d'Aspen. Le hall et le rez-de-chaussée sont ouverts aux visites autoguidées la plupart des matins sans billet - entrez depuis Mill Street, pas par l'entrée de l'allée, pour voir les détails originaux de la façade en fonte. Consultez le tableau d'affichage du guichet pour les représentations du soir, qui vont du jazz à la musique classique et sont souvent à prix modeste.",
+        "walk_to_next": {
+          "to": "Hotel Jerome",
+          "distance_meters": 130,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Gondola Plaza and Silver Queen Gondola Base",
+        "wikidata_qid": "Q2304555",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen_Mountain",
+        "coordinates": {
+          "lat": 39.1854,
+          "lon": -106.8198
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "La Silver Queen Gondola fonctionne en été pour les excursions touristiques et l'accès au vélo de montagne - achetez un aller simple vers le haut et descendez à pied ou à vélo. Le sommet à 11 212 pieds offre des vues dégagées sur les Elk Mountains et la Roaring Fork Valley. Acclimatez-vous d'abord si vous arrivez d'une basse altitude ; la montée en gondole est rapide et les symptômes d'altitude peuvent apparaître rapidement au sommet.",
+        "walk_to_next": {
+          "to": "Aspen Art Museum",
+          "distance_meters": 760,
+          "walking_minutes": 10
+        }
+      },
+      "evening": {
+        "activity_title": "Aspen Art Museum",
+        "wikidata_qid": "Q4803136",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen_Art_Museum",
+        "coordinates": {
+          "lat": 39.1908,
+          "lon": -106.8145
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Le bâtiment de Shigeru Ban datant de 2014 est enveloppé d'un écran composite tissé qui le rend différent à chaque lumière - approchez-vous depuis South Spring Street pour voir la façade complète avant d'entrer. L'admission est gratuite, ce qui est inhabituel pour une institution de cette qualité. La terrasse de sculptures sur le toit ferme avant les galeries intérieures, alors montez d'abord ; les vues en direction d'Aspen Mountain encadrent la ville mieux que n'importe quel angle de carte postale.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hotel Jerome",
+          "wikidata_qid": "Q5899368",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hotel_Jerome",
+          "coordinates": {
+            "lat": 39.1912,
+            "lon": -106.8186
+          },
+          "neighborhood": "Aspen Downtown",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Ouvert en 1889 la même année que le Wheeler Opera House, également construit par Jerome Wheeler, et toujours en activité comme hôtel. Le J-Bar près du hall est le plus vieux bar d'As",
+          "walk_from_main_route": {
+            "from": "Wheeler Opera House",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Wagner Park and the Cooper Avenue Mall",
+          "wikidata_qid": "Q115368742",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Aspen,_Colorado",
+          "coordinates": {
+            "lat": 39.1887,
+            "lon": -106.8192
+          },
+          "neighborhood": "Aspen Downtown",
+          "duration_minutes": 30,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Wagner Park est une esplanade verdoyante à l'extrémité sud de la promenade piétonne où les habitants pique-niquent et regardent les matchs de polo en été. La bande piétonne de Cooper Avenue s'étendant vers le nord depuis le parc est le salon extérieur d'Aspen - pavés de brique, vitrines victoriennes et les meilleures possibilités d'observation des passants en ville. Parcourez les quatre pâtés de maisons complets du parc vers le nord jusqu'à Galena Street, puis revenez par Mill Street pour découvrir à la fois les facades commerciales et civiques de la grille urbaine.",
+          "walk_from_main_route": {
+            "from": "Silver Queen Gondola Base",
+            "distance_meters": 670,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "destination": "Berlin",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:17:13.442Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Mitte - Museum Island and Unter den Linden",
+    "Mitte - Brandenburg Gate, Tiergarten, and Potsdamer Platz",
+    "Prenzlauer Berg and Hackescher Markt"
+  ],
+  "guide_description": "三天行程涵盖Berlin的核心层面：Museum Island上的普鲁士皇室中心、沿Unter den Linden大道和柏林墙的冷战轴线，以及Alexanderplatz以北重获新生的东部街区。每日行程在地理上自成一体，相邻区域之间有共同边界。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 6350,
+  "total_walking_minutes": 80,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Museum Island和Unter den Linden",
+      "cluster_tagline": "普鲁士帝国雄心浓缩在一座河心岛屿和一条ceremonial大道上",
+      "neighborhood_focus": "Mitte - Museum Island",
+      "neighborhood_description": "位于柏林老城中心的Spree河心岛，Hohenzollern王朝在这里用了一个世纪建造了五座世界级博物馆。这处UNESCO世界遗产建筑群位于Unter den Linden大道的西端，这条椴树大道是Berlin从皇宫到Brandenburg Gate的ceremonial轴线。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Pergamon Museum",
+        "wikidata_qid": "Q157176",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pergamon_Museum",
+        "coordinates": {
+          "lat": 52.5212,
+          "lon": 13.3967
+        },
+        "unesco_designation": {
+          "site_name": "Museum Island, Berlin",
+          "year_inscribed": 1999,
+          "reference_number": 896,
+          "url": "https://whc.unesco.org/en/list/896"
+        },
+        "duration_minutes": 150,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "主要的Pergamon Altar展厅正在装修，至少要到2027年才会重新开放，但Ishtar Gate和Market Gate of Miletus仍在展出，光是这两个就值得一游。请通过State Museums Berlin官网预订定时入场票--旺季时现场排队通常需要45分钟。建议从西侧Spree河岸的Am Kupfergraben入口进入，而不要走岛上桥那边的入口，这样可以避开旅游团造成的拥堵。",
+        "walk_to_next": {
+          "to": "Altes Museum",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Altes Museum and Lustgarten",
+        "wikidata_qid": "Q162111",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Altes_Museum",
+        "coordinates": {
+          "lat": 52.5197,
+          "lon": 13.3989
+        },
+        "unesco_designation": {
+          "site_name": "Museum Island, Berlin",
+          "year_inscribed": 1999,
+          "reference_number": 896,
+          "url": "https://whc.unesco.org/en/list/896"
+        },
+        "duration_minutes": 90,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Schinkel于1830年设计的新古典主义圆形建筑是Berlin最精心构思的室内空间之一--中央穹顶大厅上方的环形上层画廊经常被只在底层参观的游客错过。正前方的Lustgarten是Berlin市中心唯一规划的草坪，是博物馆参观间隙休息的好地方。",
+        "walk_to_next": {
+          "to": "Berlin Cathedral",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Berlin Cathedral rooftop at sunset",
+        "wikidata_qid": "Q157100",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Berlin_Cathedral",
+        "coordinates": {
+          "lat": 52.5191,
+          "lon": 13.4012
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "这座Hohenzollern宫廷教堂建于1905年--外观过于华丽，内部的马赛克装饰却出人意料地克制。爬上穹顶底部的鼓形画廊，可以欣赏到Mitte区最佳的免费屋顶景观之一：电视塔、Spree河以及下方的博物馆群。地下墓室安放着94具Hohenzollern家族的石棺，最古老的可追溯到1553年。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Neues Museum and the Nefertiti Bust",
+          "wikidata_qid": "Q153087",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Neues_Museum",
+          "coordinates": {
+            "lat": 52.5204,
+            "lon": 13.3978
+          },
+          "neighborhood": "Museum Island",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "David Chipperfield的重建工程刻意在墙壁和地面保留了二战轰炸损伤的痕迹--建筑本身就和藏品一样有趣。Nefertiti半身像位于三层专门建造的暗室中；她的面部略微偏向中心左侧，这个细节在大多数照片中都被掩盖了。",
+          "walk_from_main_route": {
+            "from": "Pergamon Museum",
+            "distance_meters": 150,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Humboldt Forum",
+          "wikidata_qid": "Q1658880",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Humboldt_Forum",
+          "coordinates": {
+            "lat": 52.5177,
+            "lon": 13.4017
+          },
+          "neighborhood": "Mitte",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "重建的Berlin Palace于2021年在拆除的东德Palast der Republik原址上开放。外观的巴洛克式重建在政治上颇具争议性；内部收藏有民族学和城市历史文物。南侧的免费屋顶露台可直接眺望Unter den Linden大街，视线直达Brandenburg Gate。",
+          "walk_from_main_route": {
+            "from": "Berlin Cathedral",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Brandenburg Gate、Tiergarten和柏林墙",
+      "cluster_tagline": "冷战轴线--从Reichstag圆顶到柏林墙最后现存的一段",
+      "neighborhood_focus": "Mitte - Tiergarten",
+      "neighborhood_description": "柏林市中心这片广阔区域曾被柏林墙分割长达28年。如今这条线路从Reichstag穿过Pariser Platz和Potsdamer Platz向南延伸至Checkpoint Charlie，西侧的Tiergarten公园填补了当年西柏林的无人地带。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "Reichstag dome",
+        "wikidata_qid": "Q160552",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Reichstag_building",
+        "coordinates": {
+          "lat": 52.5186,
+          "lon": 13.3762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "免费入场但需在Bundestag网站提前预约注册 - 时段提前几周开放，周末名额很快就满。Norman Foster设计的玻璃穹顶让游客沿着螺旋坡道围绕镜面中央锥体向上行走，可以看到下方的全体会议厅。1945年苏联士兵留下的涂鸦至今仍保留在内院墙壁上。",
+        "walk_to_next": {
+          "to": "Brandenburg Gate",
+          "distance_meters": 650,
+          "walking_minutes": 9
+        }
+      },
+      "afternoon": {
+        "activity_title": "Brandenburg Gate and Memorial to the Murdered Jews of Europe",
+        "wikidata_qid": "Q82425",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+        "coordinates": {
+          "lat": 52.5163,
+          "lon": 13.3777
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "大门本身最好在上午从Pariser Platz一侧观看，或下午从Tiergarten一侧观看，这样光线在你身后。Holocaust Memorial - 由Peter Eisenman设计的2,711根高低不等的混凝土石柱 - 向南步行两分钟即到，至少需要30分钟才能好好走完。纪念碑下方的地下信息中心是另一种更安静的体验，值得安排时间参观。",
+        "walk_to_next": {
+          "to": "Topography of Terror",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Topography of Terror and the East Side Gallery",
+        "wikidata_qid": "Q699890",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Topography_of_Terror",
+        "coordinates": {
+          "lat": 52.5064,
+          "lon": 13.3818
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "建在SS和Gestapo总部挖掘出的地基上。沿Niederkirchnerstrasse的室外挖掘沟渠紧邻一段原始的柏林墙 - 室外和室内展览均免费入场。如果还有体力，East Side Gallery向东沿Spree河步行20分钟即到：这是柏林墙现存最长的彩绘段，1.3公里的壁画创作于1990年。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Siegessäule (Victory Column)",
+          "wikidata_qid": "Q153188",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Berlin_Victory_Column",
+          "coordinates": {
+            "lat": 52.5145,
+            "lon": 13.3501
+          },
+          "neighborhood": "Tiergarten",
+          "duration_minutes": 45,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "位于Tiergarten星形路口中心的普鲁士镀金胜利纪念碑。爬285级台阶到观景台可以欣赏Tiergarten放射状大道和远处电视塔的最佳全景。希特勒曾将它从Reichstag前的原址迁移到此处，并增加了一段鼓形部分，使其达到现在的67米高度。",
+          "walk_from_main_route": {
+            "from": "Brandenburg Gate",
+            "distance_meters": 1600,
+            "walking_minutes": 20
+          }
+        },
+        {
+          "activity_title": "Checkpoint Charlie",
+          "wikidata_qid": "Q153628",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
+          "coordinates": {
+            "lat": 52.5076,
+            "lon": 13.3904
+          },
+          "neighborhood": "Mitte",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "盟军检查站现在是一个旅游广场，设有一个复制的警卫亭--原始警卫亭保存在Zehlendorf的盟军博物馆中。跳过隔壁的付费博物馆，其策展质量与价格不符，不如阅读沿Friedrichstrasse街的露天墙面展示信息板，了解在此处发生的逃亡和对峙的真实历史。",
+          "walk_from_main_route": {
+            "from": "Topography of Terror",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Hackescher Markt和Prenzlauer Berg",
+      "cluster_tagline": "重生的东部--Wilhelmine庭院、犹太区，以及柏林墙开放的Bornholmer桥",
+      "neighborhood_focus": "Mitte - Spandauer Vorstadt / Prenzlauer Berg",
+      "neighborhood_description": "Alexanderplatz正北的这一区域曾是柏林战前犹太社区的中心，后来成为统一时代东柏林的波希米亚艺术核心。Hackescher Markt位于南部，以其修复的Jugendstil拱廊庭院为中心；Prenzlauer Berg向北延伸，遍布保存完好的Wilhelmine时期公寓街道。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Hackesche Hoefe",
+        "wikidata_qid": "Q320673",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hackesche_H%C3%B6fe",
+        "coordinates": {
+          "lat": 52.5237,
+          "lon": 13.4022
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "建于1907年的八个相连庭院，是德国最大的Jugendstil风格住宅商业综合体。面向Rosenthaler Strasse的第一个庭院保留了最完整的瓷砖装饰；穿过所有八个庭院可到达Sophienstrasse上相对安静的后门入口。大多数游客只在第一个庭院停留就离开了，错过了更为私密的内部住宅庭院。",
+        "walk_to_next": {
+          "to": "New Synagogue Berlin",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "New Synagogue Berlin and Oranienburger Strasse",
+        "wikidata_qid": "Q676388",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/New_Synagogue,_Berlin",
+        "coordinates": {
+          "lat": 52.5261,
+          "lon": 13.3936
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "这座建于1866年的摩尔-哥特式犹太教堂在水晶之夜之前是德国最大的犹太教堂。内部在二战中被摧毁，只有镀金的外立面和入口大厅得以重建--内部的展览记录了完整内装的原貌以及犹太会众的遭遇。大门处的安检十分严格，需要预留额外时间。登上屋顶圆顶可以俯瞰Oranienburger Strasse，这是柏林市中心鲜为人知的绝佳观景点之一。",
+        "walk_to_next": {
+          "to": "Kollwitzplatz",
+          "distance_meters": 900,
+          "walking_minutes": 12
+        }
+      },
+      "evening": {
+        "activity_title": "Kollwitzplatz and Prenzlauer Berg streets",
+        "wikidata_qid": "Q1756240",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kollwitzplatz",
+        "coordinates": {
+          "lat": 52.5359,
+          "lon": 13.4157
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "这个绿意盎然的广场以表现主义艺术家Kathe Kollwitz命名，她曾住在附近，广场中央矗立着她的青铜自画像。周四和周六上午这里举办食品和有机农产品市场；傍晚时分广场上聚满了来自周边街区的当地人。沿着Husemannstrasse向南走，可以看到该区域保存最完整的未修复和已修复Wilhelmine时期建筑立面--这条街道在1987年作为GDR的展示项目进行了翻新，至今仍像一个时间胶囊。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Memorial to the Sinti and Roma Victims of National Socialism",
+          "wikidata_qid": "Q1565543",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Memorial_to_the_Sinti_and_Roma_Victims_of_National_Socialism",
+          "coordinates": {
+            "lat": 52.5152,
+            "lon": 13.3728
+          },
+          "neighborhood": "Tiergarten",
+          "duration_minutes": 20,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Dani Karavan在Tiergarten北部设计的圆形倒影池，经过数十年的倡议于2012年建成。池中央沉没的三角形上每天会换上一朵新鲜的花。这是柏林最安静、造型最精准的纪念地之一，即使在旅游旺季也几乎不会拥挤。",
+          "walk_from_main_route": {
+            "from": "Hackesche Hoefe",
+            "distance_meters": 1800,
+            "walking_minutes": 23
+          }
+        },
+        {
+          "activity_title": "Mauerpark flea market",
+          "wikidata_qid": "Q1884547",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Mauerpark",
+          "coordinates": {
+            "lat": 52.5416,
+            "lon": 13.4019
+          },
+          "neighborhood": "Prenzlauer Berg",
+          "duration_minutes": 60,
+          "type": "market",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "这个公园沿着Prenzlauer Berg和Wedding之间的前Wall死亡地带延伸。仅在周日有跳蚤市场--上午9点左右开始，下午4点前结束。露天剧场在周日中午左右举办户外卡拉OK活动，吸引的是真正的观众而不是安排好的演出。",
+          "walk_from_main_route": {
+            "from": "Kollwitzplatz",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

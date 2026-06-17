@@ -1,0 +1,128 @@
+{
+  "destination": "Barcelona",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Barri Gòtic / El Born"
+  ],
+  "guide_description": "徒步游览Barcelona中世纪核心区域，以Gothic Cathedral为中心，向东延伸至El Born区。狭窄的石板小巷、罗马遗址，以及欧洲中世纪建筑最密集的区域之一，全程1公里环线。",
+  "weather_profile": "resilient",
+  "total_walking_distance_meters": 1800,
+  "total_walking_minutes": 23,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Barri Gòtic和El Born",
+      "cluster_tagline": "徒步探索中世纪Barcelona - Cathedral、罗马城墙和商人区",
+      "neighborhood_focus": "Barri Gòtic / El Born",
+      "neighborhood_description": "两个相邻的中世纪街区构成了Barcelona的历史核心。Barri Gòtic建在罗马遗址之上，以Gothic Cathedral为中心；东侧的El Born是昔日的商人区，街道更加狭窄，氛围更为活跃，Santa Maria del Mar大教堂坐落于此区的中心位置。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Cathedral of Barcelona (La Seu)",
+        "wikidata_qid": "Q56551",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cathedral_of_Barcelona",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1761
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "这座14世纪哥特式大教堂经常被误认为是高迪的Sagrada Família，但在建筑风格上完全不同。回廊里养着十三只白鹅（传统上代表圣女Eulalia生命中的每一年），是这里意想不到的核心景点。花少量费用可乘电梯到达屋顶露台，在那里可以俯瞰整个哥特区，这是那些涌向Sagrada Família的游客很少想到要寻找的视角。",
+        "walk_to_next": {
+          "to": "Plaça del Rei",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Plaça del Rei and the Roman walls",
+        "wikidata_qid": "Q807877",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei",
+        "coordinates": {
+          "lat": 41.3839,
+          "lon": 2.1775
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "这座中世纪皇家广场四周环绕着Palau Reial Major，据说1493年哥伦布曾在此向费迪南德和伊莎贝拉汇报他的发现。广场上的MUHBA Barcelona History Museum入口通向地下，在你脚下直接保存着4公里长的罗马时期Barcino遗迹--街道、染坊、酒庄，保存得异常完好。这是Barcelona最令人惊喜的博物馆参观体验。",
+        "walk_to_next": {
+          "to": "Santa Maria del Mar",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Santa Maria del Mar",
+        "wikidata_qid": "Q930687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+        "coordinates": {
+          "lat": 41.3838,
+          "lon": 2.1819
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "basilica",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "sunset",
+        "notes": "由Ribera社区的商人和搬运工于1329-1383年建造，完全由工人阶级出资--当地人昵称它为\"海之大教堂\"。纯正的加泰罗尼亚哥特式内部与法国哥特式建筑相比异常宽敞通风，其比例从高迪时代起就影响着建筑师们。午后阳光透过玫瑰窗洒入是视觉上的奖赏。Ildefonso Falcones的小说在2000年代让这座教堂在海外广为人知。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Picasso Museum",
+          "wikidata_qid": "Q832627",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Museu_Picasso",
+          "coordinates": {
+            "lat": 41.3853,
+            "lon": 2.1808
+          },
+          "neighborhood": "El Born",
+          "duration_minutes": 90,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "这里收藏着毕加索早期作品的最大规模藏品，坐落在El Born区五座相连的中世纪宅邸中。博物馆的优势在于展示成名前的毕加索--Barcelona的学院派时期、蓝色时期、1957年的Las Meninas系列变奏。周一闭馆。周四下午和每月第一个周日免费入场--这些时段排队人数很多。",
+          "walk_from_main_route": {
+            "from": "Santa Maria del Mar",
+            "distance_meters": 300,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "Plaça Reial",
+          "wikidata_qid": "Q1132498",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_Reial",
+          "coordinates": {
+            "lat": 41.3803,
+            "lon": 2.175
+          },
+          "neighborhood": "Barri Gòtic",
+          "duration_minutes": 30,
+          "type": "square",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "after_dark",
+          "notes": "这是一个位于La Rambla旁边的19世纪拱廊广场，广场上种植着棕榈树，还有两根由年轻的Antoni Gaudí设计的铸铁灯柱--这是他在1879年最早的有偿委托作品之一。广场上的酒吧和餐厅白天比较商业化，但建筑环境在夜幕降临后会焕然一新。从Santa Maria del Mar经由Carrer del Bisbe步行返回，可以欣赏到这个街区最受摄影师青睐的哥特式桥梁。",
+          "walk_from_main_route": {
+            "from": "Cathedral of Barcelona",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    }
+  ]
+}

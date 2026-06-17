@@ -1,0 +1,326 @@
+{
+  "destination": "Tokyo",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Asakusa / Ueno",
+    "Shibuya / Harajuku",
+    "Shinjuku"
+  ],
+  "guide_description": "三天游览东京的本质对比:古老的寺庙区浅草,青年时尚和神社轴线涩谷/原宿,以及摩天大楼和夜生活区新宿。每一天都是一个独立的列车枢纽。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 9000,
+  "total_walking_minutes": 118,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "浅草和上野",
+      "cluster_tagline": "老东京 - 宏伟的寺庙、河流和博物馆公园",
+      "neighborhood_focus": "Asakusa / Ueno",
+      "neighborhood_description": "保留了比城市其他地方更多战前东京特色的东北部地区。浅草以Sensō-ji寺庙为中心,这是东京最古老、最受欢迎的佛教寺庙。向西二十分钟的上野公园拥有日本最密集的国家博物馆群。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 42,
+      "morning": {
+        "activity_title": "Sensō-ji and Nakamise-dōri",
+        "wikidata_qid": "Q200035",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+        "coordinates": {
+          "lat": 35.7148,
+          "lon": 139.7967
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "东京最古老的佛教寺庙，建于645年，拥有巨大的红色雷门（Kaminarimon）和其巨大的纸灯笼，是明信片上的经典形象。在上午9点之前到达，可以在纪念品拥挤之前在仲见世通（Nakamise-dōri）街道上散步。主殿堂免费进入；旁边的五层塔是东京拍摄最多的建筑之一。主殿前升起的清晨香烟是寺庙最美的时刻。",
+        "walk_to_next": {
+          "to": "Sumida River Walk",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sumida River and Asakusa backstreets",
+        "wikidata_qid": "Q855847",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sumida_River",
+        "coordinates": {
+          "lat": 35.7106,
+          "lon": 139.8019
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "隅田河畔公园提供了跨越Tokyo Skytree和朝日啤酒总部的标志性景色（其金色火焰雕塑由Philippe Starck设计，当地人昵称为\"黄金便便\"）。在浅草寺和河流之间的背街漫步，可以找到合羽桥通（Kappabashi-dōri）（厨具街）和仍在出售扇子、毛笔和米饼的隐蔽的江户时代商店。穿过吾妻桥可获得最佳的Skytree拍摄角度。",
+        "walk_to_next": {
+          "to": "Ueno Park",
+          "distance_meters": 2000,
+          "walking_minutes": 26
+        }
+      },
+      "evening": {
+        "activity_title": "Ueno Park and the Tokyo National Museum",
+        "wikidata_qid": "Q330923",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_National_Museum",
+        "coordinates": {
+          "lat": 35.7188,
+          "lon": 139.7762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "日本最大最古老的博物馆，收藏了该国最重要的日本艺术收藏品 - 刀剑、陶瓷、佛教雕塑、浮世绘版画。如果时间紧张，本馆（Japanese Gallery）是核心展区。上野公园本身是东京春季最受欢迎的樱花公园，还设有东京动物园、国立西洋美术馆（Le Corbusier，UNESCO）和几个较小的博物馆。博物馆下午5点关闭；最迟下午3点到达为宜，这样才有足够的参观时间。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "National Museum of Western Art",
+          "wikidata_qid": "Q1362629",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Western_Art",
+          "coordinates": {
+            "lat": 35.7156,
+            "lon": 139.7757
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "主楼由Le Corbusier设计（他在东亚仅有的作品），是覆盖其全球17座建筑的跨国UNESCO遗产名录的一部分。收藏范围从中世纪欧洲绘画到20世纪初期，拥有罗丹和莫奈的重要收藏。周一闭馆。",
+          "walk_from_main_route": {
+            "from": "Ueno Park",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Ameya-Yokochō Market",
+          "wikidata_qid": "Q620257",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ameya-Yokoch%C5%8D",
+          "coordinates": {
+            "lat": 35.7106,
+            "lon": 139.7747
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "JR山手线铁轨下的露天市场,源于战后黑市,如今汇集了新鲜海鲜、水果、香料和廉价服装。这里的氛围充满活力,是东京少数几个仍能感受到这种热烈气息的地方。下午晚些时候最值得一去,此时摊主们正在大声叫价。",
+          "walk_from_main_route": {
+            "from": "Tokyo National Museum",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Shibuya和Harajuku",
+      "cluster_tagline": "年轻人的东京 - 著名的十字路口、时尚街道,以及林中的明治神宫",
+      "neighborhood_focus": "Shibuya / Harajuku / Omotesandō",
+      "neighborhood_description": "定义当代东京的西部轴线 - Shibuya的步行横穿广场、Harajuku青年时尚街区、Omotesandō奢侈大道,以及Meiji Jingū森林神社,所有这些都通过沿山手线车站的一条二十分钟步行路线连接起来。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Meiji Jingū Shrine",
+        "wikidata_qid": "Q229121",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Meiji_Shrine",
+        "coordinates": {
+          "lat": 35.6764,
+          "lon": 139.6993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "供奉明治天皇和昭宪皇太后的神道神社，坐落在一片70公顷的人工林中（每棵树都是在1920年代由捐赠者亲手种植的）。经过巨大的木质鸟居门和碎石小径，仿佛离开了东京。神社本身是战后重建的，但保持了原有的明治时代格局。免费入场。内花园是另外付费的区域，特别推荐在6月时前往观赏菖蒲花园。",
+        "walk_to_next": {
+          "to": "Harajuku / Takeshita Street",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Harajuku and Omotesandō",
+        "wikidata_qid": "Q193063",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harajuku",
+        "coordinates": {
+          "lat": 35.67,
+          "lon": 139.7034
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Takeshita-dōri是密集的年轻人时尚街道 - 可丽饼、角色主题咖啡馆、可爱风格服装，周末时人挤人。平行的Omotesandō大道则截然相反 - 宽阔的林荫街道，汇集了东京最集中的建筑展示（Prada Aoyama由Herzog and de Meuron设计，Tod's由Toyo Ito设计，Dior由SANAA设计）。两条街都走一遍，能体验定义这个街区的对比风格。",
+        "walk_to_next": {
+          "to": "Shibuya Crossing",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Shibuya Crossing at sunset",
+        "wikidata_qid": "Q11409538",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Crossing",
+        "coordinates": {
+          "lat": 35.6595,
+          "lon": 139.7004
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Shibuya站外著名的行人过街天桥 - 高峰时每个红绿灯周期最多有3000人过街。Tsutaya书店上方的星巴克是经典观景点，但总是人满为患；新的Shibuya Sky观景台位于Shibuya Scramble Square，是能看到更广阔视野的现代选择。天黑后最适合拍照，此时LED广告牌照亮了整个十字路口。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Yoyogi Park",
+          "wikidata_qid": "Q1153304",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Yoyogi_Park",
+          "coordinates": {
+            "lat": 35.6716,
+            "lon": 139.6949
+          },
+          "neighborhood": "Harajuku / Shibuya",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "与明治神社相邻但属于世俗场所 - 是东京最大的公共公园之一。周日时公园最活跃：入口附近有摇滚乐舞者，还有飞盘联赛、鼓圈和卡波耶拉团体分布在公园的各个角落。东边的1964年Yoyogi国立体育馆由Kenzō Tange设计，是日本20世纪最伟大的建筑之一。",
+          "walk_from_main_route": {
+            "from": "Meiji Jingū Shrine",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        },
+        {
+          "activity_title": "Shibuya Sky observation deck",
+          "wikidata_qid": "Q60743130",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Scramble_Square",
+          "coordinates": {
+            "lat": 35.6585,
+            "lon": 139.7019
+          },
+          "neighborhood": "Shibuya",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Shibuya Scramble Square第46层的露天屋顶观景台，2019年开放。可以直接俯瞰著名的十字路口，天气晴朗时可以清楚看到富士山。请在线预订限时票券；日落时段通常会提前一两天售罄。大风天气时关闭。",
+          "walk_from_main_route": {
+            "from": "Shibuya Crossing",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "新宿",
+      "cluster_tagline": "东京摩天大楼 - 政府大楼、战后小酒馆和城市最大的火车枢纽",
+      "neighborhood_focus": "Shinjuku",
+      "neighborhood_description": "这个西区围绕世界最繁忙的火车站而建（日均客流量360万人次）。西侧的摩天大楼群拥有免费的Metropolitan Government观景台；东侧延伸进入Kabukichō娱乐区和Golden Gai迷宫般的战后小酒馆。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Shinjuku Gyoen National Garden",
+        "wikidata_qid": "Q1322323",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shinjuku_Gyoen",
+        "coordinates": {
+          "lat": 35.6852,
+          "lon": 139.71
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "占地58公顷的皇家花园分为三种不同风格 - 日本传统风格、法国正式风格和英式风景式 - 全部原本是江户时代的诸侯宅邸。是少数几个收费的东京公园之一（费用较低）；作为交换，禁止大型团体和酒精饮料，因此相比代代木公园或上野公园明显更加安静。周一闭园。樱花盛开期在3月下旬/4月初，从开园起就会吸引大量排队的人。",
+        "walk_to_next": {
+          "to": "Tokyo Metropolitan Government Building",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tokyo Metropolitan Government Building observation deck",
+        "wikidata_qid": "Q260462",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Government_Building",
+        "coordinates": {
+          "lat": 35.6896,
+          "lon": 139.6917
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "丹下健三设计的孪生塔楼1991年政府建筑，建成时是东京最高的建筑物。两个观景台（北和南，均距地面202米）完全免费。晴朗的日子里，景观可以延伸到西南方向的富士山。南观景台关闭较早；北观景台开放到晚上10点，是更好的晚间选择。相比涩谷空中观景台或东京塔提供类似景观，这里排队人数更少。",
+        "walk_to_next": {
+          "to": "Golden Gai / Omoide Yokochō",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Golden Gai and Omoide Yokochō",
+        "wikidata_qid": "Q5580547",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_Gai",
+        "coordinates": {
+          "lat": 35.694,
+          "lon": 139.7045
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "六条狭窄的小巷里挤满了大约200家微型酒吧 - 大多数酒吧仅能容纳六到十个人，许多有严格的主题（爵士乐、朋克、文学、特定年代）。战后东京的一个幸存碎片。大多数酒吧收取入场费（¥500-1500），对尊重空间的游客很友好，但拒绝两三人以上的团体。车站西边的思い出横丁（Memory Lane）是烤鸡肉串小巷的对应版本 - 更便宜、更烟雾缭绕、更容易进入。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hanazono Shrine",
+          "wikidata_qid": "Q1148860",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hanazono_Shrine",
+          "coordinates": {
+            "lat": 35.694,
+            "lon": 139.7035
+          },
+          "neighborhood": "Shinjuku",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "一座神道教神社奇迹般地楔入Golden Gai和歌舞伎町娱乐区之间 - 红色鸟居门与周围霓虹灯之间的对比是新宿最具代表性的景象之一。当地人来这里祈求生意兴隆的祝福。周日举办的小型跳蚤市场是东京最令人愉悦的市场之一。",
+          "walk_from_main_route": {
+            "from": "Golden Gai",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}

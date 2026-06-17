@@ -1,0 +1,306 @@
+{
+  "destination": "Interlaken",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:26:00.750Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Interlaken Ost / Hohematte",
+    "Harder Kulm / Unterseen",
+    "Jungfraujoch / Lauterbrunnen Valley"
+  ],
+  "guide_description": "ベルン高地の玄関口での3日間: 1日目は湖畔のプロムナードと古典的な展望地点、2日目は古い村Unterseenと町上の尾根、3日目はLauterbrunnen Valleyへの高山遠足。各日は地理的に独立しており、天候に応じてスケール調整が可能です。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5980,
+  "total_walking_minutes": 75,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Hohematte と Ost Promenade",
+      "cluster_tagline": "Interlaken の平坦な中心部 - 広大な草原、カジノパーク、そして2つの湖に挟まれたAare川",
+      "neighborhood_focus": "Interlaken Ost / Hohematte",
+      "neighborhood_description": "Hohematte は Interlaken の中央にある保護された草原で、2世紀にわたってJungfrau の眺望に向けて町を開放しています。Interlaken Ost駅周辺の東地区には、壮大なBelle Epoque時代のホテル、Kursaalカジノパーク、そしてThun湖とBrienz湖を結ぶ水路が集中しています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1950,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Hohematte park and Jungfrau panorama",
+        "wikidata_qid": "Q1616849",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hohematte",
+        "coordinates": {
+          "lat": 46.6863,
+          "lon": 7.8632
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "14ヘクタールの草地は、Hoheweg遊歩道からのJungfrau の眺めを遮る建設を防ぐ19世紀の地役権によって保護されている。Hoheweg の西端の草地に立ち、南を見ると、晴れた朝にはJungfrau、Monch、Eiger がホテルの建物のファサードの間全体を満たす。パラグライダーは午前中盤以降ここに着陸する。",
+        "walk_to_next": {
+          "to": "Kursaal Interlaken",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Kursaal Interlaken and casino gardens",
+        "wikidata_qid": "Q1789358",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kursaal_Interlaken",
+        "coordinates": {
+          "lat": 46.6872,
+          "lon": 7.8698
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "1859年の Kursaal 建物とその周辺の装飾庭園は、19世紀の Interlaken の観光ブームの社会的エンジンだった。庭園自体は自由に散策でき、英国庭園様式で設計されており、メインパビリオンのすぐ後ろに正式なバラ園がある。建物は現在もカジノおよびイベント会場として営業しており、外観と敷地が見どころで、内部ではない。",
+        "walk_to_next": {
+          "to": "Aare channel and Lake Brienz shore",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Aare channel and Lake Brienz shoreline at sunset",
+        "wikidata_qid": "Q4768",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_Brienz",
+        "coordinates": {
+          "lat": 46.7167,
+          "lon": 7.9833
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Interlaken Ost 駅から北に進み、Aare 水路に沿って Lake Brienz の岸へ向かう。Brienzersee は氷河融解水により独特なターコイズ色に変わり、日没後の北東方向の Brienzer Rothorn の山々にアルペングローが映る。水路の南岸に沿った歩道は静かで平坦であり、Hoheweg と比べ観光客の往来がほぼない。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Touristik-Museum der Jungfrau-Region",
+          "wikidata_qid": "Q2419689",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Touristik-Museum_der_Jungfrau-Region",
+          "coordinates": {
+            "lat": 46.6864,
+            "lon": 7.8508
+          },
+          "neighborhood": "Unterseen",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Unterseen の17世紀建物内に位置するこの博物館は、Interlaken がアウグスティヌス派修道院領地からヨーロッパ初の現代的な山岳観光地へと変貌した過程を記録している。19世紀のアルプス版画と初期観光ポスターのコレクションはスイス国内で最高のものの一つである。午前中の雨の日の立ち寄り先としては良い選択肢である。",
+          "walk_from_main_route": {
+            "from": "Hohematte park",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Harder Kulm とUnterseen",
+      "cluster_tagline": "町の上の尾根と谷で最も古い村 - 1日で高度と中世の街並みを体験",
+      "neighborhood_focus": "Harder Kulm / Unterseen",
+      "neighborhood_description": "標高1322メートルのHarder Kulm はInterlaken の北尾根の直上にあり、Interlaken Ost 近くのケーブルカーでアクセスできます。西のAare 川を挟んだUnterseen は、近代的なリゾート町の前身である実際の中世の村で、17世紀の教会、広場、木骨造の街並みが保存されています。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
+      "morning": {
+        "activity_title": "Harder Kulm viewpoint",
+        "wikidata_qid": "Q874537",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harder_Kulm",
+        "coordinates": {
+          "lat": 46.6986,
+          "lon": 7.8664
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Interlaken Ost 近くの下部ステーションからのケーブルカーは8分間で、早朝から運行しています。頂上のTwo Lakes Bridge は尾根の上に張り出したカンチレバー式の遊歩道で、そこから西のThun 湖（緑色がかった色）と東のBrienz 湖（ターコイズ色）を同時に眺められます。南にはEiger - Monch - Jungfrau 山塊が直接見えます。午前10時前に訪問してください。午前中盤までにテラスがツアーグループで満杯になり、正午から山頂の雲が増えてきます。",
+        "walk_to_next": {
+          "to": "Unterseen old village",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "afternoon": {
+        "activity_title": "Unterseen old village and Stadtplatz",
+        "wikidata_qid": "Q113935",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Unterseen",
+        "coordinates": {
+          "lat": 46.6847,
+          "lon": 7.8467
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Spielmatte 歩道橋で Aare 川を渡り、元々の中心広場である Stadtplatz を通って Unterseen に入ります。この村は 1279 年に市場開設権を与えられており、中心広場のレイアウトはそれ以来ほとんど変わっていません。古典的な Unterseen の写真の背景に見える教会の塔は 14 世紀の Reformed Church of Unterseen で、塔自体は身廊よりも古いものです。",
+        "walk_to_next": {
+          "to": "Lake Thun shoreline",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Lake Thun western shore at sunset",
+        "wikidata_qid": "Q3438",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_Thun",
+        "coordinates": {
+          "lat": 46.6833,
+          "lon": 7.7167
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Unterseen から西へ徒歩またはローカルバスで Interlaken West 駅周辺まで進み、Thunersee の湖岸パスへと続きます。東側へ湖沿いに眺める Bernese Alps の眺めは、昔からの絵葉書のアングルで、南岸の Niesen ピラミッドは、太陽が水面から去った後、さらに 20 分間にわたってアルペングロー（夕焼けのような光）を受けます。湖岸と鉄道線路の間のパスは平坦で、最高の開けた展望地点に到達するまで約 15 分かかります。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Beatenhoehle - St. Beatus Caves",
+          "wikidata_qid": "Q885756",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St._Beatus_Caves",
+          "coordinates": {
+            "lat": 46.7153,
+            "lon": 7.7847
+          },
+          "neighborhood": "Lake Thun north shore",
+          "duration_minutes": 90,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Thun 湖の北岸にある鍾乳洞のネットワークで、Interlaken West の桟橋からボートで約 20 分でアクセスできます。洞窟システムを通るガイド付きルートは 1 キロメートルで、常に 10 度摂氏に保たれています。地上の天気がどうであれ、防寒着を持参してください。アイルランドの隠者 Beatus が 6 世紀にこの洞窟をキリスト教化したという伝説は、このサイトの説明に組み込まれています。",
+          "walk_from_main_route": {
+            "from": "Lake Thun western shore",
+            "distance_meters": 0,
+            "walking_minutes": 0
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Lauterbrunnen Valley",
+      "cluster_tagline": "氷河に削られた72の滝を持つ谷 - スイスのロマン主義的イメージを形作った風景",
+      "neighborhood_focus": "Jungfraujoch / Lauterbrunnen Valley",
+      "neighborhood_description": "ラウターブルンネン渓谷はインターラーケンから南に伸びており、更新世の氷河によって削られた急峻な壁を持つ谷で、崖から72の滝が流れ落ちており、その中には297メートルのシュタウバッハ滝が含まれています。渓谷底部のラウターブルンネン村はラックウェイの起点で、ヴェンゲン、クライネ・シャイデッグを経由して最終的にユングフラウヨッホ(3454メートル)まで上ることができます。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1830,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Staubbach Falls, Lauterbrunnen",
+        "wikidata_qid": "Q698025",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Staubbach_Falls",
+        "coordinates": {
+          "lat": 46.5933,
+          "lon": 7.9086
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "シュタウバッハ滝はラウターブルンネン村の真後ろの渓谷壁から297メートル落下しており、ヨーロッパで最も高い自由落下の滝の一つで、ゲーテとバイロンの両者を詩作へと導いた光景です。村の底部からの展望路は約10分かかり、より急な小道は滝の水しぶきゾーン内の洞窟プラットフォームまで上ります。朝の光は滝に直接当たります。午後になると崖面は影に落ちます。Interlaken OstからラウターブルンネンへのTRAINは20分かかります。",
+        "walk_to_next": {
+          "to": "Trummelbach Falls",
+          "distance_meters": 1430,
+          "walking_minutes": 18
+        }
+      },
+      "afternoon": {
+        "activity_title": "Trummelbach Falls",
+        "wikidata_qid": "Q696687",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tr%C3%BCmmelbach_Falls",
+        "coordinates": {
+          "lat": 46.5742,
+          "lon": 7.9056
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "山内部にある10の氷河滝で、トンネルリフトと岩に彫られた通路でアクセス可能です。これはヨーロッパで公開されている唯一の氷河から供給される地下滝です。アイガー、メンヒ、そしてユングフラウ氷河がこのシステムを通じて水を流し、ピークの融解時には毎秒最大20,000リットルを狭い岩のらせんを通して押し出します。外部の天気がどうであれ防水層を持参してください。内部のしぶきは絶え間なく、通路は狭いです。ラウターブルンネン村から徒歩またはPostBusでアクセス可能です。",
+        "walk_to_next": {
+          "to": "Lauterbrunnen village center",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Lauterbrunnen valley floor walk at dusk",
+        "wikidata_qid": "Q693976",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lauterbrunnen",
+        "coordinates": {
+          "lat": 46.5933,
+          "lon": 7.9086
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Lauterbrunnen村とStaubbachfall麓の間の谷底は、両方向に完全な崖壁パノラマが見える平坦な草原の道です。夕暮れ時には、1000メートルの東壁にアルペングローが約15分かけて下から上へ登り、直射光が退きます。Interlaken行きの最終列車に乗車してください - Lauterbrunnen からInterlaken Ost への移動は夜遅くまで運行しています。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kleine Scheidegg",
+          "wikidata_qid": "Q662916",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kleine_Scheidegg",
+          "coordinates": {
+            "lat": 46.5853,
+            "lon": 7.9594
+          },
+          "neighborhood": "Bernese Alps",
+          "duration_minutes": 120,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Wengen と Grindelwald の間にある2061メートルの高山峠で、Lauterbrunnen からのラック鉄道でアクセス可能です。Eiger の北壁は駅プラットフォームのすぐ上に聳えています - 1938年の初登頂まで登山家たちを30年間打ち負かし続けた北壁です。天候に恵まれた日には、このテラスレストランからEiger Nordwand に最も近いアクセス可能な地上レベルの景観が得られます。谷底より最低でも10度は低い気温に備えて服装してください。",
+          "walk_from_main_route": {
+            "from": "Lauterbrunnen village center",
+            "distance_meters": 0,
+            "walking_minutes": 0
+          }
+        },
+        {
+          "activity_title": "Murren village",
+          "wikidata_qid": "Q70607",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/M%C3%BCrren",
+          "coordinates": {
+            "lat": 46.5592,
+            "lon": 7.8928
+          },
+          "neighborhood": "Lauterbrunnen Valley west wall",
+          "duration_minutes": 90,
+          "type": "town",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "Lauterbrunnen Valley の西壁に位置する谷底のStechelberg からケーブルカーでアクセスできる1638メートルの車なし村です。この村には道路アクセスがなく、メインストリートは500メートルの木製バルコニー付きの小路で、Jungfrau を横切る直接的な視線があります。晴れた朝にSchilthorn への訪問と組み合わせると、西の地平線上のMatterhorn を含む360度のパノラマが得られます。",
+          "walk_from_main_route": {
+            "from": "Trummelbach Falls",
+            "distance_meters": 0,
+            "walking_minutes": 0
+          }
+        }
+      ]
+    }
+  ]
+}

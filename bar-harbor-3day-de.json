@@ -1,0 +1,306 @@
+{
+  "destination": "Bar Harbor",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:05:46.256Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Bar Harbor Village and Shore Path",
+    "Acadia National Park - Cadillac Mountain and Carriage Roads",
+    "Acadia National Park - Jordan Pond and the South Loop"
+  ],
+  "guide_description": "Drei Tage auf Mount Desert Island, mit Basis in Bar Harbor Village und Ausflügen in den Acadia National Park. Tag eins umfasst die Dorfwaterfront und den Küstenpfad. Die Tage zwei und drei führen tief in den Park - das Netzwerk der Gipfel-Kutschenwege und die südliche Seenrunde. Jeder Tag ist in sich geschlossen und kann je nach Wetterlage umsortiert werden.",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 9100,
+  "total_walking_minutes": 114,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Bar Harbor Village and Shore Path",
+      "cluster_tagline": "Die arbeitende Hafenstadt und der eine Meile lange Spaziergang an der Küste über der Frenchman Bay",
+      "neighborhood_focus": "Bar Harbor Village and Shore Path",
+      "neighborhood_description": "Bar Harbor liegt an der nordöstlichen Küste von Mount Desert Island, mit Blick auf Frenchman Bay und die Porcupine Islands. Das Dorf bewahrt die Struktur einer Sommerkolonie aus dem späten 19. Jahrhundert - ein kompaktes Stadtzentrum mit klarer Hafenkante und einem öffentlich zugänglichen Küstenpfad, der älter ist als der Nationalpark selbst.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
+      "morning": {
+        "activity_title": "Bar Harbor Village Green and Agamont Park",
+        "wikidata_qid": "Q4856421",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bar_Harbor,_Maine",
+        "coordinates": {
+          "lat": 44.3876,
+          "lon": -68.2041
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Agamont Park liegt am Kopfende des Stadtstegs und bietet den besten unverstellten Blick auf Frenchman Bay und die Porcupine Islands vom Dorf aus. Kommen Sie an, bevor die ersten Walbeobachtungsboote gegen 8 Uhr auslaufen - der Hafenverkehr und das Morgenlicht auf den Inseln zusammen machen die Szene aus. Der grüne Park einen Block landeinwärts beherbergt sonntags morgens den Bauernmarkt.",
+        "walk_to_next": {
+          "to": "Shore Path",
+          "distance_meters": 150,
+          "walking_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Shore Path",
+        "wikidata_qid": "Q7501820",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shore_Path_(Bar_Harbor)",
+        "coordinates": {
+          "lat": 44.3861,
+          "lon": -68.2001
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Ein flacher, anderthalb Kilometer langer Fußweg entlang der Granitküste, der seit 1880 öffentlich zugänglich ist und durch Dienstbarkeiten über private Cottagegrundstücke unterhalten wird. Der Weg verläuft vom Stadtsteg südwärts zum Bereich der Bar Island Landbrücke. Gehen Sie ihn im Uhrzeigersinn ab Agamont Park - Sie behalten Frenchman Bay die ganze Zeit über auf Ihrer linken Seite und die Porcupine Islands verschieben sich in ihrer Perspektive, während Sie sich bewegen. Tragen Sie Schuhe mit Gummisohlen; das Felsenriff ist nass rutschig.",
+        "walk_to_next": {
+          "to": "Abbe Museum",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Abbe Museum",
+        "wikidata_qid": "Q4666328",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Abbe_Museum",
+        "coordinates": {
+          "lat": 44.3881,
+          "lon": -68.2069
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Ein stammesgeführtes Museum, das die 12.000-jährige Geschichte der Wabanaki-Völker von Maine erzählt - die einzige derartige Institution im Staat. Das Gebäude in der Innenstadt wurde 2001 eröffnet und beherbergt die Kerndauerausstellung; Wechselausstellungen widmen sich zeitgenössischer Wabanaki-Kunst und -Politik. Das ursprüngliche Feldsteingebäude von 1928 befindet sich im Acadia National Park bei Sieur de Monts Spring - einen Besuch am zweiten Tag wert als kurze Umleitung. Dienstags in der Nebensaison geschlossen.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Bar Island at low tide",
+          "wikidata_qid": "Q4856421",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bar_Harbor,_Maine",
+          "coordinates": {
+            "lat": 44.3944,
+            "lon": -68.2094
+          },
+          "neighborhood": "Bar Harbor Village",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Eine Kiesbank verbindet die Stadt mit Bar Island und taucht für ungefähr drei Stunden vor und nach Niedrigwasser auf - überprüfen Sie die NOAA-Gezeitentabelle für den Tag, bevor Sie gehen, nicht eine allgemeine Schätzung. Gehen Sie zur Insel, wandern Sie die kurze Strecke zum westlichen Aussichtspunkt und kehren Sie zurück, bevor die Bank überflutet wird. Einheimische timen es, indem sie die Bank vom Stadtstegende aus beobachten; wenn sie an den Rändern zu schrumpfen beginnt, haben Sie noch ungefähr 45 Minuten.",
+          "walk_from_main_route": {
+            "from": "Agamont Park",
+            "distance_meters": 600,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Cadillac Mountain und die Carriage Roads",
+      "cluster_tagline": "Acadias Gipfel und das von Rockefeller finanzierte Carriage-Road-Netzwerk in der östlichen Hälfte des Parks",
+      "neighborhood_focus": "Acadia National Park - Cadillac Mountain and Carriage Roads",
+      "neighborhood_description": "Der östliche Teil des Acadia National Park umfasst den Großteil der nördlichen Hälfte von Mount Desert Island, einschließlich Cadillac Mountain - mit 1.530 Fuß der höchste Punkt an der östlichen Küste der USA und von Anfang Oktober bis Anfang März der erste Ort in den zusammenhängenden USA, von dem aus man den Sonnenaufgang sehen kann. John D. Rockefeller Jr. finanzierte und gestaltete zwischen 1913 und 1940 ein Netzwerk von 45 Meilen Carriage Roads aus Bruchsteinen, das sich durch dieses Gelände zieht.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3800,
+      "day_walking_minutes": 48,
+      "morning": {
+        "activity_title": "Cadillac Mountain Summit",
+        "wikidata_qid": "Q1022537",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cadillac_Mountain",
+        "coordinates": {
+          "lat": 44.3521,
+          "lon": -68.2239
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Eine zeitgebundene Fahrzeugreservierung (über Recreation.gov buchbar) ist erforderlich, um die Gipfelstraße von Ende Mai bis Oktober zu befahren - buchen Sie mehrere Wochen im Voraus, da Plätze für denselben Tag um 7 Uhr morgens ausverkauft sind. Die Gipfelschleife dauert 30 Minuten und das Panorama erstreckt sich von den Porcupine Islands im Osten bis zur Schoodic Peninsula und südlich über die Insel bis zum Ozean. Bringen Sie unabhängig von den Bedingungen unten eine winddichte Schicht mit; auf dem Gipfel ist es durchgehend 10 bis 15 Grad kälter als in Bar Harbor.",
+        "walk_to_next": {
+          "to": "Eagle Lake Carriage Road",
+          "distance_meters": 2200,
+          "walking_minutes": 28
+        }
+      },
+      "afternoon": {
+        "activity_title": "Eagle Lake Carriage Road Loop",
+        "wikidata_qid": "Q5333167",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eagle_Lake_(Maine)",
+        "coordinates": {
+          "lat": 44.3647,
+          "lon": -68.2563
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Die 6 Meilen lange Kutschenstraße rund um Eagle Lake ist die flachste und am leichtesten zugängliche Route des Parks, ideal zum Wandern, Radfahren oder einer Kombination aus beiden. Fahrradverleih aus Bar Harbor werden auf dem Parkplatz von Eagle Lake an der Route 233 abgestellt. Der See spiegelt Cadillac Mountain auf der Südseite wider; die nördliche Strecke verläuft unter einem Buchen- und Birkendach mit fast keinem Fahrzeuglärm.",
+        "walk_to_next": {
+          "to": "Sieur de Monts Spring",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "Sieur de Monts Spring and Wild Gardens of Acadia",
+        "wikidata_qid": "Q7512119",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sieur_de_Monts_Spring",
+        "coordinates": {
+          "lat": 44.3681,
+          "lon": -68.2028
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Eine von einer Quelle gespeiste Lichtung, wo George Dorr, Acadias erster Superintendent, die ursprüngliche Parkinfrastruktur errichtete. Die Wild Gardens of Acadia sind eine halbe Acre große Sammlung nativer Pflanzengemeinden, organisiert nach Habitattyp: Moor, Heide, Nadelwald und alpine Wiese. Das ursprüngliche Feldstein-Achteck des Abbe Museum von 1928 befindet sich hier und ist noch saisonal geöffnet. Die Quelle selbst fließt das ganze Jahr über in ein steinernes Becken; die Lichtung ist am späten Nachmittag ruhiger, wenn die Morgenwanderer aufgebrochen sind.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Precipice Trail viewpoint",
+          "wikidata_qid": "Q1022537",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cadillac_Mountain",
+          "coordinates": {
+            "lat": 44.3622,
+            "lon": -68.2003
+          },
+          "neighborhood": "Acadia National Park",
+          "duration_minutes": 180,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Acadias am stärksten exponierter Leiternweg mit Eisensprossen, der das Ostgesicht von Champlain Mountain über 1.000 Fuß fast senkrechten Granits hinaufführt. Keine Wanderung - die Sprossen und Eisengriffe sind für einen Großteil des Aufstiegs tragfähig. April bis Mitte August geschlossen wegen Nistens von Wanderfalken. An den Tagen ohne Sperrung beginnen Sie spätestens um 8 Uhr, um das Risiko von Nachmittagsgewittern auf der exponierten oberen Fläche zu vermeiden.",
+          "walk_from_main_route": {
+            "from": "Sieur de Monts Spring",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Jordan Pond and the South Loop",
+      "cluster_tagline": "Acadias glazial geformtes südliches Gelände: einen makellosen See, Meeresklippen und Sandstrand",
+      "neighborhood_focus": "Acadia National Park - Jordan Pond and the South Loop",
+      "neighborhood_description": "Die südliche Hälfte von Acadia auf Mount Desert Island folgt der Park Loop Road durch eine völlig andere Landschaft als der nördliche Abschnitt - weniger von Gipfeln geprägt, mehr Küstengebiet. Jordan Pond liegt in einem glazial ausgeschliffenen Tal zwischen den Bubbles und dem Penobscot Mountain; der Ocean Path verläuft entlang der Atlantikküste unterhalb von Thunder Hole und Otter Cliffs.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2700,
+      "day_walking_minutes": 34,
+      "morning": {
+        "activity_title": "Jordan Pond Path",
+        "wikidata_qid": "Q6277020",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_Pond_(Maine)",
+        "coordinates": {
+          "lat": 44.3203,
+          "lon": -68.2558
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Die 3,3-Meilen-Schleife um Jordan Pond ist flach an den südlichen und östlichen Ufern und steigt über hölzerne Stege durch sumpfiges Gelände im Norden an. Das nördliche Ende rahmt die Bubbles ein - zwei nahezu symmetrische glazial abgelagerte Hügel - gespiegelt in Wasser, das gesetzlich erforderlich ist, unverfälscht als Trinkwasserquelle von Bar Harbor zu bleiben, was es messbar sauberer hält als vergleichbare Seen im Park. Starten Sie im Uhrzeigersinn, um die Bubbles beim Anflug in Sicht zu behalten. Kommen Sie vor 9 Uhr morgens im Sommer an, um Parkplätze beim Jordan Pond House Parkplatz zu bekommen.",
+        "walk_to_next": {
+          "to": "Thunder Hole",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "afternoon": {
+        "activity_title": "Thunder Hole and Ocean Path",
+        "wikidata_qid": "Q7711168",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Thunder_Hole",
+        "coordinates": {
+          "lat": 44.3097,
+          "lon": -68.1859
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Eine Meerhöhle in der rosafarbenen Granitküste, wo einkommende Wellen sich in einen lauten Druckschlag verdichten, der vom Parkplatz aus zu hören ist. Die Wirkung ist am dramatischsten zwei Stunden vor Hochwasser bei mäßigem Seegang - überprüfen Sie die Gezeitentabellen und die NOAA-Boje-Vorhersage für Frenchman Bay am Vorabend. Der Ocean Path, der Thunder Hole südwärts nach Otter Cliffs verbindet, ist ein 2-Meilen-Spaziergang auf flachem Kiesweg entlang des dramatischsten Küstenabschnitts von Acadia.",
+        "walk_to_next": {
+          "to": "Sand Beach",
+          "distance_meters": 1000,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Sand Beach",
+        "wikidata_qid": "Q7413108",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sand_Beach_(Acadia_National_Park)",
+        "coordinates": {
+          "lat": 44.3267,
+          "lon": -68.1839
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Einer der wenigen Sandstrände an der Küste von Maine nördlich von Portland - der Sand besteht zu etwa 70 Prozent aus gemahlenen Muschelbruchstücken statt aus Quarz, was ihm eine charakteristische rosa-beige Färbung verleiht, die sich deutlich von den Stränden der mittleren Atlantikküste unterscheidet. Die Wassertemperatur beträgt selbst im August durchschnittlich 55 Grad Fahrenheit, weshalb die meisten Besucher eher spazieren als schwimmen. Der Strand liegt nach Südosten ausgerichtet; das Licht am späten Nachmittag fällt schräg auf ihn und die Landzungen leuchten auf. Der Great Head Trail umrundet die östliche Landzunge auf 1,5 Meilen, falls die Energie dafür reicht.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Otter Cliffs",
+          "wikidata_qid": "Q7112104",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Otter_Cliffs",
+          "coordinates": {
+            "lat": 44.3022,
+            "lon": -68.1867
+          },
+          "neighborhood": "Acadia National Park",
+          "duration_minutes": 45,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "100 Fuß hohe senkrechte Granitfelsen, die steil zum Atlantik abfallen - die höchsten Felsklippen an der östlichen Küste nördlich von Rio de Janeiro. Ein kleiner Parkplatz an der Park Loop Road ermöglicht direkten Zugang; das südliche Ende des Ocean Path endet hier. Kletterer arbeiten die Felswand an den meisten Morgen, und man kann sie vom Klippenrand aus sehen. Bleiben Sie weit weg von der Kante - der Granit ist exfoliiert und die Kanten sind weniger stabil, als sie aussehen.",
+          "walk_from_main_route": {
+            "from": "Thunder Hole",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        },
+        {
+          "activity_title": "Jordan Pond House",
+          "wikidata_qid": "Q6277020",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_Pond_(Maine)",
+          "coordinates": {
+            "lat": 44.3203,
+            "lon": -68.2558
+          },
+          "neighborhood": "Acadia National Park",
+          "duration_minutes": 60,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "Die Tearoom-Tradition im Jordan Pond House reicht bis in die 1870er Jahre zurück, als Nellie McIntire Popovers und Tee für Besucher der Kutschenstraße servierte. Das aktuelle Gebäude ist eine Rekonstruktion von 1979 nach einem Brand, der das Original zerstörte, aber das Ritual mit Popovers und Erdbeermarmelade auf dem Rasen mit Blick auf den Teich ist unverändert geblieben. Der Afternoon-Tea-Service läuft ab 11:30 Uhr; kommen Sie früh an oder rechnen Sie an Sommernachmittagen mit einer 30-minütigen Wartezeit.",
+          "walk_from_main_route": {
+            "from": "Jordan Pond Path",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}

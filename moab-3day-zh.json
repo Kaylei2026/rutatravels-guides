@@ -1,0 +1,326 @@
+{
+  "destination": "Moab",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:03:47.945Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Arches National Park",
+    "Canyonlands National Park - Island in the Sky",
+    "Downtown Moab / Colorado River Corridor"
+  ],
+  "guide_description": "围绕Moab的两个国家公园及连接它们的峡谷走廊规划的三日行程。第一天专注于Arches及其标志性的砂岩石柱。第二天前往Island in the Sky，欣赏宽阔的台地边缘全景。第三天停留在靠近城镇的地方，将Colorado River和当地地质与峡谷地区较为鲜为人知的人文历史相结合。",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 18200,
+  "total_walking_minutes": 228,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Arches - 石柱、岩窗与拱门",
+      "cluster_tagline": "世界上单个红岩公园中自然石拱最密集的地区",
+      "neighborhood_focus": "Arches National Park",
+      "neighborhood_description": "一个面积119平方英里的公园，距Moab北部五英里，保存了2000多个由水、冰和盐分运动在Entrada砂岩中雕刻而成的砂岩拱门。公园道路从山谷底部上升，经过三个不同的区域 - Windows、Fiery Furnace和Devils Garden - 每个区域都有其独特的特色。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 8500,
+      "day_walking_minutes": 107,
+      "morning": {
+        "activity_title": "Delicate Arch",
+        "wikidata_qid": "Q783697",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Delicate_Arch",
+        "coordinates": {
+          "lat": 38.7436,
+          "lon": -109.4993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "这条三英里往返步道需要攀升480英尺的裸露光滑岩石，没有树荫；夏季时最好在早上7点前出发，以避开酷热和上午9点涌入的人群。在最后转弯处到达峡谷边缘前，你看不到这座拱门 - 俯瞰碗状地形的视觉冲击就是这次步道的精妙之处。无论天气预报温度如何，每人至少要携带两升水。",
+        "walk_to_next": {
+          "to": "The Windows Section",
+          "distance_meters": 4800,
+          "walking_minutes": 60
+        }
+      },
+      "afternoon": {
+        "activity_title": "The Windows Section",
+        "wikidata_qid": "Q7761027",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Windows_Section",
+        "coordinates": {
+          "lat": 38.6876,
+          "lon": -109.5372
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "North Window和South Window两座大型拱门由一条短环形步道相连，附近还有孤立的Turret Arch。South Window后面的原始环形步道穿过拱门背面，能避开几乎所有其他游客；大多数人只在前面观看，完全错过了背面的角度。Double Arch距离同一停车区只需步行两分钟，是公园中以开口大小计算最大的拱门。",
+        "walk_to_next": {
+          "to": "Balanced Rock",
+          "distance_meters": 2800,
+          "walking_minutes": 35
+        }
+      },
+      "evening": {
+        "activity_title": "Balanced Rock at sunset",
+        "wikidata_qid": "Q4849623",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Balanced_Rock_(Arches_National_Park)",
+        "coordinates": {
+          "lat": 38.7006,
+          "lon": -109.5641
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "一块128英尺的巨石平衡在狭窄的基座上，数十年来一直在明显侵蚀 - 是公园中最常被拍摄的剪影之一。短环形步道绕过基座周围。位置靠近公园入口，是离开时的合理最后一站，日落后约二十分钟内，黄昏的低角度光线会将入口砂岩从橙色转变为深红色。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Park Avenue Viewpoint and Trail",
+          "wikidata_qid": "Q97310298",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Arches_National_Park",
+          "coordinates": {
+            "lat": 38.6578,
+            "lon": -109.5717
+          },
+          "neighborhood": "Arches National Park",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "入口站后的第一个停靠点，一排砂岩竖板形成的天际线真的类似于Manhattan的街道景观。这条双向两英里步道下降到下方峡谷；最好在Courthouse Towers观景点处安排一辆接驳车，而不是原路返回。",
+          "walk_from_main_route": {
+            "from": "Balanced Rock",
+            "distance_meters": 5200,
+            "walking_minutes": 65
+          }
+        },
+        {
+          "activity_title": "Sand Dune Arch",
+          "wikidata_qid": "Q7413682",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sand_Dune_Arch",
+          "coordinates": {
+            "lat": 38.7317,
+            "lon": -109.5353
+          },
+          "neighborhood": "Arches National Park",
+          "duration_minutes": 30,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "一条短而遮荫的狭缝峡谷通道通往一座小拱门,该拱门坐落于两道岩壁之间,是公园内为数不多的有天然遮荫和柔软沙地的地点之一。特别适合儿童或在炎热天气中作为中途休息站,此时其他步道都不适宜行走。",
+          "walk_from_main_route": {
+            "from": "The Windows Section",
+            "distance_meters": 2100,
+            "walking_minutes": 26
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Island in the Sky",
+      "cluster_tagline": "一个平顶的台地,高于两个峡谷1,000英尺 - 从上方俯瞰的峡谷地带",
+      "neighborhood_focus": "Canyonlands National Park - Island in the Sky",
+      "neighborhood_description": "Canyonlands 三个区域中最北端的一个,从 Moab 驾车 32 英里即可到达。宽阔的砂岩台地被陡峭的悬崖所环绕,悬崖向下延伸至 White Rim,再向下是 Colorado 河和 Green 河。这里的观景点与 Arches 的空间尺度不同 - 距离以英里而非米来衡量。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 6900,
+      "day_walking_minutes": 87,
+      "morning": {
+        "activity_title": "Mesa Arch",
+        "wikidata_qid": "Q6820001",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mesa_Arch",
+        "coordinates": {
+          "lat": 38.3872,
+          "lon": -109.8658
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "一条半英里长的步道通往一个拱门，俯瞰下方800英尺的峡谷。日出时，拱门的下侧因反射下方峡谷岩壁的光线而呈现橙色光芒，这是美国西南部最广泛流传的风景摄影作品之一。若要亲眼目睹而非仅通过相机镜头观看，应在日出前二十分钟抵达，并在中心线左侧稍微偏左的位置占据一席之地；到天亮前四十分钟，三脚架已占满所有最佳位置。",
+        "walk_to_next": {
+          "to": "Grand View Point",
+          "distance_meters": 3900,
+          "walking_minutes": 49
+        }
+      },
+      "afternoon": {
+        "activity_title": "Grand View Point",
+        "wikidata_qid": "Q5592111",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grand_View_Point",
+        "coordinates": {
+          "lat": 38.3133,
+          "lon": -109.8655
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Island in the Sky 高地公路的最南端，有一条往返两英里的步道沿着崖边延伸。在晴朗的日子里，视野可延伸至三个州，并在一个全景中展现一亿年地质分层的演变。下方1,300英尺处可见的 White Rim Road 是经典的四轮驱动路线，大多数车辆需要三天才能完成整个行程。",
+        "walk_to_next": {
+          "to": "Upheaval Dome",
+          "distance_meters": 3000,
+          "walking_minutes": 38
+        }
+      },
+      "evening": {
+        "activity_title": "Upheaval Dome overlooks",
+        "wikidata_qid": "Q7897502",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Upheaval_Dome",
+        "coordinates": {
+          "lat": 38.4267,
+          "lon": -109.9283
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "一条半英里长的步道通往两个依次排列的崖顶观景台，俯瞰一个圆形岩石结构，其成因仍有地质学家争议 - 可能是坍塌的盐丘或古代陨石撞击坑。第二个观景台虽只增加四分之一英里的路程，但可以看到第一个观景台无法展现的完整碗状地形。无论是陨石撞击还是蒸发盐矿，其几何形状在峡谷地带都是独一无二的。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Green River Overlook",
+          "wikidata_qid": "Q5596167",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Canyonlands_National_Park",
+          "coordinates": {
+            "lat": 38.4017,
+            "lon": -109.9267
+          },
+          "neighborhood": "Canyonlands National Park - Island in the Sky",
+          "duration_minutes": 30,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "从一个停靠点出发，短距离步行即可到达一处向西的崖顶观景台，正好俯瞰 Green River 在 Stillwater Canyon 中弯曲的河段。西向的地理位置使其成为 Island in the Sky 上最佳的日落观景点 - 当高地顶部已陷入黑暗之时，下方1,000英尺处的河流仍反射着天空的光线。",
+          "walk_from_main_route": {
+            "from": "Upheaval Dome",
+            "distance_meters": 2600,
+            "walking_minutes": 33
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Colorado River Corridor and Moab Town",
+      "cluster_tagline": "峡谷河流水平面、岩画、地质学，以及从铀矿和冒险中发展而来的小镇",
+      "neighborhood_focus": "Downtown Moab / Colorado River Corridor",
+      "neighborhood_description": "Moab 东北方向的 US-128 路段沿着 Colorado River 穿过深达千英尺的峡谷，之后河流向南弯曲流向 Arches。结合 Moab 市中心的小型户外用品店和本地博物馆，这一天的活动紧靠城镇，用人类尺度的峡谷通道取代了公园规模的野生地貌。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Moab Museum",
+        "wikidata_qid": "Q97310553",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Moab_Museum",
+        "coordinates": {
+          "lat": 38.5733,
+          "lon": -109.5492
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "一个规模紧凑但组织完善的自然和文化历史博物馆，展示了 Colorado Plateau 的地质学、Ute 人和 Ancestral Puebloan 人的历史，以及 Moab 1950 年代的铀矿繁荣期，当时一个寂静的摩门教牧场小镇一夜之间变成了繁荣城镇。铀矿展区最具有 Moab 特色，其他地方涉及最少；矿石样本和时期照片是亮点。适合作为第一天或恶劣天气时的选择，但安排在第三天以便两个公园的游览日期为地质学展览提供背景。",
+        "walk_to_next": {
+          "to": "Courthouse Wash Rock Art Panel",
+          "distance_meters": 1600,
+          "walking_minutes": 20
+        }
+      },
+      "afternoon": {
+        "activity_title": "Courthouse Wash Rock Art Panel",
+        "wikidata_qid": "Q5178580",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Courthouse_Wash",
+        "coordinates": {
+          "lat": 38.6247,
+          "lon": -109.5817
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "在US-191穿越Courthouse Wash的桥北面约4英里处，靠近downtown Moab的峡谷壁上有一大片Barrier Canyon风格的岩画。这些具有空心眼睛且无腿的大型人形图案是该地区现存最完整的前普韦布洛风格例子之一。该岩画面板在1980年遭漂白剂破坏，后经部分修复；从岩画面板右侧用斜射光可以看到修复的接缝。",
+        "walk_to_next": {
+          "to": "Colorado River at Takeout Beach",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Colorado River at the Moab Valley",
+        "wikidata_qid": "Q258647",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colorado_River",
+        "coordinates": {
+          "lat": 38.5731,
+          "lon": -109.5481
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "US-128在Moab东北方向的路段沿河流水位线而行 - 可在任何碎石滩处靠边停车以直接进入河流。峡谷壁在西方傍晚光线下呈现红橙色，而下方河流湍急而寒冷。如果时间允许，可继续驾驶至mile 21处的Fisher Towers转弯处，那里有一组高900英尺的独立红色尖塔，曾作为多部西部电影和1979年Ford卡车广告的背景。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Dead Horse Point State Park",
+          "wikidata_qid": "Q1181452",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dead_Horse_Point_State_Park",
+          "coordinates": {
+            "lat": 38.4833,
+            "lon": -109.7333
+          },
+          "neighborhood": "Dead Horse Point / Mesa country",
+          "duration_minutes": 90,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "sunset",
+          "notes": "距Moab 32英里的独立州立公园，需要购买单独的日票。该公园位于2,000英尺高的梅萨半岛上，俯瞰Colorado River的鹅颈弯。这里的景观垂直高差超过该地区任何其他由铺装道路可到达的地方。《末路狂花》的开场景在这里拍摄。最好在从Island in the Sky返回时顺路参观，因为进入道路在前23英里与Island in the Sky共用。",
+          "walk_from_main_route": {
+            "from": "Moab Museum",
+            "distance_meters": 42000,
+            "walking_minutes": 525
+          }
+        },
+        {
+          "activity_title": "Moab Giants Dinosaur Museum",
+          "wikidata_qid": "Q28543330",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Moab_Giants",
+          "coordinates": {
+            "lat": 38.6017,
+            "lon": -109.5783
+          },
+          "neighborhood": "North Moab",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "位于downtown Moab北面4英里处US-191沿线的私营古生物博物馆及户外恐龙足迹遗址。步道路段展示真实原位侏罗纪足迹，配有解释足迹制造者行为的标牌。内容比路边标识更加充实；馆内关于Morrison地层古生物学的展览展现的地质时代与整个公园可见的Entrada砂岩相同。",
+          "walk_from_main_route": {
+            "from": "Courthouse Wash Rock Art Panel",
+            "distance_meters": 1800,
+            "walking_minutes": 23
+          }
+        }
+      ]
+    }
+  ]
+}

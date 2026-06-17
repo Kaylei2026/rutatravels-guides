@@ -1,0 +1,657 @@
+{
+  "destination": "Tokyo",
+  "duration_days": 7,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Asakusa / Ueno",
+    "Shibuya / Harajuku",
+    "Shinjuku",
+    "Akihabara / Yanaka",
+    "Ginza / Imperial Palace",
+    "Kamakura (day trip)",
+    "Nikko (day trip)"
+  ],
+  "guide_description": "为期七天的行程涵盖东京的核心地区,加上两次一日游:中世纪古都镰仓及其大佛,以及联合国教科文组织世界遗产日光神社建筑群。每一天的行程都是独立的地理区域 - 可根据天气、体力或酒店位置选择游览顺序。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 21500,
+  "total_walking_minutes": 280,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "浅草和上野",
+      "cluster_tagline": "古老的东京 - 宏伟的寺庙、河流和博物馆公园",
+      "neighborhood_focus": "Asakusa / Ueno",
+      "neighborhood_description": "保留了战前东京建筑比例最高的东北部地区。浅草以浅草寺为中心,这是东京最古老、最受欢迎的佛教寺庙。向西二十分钟的上野公园汇集了日本最密集的国家级博物馆。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 42,
+      "morning": {
+        "activity_title": "Sensō-ji and Nakamise-dōri",
+        "wikidata_qid": "Q200035",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+        "coordinates": {
+          "lat": 35.7148,
+          "lon": 139.7967
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "东京最古老的佛教寺庙，建于645年，以巨大的红色雷门（Kaminarimon）和其硕大的纸灯笼作为明信片形象而闻名。最好在早上9点之前到达，在纪念品高峰期来临前游览Nakamise-dōri街道。主殿免费进入；旁边的五层塔是东京最常被拍摄的建筑之一。主殿前升起的晨香最能体现这座寺庙的魅力。",
+        "walk_to_next": {
+          "to": "Sumida River Walk",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sumida River and Asakusa backstreets",
+        "wikidata_qid": "Q855847",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sumida_River",
+        "coordinates": {
+          "lat": 35.7106,
+          "lon": 139.8019
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Sumida河边公园提供了横跨至Tokyo Skytree和朝日啤酒总部的标志性景观（拥有Philippe Starck设计的金色火焰雕塑，当地人昵称为\"金色便便\"）。在Sensō-ji和河流之间漫步后街，可以找到kappabashi-dōri（厨具街）和隐蔽的江户时代商店，那里仍在出售扇子、笔刷和米饼。跨越Azuma Bridge可以拍到最佳的Skytree照片。",
+        "walk_to_next": {
+          "to": "Ueno Park",
+          "distance_meters": 2000,
+          "walking_minutes": 26
+        }
+      },
+      "evening": {
+        "activity_title": "Ueno Park and the Tokyo National Museum",
+        "wikidata_qid": "Q330923",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_National_Museum",
+        "coordinates": {
+          "lat": 35.7188,
+          "lon": 139.7762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "日本最大、最古老的博物馆，收藏了该国最重要的日本艺术收藏 - 刀剑、陶瓷、佛教雕塑、浮世绘版画。如果时间有限，Honkan（日本画廊）是核心看点。Ueno Park本身是东京春季最受欢迎的樱花公园，还拥有东京动物园、国立西方美术馆（Le Corbusier，UNESCO）和几个较小的博物馆。博物馆下午5点关闭；请在下午3点之前到达以便有充足的游览时间。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "National Museum of Western Art",
+          "wikidata_qid": "Q1362629",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Western_Art",
+          "coordinates": {
+            "lat": 35.7156,
+            "lon": 139.7757
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "主建筑由Le Corbusier设计（他在东亚唯一的作品），是覆盖其全球17座建筑的跨国UNESCO遗产保护的一部分。收藏范围从中世纪欧洲绘画到20世纪早期，其中罗丹和莫奈的作品收藏最为丰富。周一闭馆。",
+          "walk_from_main_route": {
+            "from": "Ueno Park",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "涩谷和原宿",
+      "cluster_tagline": "年轻人的东京 - 著名的十字路口、时尚街道以及森林中伟大的明治神宫",
+      "neighborhood_focus": "Shibuya / Harajuku / Omotesandō",
+      "neighborhood_description": "定义当代东京的西部轴线 - 涩谷的行人步行街、原宿青年时尚区、表参道奢侈品大道和明治神宫森林神社，沿山手线车站的一条二十分钟步行路线连接在一起。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Meiji Jingū Shrine",
+        "wikidata_qid": "Q229121",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Meiji_Shrine",
+        "coordinates": {
+          "lat": 35.6764,
+          "lon": 139.6993
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "供奉明治天皇和昭宪皇太后的神道神社，坐落在一片70公顷的人工林中（每棵树都是在1920年代捐赠并手工栽种的）。穿过巨大的木制鸟居门和砾石小径的路程让人感觉完全离开了东京。神社本身是战后重建的，但保持了原始的明治时代风格。免费入场。内花园是单独收费的区域，值得一去以欣赏六月的鸢尾花园。",
+        "walk_to_next": {
+          "to": "Harajuku / Takeshita Street",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Harajuku and Omotesandō",
+        "wikidata_qid": "Q193063",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harajuku",
+        "coordinates": {
+          "lat": 35.67,
+          "lon": 139.7034
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Takeshita-dōri是一条密集的青年时尚街道 - 可丽饼、角色主题咖啡馆、可爱风格商品在周末时肩摩踵接。平行的Omotesandō大街则截然相反 - 一条宽敞的林荫大道，汇集了东京最集中的建筑展示（Herzog and de Meuron设计的Prada Aoyama、Toyo Ito设计的Tod's、SANAA设计的Dior）。两条街道都走一遍，才能体验定义这片街区的对比。",
+        "walk_to_next": {
+          "to": "Shibuya Crossing",
+          "distance_meters": 1200,
+          "walking_minutes": 15
+        }
+      },
+      "evening": {
+        "activity_title": "Shibuya Crossing at sunset",
+        "wikidata_qid": "Q11409538",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Crossing",
+        "coordinates": {
+          "lat": 35.6595,
+          "lon": 139.7004
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "Shibuya Station外那条著名的行人过街道 - 在交通灯的每个周期内最多有3,000人通过。Tsutaya书店上方的星巴克是经典观看地点，但总是人满为患；新开的Shibuya Scramble Square内的Shibuya Sky观景台是现代化的替代选择，视野更开阔。天黑后最适合拍照，LED广告牌照亮了整个过街处。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Shibuya Sky observation deck",
+          "wikidata_qid": "Q60743130",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shibuya_Scramble_Square",
+          "coordinates": {
+            "lat": 35.6585,
+            "lon": 139.7019
+          },
+          "neighborhood": "Shibuya",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "位于Shibuya Scramble Square第46层的露天屋顶观景台，于2019年开放。可以直接俯瞰著名的过街处，晴天时还能清晰看到富士山。请在网上预订定时票券；日落时段的门票通常提前一两天就售罄。大风天气时关闭。",
+          "walk_from_main_route": {
+            "from": "Shibuya Crossing",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Shinjuku",
+      "cluster_tagline": "东京摩天楼 - 政府大楼、战后小酒馆胡同，以及该市最大的火车枢纽",
+      "neighborhood_focus": "Shinjuku",
+      "neighborhood_description": "这个西区建在世界上最繁忙的火车站周围（日均乘客360万）。西侧的摩天楼群拥有免费的都厅瞭望台；东侧延伸到歌舞伎町娱乐区，以及迷宫般的黄金街微型战后小酒馆。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2900,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Shinjuku Gyoen National Garden",
+        "wikidata_qid": "Q1322323",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shinjuku_Gyoen",
+        "coordinates": {
+          "lat": 35.6852,
+          "lon": 139.71
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "58公顷的皇家花园分为三种不同风格 - 传统日式、法国正式花园和英国风景园林 - 全部原为江户时代的大名宅邸。东京少数收费公园之一（门票价格低廉）；作为交换，不允许大型团体和酒精饮料，这使其比代代木公园或上野公园明显安静得多。周一闭园。樱花盛期在3月下旬/4月初，从开园起就吸引长队。",
+        "walk_to_next": {
+          "to": "Tokyo Metropolitan Government Building",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "afternoon": {
+        "activity_title": "Tokyo Metropolitan Government Building observation deck",
+        "wikidata_qid": "Q260462",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Government_Building",
+        "coordinates": {
+          "lat": 35.6896,
+          "lon": 139.6917
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "丹下健三的双塔1991年政府大楼，建造时是东京最高的建筑。两个瞭望台（北和南，均距地面202米）完全免费。天气晴朗时，景色可延伸到西南方向的富士山。南塔瞭望台关闭较早；北塔开放至晚10点，是更好的夜间选择。相比涩谷天空或东京塔能看到相似景色，这里排队的人较少。",
+        "walk_to_next": {
+          "to": "Golden Gai / Omoide Yokochō",
+          "distance_meters": 1300,
+          "walking_minutes": 17
+        }
+      },
+      "evening": {
+        "activity_title": "Golden Gai and Omoide Yokochō",
+        "wikidata_qid": "Q5580547",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_Gai",
+        "coordinates": {
+          "lat": 35.694,
+          "lon": 139.7045
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "after_dark",
+        "notes": "六条狭窄的小巷里密集着大约200家微型酒吧,大多数只能容纳6到10个人,许多酒吧有严格的主题设定(爵士乐、朋克、文学、特定年代)。这是战后东京幸存的一个片段。大多数酒吧收取开瓶费(¥500 - 1500),对尊重这个空间的游客很友好,但拒绝超过两三人的团体。位于车站西边的Omoide Yokochō(记忆之巷)是烤鸡肉串小巷的等价物,更便宜、烟雾更浓、更容易进入。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hanazono Shrine",
+          "wikidata_qid": "Q1148860",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hanazono_Shrine",
+          "coordinates": {
+            "lat": 35.694,
+            "lon": 139.7035
+          },
+          "neighborhood": "Shinjuku",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "一座神道教神社不可思议地夹在Golden Gai和歌舞伎町娱乐区之间 - 红色鸟居与周围霓虹灯的对比是新宿的标志性景观之一。当地人来这里祈求生意兴隆。每周日运营的小跳蚤市场是东京最令人愉快的市集之一。",
+          "walk_from_main_route": {
+            "from": "Golden Gai",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "cluster_name": "秋叶原和谷中",
+      "cluster_tagline": "电子东京与老城东京 - 御宅族街区和幸存的下町",
+      "neighborhood_focus": "Akihabara / Yanaka / Nezu",
+      "neighborhood_description": "两个相邻的世界。秋叶原是全球电子产品、动漫和游戏亚文化的中心,起源于战后的无线电零件市场。向北坐几站电车,谷中是东京仅有的几个同时幸存于1923年地震和1945年空袭的街区之一 - 狭窄的小巷、木制店铺、数十座小寺庙。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3300,
+      "day_walking_minutes": 43,
+      "morning": {
+        "activity_title": "Akihabara Electric Town",
+        "wikidata_qid": "Q201020",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Akihabara",
+        "coordinates": {
+          "lat": 35.7022,
+          "lon": 139.7745
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "street",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "六个街区的多层电子产品、动漫、漫画和游戏店铺 - 御宅族文化的世界中心。Don Quijote、Yodobashi Camera、Mandarake和Super Potato Retro Game Shop是标志性地点。中央通上的\"女仆咖啡馆\"是一个旅游现象;真正有趣的店铺是隐藏在主街道两侧的多层楼二手商品专门店。工作日上午人较少。",
+        "walk_to_next": {
+          "to": "Yanaka via train (Ueno → Nippori)",
+          "distance_meters": 2500,
+          "walking_minutes": 32
+        }
+      },
+      "afternoon": {
+        "activity_title": "Yanaka Cemetery and old-town walk",
+        "wikidata_qid": "Q11543793",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Yanaka_Cemetery",
+        "coordinates": {
+          "lat": 35.7256,
+          "lon": 139.7706
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "东京最大的墓地之一(建于1872年),建在一个已废弃的寺庙建筑群遗址上。沿着中央通道的樱花大道是城市春天最具氛围感的景色之一。德川幕府的最后一位将军葬在这里。周围的谷中街区是仅有的几个同时逃过1923年地震和二战轰炸的街区之一 - 沿着谷中银座购物街散步,可以体验最集中的木制小店和老东京氛围。",
+        "walk_to_next": {
+          "to": "Nezu Shrine",
+          "distance_meters": 800,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Nezu Shrine",
+        "wikidata_qid": "Q1281272",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nezu_Shrine",
+        "coordinates": {
+          "lat": 35.72,
+          "lon": 139.7611
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "东京最古老的神社之一(传说建于1900年前,现存建筑建于1706年,被指定为重要文化遗产)。沿着山坡延伸的朱红色鸟居隧道是京都著名的伏见稻荷大社的较小、更平静的版本,也是老东京最常被拍照的景点之一。后方的杜鹃花园在4月盛开,花季期间花费少量门票费用绝对值得一游。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kanda Myōjin Shrine",
+          "wikidata_qid": "Q1722851",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kanda_Shrine",
+          "coordinates": {
+            "lat": 35.7019,
+            "lon": 139.7681
+          },
+          "neighborhood": "Akihabara",
+          "duration_minutes": 30,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "一个位于秋叶原边缘的主要神社,充分利用了其独特的地理位置 - 销售动漫主题的护身符,并为科技工作者举办IT祝福仪式。这座神社本身有1,270年的历史;战后混凝土重建在当时是非常进步的。从秋叶原本身到北上列车前往谷中之间,这是一个自然的快速停靠点。",
+          "walk_from_main_route": {
+            "from": "Akihabara Electric Town",
+            "distance_meters": 500,
+            "walking_minutes": 7
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "cluster_name": "银座和皇宫",
+      "cluster_tagline": "高级东京 - 皇宫花园、歌舞伎剧院和原始的奢侈购物区",
+      "neighborhood_focus": "Ginza / Marunouchi / Chiyoda",
+      "neighborhood_description": "中央东京的顶级商业区,建在江户城遗址上。皇宫内部场地仍然不向公众开放;东花园(开放且免费)保留了城堡的石头基础。位于其南边的Ginza是日本最初的西方风格购物街,也是亚洲百货商店和奢侈品旗舰店最集中的地方。",
+      "weather_profile": "resilient",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Imperial Palace East Gardens",
+        "wikidata_qid": "Q1147334",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Imperial_Palace_East_Gardens",
+        "coordinates": {
+          "lat": 35.6852,
+          "lon": 139.7575
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "江户城（德川幕府的所在地）的旧内苑，拥有巨大的石基、被毁天守阁的地基和日式花园。免费入场；周一和周五关闭。东侧的二丸花园最为优美。沿皇宫护城河漫步（从樱田门到平川门）是中央东京最值得体验的免费散步路线之一。",
+        "walk_to_next": {
+          "to": "Ginza",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "afternoon": {
+        "activity_title": "Ginza shopping district",
+        "wikidata_qid": "Q201038",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ginza",
+        "coordinates": {
+          "lat": 35.6717,
+          "lon": 139.7649
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "日本最初的西化购物街，名字源自江户时期曾在此处矗立的白银币铸币厂。中央通和晴海通的交点是其象征性中心。周末下午，中央通禁止车辆通行，变成\"行人天堂\"。Itoya文具旗舰店（十二层楼）、Ginza Six（建筑展示区）和Wakō（标志性钟楼建筑）是主要地标。",
+        "walk_to_next": {
+          "to": "Kabukiza Theatre",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Kabukiza Theatre",
+        "wikidata_qid": "Q1148104",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kabuki-za",
+        "coordinates": {
+          "lat": 35.6694,
+          "lon": 139.7672
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "monument",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "after_dark",
+        "notes": "东京的主要歌舞伎剧院，现2013年建筑（建筑师隈研吾主持设计）保留了传统立面，背后是现代塔楼。完整演出需要4-5小时，但游客可购买单幕票（幕见）以较低价格观看。夜间照明时的外观是银座最常被拍照的建筑之一。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Hama-rikyū Gardens",
+          "wikidata_qid": "Q1149086",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hama-riky%C5%AB_Gardens",
+          "coordinates": {
+            "lat": 35.6597,
+            "lon": 139.7625
+          },
+          "neighborhood": "Tsukiji / Shimbashi",
+          "duration_minutes": 60,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "德川幕府将军的前狩猎场，如今是一座传统风景园林，中央池塘由海水随潮汐涨退。池塘中央岛屿上的茶舍向园林游客提供抹茶服务。从此处有水上巴士沿隅田川上行至浅草，若尚未游览东京的该部分，这是一条绝佳的离开银座的路线。",
+          "walk_from_main_route": {
+            "from": "Ginza",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "cluster_name": "镰仓一日游",
+      "cluster_tagline": "中世纪幕府首都 - 大佛、古老的寺庙和海边沙滩",
+      "neighborhood_focus": "Kamakura (outside Tokyo)",
+      "neighborhood_description": "日本第一个武士首都（1185-1333年），位于东京以南，乘坐JR横须贺线约一小时可到。这个小镇规模不大，易于步行游览，汇集了众多镰仓时期的主要佛教寺庙和神道神社。大佛（Daibutsu）是标志性景点，但圆觉寺（Engaku-ji）和长谷寺（Hase-dera）寺庙可以说更值得一游。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3600,
+      "day_walking_minutes": 47,
+      "morning": {
+        "activity_title": "Kōtoku-in and the Great Buddha (Daibutsu)",
+        "wikidata_qid": "Q1276702",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in",
+        "coordinates": {
+          "lat": 35.3168,
+          "lon": 139.5358
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "铜制坐佛像，高13.35米，铸于1252年，原本供奉在一座木造寺庙大殿内，但在1498年的海啸中被冲毁，从此就一直露天放置至今。其庄严的面部表情和比例使其被指定为国宝。游客可支付少量额外费用进入空心的佛像内部。建议在开放时间（上午8点）到达，这样可以不受人群拥挤地拍照。",
+        "walk_to_next": {
+          "to": "Hase-dera Temple",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Hase-dera Temple",
+        "wikidata_qid": "Q1108800",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hase-dera_(Kamakura)",
+        "coordinates": {
+          "lat": 35.3122,
+          "lon": 139.5333
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "一座依山而建、俯瞰相模湾的寺庙建筑群,其中供奉着一尊9米高的木质观音菩萨像,是日本最大的木雕佛像。观景台提供了东京地区最好的免费海滨景观之一。园内的小地藏菩萨雕像花园纪念着失去的孩子们,是镰仓最常被拍摄、最令人动容的单一景观。",
+        "walk_to_next": {
+          "to": "Tsurugaoka Hachimangū",
+          "distance_meters": 2400,
+          "walking_minutes": 31
+        }
+      },
+      "evening": {
+        "activity_title": "Tsurugaoka Hachimangū",
+        "wikidata_qid": "Q1131794",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tsurugaoka_Hachiman-g%C5%AB",
+        "coordinates": {
+          "lat": 35.3262,
+          "lon": 139.5564
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "镰仓的主要神道教神社,也是中世纪城镇的精神中心,创建于1063年,于1180年重新整修。从由比滨海滩(若宫大街)出发的宽阔仪式通道笔直通往神社,是日本最宏伟的仪式轴线之一。神社内的博物馆收藏着中世纪剑饰品。最好在下午7点之前乘坐JR列车返回东京;虽然列车运行时间更晚,但晚间班次较少。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Engaku-ji",
+          "wikidata_qid": "Q1234716",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Engaku-ji",
+          "coordinates": {
+            "lat": 35.337,
+            "lon": 139.547
+          },
+          "neighborhood": "Kita-Kamakura",
+          "duration_minutes": 75,
+          "type": "church",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "镰仓五大禅宗寺庙之一,创建于1282年,用以纪念蒙古入侵失败期间阵亡的日本和蒙古士兵。舍利殿(圣牙堂)是日本最古老的禅宗建筑之一。从北镰仓站可轻松到达,该站是前往镰仓市区前的前一站,是从东京下来时的便利首选。",
+          "walk_from_main_route": {
+            "from": "Tsurugaoka Hachimangū",
+            "distance_meters": 1500,
+            "walking_minutes": 20
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "cluster_name": "日光一日游",
+      "cluster_tagline": "联合国教科文组织山地神殿 - 东京以北雪松林中的德川家康陵墓建筑群",
+      "neighborhood_focus": "Nikkō (outside Tokyo)",
+      "neighborhood_description": "位于东京以北火车两小时车程的山城，拥有日本最精美的神殿建筑群，并被列为联合国教科文组织世界遗产。Tōshō-gū 神殿（德川家康创立的幕府将军的陵墓）及其周围寺庙坐落在一片有400年历史的日本扁柏雪松林中。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2800,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Nikkō Tōshō-gū",
+        "wikidata_qid": "Q183454",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nikk%C5%8D_T%C5%8Dsh%C5%8D-g%C5%AB",
+        "coordinates": {
+          "lat": 36.7575,
+          "lon": 139.5994
+        },
+        "unesco_designation": {
+          "site_name": "Shrines and Temples of Nikkō",
+          "year_inscribed": 1999,
+          "reference_number": 913,
+          "url": "https://whc.unesco.org/en/list/913"
+        },
+        "duration_minutes": 150,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "德川家康的陵墓，他是统治日本从1603年至1868年的幕府将军的创立者。建于1617年，其奢华程度在日本宗教建筑中不同寻常 - 金箔、漆工和遍布建筑物上的5000多个单独雕刻人物。著名的\"不看、不听、不说坏事\"的三猴雕像在神圣马厩上。在开放时间（上午9点）抵达；到中午时该遗址确实会非常拥挤。",
+        "walk_to_next": {
+          "to": "Futarasan Shrine",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Futarasan Shrine and Rinnō-ji Temple",
+        "wikidata_qid": "Q1118143",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Futarasan_Shrine",
+        "coordinates": {
+          "lat": 36.7589,
+          "lon": 139.5969
+        },
+        "unesco_designation": {
+          "site_name": "Shrines and Temples of Nikkō",
+          "year_inscribed": 1999,
+          "reference_number": 913,
+          "url": "https://whc.unesco.org/en/list/913"
+        },
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "联合国教科文组织世界遗产名录中的另外两个部分。Futarasan Shrine 是较古老的圣地（成立于782年，祭祀周围山神）- 比Tōshō-gū更平静且装饰较少。Rinnō-ji 是其附属的佛教寺庙建筑群；其三佛堂供奉三尊巨大的镀金木制佛像。包括所有三个景点的联票更划算。",
+        "walk_to_next": {
+          "to": "Shinkyō Bridge and Kanmangafuchi Abyss",
+          "distance_meters": 1400,
+          "walking_minutes": 18
+        }
+      },
+      "evening": {
+        "activity_title": "Shinkyō Bridge and the cedar approach",
+        "wikidata_qid": "Q1218547",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shinky%C5%8D_(bridge)",
+        "coordinates": {
+          "lat": 36.7503,
+          "lon": 139.6033
+        },
+        "unesco_designation": {
+          "site_name": "Shrines and Temples of Nikkō",
+          "year_inscribed": 1999,
+          "reference_number": 913,
+          "url": "https://whc.unesco.org/en/list/913"
+        },
+        "duration_minutes": 45,
+        "type": "bridge",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "大谷川上朱漆的神圣桥梁是进入日光神社区域的象征性入口。步行过桥需要支付小额费用（或在相邻的道路桥上免费拍照）。河下的峡谷在深秋特别适合拍照，周围的枫树变红时景色尤其优美。争取在下午6点前乘坐返回东京的列车（经浅草或新宿约需2小时）；虽然有更晚的列车，但班次会变得稀少。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Kanmangafuchi Abyss",
+          "wikidata_qid": "Q11468020",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Kanmangafuchi_Abyss",
+          "coordinates": {
+            "lat": 36.7461,
+            "lon": 139.5897
+          },
+          "neighborhood": "Nikkō",
+          "duration_minutes": 60,
+          "type": "park",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "大谷川沿岸的一处峡谷，小径两旁排列着约七十座风化的地藏菩萨雕像（当地称为\"幽灵地藏\"）。这里明显比主神社建筑群安静得多 - 小径蜿蜒穿过原始森林，游客为地藏菩萨雕像穿上的红色围兜和针织帽使这里成为该地区最具氛围感的短途步行路线之一。",
+          "walk_from_main_route": {
+            "from": "Shinkyō Bridge",
+            "distance_meters": 1500,
+            "walking_minutes": 20
+          }
+        }
+      ]
+    }
+  ]
+}

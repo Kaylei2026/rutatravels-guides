@@ -1,0 +1,326 @@
+{
+  "destination": "Lake Como",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:13:55.965Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Como city center",
+    "Bellagio and the central lake",
+    "Varenna and the eastern shore"
+  ],
+  "guide_description": "Trois jours pour découvrir l'essence du Lake Como : la ville romaine et médiévale à la pointe sud, la culture aristocratique des villas sur le promontoire central, et les villages plus tranquilles de la rive est. Chaque jour est autonome et accessible en ferry ou par la route depuis n'importe quelle base sur le lac.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 5720,
+  "total_walking_minutes": 72,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Como Cathedral et City Walls",
+      "cluster_tagline": "Tracé romain, marbre gothique lombard, et une promenade au bord du lac au pied des Alpes",
+      "neighborhood_focus": "Como city center",
+      "neighborhood_description": "Como occupe la pointe sud du bras occidental du lac. La ville médiévale fortifiée s'inscrit dans une trame de rues romaines quasi intacte, avec une cathédrale gothique-Renaissance en son centre et une large piazza au bord du lac ouvrant sur les quais de ferry. La ville est assez compacte pour la parcourir d'un bout à l'autre en vingt minutes.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1820,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Como Cathedral",
+        "wikidata_qid": "Q949567",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Como_Cathedral",
+        "coordinates": {
+          "lat": 45.8106,
+          "lon": 9.0862
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "La construction s'est étendue sur quatre siècles de 1396 à 1770, ce qui donne à l'extérieur une base de style Gothique Lombard couronnée par un dôme Baroque. Cherchez les deux figures d'époque romaine flanquant le portail principal - ce sont Pline l'Ancien et Pline le Jeune, tous deux nés à Como, placés ici par une ville assez fière de son patrimoine classique pour mettre des écrivains païens sur la façade d'une cathédrale. Les tapisseries flamandes du 16e siècle à l'intérieur figurent parmi les plus belles du nord de l'Italie et reçoivent rarement l'attention qu'elles méritent.",
+        "walk_to_next": {
+          "to": "Piazza Cavour and lakefront",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Piazza Cavour and Como lakefront",
+        "wikidata_qid": "Q3391953",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Como",
+        "coordinates": {
+          "lat": 45.8117,
+          "lon": 9.0851
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "square",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La principale piazza au bord du lac est l'endroit d'où le service de ferry part et où la ville respire. Marchez vers le nord le long de la Passeggiata Lino Gelpi - l'étroit sentier lacustre qui longe les murs en direction de Cernobbio - pendant trente minutes pour échapper à la concentration touristique et voir le lac au niveau de l'eau plutôt que d'en haut. Le Volta Temple, une rotonde néoclassique honorant l'inventeur de la batterie, se trouve au bout de la promenade et prend cinq minutes à apprécier de l'extérieur.",
+        "walk_to_next": {
+          "to": "Porta Torre and medieval walls",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Porta Torre and the medieval city walls",
+        "wikidata_qid": "Q3919723",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Porta_Torre,_Como",
+        "coordinates": {
+          "lat": 45.8079,
+          "lon": 9.0855
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Le 12e siècle torre-porta à l'extrémité sud de la vieille ville est la section la mieux préservée des fortifications médiévales de Como. Marchez vers l'est à partir d'ici le long de Via Vittorio Emanuele II en direction des ruines du Baradello Castle visibles sur la colline au-dessus de la ville - vous ne pouvez pas atteindre le sommet de la colline facilement à pied à cette heure, mais la vue du soir vers le lac depuis les rues supérieures derrière les murs est l'angle le plus atmosphérique de Como. Les rues ici se vident rapidement après 18h et la lumière sur la vieille pierre est à son meilleur.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Basilica of Sant'Abbondio",
+          "wikidata_qid": "Q1056272",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sant%27Abbondio,_Como",
+          "coordinates": {
+            "lat": 45.8058,
+            "lon": 9.0883
+          },
+          "neighborhood": "Como south quarter",
+          "duration_minutes": 30,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "morning",
+          "notes": "Une basilique romane du 11e siècle en dehors des murs de la ville, construite par les Bénédictins. Deux absides parallèles et une nef aux voûtes de pierre nue en font l'un des exemples les plus clairs du Romanesque Lombard de la région. Le cycle de fresques du 14e siècle dans l'abside dépeignant la Vie du Christ est en excellent état et a rarement plus que quelques visiteurs. Marchez vers le sud à partir de la porte de la ville le long de Via Sant'Abbondio - il faut huit minutes à partir des murs.",
+          "walk_from_main_route": {
+            "from": "Porta Torre and the medieval city walls",
+            "distance_meters": 520,
+            "walking_minutes": 7
+          }
+        },
+        {
+          "activity_title": "Tempio Voltiano",
+          "wikidata_qid": "Q1048268",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tempio_Voltiano",
+          "coordinates": {
+            "lat": 45.8129,
+            "lon": 9.0808
+          },
+          "neighborhood": "Como lakefront",
+          "duration_minutes": 30,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Une rotonde néoclassique construite en 1927 pour abriter les instruments scientifiques originaux d'Alessandro Volta, l'appareil qu'il a utilisé pour démontrer la première batterie est exposé ici. Petit et rapide à visiter, mais véritablement intéressant en tant qu'objet d'histoire des sciences plutôt que monument civique. Accès par la promenade en bord de lac, à dix minutes de marche au nord-ouest de Piazza Cavour.",
+          "walk_from_main_route": {
+            "from": "Piazza Cavour and Como lakefront",
+            "distance_meters": 780,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Bellagio et Villa Melzi",
+      "cluster_tagline": "Le promontoire où le lac se divise - jardins aristocratiques et une approche en ferry incomparable",
+      "neighborhood_focus": "Bellagio",
+      "neighborhood_description": "Bellagio est situé à la pointe du promontoire triangulaire qui divise le lac Côme en ses deux bras méridionaux. C'est l'adresse prestigieuse du lac depuis le 18e siècle, quand la noblesse milanaise y a construit des villas rivales le long de ses pentes. L'approche en ferry en provenance de Como ou de Varenna est l'expérience emblématique du lac, le promontoire se révélant graduellement alors que le bateau contourne la pointe.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Villa Melzi d'Eril gardens",
+        "wikidata_qid": "Q3560079",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Melzi_d%27Eril",
+        "coordinates": {
+          "lat": 45.9803,
+          "lon": 9.2589
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Le premier jardin paysager de style anglais du lac de Côme, aménagé à partir de 1808 pour le vice-président de la République italienne sous Napoléon. Ouvert au public d'avril à octobre, il s'étend le long du rivage sud de l'embarcadère de Bellagio - entrez par la route du quai plutôt que par la rue du village pour emprunter le chemin au niveau du lac à travers la pergola de glycines. La section du jardin japonais près de l'extrémité sud est une originalité qui fonctionne étonnamment bien dans ce contexte. Arrivez à l'ouverture pour avoir le jardin essentiellement pour vous avant l'arrivée des navettes de touristes de la journée.",
+        "walk_to_next": {
+          "to": "Bellagio village center",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Bellagio village center and Salita Serbelloni",
+        "wikidata_qid": "Q182478",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bellagio,_Lake_Como",
+        "coordinates": {
+          "lat": 45.9832,
+          "lon": 9.2615
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Les rues escarpées avec escaliers - Salita Serbelloni et Salita Mella - qui grimpent du rivage à travers le village sont la signature architecturale de Bellagio. Elles sont pavées de pierre lombarde plate et bordées de bâtiments ocre et terracotta qui se penchent les uns sur les autres au sommet. Ne manquez pas la vue depuis le petit belvédère au sommet de la Salita Serbelloni regardant vers le nord à travers la fourche du lac vers les Alpes. Les boutiques de soie sur Via Garibaldi vendent des tissus véritablement tissés localement - le lac de Côme produit environ 70 pour cent de la soie européenne - mais la qualité varie considérablement entre les boutiques.",
+        "walk_to_next": {
+          "to": "Villa Serbelloni promontory viewpoint",
+          "distance_meters": 480,
+          "walking_minutes": 6
+        }
+      },
+      "evening": {
+        "activity_title": "Villa Serbelloni promontory and sunset viewpoint",
+        "wikidata_qid": "Q4010993",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Serbelloni",
+        "coordinates": {
+          "lat": 45.9862,
+          "lon": 9.2617
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Les terres de la Villa Serbelloni au - dessus du village abritent désormais un centre d'études de la Fondation Rockefeller et ne sont pas accessibles au public, mais le sentier public qui longe le côté nord du promontoire en direction de l'ancienne tour de guet est ouvert et mène à un point de vue qui offre une vue simultanée sur les deux fourches du lac - le seul endroit sur l'eau où vous pouvez voir Lecco vers le sud - est et le lac supérieur vers le nord en même temps. Le sentier commence à l'extrémité nord de Piazza della Chiesa ; comptez une quinzaine de minutes de marche en montée sur une pierre inégale. Allez une heure avant le coucher du soleil.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Basilica of San Giacomo, Bellagio",
+          "wikidata_qid": "Q3641822",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Basilica_of_San_Giacomo,_Bellagio",
+          "coordinates": {
+            "lat": 45.9835,
+            "lon": 9.2617
+          },
+          "neighborhood": "Bellagio",
+          "duration_minutes": 25,
+          "type": "basilica",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Une basilique romane du 12e siècle sur la piazza principale, construite au même moment que la Sant'Abbondio de Côme par la même tradition d'atelier lombard. La décoration de bandes lombardes de l'extérieur et les chapiteaux sculptés des colonnes du porche valent la peine de s'arrêter. À l'intérieur, un fragment de tapisserie flamande et un retable du 16e siècle dans l'abside droite sont les points forts - la visite complète prend moins d'une demi - heure.",
+          "walk_from_main_route": {
+            "from": "Bellagio village center",
+            "distance_meters": 80,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Varenna et Villa Monastero",
+      "cluster_tagline": "La rive orientale plus tranquille - un village sans voitures, un jardin botanique au bord du lac, et un château surplombant l'eau",
+      "neighborhood_focus": "Varenna",
+      "neighborhood_description": "Varenna s'accroche à une étroite corniche de rive orientale avec pratiquement pas de terrain plat - ses rues sont des escaliers et sa promenade est une mince saillie taillée dans la paroi rocheuse au-dessus de l'eau. Elle est nettement moins visitée que Bellagio malgré sa beauté égale, et elle a l'avantage d'être accessible directement par train depuis Milan Centrale en moins d'une heure.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1820,
+      "day_walking_minutes": 23,
+      "morning": {
+        "activity_title": "Villa Monastero gardens",
+        "wikidata_qid": "Q3560218",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Monastero",
+        "coordinates": {
+          "lat": 46.0092,
+          "lon": 9.2847
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "garden",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Un ancien couvent cistercien transformé en domaine jardin au bord du lac, s'étendant sur 500 mètres le long de la rive dans une bande étroite entre la falaise et l'eau. Le jardin est organisé en une succession d'espaces distincts - une orangerie à citrons, une allée de cyprès, une section de roses, et un parterre à l'italienne formel - chacun encadrant une vue différente sur le promontoire de Bellagio. L'extrémité sud du jardin, la plus proche du village, est libre d'accès via un sentier qui mène directement à l'embarcadère du ferry. La section avec droit d'entrée commence juste au nord de ce sentier.",
+        "walk_to_next": {
+          "to": "Varenna village and Passeggiata degli Innamorati",
+          "distance_meters": 350,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Varenna village and Passeggiata degli Innamorati",
+        "wikidata_qid": "Q208598",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Varenna",
+        "coordinates": {
+          "lat": 46.0083,
+          "lon": 9.2844
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La Passeggiata degli Innamorati - la Promenade des Amoureux - est un sentier sur une corniche de béton fixée à la falaise au niveau de l'eau, qui s'étend depuis l'embarcadère du ferry vers le nord à travers le village jusqu'à l'accès du sentier du château Vezio. Elle fait à peine la largeur de deux personnes, n'a pas de garde-fou par endroits, et le lac s'agite directement en dessous. Parcourez-la du nord au sud pour arriver au centre du village plutôt que de le quitter. Les bâtiments jaunes et ocre du village s'élèvent directement de l'eau sans aucune route entre eux et le rivage - la géométrie est unique par rapport à tout autre établissement du lac.",
+        "walk_to_next": {
+          "to": "Castello di Vezio",
+          "distance_meters": 1040,
+          "walking_minutes": 13
+        }
+      },
+      "evening": {
+        "activity_title": "Castello di Vezio",
+        "wikidata_qid": "Q3663194",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Castello_di_Vezio",
+        "coordinates": {
+          "lat": 46.0125,
+          "lon": 9.2878
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "castle",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Un château avec tour de guet médiévale sur une falaise à 150 mètres au-dessus de Varenna, accessible par un sentier balisé depuis le village qui demande environ 20 minutes de montée sur un chemin rocailleux - portez des chaussures avec une bonne adhérence. La tour elle-même est modeste mais le panorama vaut le détour : le lac central dans son intégralité s'ouvre en dessous, le promontoire de Bellagio pointant vers le sud et les Alpes enneigées encadrant le bras nord. Le château reste ouvert jusqu'au coucher du soleil en été. Montez au moins 90 minutes avant la tombée de la nuit pour avoir le temps de rester au sommet avant de descendre à la lumière du jour.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Villa Cipressi gardens",
+          "wikidata_qid": "Q4009606",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Cipressi",
+          "coordinates": {
+            "lat": 46.0079,
+            "lon": 9.284
+          },
+          "neighborhood": "Varenna",
+          "duration_minutes": 30,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Adjacente à la Villa Monastero sur la rive sud du lac, avec des jardins en terrasses de cyprès et de lauriers-roses descendant vers un embarcadère privé. Désormais un hôtel, mais le jardin est ouvert aux visiteurs de passage moyennant une petite contribution. Un billet combiné avec la Villa Monastero est disponible à l'une ou l'autre entrée et permet d'économiser quelques euros. La descente en terrasses jusqu'à la tonnelle au bord du lac est la photo qui apparaît sur la plupart des contenus de voyage consacrés à Varenna.",
+          "walk_from_main_route": {
+            "from": "Villa Monastero gardens",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        },
+        {
+          "activity_title": "Church of San Giorgio, Varenna",
+          "wikidata_qid": "Q3671245",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/San_Giorgio,_Varenna",
+          "coordinates": {
+            "lat": 46.0086,
+            "lon": 9.2852
+          },
+          "neighborhood": "Varenna",
+          "duration_minutes": 20,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Une église gothique du 14ème siècle sur la principale piazza du village, avec un cycle de fresques du 15ème siècle couvrant les murs de la nef et l'abside - un travail lombard d'influence giottesque qui attirerait des visiteurs de tout le lac s'il se trouvait dans un endroit plus accessible. Le campanile extérieur et la piazza devant lui, avec le lac visible entre les bâtiments à l'ouest, sont le centre de la vie du village. Ouvert en milieu de matinée et fermé pendant deux heures à midi.",
+          "walk_from_main_route": {
+            "from": "Varenna village and Passeggiata degli Innamorati",
+            "distance_meters": 120,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    }
+  ]
+}

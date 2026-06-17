@@ -1,0 +1,286 @@
+{
+  "destination": "Sun Valley",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:59:47.415Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Sun Valley Village / Dollar Mountain",
+    "Ketchum Downtown / Trail Creek",
+    "Sawtooth National Recreation Area / Stanley Basin"
+  ],
+  "guide_description": "Tres días en el corredor de Sun Valley: el pueblo de la estación de montaña y su historia esquiadora, el centro compacto de Ketchum con su legado de Hemingway y su sistema de senderos junto al río, y una excursión de un día al Sawtooth National Recreation Area para lagos alpinos y geología volcánica. Cada día es geográficamente autónomo.",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 5200,
+  "total_walking_minutes": 65,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Sun Valley Village y Dollar Mountain",
+      "cluster_tagline": "El complejo turístico que inventó el esquí de destino - alojamiento, pista de patinaje sobre hielo y vistas de las montañas",
+      "neighborhood_focus": "Sun Valley Village / Dollar Mountain",
+      "neighborhood_description": "El pueblo original de Sun Valley Resort, construido por Union Pacific Railroad en 1936 como el primer centro de esquí de destino de América. El compacto pueblo peatonal se agrupa alrededor de Sun Valley Lodge, la pista de patinaje sobre hielo al aire libre y la base de Dollar Mountain - un enclave autónomo a una milla al este de Ketchum.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1400,
+      "day_walking_minutes": 18,
+      "morning": {
+        "activity_title": "Sun Valley Lodge",
+        "wikidata_qid": "Q7638474",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sun_Valley_Lodge",
+        "coordinates": {
+          "lat": 43.6969,
+          "lon": -114.3513
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Recorra el corredor principal para ver las fotografías enmarcadas de huéspedes desde los años 1930 hasta 1960: Hemingway, Gary Cooper, Marilyn Monroe y prácticamente todas las estrellas de cine que visitaron la zona en esa época. El bar Duchin Room conserva sus detalles originales de chalet austriaco. Pregunte en la recepción por el paseo autoguiado por la historia; no está anunciado pero el personal le entregará el folleto.",
+        "walk_to_next": {
+          "to": "Sun Valley Outdoor Ice Rink",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sun Valley Outdoor Ice Rink",
+        "wikidata_qid": "Q7638477",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sun_Valley_Resort",
+        "coordinates": {
+          "lat": 43.6972,
+          "lon": -114.3508
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "stadium",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Una de las pistas de patinaje al aire libre más antiguas en funcionamiento continuo en los Estados Unidos, que ha albergado actuaciones de Ice Follies desde los años 1930. Abierta todo el año, con alquiler de patines disponible en el edificio de la pista en el lado sur. En verano la pista se mantiene fría con hielo refrigerado mientras que las temperaturas circundantes pueden superar los 90 grados Fahrenheit, lo cual es una sensación genuinamente extraña.",
+        "walk_to_next": {
+          "to": "Dollar Mountain",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Dollar Mountain viewpoint",
+        "wikidata_qid": "Q5289842",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dollar_Mountain",
+        "coordinates": {
+          "lat": 43.7025,
+          "lon": -114.3458
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "La más pequeña y suave de las dos montañas de esquí de Sun Valley. En verano el telesilla puede funcionar para paseos panorámicos; si no está en funcionamiento, el camino de servicio de tierra en el lado sur de la base ofrece una caminata de 20 minutos hasta la línea de crestas con vistas despejadas de las Pioneer Mountains hacia el sureste y la cara norte de Baldy directamente al otro lado del valle. Llegue 45 minutos antes de la puesta de sol para la mejor luz en la silueta de Sawtooth hacia el norte.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sun Valley Museum of History",
+          "wikidata_qid": "Q124748753",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Community_Library_(Ketchum,_Idaho)",
+          "coordinates": {
+            "lat": 43.6808,
+            "lon": -114.3636
+          },
+          "neighborhood": "Ketchum",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Alojada dentro de la Ketchum Community Library, la colección de historia regional documenta la transición del valle desde territorio de pastoreo de ovejas vasco hasta pueblo minero en auge hasta estación de esquí. Las fotografías de ganadería vasca de principios del siglo XX son la parte menos esperada e históricamente más sustancial de la colección.",
+          "walk_from_main_route": {
+            "from": "Sun Valley Lodge",
+            "distance_meters": 1200,
+            "walking_minutes": 15
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Ketchum y Trail Creek",
+      "cluster_tagline": "La última casa de Hemingway: un pequeño pueblo del Oeste con senderos nórdicos de clase mundial y un memorial a la orilla del río",
+      "neighborhood_focus": "Ketchum Downtown / Trail Creek",
+      "neighborhood_description": "Ketchum es el pueblo real adyacente al centro vacacional Sun Valley, con un centro comercial transitable lleno de restaurantes, galerías y tiendas de equipamiento a lo largo de Main Street y Sun Valley Road. Trail Creek corre hacia el este del pueblo a través de un cañón flanqueado por álamos, conectando el Memorial de Hemingway con la red de senderos nórdicos.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Hemingway Memorial",
+        "wikidata_qid": "Q5713209",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hemingway_Memorial_(Ketchum,_Idaho)",
+        "coordinates": {
+          "lat": 43.6896,
+          "lon": -114.3388
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Un busto de bronce de Hemingway colocado junto a Trail Creek, puesto aquí porque el escritor pasó sus últimos años en Ketchum y murió aquí en 1961. Se accede al memorial a través de un corto camino sin pavimentar desde el desvío de Trail Creek Road - estacione en el pequeño apartadero justo después del puente del Sun Valley Inn. La inscripción está tomada de un elogio fúnebre que Hemingway escribió para un compañero de caza, lo que le da un significado doble involuntario dadas las circunstancias de su muerte.",
+        "walk_to_next": {
+          "to": "Hemingway Grave Site",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Hemingway Grave Site",
+        "wikidata_qid": "Q16979352",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ernest_Hemingway",
+        "coordinates": {
+          "lat": 43.6884,
+          "lon": -114.3711
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Hemingway está enterrado en Ketchum Cemetery en el lado norte del pueblo al final de un corto camino de grava desde la entrada principal en North Main Street. La tumba es de granito liso - sin citas literarias, sin marcadores elaborados. Su cuarta esposa Mary y su hijo Jack están enterrados cerca. El cementerio se encuentra contra una ladera de artemisa con una vista sin obstrucciones de la cara sur de Bald Mountain.",
+        "walk_to_next": {
+          "to": "Ketchum Main Street",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Ketchum Downtown and Main Street",
+        "wikidata_qid": "Q980225",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ketchum,_Idaho",
+        "coordinates": {
+          "lat": 43.6805,
+          "lon": -114.3635
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "El núcleo de cuatro cuadras de Ketchum tiene una auténtica densidad de pueblo de montaña del Oeste - tiendas de equipamiento, galerías que muestran pintores regionales, y restaurantes con patios al aire libre que se llenan para las 6pm en verano. El Ketchum Farmers Market funciona los domingos en verano en 4th Street justo al lado de Main. Para un rápido circuito de galerías, concéntrate en las dos cuadras de East Avenue entre 4th y 2nd Streets donde se agrupan la mayoría de los espacios de arte serio.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Bald Mountain Trail - Lower Warm Springs",
+          "wikidata_qid": "Q4849461",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bald_Mountain_(Idaho)",
+          "coordinates": {
+            "lat": 43.6878,
+            "lon": -114.3253
+          },
+          "neighborhood": "Warm Springs",
+          "duration_minutes": 90,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "El sendero de senderismo inferior de Warm Springs comienza en la base del teleférico Warm Springs Express en la cara suroeste de la montaña, accesible desde Warm Springs Road una milla al oeste del centro. El sendero gana alrededor de 400 pies a través de artemisa y álamo en la primera milla antes de que el terreno se empine - la mayoría de los excursionistas de día dan la vuelta en el primer banco de cresta para vistas sobre el valle sin comprometerse con la cumbre completa.",
+          "walk_from_main_route": {
+            "from": "Ketchum Main Street",
+            "distance_meters": 1600,
+            "walking_minutes": 20
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Sawtooth National Recreation Area",
+      "cluster_tagline": "Cráteres volcánicos, lagos alpinos, y un perfil de granito a una hora al norte del resort",
+      "neighborhood_focus": "Sawtooth National Recreation Area / Stanley Basin",
+      "neighborhood_description": "El Sawtooth National Recreation Area comienza aproximadamente 20 millas al norte de Ketchum por la Highway 75 y abarca más de 750,000 acres de naturaleza virgen en el centro de Idaho. El viaje hacia el norte a través del cañón del Big Wood River es en sí mismo una experiencia paisajística significativa antes de que el terreno se abra hacia la Stanley Basin con la Sawtooth Range como telón de fondo.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1700,
+      "day_walking_minutes": 21,
+      "morning": {
+        "activity_title": "Craters of the Moon National Monument",
+        "wikidata_qid": "Q937775",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Craters_of_the_Moon_National_Monument_and_Preserve",
+        "coordinates": {
+          "lat": 43.4165,
+          "lon": -113.5164
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Aproximadamente 90 minutos al sureste de Ketchum por la Highway 20/26, este es un desvío más que una parada hacia el norte en Sawtooth - planifica el día en consecuencia. La carretera de bucle pavimentada de siete millas pasa por conos de ceniza, tubos de lava y conos de salpicadura de erupciones tan recientes como hace 2,000 años. Camina dentro del tubo de lava Indian Tunnel - trae una linterna; la entrada es una abertura de techo colapsado de aproximadamente 30 pies de ancho y el tubo se extiende 800 pies. La superficie es lava negra que absorbe calor, así que comienza temprano en verano.",
+        "walk_to_next": {
+          "to": "Redfish Lake",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Redfish Lake",
+        "wikidata_qid": "Q3430424",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Redfish_Lake",
+        "coordinates": {
+          "lat": 44.1522,
+          "lon": -114.9094
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "El lago alpino más accesible en el Sawtooth NRA, al que se llega por una carretera pavimentada de 5 millas hacia el oeste desde la Highway 75 al sur de Stanley. El lago se encuentra a 6,550 pies con las formaciones McGown Peak y Heyburn elevándose directamente sobre la orilla sur. El Redfish Lake Lodge renta kayaks y canoas en la playa principal - una hora en el agua ofrece una perspectiva de la pared Sawtooth que el sendero de la orilla no puede igualar. Históricamente, salmones rojo llegaban hasta aquí desde el Pacífico, 900 millas río arriba - un programa de recuperación está en curso",
+        "walk_to_next": {
+          "to": "Stanley",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Stanley, Idaho",
+        "wikidata_qid": "Q2219115",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Stanley,_Idaho",
+        "coordinates": {
+          "lat": 44.2158,
+          "lon": -114.9358
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Un pueblo de aproximadamente 100 residentes permanentes situado a 6,260 pies en Stanley Basin, con toda la Sawtooth Range como telón de fondo al oeste. La calle principal tiene tres cuadras de largo. La puesta de sol desde la orilla del Salmon River justo al sur del centro, accesible a través del área de descanso en Highway 75 cerca del puente del río, pone todo el horizonte de Sawtooth por encima del río en resplandor alpino. Las temperaturas nocturnas en Stanley caen bruscamente incluso en julio; lleva una capa sin importar las condiciones de la tarde.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sawtooth National Recreation Area Visitor Center",
+          "wikidata_qid": "Q7429724",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sawtooth_National_Recreation_Area",
+          "coordinates": {
+            "lat": 43.9036,
+            "lon": -114.6872
+          },
+          "neighborhood": "Sawtooth NRA",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Ubicado en Highway 75 aproximadamente 8 millas al norte de Ketchum, este es el lugar correcto para detenerse antes de dirigirse hacia NRA en lugar de después. El mapa de relieve de toda el área recreativa es la herramienta de orientación más útil del valle y los guardabosques aquí proporcionan actualizaciones sobre condiciones de senderos genuinamente específicas que el personal del área de resort no puede.",
+          "walk_from_main_route": {
+            "from": "Redfish Lake",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

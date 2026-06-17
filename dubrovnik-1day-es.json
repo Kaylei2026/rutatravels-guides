@@ -1,0 +1,143 @@
+{
+  "destination": "Dubrovnik",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:14:33.353Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Old Town (Grad)"
+  ],
+  "guide_description": "Un día dentro y encima de la ciudad amurallada: camina todo el circuito de las murallas medievales al inicio del día antes de que aumente el calor, desciende a los callejones de piedra caliza del Stradun, y termina la tarde en una ladera sobre los tejados.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3250,
+  "total_walking_minutes": 41,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "La Ciudad Amurallada",
+      "cluster_tagline": "Una república medieval de piedra - murallas, callejones de mármol y vistas del mar Adriático",
+      "neighborhood_focus": "Old Town (Grad)",
+      "neighborhood_description": "El Casco Antiguo de Dubrovnik es una ciudad fortificada medieval completamente intacta en un promontorio de piedra caliza. Casi todos los monumentos principales se encuentran dentro de un perímetro de 2 kilómetros de murallas. La ciudad fue una república independiente - la República de Ragusa - durante casi cinco siglos, y su densa malla de palacios de piedra caliza, iglesias y monasterios refleja esa riqueza cívica.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3250,
+      "day_walking_minutes": 41,
+      "morning": {
+        "activity_title": "Walls of Dubrovnik",
+        "wikidata_qid": "Q1067140",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Walls_of_Dubrovnik",
+        "coordinates": {
+          "lat": 42.6416,
+          "lon": 18.1077
+        },
+        "unesco_designation": {
+          "site_name": "Old City of Dubrovnik",
+          "year_inscribed": 1979,
+          "reference_number": 95,
+          "url": "https://whc.unesco.org/en/list/95"
+        },
+        "duration_minutes": 90,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Compra tu entrada en la puerta Pile Gate y recorre el circuito en el sentido de las agujas del reloj - esta dirección mantiene las vistas al mar a tu izquierda durante todo el tramo occidental, reservando los mejores panoramas en lugar de llegar a ellos de espaldas. El circuito completo tiene casi 2 kilómetros y está casi totalmente expuesto; ir a la apertura (8am) no es solo una estrategia para evitar multitudes, reduce la temperatura de la superficie de la piedra bajo tus pies varios grados en comparación con el mediodía.",
+        "walk_to_next": {
+          "to": "Franciscan Monastery and Pharmacy",
+          "distance_meters": 200,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Stradun and the Franciscan Monastery",
+        "wikidata_qid": "Q2000862",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Franciscan_monastery,_Dubrovnik",
+        "coordinates": {
+          "lat": 42.6414,
+          "lon": 18.1084
+        },
+        "unesco_designation": {
+          "site_name": "Old City of Dubrovnik",
+          "year_inscribed": 1979,
+          "reference_number": 95,
+          "url": "https://whc.unesco.org/en/list/95"
+        },
+        "duration_minutes": 75,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "El claustro del monasterio es uno de los espacios de transición Románico-Gótico más finos del Adriático - las columnas dobles con sus capiteles tallados son en su mayoría originales y sobrevivieron al terremoto de 1667 que destruyó gran parte de la ciudad. La farmacia en el interior afirma ser una de las farmacias más antiguas en funcionamiento continuo de Europa, abierta desde 1317. Recorre el Stradun después: la calle principal de piedra caliza fue repavimentada después del terremoto de 1667 en una única campaña, dándole un carácter Barroco inusualmente uniforme para una ciudad medieval.",
+        "walk_to_next": {
+          "to": "Rector's Palace",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Fort Lovrijenac at sunset",
+        "wikidata_qid": "Q1377703",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lovrijenac",
+        "coordinates": {
+          "lat": 42.6408,
+          "lon": 18.1047
+        },
+        "unesco_designation": {
+          "site_name": "Old City of Dubrovnik",
+          "year_inscribed": 1979,
+          "reference_number": 95,
+          "url": "https://whc.unesco.org/en/list/95"
+        },
+        "duration_minutes": 45,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La fortaleza aislada en un acantilado marino de 37 metros justo fuera de Pile Gate - accesible con tu entrada a las murallas o por una pequeña tarifa adicional. La inscripción grabada sobre la puerta dice 'Non bene pro toto libertas venditur auro' (La libertad no se vende por todo el oro del mundo), el lema de la República de Ragusa. La terraza mira directamente al oeste sobre aguas abiertas y recibe la última luz directa del día, con las murallas de la ciudad y Pile Gate enmarcando la vista detrás de ti.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Rector's Palace",
+          "wikidata_qid": "Q1467072",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rector%27s_Palace,_Dubrovnik",
+          "coordinates": {
+            "lat": 42.6399,
+            "lon": 18.1108
+          },
+          "neighborhood": "Old Town (Grad)",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "El palacio Gótico-Renacentista donde vivía el rector de Ragusa durante su mandato de un mes - no",
+          "walk_from_main_route": {
+            "from": "Franciscan Monastery",
+            "distance_meters": 550,
+            "walking_minutes": 7
+          }
+        },
+        {
+          "activity_title": "Mount Srd cable car",
+          "wikidata_qid": "Q3327578",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Dubrovnik_cable_car",
+          "coordinates": {
+            "lat": 42.6449,
+            "lon": 18.1108
+          },
+          "neighborhood": "Srd Hill",
+          "duration_minutes": 60,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "El teleférico sube 405 metros hasta la cima del Mount Srd en menos de cuatro minutos. La vista desde la cima es el único ángulo desde el cual se puede apreciar simultáneamente la geometría completa de las murallas de Old Town, la isla de Lokrum y las islas Elaphiti más allá. Ve en la última hora antes de la puesta de sol cuando la luz naranja golpea los tejadillos rojos; la estación inferior del teleférico está a 10 minutos a pie al norte de Pile Gate.",
+          "walk_from_main_route": {
+            "from": "Pile Gate",
+            "distance_meters": 700,
+            "walking_minutes": 9
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "destination": "Tokyo",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-17T12:00:00Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Asakusa / Ueno"
+  ],
+  "guide_description": "在老东京度过一天，以浅草的Sensō-ji寺庙建筑群为中心，向西延伸至上野公园的博物馆区。这是步行可到达的最浓缩的战前和江户时代东京体验。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3200,
+  "total_walking_minutes": 42,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "浅草和上野",
+      "cluster_tagline": "老东京 - 伟大的寺庙、河流和博物馆公园",
+      "neighborhood_focus": "Asakusa / Ueno",
+      "neighborhood_description": "这些东北部的地区比城市的任何其他地方都更好地保留了战前的东京面貌。浅草以Sensō-ji寺庙为中心，这是东京最古老、参访人数最多的佛教寺庙。位于西边20分钟距离的上野公园拥有日本最密集的国家博物馆群。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 42,
+      "morning": {
+        "activity_title": "Sensō-ji and Nakamise-dōri",
+        "wikidata_qid": "Q200035",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+        "coordinates": {
+          "lat": 35.7148,
+          "lon": 139.7967
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "东京最古老的佛寺，建于645年，以巨大的红色Kaminarimon（雷门）和其巨大的纸灯笼作为明信片形象而闻名。在上午9点前到达，可以在纪念品涌入之前漫步Nakamise-dōri街道。主殿免费进入；旁边的五层宝塔是东京最常被拍摄的建筑之一。清晨时主殿前升起的香烟是寺庙最美的时刻。",
+        "walk_to_next": {
+          "to": "Sumida River Walk",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sumida River and Asakusa backstreets",
+        "wikidata_qid": "Q855847",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sumida_River",
+        "coordinates": {
+          "lat": 35.7106,
+          "lon": 139.8019
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Sumida河滨公园提供了跨越Tokyo Skytree和Asahi啤酒总部（带有Philippe Starck设计的金色火焰雕塑，当地人昵称为\"黄金便便\"）的标志性景观。在Sensō-ji和河流之间的小街上漫步，可以找到kappabashi-dōri（厨具街）和隐藏的江户时代商店，仍在出售扇子、笔刷和仙贝。穿过Azuma Bridge可拍摄最佳的Skytree照片。",
+        "walk_to_next": {
+          "to": "Ueno Park",
+          "distance_meters": 2000,
+          "walking_minutes": 26
+        }
+      },
+      "evening": {
+        "activity_title": "Ueno Park and the Tokyo National Museum",
+        "wikidata_qid": "Q330923",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_National_Museum",
+        "coordinates": {
+          "lat": 35.7188,
+          "lon": 139.7762
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "日本最大、最古老的博物馆，收藏日本最重要的艺术作品 - 刀剑、陶瓷、佛教雕塑、浮世绘版画。时间紧张的话，Honkan（日本展厅）是核心展区。Ueno Park本身是东京春天最受欢迎的樱花公园，还拥有Tokyo Zoo、National Museum of Western Art（Le Corbusier设计，UNESCO世界遗产）以及若干小型博物馆。博物馆下午5点关闭；请在下午3点前到达以有充足的参观时间。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "National Museum of Western Art",
+          "wikidata_qid": "Q1362629",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Western_Art",
+          "coordinates": {
+            "lat": 35.7156,
+            "lon": 139.7757
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 75,
+          "type": "art_museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "主建筑由Le Corbusier设计（他在东亚唯一的作品），是涵盖其全球17栋建筑的跨国UNESCO世界遗产的一部分。收藏涵盖从中世纪欧洲绘画到20世纪初，Rodin和Monet作品收藏丰富。周一关闭。",
+          "walk_from_main_route": {
+            "from": "Ueno Park",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        },
+        {
+          "activity_title": "Ameya-Yokochō Market",
+          "wikidata_qid": "Q620257",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ameya-Yokoch%C5%8D",
+          "coordinates": {
+            "lat": 35.7106,
+            "lon": 139.7747
+          },
+          "neighborhood": "Ueno",
+          "duration_minutes": 45,
+          "type": "market",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "JR山手线铁轨下的露天市场,源于战后黑市,如今汇集了新鲜海产品、水果、香料和廉价服装。这里的氛围非常热烈,这种能量在东京其他地区已经很少见到。下午晚些时候最佳,此时摊主们正在大声吆喝价格。",
+          "walk_from_main_route": {
+            "from": "Tokyo National Museum",
+            "distance_meters": 800,
+            "walking_minutes": 10
+          }
+        }
+      ]
+    }
+  ]
+}

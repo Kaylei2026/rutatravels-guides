@@ -1,0 +1,128 @@
+{
+  "destination": "Copenhagen",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:23:42.649Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Indre By / Slotsholmen / Nyhavn"
+  ],
+  "guide_description": "一日游览Copenhagen历史核心区：皇家岛屿Slotsholmen、中世纪大教堂区和色彩斑斓的Nyhavn港口。这些景点相对集中，完全可以步行游览，无需乘坐交通工具，从上午的皇家和市政历史开始，到傍晚的运河边氛围结束。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 2860,
+  "total_walking_minutes": 36,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "从Slotsholmen到Nyhavn",
+      "cluster_tagline": "皇家岛屿、哥特式尖塔和两旁林立着18世纪商人住宅的运河",
+      "neighborhood_focus": "Indre By / Slotsholmen / Nyhavn",
+      "neighborhood_description": "Copenhagen的历史核心区坐落在港口两臂之间的狭长半岛上。Slotsholmen是一座人工岛屿，自12世纪以来一直是丹麦皇室和政府权力的所在地。紧邻北面的Indre By包含大学区、大教堂和圆塔。整个区域的尽头是Nyhavn，这条狭窄的运河开凿于1673年，用于将商船引入市中心。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2860,
+      "day_walking_minutes": 36,
+      "morning": {
+        "activity_title": "Christiansborg Palace",
+        "wikidata_qid": "Q319061",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christiansborg_Palace",
+        "coordinates": {
+          "lat": 55.6763,
+          "lon": 12.5799
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "宫殿塔楼免费攀登，上午10点开放 - 在旅游团到达之前直接上去。塔楼高106米，是Copenhagen最高的可进入塔楼，可以俯瞰整个历史中心，包括Rosenborg、Marble Church，以及港口对面的Opera House。地下室的Royal Ruins展示了Bishop Absalon在1167年建造的原始要塞地基，凭宫殿门票即可参观。",
+        "walk_to_next": {
+          "to": "Copenhagen Cathedral",
+          "distance_meters": 650,
+          "walking_minutes": 8
+        }
+      },
+      "afternoon": {
+        "activity_title": "Copenhagen Cathedral",
+        "wikidata_qid": "Q1793681",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Copenhagen_Cathedral",
+        "coordinates": {
+          "lat": 55.6808,
+          "lon": 12.5718
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "church",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "由C.F. Hansen设计的新古典主义内饰（1829年完工）与Gothic的繁复形成鲜明对比 - 白色墙壁、筒形拱顶，以及Bertel Thorvaldsen的大理石Christ雕像作为祭坛画，十二使徒雕像沿中殿排列。免费入场。正对面的大学主楼由同一位建筑师在同一个十年设计，使这个广场在北欧城市中心中呈现出罕见的统一性。",
+        "walk_to_next": {
+          "to": "Rundetaarn",
+          "distance_meters": 310,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Nyhavn",
+        "wikidata_qid": "Q182736",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nyhavn",
+        "coordinates": {
+          "lat": 55.6796,
+          "lon": 12.5908
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "走到运河的港口尽头，向左转到阳光充足的北岸 - Nyhavn 1到18号 - 而不是阴暗的南侧，那里聚集着大多数餐厅，价格也反映了游客流量。Hans Christian Andersen在人生的不同时期曾居住在18号、20号和67号。运河直接通向主港口，在黄金时刻，阳光正面照射着1到9号的立面。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Rundetaarn",
+          "wikidata_qid": "Q658975",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rundetaarn",
+          "coordinates": {
+            "lat": 55.6814,
+            "lon": 12.5757
+          },
+          "neighborhood": "Indre By",
+          "duration_minutes": 40,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "这座17世纪的天文塔通过连续7.5圈的砖砌螺旋坡道而非楼梯上升 - 足够宽敞，1716年Tsar Peter the Great骑马上去，他的妻子乘坐马车跟随其后。屋顶观景台提供了Indre By中世纪屋顶景观的最佳街道视角，可以同时看到Vor Frelsers和Christiansborg的铜制尖塔。",
+          "walk_from_main_route": {
+            "from": "Copenhagen Cathedral",
+            "distance_meters": 310,
+            "walking_minutes": 4
+          }
+        },
+        {
+          "activity_title": "National Museum of Denmark",
+          "wikidata_qid": "Q671866",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/National_Museum_of_Denmark",
+          "coordinates": {
+            "lat": 55.6752,
+            "lon": 12.5738
+          },
+          "neighborhood": "Slotsholmen",
+          "duration_minutes": 90,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "位于运河对面，与Christiansborg相对，免费参观。史前藏品--特别是青铜时代展区的Trundholm太阳马车和铁器时代的沼泽木乃伊--是北欧记录最完整的藏品之一。如果天气不好，宫殿塔楼的景观不值得一看时，这里是个很好的替代选择。",
+          "walk_from_main_route": {
+            "from": "Christiansborg Palace",
+            "distance_meters": 200,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    }
+  ]
+}

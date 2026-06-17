@@ -1,0 +1,128 @@
+{
+  "destination": "Chicago",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-05-18T12:53:26.241Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "The Loop / Grant Park / Millennium Park"
+  ],
+  "guide_description": "在Chicago湖滨文化脊梁度过一天--Loop的建筑峡谷、Grant Park和Millennium Park的纪念性开放空间，以及作为整个区域核心的Art Institute。地理位置紧凑，完全可以步行游览，是了解Chicago重要性的最佳单日行程。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3200,
+  "total_walking_minutes": 40,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Loop和湖滨区",
+      "cluster_tagline": "Chicago的建筑与文化核心--钢铁峡谷、纪念性公共艺术以及湖边博物馆",
+      "neighborhood_focus": "The Loop / Grant Park / Millennium Park",
+      "neighborhood_description": "Loop是Chicago的中央商务区，因环绕其周围的高架铁路线而得名，这里汇聚了世界上一些最重要的早期摩天大楼。其东侧边界延伸至Grant Park和Millennium Park，这片广阔的湖滨开放区域犹如城市的前院，而Art Institute则坐落在其中心位置。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3200,
+      "day_walking_minutes": 40,
+      "morning": {
+        "activity_title": "Art Institute of Chicago",
+        "wikidata_qid": "Q239303",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Art_Institute_of_Chicago",
+        "coordinates": {
+          "lat": 41.8796,
+          "lon": -87.6237
+        },
+        "unesco_designation": null,
+        "duration_minutes": 150,
+        "type": "art_museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "从Michigan Avenue进入，在旅行团到达之前直接上楼到二楼的印象派画廊--Seurat的作品、《夜鹰》和《大碗岛的星期天下午》都悬挂在这里，中午前房间还比较好逛。2009年由Renzo Piano增建的Modern Wing通过Monroe Street上的人行天桥直接连通Millennium Park--把这里作为出口，不用原路返回Michigan Avenue。",
+        "walk_to_next": {
+          "to": "Millennium Park and Cloud Gate",
+          "distance_meters": 350,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Millennium Park and Cloud Gate",
+        "wikidata_qid": "Q1048360",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Millennium_Park",
+        "coordinates": {
+          "lat": 41.8827,
+          "lon": -87.6233
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Anish Kapoor的Cloud Gate雕塑--Chicago人都叫它Bean--坐落在AT&T Plaza，以扭曲的全景反射着天际线，从下方直视其凹陷的\"肚脐\"实际上更有趣。相邻的由Jaume Plensa设计的Crown Fountain是两座15米高的玻璃砖塔，投影着视频人脸并定期喷水，是美国最成功的城市公共艺术作品之一。向北走过Jay Pritzker Pavilion--Frank Gehry设计的露天音乐台--到达BP Bridge，这是他唯一的桥梁设计，可以欣赏到公园内最佳的无遮挡天际线景观。",
+        "walk_to_next": {
+          "to": "Chicago Riverwalk and Michigan Avenue Bridge",
+          "distance_meters": 1100,
+          "walking_minutes": 14
+        }
+      },
+      "evening": {
+        "activity_title": "Chicago Riverwalk and the Michigan Avenue Bridge",
+        "wikidata_qid": "Q5098099",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Riverwalk",
+        "coordinates": {
+          "lat": 41.8876,
+          "lon": -87.6254
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "沿着Riverwalk从Michigan Avenue向西走到Wells Street--下层直接位于水平面，日落前一小时当西向的玻璃塔楼变成金色时，上方摩天大楼的峡谷景观最为壮观。东端的Michigan Avenue Bridge（DuSable Bridge）有四片开合桥叶和四个雕塑塔柱，描绘着Chicago历史场景。在桥上停留而不是桥边--上游和下游的双向景观是经典的Chicago建筑摄影角度，Wrigley Building和Tribune Tower框住了北岸。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Chicago Architecture Center River Cruise",
+          "wikidata_qid": "Q5098099",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago_Riverwalk",
+          "coordinates": {
+            "lat": 41.8878,
+            "lon": -87.6218
+          },
+          "neighborhood": "The Loop",
+          "duration_minutes": 75,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Chicago Architecture Center提供90分钟的导览船游，从Michigan Avenue附近的Riverwalk出发--解说由建筑史学家而非普通导游撰写和讲解，涵盖了Chicago在1871年大火后重建的结构逻辑，这是步行游览无法比拟的。网上预订；10am的班次在北向立面上有最佳光线。穿得比你想象中需要的再暖和一层--河道会聚集风力。",
+          "walk_from_main_route": {
+            "from": "Art Institute of Chicago",
+            "distance_meters": 650,
+            "walking_minutes": 8
+          }
+        },
+        {
+          "activity_title": "The Rookery Building",
+          "wikidata_qid": "Q1424082",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Rookery_Building",
+          "coordinates": {
+            "lat": 41.8791,
+            "lon": -87.6325
+          },
+          "neighborhood": "The Loop",
+          "duration_minutes": 30,
+          "type": "historical_site",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "这是一座1888年由Burnham and Root设计的摩天大楼，其中庭在1905年由Frank Lloyd Wright改造--这是少数几个可以在正常运营的商业建筑而非博物馆中欣赏到Wright装饰铁艺和天窗顶棚的地方之一。大堂在工作时间内免费向公众开放，无需门票。请从LaSalle Street而非Adams入口进入，这样可以从一楼完整地欣赏中庭景观。",
+          "walk_from_main_route": {
+            "from": "Millennium Park",
+            "distance_meters": 950,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    }
+  ]
+}

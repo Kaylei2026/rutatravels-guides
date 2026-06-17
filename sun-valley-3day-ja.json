@@ -1,0 +1,286 @@
+{
+  "destination": "Sun Valley",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T14:59:47.415Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Sun Valley Village / Dollar Mountain",
+    "Ketchum Downtown / Trail Creek",
+    "Sawtooth National Recreation Area / Stanley Basin"
+  ],
+  "guide_description": "Sun Valley回廊での3日間、山岳リゾートビレッジとそのスキー史、Hemingwayの遺産と川沿いトレイルシステムを備えたコンパクトなKetchumのダウンタウン、そしてSawtooth National Recreation Areaへの日帰り旅行でアルパインレイクと火山地質を探索します。各日程は地理的に独立しています。",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 5200,
+  "total_walking_minutes": 65,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Sun Valley VillageおよびDollar Mountain",
+      "cluster_tagline": "デスティネーション・スキーを発明したリゾート - ロッジ、アイススケートリンク、山々の眺望",
+      "neighborhood_focus": "Sun Valley Village / Dollar Mountain",
+      "neighborhood_description": "1936年にUnion Pacific Railroadによってアメリカ初のデスティネーション・スキーリゾートとして建設されたオリジナルのSun Valley Resortビレッジ。コンパクトなペデストリアンビレッジはSun Valley Lodge、屋外アイススケートリンク、およびDollar Mountainの麓を中心にまとまっており、Ketchumの東1マイルに位置する自給自足のエンクレーブとなっています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1400,
+      "day_walking_minutes": 18,
+      "morning": {
+        "activity_title": "Sun Valley Lodge",
+        "wikidata_qid": "Q7638474",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sun_Valley_Lodge",
+        "coordinates": {
+          "lat": 43.6969,
+          "lon": -114.3513
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "historical_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "メインコリドアを歩いて、1930年代から1960年代のゲストの額入り写真を見ることができます。ヘミングウェイ、ゲーリー・クーパー、マリリン・モンロー、そしてその時代のほぼすべての著名な映画スターが写っています。Duchin Roomバーはオーストリアのシャレー様式の細部を保持しています。フロントデスクで自己ガイド式の歴史散策についてお問い合わせください。広告されていませんが、スタッフが案内をお渡しします。",
+        "walk_to_next": {
+          "to": "Sun Valley Outdoor Ice Rink",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "afternoon": {
+        "activity_title": "Sun Valley Outdoor Ice Rink",
+        "wikidata_qid": "Q7638477",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sun_Valley_Resort",
+        "coordinates": {
+          "lat": 43.6972,
+          "lon": -114.3508
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "stadium",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "アメリカで最も古く、継続的に営業している屋外リゾートスケート場で、1930年代からアイス・フォーリーズの公演を開催してきました。通年営業で、スケート靴のレンタルはリンク施設の南側で利用できます。夏はリンクは冷凍設備で冷却されますが、周囲の気温は華氏90度を超えることがあり、これは本当に奇妙な感覚です。",
+        "walk_to_next": {
+          "to": "Dollar Mountain",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Dollar Mountain viewpoint",
+        "wikidata_qid": "Q5289842",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dollar_Mountain",
+        "coordinates": {
+          "lat": 43.7025,
+          "lon": -114.3458
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Sun Valley の2つのスキー山のうち、より小さく、より温和な山です。夏はチェアリフトが観光用に運行される場合があります。運行していない場合は、ベースエリアの南側にある土の管理道が尾根線まで20分の歩行ルートとなり、南東のパイオニア山脈と谷の向こう側にあるBaldy北面の妨げられない眺めが見えます。Sawtooth の北側のシルエットに最高の光が当たるように、日没45分前に到着してください。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sun Valley Museum of History",
+          "wikidata_qid": "Q124748753",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Community_Library_(Ketchum,_Idaho)",
+          "coordinates": {
+            "lat": 43.6808,
+            "lon": -114.3636
+          },
+          "neighborhood": "Ketchum",
+          "duration_minutes": 60,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Ketchum Community Library 内に収蔵されている地域史資料コレクションは、この渓谷がバスク人の羊飼いの国からシルバーマイニングの好況地へ、スキーリゾートへと転換したことを記録しています。20世紀初頭のバスク人牧場の写真は、このコレクションの中で最も予想外でありながら最も歴史的に実質的な部分です。",
+          "walk_from_main_route": {
+            "from": "Sun Valley Lodge",
+            "distance_meters": 1200,
+            "walking_minutes": 15
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Ketchumとトレイルクリーク",
+      "cluster_tagline": "ヘミングウェイの最後の家、世界レベルのノルディックトレイルとリバーサイド記念碑がある小さなウェスタンタウン",
+      "neighborhood_focus": "Ketchum Downtown / Trail Creek",
+      "neighborhood_description": "Ketchumはサンバレーリゾートに隣接する実際の町で、Main StreetとSun Valley Roadに沿ったレストラン、ギャラリー、アウトフィッターが立ち並ぶ歩行者向けダウンタウンがあります。Trail Creekは町の東を流れ、ポプラが並ぶキャニオンを通ってヘミングウェイ記念碑をノルディックトレイルネットワークに接続しています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Hemingway Memorial",
+        "wikidata_qid": "Q5713209",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hemingway_Memorial_(Ketchum,_Idaho)",
+        "coordinates": {
+          "lat": 43.6896,
+          "lon": -114.3388
+        },
+        "unesco_designation": null,
+        "duration_minutes": 45,
+        "type": "monument",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Trail Creekのそばに置かれたヘミングウェイのブロンズ胸像で、著作家がKetchumで最後の年を過ごし1961年にここで亡くなったために設置されました。記念碑はTrail Creek Roadの脇道から短い未舗装路でアクセスでき、Sun Valley Innの橋を過ぎた小さな駐車スペースに駐車してください。碑文はヘミングウェイが狩猟仲間のために書いた弔辞から引用されており、彼の死の状況を考えると、意図せぬ二重の意味を持っています。",
+        "walk_to_next": {
+          "to": "Hemingway Grave Site",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Hemingway Grave Site",
+        "wikidata_qid": "Q16979352",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ernest_Hemingway",
+        "coordinates": {
+          "lat": 43.6884,
+          "lon": -114.3711
+        },
+        "unesco_designation": null,
+        "duration_minutes": 30,
+        "type": "historical_site",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Hemingway は町の北側にある Ketchum Cemetery に埋葬されており、North Main Street の正門から短い砂利道の先にあります。墓石は素朴な御影石で、文学的な引用句や凝った記念碑はありません。彼の4番目の妻 Mary と息子の Jack も近くに埋葬されています。墓地は灌木の丘陵地に隣接しており、Bald Mountain の南斜面を遮られることなく眺望できます。",
+        "walk_to_next": {
+          "to": "Ketchum Main Street",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Ketchum Downtown and Main Street",
+        "wikidata_qid": "Q980225",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ketchum,_Idaho",
+        "coordinates": {
+          "lat": 43.6805,
+          "lon": -114.3635
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "street",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "Ketchum の 4 ブロック中心地は、本物の西部山岳町の密度を備えており、アウトフィッター、地域の画家の作品を扱うギャラリー、夏には午後 6 時までに満席になる屋外パティオ付きレストランが立ち並んでいます。Ketchum Farmers Market は夏の日曜日に Main から少し離れた 4th Street で開催されています。ギャラリー巡りをする場合は、ほとんどの主要なアート施設が集中している 4th Street と 2nd Street の間の East Avenue の 2 ブロックに絞ることをお勧めします。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Bald Mountain Trail - Lower Warm Springs",
+          "wikidata_qid": "Q4849461",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bald_Mountain_(Idaho)",
+          "coordinates": {
+            "lat": 43.6878,
+            "lon": -114.3253
+          },
+          "neighborhood": "Warm Springs",
+          "duration_minutes": 90,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "Warm Springs ハイキングコースの下部は、山の南西斜面にある Warm Springs Express チェアリフトの麓から始まり、ダウンタウンの西 1 マイルにある Warm Springs Road からアクセスできます。このコースは最初の 1 マイルで灌木とアスペンを通して約 400 フィート高度を上げ、その後地形が急になります。ほとんどの日帰りハイカーは、山頂全体にコミットせずに谷越しの眺望を得るために最初の尾根ベンチで折り返します。",
+          "walk_from_main_route": {
+            "from": "Ketchum Main Street",
+            "distance_meters": 1600,
+            "walking_minutes": 20
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Sawtooth National Recreation Area",
+      "cluster_tagline": "リゾートから北へ1時間のところにある火山火口、高山湖、そして花崗岩の山々",
+      "neighborhood_focus": "Sawtooth National Recreation Area / Stanley Basin",
+      "neighborhood_description": "Sawtooth National Recreation Areaはキッチャムから北へおよそ20マイル、Highway 75沿いに始まり、アイダホ中部の広大な自然地域75万エーカー以上を含んでいます。Big Wood River峡谷を北上するドライブ自体が素晴らしい景観体験となり、Stanley Basinへ出ると背景にSawtooth Rangeが迫ります。",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 1700,
+      "day_walking_minutes": 21,
+      "morning": {
+        "activity_title": "Craters of the Moon National Monument",
+        "wikidata_qid": "Q937775",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Craters_of_the_Moon_National_Monument_and_Preserve",
+        "coordinates": {
+          "lat": 43.4165,
+          "lon": -113.5164
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "キッチャムの南東約90分、Highway 20/26沿いのこの場所は、北上するSawtoothの立ち寄り地点というより遠回りのコースなので、1日の計画に組み込んでください。7マイルの舗装ループロードは、2,000年前ほど前の噴火によるシンダーコーン、溶岩チューブ、スパッタコーンを通ります。Indian Tunnelの溶岩チューブの中に入ってみましょう - 懐中電灯を持参してください。陥落した天井の入口は幅約30フート、チューブは800フート奥まで続きます。黒い溶岩は熱を吸収するため、夏は早い時間に訪れましょう。",
+        "walk_to_next": {
+          "to": "Redfish Lake",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Redfish Lake",
+        "wikidata_qid": "Q3430424",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Redfish_Lake",
+        "coordinates": {
+          "lat": 44.1522,
+          "lon": -114.9094
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Sawtooth NRAで最もアクセスしやすい高山湖で、Highway 75南部のStanley近くから西へ5マイルの舗装道路でたどり着けます。この湖は標高6,550フィートにあり、McGown PeakとHeyburn形成層が南岸の真上に聳えています。Redfish Lake Lodgeはメインビーチでカヤックとカヌーをレンタルしています - 水上で1時間過ごすと、湖畔のトレイルでは得られないSawtoothの壁の景観が見えます。紅鮭は歴史的に太平洋から900マイル上流のここまで遡上していました - 回復プログラムが進行中で、ビジターセンターの解説標識で詳しく説明されています。",
+        "walk_to_next": {
+          "to": "Stanley",
+          "distance_meters": 900,
+          "walking_minutes": 11
+        }
+      },
+      "evening": {
+        "activity_title": "Stanley, Idaho",
+        "wikidata_qid": "Q2219115",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Stanley,_Idaho",
+        "coordinates": {
+          "lat": 44.2158,
+          "lon": -114.9358
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "Stanley Basin の高さ 6,260 フィートに位置する、常住人口約 100 人の町で、Sawtooth Range 全体が西の背景として広がっています。メインストリートは 3 ブロック長です。Highway 75 の河川橋近くのプルオフからアクセスできるダウンタウン南側の Salmon River の河岸から眺める夕焼けは、Sawtooth の全景をアルペングロー色に染めます。Stanley の夜間気温は 7 月でも急激に低下するため、午後の気象条件がどうであれ、羽織るものを持参してください。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sawtooth National Recreation Area Visitor Center",
+          "wikidata_qid": "Q7429724",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sawtooth_National_Recreation_Area",
+          "coordinates": {
+            "lat": 43.9036,
+            "lon": -114.6872
+          },
+          "neighborhood": "Sawtooth NRA",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Ketchum の北約 8 マイル、Highway 75 沿いに位置するこの場所は、NRA に向かう際に帰った後ではなく、向かう前に立ち寄るのに最適な場所です。レクリエーションエリア全体のレリーフマップはこの渓谷で最も有用なオリエンテーションツールであり、ここのレンジャーたちはリゾートエリアのスタッフには提供できない、真に具体的なトレール状況の最新情報を提供します。",
+          "walk_from_main_route": {
+            "from": "Redfish Lake",
+            "distance_meters": 400,
+            "walking_minutes": 5
+          }
+        }
+      ]
+    }
+  ]
+}

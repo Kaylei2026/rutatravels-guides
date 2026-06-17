@@ -1,0 +1,286 @@
+{
+  "destination": "Santorini",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:11:54.983Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Fira",
+    "Oia",
+    "Akrotiri / Red Beach"
+  ],
+  "guide_description": "Trois jours sur la bordure de la caldeira et le sud volcanique : la capitale Fira pour ses musées en falaise et ses vues sur le cratère, Oia pour ses églises aux dômes bleus célèbres et son rituel du coucher de soleil, et la ville préhistorique ensevelie d'Akrotiri associée au littoral volcanique dramatique. Chaque jour est géographiquement autonome.",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 6290,
+  "total_walking_minutes": 79,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Fira - Capitale sur la Caldeira",
+      "cluster_tagline": "Le cœur urbain de l'île : chemins en falaise, géologie volcanique et une collection préhistorique de classe mondiale",
+      "neighborhood_focus": "Fira",
+      "neighborhood_description": "La capitale de Santorini s'accroche à la bordure occidentale de la caldeira à environ 260 mètres au-dessus de la mer. La ville est dense et accessible à pied, le chemin de la caldeira s'étendant vers le nord jusqu'à Firostefani et vers le sud jusqu'au téléphérique. Deux musées importants se situent à quelques minutes l'un de l'autre près du quartier catholique.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1980,
+      "day_walking_minutes": 25,
+      "morning": {
+        "activity_title": "Museum of Prehistoric Thera",
+        "wikidata_qid": "Q3099439",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Museum_of_Prehistoric_Thera",
+        "coordinates": {
+          "lat": 36.4167,
+          "lon": 25.4319
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Le meilleur musée unique de l'île, et une étape préliminaire nécessaire avant la visite du site d'Akrotiri le Jour 3. La pièce maîtresse est la peinture murale de l'ère minoenne des Enfants boxeurs et la célèbre fresque des Singes bleus, tous deux découverts sous la couche de cendres volcaniques d'Akrotiri. Arrivez à l'ouverture (8h en été) avant l'arrivée des groupes de tourisme en provenance des navires de croisière ; le bâtiment n'a pas de climatisation et se réchauffe avant midi.",
+        "walk_to_next": {
+          "to": "Archaeological Museum of Thera",
+          "distance_meters": 250,
+          "walking_minutes": 3
+        }
+      },
+      "afternoon": {
+        "activity_title": "Archaeological Museum of Thera",
+        "wikidata_qid": "Q4775462",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Archaeological_Museum_of_Thera",
+        "coordinates": {
+          "lat": 36.4172,
+          "lon": 25.4314
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "archaeological_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "Directement en face de la Cathédrale métropolitaine orthodoxe, ce musée plus ancien couvre les périodes archaïque et classique que le musée de la Théra préhistorique ne couvre pas - poterie de l'époque géométrique, fragments de kouroi archaïques, et découvertes de l'ancienne cité de Thera sur Mesa Vouno. Moins fréquenté que la collection préhistorique de l'autre côté de la rue, ce qui signifie une visite sans hâte. Fermé les mardis.",
+        "walk_to_next": {
+          "to": "Fira Caldera Path toward Firostefani",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Fira Caldera Path and Firostefani viewpoint",
+        "wikidata_qid": "Q1402040",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fira",
+        "coordinates": {
+          "lat": 36.4166,
+          "lon": 25.4313
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "sunset",
+        "notes": "Marchez vers le nord depuis la cathédrale catholique le long du sentier de la crête de la caldeira en direction de Firostefani - le sentier s'élargit au promontoire de Firostefani et le village se situe légèrement au-dessus de Fira, offrant un panorama de la caldeira sans entrave et sans la foule de souvenirs de Fira. L'île volcanique Nea Kameni se trouve directement en dessous ; au coucher du soleil, l'eau de la caldeira passe du gris-vert à l'indigo profond. Revenez par le même sentier ou via la route principale - environ 15 minutes dans les deux cas.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Gyzi Megaron",
+          "wikidata_qid": "Q17494200",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Gyzi_Megaron",
+          "coordinates": {
+            "lat": 36.4178,
+            "lon": 25.4312
+          },
+          "neighborhood": "Fira",
+          "duration_minutes": 45,
+          "type": "museum",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Un manoir vénitien du 17e siècle qui abrite maintenant une fondation culturelle avec des cartes historiques, des gravures de Santorin avant l'éruption, et des manuscrits locaux. Le bâtiment lui-même - plafonds voûtés, portes en pierre sculptée - constitue l'attrait principal. Situé directement sur le sentier de la caldeira et facile à ajouter entre les deux musées du matin.",
+          "walk_from_main_route": {
+            "from": "Archaeological Museum of Thera",
+            "distance_meters": 130,
+            "walking_minutes": 2
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Oia et la Caldeira Nord",
+      "cluster_tagline": "Des dômes bleus, des maisons troglodytes et le spot du coucher de soleil le plus convoité de l'île",
+      "neighborhood_focus": "Oia",
+      "neighborhood_description": "Oia se situe à la pointe nord de la caldeira, à 11 kilomètres de Fira par la route et reliée par le célèbre sentier de randonnée qui longe la falaise. Le village est largement construit dans la falaise de pierre ponce, dans des maisons troglodytes appelées yposkafa, excavées après que le tremblement de terre de 1956 ait détruit les bâtiments conventionnels au-dessus. Les églises iconiques aux dômes bleus se photographient depuis une seule ruelle derrière la rue commerciale principale.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3000,
+      "day_walking_minutes": 38,
+      "morning": {
+        "activity_title": "Fira to Oia Caldera Hiking Trail",
+        "wikidata_qid": "Q1009715",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oia,_Santorini",
+        "coordinates": {
+          "lat": 36.4618,
+          "lon": 25.3753
+        },
+        "unesco_designation": null,
+        "duration_minutes": 180,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Le sentier de 10 kilomètres de la caldeira partant de Fira vers le nord en passant par Imerovigli jusqu'à Oia est la meilleure façon d'arriver - l'approche vers Oia depuis le sud offre des vues sur la caldeira qui ne peuvent pas être vues du village lui-même. Ne partez pas plus tard que 8h du matin en été ; le sentier est exposé avec presque aucune ombre et le dernier kilomètre jusqu'à Oia est une descente raide sur des pavés en pierre branlants. Portez des chaussures adhérentes, pas des sandales. Le sentier est bien fréquenté mais non balisé par endroits - restez du côté caldeira de la crête.",
+        "walk_to_next": {
+          "to": "Oia Blue Domes viewpoint",
+          "distance_meters": 500,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Oia village and the blue-domed churches",
+        "wikidata_qid": "Q1009715",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oia,_Santorini",
+        "coordinates": {
+          "lat": 36.4618,
+          "lon": 25.3753
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "La célèbre photographie du dôme bleu se prend depuis la ruelle derrière la rue piétonne principale : continuez vers le nord en passant devant la librairie Atlantis et tournez à gauche au petit moulin ; le point de vue se trouve à environ 80 mètres dans un sentier étroit. L'après-midi, explorez les ruelles de maisons-grottes yposkafa en dessous du niveau de la rue principale pour découvrir l'Oia résidentielle et tranquille que la plupart des visiteurs ne voient jamais. Le Naval Maritime Museum mérite 30 minutes si vous souhaitez comprendre l'histoire d'Oia en tant que ville de capitaines du 19e siècle avant l'arrivée du tourisme.",
+        "walk_to_next": {
+          "to": "Oia Castle ruins - sunset point",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "evening": {
+        "activity_title": "Oia Castle ruins at sunset",
+        "wikidata_qid": "Q1009715",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oia,_Santorini",
+        "coordinates": {
+          "lat": 36.4637,
+          "lon": 25.3727
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "La plateforme du château byzantin à l'extrémité nord-ouest d'Oia est le point de rassemblement officiel du coucher de soleil et devient extrêmement bondé : arrivez au moins 90 minutes avant le coucher du soleil pour vous assurer une position contre le mur. Le soleil se couche sur la mer Égée ouverte au nord-ouest, avec la caldeira en dessous et l'arc insulaire de Thirassia sur la gauche ; la séquence lumineuse dure environ 20 minutes après que le disque disparaisse avant que la couleur s'estompe. Si le château est trop encombré, la terrasse surélevée du sentier Perivolos, à seulement 200 mètres en arrière, offre le même azimut avec plus d'espace.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Thirassia island day visit",
+          "wikidata_qid": "Q644662",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Thirassia",
+          "coordinates": {
+            "lat": 36.4333,
+            "lon": 25.3417
+          },
+          "neighborhood": "Thirassia",
+          "duration_minutes": 120,
+          "type": "town",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "L'île de la rive occidentale de la caldeira est accessible par petit ferry depuis la baie d'Ammoudi en dessous d'Oia. Thirassia n'a pas de voitures sur le sentier du village supérieur et presque aucune infrastructure touristique : les tavernes sont des lieux de travail pour les pêcheurs, non des décors. L'ascension de 220 marches du port au village de Manolas présente la même géologie que l'ascension du téléphérique de Fira mais reste presque entièrement déserte.",
+          "walk_from_main_route": {
+            "from": "Oia village",
+            "distance_meters": 650,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Akrotiri et le Sud volcanique",
+      "cluster_tagline": "Une cité de l'Âge du bronze ensevelie sous les cendres et la géologie côtière la plus spectaculaire de l'île",
+      "neighborhood_focus": "Akrotiri / Mesa Pigadia",
+      "neighborhood_description": "La pointe sud-ouest de l'île abrite le site archéologique le plus important de la mer Égée : la ville minoenne d'Akrotiri, préservée sous la téphre volcanique depuis environ 1627 BCE. Une courte route vers l'est le long de la côte mène à Red Beach, formée par le flux de lave de la même éruption rencontrant la mer.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1310,
+      "day_walking_minutes": 16,
+      "morning": {
+        "activity_title": "Akrotiri Archaeological Site",
+        "wikidata_qid": "Q185540",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Akrotiri_(Santorini)",
+        "coordinates": {
+          "lat": 36.3518,
+          "lon": 25.4046
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "archaeological_site",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "L'ensemble du site est abrité sous un toit bioclimatique moderne, ce qui le rend accessible par tous les temps. Les fouilles révèlent des bâtiments cycladiques à plusieurs étages avec des escaliers intacts, des systèmes de drainage et des jarres de stockage au rez-de-chaussée encore en place - l'ampleur du tissu urbain préservé n'a pas d'équivalent dans la mer Égée de l'Âge du bronze. Louez un audioguide à l'entrée plutôt que de lire les plaques ; l'orientation spatiale est véritablement déroutante sans narration. Les célèbres fresques ont été transférées au Musée national d'Athènes et au Musée de la Préhistoire de Thira à Fira - le site lui-même présente des moulages in situ.",
+        "walk_to_next": {
+          "to": "Red Beach",
+          "distance_meters": 910,
+          "walking_minutes": 11
+        }
+      },
+      "afternoon": {
+        "activity_title": "Red Beach",
+        "wikidata_qid": "Q3439604",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Beach,_Santorini",
+        "coordinates": {
+          "lat": 36.3475,
+          "lon": 25.3969
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "viewpoint",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "La plage est formée par des falaises de scories volcaniques rouges et noires tombant directement dans la mer - le contraste des couleurs avec le bleu égéen est le véritable spectacle, non pas la baignade (la plage est étroite et rocailleuse). Empruntez le sentier côtier de 700 mètres depuis le parking d'Akrotiri plutôt que d'arriver en bateau ; l'approche à pied offre toute la révélation géologique alors que les falaises surgissent à la vue. Les avertissements concernant les chutes de pierres sont affichés pour une raison - ne stationnez pas sous le surplomb à l'extrémité est de la plage.",
+        "walk_to_next": {
+          "to": "Ancient Thera on Mesa Vouno",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Ancient Thera on Mesa Vouno",
+        "wikidata_qid": "Q776866",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ancient_Thera",
+        "coordinates": {
+          "lat": 36.3633,
+          "lon": 25.4594
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "archaeological_site",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "La cité grecque et romaine antique occupe une crête étroite de 396 mètres entre les plages de Kamari et Perissa - la route d'accès depuis Kamari est goudronnée et carrossable, ou une randonnée escarpée de 45 minutes depuis Perissa. Le site est presque toujours peu fréquenté comparé à Akrotiri, et les vues depuis la crête sont les meilleures de l'île : les deux côtes visibles simultanément, avec la caldeira et Fira visibles au nord-ouest par temps clair. Le Temenos of Apollo Karneios conserve des inscriptions gravées de compétitions gymniques du VIIe siècle avant J.-C.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Lighthouse of Akrotiri",
+          "wikidata_qid": "Q1261068",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Akrotiri_Lighthouse",
+          "coordinates": {
+            "lat": 36.3394,
+            "lon": 25.3969
+          },
+          "neighborhood": "Akrotiri",
+          "duration_minutes": 30,
+          "type": "viewpoint",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "sunset",
+          "notes": "Le phare de 1892 à la pointe sud de l'île surplombe les îlots inhabités de Christiana. La route se termine à une petite zone de stationnement et la vue vers l'ouest est dégagée - un lieu alternatif pour le coucher de soleil si les foules à Oia n'étaient pas attrayantes le jour 2, sans personne aux alentours et un horizon dégagé.",
+          "walk_from_main_route": {
+            "from": "Red Beach",
+            "distance_meters": 1300,
+            "walking_minutes": 16
+          }
+        }
+      ]
+    }
+  ]
+}

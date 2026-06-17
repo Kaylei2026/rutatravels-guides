@@ -1,0 +1,351 @@
+{
+  "destination": "Cinque Terre",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-06-16T15:07:44.832Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Riomaggiore and Manarola",
+    "Corniglia and Vernazza",
+    "Monterosso al Mare"
+  ],
+  "guide_description": "Três dias percorrendo os cinco vilarejos de Cinque Terre de sul a norte, usando uma combinação de trilha costeira, trem e caminhos de crista elevada. Cada dia é geograficamente autossuficiente em torno de um ou dois vilarejos adjacentes, progredindo dos dramáticos penhascos do sul para as praias mais amplas de Monterosso.",
+  "weather_profile": "weather_dependent",
+  "total_walking_distance_meters": 8450,
+  "total_walking_minutes": 106,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Riomaggiore e Manarola",
+      "cluster_tagline": "Os dois vilarejos mais ao sul - casarões íngremes e coloridos caindo direto no Mar da Ligúria",
+      "neighborhood_focus": "Riomaggiore and Manarola",
+      "neighborhood_description": "A extremidade sul do arco de Cinque Terre. Riomaggiore é o vilarejo mais fotografado, suas casas multicoloridas empilhadas em um barranco estreito. Manarola, a um curto passeio de trem ou uma trilha íngreme a noroeste, fica em um promontório rochoso acima de uma enseada natural para banho. A seção de trilha costeira entre os dois, a Via dell'Amore, era há muito tempo o passeio mais famoso em Cinque Terre.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
+      "morning": {
+        "activity_title": "Riomaggiore",
+        "wikidata_qid": "Q82637",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Riomaggiore",
+        "coordinates": {
+          "lat": 44.0993,
+          "lon": 9.7375
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "Chegue no primeiro trem da manhã saindo de La Spezia para evitar a onda de turistas de um dia. O caruggio principal (beco) que vai da estação de trem até o porto é a espinha dorsal da vila - caminhe por ele até o pequeno porto e suba a rampa do castelo à esquerda para ter uma vista elevada sobre a enseada repleta de barcos antes da luz ficar muito forte.",
+        "walk_to_next": {
+          "to": "Via dell'Amore viewpoint above Riomaggiore",
+          "distance_meters": 400,
+          "walking_minutes": 5
+        }
+      },
+      "afternoon": {
+        "activity_title": "Via dell'Amore",
+        "wikidata_qid": "Q3567116",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Via_dell%27Amore",
+        "coordinates": {
+          "lat": 44.1017,
+          "lon": 9.7321
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 60,
+        "type": "street",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "A famosa trilha à beira do penhasco aberta na rocha nos anos 1920 foi reabrindo em trechos após anos de fechamentos por deslizamentos - consulte o site do Parque Nacional Cinque Terre antes de chegar, pois o acesso muda sazonalmente. A trilha tem apenas cerca de um quilômetro e requer um Cinque Terre Card pago. Saia na extremidade de Manarola e desça para a vila em vez de voltar pelo mesmo caminho.",
+        "walk_to_next": {
+          "to": "Manarola",
+          "distance_meters": 700,
+          "walking_minutes": 9
+        }
+      },
+      "evening": {
+        "activity_title": "Manarola sunset viewpoint",
+        "wikidata_qid": "Q82631",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manarola",
+        "coordinates": {
+          "lat": 44.1067,
+          "lon": 9.7283
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "A fotografia clássica de Manarola é tirada a partir da trilha rochosa no lado noroeste do porto - siga a passarela passando pelas cavernas de armazenamento de barcos e suba cerca de cinquenta metros até a plataforma de concreto plana acima da água. O pôr do sol ilumina as casas empilhadas em tons de ouro vindo do oeste. O porto em si tem uma piscina natural na enseada abaixo do guindaste - moradores locais nadam aqui até o final da noite.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Castello di Riomaggiore",
+          "wikidata_qid": "Q3661944",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Castle_of_Riomaggiore",
+          "coordinates": {
+            "lat": 44.0999,
+            "lon": 9.7368
+          },
+          "neighborhood": "Riomaggiore",
+          "duration_minutes": 30,
+          "type": "castle",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "morning",
+          "notes": "A fortaleza do século 13 no cume acima de Riomaggiore foi parcialmente restaurada e agora oferece exposições e um terraço na cobertura. A subida a partir da lane principal leva cerca de cinco minutos e a vista sul ao longo da costa em direção a La Spezia não pode ser obtida de nenhum outro ponto da vila.",
+          "walk_from_main_route": {
+            "from": "Riomaggiore harbor",
+            "distance_meters": 250,
+            "walking_minutes": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Corniglia e Vernazzo",
+      "cluster_tagline": "Uma aldeia no topo de uma colina acima dos vinhedos e o porto mais fotogênico dos Cinque Terre",
+      "neighborhood_focus": "Corniglia and Vernazza",
+      "neighborhood_description": "Corniglia é a única das cinco aldeias sem acesso direto ao mar - fica no topo de um penhasco a 100 metros, cercada por vinhedos em socalcos que cultivam as uvas de vinho doce Sciacchetra. Vernazzo, a próxima aldeia ao norte, possui a estrutura medieval mais intacta das cinco e o único porto natural verdadeiro, cercado por uma torre do século XV.",
+      "weather_profile": "weather_dependent",
+      "day_walking_distance_meters": 3600,
+      "day_walking_minutes": 45,
+      "morning": {
+        "activity_title": "Corniglia",
+        "wikidata_qid": "Q82620",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Corniglia",
+        "coordinates": {
+          "lat": 44.1208,
+          "lon": 9.7127
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 75,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "Da estação de trem, a escadaria Lardarina com 382 degraus sobe até a aldeia - é o único caminho a pé e leva cerca de dez minutos. Corniglia recebe uma fração dos visitantes de Vernazzo ou Manarola e tem uma atmosfera notavelmente mais tranquila. O belvedere na ponta norte da aldeia, além da igreja de San Pietro, oferece uma vista clara ao norte ao longo da costa em direção a Vernazzo.",
+        "walk_to_next": {
+          "to": "Corniglia to Vernazza trail (SVA Trail 7V)",
+          "distance_meters": 500,
+          "walking_minutes": 6
+        }
+      },
+      "afternoon": {
+        "activity_title": "Coastal trail - Corniglia to Vernazza",
+        "wikidata_qid": "Q1065890",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cinque_Terre",
+        "coordinates": {
+          "lat": 44.1285,
+          "lon": 9.7043
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 120,
+        "type": "park",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "morning",
+        "notes": "A trilha de Corniglia para Vernazzo (Trilha 7V, aproximadamente 3,5 km) é a mais gratificante dos caminhos entre aldeias, subindo abruptamente acima dos vinhedos com vistas de volta para Corniglia antes de descer pela encosta em socalcos até Vernazzo. Requer um Cinque Terre Card válido. As condições da trilha variam conforme a estação; o site do parque publica o status de abertura diário. Use sapatos com aderência e leve água, não há ponto de reabastecimento no caminho.",
+        "walk_to_next": {
+          "to": "Vernazza harbor",
+          "distance_meters": 300,
+          "walking_minutes": 4
+        }
+      },
+      "evening": {
+        "activity_title": "Vernazza",
+        "wikidata_qid": "Q82614",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vernazza",
+        "coordinates": {
+          "lat": 44.1353,
+          "lon": 9.6837
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "A piazza de Vernazzo abre diretamente para o porto - uma das poucas em Cinque Terre onde você pode sentar à mesa e olhar direto para o mar. Para a melhor vista elevada, suba a escada externa da torre do Doria Castle no promontório no final do molhe do porto; a entrada custa alguns euros e o panorama abrange toda a extensão da costa. Retorne a La Spezia ou Monterosso al Mare de trem após o jantar.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Church of Santa Margherita di Antiochia, Vernazza",
+          "wikidata_qid": "Q3671302",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Church_of_Santa_Margherita_d%27Antiochia,_Vernazza",
+          "coordinates": {
+            "lat": 44.1351,
+            "lon": 9.6832
+          },
+          "neighborhood": "Vernazza",
+          "duration_minutes": 20,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A igreja gótica do século 14 fica diretamente na praça do porto de Vernazzo com sua fachada de mármore listrado voltada para a água. O interior é pequeno mas contém um notável políptico de altar e uma Madonna atribuída à escola gótica liguriana. Vale a pena entrar para escapar do calor do meio do dia antes da praça ficar cheia com as multidões do final da tarde.",
+          "walk_from_main_route": {
+            "from": "Vernazza harbor",
+            "distance_meters": 50,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Monterosso al Mare",
+      "cluster_tagline": "A vila mais ao norte - uma praia de verdade, uma igreja Barroca e as melhores anchovas da Ligúria",
+      "neighborhood_focus": "Monterosso al Mare",
+      "neighborhood_description": "A maior e mais orientada para resorts das cinco vilas, dividida entre uma cidade medieval antiga e um distrito de praia mais novo conectados por um túnel na encosta. Monterosso tem a única praia de areia de verdade na Cinque Terre e uma tradição pesqueira que fornece as célebres anchovas em óleo da região. A encosta em terraços acima da cidade antiga abriga a fortaleza Doria em ruínas e a igreja Capuchinha.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 2750,
+      "day_walking_minutes": 35,
+      "morning": {
+        "activity_title": "Monterosso al Mare old town",
+        "wikidata_qid": "Q82605",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monterosso_al_Mare",
+        "coordinates": {
+          "lat": 44.1469,
+          "lon": 9.6554
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "town",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "morning",
+        "notes": "A cidade medieval antiga centra - se na Piazza Garibaldi e na Igreja de San Giovanni Battista com listras. De manhã é a melhor hora para caminhar pelas ruas antes que as multidões de praia colonizem o calçadão. Os barcos de pesca ainda saem da praia na extremidade norte da cidade antiga antes das 8h, as anchovas desembarcadas aqui são vendidas frescas nas pequenas barracas de mercado na Via Roma antes do meio - dia.",
+        "walk_to_next": {
+          "to": "Convento dei Cappuccini",
+          "distance_meters": 550,
+          "walking_minutes": 7
+        }
+      },
+      "afternoon": {
+        "activity_title": "Convento dei Cappuccini and Torre Aurora",
+        "wikidata_qid": "Q3671536",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monastery_of_the_Capuchins,_Monterosso_al_Mare",
+        "coordinates": {
+          "lat": 44.1462,
+          "lon": 9.6533
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 60,
+        "type": "church",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "any",
+        "notes": "O mosteiro Capuchinho do século XVII fica no promontório separando o antigo Monterosso do distrito de praia mais novo, acessível por uma escadaria entre ciprestes saindo da cidade antiga. A adjacent Torre Aurora é uma torre medieval agora inserida na parede do jardim do mosteiro. O terraço fora da igreja olha para o sul ao longo de toda a costa da Cinque Terre e é um dos melhores pontos de vista de paisagem do parque nacional.",
+        "walk_to_next": {
+          "to": "Monterosso beach",
+          "distance_meters": 600,
+          "walking_minutes": 8
+        }
+      },
+      "evening": {
+        "activity_title": "Monterosso beach and waterfront promenade",
+        "wikidata_qid": "Q82605",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monterosso_al_Mare",
+        "coordinates": {
+          "lat": 44.1492,
+          "lon": 9.6615
+        },
+        "unesco_designation": {
+          "site_name": "Cinque Terre",
+          "year_inscribed": 1997,
+          "reference_number": 826,
+          "url": "https://whc.unesco.org/en/list/826"
+        },
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "A longa praia fica voltada para o oeste, tornando-a o melhor local para observar o pôr do sol em toda a Cinque Terre, com o sol desaparecendo direto no mar ao final do arco arenoso. A seção gratuita da praia fica na extremidade norte mais distante, após a fileira de concessões de espreguiçadeiras pagas. A passeggiata ao longo do calçadão começa por volta das 18h e a enoteca no canto norte da cidade antiga serve Sciacchetra, o vinho de sobremesa âmbar local feito nos vinhedos da encosta, servido por taça.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Sentiero Verde Azzurro - Vernazza to Monterosso segment",
+          "wikidata_qid": "Q1065890",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Cinque_Terre",
+          "coordinates": {
+            "lat": 44.141,
+            "lon": 9.6695
+          },
+          "neighborhood": "Cinque Terre National Park",
+          "duration_minutes": 120,
+          "type": "park",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "morning",
+          "notes": "A trilha de 3,2 km de Vernazzo para Monterosso é o segmento mais exigente do caminho costeiro, com aproximadamente 200 metros de subida e descida em terreno rochoso. Saia de Vernazzo no início da manhã, antes do calor aumentar, e chegue a Monterosso a tempo para um banho. O ponto mais alto da trilha oferece vista para o norte sobre o Golfo de Gênova, sem nenhuma outra aldeia visível, proporcionando a sensação mais isolada em toda a rota.",
+          "walk_from_main_route": {
+            "from": "Monterosso al Mare train station",
+            "distance_meters": 1600,
+            "walking_minutes": 20
+          }
+        },
+        {
+          "activity_title": "Church of San Giovanni Battista, Monterosso",
+          "wikidata_qid": "Q3671525",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Church_of_San_Giovanni_Battista,_Monterosso_al_Mare",
+          "coordinates": {
+            "lat": 44.1467,
+            "lon": 9.6551
+          },
+          "neighborhood": "Monterosso al Mare",
+          "duration_minutes": 20,
+          "type": "church",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "A igreja gótica do século XIV no centro da cidade antiga possui uma fachada de mármore listrado em preto e branco característica da arquitetura gótica liguriana. A rosácea acima do portal é um dos exemplos melhor preservados do estilo na região. A entrada é gratuita; o interior é fresco e tranquilo nas tardes quentes.",
+          "walk_from_main_route": {
+            "from": "Monterosso al Mare old town",
+            "distance_meters": 100,
+            "walking_minutes": 1
+          }
+        }
+      ]
+    }
+  ]
+}
