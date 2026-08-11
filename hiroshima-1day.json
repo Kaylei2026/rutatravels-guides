@@ -1,0 +1,128 @@
+{
+  "destination": "Hiroshima",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-08-11T16:31:55.244Z",
+  "sources": [
+    "wikidata",
+    "wikipedia",
+    "unesco"
+  ],
+  "neighborhoods_visited": [
+    "Naka-ku / Peace Memorial Park"
+  ],
+  "guide_description": "One day in central Hiroshima, walking north from the Peace Memorial Park through the rebuilt city to the castle and ending over an okonomiyaki griddle. The whole route is flat, compact, and served by the streetcar network. Miyajima and Itsukushima Shrine are the other reason people come here and need a half day of their own, so the day is built to accommodate a substitution rather than an addition.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3100,
+  "total_walking_minutes": 39,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "The Peace Park and the Rebuilt City",
+      "cluster_tagline": "The hypocentre, a reconstructed feudal keep, and the city's defining meal cooked in front of you",
+      "neighborhood_focus": "Naka-ku / Peace Memorial Park",
+      "neighborhood_description": "Central Hiroshima sits on a river delta, and the Peace Memorial Park occupies the triangular island where the Motoyasu and Ota rivers divide, formerly the busiest commercial district in the city and directly beneath the 1945 detonation. North of it the grid was rebuilt in the 1950s around wide boulevards, with the castle grounds and the Shukkei-en garden a fifteen-minute walk further on. Hondori and Nagarekawa, the covered shopping street and the nightlife quarter, sit between the two.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 3100,
+      "day_walking_minutes": 39,
+      "morning": {
+        "activity_title": "Hiroshima Peace Memorial Park and Museum",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial_Museum",
+        "coordinates": {
+          "lat": 34.3915,
+          "lon": 132.4525
+        },
+        "unesco_designation": "Hiroshima Peace Memorial (Genbaku Dome)",
+        "duration_minutes": 180,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Arrive at opening. The museum's main building was redisplayed in 2019 around personal effects and testimony rather than models, and it is unsparing; most people need to sit down afterwards, and the park itself is the right place to do that. Work outward from there: the Children's Peace Monument hung with paper cranes, the cenotaph aligned so the arch frames the dome, and the Genbaku Dome at the northern tip, the only structure left standing near the hypocentre and the UNESCO-listed element of the site. The National Peace Memorial Hall next door is free, quieter, and holds the names and photographs of the dead. Hours shift by season and 6 August brings the annual ceremony and very large crowds, so confirm current opening times with the museum before planning the morning.",
+        "walk_to_next": {
+          "to": "Hiroshima Castle",
+          "distance_meters": 1600,
+          "walking_minutes": 20
+        }
+      },
+      "afternoon": {
+        "activity_title": "Hiroshima Castle",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hiroshima_Castle",
+        "coordinates": {
+          "lat": 34.4026,
+          "lon": 132.4593
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "castle",
+        "weather_sensitivity": "outdoor_extended",
+        "optimal_timing": "any",
+        "notes": "Built by Mori Terumoto in 1589 on the delta flats, which is why it is known as the carp castle and sits inside a wide moat rather than on a hill. The keep was destroyed in 1945 and rebuilt in 1958 in concrete, now housing a museum of the castle town and samurai period with a viewing floor at the top. Two things in the grounds deserve a slow look: a eucalyptus and a willow that survived the blast and are still growing, and the excavated foundations of the army headquarters bunker from which the first report of the bombing was sent. Eat lunch on Hondori on the walk up, since options inside the park are limited.",
+        "walk_to_next": {
+          "to": "Okonomimura and Nagarekawa",
+          "distance_meters": 1500,
+          "walking_minutes": 19
+        }
+      },
+      "evening": {
+        "activity_title": "Okonomimura and Nagarekawa",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Okonomiyaki",
+        "coordinates": {
+          "lat": 34.3931,
+          "lon": 132.461
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "entertainment_district",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "after_dark",
+        "notes": "Okonomimura is a building holding around two dozen okonomiyaki stalls stacked across several floors, each with its own griddle counter, and the choice between them matters less than sitting at the teppan rather than a table. Hiroshima-style is layered rather than mixed, with the batter crepe, a mound of cabbage, pork belly, and a full portion of yakisoba noodles built up in sequence and flipped whole; ask for it with oyster in winter. The stalls in the surrounding Nagarekawa streets are often better than the ones in the building itself if there is a queue. This is the city's own dish and locals will hold firm views about the Osaka version.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Itsukushima Shrine",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Itsukushima_Shrine",
+          "coordinates": {
+            "lat": 34.2959,
+            "lon": 132.3199
+          },
+          "neighborhood": "Miyajima, Hatsukaichi",
+          "duration_minutes": 240,
+          "type": "religious_site",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "sunset",
+          "notes": "A UNESCO World Heritage site in its own right and the strongest argument for extending the trip. The shrine is built on piers over a tidal flat and the great vermilion torii stands in the water at high tide and on dry sand at low tide, so check the tide table for the day and decide which version you want before travelling. Getting there takes roughly 70 minutes each way by JR Sanyo line to Miyajimaguchi plus the ferry, or about 45 minutes by the direct high-speed boat from the Peace Park pier in season. With a single day this replaces the castle and evening rather than joining them; a visitor levy applies to the island and a small admission to the shrine, both worth confirming in advance.",
+          "walk_from_main_route": {
+            "from": "Hiroshima Peace Memorial Park and Museum",
+            "distance_meters": 21500,
+            "walking_minutes": 270
+          }
+        },
+        {
+          "activity_title": "Shukkei-en",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Shukkei-en",
+          "coordinates": {
+            "lat": 34.4008,
+            "lon": 132.4653
+          },
+          "neighborhood": "Naka-ku",
+          "duration_minutes": 60,
+          "type": "garden",
+          "weather_sensitivity": "outdoor_extended",
+          "optimal_timing": "any",
+          "notes": "Laid out in 1620 for the daimyo Asano Nagaakira as a miniature of Xihu in Hangzhou, with a central pond, a rainbow bridge and a circuit path that compresses several landscapes into a small space. The garden was flattened in 1945 and became a refuge for the wounded, many of whom died there and are buried on the grounds; a surviving ginkgo near the entrance still leans away from the blast. Restoration took until the 1970s. Ten minutes on foot from the castle and a calmer end to the afternoon than the walk back through the centre.",
+          "walk_from_main_route": {
+            "from": "Hiroshima Castle",
+            "distance_meters": 900,
+            "walking_minutes": 12
+          }
+        }
+      ]
+    }
+  ]
+}
