@@ -19,6 +19,9 @@ WRITE = "--write" in sys.argv
 SLOTS = ["morning", "afternoon", "evening"]
 WALK_MAX_M = 8000          # a routed walk longer than this -> treat as a drive
 ROUND = 5                  # coord decimals for dedupe (~1 m)
+# Genuine long walking trails that legitimately exceed WALK_MAX_M (keyed from/to, rounded).
+# The Fira -> Oia caldera hike (~9 km) is a signature walk, not a drive.
+FORCE_WALK = {(36.42, 25.4317, 36.4618, 25.3753)}
 
 if not API_KEY:
     sys.exit("set GOOGLE_MAPS_API_KEY in the environment")
@@ -56,7 +59,7 @@ print(f"{len(files)} files, {len(unique)} unique legs to route")
 routed, walk_n, drive_n, fail_n = {}, 0, 0, 0
 for i, (k, (c1, c2)) in enumerate(unique.items(), 1):
     res = directions(c1, c2, "walking")
-    if res and res[0] <= WALK_MAX_M:
+    if res and (res[0] <= WALK_MAX_M or k in FORCE_WALK):
         routed[k] = ("walk", res[0], res[1]); walk_n += 1
     else:
         dr = directions(c1, c2, "driving")
