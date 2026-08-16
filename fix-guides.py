@@ -26,16 +26,28 @@ FORCE_WALK = {(36.42, 25.4317, 36.4618, 25.3753)}
 if not API_KEY:
     sys.exit("set GOOGLE_MAPS_API_KEY in the environment")
 
+_last = {"status": None}
 def directions(o, d, mode):
-    url = "https://maps.googleapis.com/maps/api/directions/json?" + urllib.parse.urlencode({
-        "origin": f"{o['lat']},{o['lon']}", "destination": f"{d['lat']},{d['lon']}",
+    # Distance Matrix API (same one the backend uses for drive times), so the existing
+    # server key already has it enabled. Returns (distance_m, duration_min) or None.
+    url = "https://maps.googleapis.com/maps/api/distancematrix/json?" + urllib.parse.urlencode({
+        "origins": f"{o['lat']},{o['lon']}", "destinations": f"{d['lat']},{d['lon']}",
         "mode": mode, "key": API_KEY})
-    with urllib.request.urlopen(url, timeout=30) as r:
-        data = json.load(r)
-    if data.get("status") != "OK" or not data.get("routes"):
+    try:
+        with urllib.request.urlopen(url, timeout=20) as r:
+            data = json.load(r)
+    except Exception as e:
+        _last["status"] = f"network error: {e}"
         return None
-    leg = data["routes"][0]["legs"][0]
-    return leg["distance"]["value"], int(round(leg["duration"]["value"] / 60.0))
+    _last["status"] = data.get("status")
+    try:
+        el = data["rows"][0]["elements"][0]
+    except (KeyError, IndexError, TypeError):
+        return None
+    if el.get("status") != "OK":
+        _last["status"] = f"{data.get('status')}/{el.get('status')}"
+        return None
+    return el["distance"]["value"], int(round(el["duration"]["value"] / 60.0))
 
 def key(c1, c2):
     return (round(c1["lat"], ROUND), round(c1["lon"], ROUND),
@@ -69,13 +81,20 @@ for i, (k, (c1, c2)) in enumerate(unique.items(), 1):
             routed[k] = ("walk", res[0], res[1]); walk_n += 1
         else:
             fail_n += 1
+    if i == 1:
+        print(f"  first leg -> Google status: {_last['status']}", flush=True)
     if i % 50 == 0:
-        print(f"  {i}/{len(unique)} routed…")
+        print(f"  {i}/{len(unique)} routed  (walk {walk_n}, drive {drive_n}, fail {fail_n})", flush=True)
     time.sleep(0.02)
 
 print(f"routed: {walk_n} walk, {drive_n} drive, {fail_n} unroutable")
 if not WRITE:
     print("\nDRY RUN — rerun with --write to apply."); sys.exit(0)
+
+if fail_n > len(unique) * 0.05:
+    sys.exit(f"\nABORTING WRITE: {fail_n}/{len(unique)} legs unroutable. Fix the API key first "
+             "(use your real key, enable the Directions API on it, and make sure it is NOT "
+             "HTTP-referrer-restricted). No files were changed.")
 
 # 3) rewrite every file
 changed = 0
