@@ -40,6 +40,8 @@ def directions(o, d, mode):
         _last["status"] = f"network error: {e}"
         return None
     _last["status"] = data.get("status")
+    if data.get("error_message"):
+        _last["status"] = f"{data.get('status')}: {data.get('error_message')}"
     try:
         el = data["rows"][0]["elements"][0]
     except (KeyError, IndexError, TypeError):

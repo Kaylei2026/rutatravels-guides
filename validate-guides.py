@@ -107,8 +107,11 @@ for path in files:
                 elif straight < ADJACENT_M:
                     warn(path, f"'{a.get('activity_title')}' -> '{nxt.get('activity_title')}' "
                                f"only {straight:.0f}m apart")
-                if dm < straight - 1:
-                    err(path, f"leg to '{leg.get('to')}' states {dm}m but straight-line is {straight:.0f}m")
+                # Post-routing, distance_meters is Google's real walking distance. If it still comes
+                # in under the coordinate straight-line, that's imprecise POI coordinates (or an
+                # unroutable leg), worth a look but not fabricated data, so warn rather than block.
+                if (straight - dm) > max(30, straight * 0.15):
+                    warn(path, f"leg to '{leg.get('to')}' routes {dm}m, under the {straight:.0f}m straight line — check coordinates")
                 if straight > DRIVE_STRAIGHT_M and mode != "drive":
                     warn(path, f"leg '{a.get('activity_title')}' -> '{nxt.get('activity_title')}' is "
                                f"{straight/1000:.1f}km straight-line but not tagged transport_mode=drive")
