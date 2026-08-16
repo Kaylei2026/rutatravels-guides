@@ -1,7 +1,7 @@
 {
   "destination": "Santa Barbara",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:57:59.222Z",
   "sources": [
     "wikidata",
@@ -15,7 +15,7 @@
   ],
   "guide_description": "Three days covering Santa Barbara's essential triad: the Spanish Colonial Revival downtown with its courthouse and historic core, the harbor and waterfront strip, and the Mission district climbing toward the Santa Ynez foothills. Each day is geographically self-contained.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5460,
+  "total_walking_distance_meters": 5400,
   "total_walking_minutes": 68,
   "days": [
     {
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Downtown / El Pueblo Viejo",
       "neighborhood_description": "The few blocks bracketed by State Street, Anacapa Street, and Figueroa Street form the historic core of Santa Barbara. A 1925 earthquake wiped much of the old downtown; what replaced it was a unified Spanish Colonial Revival reconstruction enforced by strict design ordinances that remain in force today, making this one of the most architecturally coherent downtowns in the American West.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1430,
-      "day_walking_minutes": 18,
+      "day_walking_distance_meters": 1510,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Santa Barbara County Courthouse",
         "wikidata_qid": "Q7419130",
@@ -43,7 +43,9 @@
         "notes": "Free entry and free guided tours depart Monday through Saturday at 10am from the main entrance on Anacapa Street. Climb the El Mirador clock tower for the best elevated view of the red-tile roofline stretching to the ocean - the tower is accessible via an elevator inside the building, not the staircase most visitors attempt first. The Mural Room upstairs has WPA-era paintings depicting California history that most visitors walk past without reading.",
         "walk_to_next": {
           "to": "Santa Barbara Historical Museum",
-          "distance_meters": 350,
+          "transport_mode": "walk",
+          "distance_meters": 280,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "The complex includes an adobe building from the 1780s still standing in the rear courtyard - the Covarrubias Adobe, one of the oldest structures in the city. The museum itself is small and manageable in under an hour; the adobe and its garden are the real draw and are accessible from the De la Guerra Street entrance. Free admission.",
         "walk_to_next": {
-          "to": "State Street",
-          "distance_meters": 280,
-          "walking_minutes": 4
+          "to": "State Street and El Paseo arcade",
+          "transport_mode": "walk",
+          "distance_meters": 1230,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "The Waterfront / Harbor",
       "neighborhood_description": "Santa Barbara's waterfront runs roughly two kilometers along Cabrillo Boulevard, from the harbor and Stearns Wharf in the center to East Beach and the breakwater. The Santa Ynez Mountains make a backdrop behind the city as you look north from the water, which is why Santa Barbara feels distinctly unlike any other Southern California beach town.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 2140,
+      "day_walking_minutes": 27,
       "morning": {
         "activity_title": "Stearns Wharf",
         "wikidata_qid": "Q7610094",
@@ -151,8 +156,10 @@
         "notes": "The oldest working wooden wharf on the West Coast, built in 1872. Walk to the far end for unobstructed views of the mountains and the harbor simultaneously - the angle that puts both in frame only works from the wharf tip. The small shark tank at the Nature Conservancy display mid-wharf is free and takes ten minutes; worth it if you have children or just like sharks. Morning fog typically burns off by 9am.",
         "walk_to_next": {
           "to": "Santa Barbara Harbor and Breakwater",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 600,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Walk the outer breakwater all the way to the lighthouse at the end - the round trip is about 1.6 kilometers and most tourists turn back at the first bend. Californian sea lions haul out on the docks inside the harbor near the commercial fishing pier, visible from the public walkway without any viewpoint ticket or access fee. The harbor's Lido Restaurant row faces west and is the best spot on the waterfront for a late lunch with sun exposure.",
         "walk_to_next": {
-          "to": "East Beach",
-          "distance_meters": 780,
-          "walking_minutes": 10
+          "to": "East Beach and Cabrillo Boulevard at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1540,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 27
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Mission / Upper State Street / Riviera",
       "neighborhood_description": "The neighborhoods climbing north and east from downtown toward the Santa Ynez foothills. The Mission sits on a slight rise at the top of Laguna Street, giving it a commanding position over the city that was deliberate - Franciscan missions were sited to be visible from the surrounding agricultural landscape. The Santa Barbara Botanic Garden occupies the canyon behind it.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 1750,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Mission Santa Barbara",
         "wikidata_qid": "Q1424400",
@@ -239,8 +249,10 @@
         "notes": "Founded 1786 and the only California mission to remain continuously under Franciscan administration. The twin-tower facade is unique among the 21 missions; most have a single tower. Enter the church through the museum wing to the left of the main door - the self-guided audio tour is included with admission and covers the aqueduct system behind the building, which still carries water and is often ignored. The cemetery to the right of the church contains the graves of over 4,000 Chumash people and is one of the oldest continuously used cemeteries in California.",
         "walk_to_next": {
           "to": "Santa Barbara Botanic Garden",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 1110,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -259,7 +271,9 @@
         "notes": "A 78-acre native California plant garden in Mission Canyon. Walk through the redwood grove section first - the coastal redwoods planted here in the 1930s are now tall enough that the grove feels genuinely immersive despite being non-native terrain. The dam crossing trail loops back past the 1807 mission aqueduct stonework, which is original and free to walk alongside. Bring water for the upper canyon loop.",
         "walk_to_next": {
           "to": "Santa Barbara Museum of Natural History",
-          "distance_meters": 650,
+          "transport_mode": "walk",
+          "distance_meters": 640,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -320,7 +334,10 @@
             "walking_minutes": 175
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 68,
+  "last_verified": null
 }

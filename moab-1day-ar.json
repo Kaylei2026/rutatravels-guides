@@ -1,7 +1,7 @@
 {
   "destination": "Moab",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:02:25.765Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد يدور حول المناظر الطبيعية ذات الصخور الحمراء التي تميز Moab: أعمدة الحجر الرملي والقوس في المنتزه الوطني صباحاً، وخانة نهر Colorado في الظهيرة، وعرض الأضواء على حافة الخانة عند الغروب. تقع المجموعة شمال المدينة على طول US-191 و Utah-128، مما يقلل وقت القيادة بين المحطات.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 5460,
-  "total_walking_minutes": 68,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Arches National Park / Colorado River Corridor",
       "neighborhood_description": "امتداد بلاد الخانات الواقع مباشرة شمال وشمال شرق مدينة Moab - يبدأ Arches National Park على بعد خمسة كيلومترات من Main Street، و Utah-128 يحاذي نهر Colorado شرقاً من نفس التقاطع. معاً يغطيان القصة الجيولوجية لهضبة Colorado في حلقة واحدة قابلة للقيادة.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 5460,
-      "day_walking_minutes": 68,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Delicate Arch",
         "wikidata_qid": "Q1183461",
@@ -41,8 +41,10 @@
         "notes": "درب سير بطول 4.8 كيلومتر ذهابا وإيابا يرتفع 146 مترا على صخور زلقة دون ظل تقريبا - ابدأ في الصيف في موعد أقصاه الساعة السابعة صباحا لتنهي المسار قبل أن تصبح الحرارة خطيرة. القوس يظهر فقط في نهاية الدرب عند حافة وادي الحجر الرملي، لذا تجنب النظر إلى الصور مسبقا؛ المفاجأة المكانية عند الحافة هي المكافأة الحقيقية. تصاريح الدخول المحدد بوقت لمحمية Arches مطلوبة من أبريل حتى أكتوبر وتنفد أسابيع قبل ذلك عبر Recreation.gov.",
         "walk_to_next": {
           "to": "Landscape Arch",
-          "distance_meters": 4160,
-          "walking_minutes": 52
+          "transport_mode": "drive",
+          "distance_meters": 15000,
+          "travel_minutes": 25,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "درب الممر عبر Devils Garden إلى Landscape Arch هو رحلة دائرية مسطحة بطول 2.6 كيلومتر على مسار مرصوف بالحصى - يمكن التعامل معه في حرارة منتصف النهار بخلاف Delicate Arch. يمتد Landscape Arch مسافة 88 مترا، وهو أطول قوس طبيعي في أمريكا الشمالية؛ لوح من الصخر سقط من الجانب السفلي في عام 1991 وشريط الصخر يبدو أرق بشكل واضح من جهة واحدة. محطة درب Devils Garden تحتوي أيضا على المخيم المطور الوحيد بالحديقة، الأمر يستحق الملاحظة إذا كنت تخطط للمبيت.",
         "walk_to_next": {
-          "to": "Colorado River Overlook - Utah-128 viewpoint near Moab",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Dead Horse Point State Park",
+          "transport_mode": "drive",
+          "distance_meters": 50640,
+          "travel_minutes": 52,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 13
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 77
     }
-  ]
+  ],
+  "total_travel_minutes": 77,
+  "last_verified": null
 }

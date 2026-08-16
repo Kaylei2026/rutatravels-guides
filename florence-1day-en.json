@@ -1,7 +1,7 @@
 {
   "destination": "Florence",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:19:45.495Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day covering the dense medieval-Renaissance core of Florence: the cathedral complex, the civic heart of the Signoria, and the world's greatest concentration of Renaissance painting inside the Uffizi. The day ends across the Arno on the Oltrarno hill for the view that explains how the whole city fits together.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2040,
+  "total_walking_minutes": 26,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Centro Storico / Oltrarno",
       "neighborhood_description": "The medieval street grid of central Florence compressed into less than a square kilometer, with the cathedral and baptistery at the north end, the Palazzo Vecchio and Uffizi at the civic center, and the Ponte Vecchio leading south across the Arno to the Oltrarno hill. Almost every major monument is within a ten-minute walk of every other.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2040,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Florence Cathedral and Brunelleschi's Dome",
         "wikidata_qid": "Q15972",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Book the dome climb online through the Opera del Duomo website before you arrive - slots fill days ahead in season and the combined ticket covers the baptistery, Giotto's campanile, the museum, and the crypt. Climb the dome rather than the campanile if you do only one: the internal view of Vasari's Last Judgment fresco at close range from the walkway around the inner drum is something no photograph prepares you for. The ascent is 463 steps with no elevator; the final stretch between the two shells of the dome is narrow enough to feel the engineering.",
         "walk_to_next": {
-          "to": "Piazza della Signoria",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Uffizi Gallery",
+          "transport_mode": "walk",
+          "distance_meters": 800,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Book timed entry online well in advance - the Uffizi has strict capacity limits and walk-up entry on busy days can mean a two-hour wait on the loggia. On a single visit, anchor your route on Room 10-14 for Botticelli (Birth of Venus and Primavera occupy the same room and are larger than most people expect), then follow the corridor to the Caravaggio rooms toward the exit. The rooftop terrace cafe has a direct view of the Palazzo Vecchio tower and is rarely crowded even when the galleries below are packed.",
         "walk_to_next": {
-          "to": "Ponte Vecchio",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "to": "Piazzale Michelangelo at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1240,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 26,
+  "last_verified": null
 }

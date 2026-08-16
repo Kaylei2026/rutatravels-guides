@@ -1,7 +1,7 @@
 {
   "destination": "Moab",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:03:47.945Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tres días dedicados a los dos parques nacionales de Moab y el corredor de cañones que los une. El primer día se enfoca en Arches y sus icónicas formaciones de arenisca. El segundo día se traslada a Island in the Sky para disfrutar de amplios panoramas desde los bordes de las mesetas. El tercer día permanece más cerca del pueblo, combinando el río Colorado y la geología local con la historia humana más tranquila del país de los cañones.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 18200,
-  "total_walking_minutes": 228,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Arches National Park",
       "neighborhood_description": "Un parque de 119 millas cuadradas ubicado a solo cinco millas al norte de Moab, que preserva más de 2.000 arcos de arenisca esculpidos por el agua, hielo y movimiento de sal en la Entrada Sandstone. El camino del parque asciende desde el piso del valle a través de tres secciones distintas - the Windows, the Fiery Furnace y the Devils Garden - cada una con su propio carácter.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 8500,
-      "day_walking_minutes": 107,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Delicate Arch",
         "wikidata_qid": "Q783697",
@@ -43,8 +43,10 @@
         "notes": "El sendero de ida y vuelta de tres millas asciende 480 pies de roca expuesta sin sombra; comienza antes de las 7am en verano para evitar tanto el calor como las multitudes que saturan el sendero hacia las 9am. El arco es invisible hasta la última curva en el borde - la revelación teatral sobre la caída hacia el cuenco es la recompensa. Lleva al menos dos litros de agua por persona sin importar la temperatura pronosticada.",
         "walk_to_next": {
           "to": "The Windows Section",
-          "distance_meters": 4800,
-          "walking_minutes": 60
+          "transport_mode": "drive",
+          "distance_meters": 9510,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "Dos grandes arcos - North Window y South Window - conectados por un corto sendero de circuito, más el aislado Turret Arch cercano. El circuito primitivo detrás de South Window pasa detrás de los arcos y elimina casi todos los otros visitantes de la composición; la mayoría de las personas se paran al frente y se pierden el ángulo trasero completamente. Double Arch es una caminata de dos minutos desde la misma área de estacionamiento y es el arco más grande del parque por tamaño de abertura.",
         "walk_to_next": {
-          "to": "Balanced Rock",
-          "distance_meters": 2800,
-          "walking_minutes": 35
+          "to": "Balanced Rock at sunset",
+          "transport_mode": "drive",
+          "distance_meters": 3710,
+          "travel_minutes": 10,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 26
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Canyonlands National Park - Island in the Sky",
       "neighborhood_description": "El distrito más septentrional de los tres que conforman Canyonlands, al que se llega tras un recorrido de 32 millas desde Moab. Una amplia meseta de arenisca limitada por acantilados escarpados que descienden hasta White Rim y luego nuevamente hasta los ríos Colorado y Green. Los miradores aquí operan a una escala espacial diferente que la de Arches - distancias medidas en millas en lugar de metros.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 6900,
-      "day_walking_minutes": 87,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Mesa Arch",
         "wikidata_qid": "Q6820001",
@@ -151,8 +156,10 @@
         "notes": "Un sendero de media milla hasta un arco que enmarca el cañón a 800 pies de profundidad. Al amanecer, la parte inferior del arco brilla en naranja por la luz que se refleja en las paredes del cañón debajo, una de las fotografías de paisaje más reproducidas en el Suroeste Americano. Para verlo realmente en lugar de fotografiarlo por encima del hombro, llegue veinte minutos antes del amanecer y reclame una posición ligeramente a la izquierda del centro; los trípodes ocupan los mejores lugares cuarenta minutos antes de la primera luz.",
         "walk_to_next": {
           "to": "Grand View Point",
-          "distance_meters": 3900,
-          "walking_minutes": 49
+          "transport_mode": "drive",
+          "distance_meters": 11090,
+          "travel_minutes": 20,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "El punto más meridional de la carretera de la mesa Island in the Sky, con un sendero de dos millas de ida y vuelta a lo largo del mismo borde del acantilado. En un día despejado, la vista se extiende a través de tres estados y revela la geología estratificada de cien millones de años en un único panorama. La carretera White Rim Road visible 1,300 pies abajo es el circuito clásico de tracción en las cuatro ruedas que la mayoría de los vehículos tarda tres días en completar.",
         "walk_to_next": {
-          "to": "Upheaval Dome",
-          "distance_meters": 3000,
-          "walking_minutes": 38
+          "to": "Upheaval Dome overlooks",
+          "transport_mode": "drive",
+          "distance_meters": 19250,
+          "travel_minutes": 31,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 33
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 51
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Downtown Moab / Colorado River Corridor",
       "neighborhood_description": "El tramo de US-128 al noreste de Moab sigue el Río Colorado a través de un cañón de mil pies de profundidad antes de que el río se doble hacia el sur en dirección a Arches. Combinado con la pequeña cuadrícula del centro de Moab de tiendas de equipamiento y museos locales, este día permanece cerca del pueblo e intercambia la naturaleza a escala de parques por acceso a cañones a escala humana.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Moab Museum",
         "wikidata_qid": "Q97310553",
@@ -239,8 +249,10 @@
         "notes": "Un museo compacto pero bien organizado de historia natural y cultural que abarca la geología de la Meseta de Colorado, los pueblos ute y ancestrales puebloanos, y el auge del uranio de Moab en los años 1950 que transformó un tranquilo pueblo ganadero mormón en un pueblo minero de la noche a la mañana. La sección de uranio es la más específica de Moab y la menos cubierta en otros lugares; las muestras de mineral y las fotografías de época son lo más destacado. Una buena opción para el primer día o en caso de mal tiempo, pero programado aquí en el día tres para que los dos días de parques proporcionen contexto para las exhibiciones de geología.",
         "walk_to_next": {
           "to": "Courthouse Wash Rock Art Panel",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "transport_mode": "drive",
+          "distance_meters": 8610,
+          "travel_minutes": 16,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -258,9 +270,11 @@
         "optimal_timing": "any",
         "notes": "Un gran panel de pictografías de estilo Barrier Canyon en la pared del cañón justo al norte del puente US-191 sobre Courthouse Wash, aproximadamente cuatro millas al norte del centro de Moab. Las grandes figuras antropomórficas con ojos huecos y sin piernas se encuentran entre los ejemplos más intactos de este estilo pre-Puebloan en la región. El panel fue vandalizado con cloro en 1980 y parcialmente restaurado; la costura de restauración es visible bajo luz rasante desde el lado derecho del panel.",
         "walk_to_next": {
-          "to": "Colorado River at Takeout Beach",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Colorado River at the Moab Valley",
+          "transport_mode": "drive",
+          "distance_meters": 8690,
+          "travel_minutes": 17,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 23
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     }
-  ]
+  ],
+  "total_travel_minutes": 112,
+  "last_verified": null
 }

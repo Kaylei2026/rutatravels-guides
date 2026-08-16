@@ -1,7 +1,7 @@
 {
   "destination": "Interlaken",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:26:00.750Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "ثلاثة أيام في منطقة Bernese Oberland البوابة: الممشى على ضفاف البحيرة ونقاط المراقبة الكلاسيكية في اليوم الأول، قرية Unterseen القديمة والتل فوق المدينة في اليوم الثاني، والرحلة عالية الارتفاع إلى وادي Lauterbrunnen في اليوم الثالث. كل يوم يشكل وحدة جغرافية مستقلة وقابلة للتعديل حسب الأحوال الجوية.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 670,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Interlaken Ost / Hohematte",
       "neighborhood_description": "Hohematte هو المرج المحمي في وسط Interlaken الذي أبقى على المدينة مفتوحة لرؤية Jungfrau لمدة قرنين من الزمان. الحي الشرقي حول محطة Interlaken Ost يضم فنادق Belle Epoque الفخمة وحديقة كازينو Kursaal والقناة التي تربط بين Lake Thun و Lake Brienz.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 670,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Hohematte park and Jungfrau panorama",
         "wikidata_qid": "Q1616849",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "يتمتع المرج الذي تبلغ مساحته 14 هكتاراً بحماية ارتفاق من القرن التاسع عشر يمنع أي بناء قد يحجب منظر Jungfrau من ممشى Hoheweg. قِف في الطرف الغربي للمرج على Hoheweg وانظر جنوباً - في صباح الأيام الصافية، تملأ Jungfrau و Monch و Eiger الفراغ بأكمله بين واجهات الفندق. تهبط الطائرات الشراعية هنا من منتصف الصباح فصاعداً.",
         "walk_to_next": {
-          "to": "Kursaal Interlaken",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "to": "Kursaal Interlaken and casino gardens",
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "كان مبنى Kursaal الذي يعود لعام 1859 وحديقته الزينة المحيطة به بمثابة المحرك الاجتماعي لطفرة السياحة في Interlaken في القرن التاسع عشر. الحديقة نفسها مفتوحة للمشي بحرية وتتبع الأسلوب المناظر الطبيعية الإنجليزي، مع قسم ورود رسمي مباشرة خلف الجناح الرئيسي. لا يزال المبنى يعمل كحانة ومكان حفلات - الخارج والأراضي هما ما يجذب الزوار وليس الداخل.",
         "walk_to_next": {
-          "to": "Aare channel and Lake Brienz shore",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Aare channel and Lake Brienz shoreline at sunset",
+          "transport_mode": "drive",
+          "distance_meters": 12500,
+          "travel_minutes": 22,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -104,7 +108,8 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 30
     },
     {
       "day": 2,
@@ -113,8 +118,8 @@
       "neighborhood_focus": "Harder Kulm / Unterseen",
       "neighborhood_description": "يقع Harder Kulm على ارتفاع 1322 متراً مباشرة فوق Interlaken على الحافة الشمالية، ويمكن الوصول إليه بواسطة سكة حديد جبلية من بالقرب من Interlaken Ost. أما Unterseen، التي تقع عبر نهر Aare إلى الغرب، فهي القرية الوسيطة الحقيقية التي تسبق مدينة المنتجع الحديثة وتحتفظ بكنيستها من القرن السابع عشر وساحتها والمباني ذات الهياكل الخشبية.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Harder Kulm viewpoint",
         "wikidata_qid": "Q874537",
@@ -130,9 +135,11 @@
         "optimal_timing": "morning",
         "notes": "تستغرق سكة الحديد الجبلية من محطة البداية بالقرب من Interlaken Ost ثماني دقائق وتعمل من الصباح الباكر. جسر Two Lakes Bridge في القمة عبارة عن ممر معلق يمتد فوق الحافة، قف عليه لرؤية متزامنة لبحيرة Thun (غرباً، مائلة للأخضر) وبحيرة Brienz (شرقاً، فيروزية)، مع كتلة Eiger - Monch - Jungfrau مباشرة جنوباً. اذهب قبل الساعة العاشرة صباحاً، فالشرفة تمتلئ برحلات الجولات السياحية قبل منتصف الصباح وتتسارع تراكمات الغيوم على القمم من الظهيرة.",
         "walk_to_next": {
-          "to": "Unterseen old village",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Unterseen old village and Stadtplatz",
+          "transport_mode": "transit",
+          "distance_meters": 2910,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -150,9 +157,11 @@
         "optimal_timing": "any",
         "notes": "عبر نهر Aare عبر جسر المشاة Spielmatte وادخل Unterseen من خلال ساحتها الرئيسية الأصلية، Stadtplatz. منحت البلدة حقوق السوق في 1279 ولم يتغير تخطيط ساحتها المركزية كثيراً منذ ذلك الحين. برج الكنيسة في خلفية صورة Unterseen الكلاسيكية هو كنيسة Unterseen الإصلاحية من القرن الرابع عشر - البرج نفسه أقدم من الصحن.",
         "walk_to_next": {
-          "to": "Lake Thun shoreline",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Lake Thun western shore at sunset",
+          "transport_mode": "drive",
+          "distance_meters": 13390,
+          "travel_minutes": 23,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -192,7 +201,8 @@
             "walking_minutes": 0
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 37
     },
     {
       "day": 3,
@@ -201,8 +211,8 @@
       "neighborhood_focus": "Jungfraujoch / Lauterbrunnen Valley",
       "neighborhood_description": "يمتد Lauterbrunnen Valley نحو الجنوب من Interlaken كخندق بجدران شبه رأسية نحتته أنهار جليدية في عصر البليستوسين، وينحدر عنه 72 شلالاً من المنحدرات بما فيها Staubbachfall الذي يبلغ ارتفاعه 297 متراً. تعتبر قرية Lauterbrunnen الواقعة في أرضية الوادي القاعدة الأساسية للقطار ذي الأسنان الذي يصعد نحو Wengen وKleine Scheidegg وفي النهاية Jungfraujoch على ارتفاع 3454 متراً.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1830,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Staubbach Falls, Lauterbrunnen",
         "wikidata_qid": "Q698025",
@@ -219,8 +229,10 @@
         "notes": "ينحدر Staubbachfall مسافة 297 متراً من جدار الوادي مباشرة خلف قرية Lauterbrunnen، وهو يعتبر من أعلى الشلالات الحرة المتساقطة في أوروبا والمشهد الذي ألهم كلاً من Goethe وByron للكتابة الشعرية. يستغرق مسار المشاهدة من أرضية القرية حوالي 10 دقائق؛ بينما يؤدي مسار أشد انحداراً إلى منصة كهف داخل منطقة الرذاذ. يصطدم ضوء الصباح بالشلال مباشرة؛ بحلول فترة ما بعد الظهيرة يقع وجه المنحدر في الظل. يستغرق القطار من Interlaken Ost إلى Lauterbrunnen 20 دقيقة.",
         "walk_to_next": {
           "to": "Trummelbach Falls",
-          "distance_meters": 1430,
-          "walking_minutes": 18
+          "transport_mode": "transit",
+          "distance_meters": 2880,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -238,9 +250,11 @@
         "optimal_timing": "any",
         "notes": "عشرة شلالات جليدية داخل الجبل، يمكن الوصول إليها بواسطة مصعد نفقي وممرات منحوتة في الصخر - الشلالات الجليدية الوحيدة تحت الأرض المغذاة بالأنهار الجليدية والمفتوحة للجمهور في أوروبا. تصرف أنهار Eiger وMonch وJungfrau الجليدية عبر هذا النظام، مما يدفع ما يصل إلى 20,000 لتر في الثانية عبر حلزونات صخرية ضيقة في أوقات الذوبان القصوى. احمل طبقة مقاومة للماء بغض النظر عن الطقس الخارجي؛ الرذاذ في الداخل مستمر والممرات ضيقة. يمكن الوصول إليها سيراً على الأقدام أو بواسطة PostBus من قرية Lauterbrunnen.",
         "walk_to_next": {
-          "to": "Lauterbrunnen village center",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Lauterbrunnen valley floor walk at dusk",
+          "transport_mode": "transit",
+          "distance_meters": 2880,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -300,7 +314,10 @@
             "walking_minutes": 0
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     }
-  ]
+  ],
+  "total_travel_minutes": 95,
+  "last_verified": null
 }

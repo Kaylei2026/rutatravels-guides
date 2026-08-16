@@ -1,7 +1,7 @@
 {
   "destination": "Queenstown",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:19:53.345Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tre giorni per scoprire i livelli essenziali di Queenstown: il centro cittadino affacciato sul lago e la cresta di Skyline, il villaggio della corsa all'oro di Arrowtown incastonato nella sua gola dai colori autunnali, e il corridoio panoramico verso nord in direzione Glenorchy dove il Dart River incontra le Humboldt Mountains. Ogni giorno è geograficamente autosufficiente.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 5460,
-  "total_walking_minutes": 68,
+  "total_walking_distance_meters": 2540,
+  "total_walking_minutes": 32,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Queenstown Town Centre / Waterfront",
       "neighborhood_description": "Il centro cittadino compatto si trova su una penisola che si protende nel Lake Wakatipu, con la catena montuosa delle Remarkables che forma una parete quasi verticale dall'altra parte dell'acqua verso sudest. Pier Street, the Mall e Marine Parade collegano i punti di riferimento principali a pochi passi di distanza, mentre la funivia di Skyline sale direttamente dal margine della città.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1690,
-      "day_walking_minutes": 21,
+      "day_walking_distance_meters": 1620,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Queenstown Gardens",
         "wikidata_qid": "Q7271143",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "Il giardino sulla penisola risalente al 1867 è il più tranquillo che il lago avrà per l'intera giornata, con la nebbia mattutina che si deposita nelle couloir delle Remarkables e l'acqua liscia come specchio prima che partano i jet boat. Percorrete l'intero sentiero perimetrale piuttosto che il circuito interno della rose garden per godere di viste ininterrotte del lago e delle montagne. Le piantagioni di Douglas fir e sequoia sono insolitamente grandi per la Nuova Zelanda.",
         "walk_to_next": {
-          "to": "Queenstown Beach and TSS Earnslaw wharf",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "TSS Earnslaw",
+          "transport_mode": "walk",
+          "distance_meters": 460,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "Il piroscafo a vapore a doppia elica alimentato a carbone del 1912 è la nave più antica ancora in servizio passeggeri regolare nell'emisfero meridionale. La crociera sul lago di 90 minuti include una visita alla sala macchine dove potrete osservare gli alimentatori che caricano il carbone a breve distanza, non si tratta di un'esibizione museale raffinata ma di un vero impianto a vapore del 1912 in funzione. Prenotate direttamente presso l'ufficio biglietti di Steamer Wharf; l'estensione dell'escursione nella fattoria di Walter Peak aggiunge due ore e afternoon tea ma richiede una mezza giornata intera.",
         "walk_to_next": {
-          "to": "Skyline Queenstown gondola base",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "to": "Skyline Queenstown",
+          "transport_mode": "walk",
+          "distance_meters": 1160,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -104,7 +108,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     },
     {
       "day": 2,
@@ -113,8 +118,8 @@
       "neighborhood_focus": "Arrowtown",
       "neighborhood_description": "A venti chilometri a nordest di Queenstown, Arrowtown è l'insediamento della corsa all'oro meglio conservato della Nuova Zelanda. Cottage in pietra scistosa si allineano lungo Buckingham Street, il fiume Arrow continua a offrire pagliuzze d'oro durante le acque basse, e l'insediamento cinese parzialmente restaurato sulla piana fluviale è uno dei pochi documenti fisici intatti delle comunità minerarie cinesi nell'emisfero australe.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2210,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 620,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Lakes District Museum",
         "wikidata_qid": "Q6480886",
@@ -130,9 +135,11 @@
         "optimal_timing": "morning",
         "notes": "Iniziate qui prima di passeggiare per la città - la sezione sulla corsa all'oro e i Maori del museo contestualizza quello che state per vedere fuori. La collezione include un originale cassone di lavaggio, licenze di scavo e la corrispondenza del guardiano cinese che rivela come i minatori cinesi fossero sistematicamente tassati e segregati spazialmente. L'attività di ricerca d'oro gestita dal personale nel cortile è rivolta alle famiglie ma richiede dieci minuti ed è più difficile di quanto sembri.",
         "walk_to_next": {
-          "to": "Buckingham Street historic precinct",
-          "distance_meters": 120,
-          "walking_minutes": 2
+          "to": "Buckingham Street and Arrowtown historic precinct",
+          "transport_mode": "walk",
+          "distance_meters": 80,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -151,8 +158,10 @@
         "notes": "Percorri tutta la lunghezza di Buckingham Street dal museo fino alla linea degli alberi - il viale di alberi a foglia caduca (piantati dai primi coloni) è tra i più fotografati colori autunnali dell'Isola del Sud da fine aprile fino a maggio. I cottage in pietra sono ancora per lo più residenze private, non negozi; nota le variazioni nella qualità della lavorazione della pietra tra le costruzioni iniziali affrettate e quelle successive più consapevoli. Il ramo della Bank of New Zealand (1875) all'estremità occidentale è l'edificio bancario più piccolo ancora in piedi in Nuova Zelanda.",
         "walk_to_next": {
           "to": "Arrow River Chinese Settlement",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -192,7 +201,8 @@
             "walking_minutes": 88
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 3,
@@ -201,8 +211,8 @@
       "neighborhood_focus": "Glenorchy Road Corridor / Glenorchy",
       "neighborhood_description": "La strada di 45 chilometri da Queenstown a Glenorchy lungo la sponda occidentale del Lake Wakatipu attraversa una sequenza di paesaggi scavati dai ghiacciai - foresta di faggio, zone umide, foci di fiumi intrecciati, e infine il delta del Dart River all'estremità settentrionale del lago. Glenorchy stesso è un piccolo villaggio agricolo e di guide turistiche che ha anche servito come location per le riprese di Il Signore degli Anelli di Peter Jackson.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1560,
-      "day_walking_minutes": 19,
+      "day_walking_distance_meters": 300,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Bennett's Bluff Lookout",
         "wikidata_qid": "Q62059535",
@@ -219,8 +229,10 @@
         "notes": "Fermati presso l'area di sosta segnalata a circa 12 chilometri da Queenstown sulla strada per Glenorchy. Il belvedere si trova sopra una curva a gomito dove il lago superiore si rivela completamente per la prima volta - le catene montuose Humboldt e Richardson incorniciano entrambi i lati e l'acqua assume un colore turchese profondo alla luce mattutina di cielo sereno. Ci vogliono tre minuti a piedi dall'auto. Questo è il miglior punto fotografico statico della strada ed è regolarmente ignorato dai visitatori che guidano direttamente verso Glenorchy.",
         "walk_to_next": {
           "to": "Glenorchy Lagoon Walkway",
-          "distance_meters": 460,
-          "walking_minutes": 6
+          "transport_mode": "drive",
+          "distance_meters": 31200,
+          "travel_minutes": 34,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -239,8 +251,10 @@
         "notes": "Un percorso ad anello pianeggiante attraverso zone umide native e foresta di faggio al margine del township di Glenorchy, con viste a nord nella valle del Dart River e a sud verso il lago. La laguna stessa è un canale intrecciato poco profondo dove anatre paradiso e aironi grigi sono regolarmente presenti. Il sentiero è segnalato dal molo di Glenorchy; prevedere 60-75 minuti per l'intero anello. La direzione Kinloch offre una camminata più lunga se il tempo lo permette.",
         "walk_to_next": {
           "to": "Glenorchy Wharf",
-          "distance_meters": 390,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 300,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -280,7 +294,10 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 38
     }
-  ]
+  ],
+  "total_travel_minutes": 66,
+  "last_verified": null
 }

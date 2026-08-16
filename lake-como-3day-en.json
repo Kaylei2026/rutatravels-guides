@@ -1,7 +1,7 @@
 {
   "destination": "Lake Como",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:13:55.965Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days covering Lake Como's essential character: the Roman and medieval city at the southern tip, the aristocratic villa culture on the central promontory, and the quieter eastern shore villages. Each day is self-contained and reachable by ferry or road from any base on the lake.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5720,
-  "total_walking_minutes": 72,
+  "total_walking_distance_meters": 2490,
+  "total_walking_minutes": 31,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Como city center",
       "neighborhood_description": "Como occupies the southern tip of the lake's western fork. The medieval walled city sits inside a nearly intact Roman street grid, with a Gothic-Renaissance cathedral at its center and a broad lakefront piazza opening onto the ferry docks. The city is compact enough to walk end to end in twenty minutes.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 740,
+      "day_walking_minutes": 9,
       "morning": {
         "activity_title": "Como Cathedral",
         "wikidata_qid": "Q949567",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "Construction spanned four centuries from 1396 to 1770, which makes the exterior a Lombard Gothic base capped by a Baroque dome. Look for the two Roman-era figures flanking the main portal - they are Pliny the Elder and Pliny the Younger, both born in Como, placed here by a city proud enough of its classical heritage to put pagan writers on a cathedral facade. The 16th-century Flemish tapestries inside are among the finest in northern Italy and rarely get the attention they deserve.",
         "walk_to_next": {
-          "to": "Piazza Cavour and lakefront",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Piazza Cavour and Como lakefront",
+          "transport_mode": "walk",
+          "distance_meters": 190,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "The main lakeside piazza is where the ferry service departs and the city exhales. Walk north along the Passeggiata Lino Gelpi - the narrow lakefront path running under the walls toward Cernobbio - for thirty minutes to escape the tourist concentration and see the lake from water level rather than above it. The Volta Temple, a neoclassical rotunda honoring the inventor of the battery, sits at the far end of the promenade and takes five minutes to appreciate from outside.",
         "walk_to_next": {
-          "to": "Porta Torre and medieval walls",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Porta Torre and the medieval city walls",
+          "transport_mode": "walk",
+          "distance_meters": 550,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 9
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Bellagio",
       "neighborhood_description": "Bellagio sits on the tip of the triangular promontory that divides Lake Como into its two southern forks. It has been the lake's prestige address since the 18th century when the Milanese nobility built competing villas along its slopes. The approach by ferry from Como or Varenna is the defining lake experience - the promontory reveals itself slowly as the boat rounds the headland.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 920,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Villa Melzi d'Eril gardens",
         "wikidata_qid": "Q3560079",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "The first English-style landscape garden on Lake Como, laid out from 1808 for Napoleon's vice-president of the Italian Republic. Open to the public from April to October, it stretches along the lakefront south of the Bellagio ferry dock - enter from the pier road rather than the upper village street to get the lake-level approach through the wisteria pergola. The Japanese garden section near the southern end is an oddity that actually works in context. Arrive at opening to have the garden essentially to yourself before the day-tripper ferries arrive.",
         "walk_to_next": {
-          "to": "Bellagio village center",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Bellagio village center and Salita Serbelloni",
+          "transport_mode": "walk",
+          "distance_meters": 490,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "The steep staircase lanes - Salita Serbelloni and Salita Mella - that climb from the lakefront up through the village are the architectural signature of Bellagio. They are paved with flat Lombard stone and lined with ochre and terracotta buildings leaning over each other at the top. Do not miss the view from the small belvedere at the top of Salita Serbelloni looking north across the fork of the lake toward the Alps. The silk shops on Via Garibaldi sell genuinely locally woven fabric - Lake Como produces roughly 70 percent of Europe's silk - but quality varies significantly between shops.",
         "walk_to_next": {
-          "to": "Villa Serbelloni promontory viewpoint",
-          "distance_meters": 480,
-          "walking_minutes": 6
+          "to": "Villa Serbelloni promontory and sunset viewpoint",
+          "transport_mode": "walk",
+          "distance_meters": 430,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 11
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Varenna",
       "neighborhood_description": "Varenna clings to a steep eastern shore shelf with almost no flat land - its streets are staircases and its promenade is a narrow ledge cut into the cliff face above the water. It is significantly less visited than Bellagio despite being equally beautiful, and it has the advantage of being reachable directly by train from Milan Centrale in under an hour.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 830,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Villa Monastero gardens",
         "wikidata_qid": "Q3560218",
@@ -239,8 +249,10 @@
         "notes": "A former Cistercian convent converted into a lakefront garden estate, stretching 500 meters along the shore in a thin band between the cliff and the water. The garden is organized as a sequence of distinct spaces - a lemon house, a cypress allee, a rose section, and a formal Italian parterre - each one framing a different view across to the Bellagio promontory. The southern end of the garden, nearest the village, is free to walk through on a path that leads directly to the ferry dock. The ticketed section begins just north of that path.",
         "walk_to_next": {
           "to": "Varenna village and Passeggiata degli Innamorati",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 130,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -259,8 +271,10 @@
         "notes": "The Passeggiata degli Innamorati - the Lovers' Walk - is a concrete ledge path bolted to the cliff face at water level, running from the ferry dock north through the village to the Vezio castle trailhead. It is barely two people wide, has no railing in sections, and the lake laps directly underneath. Walk it north to south so you arrive in the village center rather than leaving it. The village's yellow and ochre buildings climb directly from the water with no road between them and the shore - the geometry is unlike any other settlement on the lake.",
         "walk_to_next": {
           "to": "Castello di Vezio",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 700,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 11
     }
-  ]
+  ],
+  "total_travel_minutes": 31,
+  "last_verified": null
 }

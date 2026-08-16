@@ -1,7 +1,7 @@
 {
   "destination": "Chicago",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:54:42.035Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tres días cubriendo lo esencial de Chicago: el Loop arquitectónico con sus parques frente al lago y arte público, el Museum Campus con su concentración de instituciones de ciencias naturales e historia de clase mundial en la orilla del lago, y el distrito de galerías River North con la Magnificent Mile y el corredor arquitectónico del Chicago River. Cada día está geográficamente autocontenido.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 7800,
-  "total_walking_minutes": 98,
+  "total_walking_distance_meters": 3640,
+  "total_walking_minutes": 47,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "The Loop / Millennium Park",
       "neighborhood_description": "El Loop es el distrito central de negocios de Chicago, llamado así por las vías del tren elevado que lo rodean, y el crisol de la arquitectura estadounidense: aquí se inventó el rascacielos en la década de 1880. Millennium Park en su extremo oriental es un campus cultural al aire libre construido sobre un antiguo patio ferroviario, con arte público monumental y conciertos gratuitos de verano.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 1010,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Chicago Architecture Center River Cruise",
         "wikidata_qid": "Q5096549",
@@ -42,8 +42,10 @@
         "optimal_timing": "morning",
         "notes": "El Chicago Architecture Center opera el tour definitivo de arquitectura en barco por el Chicago River: 75 minutos, narrado por docentes capacitados que cubren más de 50 edificios. Embarca en Michigan Avenue y el río (en el nivel inferior de Wacker Drive, no a nivel de calle). Las salidas matutinas permiten ver las fachadas orientales con la mejor luz, y el barco está menos lleno que en las excursiones de la tarde. Reserva en línea por adelantado; los tours de fin de semana se agotan con días de anticipación.",
         "walk_to_next": {
-          "to": "Millennium Park",
-          "distance_meters": 550,
+          "to": "Millennium Park and Cloud Gate",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
           "walking_minutes": 7
         }
       },
@@ -63,8 +65,10 @@
         "notes": "La escultura Cloud Gate de Anish Kapoor, universalmente llamada the Bean, refleja el horizonte en un panorama distorsionado y es más interesante desde directamente debajo, donde la parte inferior cóncava crea una cúpula desorientadora de ojo de pez. Camina hacia el norte hasta Crown Fountain de Jaume Plensa, dos torres de ladrillos de vidrio de 50 pies que muestran rostros de habitantes de Chicago y periódicamente escupen agua. La concha acústica Jay Pritzker Pavilion detrás es la única obra pública permanente de Frank Gehry.",
         "walk_to_next": {
           "to": "Art Institute of Chicago",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Museum Campus / Near South Side",
       "neighborhood_description": "Museum Campus es un parque de 57 acres en una península frente al lago justo al sur de Grant Park, hogar de tres instituciones principales - el Field Museum, Shedd Aquarium y Adler Planetarium. La disposición, con vistas despejadas del lago y el horizonte de la ciudad directamente al norte, es uno de los entornos de museos más dramáticos del mundo.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 1170,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Field Museum of Natural History",
         "wikidata_qid": "Q1122595",
@@ -151,8 +156,10 @@
         "notes": "Uno de los museos de historia natural más grandes del mundo, con 40 millones de especímenes de botánica, geología, antropología y zoología. Sue, uno de los esqueletos de T. rex más completos jamás encontrados, se encuentra en el Stanley Field Hall principal y sigue siendo el punto focal del edificio a pesar de una exhibición más nueva. Llega cuando abran las puertas a las 9am; el salón está tranquilo durante los primeros 45 minutos antes de que lleguen los grupos escolares. Las galerías del antiguo Egipto y el salón subterráneo Evolving Planet son las dos exhibiciones permanentes más destacadas.",
         "walk_to_next": {
           "to": "Shedd Aquarium",
-          "distance_meters": 450,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Inaugurado en 1930, el Shedd fue el primer acuario interior en Estados Unidos en tener una colección permanente de agua salada. El tanque Caribbean Reef en la rotonda central es visible desde múltiples niveles - búscalo desde el balcón superior, donde puedes ver todo el tanque ovalado en sección transversal. Los espectáculos de delfines y belugas son las atracciones principales; el hábitat de delfines Pacific white-sided en el nivel superior está menos concurrido y te da proximidad a la altura de los ojos con los animales.",
         "walk_to_next": {
-          "to": "Adler Planetarium lakefront viewpoint",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Adler Planetarium and lakefront skyline view",
+          "transport_mode": "walk",
+          "distance_meters": 790,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "River North / Magnificent Mile",
       "neighborhood_description": "La Magnificent Mile es el tramo de Michigan Avenue al norte del Chicago River, bordeado de rascacielos históricos emblemáticos y la Water Tower, una de las pocas estructuras que sobrevivió al Gran Incendio de Chicago de 1871. River North, inmediatamente al oeste, es el distrito de galerías de Chicago y hogar de la mayor concentración de galerías de arte fuera de Manhattan.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3000,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 1460,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Chicago Riverwalk",
         "wikidata_qid": "Q5094380",
@@ -259,8 +269,10 @@
         "notes": "El sendero peatonal del nivel inferior a lo largo de la orilla sur del Chicago River, que va desde Lake Shore Drive hacia el oeste hasta Lake Street. Caminalo hacia el este por la mañana para que veas las fachadas iluminadas por el sol de las torres junto al río en lugar de entrecerrar los ojos contra la luz. La sección entre Michigan Avenue y State Street pasa por debajo de cinco puentes consecutivos y la perspectiva hacia arriba a través de la parte inferior de los puentes basculantes es una fotografía de Chicago que pasa desapercibida. Varios proveedores de alquiler de kayaks operan desde el Riverwalk en verano.",
         "walk_to_next": {
           "to": "Tribune Tower",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 1180,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "any",
         "notes": "El rascacielos gótico de 1925 construido para el Chicago Tribune después de un concurso de diseño de 1922 que atrajo 263 propuestas de 23 países y se convirtió en un evento definitorio en la historia arquitectónica estadounidense. Camina por la base del edificio a nivel de la calle - 148 fragmentos de edificios y monumentos famosos de todo el mundo están incrustados en la piedra caliza exterior, incluyendo piezas del Parthenon, la Gran Muralla China, el Taj Mahal y el Berlin Wall. Cada fragmento está etiquetado. El edificio ahora es residencial, por lo que el acceso interior es limitado.",
         "walk_to_next": {
-          "to": "Water Tower Place and Chicago Water Tower",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Chicago Water Tower",
+          "transport_mode": "walk",
+          "distance_meters": 280,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 47,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Santorini",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:10:38.420Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Eine Tageswanderung entlang des Caldera-Randes von Fira nach Norden durch Imerovigli bis nach Oia - ein durchgehender Vulkanrücken mit den dramatischsten Meerblicken der Ägäis, einer verschütteten bronzezeitlichen Stadt und einem der mythologisiertesten Sonnenuntergänge Griechenlands.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 3100,
-  "total_walking_minutes": 39,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Fira / Imerovigli / Oia",
       "neighborhood_description": "Der westliche Rücken von Santorini liegt an der Innenwand einer Caldera, die durch einen der größten Vulkanausbrüche der dokumentierten Geschichte entstanden ist. Fira ist die Hauptstadt der Insel - dicht besiedelt, kommerziell und 260 Meter über dem Meer gelegen. Der Caldera-Rim-Wanderweg verläuft nach Norden durch die ruhigere Kliffsiedlung Imerovigli, bevor er nach Oia hinabführt, das ikonische blaugedeckelte Dorf an der nördlichen Spitze der Insel.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Akrotiri Archaeological Site",
         "wikidata_qid": "Q284892",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "Die gesamte Stätte ist unter einem modernen Schutzsdach untergebracht und bietet damit die beste Witterungsschutzlösung der Insel. Akrotiri wurde durch den minoischen Ausbruch um 1627 BCE begraben - das Pompeji der Ägäis - und seine mehrstöckigen Gebäude, keramischen Lagergefäße und mit Fresken bemalten Wände sind in bemerkenswert gutem Zustand erhalten. Kommen Sie bei der Öffnung (8 Uhr im Sommer) an, bevor die Transfergruppen der Kreuzfahrtschiffe ankommen; die Stätte leert sich deutlich um 10:30 Uhr im Vergleich zum Mittag.",
         "walk_to_next": {
-          "to": "Fira town center and caldera viewpoint",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "to": "Museum of Prehistoric Thera",
+          "transport_mode": "drive",
+          "distance_meters": 10360,
+          "travel_minutes": 19,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Der beste Ort, um zu sehen, wie Akrotiri in seiner Blütezeit tatsächlich aussah - die original Fresken, die zur Konservierung entfernt wurden, sind hier ausgestellt, darunter das berühmte Frühjahrsfresko mit Schwalben und Lilien sowie das Miniaturfresko, das eine Flottille von Bronzezeitschiffe zeigt. Liegt in zentraler Fira auf der Mitropoleos Street, zwei Minuten vom Hauptweg an der Caldeira-Kante entfernt. Klein genug, um in einer Stunde ohne Müdigkeit angemessen erkundet zu werden.",
         "walk_to_next": {
-          "to": "Oia",
-          "distance_meters": 1800,
-          "walking_minutes": 22
+          "to": "Oia sunset from the kasteli ruins",
+          "transport_mode": "drive",
+          "distance_meters": 9580,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 69
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 37
     }
-  ]
+  ],
+  "total_travel_minutes": 37,
+  "last_verified": null
 }

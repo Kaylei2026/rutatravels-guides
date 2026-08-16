@@ -1,7 +1,7 @@
 {
   "destination": "Copenhagen",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:23:42.649Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "一日游览Copenhagen历史核心区：皇家岛屿Slotsholmen、中世纪大教堂区和色彩斑斓的Nyhavn港口。这些景点相对集中，完全可以步行游览，无需乘坐交通工具，从上午的皇家和市政历史开始，到傍晚的运河边氛围结束。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2490,
+  "total_walking_minutes": 32,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Indre By / Slotsholmen / Nyhavn",
       "neighborhood_description": "Copenhagen的历史核心区坐落在港口两臂之间的狭长半岛上。Slotsholmen是一座人工岛屿，自12世纪以来一直是丹麦皇室和政府权力的所在地。紧邻北面的Indre By包含大学区、大教堂和圆塔。整个区域的尽头是Nyhavn，这条狭窄的运河开凿于1673年，用于将商船引入市中心。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2490,
+      "day_walking_minutes": 32,
       "morning": {
         "activity_title": "Christiansborg Palace",
         "wikidata_qid": "Q319061",
@@ -41,8 +41,10 @@
         "notes": "宫殿塔楼免费攀登，上午10点开放 - 在旅游团到达之前直接上去。塔楼高106米，是Copenhagen最高的可进入塔楼，可以俯瞰整个历史中心，包括Rosenborg、Marble Church，以及港口对面的Opera House。地下室的Royal Ruins展示了Bishop Absalon在1167年建造的原始要塞地基，凭宫殿门票即可参观。",
         "walk_to_next": {
           "to": "Copenhagen Cathedral",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 930,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "由C.F. Hansen设计的新古典主义内饰（1829年完工）与Gothic的繁复形成鲜明对比 - 白色墙壁、筒形拱顶，以及Bertel Thorvaldsen的大理石Christ雕像作为祭坛画，十二使徒雕像沿中殿排列。免费入场。正对面的大学主楼由同一位建筑师在同一个十年设计，使这个广场在北欧城市中心中呈现出罕见的统一性。",
         "walk_to_next": {
-          "to": "Rundetaarn",
-          "distance_meters": 310,
-          "walking_minutes": 4
+          "to": "Nyhavn",
+          "transport_mode": "walk",
+          "distance_meters": 1560,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 32,
+  "last_verified": null
 }

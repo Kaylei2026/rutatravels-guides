@@ -1,7 +1,7 @@
 {
   "destination": "Rome",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T13:00:00Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Romeの必見三大エリアを3日間で巡る：バロック様式の歴史地区、古代帝国の中心地、そしてVatican。各日程は地理的にまとまっているので、天候や時差ぼけ、宿泊先に応じて順番を決めることができます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 4920,
-  "total_walking_minutes": 62,
+  "total_walking_distance_meters": 4660,
+  "total_walking_minutes": 59,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Centro Storico",
       "neighborhood_description": "Tiber川の湾曲部とVia del Corsoに挟まれた歴史地区の密集エリア。Roman神殿、バロック様式のpiazza、市場広場が2千年の街路に重なり合っています。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1020,
-      "day_walking_minutes": 13,
+      "day_walking_distance_meters": 1540,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Pantheon",
         "wikidata_qid": "Q1142794",
@@ -47,9 +47,11 @@
         "optimal_timing": "morning",
         "notes": "開館時間（9am）に到着すれば、観光グループで床が埋まる前に、オクルスの光が内部にきれいに差し込む様子を見ることができます。平日は少額の入場料がかかるようになりましたが、日曜日のミサは無料です（ただし内部での移動は制限されます）。",
         "walk_to_next": {
-          "to": "Piazza Navona",
-          "distance_meters": 320,
-          "walking_minutes": 4
+          "to": "Piazza Navona and Sant'Agnese in Agone",
+          "transport_mode": "walk",
+          "distance_meters": 420,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -72,9 +74,11 @@
         "optimal_timing": "any",
         "notes": "Stadium of Domitianの敷地に建設されたため、細長い形をしています。Fountain of the Four RiversはBerniniの作品で、向かいの教会のファサードは彼のライバルBorrominiによるものです。二人は1650年代からこの広場を挟んで論争を続けているのです。",
         "walk_to_next": {
-          "to": "Trevi Fountain",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trevi Fountain after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -119,7 +123,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 2,
@@ -128,8 +133,8 @@
       "neighborhood_focus": "Monti / Celio / Palatino",
       "neighborhood_description": "ローマ中心部の南東部にある古代都市の政治と娯楽の中心地。Colosseum、Forum、Palatineは共通チケットで入場でき、約1平方キロメートルに及ぶ一つの考古学地区を形成している。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 1100,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Colosseum",
         "wikidata_qid": "Q10285",
@@ -151,8 +156,10 @@
         "notes": "時間指定入場券は数日前にオンラインで予約すること - 当日券購入者は通常2時間の行列に並ぶことになる。Colosseum/Forum/Palatine共通チケットは24時間有効なので、すべてを今日見る必要はないが、ほとんどの人は一日で回る。アリーナフロアへのアクセスは別チケットだが、取れるなら価値がある。",
         "walk_to_next": {
           "to": "Roman Forum",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 810,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -175,9 +182,11 @@
         "optimal_timing": "any",
         "notes": "Colosseum側からではなく、Via dei Fori Imperialiから入場してください。アーチを通って下に歩いていく際の高低差が映画のようなアプローチを演出します。水を持参しましょう。日陰がほとんどなく、大理石の道が熱を反射します。ForumとPalatineは技術的には一つのサイトですが、Palatineの登り道はさらに1時間かかります。",
         "walk_to_next": {
-          "to": "Piazza del Campidoglio",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Piazza del Campidoglio and Capitoline views",
+          "transport_mode": "walk",
+          "distance_meters": 290,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -242,7 +251,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 3,
@@ -251,8 +261,8 @@
       "neighborhood_focus": "Vatican City / Borgo",
       "neighborhood_description": "Rome市内にある独立国家で、Tiber川を西に渡って歩いて行くことができます。Vatican Museums、Sistine Chapel、St. Peter's大聖堂は一体となって、世界で最も多くの人が訪れる宗教・文化遺跡の一つを形成しています。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2000,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 2020,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Vatican Museums and Sistine Chapel",
         "wikidata_qid": "Q160821",
@@ -274,8 +284,10 @@
         "notes": "公式博物館サイトで数週間前にオンライン予約をしましょう。当日券の列は繁忙期には日常的に3時間を超えます。標準ルートは最後にSistine Chapelに向かうよう設計されており、礼拝堂内では右に進むとSt. Peter's大聖堂に直接出ることができます（多くのツアーグループがこの裏技を知っており、博物館スタッフの中にはグループ専用だと言う人もいますが、そうではありません）。",
         "walk_to_next": {
           "to": "St. Peter's Basilica",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 620,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -298,9 +310,11 @@
         "optimal_timing": "any",
         "notes": "入場は無料ですが、St. Peter's Squareのセキュリティチェックの列は長くなることがあります。ドレスコードが厳格に適用されており、肩と膝を覆う必要があり、例外はありません。ドームへの登頂は別料金のチケットが必要で、入口で購入する価値があります。エレベーターでほぼ頂上まで上がれますが、その後は狭い螺旋階段でlanternまで登ります。",
         "walk_to_next": {
-          "to": "Castel Sant'Angelo",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Castel Sant'Angelo and the bridge at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1400,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "evening": {
@@ -345,7 +359,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 59,
+  "last_verified": null
 }

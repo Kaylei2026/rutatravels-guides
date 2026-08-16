@@ -1,7 +1,7 @@
 {
   "destination": "Lake Como",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:12:28.846Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée ancrée dans la vieille ville médiévale de Como, se déplaçant de la cathédrale et de la grille de rues romaines jusqu'au bord du lac, puis en ferry ou à pied vers les jardins de villas qui définissent le caractère du lac. Le guide reste sur la rive occidentale où la concentration la plus facilement accessible d'histoire, de jardins et de points de vue se situe dans un arc compact.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 770,
+  "total_walking_minutes": 10,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Como old town / lakefront / Cernobbio",
       "neighborhood_description": "Le centre historique fortifié de Como préserve en grande partie sa grille de rues romaines, avec une cathédrale qui a pris trois siècles à construire s'élevant de la piazza médiévale. Sous les murs, une promenade bordée d'arbres s'étend vers le sud le long du lac jusqu'aux quais des ferries et aux jardins de villas qui ont rendu cette rive célèbre à travers l'Europe aux 18e et 19e siècles.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 770,
+      "day_walking_minutes": 10,
       "morning": {
         "activity_title": "Como Cathedral",
         "wikidata_qid": "Q942472",
@@ -41,8 +41,10 @@
         "notes": "La construction s'est étendue de 1396 à 1740, la façade est donc gothique, la nef est renaissance et le dôme est baroque tardif, tous trois dans un seul bâtiment. L'intérieur abrite un ensemble de tapisseries flamandes du 16e siècle accrochées haut sur les murs de la nef que la plupart des visiteurs dépassent sans lever les yeux. Entrez par la porte ouest sur Piazza del Duomo plutôt que par la porte latérale sur Via Plinio pour bénéficier de la pleine perspective axiale de la nef à l'entrée.",
         "walk_to_next": {
           "to": "Basilica of Sant'Abbondio",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 770,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Une église romane du 11e siècle à la lisière sud de la vieille ville, en dehors des murs romains, construite par les moines bénédictins et consacrée en 1095. Le cycle d'absides avec des fresques du 14e siècle représentant la vie du Christ compte parmi les séquences de fresques médiévales les mieux conservées de Lombardie et est presque toujours peu fréquentée. Les deux clochers carrés flanquant l'abside constituent la signature architecturale, approchez-la par Via Sant'Abbondio pour découvrir la pleine perspective de la façade aux deux tours.",
         "walk_to_next": {
-          "to": "Como lakefront and Villa Olmo",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Villa Olmo and the Como lakefront promenade",
+          "transport_mode": "transit",
+          "distance_meters": 2130,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 22,
+  "last_verified": null
 }

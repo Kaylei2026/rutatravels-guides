@@ -1,7 +1,7 @@
 {
   "destination": "Copenhagen",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:23:42.649Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day covering Copenhagen's historic core: the royal island of Slotsholmen, the medieval cathedral quarter, and the painted harbor front of Nyhavn. The cluster is compact enough to walk entirely without transit, building from royal and civic history in the morning to canal-side atmosphere in the evening.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2490,
+  "total_walking_minutes": 32,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Indre By / Slotsholmen / Nyhavn",
       "neighborhood_description": "Copenhagen's historic core sits on a tight peninsula between two arms of the harbor. Slotsholmen is an artificial island that has held the seat of Danish royal and governmental power since the 12th century. Immediately north, Indre By contains the university quarter, the cathedral, and the round tower. The whole district terminates at Nyhavn, the narrow canal dug in 1673 to pull merchant ships into the city center.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2490,
+      "day_walking_minutes": 32,
       "morning": {
         "activity_title": "Christiansborg Palace",
         "wikidata_qid": "Q319061",
@@ -41,8 +41,10 @@
         "notes": "The palace tower is free to climb and opens at 10am - go straight up before the tour groups arrive. At 106 meters it is the tallest accessible tower in Copenhagen and frames the entire historic center including Rosenborg, the Marble Church, and the Opera House across the harbor. The Royal Ruins in the basement expose the foundations of Bishop Absalon's original 1167 fortress and are included with the palace ticket.",
         "walk_to_next": {
           "to": "Copenhagen Cathedral",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 930,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "The neoclassical interior by C.F. Hansen (completed 1829) is the opposite of Gothic clutter - white walls, barrel vault, and Bertel Thorvaldsen's marble Christ as the altarpiece, with the twelve apostles lining the nave. Entry is free. The university main building directly opposite was designed by the same architect in the same decade, giving the square a rare coherence for a northern European city center.",
         "walk_to_next": {
-          "to": "Rundetaarn",
-          "distance_meters": 310,
-          "walking_minutes": 4
+          "to": "Nyhavn",
+          "transport_mode": "walk",
+          "distance_meters": 1560,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 32,
+  "last_verified": null
 }

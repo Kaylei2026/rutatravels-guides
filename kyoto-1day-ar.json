@@ -1,7 +1,7 @@
 {
   "destination": "Kyoto",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:27:23.585Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد مركز على منطقة Higashiyama - أكثر امتدادات كيوتو السابقة للعصر الحديث سلامة، يمتد من Kiyomizudera على التل الجنوبي عبر ممرات مرصوفة بالحجارة إلى Gion وقناة Shirakawa. اليوم بأكمله قابل للمشي دون استخدام المواصلات العامة ويرسم صورة متناسقة لطبقات المدينة من معابد البوذية والأضرحة الشنتوية وأحياء التجار.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3900,
-  "total_walking_minutes": 49,
+  "total_walking_distance_meters": 1700,
+  "total_walking_minutes": 21,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Higashiyama",
       "neighborhood_description": "شريط ضيق من التلال شرق وسط كيوتو حيث نجت شبكة الشوارع العصرية من الحريق والحرب وإعادة التطوير. يرسي Kiyomizudera الطرف الجنوبي على منحدر مكتسي بالغابات، وتربط شبكة الممرات في Ninenzaka و Sannenzaka الشمال إلى Kodai-ji و Maruyama Park وفي النهاية إلى شوارع ochaya (دور الشاي) المحفوظة في Gion على طول قناة Shirakawa. يغطي التسلسل بأكمله حوالي ثلاثة كيلومترات ويمكن المشي فيه من الجنوب إلى الشمال في يوم واحد.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1700,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Kiyomizudera",
         "wikidata_qid": "Q588191",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "توجه إلى الافتتاح في الساعة 6 صباحًا لتجد المسرح الخشبي الشهير - الممتد بدون دعامات 13 مترًا فوق التلة المغطاة بالغابات دون مسمار واحد - خاليًا تقريبًا قبل وصول حافلات الجولات السياحية في الساعة 8:30 صباحًا. المسار الصاعد عبر Chawan-zaka (Teapot Lane) من الجنوب أكثر هدوءًا وانحدارًا أكثر حدة من طريق Kiyomizu-zaka الرئيسي؛ ويلتقي بالمسار الرئيسي أسفل بوابة Nio-mon مباشرة. مياه الينابيع من شلال Otowa أسفل المسرح تنقسم إلى ثلاث تيارات منفصلة، يُقال إن كل منها يمنح فائدة مختلفة - والعادة أن تشرب من واحد فقط.",
         "walk_to_next": {
-          "to": "Ninenzaka and Sannenzaka lanes",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Ninenzaka and Sannenzaka",
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "حارتان متصلتان مرصوفتان بالحجر - Sannenzaka (Third Year Slope) و Ninenzaka (Second Year Slope) - مصطفتان بمنازل machiya من عصري Meiji و Taisho تحولت إلى متاجر حرف يدوية وكافيهات matcha وبائعي أدوات البولندية. امشِ شمالًا عبر كليهما بدلاً من العودة للخلف: Sannenzaka هي القسم الأسفل الأكثر انحدارًا، و Ninenzaka الانحناء الأعلى الأكثر سهولة الذي يؤدي نحو Kodai-ji. يعتقد السكان المحليون أن السقوط على هذه الدرجات يجلب سنتين أو ثلاث سنوات من سوء الحظ على التوالي - الدرجات غير متساوية بحق، لذا فإن التحذير له أساس عملي.",
         "walk_to_next": {
-          "to": "Kodai-ji Temple",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Gion - Hanamikoji and Shirakawa",
+          "transport_mode": "walk",
+          "distance_meters": 1030,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -127,7 +131,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 21,
+  "last_verified": null
 }

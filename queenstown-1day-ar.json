@@ -1,7 +1,7 @@
 {
   "destination": "Queenstown",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:18:38.723Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد يغطي أساسيات تجربة Queenstown: وسط المدينة على الواجهة البحرية، وإطلالة Remarkables من Bob's Peak، ورحلة بعد الظهيرة إلى منطقة Arrowtown التاريخية من عصر التنقيب عن الذهب. يبدأ اليوم بالتجول على مستوى البحيرة وينتقل إلى نقطة مراقبة مرتفعة وينتهي بأفضل شريط غروب شمس في المدينة.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 1890,
+  "total_walking_minutes": 23,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Queenstown Town Centre / Waterfront / Bob's Peak",
       "neighborhood_description": "تقع Queenstown على شبه جزيرة ضيقة تمتد إلى Lake Wakatipu، محاطة من الخلف بـ Queenstown Hill الشديد الانحدار. وسط المدينة مضغوط وسهل المشي، حيث يقع الممشى الساحلي و Steamer Wharf وقاعدة التلفريك على بعد دقائق قليلة من بعضها البعض. يرتفع Bob's Peak مسافة 450 متر مباشرة فوق المدينة ويوفر إطلالة حتمية على البحيرة وسلسلة Remarkables.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1890,
+      "day_walking_minutes": 23,
       "morning": {
         "activity_title": "Queenstown Gardens",
         "wikidata_qid": "Q7270237",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "تشغل الحدائق شبه جزيرة tombolo بكاملها التي تحمي مرسى المدينة. سيري على مسار المحيط الخارجي في اتجاه عقارب الساعة - الشاطئ الشرقي يواجه مباشرة Cecil Peak ويوفر أوضح إطلالة خالية من العوائق على سلسلة Remarkables، مع المياه الهادئة قبل أن تهب الرياح بعد الظهر. أشجار Douglas fir في الداخل تعود إلى زراعة الثمانينيات من القرن التاسع عشر وهي من بين الأكبر في الجزيرة الجنوبية.",
         "walk_to_next": {
-          "to": "Queenstown Waterfront and Steamer Wharf",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Skyline Queenstown Gondola and Bob's Peak",
+          "transport_mode": "walk",
+          "distance_meters": 990,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "قاعدة التلفريك على مسافة قصيرة سيراً على الأقدام صعوداً من نهاية Beach Street من وسط المدينة - اتبعي Brecon Street بدلاً من شارع السياحة للوصول إليها دون الازدحام. في الأعلى، سيري إلى اليسار بجانب مسار الزحافات إلى نقطة المراقبة على التلّ، والتي تبعد حوالي 100 متر بعد المكان الذي يتوقف عنده معظم الزوار - القوس الكامل لـ Lake Wakatipu من Remarkables إلى Cecil Peak ينفتح من هناك. إذا جلست السحب على Remarkables، انتظري 20 دقيقة؛ الوادي يتضح بشكل متكرر بحلول الظهيرة.",
         "walk_to_next": {
-          "to": "Steamer Wharf",
-          "distance_meters": 910,
-          "walking_minutes": 12
+          "to": "Steamer Wharf and Queenstown Bay waterfront",
+          "transport_mode": "walk",
+          "distance_meters": 900,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 16
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 23
     }
-  ]
+  ],
+  "total_travel_minutes": 23,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Rome",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T13:00:00Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Cinque giorni per coprire gli essenziali di Roma più la riva bohémien ovest e il verde nordest. Ogni giornata è geograficamente autocontenuta.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 9120,
-  "total_walking_minutes": 117,
+  "total_walking_distance_meters": 8150,
+  "total_walking_minutes": 103,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Centro Storico",
       "neighborhood_description": "Il denso quartiere storico tra l'ansa del Tevere e Via del Corso. Templi romani, piazze barocche e mercati sovrapposti su due millenni di reticolo stradale.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1020,
-      "day_walking_minutes": 13,
+      "day_walking_distance_meters": 1540,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Pantheon",
         "wikidata_qid": "Q1142794",
@@ -49,9 +49,11 @@
         "optimal_timing": "morning",
         "notes": "Arrivate all'apertura (ore 9) per vedere il raggio dell'oculo posarsi nitidamente sull'interno prima che il pavimento si riempia di gruppi turistici. Ora si applica un piccolo biglietto d'ingresso nei giorni feriali; la messa domenicale è gratuita ma limita i movimenti all'interno.",
         "walk_to_next": {
-          "to": "Piazza Navona",
-          "distance_meters": 320,
-          "walking_minutes": 4
+          "to": "Piazza Navona and Sant'Agnese in Agone",
+          "transport_mode": "walk",
+          "distance_meters": 420,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -74,9 +76,11 @@
         "optimal_timing": "any",
         "notes": "Costruita sulla pianta dello Stadium of Domitian, ecco perché la forma è allungata. La Fountain of the Four Rivers è del Bernini; la facciata della chiesa di fronte è del suo rivale Borromini - i due litigano attraverso la piazza dagli anni 1650.",
         "walk_to_next": {
-          "to": "Trevi Fountain",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trevi Fountain after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -121,7 +125,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 2,
@@ -130,8 +135,8 @@
       "neighborhood_focus": "Monti / Celio / Palatino",
       "neighborhood_description": "L'angolo sudorientale della Roma centrale dove l'antica città veniva governata e intrattenuta. Il Colosseum, il Forum e il Palatine condividono un unico biglietto e un'unica zona archeologica che copre quasi un chilometro quadrato.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 1100,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Colosseum",
         "wikidata_qid": "Q10285",
@@ -153,8 +158,10 @@
         "notes": "Prenota il biglietto con orario di ingresso online con giorni di anticipo - chi si presenta senza prenotazione affronta regolarmente code di 2 ore. Il biglietto combinato Colosseum/Forum/Palatine è valido per 24 ore quindi non devi fare tutto oggi, ma la maggior parte delle persone lo fa. L'accesso al piano dell'arena è un biglietto separato e ne vale la pena se riesci a ottenerlo.",
         "walk_to_next": {
           "to": "Roman Forum",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 810,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -177,9 +184,11 @@
         "optimal_timing": "any",
         "notes": "Entra da Via dei Fori Imperiali, non dal lato del Colosseum - camminare in discesa attraverso gli archi è l'approccio cinematografico. Porta l'acqua; non c'è quasi ombra e i sentieri di marmo riflettono il calore.",
         "walk_to_next": {
-          "to": "Piazza del Campidoglio",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Piazza del Campidoglio and Capitoline views",
+          "transport_mode": "walk",
+          "distance_meters": 290,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -224,7 +233,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 3,
@@ -233,8 +243,8 @@
       "neighborhood_focus": "Vatican City / Borgo",
       "neighborhood_description": "Uno stato indipendente dentro Roma, raggiungibile camminando verso ovest attraverso il Tiber. I Vatican Museums, la Sistine Chapel e St. Peter's insieme formano uno dei siti religiosi e culturali più visitati al mondo.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2000,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 2020,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Vatican Museums and Sistine Chapel",
         "wikidata_qid": "Q160821",
@@ -256,8 +266,10 @@
         "notes": "Prenota online sul sito ufficiale del museo con settimane di anticipo - le code senza prenotazione superano regolarmente le 3 ore in stagione. Il percorso standard incanalizza tutti verso la Sistine Chapel alla fine; una volta dentro la cappella puoi uscire direttamente verso St. Peter's se vai a destra.",
         "walk_to_next": {
           "to": "St. Peter's Basilica",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 620,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -280,9 +292,11 @@
         "optimal_timing": "any",
         "notes": "L'ingresso è gratuito ma la coda di sicurezza in St. Peter's Square può essere lunga. Il codice di abbigliamento è applicato rigorosamente - spalle e ginocchia coperte, senza eccezioni. La salita alla cupola è un biglietto separato che vale la pena comprare all'ingresso.",
         "walk_to_next": {
-          "to": "Castel Sant'Angelo",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Castel Sant'Angelo and the bridge at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1400,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "evening": {
@@ -327,7 +341,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 4,
@@ -336,8 +351,8 @@
       "neighborhood_focus": "Trastevere",
       "neighborhood_description": "Oltre il Tevere a sud del Vaticano, Trastevere è il quartiere più suggestivo di Roma - vicoli medievali stretti, facciate ricoperte d'edera e una storia operaia che ancora traspare attraverso i bar e le trattorie ora gentrificati.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1400,
-      "day_walking_minutes": 18,
+      "day_walking_distance_meters": 1130,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Santa Maria in Trastevere",
         "wikidata_qid": "Q200751",
@@ -359,8 +374,10 @@
         "notes": "Una delle chiese più antiche di Roma con una tradizione continua di culto pubblico dal III secolo. Il mosaico absidale del XII secolo che raffigura Maria in trono accanto a Cristo è il pezzo forte - visitala quando la luce del sole filtra da est per vedere l'oro prendere vita.",
         "walk_to_next": {
           "to": "Villa Farnesina",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 590,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -378,9 +395,11 @@
         "optimal_timing": "any",
         "notes": "Una villa rinascimentale con affreschi di Raffaello - molto meno affollata dei Musei Vaticani ma con una forza artistica comparabile. La Loggia di Amore e Psiche e il Trionfo di Galatea sono i punti salienti. Chiusa la domenica tranne la seconda domenica del mese.",
         "walk_to_next": {
-          "to": "Gianicolo Hill viewpoint",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Gianicolo Hill at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -420,7 +439,8 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 5,
@@ -429,8 +449,8 @@
       "neighborhood_focus": "Pinciano / Campo Marzio",
       "neighborhood_description": "Il quadrante nordorientale del centro di Roma dove il più grandioso parco della città incontra l'elegante griglia del Tridente - tre strade che si aprono a ventaglio verso sud da Piazza del Popolo e che rappresentano l'indirizzo più alla moda di Roma dal XVII secolo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 2360,
+      "day_walking_minutes": 30,
       "morning": {
         "activity_title": "Galleria Borghese",
         "wikidata_qid": "Q190044",
@@ -446,9 +466,11 @@
         "optimal_timing": "morning",
         "notes": "Prenotazione anticipata obbligatoria con ingresso a orario - il museo limita ogni fascia di due ore a poche centinaia di persone, ed è per questo che rimane una delle esperienze museali più piacevoli di Roma. Qui si trovano l'Apollo e Dafne e il David di Bernini, insieme ai Caravaggio e la Paolina Bonaparte del Canova. Il limite di due ore viene applicato rigorosamente.",
         "walk_to_next": {
-          "to": "Pincio Terrace",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Pincio Terrace and Villa Borghese gardens",
+          "transport_mode": "walk",
+          "distance_meters": 1490,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "afternoon": {
@@ -466,9 +488,11 @@
         "optimal_timing": "any",
         "notes": "La terrazza del Pincio si affaccia su Piazza del Popolo con una vista a lunga distanza attraverso i tetti fino alla cupola di San Pietro. I giardini di Villa Borghese si estendono verso nord ed est - noleggio bici vicino all'ingresso se volete coprire più territorio.",
         "walk_to_next": {
-          "to": "Piazza di Spagna",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Spanish Steps and Piazza di Spagna",
+          "transport_mode": "walk",
+          "distance_meters": 870,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -513,7 +537,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 30
     }
-  ]
+  ],
+  "total_travel_minutes": 103,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Bend, Oregon",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:00:22.049Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Bendの地理的・文化的中心地を巡る1日のコース。この地域を特徴づける火山地帯、街の中心を流れる川沿いの公園、そしてクラフトビール文化が生まれたコンパクトなダウンタウンの繁華街を訪れます。古代から現代へと時間を遡りながら進み、最終的には町が最も活気を見せる場所で終わります。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Drake Park / Mirror Pond / Downtown Bend",
       "neighborhood_description": "Bendは Cascades山脈の東端に位置し、High Desert が Deschutes River と出会う場所にあります。ダウンタウンの中心地はコンパクトで歩きやすく、西側には Drake Park と Mirror Pond が隣接しています。南部の火山性の Newberry 地域は、この一帯全体の地質的な特徴を形作っており、溶岩原、スコリア丘、そして過去数千年以内に活動していた黒曜石の流れが見られます。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Newberry National Volcanic Monument",
         "wikidata_qid": "Q1378429",
@@ -41,8 +41,10 @@
         "notes": "Bend から US-97 を南に約 23 マイル進むとモニュメント入口に到着します。Big Obsidian Flow は 1,300 年前の溶岩流で、漆黒の火山ガラスに覆われており、駐車場から短い 0.5 マイルのループトレイルでアクセスできます。朝日が黒曜石の表面に当たると独特の光沢が際立ちますが、正午までには反射が強すぎて周囲が平坦に見えてしまいます。Northwest Forest Pass または America the Beautiful pass があれば、トレイルヘッドの日帰り利用料金がカバーされます。",
         "walk_to_next": {
           "to": "Drake Park and Mirror Pond",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "drive",
+          "distance_meters": 53350,
+          "travel_minutes": 54,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "このパークは downtown の真西に位置し、Deschutes River に沿っています。Wall Street 駐車場ではなく Riverside Boulevard から入園すると、晴れた日には Cascades が水面に映る Mirror Pond の光景を最初から楽しめます。この池は小さなダムで形成されており、周囲のポンデローサ松が映り込みます。舗装された河沿いのパスは downtown の北部に直結しているため、戻る必要がありません。",
         "walk_to_next": {
           "to": "Old Mill District",
-          "distance_meters": 1560,
-          "walking_minutes": 19
+          "transport_mode": "drive",
+          "distance_meters": 1550,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 61
     }
-  ]
+  ],
+  "total_travel_minutes": 61,
+  "last_verified": null
 }

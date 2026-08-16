@@ -1,7 +1,7 @@
 {
   "destination": "Los Angeles",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:50:38.100Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tres días cubriendo los elementos esenciales de Los Angeles: el observatorio y parque en la colina que define el horizonte de la ciudad, el núcleo cultural e histórico denso de Downtown, y la franja costera donde la ciudad se encuentra con el Pacífico. Cada día está geográficamente autocontenido y es accesible en coche desde la mayoría de alojamientos en menos de 30 minutos.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 1160,
+  "total_walking_minutes": 15,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Griffith Park / Los Feliz",
       "neighborhood_description": "Griffith Park es uno de los parques urbanos más grandes de Estados Unidos, cubriendo más de 4,300 acres de colinas cubiertas de chaparral al noreste de Hollywood. Contiene el Griffith Observatory, el Greek Theatre, y una red de senderos con vistas despejadas desde las Santa Monica Mountains hasta el Pacífico en días claros. Los Feliz debajo es un barrio transitable de principios del siglo XX con bloques de apartamentos Art Deco y una franja comercial principal en Vermont Avenue.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Griffith Observatory",
         "wikidata_qid": "Q1396488",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "Llegue antes de las 10am para conseguir un lugar de estacionamiento en el lote superior del observatorio - se llena a media mañana los fines de semana y el transporte desde el sendero de Vermont Avenue añade 20 minutos en cada dirección. La terraza orientada al sur ofrece la vista canónica del Los Angeles Basin; en una mañana clara de invierno o primavera puedes seguir la cuadrícula desde Downtown hasta el océano. El telescopio Zeiss en la cúpula principal es gratuito para usar en las tardes claras.",
         "walk_to_next": {
-          "to": "Griffith Park trails to the Beacon Hill viewpoint",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Griffith Park",
+          "transport_mode": "drive",
+          "distance_meters": 2820,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -63,8 +65,10 @@
         "notes": "Los senderos Brush Canyon y Beacon Hill orientados al oeste desde el observatorio tienen menos tráfico que el sendero principal Hollyridge y ofrecen mejores líneas de visión hacia el Hollywood Sign. El letrero en sí es deliberadamente difícil de fotografiar de cerca - la mejor vista compuesta de él con las colinas detrás es desde el área de observación al final de Canyon Drive, no desde la terraza del observatorio.",
         "walk_to_next": {
           "to": "The Greek Theatre",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "drive",
+          "distance_meters": 3610,
+          "travel_minutes": 10,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 11
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Downtown Los Angeles / Bunker Hill",
       "neighborhood_description": "Bunker Hill es el núcleo elevado del Downtown Los Angeles, despejado de viviendas victorianas en la década de 1960 y reconstruido como distrito cultural anclado por el Walt Disney Concert Hall, el Museum of Contemporary Art y el Broad. Al este y al sur, el corredor histórico de Broadway y la Plaza albergan los edificios más antiguos de la ciudad, incluido el distrito teatral en funcionamiento continuo más antiguo de Estados Unidos.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1980,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 820,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Grand Central Market",
         "wikidata_qid": "Q5586748",
@@ -151,7 +156,9 @@
         "notes": "Funcionando continuamente desde 1917 en una galería comercial de planta baja en Broadway, el mercado sirve como punto de referencia de facto para desayunos y café en Downtown. Llega antes de las 9am para conseguir asientos en la barra de Egg Slut o Ana Maria sin espera. La fachada de Broadway aún conserva su ornamentación original de terracota de 1917; mira hacia los pisos superiores para ver la señalización de azulejos que sobrevive.",
         "walk_to_next": {
           "to": "Bradbury Building",
+          "transport_mode": "walk",
           "distance_meters": 120,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -171,8 +178,10 @@
         "notes": "Un edificio de oficinas de 1893 cuyo atrio central - claraboya acristalada, hierro forjado ornamental, ascensores de jaula abierta - se encuentra entre los mejores interiores victorianos del oeste de Estados Unidos. El acceso público se limita a la planta baja y el primer rellano sin una razón comercial, pero es suficiente para ver todo el atrio de cinco pisos. La luz natural alcanza su máximo a media mañana cuando la claraboya sur está completamente iluminada; evita las visitas vespertinas cuando el lado oeste queda en sombra.",
         "walk_to_next": {
           "to": "Walt Disney Concert Hall",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 700,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 11
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Venice / Santa Monica",
       "neighborhood_description": "La franja costera donde Los Angeles se encuentra con el Pacífico, extendiéndose desde los Venice Canals y Abbot Kinney Boulevard hacia el norte hasta el Santa Monica Pier y Palisades Park. Venice fue construida en 1905 como un parque temático inspirado en su homónimo italiano; Santa Monica se desarrolló como un resort costero y ahora es una ciudad playera urbana transitable con un paseo peatonal sin automóviles y un muelle que marca el término occidental de la Route 66.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 340,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Venice Canal Historic District",
         "wikidata_qid": "Q7919619",
@@ -259,8 +269,10 @@
         "notes": "Seis cuadras de canales supervivientes del desarrollo original de 1905 de Abbot Kinney, bordeados de bungalós y conectados por puentes peatonales arqueados. Ingrese desde Dell Avenue en lugar del extremo turístico de Washington Street - la sección norte entre Eastern y Carroll canals es más tranquila, menos fotografiada y conserva más de la escala original de bungalós. La mayoría de las calles de los canales son residenciales y estrechas; la caminata es mejor antes de las 10am cuando la luz viene del este a través del agua.",
         "walk_to_next": {
           "to": "Venice Beach Boardwalk",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 340,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -279,8 +291,10 @@
         "notes": "El malecón se extiende aproximadamente dos millas al norte desde el Venice Pier hacia Santa Monica y está en su momento más performativo las tardes de fin de semana. Muscle Beach Outdoor Gym en el extremo sur es una institución local genuina que data de la década de 1930, no una recreación turística. La transición del malecón de Venice al sendero para bicicletas de Santa Monica no está marcada pero es visible - el pavimento se convierte en un carril dedicado para ciclistas y los puestos de vendedores dan paso a canchas de voleibol.",
         "walk_to_next": {
           "to": "Santa Monica Pier",
-          "distance_meters": 950,
-          "walking_minutes": 12
+          "transport_mode": "drive",
+          "distance_meters": 4990,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     }
-  ]
+  ],
+  "total_travel_minutes": 46,
+  "last_verified": null
 }

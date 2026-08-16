@@ -1,7 +1,7 @@
 {
   "destination": "New Orleans",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:58:31.448Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Trois jours pour découvrir les incontournables de New Orleans : le plan de rue colonial et les balcons en fer forgé du French Quarter, le cœur culturel afro-américain de Tremé et les couloirs musicaux du Marigny, ainsi que les demeures d'avant-guerre et la ligne de tramway sous les chênes du Garden District. Chaque journée est géographiquement autonome.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 2690,
+  "total_walking_minutes": 34,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "French Quarter",
       "neighborhood_description": "Malgré son nom, la plupart de ce qui subsiste aujourd'hui est une construction coloniale espagnole, reconstruite après deux incendies dans les années 1780 et 1790. Le Quarter est une grille compacte de treize îlots sur six, blottie contre un méandre du Mississippi. Jackson Square ancre l'extrémité côté fleuve ; Rampart Street marque la frontière historique avec Tremé au nord.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 470,
+      "day_walking_minutes": 6,
       "morning": {
         "activity_title": "St. Louis Cathedral",
         "wikidata_qid": "Q1143010",
@@ -43,7 +43,9 @@
         "notes": "La cathédrale en activité continue la plus ancienne des États-Unis, consacrée en 1794 sur l'emplacement de deux églises antérieures. Entrez par le côté Jackson Square - la façade blanc et gris flanquée de ses deux tours est l'image emblématique de New Orleans. La messe matinale en semaine (généralement 8h) attire une petite congrégation locale et l'intérieur est paisible avant l'arrivée des groupes de touristes vers 10h.",
         "walk_to_next": {
           "to": "Jackson Square",
-          "distance_meters": 80,
+          "transport_mode": "walk",
+          "distance_meters": 90,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "L'ancienne Place d'Armes, réaménagée en 1856 autour d'une statue équestre d'Andrew Jackson. Faites le tour du périmètre pour admirer les Pontalba Buildings qui l'encadrent - ces immeubles d'appartements en brique rouge des années 1840 de chaque côté comptent parmi les plus anciens immeubles d'appartements des États-Unis et furent construits par une baronne qui survécut à une tentative de meurtre de son beau-père. La levée derrière la cathédrale offre une vue directe sur le Mississippi de près.",
         "walk_to_next": {
-          "to": "The Historic New Orleans Collection",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "to": "Preservation Hall",
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 6
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Tremé / Faubourg Marigny",
       "neighborhood_description": "Tremé, immédiatement au nord du French Quarter de l'autre côté de Rampart Street, fut établi par des gens de couleur libres avant la Guerre de Sécession et constitue le plus ancien quartier afro-américain des États-Unis. Le Faubourg Marigny, tracé au début des années 1800 du côté aval du Quarter, ancre maintenant la scène musicale live de la ville sur Frenchmen Street - une concentration de clubs sur un bloc que les habitants utilisent comme contrepoids à Bourbon Street.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2060,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 1600,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "St. Louis Cemetery No. 1",
         "wikidata_qid": "Q3488051",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "Le plus ancien cimetière survivant de New Orleans, ouvert en 1789. La nappe phréatique élevée de la ville rendait l'enterrement conventionnel impossible, ce qui explique pourquoi toutes les tombes sont des voûtes de marbre et de brique hors-sol empilées famille sur famille à travers les générations. Depuis 2015, l'entrée est restreinte aux visites officielles approuvées par l'Archidiocèse ou aux visites avec un lien familial documenté - réservez une visite par Save Our Cemeteries, qui organise des promenades matinales en petits groupes de 45 minutes et finance la préservation. La tombe que la plupart des visiteurs recherchent est celle blanchie à la chaux, attribuée à Marie Laveau, la Reine Voodoo du 19e siècle.",
         "walk_to_next": {
-          "to": "Congo Square / Louis Armstrong Park",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Louis Armstrong Park and Congo Square",
+          "transport_mode": "walk",
+          "distance_meters": 200,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "L'espace ouvert central du parc est Congo Square, où les esclaves étaient légalement autorisés à se rassembler le dimanche pendant toute la période coloniale française et espagnole - les tambours et la danse qui se déroulaient ici constituent l'une des racines directes du jazz et du funk. La porte d'entrée sur Rampart Street encadre une statue en bronze de Louis Armstrong à l'extrémité d'un long bassin réfléchissant. Le Mahalia Jackson Theater et le Municipal Auditorium se trouvent dans le parc mais la place elle-même est la destination culturelle.",
         "walk_to_next": {
-          "to": "Frenchmen Street",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Frenchmen Street live music corridor",
+          "transport_mode": "walk",
+          "distance_meters": 1400,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Garden District / Uptown",
       "neighborhood_description": "Développé dans les années 1830 et 1840 par des marchands américains qui s'installèrent en amont du Creole Quarter après le Louisiana Purchase, le Garden District est un mile carré de demeures Greek Revival et italiennes situées sur de vastes terrains avec des jardins subtropicaux matures. St. Charles Avenue, qui longe sa bordure nord, abrite l'une des plus anciennes lignes de tramway en fonctionnement continu au monde.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 620,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Garden District mansion walk",
         "wikidata_qid": "Q1494846",
@@ -239,7 +249,9 @@
         "notes": "Une visite à pied autoguidée fonctionne mieux dans les quartiers entre St. Charles et Magazine Street, approximativement de Jackson Avenue à Louisiana Avenue. Prytania Street est le meilleur quartier - la Brevard-Rice House au 1239 Prytania est la demeure la plus photographiée et a servi d'extérieur pour la maison des sorcières dans Interview with the Vampire. Le matin offre une lumière plus douce à travers la canopée de chênes avant que la chaleur de midi ne s'installe. Les trottoirs sont inégaux partout ; des chaussures confortables sont importantes.",
         "walk_to_next": {
           "to": "Lafayette Cemetery No. 1",
-          "distance_meters": 350,
+          "transport_mode": "walk",
+          "distance_meters": 330,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -258,9 +270,11 @@
         "optimal_timing": "any",
         "notes": "Un cimetière urbain clos ouvert en 1833 et toujours entretenu par le quartier du Garden District. Contrairement à St. Louis No. 1, celui-ci est librement accessible sans visite guidée. Deux allées principales traversent l'intérieur et une grande partie des inscriptions témoigne des épidémies de fièvre jaune des années 1850, qui tuèrent des milliers d'immigrants irlandais et allemands récents. Les chênes centraux sont parmi les plus grands de la ville et maintiennent l'intérieur frais. Le personnage fictif d'Anne Rice, Lestat de Lioncourt, y fut enterré dans The Vampire Lestat.",
         "walk_to_next": {
-          "to": "St. Charles Avenue streetcar",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "St. Charles Avenue Streetcar and Audubon Park",
+          "transport_mode": "walk",
+          "distance_meters": 290,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     }
-  ]
+  ],
+  "total_travel_minutes": 34,
+  "last_verified": null
 }

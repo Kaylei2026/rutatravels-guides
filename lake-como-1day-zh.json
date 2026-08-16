@@ -1,7 +1,7 @@
 {
   "destination": "Lake Como",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:12:28.846Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "在Como的中世纪老城区停留一天,从大教堂和罗马街道网格出发,向下前往湖畔,然后乘坐渡轮或徒步前往定义了该湖特色的别墅花园。本指南重点介绍西岸,这里浓缩了最易于步行游览的历史、花园和观景点。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 770,
+  "total_walking_minutes": 10,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Como old town / lakefront / Cernobbio",
       "neighborhood_description": "Como的围墙历史中心基本完整地保留了罗马街道网格,一座耗时三个世纪才建成的大教堂从中世纪广场上拔地而起。城墙下方,一条林荫林荫道向南延伸至湖畔,通往渡轮码头和别墅花园 - 这些花园在18世纪和19世纪使该岸在整个欧洲闻名遐迩。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 770,
+      "day_walking_minutes": 10,
       "morning": {
         "activity_title": "Como Cathedral",
         "wikidata_qid": "Q942472",
@@ -41,8 +41,10 @@
         "notes": "建筑施工从1396年跨越到1740年，因此立面是哥特式，中殿是文艺复兴式，圆顶是晚期巴洛克式 - 所有这些风格汇聚在一座建筑内。内部装有一套16世纪的弗兰德斯挂毯，悬挂在中殿的高墙上，大多数游客走过时都没有抬头观看。从Piazza del Duomo西门进入而非Via Plinio边门进入，可以在进门时获得完整的中轴线中殿景观。",
         "walk_to_next": {
           "to": "Basilica of Sant'Abbondio",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 770,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "这是一座11世纪罗马风格教堂，位于老城南边界，在罗马城墙外 - 由本笃会修士建造，1095年奉献。后殿的14世纪壁画循环展现基督生平，是伦巴第地区保存最完好的中世纪壁画序列之一，而且几乎总是游客稀少。两座方形钟楼横列于后殿两侧，是建筑特征，从Via Sant'Abbondio靠近可以完整看到双塔立面。",
         "walk_to_next": {
-          "to": "Como lakefront and Villa Olmo",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Villa Olmo and the Como lakefront promenade",
+          "transport_mode": "transit",
+          "distance_meters": 2130,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 22,
+  "last_verified": null
 }

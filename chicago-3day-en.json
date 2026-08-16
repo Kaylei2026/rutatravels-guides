@@ -1,7 +1,7 @@
 {
   "destination": "Chicago",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:54:42.035Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days covering Chicago's essentials: the architectural Loop with its lakefront parks and public art, the Museum Campus concentration of world-class science and natural history institutions on the lakefront, and the River North gallery district with the Magnificent Mile and the Chicago River architecture corridor. Each day is geographically self-contained.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 7800,
-  "total_walking_minutes": 98,
+  "total_walking_distance_meters": 3640,
+  "total_walking_minutes": 47,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "The Loop / Millennium Park",
       "neighborhood_description": "The Loop is Chicago's central business district, named for the elevated train tracks that encircle it, and the crucible of American architecture - the skyscraper was invented here in the 1880s. Millennium Park at its eastern edge is an outdoor cultural campus built on a former rail yard, with monumental public art and free summer concerts.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 1010,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Chicago Architecture Center River Cruise",
         "wikidata_qid": "Q5096549",
@@ -42,8 +42,10 @@
         "optimal_timing": "morning",
         "notes": "The Chicago Architecture Center operates the definitive architecture boat tour on the Chicago River - 75 minutes, narrated by trained docents covering over 50 buildings. Board at Michigan Avenue and the river (the lower Wacker Drive level, not street level). Morning departure times see the east-facing facades in the best light, and the boat is less crowded than afternoon runs. Book online in advance; weekend tours sell out days ahead.",
         "walk_to_next": {
-          "to": "Millennium Park",
-          "distance_meters": 550,
+          "to": "Millennium Park and Cloud Gate",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
           "walking_minutes": 7
         }
       },
@@ -63,8 +65,10 @@
         "notes": "Anish Kapoor's Cloud Gate sculpture - universally called the Bean - reflects the skyline in a distorted panorama and is most interesting from directly underneath, where the concave underside creates a disorienting fish-eye dome. Walk north to Jaume Plensa's Crown Fountain, two 50-foot glass-brick towers that display Chicagoans' faces and periodically spit water. The Jay Pritzker Pavilion bandshell behind is Frank Gehry's only permanent public work.",
         "walk_to_next": {
           "to": "Art Institute of Chicago",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Museum Campus / Near South Side",
       "neighborhood_description": "Museum Campus is a 57-acre park on a lakefront peninsula just south of Grant Park, home to three major institutions - the Field Museum, Shedd Aquarium, and Adler Planetarium. The arrangement, with unobstructed lake views and the city skyline directly to the north, is one of the most dramatic museum settings in the world.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 1170,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Field Museum of Natural History",
         "wikidata_qid": "Q1122595",
@@ -151,8 +156,10 @@
         "notes": "One of the largest natural history museums in the world, with 40 million specimens across botany, geology, anthropology, and zoology. Sue, one of the most complete T. rex skeletons ever found, stands in the main Stanley Field Hall and is still the building's centerpiece despite a newer display. Arrive when doors open at 9am; the hall is calm for the first 45 minutes before school groups arrive. The ancient Egypt galleries and the underground Evolving Planet hall are the two strongest permanent exhibits.",
         "walk_to_next": {
           "to": "Shedd Aquarium",
-          "distance_meters": 450,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Opened in 1930, the Shedd was the first inland aquarium in the United States to have a permanent saltwater collection. The Caribbean Reef tank in the central rotunda is visible from multiple levels - look for it from the upper balcony, where you can see the full oval tank in cross-section. Dolphin and beluga shows are the crowd draws; the Pacific white-sided dolphin habitat on the upper level is less crowded and gives you eye-level proximity to the animals.",
         "walk_to_next": {
-          "to": "Adler Planetarium lakefront viewpoint",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Adler Planetarium and lakefront skyline view",
+          "transport_mode": "walk",
+          "distance_meters": 790,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "River North / Magnificent Mile",
       "neighborhood_description": "The Magnificent Mile is the stretch of Michigan Avenue north of the Chicago River, lined with landmark early skyscrapers and the Water Tower, one of the few structures to survive the 1871 Great Chicago Fire. River North, immediately to the west, is Chicago's gallery district and home to the densest concentration of art galleries outside Manhattan.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3000,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 1460,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Chicago Riverwalk",
         "wikidata_qid": "Q5094380",
@@ -259,8 +269,10 @@
         "notes": "The lower-level pedestrian path along the south bank of the Chicago River, running from Lake Shore Drive west to Lake Street. Walk it eastbound in the morning so you face the sun-lit facades of the riverside towers rather than squinting into it. The section between Michigan Avenue and State Street passes under five consecutive bridges and the perspective upward through the bascule bridge underbellies is an overlooked Chicago photograph. Several kayak rental outfitters operate from the Riverwalk in summer.",
         "walk_to_next": {
           "to": "Tribune Tower",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 1180,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "any",
         "notes": "The 1925 Gothic skyscraper built for the Chicago Tribune after a 1922 design competition that drew 263 entries from 23 countries and became a defining event in American architectural history. Walk the base of the building at street level - 148 fragments of famous buildings and monuments from around the world are embedded in the exterior limestone, including pieces of the Parthenon, the Great Wall of China, the Taj Mahal, and the Berlin Wall. Each fragment is labeled. The building is now residential so interior access is limited.",
         "walk_to_next": {
-          "to": "Water Tower Place and Chicago Water Tower",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Chicago Water Tower",
+          "transport_mode": "walk",
+          "distance_meters": 280,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 47,
+  "last_verified": null
 }

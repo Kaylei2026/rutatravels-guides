@@ -1,7 +1,7 @@
 {
   "destination": "Banff",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:20:31.252Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Banffでの1日は、Bow Valley の谷底とその上の尾根線に焦点を当てています ( - ) 町のホットスプリングスから、何千ものポストカードの題材となった湖へと続く、その間にゴンドラの山頂を挟んだ狭いループコースです。この地域は、温泉の歴史からアルペン地質学を経て、象徴的なターコイズブルーの湖畔へと広がっています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Banff Townsite / Bow Valley",
       "neighborhood_description": "カナダが1885年に最初の国立公園を創設した本来の理由は、Sulphur Mountain の側面にある一連の温泉でした。その周りに発展した町は、標高1,383メートルの狭いロッキー山脈の谷に位置し、四方を石灰岩の山頂に囲まれています。半径15キロメートル以内に、創設当初のホットスプリングス、ゴンドラでアクセス可能な尾根歩き、そして北米で最も訪問者の多い氷河湖の1つであるLake Louiseがあります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Cave and Basin National Historic Site",
         "wikidata_qid": "Q1054005",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "1883年に発見された硫黄泉は、カナダの国立公園制度の直接的なきっかけとなりました。屋外の盆地周辺の遊歩道は約20分で一周でき、地球上でここにしかいないBanff Springs snailという固有種の生息地を見ることができます。洞窟のトンネル自体は短いですが、硫黄の臭いと低く垂れ下がる天井により、町内で最も雰囲気のある立ち寄り地となっています。午前10時頃にコーチツアーが到着する前に早めに到着してください。",
         "walk_to_next": {
-          "to": "Banff Gondola and Sulphur Mountain",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Banff Gondola and Sulphur Mountain Summit Ridge",
+          "transport_mode": "drive",
+          "distance_meters": 1680,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -71,8 +73,10 @@
         "notes": "ゴンドラはSulphur Mountainの尾根にある標高2,281メートルで降ろしてくれます。遊歩道に沿って北に歩き、復元された1903年のSanson Peakの宇宙線観測所に向かいます - 往復約15分で、ゴンドラ乗降所からでも相当な標高差があるため、自分のペースで進めてください。360度のパノラマ景観には、Bow Valley、直下の町並み、そして北のCascade Mountainが含まれます。ゴンドラのチケットはオンラインで予約して、ターミナルの行列をスキップしてください。ピークシーズンには45分まで伸びることがあります。",
         "walk_to_next": {
           "to": "Lake Louise",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "transport_mode": "drive",
+          "distance_meters": 79600,
+          "travel_minutes": 78,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 14
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 85
     }
-  ]
+  ],
+  "total_travel_minutes": 85,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Carmel-by-the-Sea",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:49:03.254Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد يغطي مثلث Carmel الأساسي: البعثة التاريخية التي تحكي قصة تأسيس المدينة، قلب القرية بعمارتها الخيالية وأزقتها المليئة بالمعارض، شاطئ الرمال البيضاء عند سفح Ocean Avenue، والرأس الساحلي في Point Lobos جنوباً. يتحرك التسلسل من التاريخ الداخلي نحو المحيط الهادئ.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2750,
+  "total_walking_minutes": 34,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Carmel Village / Carmel Beach / Point Lobos",
       "neighborhood_description": "تقع Carmel-by-the-Sea على رأس مغطى بالصنوبر في Monterey Peninsula. شبكة المدينة صغيرة بما يكفي للمشي من طرف إلى آخر في عشرين دقيقة، مزينة بعمارة الأكواخ الإنجليزية وعمارة Comstock الخيالية التي بناها الفنانون والكتاب في أوائل القرن العشرين. يفتح الشاطئ عند سفح Ocean Avenue على Carmel Bay، ويقع Point Lobos State Natural Reserve على بُعد ميلين جنوباً على نفس الساحل.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2750,
+      "day_walking_minutes": 34,
       "morning": {
         "activity_title": "Carmel Mission Basilica",
         "wikidata_qid": "Q1027150",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "تأسس عام 1770 على يد خونيبيرو سيرا، الذي دفن هنا تحت أرضية المعبد الرئيسي - وعلامة القبر مرئية في أرضية الكنيسة الرئيسية. وصل قبل الساعة 10 صباحاً لتستطيع المشي حول حديقة الفناء الرباعي وغرف المتحف قبل وصول مجموعات الجولات السياحية. نافذة النجم فوق الواجهة الرئيسية متأثرة بالطراز المغربي وغير عادية بين بعثات كاليفورنيا، وتفقد البرجين المختلفين للأجراس، أحدهما مغربي والآخر رومانيسكي.",
         "walk_to_next": {
-          "to": "Carmel Village - Ocean Avenue and surrounds",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "to": "Carmel Village and Ocean Avenue",
+          "transport_mode": "walk",
+          "distance_meters": 1920,
+          "travel_minutes": 24,
+          "walking_minutes": 24
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "شارع Ocean Avenue هو العمود الفقري الرئيسي لكن أفضل العمارة توجد في الأزقة على بعد مربع واحد على كل جانب - Dolores و Lincoln و Monte Verde بين الشارع 5 والشارع 8. الكوخ الخيالية من Comstock على شارع Torres بالقرب من الشارع 13 هي أكثف تجمع لإنشاءات Hugh Comstock الأصلية من عشرينيات القرن العشرين، وتفقد خطوط الأسقف ذات الأسلوب المغطى بالقش والنوافذ بنسب باب الهوبيت. لا تحتوي المدينة على عناوين شوارع بموجب القانون، لذا توجه حسب التقاطعات بدلاً من رقم المنزل.",
         "walk_to_next": {
-          "to": "Carmel Beach",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "to": "Carmel Beach at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 830,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 34
     }
-  ]
+  ],
+  "total_travel_minutes": 34,
+  "last_verified": null
 }

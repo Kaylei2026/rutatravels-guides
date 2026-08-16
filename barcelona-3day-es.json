@@ -1,7 +1,7 @@
 {
   "destination": "Barcelona",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tres días cubriendo las capas esenciales de Barcelona: el núcleo gótico medieval, la cuadrícula del Eixample definida por Gaudí, y la colina de Montjuïc con sus museos y castillo. Cada día está geográficamente contenido en sí mismo.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 7300,
-  "total_walking_minutes": 95,
+  "total_walking_distance_meters": 5010,
+  "total_walking_minutes": 63,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Barri Gòtic / El Born",
       "neighborhood_description": "Los dos barrios medievales adyacentes que forman el núcleo histórico de Barcelona. El Barri Gòtic está construido sobre cimientos romanos y se centra en la Catedral gótica; El Born al este es el antiguo barrio de comerciantes, más estrecho, más animado, con la basílica de Santa Maria del Mar en su corazón.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 630,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Cathedral of Barcelona (La Seu)",
         "wikidata_qid": "Q56551",
@@ -42,8 +42,10 @@
         "optimal_timing": "morning",
         "notes": "La catedral gótica del siglo XIV, a menudo confundida con la Sagrada Família de Gaudí pero arquitectónicamente completamente distinta. El claustro con sus trece ocas blancas (una por cada año de vida de Santa Eulalia, según la tradición) es el punto focal inesperado. Las terrazas del techo son accesibles por ascensor por una pequeña tarifa y ofrecen una vista desde las alturas del barrio gótico que las multitudes de la Sagrada Família rara vez piensan en buscar.",
         "walk_to_next": {
-          "to": "Plaça del Rei",
+          "to": "Plaça del Rei and the Roman walls",
+          "transport_mode": "walk",
           "distance_meters": 150,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -63,8 +65,10 @@
         "notes": "La plaza real medieval, enmarcada por el Palau Reial Major donde según se cuenta Colón presentó sus hallazgos a Fernando e Isabel en 1493. La entrada del MUHBA Barcelona History Museum en la plaza desciende bajo tierra a unos 4 km notablemente preservados de la Barcino romana - calles, tintorerías, bodegas - directamente bajo tus pies. La visita museística más sorprendente de Barcelona.",
         "walk_to_next": {
           "to": "Santa Maria del Mar",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 480,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -104,7 +108,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 2,
@@ -113,8 +118,8 @@
       "neighborhood_focus": "Eixample",
       "neighborhood_description": "La extensión planificada del siglo XIX de Barcelona más allá de las murallas antiguas, trazada en 1859 sobre una cuadrícula uniforme con esquinas achaflanadas que le da al barrio su ritmo visual de manzanas octagonales. La cuadrícula alberga la concentración más densa del modernisme catalán (el movimiento art nouveau español liderado por Gaudí, Domènech y Puig) del mundo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2630,
+      "day_walking_minutes": 33,
       "morning": {
         "activity_title": "Sagrada Família",
         "wikidata_qid": "Q5882",
@@ -135,9 +140,11 @@
         "optimal_timing": "morning",
         "notes": "La basílica inacabada de Gaudí, iniciada en 1882 y que ahora se espera complete la torre central de Jesus Christ en 2026. Reserva la entrada con horario online con semanas de anticipación - conseguir entrada directa es raro incluso en temporada baja. Elige un horario matutino para la luz de la fachada de la Nativity orientada al este a través de las vidrieras, que inunda las columnas del interior en azul y naranja. Las entradas del ascensor a la torre (una de las torres Nativity o Passion) tienen un costo adicional y valen la pena por la vista cercana del detalle de las agujas.",
         "walk_to_next": {
-          "to": "Casa Batlló (via Passeig de Gràcia)",
-          "distance_meters": 1800,
-          "walking_minutes": 23
+          "to": "Casa Batlló and Passeig de Gràcia",
+          "transport_mode": "walk",
+          "distance_meters": 2000,
+          "travel_minutes": 25,
+          "walking_minutes": 25
         }
       },
       "afternoon": {
@@ -160,9 +167,11 @@
         "optimal_timing": "any",
         "notes": "La remodelación de Gaudí de 1904 de un edificio de apartamentos existente - los balcones curvos como huesos, el techo de tejas con escamas de dragón, las columnas de chimenea son todos suyos. El recorrido interior es excelente (reserva online) pero caro; si tienes presupuesto limitado, la vista de la fachada desde el otro lado del Passeig de Gràcia es en sí misma una atracción importante. Dentro de la misma manzana se encuentra Casa Amatller de Puig i Cadafalch - el contraste entre los estilos de los dos arquitectos es el punto de la Manzana de la Discordia.",
         "walk_to_next": {
-          "to": "Casa Milà (La Pedrera)",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Casa Milà (La Pedrera) at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 630,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -227,7 +236,8 @@
             "walking_minutes": 14
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     },
     {
       "day": 3,
@@ -236,8 +246,8 @@
       "neighborhood_focus": "Montjuïc / Poble Sec",
       "neighborhood_description": "La colina de 184 metros que se eleva desde el frente marítimo occidental, remodelada para la Exposición Internacional de 1929 y nuevamente para los Juegos Olímpicos de 1992. Alberga el Museo Nacional de Arte de Cataluña, la Fundación Joan Miró, el estadio olímpico y el castillo medieval en la cima, además de la mayor concentración de vistas panorámicas gratuitas de Barcelona.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1750,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "MNAC - National Art Museum of Catalonia",
         "wikidata_qid": "Q861252",
@@ -254,8 +264,10 @@
         "notes": "Ubicado en el Palau Nacional de 1929, el Museo Nacional de Arte alberga la colección más importante del mundo de frescos románicos, rescatados de iglesias de pueblos pirenaicos en los años 20 e instalados aquí en formas de ábside reconstruidas. Solo las galerías románicas justifican la visita; el ala modernista en el piso superior abarca las artes decorativas de la época de Gaudí. Entrada gratuita el primer sábado por la tarde y todos los domingos después de las 3pm. La terraza ofrece una vista panorámica de regreso a la ciudad.",
         "walk_to_next": {
           "to": "Fundació Joan Miró",
-          "distance_meters": 800,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -273,9 +285,11 @@
         "optimal_timing": "any",
         "notes": "Diseñado por el amigo de Miró, Josep Lluís Sert (arquitecto, decano del MIT, exiliado de la España de Franco), el edificio de la fundación es en sí mismo una de las grandes piezas de arquitectura museística del siglo XX: modernismo mediterráneo blanco con galerías iluminadas cenitalmente y una terraza de esculturas en la azotea. La colección es abrumadoramente de Miró, organizada cronológicamente, con una impactante sala 'Homenaje a Miró' con obras de otros artistas dadas en su honor.",
         "walk_to_next": {
-          "to": "Montjuïc Castle",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Montjuïc Castle and the Mediterranean panorama",
+          "transport_mode": "walk",
+          "distance_meters": 1030,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -335,7 +349,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 63,
+  "last_verified": null
 }

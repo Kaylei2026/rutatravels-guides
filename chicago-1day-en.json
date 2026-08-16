@@ -1,7 +1,7 @@
 {
   "destination": "Chicago",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:53:26.241Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day on Chicago's lakefront cultural spine - the architectural canyon of the Loop, the monumental open spaces of Grant Park and Millennium Park, and the Art Institute anchoring the whole cluster. Geographically tight, entirely walkable, and the best single-day picture of why Chicago matters.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3200,
-  "total_walking_minutes": 40,
+  "total_walking_distance_meters": 1190,
+  "total_walking_minutes": 15,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "The Loop / Grant Park / Millennium Park",
       "neighborhood_description": "The Loop is Chicago's central business district, defined by the elevated rail line that gave it its name and ringed by some of the most significant early skyscrapers in the world. Its eastern edge dissolves into Grant Park and Millennium Park, a vast open lakefront that functions as the city's front lawn, with the Art Institute at its heart.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 1190,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Art Institute of Chicago",
         "wikidata_qid": "Q239303",
@@ -41,8 +41,10 @@
         "notes": "Enter from Michigan Avenue and go directly upstairs to the second-floor Impressionist galleries before the tour groups arrive - the Seurat, the Nighthawks, and the Sunday on La Grande Jatte all hang here and the rooms are manageable before noon. The Modern Wing, added in 2009 by Renzo Piano, connects via a pedestrian bridge over Monroe Street directly into Millennium Park - use it as your exit rather than backtracking to Michigan Avenue.",
         "walk_to_next": {
           "to": "Millennium Park and Cloud Gate",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Anish Kapoor's Cloud Gate sculpture - universally called the Bean by Chicagoans - sits in AT&T Plaza and reflects the skyline in a distorted panorama that is actually more interesting from underneath, looking straight up into the concave navel. The adjacent Crown Fountain by Jaume Plensa, two 15-meter glass block towers projecting video faces that periodically spit water, is among the most successful pieces of urban public art in the United States. Walk north past the Jay Pritzker Pavilion - Frank Gehry's bandshell - to the BP Bridge, his only bridge design, which gives the best unobstructed skyline view in the park.",
         "walk_to_next": {
-          "to": "Chicago Riverwalk and Michigan Avenue Bridge",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Chicago Riverwalk and the Michigan Avenue Bridge",
+          "transport_mode": "walk",
+          "distance_meters": 740,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     }
-  ]
+  ],
+  "total_travel_minutes": 15,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Tokyo",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "古き東京の一日。Asakusaの浅草寺を中心とし、西へ向かってUeno Parkの博物館街まで歩いて巡ります。戦前と江戸時代の東京を徒歩でアクセスできる最も濃縮されたエリアです。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3200,
-  "total_walking_minutes": 42,
+  "total_walking_distance_meters": 860,
+  "total_walking_minutes": 11,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Asakusa / Ueno",
       "neighborhood_description": "東京で最も戦前の面影を残す北東部の地区。Asakusaは浅草寺を中心としており、東京最古で最も多くの参拝者が訪れる仏教寺院です。20分西に位置するUeno Parkには、日本で最も密集した国立博物館群があります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 42,
+      "day_walking_distance_meters": 860,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Sensō-ji and Nakamise-dōri",
         "wikidata_qid": "Q200035",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "645年創建のTokyo最古の仏教寺院で、巨大な赤いKaminarimon（雷門）とその巨大な提灯が絵葉書のような光景を作り出しています。午前9時前に到着して、お土産の人混みが始まる前にNakamise-dōri参道を歩くのがおすすめです。本堂は無料で入場でき、隣にある五重塔はTokyo で最も写真に撮られる建造物の一つです。本堂前で立ち上る早朝の線香の煙は、この寺院の最も美しい姿を見せてくれます。",
         "walk_to_next": {
-          "to": "Sumida River Walk",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Sumida River and Asakusa backstreets",
+          "transport_mode": "walk",
+          "distance_meters": 860,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Sumida川沿いの公園からは、Tokyo Skytreeと、Philippe Starckによる黄金の炎の彫刻（地元では黄金のうんちと呼ばれている）があるAsahi Beer本社の象徴的な景色が望めます。Sensō-jiと川の間の裏通りを歩けば、kappabashi-dōri（かっぱ橋道具街）や、扇子、筆、煎餅を今でも売っているひっそりとしたEdo時代の店を見つけることができます。最高のSkytreeの写真を撮るならAzuma Bridgeを渡りましょう。",
         "walk_to_next": {
-          "to": "Ueno Park",
-          "distance_meters": 2000,
-          "walking_minutes": 26
+          "to": "Ueno Park and the Tokyo National Museum",
+          "transport_mode": "transit",
+          "distance_meters": 3370,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 26,
+  "last_verified": null
 }

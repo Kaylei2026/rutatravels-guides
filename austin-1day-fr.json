@@ -1,7 +1,7 @@
 {
   "destination": "Austin",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:41:35.510Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée ancrée dans le centre-ville facilement accessible d'Austin : le Texas State Capitol et ses jardins, le corridor de Congress Avenue, la colonie de chauves-souris du pont South Congress, et la bande de musique live de Sixth Street. La séquence progresse de l'histoire civique le matin jusqu'au spectacle extérieur emblématique de la ville au crépuscule.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 670,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown / Capitol District / Sixth Street",
       "neighborhood_description": "Le centre-ville d'Austin est organisé selon un seul axe nord-sud : Congress Avenue : qui s'étend du Colorado River au nord jusqu'au Texas State Capitol. Les jardins du capitole, le Bullock Texas State History Museum, et les pâtés de maisons honky-tonk de Sixth Street sont tous situés à moins d'un kilomètre les uns des autres, ce qui en fait un rare centre-ville américain qui récompense la marche à pied.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 670,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Texas State Capitol",
         "wikidata_qid": "Q816649",
@@ -41,8 +41,10 @@
         "notes": "Des visites guidées gratuites partent du foyer sud selon un horaire régulier à partir de 8h30 en semaine, aucune réservation nécessaire. L'effet de « galerie des chuchotements » de la rotonde est réel : placez-vous directement sous l'étoile incrustée dans le sol et parlez doucement ; quelqu'un se tenant sous le mur opposé vous entendra clairement. Le bâtiment est intentionnellement sept pieds plus haut que le US Capitol - faites le tour par le côté nord et regardez le dôme depuis la pelouse arrière pour la vue la plus dégagée et sans obstruction.",
         "walk_to_next": {
           "to": "Bullock Texas State History Museum",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Trois étages organisés autour des trois drapeaux qui ont gouverné le Texas - espagnol, mexicain et américain. La galerie permanente du premier étage expose les documents originaux de concession de terres de Stephen F. Austin et la section de coque récupérée de La Belle, l'épave navire français de 1686 découverte dans Matagorda Bay en 1995. Passez l'IMAX à moins d'avoir du temps supplémentaire ; la collection permanente constitue le meilleur argument pour le prix d'entrée.",
         "walk_to_next": {
-          "to": "Congress Avenue Bridge",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "to": "Congress Avenue Bridge bat colony",
+          "transport_mode": "drive",
+          "distance_meters": 2890,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 17
     }
-  ]
+  ],
+  "total_travel_minutes": 17,
+  "last_verified": null
 }

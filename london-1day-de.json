@@ -1,7 +1,7 @@
 {
   "destination": "London",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Ein Wandertag entlang Londons zeremonieller Thames-Achse, von der Westminster Abbey durch die Houses of Parliament und über den Fluss zur South Bank. Das politische und königliche Herz der Stadt in einer einzigen Schleife.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 2200,
-  "total_walking_minutes": 28,
+  "total_walking_distance_meters": 950,
+  "total_walking_minutes": 12,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Westminster / South Bank",
       "neighborhood_description": "Westminster ist der Sitz der britischen Regierung und die Krönungskirche der Monarchie, verankert am Parliament Square. Die South Bank gegenüber der Westminster Bridge bildet das kulturelle Gegenstück, gesäumt von der Flusspromenade, dem London Eye und wichtigen Kulturstätten.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Westminster Abbey",
         "wikidata_qid": "Q5933",
@@ -45,8 +45,10 @@
         "optimal_timing": "morning",
         "notes": "Schauplatz jeder englischen Krönung seit 1066 und Grabstätte von siebzehn Monarchen. Buchen Sie online ein Zeitticket, um die Warteschlange zu umgehen. Die Poets' Corner (Chaucer, Dickens, Hardy, Browning) und der Coronation Chair sind die offensichtlichen Höhepunkte; das oft übersehene Cosmati Pavement direkt vor dem High Altar ist ein geometrisches Mosaik aus dem 13. Jahrhundert, wo die tatsächlichen Krönungen stattfinden. Sonntags geschlossen, außer für Gottesdienste.",
         "walk_to_next": {
-          "to": "Houses of Parliament",
-          "distance_meters": 250,
+          "to": "Houses of Parliament and Big Ben",
+          "transport_mode": "walk",
+          "distance_meters": 230,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Der neugotische Palace of Westminster, 1870 fertiggestellt, nachdem das mittelalterliche Original 1834 abbrannte. Einwohner des UK und Commonwealth können kostenlos eine Debatte besuchen, indem sie sich am Cromwell Green anstellen; internationale Besucher können kostenpflichtige Führungen an sitzungsfreien Tagen buchen (normalerweise samstags und in den Parlamentspausen). Big Ben ist die Glocke, nicht der Turm - der Turm selbst ist der Elizabeth Tower, kürzlich in seinen ursprünglichen viktorianischen Farben restauriert.",
         "walk_to_next": {
-          "to": "London Eye via Westminster Bridge",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "South Bank and London Eye at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -132,7 +136,10 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     }
-  ]
+  ],
+  "total_travel_minutes": 12,
+  "last_verified": null
 }

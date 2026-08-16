@@ -1,7 +1,7 @@
 {
   "destination": "Santa Barbara",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:56:40.088Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "رحلة ليوم واحد تغطي القلب التاريخي المضغوط لـ Santa Barbara: العمارة الاستعمارية الإسبانية من منطقة الإدارة البلدية وسط المدينة، والبعثة على التل أعلاه، والميناء العامل عند سفح State Street. كل موقع قريب جداً ويمكن الوصول إليه سيراً على الأقدام أو برحلة قصيرة بالسيارة من الآخرين.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3380,
-  "total_walking_minutes": 43,
+  "total_walking_distance_meters": 1600,
+  "total_walking_minutes": 20,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown / El Pueblo Viejo / Waterfront",
       "neighborhood_description": "أعيد بناء وسط مدينة Santa Barbara بعد زلزال عام 1925 بأسلوب موحد من العمارة الاستعمارية الإسبانية: جدران بيضاء من الجص وأسقف من البلاط الأحمر ومحلات مقببة مفروضة بموجب القوانين البلدية. تقع البعثة على سلسلة منخفضة على بعد بضع مربعات نحو الشمال، بينما تحتل Stearns Wharf والميناء الطرف الجنوبي من State Street.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3380,
-      "day_walking_minutes": 43,
+      "day_walking_distance_meters": 1600,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Santa Barbara County Courthouse",
         "wikidata_qid": "Q7422012",
@@ -41,8 +41,10 @@
         "notes": "تم بناؤه عام 1929، وهو أفضل مبنى حكومي بطراز الاستعمار الإسباني الإحيائي في California. تتيح لك الجولات الموجهة ذاتياً المجانية المشي عبر فناء الحديقة المغروسة والقاعة المجمعة المزينة بالجداريات بحرية تامة. اصعد برج الساعة El Mirador - حيث تمنحك منصة المراقبة على السطح أفضل منظر خالٍ من العوائق لشبكة المدينة والجبال خلفها وجزر Channel Islands في صباح صافٍ.",
         "walk_to_next": {
           "to": "Old Mission Santa Barbara",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 1600,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "تأسست عام 1786 وهي الرسالة الكاثوليكية الوحيدة في California التي لم تخرج أبداً من أيدي الفرنسيسكان. الواجهة ذات البرجين التوأمين هي تفسير عام 1820 لواجهة معبد روماني من Vitruvius - كان الرهبان يعملون بناءً على رسم توضيحي في كتاب، وليس على مبنى حقيقي. تتضمن الجولة الموجهة ذاتياً كنيسة Serra الأصلية والمقبرة التي تضم قبوراً تشوماش وحديقة صغيرة في جناح الدير. اقترب من شارع Laguna صعوداً للحصول على الكشف الكامل للواجهة مأطوراً بجبال Santa Ynez.",
         "walk_to_next": {
-          "to": "Stearns Wharf",
-          "distance_meters": 2080,
-          "walking_minutes": 26
+          "to": "Stearns Wharf and Santa Barbara Harbor",
+          "transport_mode": "drive",
+          "distance_meters": 4990,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 24
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 32,
+  "last_verified": null
 }

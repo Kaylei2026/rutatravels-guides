@@ -1,7 +1,7 @@
 {
   "destination": "Queenstown",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:18:38.723Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day covering the essential Queenstown experience: the lakefront town centre, the Remarkables panorama from Bob's Peak, and the historic gold-rush precinct of Arrowtown as an afternoon excursion. The day builds from lake-level wandering to an elevated vantage point and ends with the town's best sunset strip.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 1890,
+  "total_walking_minutes": 23,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Queenstown Town Centre / Waterfront / Bob's Peak",
       "neighborhood_description": "Queenstown sits on a narrow peninsula jutting into Lake Wakatipu, backed by the steep Queenstown Hill. The town centre is compact and walkable, with the waterfront promenade, Steamer Wharf, and the gondola base all within a few minutes of each other. Bob's Peak rises 450 metres directly above the town and gives the definitive panorama of the lake and the Remarkables range.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1890,
+      "day_walking_minutes": 23,
       "morning": {
         "activity_title": "Queenstown Gardens",
         "wikidata_qid": "Q7270237",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "The gardens occupy the entire tombolo peninsula that shelters the town marina. Walk the outer perimeter path clockwise - the eastern shore faces directly across to Cecil Peak and gives the clearest unobstructed view of the Remarkables range, with the water glassy before the afternoon wind picks up. The Douglas fir trees in the interior date from the 1870s planting and are among the largest in the South Island.",
         "walk_to_next": {
-          "to": "Queenstown Waterfront and Steamer Wharf",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Skyline Queenstown Gondola and Bob's Peak",
+          "transport_mode": "walk",
+          "distance_meters": 990,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "The gondola base is a short walk uphill from the Beach Street end of the town centre - follow Brecon Street rather than the tourist strip to reach it without the crowds. At the top, walk left past the luge track to the ridge lookout point, which is about 100 metres beyond where most visitors stop - the full arc of Lake Wakatipu from the Remarkables to Cecil Peak opens up from there. If cloud sits on the Remarkables, wait 20 minutes; the valley frequently clears by midday.",
         "walk_to_next": {
-          "to": "Steamer Wharf",
-          "distance_meters": 910,
-          "walking_minutes": 12
+          "to": "Steamer Wharf and Queenstown Bay waterfront",
+          "transport_mode": "walk",
+          "distance_meters": 900,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 16
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 23
     }
-  ]
+  ],
+  "total_travel_minutes": 23,
+  "last_verified": null
 }

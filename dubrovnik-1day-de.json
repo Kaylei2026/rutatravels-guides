@@ -1,7 +1,7 @@
 {
   "destination": "Dubrovnik",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:14:33.353Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Ein Tag innerhalb und über der ummauerten Stadt: Gehen Sie zu Beginn des Tages die gesamte Strecke der mittelalterlichen Mauern entlang, bevor die Hitze zunimmt, steigen Sie in die Kalksteinstraßen der Stradun hinab, und beenden Sie den Abend auf einem Hügel über den Dächern.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 480,
+  "total_walking_minutes": 6,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Old Town (Grad)",
       "neighborhood_description": "Dubrovnik's Old Town ist eine vollständig erhaltene mittelalterliche befestigte Stadt auf einer Kalksteinlandzunge. Fast jedes bedeutende Monument liegt innerhalb eines 2-Kilometer-Umkreises von Mauern. Die Stadt war eine unabhängige Republik - die Republik Ragusa - für fast fünf Jahrhunderte, und ihr dichtes Netzwerk aus Kalksteinpalästen, Kirchen und Klöstern spiegelt diesen Bürgerstolz wider.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 480,
+      "day_walking_minutes": 6,
       "morning": {
         "activity_title": "Walls of Dubrovnik",
         "wikidata_qid": "Q1067140",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Kaufen Sie Ihre Fahrkarte am Pile Gate und gehen Sie den Rundgang im Uhrzeigersinn - diese Richtung hält die Meerblicke auf Ihrer linken Seite während des gesamten westlichen Abschnitts, sodass Sie die besten Panoramen erst zum Schluss erreichen, anstatt sie rückwärts zu sehen. Der vollständige Rundgang ist knapp 2 Kilometer lang und fast vollständig der Sonne ausgesetzt; wenn Sie bei der Öffnung um 8 Uhr kommen, spart das nicht nur Zeit beim Vermeiden von Menschenmassen, sondern reduziert auch die Oberflächentemperatur des Steins unter Ihren Füßen um mehrere Grad im Vergleich zum Mittag.",
         "walk_to_next": {
-          "to": "Franciscan Monastery and Pharmacy",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Stradun and the Franciscan Monastery",
+          "transport_mode": "walk",
+          "distance_meters": 80,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Der Klosterkreuzgang ist einer der schönsten romanisch-gotischen Übergangsorte in der Adria - die Doppelsäulen mit ihren geschnitzten Kapitellen sind größtenteils original und haben das Erdbeben von 1667 überstand, das große Teile der Stadt zerstörte. Die Apotheke im Inneren behauptet, unter den ältesten kontinuierlich betriebenen Apotheken Europas zu sein und ist seit 1317 geöffnet. Gehen Sie danach auf der Stradun spazieren: Die Hauptkalksteinstraße wurde nach dem Erdbeben von 1667 in einer einzigen Bauphase neu gepflastert, was ihr einen ungewöhnlich einheitlichen Barockcharakter für eine mittelalterliche Stadt verleiht.",
         "walk_to_next": {
-          "to": "Rector's Palace",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "to": "Fort Lovrijenac at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 400,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 6
     }
-  ]
+  ],
+  "total_travel_minutes": 6,
+  "last_verified": null
 }

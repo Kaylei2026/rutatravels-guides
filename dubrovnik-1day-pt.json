@@ -1,7 +1,7 @@
 {
   "destination": "Dubrovnik",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:14:33.353Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Um dia dentro e acima da cidade murada: percorra o circuito completo das muralhas medievais no início do dia, antes do calor intensificar, desça pelas ruas de calcário da Stradun e termine a noite em uma encosta acima dos telhados.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 480,
+  "total_walking_minutes": 6,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Old Town (Grad)",
       "neighborhood_description": "A Old Town de Dubrovnik é uma cidade fortificada medieval completamente intacta em um promontório de calcário. Quase todos os monumentos principais ficam dentro de um perímetro de 2 quilômetros de muralhas. A cidade foi uma república independente - a Republic of Ragusa - por quase cinco séculos, e sua densa malha de palácios, igrejas e mosteiros de calcário reflete essa riqueza cívica.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 480,
+      "day_walking_minutes": 6,
       "morning": {
         "activity_title": "Walls of Dubrovnik",
         "wikidata_qid": "Q1067140",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Compre sua entrada na entrada de Pile Gate e percorra o circuito no sentido horário - essa direção mantém as vistas do mar à sua esquerda durante todo o trecho oeste, reservando os melhores panoramas em vez de chegar a eles de costas. O circuito completo tem quase 2 quilômetros e é quase inteiramente exposto; ir no horário de abertura (8h) não é apenas uma estratégia para evitar multidões, reduz a temperatura da superfície da pedra sob seus pés em vários graus comparado ao meio-dia.",
         "walk_to_next": {
-          "to": "Franciscan Monastery and Pharmacy",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Stradun and the Franciscan Monastery",
+          "transport_mode": "walk",
+          "distance_meters": 80,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "O claustro do mosteiro é um dos mais belos espaços de transição Romântico-Gótico do Adriático - as colunas duplas com seus capitéis esculpidos são em sua maioria originais e sobreviveram ao terremoto de 1667 que destruiu grande parte da cidade. A farmácia no interior afirma estar entre as boticas em funcionamento contínuo mais antigas da Europa, aberta desde 1317. Caminhe pela Stradun depois: a principal rua de calcário foi repavimentada após o terremoto de 1667 em uma única campanha, conferindo-lhe um caráter Barroco inusitadamente uniforme para uma cidade medieval.",
         "walk_to_next": {
-          "to": "Rector's Palace",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "to": "Fort Lovrijenac at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 400,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 6
     }
-  ]
+  ],
+  "total_travel_minutes": 6,
+  "last_verified": null
 }

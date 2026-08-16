@@ -1,7 +1,7 @@
 {
   "destination": "Bend, Oregon",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:00:22.049Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "一天游览Bend的地理和文化核心：定义该地区的火山地貌、城市中心的河滨公园，以及孕育手工啤酒文化的紧凑型商业街区。这一天的行程从古老的地质历史到当代文化一脉相承，最终抵达这座城镇最充满活力的地方。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Drake Park / Mirror Pond / Downtown Bend",
       "neighborhood_description": "Bend坐落在Cascades山脉的东边，High Desert与Deschutes River在此交汇。市中心核心区域紧凑而适宜步行，西侧由Drake Park和Mirror Pond相伴。南部的火山Newberry地区赋予整个地区独特的地质特征 - 熔岩地、火山锥和黑曜石流，这些地质特征在过去几千年间仍在活动。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Newberry National Volcanic Monument",
         "wikidata_qid": "Q1378429",
@@ -41,8 +41,10 @@
         "notes": "从Bend南行US-97约23英里到达纪念碑入口。Big Obsidian Flow是一个有1300年历史的熔岩流，覆盖着闪闪发光的黑色火山玻璃，可通过停车场附近一条短半英里的环形步道到达。晨光照射在黑曜石表面会产生独特的光泽，但到了中午时分，强烈的反光会使一切变得平坦。在步道入口处出示Northwest Forest Pass或America the Beautiful通行证可覆盖日间使用费。",
         "walk_to_next": {
           "to": "Drake Park and Mirror Pond",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "drive",
+          "distance_meters": 53350,
+          "travel_minutes": 54,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "公园位于市中心西侧，紧邻Deschutes River，从Riverside Boulevard进入而不是Wall Street停车场，可以充分欣赏Mirror Pond的全景，晴朗的日子里Cascades山脉倒映在水面上。这个池塘由一个小型水坝形成，周围环绕着黄松树，铺装好的河畔步道直接向北连接到市中心，无需折返。",
         "walk_to_next": {
           "to": "Old Mill District",
-          "distance_meters": 1560,
-          "walking_minutes": 19
+          "transport_mode": "drive",
+          "distance_meters": 1550,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 61
     }
-  ]
+  ],
+  "total_travel_minutes": 61,
+  "last_verified": null
 }

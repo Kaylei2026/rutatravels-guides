@@ -1,7 +1,7 @@
 {
   "destination": "Vienna",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:00:17.485Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day covering Vienna's imperial core: the Hofburg palace complex, the great boulevard of the Ringstrasse, and the Gothic heart of the Innere Stadt, ending with a coffee house and a cathedral at dusk. The route is geographically tight, walkable, and mixes grand interiors with street-level baroque and Gothic detail.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 1410,
+  "total_walking_minutes": 18,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Innere Stadt / Ringstrasse",
       "neighborhood_description": "Vienna's first district - the Innere Stadt - is the medieval and imperial core encircled by the Ringstrasse boulevard that Emperor Franz Joseph ordered built in 1857 to replace the old city walls. Nearly every institution of state, culture, and religion the Habsburgs valued was placed on or just inside this ring. The distances are short but the density of significance is extraordinary.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 1410,
+      "day_walking_minutes": 18,
       "morning": {
         "activity_title": "Kunsthistorisches Museum Vienna",
         "wikidata_qid": "Q95569",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Arrive at opening (10am) to reach the Bruegel room on the first floor before group tours arrive - it holds the largest single collection of Pieter Bruegel the Elder paintings in the world, twelve works in one room. The building itself is a Ringstrasse palazzo designed by Gottfried Semper; the octagonal cupola staircase is frescoed by Klimt as a very early commission. Skip the Egyptian collection on a first visit and save time for the Kunstkammer on the ground floor, where the Habsburg cabinet of curiosities is displayed almost exactly as it was assembled.",
         "walk_to_next": {
-          "to": "Hofburg Palace",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Hofburg Palace - Imperial Apartments and Treasury",
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -70,8 +72,10 @@
         "optimal_timing": "any",
         "notes": "The Hofburg is not one building but an accretion of eighteen wings built over six centuries - do not attempt to see it all. Buy a combined ticket for the Imperial Apartments and the Imperial Treasury; skip the Sisi Museum unless you are specifically interested in Empress Elisabeth. In the Treasury, the Holy Lance and the Habsburg Imperial Crown are displayed without glass barriers at eye level - closer access than almost any comparable regalia in Europe. Enter from the Schweizerhof courtyard on the south side rather than the main Michaelertor entrance to avoid the heaviest foot traffic.",
         "walk_to_next": {
-          "to": "Stephansdom",
-          "distance_meters": 900,
+          "to": "Stephansdom and the Graben",
+          "transport_mode": "walk",
+          "distance_meters": 960,
+          "travel_minutes": 12,
           "walking_minutes": 12
         }
       },
@@ -137,7 +141,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     }
-  ]
+  ],
+  "total_travel_minutes": 18,
+  "last_verified": null
 }

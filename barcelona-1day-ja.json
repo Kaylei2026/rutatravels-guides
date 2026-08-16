@@ -1,7 +1,7 @@
 {
   "destination": "Barcelona",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Barcelonaの中世の中心部を歩く一日コース。Gothic Cathedralを起点として東のEl Bornエリアまで広がります。狭い石畳の路地、ローマ時代の遺構、そしてヨーロッパで最も密度の高い中世建築群の一つを1 kmのルートで巡ります。",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 1800,
-  "total_walking_minutes": 23,
+  "total_walking_distance_meters": 630,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Barri Gòtic / El Born",
       "neighborhood_description": "Barcelonaの歴史的中心部を形成する隣接する二つの中世地区。Barri Gòticはローマ時代の遺構の上に建てられ、Gothic Cathedralを中心としています。東側のEl Bornはかつての商人街で、より狭く活気があり、中心にはSanta Maria del Marのバシリカが建っています。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 630,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Cathedral of Barcelona (La Seu)",
         "wikidata_qid": "Q56551",
@@ -40,8 +40,10 @@
         "optimal_timing": "morning",
         "notes": "14世紀のゴシック様式大聖堂で、ガウディのSagrada Famíliaとよく混同されるが、建築様式は全く異なる。回廊には13羽の白いガチョウがいる（伝承によると聖Eulaliaの生涯の年数を表している）のが意外な見どころ。屋上テラスは小額の料金でエレベーターでアクセスでき、Sagrada Famíliaの観光客がめったに探し求めないゴシック地区を見渡す屋上からの眺望が楽しめる。",
         "walk_to_next": {
-          "to": "Plaça del Rei",
+          "to": "Plaça del Rei and the Roman walls",
+          "transport_mode": "walk",
           "distance_meters": 150,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -61,8 +63,10 @@
         "notes": "中世の王の広場で、1493年にColumbusがFerdinandとIsabellaに発見を報告したとされるPalau Reial Majorに囲まれている。広場にあるMUHBA Barcelona History Museumの入口から地下に降りると、足元の真下に驚くほど保存状態の良い4kmのローマ時代のBarcino遺跡がある - 街路、染物工場、ワイナリーなど。Barcelonaで最も驚きの博物館見学体験。",
         "walk_to_next": {
           "to": "Santa Maria del Mar",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 480,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     }
-  ]
+  ],
+  "total_travel_minutes": 8,
+  "last_verified": null
 }

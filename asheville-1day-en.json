@@ -1,7 +1,7 @@
 {
   "destination": "Asheville",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:51:00.108Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day covering Asheville's essential character: the Gilded Age architecture of Pack Square, the murals and studios of the River Arts District, and the art deco civic fabric that makes this small Appalachian city unlike anything else in the American South.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown Asheville / Pack Square / River Arts District",
       "neighborhood_description": "Asheville's compact downtown is built around Pack Square, a civic core that retained its early-20th-century architecture through a combination of Depression-era bankruptcy and later historic preservation. A short drive or long walk southwest along Depot Street leads to the River Arts District, a former industrial corridor of brick warehouses converted into over 200 working studios.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Biltmore Estate",
         "wikidata_qid": "Q811915",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "George Vanderbilt's 8,000-acre estate built between 1889 and 1895 - the largest privately owned house in the United States at 178,926 square feet. Buy tickets online in advance; gate walk-ups pay a premium and morning entry avoids the midday crowd in the main house. Start in the basement and work up: the bowling alley, swimming pool, and servants' quarters are less photographed than the banquet hall but reveal more about how the estate actually functioned. The formal gardens designed by Frederick Law Olmsted are a separate circuit worth an hour after the house.",
         "walk_to_next": {
-          "to": "Pack Square Park",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "to": "Pack Square Park and Asheville City Hall",
+          "transport_mode": "drive",
+          "distance_meters": 5280,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Asheville City Hall, completed in 1928, is one of the most unusual art deco civic buildings in the American South - a pink-and-green terra cotta octagonal tower with a pyramidal roof, designed by Douglas Ellington. Stand across Pack Square on the Vance Monument side and look up the full facade; the polychrome detail on the upper stories reads as almost Aztec Revival at that distance. The surrounding block along Patton Avenue holds the S and W Cafeteria Building and the Kress Building, both original 1920s commercial art deco.",
         "walk_to_next": {
-          "to": "River Arts District",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "River Arts District studios",
+          "transport_mode": "drive",
+          "distance_meters": 2580,
+          "travel_minutes": 8,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     }
-  ]
+  ],
+  "total_travel_minutes": 20,
+  "last_verified": null
 }

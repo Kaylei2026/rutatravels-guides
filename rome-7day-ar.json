@@ -1,7 +1,7 @@
 {
   "destination": "Rome",
   "duration_days": 7,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T13:00:00Z",
   "sources": [
     "wikidata",
@@ -19,8 +19,8 @@
   ],
   "guide_description": "سبعة أيام تغطي أساسيات روما والتلال الجنوبية الهادئة ورحلة يومية غنية بمواقع اليونسكو إلى Tivoli. كل يوم مكتفٍ بذاته من الناحية الجغرافية.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 15020,
-  "total_walking_minutes": 192,
+  "total_walking_distance_meters": 9710,
+  "total_walking_minutes": 122,
   "days": [
     {
       "day": 1,
@@ -29,8 +29,8 @@
       "neighborhood_focus": "Centro Storico",
       "neighborhood_description": "الحي التاريخي الكثيف الواقع بين منحنى Tiber و Via del Corso. معابد رومانية وساحات باروكية وأسواق مكتظة فوق شبكة شوارع يمتد تاريخها إلى ألفي سنة.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1020,
-      "day_walking_minutes": 13,
+      "day_walking_distance_meters": 1540,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Pantheon",
         "wikidata_qid": "Q1142794",
@@ -51,9 +51,11 @@
         "optimal_timing": "morning",
         "notes": "تصل عند افتتاح المكان (الساعة 9 صباحًا) لترى شعاع oculus ينزل بنظافة على الداخل قبل امتلاء الأرضية برحلات سياحية جماعية. يوجد رسم دخول صغير الآن في أيام الأسبوع؛ قداس يوم الأحد مجاني لكنه يحد من الحركة بالداخل.",
         "walk_to_next": {
-          "to": "Piazza Navona",
-          "distance_meters": 320,
-          "walking_minutes": 4
+          "to": "Piazza Navona and Sant'Agnese in Agone",
+          "transport_mode": "walk",
+          "distance_meters": 420,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -76,9 +78,11 @@
         "optimal_timing": "any",
         "notes": "بُني على موقع Stadium of Domitian، وهذا هو السبب في أن الشكل مستطيل. Fountain of the Four Rivers من تصميم Bernini؛ واجهة الكنيسة المقابلة من تصميم منافسه Borromini - كلاهما يتجادل عبر الساحة منذ الخمسينيات من القرن السابع عشر.",
         "walk_to_next": {
-          "to": "Trevi Fountain",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trevi Fountain after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -123,7 +127,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 2,
@@ -132,8 +137,8 @@
       "neighborhood_focus": "Monti / Celio / Palatino",
       "neighborhood_description": "الزاوية الجنوبية الشرقية من وسط روما حيث كانت المدينة القديمة تُحكم وتُسلّى. يشترك Colosseum و Forum و Palatine في تذكرة واحدة ومنطقة أثرية واحدة تغطي ما يقرب من كيلومتر مربع واحد.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 1100,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Colosseum",
         "wikidata_qid": "Q10285",
@@ -155,8 +160,10 @@
         "notes": "احجز تذكرة الدخول بتوقيت محدد عبر الإنترنت قبل عدة أيام - يواجه الزائرون بدون حجز مسبق طوابير تستغرق ساعتين عادة. تذكرة Colosseum و Forum و Palatine المدمجة صالحة لمدة 24 ساعة.",
         "walk_to_next": {
           "to": "Roman Forum",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 810,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -179,9 +186,11 @@
         "optimal_timing": "any",
         "notes": "ادخل من Via dei Fori Imperiali وليس من جهة Colosseum - المشهد السينمائي يأتي من النزول عبر الأقواس. احمل معك الماء؛ لا يوجد ظل تقريباً والممرات الرخامية تعكس الحرارة.",
         "walk_to_next": {
-          "to": "Piazza del Campidoglio",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Piazza del Campidoglio and Capitoline views",
+          "transport_mode": "walk",
+          "distance_meters": 290,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -226,7 +235,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 3,
@@ -235,8 +245,8 @@
       "neighborhood_focus": "Vatican City / Borgo",
       "neighborhood_description": "دولة مستقلة داخل روما، يمكن الوصول إليها بالمشي غرباً عبر نهر Tiber. متاحف Vatican Museums وكنيسة Sistine Chapel وكاتدرائية St. Peter's معاً تشكل واحداً من أكثر المواقع الدينية والثقافية زيارة على وجه الأرض.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2000,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 2020,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Vatican Museums and Sistine Chapel",
         "wikidata_qid": "Q160821",
@@ -258,8 +268,10 @@
         "notes": "احجز عبر الإنترنت من الموقع الرسمي للمتحف قبل أسابيع - طوابير الدخول المباشر تتجاوز عادة 3 ساعات في موسم الذروة. بمجرد دخولك كنيسة Sistine Chapel يمكنك الخروج مباشرة إلى St. Peter's إذا توجهت لليمين.",
         "walk_to_next": {
           "to": "St. Peter's Basilica",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 620,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -282,9 +294,11 @@
         "optimal_timing": "any",
         "notes": "الدخول مجاني لكن طابور الفحص الأمني في St. Peter's Square يمكن أن يكون طويلاً. يتم تطبيق قواعس اللباس بصرامة - يجب تغطية الأكتاف والركبتين، بلا استثناءات. تسلق القبة يتطلب تذكرة منفصلة يستحق شراؤها من مدخل الكنيسة.",
         "walk_to_next": {
-          "to": "Castel Sant'Angelo",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Castel Sant'Angelo and the bridge at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1400,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "evening": {
@@ -329,7 +343,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 4,
@@ -338,8 +353,8 @@
       "neighborhood_focus": "Trastevere",
       "neighborhood_description": "عبر نهر التيبر جنوب الفاتيكان، يقع Trastevere وهو أكثر أحياء روما أصالة وسحراً - بشوارعه الضيقة من العصور الوسطى وواجهاته المغطاة باللبلاب وتاريخه العمالي الذي لا يزال يلمع بخفوة في الحانات والمطاعم الشعبية التقليدية التي تحولت الآن إلى منطقة راقية.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1400,
-      "day_walking_minutes": 18,
+      "day_walking_distance_meters": 1130,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Santa Maria in Trastevere",
         "wikidata_qid": "Q200751",
@@ -361,8 +376,10 @@
         "notes": "واحدة من أقدم كنائس روما ذات تقليد مستمر للعبادة العامة منذ القرن الثالث. سيراميك القرن الثاني عشر في الحنية يصور مريم جالسة على العرش بجانب المسيح ويشكل مركز الكنيسة.",
         "walk_to_next": {
           "to": "Villa Farnesina",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 590,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -380,9 +397,11 @@
         "optimal_timing": "any",
         "notes": "فيلا من عصر النهضة مزينة برسومات جدارية من قبل Raphael - أقل ازدحاماً بكثير من الفاتيكان لكنها تتمتع بقوة فنية مماثلة. تعتبر Loggia of Cupid and Psyche و Triumph of Galatea من أبرز معالمها. مغلقة يوم الأحد باستثناء الأحد الثاني من الشهر.",
         "walk_to_next": {
-          "to": "Gianicolo Hill viewpoint",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Gianicolo Hill at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -422,7 +441,8 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 5,
@@ -431,8 +451,8 @@
       "neighborhood_focus": "Pinciano / Campo Marzio",
       "neighborhood_description": "الربع الشمالي الشرقي من وسط روما حيث تلتقي حديقة المدينة الأفخم بالشبكة الأنيقة لـ Tridente - ثلاث شوارع تتفرع جنوباً من Piazza del Popolo التي كانت العنوان الأكثر رقياً في روما منذ القرن السابع عشر.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 2360,
+      "day_walking_minutes": 30,
       "morning": {
         "activity_title": "Galleria Borghese",
         "wikidata_qid": "Q190044",
@@ -448,9 +468,11 @@
         "optimal_timing": "morning",
         "notes": "يجب الحجز المسبق مع دخول محدد بأوقات معينة. تضم هنا أعمال برنيني مثل Apollo and Daphne و David، بالإضافة إلى لوحات لكارافاجيو وتمثال Pauline Bonaparte للنحات كانوفا. يتم تطبيق حد زمني قدره ساعتين بصرامة.",
         "walk_to_next": {
-          "to": "Pincio Terrace",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Pincio Terrace and Villa Borghese gardens",
+          "transport_mode": "walk",
+          "distance_meters": 1490,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "afternoon": {
@@ -468,9 +490,11 @@
         "optimal_timing": "any",
         "notes": "تطل تراس Pincio على Piazza del Popolo مع إطلالة بعيدة المدى عبر الأسطح نحو قبة St. Peter's. يتوفر تأجير الدراجات بالقرب من المدخل إذا أردت التنقل بين المسافات.",
         "walk_to_next": {
-          "to": "Piazza di Spagna",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Spanish Steps and Piazza di Spagna",
+          "transport_mode": "walk",
+          "distance_meters": 870,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -515,7 +539,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 30
     },
     {
       "day": 6,
@@ -524,8 +549,8 @@
       "neighborhood_focus": "Aventino / Testaccio",
       "neighborhood_description": "أهدأ الأحياء المركزية في روما. يُعتبر Aventine أحد التلال السبعة، وهو حي مورق وسكني، ويضم اثنتين من أفضل نقاط المراقبة المجانية في المدينة. أما Testaccio الواقع أسفله فقد بُني على تل من شظايا الجرار القديمة ويعتبر الآن أموثق حي شعبي متخصص في الطعام في روما.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2400,
-      "day_walking_minutes": 30,
+      "day_walking_distance_meters": 1320,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Giardino degli Aranci and Santa Sabina",
         "wikidata_qid": "Q3766873",
@@ -541,9 +566,11 @@
         "optimal_timing": "morning",
         "notes": "يوفر الشرفة في الجزء الخلفي بانوراما واسعة عبر نهر Tiber نحو قبة كاتدرائية القديس بطرس - وهي تعادل أي نقطة مراقبة مدفوعة في المدينة، وهي مجانية. كنيسة Santa Sabina بجانبها هي بازيليكا من القرن الخامس تتمتع بأبواب سرو منحوتة أصلية تصور أحد أقدم الصور المعروفة للصلب.",
         "walk_to_next": {
-          "to": "Aventine Keyhole",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Aventine Keyhole (Priory of the Knights of Malta)",
+          "transport_mode": "walk",
+          "distance_meters": 170,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -561,9 +588,11 @@
         "optimal_timing": "morning",
         "notes": "انظر من خلال ثقب المفتاح البرونزي في باب الدير وسترى قبة St. Peter's في إطار مثالي تحيط به مسارات حديقة محاطة بالأسيجة - خدعة بصرية صممها Piranesi من الستينيات من القرن الثامن عشر تجمع بين ثلاث دول ذات سيادة (Italy و Order of Malta و Vatican) في خط نظر واحد. قد تصل قوائم الانتظار إلى 15-20 شخصاً في أوقات الذروة؛ توجه هناك قبل الساعة 10 صباحاً أو انتظر حتى غروب الشمس.",
         "walk_to_next": {
-          "to": "Pyramid of Cestius",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Pyramid of Cestius and the Non-Catholic Cemetery",
+          "transport_mode": "walk",
+          "distance_meters": 1150,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -608,7 +637,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 7,
@@ -617,8 +647,8 @@
       "neighborhood_focus": "Tivoli (outside Rome)",
       "neighborhood_description": "بلدة صغيرة على بعد 30 كم شرق روما في تلال Sabine، وتضم موقعين من مواقع التراث العالمي لليونسكو يحكيان معاً قصة أوقات الفراغ الرومانية عبر 1500 سنة. يمكن الوصول إليها بالقطار الإقليمي (Roma Tiburtina إلى Tivoli، حوالي ساعة واحدة) أو بحافلة Cotral.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3500,
-      "day_walking_minutes": 45,
+      "day_walking_distance_meters": 240,
+      "day_walking_minutes": 3,
       "morning": {
         "activity_title": "Hadrian's Villa (Villa Adriana)",
         "wikidata_qid": "Q207614",
@@ -639,9 +669,11 @@
         "optimal_timing": "morning",
         "notes": "ملاذ الإمبراطور هادريان من القرن الثاني الميلادي - مجمع واسع يضم قصوراً وحماماً ومسارح وأحواض عاكسة منتشرة على مساحة 120 هكتاراً. حمام Canopus بعموده المعاد بناؤه على الطراز المصري هو الصورة الأيقونية. خطط لثلاث ساعات على الأقل؛ الموقع ضخم وظليل جزئياً فقط.",
         "walk_to_next": {
-          "to": "Villa d'Este (via bus to Tivoli town)",
-          "distance_meters": 6000,
-          "walking_minutes": 20
+          "to": "Villa d'Este",
+          "transport_mode": "transit",
+          "distance_meters": 4040,
+          "travel_minutes": 16,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -664,9 +696,11 @@
         "optimal_timing": "any",
         "notes": "فيللا كاردينال من القرن السادس عشر تضم أكثر حديقة مياه متقنة الصنع في أوروبا - نوافير مدرجة، جهاز هيدروليكي لا يزال يعزف، وقناة مائة نافورة تمتد على طول الحديقة. تضاريس شديدة الانحدار عند النزول؛ الأحذية المريحة ضرورية.",
         "walk_to_next": {
-          "to": "Tivoli town center",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Tivoli town and return to Rome",
+          "transport_mode": "walk",
+          "distance_meters": 240,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -706,7 +740,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 138,
+  "last_verified": null
 }

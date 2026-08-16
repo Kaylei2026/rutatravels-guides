@@ -1,7 +1,7 @@
 {
   "destination": "Kyoto",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:28:46.173Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "ثلاثة أيام تغطي التناقضات الأساسية في Kyoto: ممر المعبد المرصوف بالحجارة في Higashiyama، ومنطقة الخيزران والنهر في Arashiyama، ومحور الضريح والسوق الذي يتمحور حول Fushimi Inari. كل مجموعة متجمعة جغرافياً بذاتها وقابلة للمشي دون العودة للخلف.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 10400,
-  "total_walking_minutes": 130,
+  "total_walking_distance_meters": 2330,
+  "total_walking_minutes": 30,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Higashiyama",
       "neighborhood_description": "منطقة التلال الشرقية التي حافظت على المزيد من Kyoto ما قبل الحديثة أكثر من أي مكان آخر في المدينة. تصطف منازل machiya المحفوظة في حارات Ninenzaka و Sannenzaka الحجرية، وتربط Kiyomizudera في الجنوب بـ Chion-in وحي Gion للعاملات بالجيشا في الشمال في مشي واحد متصل لا ينقطع.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1160,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Kiyomizudera",
         "wikidata_qid": "Q503496",
@@ -47,9 +47,11 @@
         "optimal_timing": "morning",
         "notes": "وصل قبل الساعة الثامنة صباحًا - المعبد يفتح أبوابه في الساعة السادسة صباحًا والمسرح الخشبي الرئيسي الممتد فوق سفح الغابة هادئ حقًا في الساعتين الأولتين. المسار صعودًا عبر Chawan-zaka (Teapot Lane) من محطة الحافلات مزين بمحلات السيراميك والفخار، كلها مغلقة في هذا الوقت، مما يعني أن الصعود هادئ وسلس. النظر للخلف من المسرح نحو الباغودة ثلاثية الطوابق عبر الوادي يعطيك أفضل صورة فوتوغرافية للمجمع.",
         "walk_to_next": {
-          "to": "Ninenzaka and Sannenzaka",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "to": "Ninenzaka and Sannenzaka stone lanes",
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -67,8 +69,10 @@
         "optimal_timing": "any",
         "notes": "ممران محفوظان من فترة Edo مرصوفان بالحجارة ويمتدان شمالًا من Kiyomizudera عبر منطقة مسكونة بالمنازل التقليدية المحمية. الخرافة التي تقول إن السقوط على Ninenzaka يعني سنتين من الحظ السيء (ninen تعني سنتين) تجعل بعض الزوار حذرين على الحجارة الرطبة - زلقة تحت المطر وتستحق الانتباه. أفضل واجهات machiya محفوظة توجد في الانحناء العلوي من Sannenzaka؛ الزقاق الجانبي على اليمين قبل المنحنى الرئيسي مباشرة يحتوي على صف من ورش الحرف التقليدية التي يمر معظم الزوار بها دون ملاحظة.",
         "walk_to_next": {
-          "to": "Kodaiji",
-          "distance_meters": 450,
+          "to": "Kodaiji and the lantern-lit evening garden",
+          "transport_mode": "walk",
+          "distance_meters": 470,
+          "travel_minutes": 6,
           "walking_minutes": 6
         }
       },
@@ -129,7 +133,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -138,8 +143,8 @@
       "neighborhood_focus": "Arashiyama / Sagano",
       "neighborhood_description": "الحي الغربي حيث ينحني نهر Oi ضد التلال المغطاة بالغابات. غابة الخيزران وحديقة Tenryuji وجسر Togetsukyo على بعد بضعة مئات من الأمتار من بعضها؛ طريق Sagano الأهدأ تقود شمالاً إلى معابد أصغر وفترة زمنية أقل ازدحاماً بشكل واضح.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3500,
-      "day_walking_minutes": 44,
+      "day_walking_distance_meters": 1170,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Arashiyama Bamboo Grove",
         "wikidata_qid": "Q578450",
@@ -156,7 +161,9 @@
         "notes": "مسار الغابة يبلغ طوله 400 متر فقط، وهو ما يفاجئ معظم الزائرين. توجه إلى هناك قبل الساعة 7:30 صباحاً لتمشية المسار دون الازدحام الذي يبدأ من الساعة 9 صباحاً فما بعده. صوت الخيزران يطقطق في الريح هو التفصيل الحسي الذي لا تنقله أي صورة فوتوغرافية، وهو يكون مسموعاً بشكل أوضح في ساعات الصباح الباردة عندما لم تصل حافلات السياح بعد. تقع الغابة مباشرة شمال بوابة Tenryuji الخلفية، لذا فإن دخول الحديقة من هذا الجانب والخروج جنوباً يوفر عليك العودة من نفس الطريق.",
         "walk_to_next": {
           "to": "Tenryuji",
+          "transport_mode": "walk",
           "distance_meters": 300,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -180,9 +187,11 @@
         "optimal_timing": "any",
         "notes": "الحديقة هنا - التي صممها Muso Soseki حوالي سنة 1345 وتبقى كما هي بشكل أساسي - تستخدم تلال Arashiyama كمناظر طبيعية مستعارة بتقنية تُدعى shakkei، وبالتالي تتغير الحديقة تماماً حسب الموسم والوقت من اليوم. البركة المركزية تعكس التلال والقاعة الرئيسية في آن واحد من مقعد المراقبة على الجانب الجنوبي. هناك رسوم دخول منفصلة: واحدة للحديقة فقط، وواحدة تشمل داخل القاعة الرئيسية؛ تذكرة الحديقة فقط كافية لمعظم الزيارات.",
         "walk_to_next": {
-          "to": "Togetsukyo Bridge",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Togetsukyo Bridge and riverside",
+          "transport_mode": "walk",
+          "distance_meters": 870,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -242,7 +251,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -251,8 +261,8 @@
       "neighborhood_focus": "Fushimi / Nishiki",
       "neighborhood_description": "القوس الجنوبي الذي يربط نفق البوابات الحمراء vermilion torii في Fushimi Inari مع مصانع الساكي في Fushimi على طول قناة Horikawa، ثم يعود إلى سوق Nishiki المغطى في وسط Kyoto. موزعة جغرافياً لكن مرتبطة بخط قطار واحد، مما يجعل التسلسل منطقياً.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3000,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Fushimi Inari-taisha",
         "wikidata_qid": "Q464405",
@@ -268,9 +278,11 @@
         "optimal_timing": "morning",
         "notes": "المعبد مفتوح 24 ساعة وبدخول مجاني. توصل قبل الساعة السابعة صباحاً لتمشي عبر أنفاق torii السفلى قبل وصول مجموعات الجولات من Kyoto Station، وهي على بعد سبع دقائق بالقطار. معظم الزوار يلتقطون صوراً للـ 15 دقيقة الأولى من المسار ثم يغادرون؛ الصعود الكامل إلى قمة Ichinofune يستغرق حوالي 90 دقيقة وكثافة البوابات تقل بسرعة بعد تقاطع Yotsutsuji، حيث تنفتح الإطلالات على جنوب Kyoto. هذا التقاطع هو نقطة العودة العملية لمعظم الناس ويستغرق حوالي 30 دقيقة من القاعدة.",
         "walk_to_next": {
-          "to": "Fushimi sake district",
-          "distance_meters": 1800,
-          "walking_minutes": 22
+          "to": "Fushimi sake district and Gekkeikan Okura Museum",
+          "transport_mode": "transit",
+          "distance_meters": 4230,
+          "travel_minutes": 16,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -289,8 +301,10 @@
         "notes": "كانت Fushimi مركزاً لتخمير الساكي منذ القرن السابع عشر، تغذيها المياه الجوفية الناعمة بشكل استثنائي من تلال Momoyama. متحف Gekkeikan Okura يقع في مصنع ساكي من عام 1909 ويعرض أدوات إنتاج الساكي على مدى 400 سنة، مع تذوق مشروب مدرج في رسم الدخول المتواضع. قناة Horikawa بجانب المصانع مبطنة بـ kura القديمة (مستودعات الساكي)؛ مسار المشي على الضفة المغطى بأشجار الصفصاف بين Tsukiyomi Bridge و Sakenosho Bridge هو أكثر الأجزاء جاذبية.",
         "walk_to_next": {
           "to": "Nishiki Market",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "drive",
+          "distance_meters": 9760,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -350,7 +364,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 34
     }
-  ]
+  ],
+  "total_travel_minutes": 64,
+  "last_verified": null
 }

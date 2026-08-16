@@ -1,7 +1,7 @@
 {
   "destination": "Marrakech",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T13:11:05.070Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد داخل المدينة القديمة الوسيطية في مراكش، متنقلاً من المسجد العظيم والدباغات في الأسواق الشمالية عبر قصور الحقبة السعدية إلى المسرح الحيوي في جامع الفناء عند الغسق. المسار جغرافياً ضيق وينمو بكثافة مع تقدم اليوم.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3100,
-  "total_walking_minutes": 39,
+  "total_walking_distance_meters": 950,
+  "total_walking_minutes": 12,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Medina - Djemaa el-Fna / Souks / Mouassine",
       "neighborhood_description": "تعتبر مدينة مراكش القديمة المدرجة في قائمة اليونسكو من أفضل المدن الإسلامية الوسيطية المحفوظة في العالم. تنقسم المدينة المسورة تقريباً إلى حي الأسواق الشمالي الذي يتمركز حول مسجد Koutoubia ودرسة Ben Youssef، وحي القصور السعدية في الجنوب، و جامع الفناء - الساحة العظيمة التي تعمل كسوق ومسرح ومركز اجتماعي في الوقت ذاته من الفجر حتى ما بعد منتصف الليل بكثير.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Ben Youssef Madrasa",
         "wikidata_qid": "Q744690",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "أكبر مدرسة قرآنية في المغرب، شُيّدت تحت حكم السلطان السعدي عبد الله الغالب عام 1565. وصل قبل الساعة التاسعة صباحاً لتجد الفناء المركزي - بأرضياته من الزليج حتى ارتفاع الأكتاف، والجص المنحوت فوقه، وشاشات الخشب الأرز على مستوى الرواق - خالياً تقريباً قبل وصول مجموعات الجولات السياحية. حجرات الطلاب في الطوابق العليا مفتوحة للتجوال فيها: 130 غرفة كانت مكتظة في السابق بالعلماء من عبر المغرب الأوسط، كل واحدة ضيقة بالكاد تسع سريراً ومصباحاً واحداً.",
         "walk_to_next": {
-          "to": "Medersa Ben Youssef Mosque courtyard and Souk Semmarine",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Bahia Palace",
+          "transport_mode": "drive",
+          "distance_meters": 10210,
+          "travel_minutes": 19,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "شُيّد في التسعينيات من القرن التاسع عشر من قبل السي موسى وابنه با أحمد، الوزيري الأعظميين للسلطان الحسن الأول، وقد صُمّم القصر البهية (بمعنى البريق والتألق) ليكون أعظم قصر في عصره. تضم 8 هكتارات من الحجرات والأفنية والحدائق، وهي مفتوحة جزئياً فقط، لكن الفناء الرياض الكبير برسوماته على السقف من خشب الأرز المطلي وحجرات الحريم تعطي انطباعاً حياً عن حياة النخبة المغربية في أواخر القرن التاسع عشر. ادخل من Rue Riad Zitoun el-Jedid - المدخل الجنوبي وقت الانتظار أقصر من المدخل السياحي الرئيسي من الشمال.",
         "walk_to_next": {
-          "to": "Saadian Tombs",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Djemaa el-Fna at nightfall",
+          "transport_mode": "walk",
+          "distance_meters": 950,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -132,7 +136,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 31
     }
-  ]
+  ],
+  "total_travel_minutes": 31,
+  "last_verified": null
 }

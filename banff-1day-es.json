@@ -1,7 +1,7 @@
 {
   "destination": "Banff",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:20:31.252Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día en Banff centrado en el piso del Bow Valley y las crestas sobre él, un circuito cerrado desde las aguas termales del pueblo hasta el lago que inspiró miles de postales, con una cumbre de teleférico en medio. El conjunto construye desde la historia térmica pasando por la geología alpina hasta la icónica orilla turquesa.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Banff Townsite / Bow Valley",
       "neighborhood_description": "La razón original por la que Canadá creó su primer parque nacional en 1885 fue un conjunto de manantiales termales en las laderas de Sulphur Mountain. El pueblo que creció alrededor de ellos se encuentra a 1.383 metros en un estrecho valle de las Montañas Rocosas, rodeado de picos de piedra caliza por todos lados. Dentro de un radio de 15 kilómetros tienes las aguas termales fundacionales, un paseo por la cresta accesible por teleférico y Lake Louise, uno de los lagos glaciares más visitados de América del Norte.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Cave and Basin National Historic Site",
         "wikidata_qid": "Q1054005",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "El manantial de azufre descubierto en 1883 que desencadenó directamente el sistema de parques nacionales de Canadá. El paseo de tablas alrededor de la cuenca al aire libre toma aproximadamente 20 minutos y muestra el hábitat del caracol Banff Springs endémico, una especie que no se encuentra en ningún otro lugar de la tierra. El túnel de la cueva en sí es corto, pero el olor a azufre y el techo bajo que gotea lo hacen la parada más atmosférica del townsite. Llegue temprano antes de que los tours en autobús lleguen alrededor de las 10am.",
         "walk_to_next": {
-          "to": "Banff Gondola and Sulphur Mountain",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Banff Gondola and Sulphur Mountain Summit Ridge",
+          "transport_mode": "drive",
+          "distance_meters": 1680,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -71,8 +73,10 @@
         "notes": "La góndola lo deja a 2,281 metros en la cresta de Sulphur Mountain. Camine hacia el norte junto al paseo de tablas hasta la estación de rayos cósmicos restaurada de 1903 en Sanson Peak, aproximadamente 15 minutos en cada sentido y una ganancia de elevación significativa incluso desde la terminal de la góndola, así que establezca su propio ritmo. La vista de 360 grados abarca el Bow Valley, la cuadrícula del pueblo directamente debajo, y Cascade Mountain al norte. Reserve los boletos de la góndola en línea para evitar la cola de la terminal, que puede extenderse 45 minutos en temporada alta.",
         "walk_to_next": {
           "to": "Lake Louise",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "transport_mode": "drive",
+          "distance_meters": 79600,
+          "travel_minutes": 78,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 14
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 85
     }
-  ]
+  ],
+  "total_travel_minutes": 85,
+  "last_verified": null
 }

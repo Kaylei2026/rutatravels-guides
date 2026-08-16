@@ -1,7 +1,7 @@
 {
   "destination": "Kyoto",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:27:23.585Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "专注于东山区的一天 - 京都保存最完整的前现代街区,从南边山丘上的清水寺沿着石板铺就的小巷向下延伸,经过祇园和白川运河。整天都可以不乘坐交通工具步行游览,能够完整展现这座城市的佛教寺庙、神道神社和商人街区的多层面特色。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3900,
-  "total_walking_minutes": 49,
+  "total_walking_distance_meters": 1700,
+  "total_walking_minutes": 21,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Higashiyama",
       "neighborhood_description": "京都中心东边的狭长丘陵地带,中世纪街道网格在火灾、战争和城市改造中幸存下来。清水寺位于森林环绕的山坡上,锚定南端;二年坂和三年坂的小巷网络向北连接到高台寺、圆山公园,最终延伸到白川运河沿岸祇园保存完好的町家(茶屋)街道。整个路线大约三公里,可以在一天内从南向北步行完成。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1700,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Kiyomizudera",
         "wikidata_qid": "Q588191",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "在上午6点开门时到达，这样可以在8点30分旅游大巴抵达前，几乎独享这座著名的木制舞台 - 悬臂式设计伸出森林山坡13米，没有用一根钉子。从南边沿Chawan-zaka（茶碗坂）上行比主干道Kiyomizu-zaka更安静、更陡峭；在Nio-mon门下方重新汇入主路。舞台下方Otowa瀑布的泉水分成三条独立的溪流，据说每条都能带来不同的益处 - 按习俗只能从其中一条饮用。",
         "walk_to_next": {
-          "to": "Ninenzaka and Sannenzaka lanes",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Ninenzaka and Sannenzaka",
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "两条相连的石板铺路 - Sannenzaka（三年坂）和Ninenzaka（二年坂）- 两侧排列着明治和大正时期改建成工艺品店、抹茶咖啡馆和漆器店的町屋民居。向北穿过两条街道而不是往回走：Sannenzaka是较陡的下段，Ninenzaka是较缓的上段弧线，通向Kodai-ji。当地民俗认为在这些台阶上绊倒会分别带来三年或两年的厄运 - 台阶确实凹凸不平，所以这个警告有其实际依据。",
         "walk_to_next": {
-          "to": "Kodai-ji Temple",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Gion - Hanamikoji and Shirakawa",
+          "transport_mode": "walk",
+          "distance_meters": 1030,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -127,7 +131,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 21,
+  "last_verified": null
 }

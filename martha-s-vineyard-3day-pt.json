@@ -1,7 +1,7 @@
 {
   "destination": "Martha's Vineyard",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:56:03.993Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Três dias explorando a essência da Martha's Vineyard: a cidade de Edgartown da era das baleias, a aldeia de acampamento das reuniões religiosas com casarões vitorianos de Oak Bluffs, e os remotos penhascos de argila e terras indígenas na ponta oeste da ilha. Cada dia é geograficamente autossuficiente e recompensa a exploração lenta a pé ou de bicicleta.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 5720,
-  "total_walking_minutes": 72,
+  "total_walking_distance_meters": 3230,
+  "total_walking_minutes": 41,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Edgartown",
       "neighborhood_description": "Sede do condado de Martha's Vineyard e a cidade mais antiga colonizada, incorporada em 1671. Edgartown prosperou através da indústria baleeira do século 19, e a riqueza construída por esse comércio sobrevive em uma densa concentração de casarões de capitães em estilo Federal e Greek Revival alinhados nas ruas North Water e South Water. O porto se abre para um canal estreito em direção a Chappaquiddick Island.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1270,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Edgartown Lighthouse",
         "wikidata_qid": "Q5341119",
@@ -43,8 +43,10 @@
         "notes": "O farol de ferro fundido de 1939 fica em uma língua de areia alcançada por uma curta caminhada na praia a partir do final de North Water Street. Chegue antes das 10h para ter a praia à beira do porto quase só para si - a vista de volta em direção à cidade com fachadas brancas de madeira e veleiros ancorados é a imagem que define Edgartown. O Martha's Vineyard Museum opera o farol e vende ingressos para subir à torre sazonalmente.",
         "walk_to_next": {
           "to": "Martha's Vineyard Museum",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 1140,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "O museu se mudou para um prédio convertido do Marine Hospital de 1895 em 2018, uma atualização significativa do antigo campus Cooke House. As galerias de baleação e marítima são o núcleo, mas a exposição sobre a história indígena Wampanoag da ilha - particularmente o Aquinnah Wampanoag - é incomumente substancial para um museu marítimo regional. A lente Fresnel original do Gay Head Lighthouse está exibida aqui em vez de estar no local do penhasco.",
         "walk_to_next": {
-          "to": "Edgartown Historic District - North Water Street",
-          "distance_meters": 420,
-          "walking_minutes": 6
+          "to": "Edgartown Historic District - North and South Water Streets",
+          "transport_mode": "walk",
+          "distance_meters": 130,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Oak Bluffs",
       "neighborhood_description": "Originalmente um acampamento de reunião metodista de verão estabelecido em 1835, Oak Bluffs cresceu e se tornou uma cidade resort vitoriana com um caráter totalmente diferente do resto da ilha. O núcleo do acampamento de reunião - os terrenos da Martha's Vineyard Camp Meeting Association, conhecidos como o Campground - contém mais de 300 chalés ornamentados de pão de mel cercando um tabernáculo de ferro fundido. Oak Bluffs também é o centro da comunidade afro-americana de verão bem estabelecida da ilha, enraizada no bairro Highlands.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 320,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Martha's Vineyard Camp Meeting Association Grounds",
         "wikidata_qid": "Q6778284",
@@ -151,7 +156,9 @@
         "notes": "O Campground é um Marco Histórico Nacional e ainda funciona como uma comunidade religiosa ativa, sendo as ruas entre as casarões propriedade privada, portanto mantenha-se nas trilhas e trate-o como um bairro em vez de uma atração turística. As casarões mais fotogênicas ficam em Trinity Park e ao longo de Siloam Avenue logo atrás do Tabernacle. Nas manhãs de dias de semana antes das 10h as ruas estão praticamente vazias.",
         "walk_to_next": {
           "to": "Trinity Park Tabernacle",
-          "distance_meters": 80,
+          "transport_mode": "walk",
+          "distance_meters": 70,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -171,8 +178,10 @@
         "notes": "Um tabernáculo ao ar livre de ferro fundido de 1879 no centro do Campground, o maior tabernáculo de ferro dos Estados Unidos. A estrutura é genuinamente notável: arcos de ferro forjado pré-fabricados com 130 pés de vão sem colunas interiores, todos os assentos orientados para um púlpito central. Cantoria comunitária e serviços das noites de quarta-feira funcionam durante o verão e estão abertos para visitantes.",
         "walk_to_next": {
           "to": "Flying Horses Carousel",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 250,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 23
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 4
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Aquinnah / Gay Head",
       "neighborhood_description": "A ponta mais ocidental de Martha's Vineyard, pertencente à Tribo Wampanoag de Aquinnah, que habitam essas terras há mais de 10.000 anos. As Gay Head Cliffs - um Monumento Natural Nacional - são penhascos de sedimento Cretáceo em camadas elevando-se 150 pés acima do Atlântico, listrados em argila vermelha, branca, laranja e cinza. A cidade de Aquinnah (renomeada de Gay Head em 1998) é a parte mais rural da ilha.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1640,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Gay Head Cliffs",
         "wikidata_qid": "Q1497440",
@@ -259,8 +269,10 @@
         "notes": "Estacione no estacionamento da prefeitura de Aquinnah e caminhe pela passarela acessível até o mirante principal - os penhascos se destacam melhor com a luz da manhã, antes do sol ficar a pino e achatar o contraste de cores. Não desça para a praia abaixo nem toque a face de argila; é terra tribal e a erosão é uma preocupação séria e contínua. A plataforma do mirante oferece a seção geológica completa das camadas do Cretáceo.",
         "walk_to_next": {
           "to": "Gay Head Lighthouse",
-          "distance_meters": 260,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 150,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -279,8 +291,10 @@
         "notes": "O farol original de 1799 foi substituído pela atual torre de tijolos em 1844. Em 2015 toda a estrutura foi movida 129 pés para trás da borda do penhasco em erosão usando um sistema de rolo hidráulico - uma operação rara e tecnicamente impressionante de preservação histórica documentada nos materiais informativos. O Martha's Vineyard Museum abre a torre para visitação nos fins de semana de verão; a vista do topo abrange as Elizabeth Islands, Cuttyhunk, e em dias claros a costa de Rhode Island.",
         "walk_to_next": {
           "to": "Moshup Trail overlook and Lobsterville Beach",
-          "distance_meters": 910,
-          "walking_minutes": 12
+          "transport_mode": "walk",
+          "distance_meters": 1490,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 41,
+  "last_verified": null
 }

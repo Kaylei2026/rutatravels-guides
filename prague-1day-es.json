@@ -1,7 +1,7 @@
 {
   "destination": "Prague",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:03:58.808Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día recorriendo la columna vertebral histórica de Prague desde la colina del castillo hasta la plaza del casco antiguo, pasando por el puente medieval. La ruta desciende gradualmente desde Hradcany a través de Mala Strana y cruza el Vltava, terminando en el núcleo barroco y gótico de Stare Mesto.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3100,
-  "total_walking_minutes": 39,
+  "total_walking_distance_meters": 1980,
+  "total_walking_minutes": 25,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Hradcany / Mala Strana / Stare Mesto",
       "neighborhood_description": "El corredor esencial de Prague va desde Prague Castle en la colina occidental, baja a través de los palacios y jardines barrocos del Little Quarter, cruza el Charles Bridge sobre el Vltava y entra al Old Town. Toda la ruta está dentro de la zona histórica de la UNESCO y se puede caminar en un solo descenso continuo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 1980,
+      "day_walking_minutes": 25,
       "morning": {
         "activity_title": "Prague Castle and St. Vitus Cathedral",
         "wikidata_qid": "Q26261",
@@ -46,8 +46,10 @@
         "notes": "Entra por la puerta occidental de Hradcanske namesti en lugar de la puerta oriental junto a Jirska: el acceso occidental te ofrece el patio de honor completo con las estatuas de Giant Battling Titans y el cambio de guardia cada hora en punto. St. Vitus Cathedral está en el segundo patio y la entrada a la nave es gratuita; el boleto del circuito solo es necesario si quieres ver el tesoro, la torre o la cripta. El rosetón de la fachada sur es del siglo XX pero fue diseñado directamente a partir de los planos medievales.",
         "walk_to_next": {
           "to": "Charles Bridge",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "walk",
+          "distance_meters": 1050,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Las 30 estatuas barrocas que bordean el puente son en su mayoría reemplazos del siglo XVIII; las originales están en el Lapidarium en Vystaviste. La figura más tocada es St. John of Nepomuk (quinta desde el extremo de Mala Strana en el lado norte): la placa de bronce a sus pies está pulida y brillante por siglos de manos. Las multitudes del mediodía son densas; si ya bajaste caminando desde el castillo, cruzarás exactamente en el momento indicado antes de que lleguen los autobuses turísticos de la tarde.",
         "walk_to_next": {
-          "to": "Old Town Square",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Old Town Square and the Astronomical Clock",
+          "transport_mode": "walk",
+          "distance_meters": 930,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 25
     }
-  ]
+  ],
+  "total_travel_minutes": 25,
+  "last_verified": null
 }

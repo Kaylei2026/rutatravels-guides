@@ -1,7 +1,7 @@
 {
   "destination": "Dubrovnik",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:14:33.353Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day inside and above the walled city: walk the full circuit of the medieval walls at the start of the day before the heat builds, descend into the limestone lanes of the Stradun, and end the evening on a hillside above the rooftops.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 480,
+  "total_walking_minutes": 6,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Old Town (Grad)",
       "neighborhood_description": "Dubrovnik's Old Town is a fully intact medieval fortified city on a limestone promontory. Nearly every major monument sits within a 2-kilometer perimeter of walls. The city was an independent republic - the Republic of Ragusa - for nearly five centuries, and its dense grid of limestone palaces, churches, and monasteries reflects that civic wealth.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 480,
+      "day_walking_minutes": 6,
       "morning": {
         "activity_title": "Walls of Dubrovnik",
         "wikidata_qid": "Q1067140",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Buy your ticket at the Pile Gate entrance and walk the circuit clockwise - that direction puts the sea views on your left across the full western stretch, saving the best panoramas rather than arriving at them backwards. The full circuit is nearly 2 kilometers and almost entirely exposed; going at opening (8am) is not just a crowd strategy, it cuts the surface temperature of the stone underfoot by several degrees compared to midday.",
         "walk_to_next": {
-          "to": "Franciscan Monastery and Pharmacy",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Stradun and the Franciscan Monastery",
+          "transport_mode": "walk",
+          "distance_meters": 80,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "The monastery cloister is one of the finest Romanesque-Gothic transitional spaces in the Adriatic - the double columns with their carved capitals are mostly original and survived the 1667 earthquake that leveled much of the city. The pharmacy inside claims to be among the oldest continuously operating apothecaries in Europe, open since 1317. Walk the Stradun afterward: the main limestone street was repaved after the 1667 earthquake in a single campaign, giving it an unusually uniform Baroque character for a medieval city.",
         "walk_to_next": {
-          "to": "Rector's Palace",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "to": "Fort Lovrijenac at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 400,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 6
     }
-  ]
+  ],
+  "total_travel_minutes": 6,
+  "last_verified": null
 }

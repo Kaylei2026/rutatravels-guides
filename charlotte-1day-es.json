@@ -1,7 +1,7 @@
 {
   "destination": "Charlotte",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:47:07.898Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día en el núcleo de Uptown Charlotte, explorando el distrito de rascacielos de la era bancaria de la ciudad, su mejor museo de historia, un bolsillo de vecindario de la era victoriana, y la ruta de artes públicas que los conecta. El conjunto es caminable de punta a punta y mezcla profundidad interior con orientación exterior.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 770,
+  "total_walking_minutes": 10,
   "days": [
     {
       "day": 1,
@@ -23,26 +23,28 @@
       "neighborhood_focus": "Uptown Charlotte / Fourth Ward",
       "neighborhood_description": "El Uptown de Charlotte es una cuadrícula compacta de cuatro distritos que creció desde un cruce de juzgado colonial hasta el segundo mayor centro bancario de los Estados Unidos. Fourth Ward, el cuadrante noroeste, preserva un bolsillo de casas de la era victoriana detrás de las torres de cristal. Todo el conjunto es navegable a pie entre el museo de historia, el distrito de artes y la plaza central.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 770,
+      "day_walking_minutes": 10,
       "morning": {
-        "activity_title": "Levine Museum of the New South",
-        "wikidata_qid": "Q6537732",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Levine_Museum_of_the_New_South",
+        "activity_title": "Harvey B. Gantt Center for African-American Arts and Culture",
+        "wikidata_qid": "Q5677720",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harvey_B._Gantt_Center_for_African-American_Arts_%2B_Culture",
         "coordinates": {
-          "lat": 35.2271,
-          "lon": -80.8456
+          "lat": 35.2261,
+          "lon": -80.8441
         },
-        "unesco_designation": null,
-        "duration_minutes": 90,
-        "type": "museum",
+        "duration_minutes": 75,
+        "type": "art_museum",
         "weather_sensitivity": "indoor",
         "optimal_timing": "morning",
-        "notes": "La exposición permanente Cotton Fields to Skyscrapers es la explicación más coherente en una sola sala de cómo el sur posterior a la Guerra Civil se industrializó, utilizando Charlotte como caso de estudio. La sección sobre los pueblos de molinos textiles de Piedmont, donde las familias se mudaron de granjas a viviendas propiedad de la empresa y operaban una sola máquina durante toda su vida, resulta inesperadamente conmovedora. Comienza aquí antes de que el contexto del horizonte cobre sentido.",
+        "notes": "Nombrado en honor al primer alcalde afrodescendiente de Charlotte y al primer estudiante afrodescendiente admitido en Clemson University. La colección permanente ancla la producción artística afrodescendiente en las Carolinas específicamente, no solo en términos nacionales generales - las secciones de arte folclórico y de quilting tienen especificidad regional que las instituciones más grandes tienden a simplificar. También se encuentra en el campus del Levine Center, lo que lo convierte en una tercera parada natural si tienes la tarde libre.",
+        "unesco_designation": null,
         "walk_to_next": {
-          "to": "Charlotte Museum of History / Hezekiah Alexander House",
-          "distance_meters": 430,
-          "walking_minutes": 5
+          "to": "Bechtler Museum of Modern Art",
+          "transport_mode": "walk",
+          "distance_meters": 230,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "La familia Bechtler reunió el modernismo europeo de mediados de siglo en Suiza durante décadas antes de donarlo a Charlotte, lo que significa que una pequeña ciudad estadounidense alberga bronces originales de Giacometti, cerámica de Miró y un retrato de Warhol de la abuela de Andreas Bechtler. El edificio es un diseño de Mario Botta; el atrio del vestíbulo con su rejilla de lucernario merece un momento antes de comenzar a recorrer las galerías. Ubicado en el borde sur de Levine Center for the Arts, por lo que puedes cruzar entre aquí y el Mint Museum Uptown en la misma cuadra.",
         "walk_to_next": {
-          "to": "Fourth Ward historic neighborhood",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Fourth Ward and Romare Bearden Park",
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -101,28 +105,14 @@
             "distance_meters": 80,
             "walking_minutes": 1
           }
-        },
-        {
-          "activity_title": "Harvey B. Gantt Center for African-American Arts and Culture",
-          "wikidata_qid": "Q5677720",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Harvey_B._Gantt_Center_for_African-American_Arts_%2B_Culture",
-          "coordinates": {
-            "lat": 35.2261,
-            "lon": -80.8441
-          },
-          "neighborhood": "Uptown Charlotte",
-          "duration_minutes": 60,
-          "type": "art_museum",
-          "weather_sensitivity": "indoor",
-          "optimal_timing": "any",
-          "notes": "Nombrado en honor al primer alcalde afrodescendiente de Charlotte y al primer estudiante afrodescendiente admitido en Clemson University. La colección permanente ancla la producción artística afrodescendiente en las Carolinas específicamente, no solo en términos nacionales generales - las secciones de arte folclórico y de quilting tienen especificidad regional que las instituciones más grandes tienden a simplificar. También se encuentra en el campus del Levine Center, lo que lo convierte en una tercera parada natural si tienes la tarde libre.",
-          "walk_from_main_route": {
-            "from": "Bechtler Museum of Modern Art",
-            "distance_meters": 130,
-            "walking_minutes": 2
-          }
         }
-      ]
+      ],
+      "day_travel_minutes": 10
     }
-  ]
+  ],
+  "needs_retranslation": [
+    "guide_description"
+  ],
+  "total_travel_minutes": 10,
+  "last_verified": null
 }

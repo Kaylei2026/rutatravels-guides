@@ -1,7 +1,7 @@
 {
   "destination": "London",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Fünf Tage für Londons wichtigste Sehenswürdigkeiten plus das kulturelle West End-Viertel und das UNESCO-Schifffahrtserbe von Greenwich. Jeder Tag ist geografisch in sich abgeschlossen.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 10800,
-  "total_walking_minutes": 140,
+  "total_walking_distance_meters": 8650,
+  "total_walking_minutes": 109,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Westminster / South Bank",
       "neighborhood_description": "Westminster ist der Sitz der britischen Regierung und die Krönungskirche der Monarchie, verankert am Parliament Square. Die South Bank gegenüber der Westminster Bridge bildet das kulturelle Gegenstück, gesäumt von der Uferpromenade, dem London Eye und wichtigen Kunsteinrichtungen.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Westminster Abbey",
         "wikidata_qid": "Q5933",
@@ -49,8 +49,10 @@
         "optimal_timing": "morning",
         "notes": "Schauplatz aller englischen Krönungen seit 1066 und Grabstätte von siebzehn Monarchen. Buchen Sie online ein zeitgebundenes Ticket, um die Warteschlange zu umgehen. Die Poets' Corner (Chaucer, Dickens, Hardy, Browning) und der Coronation Chair sind die offensichtlichen Höhepunkte; das oft übersehene Cosmati Pavement direkt vor dem High Altar ist ein geometrisches Mosaik aus dem 13. Jahrhundert, wo die tatsächlichen Krönungen stattfinden. Sonntags geschlossen, außer für Gottesdienste.",
         "walk_to_next": {
-          "to": "Houses of Parliament",
-          "distance_meters": 250,
+          "to": "Houses of Parliament and Big Ben",
+          "transport_mode": "walk",
+          "distance_meters": 230,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -74,9 +76,11 @@
         "optimal_timing": "any",
         "notes": "Der neugotische Palace of Westminster, 1870 fertiggestellt, nachdem das mittelalterliche Original 1834 abbrannte. Einwohner des UK und Commonwealth können kostenlos eine Debatte besuchen, indem sie sich am Cromwell Green anstellen; internationale Besucher können kostenpflichtige Führungen an sitzungsfreien Tagen buchen (normalerweise samstags und in den Parlamentsferien). Big Ben ist die Glocke, nicht der Turm - der Turm selbst ist der Elizabeth Tower, kürzlich in seinen ursprünglichen viktorianischen Farben restauriert.",
         "walk_to_next": {
-          "to": "London Eye via Westminster Bridge",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "South Bank and London Eye at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -116,7 +120,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     },
     {
       "day": 2,
@@ -125,8 +130,8 @@
       "neighborhood_focus": "The City / Tower",
       "neighborhood_description": "Die Square Mile, die einst das römische Londinium war und bis zur Tudor-Zeit die gesamte Stadt blieb - heute Londons Finanzviertel, aber mit seinem mittelalterlichen Straßenmuster, dem Tower of London und der St. Paul's Cathedral, alles erhalten geblieben. Der archäologisch dichteste Quadratkilometer Britanniens.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 2770,
+      "day_walking_minutes": 35,
       "morning": {
         "activity_title": "Tower of London",
         "wikidata_qid": "Q11953",
@@ -147,8 +152,10 @@
         "optimal_timing": "morning",
         "notes": "William the Conquerors White Tower von 1078, plus 900 Jahre an Ergänzungen - zu verschiedenen Zeiten Königspalast, Gefängnis, Schatzkammer, Münzanstalt und Zoo. Online im Voraus buchen. Die Führungen der Yeoman Warder (Beefeater) sind im Eintritt enthalten, finden alle 30 Minuten statt und sind überraschenderweise das Beste - geistreich, respektlos und geschichtsträchtig. Die Warteschlange zu den Crown Jewels bewegt sich in der ersten Stunde nach Öffnung am schnellsten.",
         "walk_to_next": {
-          "to": "Tower Bridge",
-          "distance_meters": 350,
+          "to": "Tower Bridge and the riverside walk",
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
           "walking_minutes": 5
         }
       },
@@ -168,8 +175,10 @@
         "notes": "Die viktorianische Klappbrücke, die oft fälschlicherweise für London Bridge gehalten wird (das ist die schlichte Brücke stromaufwärts). Der Gehweg zwischen den Türmen - jetzt mit Glasböden - ist eine kostenpflichtige Attraktion, aber das Überqueren der Fahrbahn ist kostenlos und bietet dieselbe Aussicht. Die Brücke öffnet sich etwa 800 Mal im Jahr; der Zeitplan wird online veröffentlicht und es lohnt sich, bei einer Öffnung zu verweilen.",
         "walk_to_next": {
           "to": "St. Paul's Cathedral",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "transport_mode": "walk",
+          "distance_meters": 2390,
+          "travel_minutes": 30,
+          "walking_minutes": 30
         }
       },
       "evening": {
@@ -209,7 +218,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 35
     },
     {
       "day": 3,
@@ -219,7 +229,7 @@
       "neighborhood_description": "Das viktorianische Kulturviertel, entstanden aus den Erlösen der Great Exhibition von 1851, mit drei der weltbesten Museen rund um die Exhibition Road. Nördlich der Kensington Gore bilden Hyde Park und Kensington Gardens 250 Hektar zusammenhängende königliche Parklandschaft.",
       "weather_profile": "resilient",
       "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 29,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Victoria and Albert Museum",
         "wikidata_qid": "Q213322",
@@ -236,8 +246,10 @@
         "notes": "Das weltgrößte Museum für dekorative Künste und Design - 2,8 Millionen Objekte in 145 Galerien. Eintritt frei. Die Gipsabguss-Säle (lebensgroße Gipsabgüsse der Trajanssäule und Michelangelos David, entstanden als viktorianische Museen noch Reproduktionen statt Originale sammelten) sind einzigartig in London. Das Gartencafé unter den mit William Morris dekorierten Räumen bietet eines der angenehmsten Museumsessen der Stadt.",
         "walk_to_next": {
           "to": "Natural History Museum",
-          "distance_meters": 250,
-          "walking_minutes": 3
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -255,9 +267,11 @@
         "optimal_timing": "any",
         "notes": "Eintritt frei. Das Blauwal-Skelett in der Hintze Hall (2017 Nachfolger von Dippy dem Dinosaurier), das im zentralen Kirchenschiff hängt, ist der charakteristische Anblick des Gebäudes. Der Erdbebensimulator in der Vulkan- und Erdbebengalerie, der das Kobe-Erdbeben von 1995 in einem nachgebauten japanischen Lebensmittelladen nachstellt, ist das überraschendste Exponat. Am Wochenende dominieren Familien - gehen Sie an einem Wochentagnachmittag hin, wenn Sie Ruhe zum Nachdenken wollen.",
         "walk_to_next": {
-          "to": "Hyde Park Serpentine",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Hyde Park and the Serpentine at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1820,
+          "travel_minutes": 23,
+          "walking_minutes": 23
         }
       },
       "evening": {
@@ -297,7 +311,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     },
     {
       "day": 4,
@@ -306,8 +321,8 @@
       "neighborhood_focus": "Covent Garden / Bloomsbury / Soho",
       "neighborhood_description": "Central Londons Unterhaltungs- und Museumsviertel - Covent Gardens Piazza aus dem 17. Jahrhundert und ehemaliger Obstmarkt, das British Museum als Schatzkammer der Aufklärung in Bloomsbury, und Sohos dicht gedrängte Restaurants und Theater, die sich westwärts bis Piccadilly erstrecken.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 27,
+      "day_walking_distance_meters": 1710,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "British Museum",
         "wikidata_qid": "Q6373",
@@ -323,9 +338,11 @@
         "optimal_timing": "morning",
         "notes": "Freier Eintritt, 1753 als erstes öffentliches Museum der Welt gegründet. Der Great Court unter Norman Fosters Glasdach ist allein schon einen Besuch wert. Unbedingt sehen: Rosetta Stone (Raum 4), Parthenon-Marmorskulpturen (Raum 18, umstritten und entsprechend gekennzeichnet), die ägyptischen Mumiengalerien (Räume 62-63), Sutton Hoo Helm (Raum 41), Lewis Chessmen (Raum 40). Wählen Sie drei oder vier Galerien aus und akzeptieren Sie, dass Sie nicht alles sehen werden - das Museum besitzt 8 Millionen Objekte.",
         "walk_to_next": {
-          "to": "Covent Garden",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Covent Garden Piazza",
+          "transport_mode": "walk",
+          "distance_meters": 1150,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -343,9 +360,11 @@
         "optimal_timing": "any",
         "notes": "Inigo Jones' Piazza von 1631 - Englands erster geplanter öffentlicher Platz, nach dem Vorbild der italienischen Piazzen, die er auf seiner Grand Tour gesehen hatte. Der Apple Market (im zentralen Glashaus) verkauft Kunsthandwerk; in den umliegenden Straßen befinden sich das Royal Opera House und das London Transport Museum. Straßenkünstler arbeiten auf der Piazza in einem rotierenden Lizenzsystem - die Schichten von Dienstag bis Donnerstag nachmittags bekommen die besten Künstler.",
         "walk_to_next": {
-          "to": "Trafalgar Square / National Gallery",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trafalgar Square and the National Gallery",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -405,7 +424,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     },
     {
       "day": 5,
@@ -414,8 +434,8 @@
       "neighborhood_focus": "Greenwich",
       "neighborhood_description": "Der Flussbezirk südöstlich des Londoner Zentrums, Heimat eines UNESCO-Welterbe-Ensembles von Marine- und Astronomiegebäuden in Wren-und-Hawksmoors grandiosestem Maßstab. Erreichbar mit dem Thames Clipper Flussboot (der landschaftlich reizvollste Zugang), DLR oder Bahn.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 1020,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Old Royal Naval College",
         "wikidata_qid": "Q1788916",
@@ -436,9 +456,11 @@
         "optimal_timing": "morning",
         "notes": "Christopher Wrens symmetrischer Flusskomplex, ursprünglich ein Royal Hospital für pensionierte Seeleute (1696). Die Painted Hall, manchmal als Britanniens Sixtinische Kapelle bezeichnet, brauchte James Thornhill neunzehn Jahre zum Freskieren und wurde kürzlich einer größeren Restaurierung unterzogen. Die gegenüberliegende Chapel of St. Peter and St. Paul ist zurückhaltender, aber lohnt die Kombination.",
         "walk_to_next": {
-          "to": "National Maritime Museum / Queen's House",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Queen's House and National Maritime Museum",
+          "transport_mode": "walk",
+          "distance_meters": 300,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -461,9 +483,11 @@
         "optimal_timing": "any",
         "notes": "Inigo Jones' Queen's House von 1635 war das erste wahrhaft klassische Gebäude Englands - der Moment, als die britische Architektur aufhörte spätmittelalterlich zu sein und Renaissance wurde. Beide Museen haben freien Eintritt. Die Tulip Stairs im Queen's House sind Englands erste geometrische selbsttragende Treppe. Die Sammlung des Maritime Museum ist riesig; die Nelson-Galerien und die Polar-Ausstellung sind die stärksten einzelnen Besuche.",
         "walk_to_next": {
-          "to": "Royal Observatory",
-          "distance_meters": 700,
-          "walking_minutes": 10
+          "to": "Royal Observatory and the Prime Meridian",
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -528,7 +552,10 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     }
-  ]
+  ],
+  "total_travel_minutes": 109,
+  "last_verified": null
 }

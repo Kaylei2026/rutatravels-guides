@@ -1,7 +1,7 @@
 {
   "destination": "Santa Barbara",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:56:40.088Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "一日游行程涵盖圣塔芭芭拉紧凑的历史中心：市中心公民区的西班牙殖民复兴建筑风格、山上的传教所，以及State Street脚下的运营港口。各个景点之间都在步行距离内或短途车程范围内。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3380,
-  "total_walking_minutes": 43,
+  "total_walking_distance_meters": 1600,
+  "total_walking_minutes": 20,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown / El Pueblo Viejo / Waterfront",
       "neighborhood_description": "圣塔芭芭拉的市中心在1925年地震后按照统一的西班牙殖民复兴风格重建，以白色灰泥、红瓦屋顶和带拱廊的店面为特色，这些都由城市条例强制规定。传教所坐落在北边几个街区的低矮山脊上，而Stearns Wharf和港口则位于State Street的南端。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3380,
-      "day_walking_minutes": 43,
+      "day_walking_distance_meters": 1600,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Santa Barbara County Courthouse",
         "wikidata_qid": "Q7422012",
@@ -41,8 +41,10 @@
         "notes": "建于1929年，这是加州最精美的西班牙殖民地复兴式市政建筑。免费的自助导览让你可以自己漫步于下沉式花园庭院和壁画装饰的议事厅。登上El Mirador钟楼 - 屋顶观景台提供了城市网格、身后群山和晴朗早晨Channel Islands的最佳无遮挡景观。",
         "walk_to_next": {
           "to": "Old Mission Santa Barbara",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 1600,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "成立于1786年，是唯一从未脱离方济各会掌控的加州传教团。双塔立面是1820年对维特鲁威的罗马神庙前立面的诠释 - 修士们是根据书上的插图设计的，而非真实建筑。自助导览包括原始的Serra礼拜堂、埋有Chumash人的墓地，以及修道院侧厅的小型博物馆。从Laguna街向上坡方向靠近，可以欣赏被Santa Ynez山脉框架装饰的完整立面景观。",
         "walk_to_next": {
-          "to": "Stearns Wharf",
-          "distance_meters": 2080,
-          "walking_minutes": 26
+          "to": "Stearns Wharf and Santa Barbara Harbor",
+          "transport_mode": "drive",
+          "distance_meters": 4990,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 24
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 32,
+  "last_verified": null
 }

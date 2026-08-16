@@ -1,7 +1,7 @@
 {
   "destination": "Prague",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:05:28.643Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days covering Prague's essential triad: the medieval Old Town and its astronomical clock, the castle hill and baroque Lesser Town on the west bank, and the Jewish Quarter alongside the New Town's grand boulevard. Each day is geographically self-contained and walkable without a metro.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 3290,
+  "total_walking_minutes": 42,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Stare Mesto (Old Town)",
       "neighborhood_description": "The right-bank historic core that UNESCO inscribed in 1992. Narrow lanes radiating from the Old Town Square hold Romanesque cellars, Gothic churches, and baroque palaces stacked on top of one another across nine centuries. The Royal Route cuts west through the quarter toward Charles Bridge.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1690,
-      "day_walking_minutes": 21,
+      "day_walking_distance_meters": 1100,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Old Town Square and Astronomical Clock",
         "wikidata_qid": "Q174509",
@@ -48,8 +48,10 @@
         "notes": "Arrive before 9am to see the square before tour groups arrive. The Orloj (astronomical clock) chimes on the hour with a mechanical procession of the Twelve Apostles - the show lasts 45 seconds and the crowd is 10 deep by 10am, so the morning opening at 9am is the cleanest viewing. Climb the Old Town Hall tower for the best aerial view of the square's medieval roofline - the entrance is inside the hall building on the south side of the tower.",
         "walk_to_next": {
           "to": "Church of Our Lady before Tyn",
-          "distance_meters": 150,
-          "walking_minutes": 2
+          "transport_mode": "walk",
+          "distance_meters": 90,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -72,9 +74,11 @@
         "optimal_timing": "any",
         "notes": "The twin Gothic spires dominating the Old Town Square skyline are 80 meters tall and asymmetrical by design - the south tower is wider than the north. The interior holds the tomb of Tycho Brahe, the Danish astronomer who died in Prague in 1601. Enter from the Tyn Courtyard arcade on the north side, not from the square itself where the passage is easy to miss.",
         "walk_to_next": {
-          "to": "Charles Bridge",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Charles Bridge at dusk",
+          "transport_mode": "walk",
+          "distance_meters": 1010,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -139,7 +143,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 2,
@@ -148,8 +153,8 @@
       "neighborhood_focus": "Mala Strana / Hradcany",
       "neighborhood_description": "The left-bank quarter defined by Prague Castle above and the baroque Lesser Town below. Hradcany is essentially the castle precinct and surrounding aristocratic palaces; Mala Strana is the dense wedge of cobbled streets, embassy gardens, and churches tucked between the castle hill and the river.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2290,
-      "day_walking_minutes": 29,
+      "day_walking_distance_meters": 640,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Prague Castle",
         "wikidata_qid": "Q26336",
@@ -171,8 +176,10 @@
         "notes": "The largest ancient castle complex in the world by area - it is a self-contained district, not a single building. Buy the Circuit B ticket at the main box office inside the second courtyard for St. Vitus Cathedral, the Old Royal Palace, the Basilica of St. George, and Golden Lane. Enter through the western Hradcanske namesti gate rather than the tourist-clogged main east gate off Hradcanska metro for a quieter start. The changing of the guard happens at noon on the hour at the first courtyard.",
         "walk_to_next": {
           "to": "St. Vitus Cathedral",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "transport_mode": "walk",
+          "distance_meters": 160,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -195,9 +202,11 @@
         "optimal_timing": "any",
         "notes": "Started in 1344 and not completed until 1929 - the nave is Gothic, the rose window Art Nouveau, the chapel of St. Wenceslas covered in 1400 semi-precious stones. The Alfons Mucha Art Nouveau stained-glass window in the third chapel on the left is worth stopping for specifically: it was commissioned by a Czech insurance company in 1931. Included with the castle circuit ticket.",
         "walk_to_next": {
-          "to": "Mala Strana and Valdstejnska zahrada",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Mala Strana and Wallenstein Garden",
+          "transport_mode": "walk",
+          "distance_meters": 480,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -262,7 +271,8 @@
             "walking_minutes": 15
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 3,
@@ -271,8 +281,8 @@
       "neighborhood_focus": "Josefov / Nove Mesto",
       "neighborhood_description": "Josefov is the former Jewish quarter of Prague, one of the best-preserved medieval Jewish urban districts in Europe, packed into six compact blocks north of the Old Town Square. A 15-minute walk south leads to the New Town and Wenceslas Square, the wide boulevard that served as the stage for the 1989 Velvet Revolution.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2000,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 1550,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Old Jewish Cemetery and Pinkas Synagogue",
         "wikidata_qid": "Q756200",
@@ -289,8 +299,10 @@
         "notes": "Active from the 15th century until 1787, with up to 12 layers of graves stacked because the community could not bury outside the ghetto walls - the crowded, tilted headstones are a direct physical record of that constraint. The Pinkas Synagogue next door has the names of 77,297 Bohemian and Moravian Jewish Holocaust victims inscribed on its interior walls. Combined ticket with the Jewish Museum covers all six sites in the quarter. Morning visit before 10am is significantly quieter.",
         "walk_to_next": {
           "to": "Spanish Synagogue",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -308,9 +320,11 @@
         "optimal_timing": "any",
         "notes": "Built in 1868 in Moorish Revival style, the interior is the most visually striking of all the Josefov synagogues - gilded geometric ornament covering every wall surface. Named for the Sephardic Jews expelled from Spain in 1492 who settled in Prague. Included in the combined Jewish Museum ticket. Franz Kafka attended Hebrew school in a building on the adjacent square.",
         "walk_to_next": {
-          "to": "Wenceslas Square",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Wenceslas Square and National Museum",
+          "transport_mode": "walk",
+          "distance_meters": 1430,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "evening": {
@@ -375,7 +389,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     }
-  ]
+  ],
+  "total_travel_minutes": 42,
+  "last_verified": null
 }

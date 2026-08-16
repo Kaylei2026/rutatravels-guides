@@ -1,7 +1,7 @@
 {
   "destination": "Sydney",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T13:06:53.507Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day covering Sydney's essential harbour precinct - the two UNESCO icons at Circular Quay, the colonial sandstone streets of The Rocks, and the Royal Botanic Garden stretching east along the water. Everything within a tight walking loop that never loses sight of the harbour.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3900,
-  "total_walking_minutes": 49,
+  "total_walking_distance_meters": 2200,
+  "total_walking_minutes": 28,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Circular Quay / The Rocks / Sydney CBD",
       "neighborhood_description": "The small arc of foreshore between the Harbour Bridge and the Opera House is where the city began in 1788 and where its two defining structures now face each other across the water. The Rocks, on the western headland, is the oldest surviving streetscape in Australia - a dense grid of 19th-century sandstone pubs, merchants' warehouses, and narrow lanes that escaped the demolition campaigns of the 1970s. The Royal Botanic Garden stretches east from the Opera House along the harbour shore, giving uninterrupted water views all the way to Farm Cove.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Sydney Opera House",
         "wikidata_qid": "Q45178",
@@ -46,8 +46,10 @@
         "notes": "Book the one-hour backstage or front-of-house tour online ahead of arrival - walk-up tour availability is unreliable in peak season. The exterior stairs and forecourt are free and fully accessible at all hours. Most photographs of the shells are taken from the Circular Quay ferry wharves directly west, not from street level; the angle from Wharf 6 looking east gives the harbour bridge and opera house in the same frame without a telephoto lens.",
         "walk_to_next": {
           "to": "Royal Botanic Garden Sydney",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 1080,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "Australia's oldest scientific garden, established 1816 on the site of the first farm in the colony. Free entry. The Mrs Macquaries Point headland at the garden's eastern tip is the best free viewpoint in Sydney - the Opera House and Harbour Bridge sit on the same sightline with no obstructions, and the grass bank there is where locals set up for New Year's Eve fireworks. Walk the harbour-edge path rather than the inland paths to keep the water in view the whole way.",
         "walk_to_next": {
-          "to": "The Rocks",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "The Rocks and Sydney Harbour Bridge",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -127,7 +131,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     }
-  ]
+  ],
+  "total_travel_minutes": 28,
+  "last_verified": null
 }

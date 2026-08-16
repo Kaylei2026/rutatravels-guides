@@ -1,7 +1,7 @@
 {
   "destination": "San Sebastian",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:16:37.773Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée couvrant l'arc essentiel de San Sebastian : la vieille ville médiévale avec ses bars à pintxos et son église baroque, la forteresse au sommet de la colline dominant la Baie de Biscaye, et la promenade courbe de La Concha au coucher du soleil. Tout est accessible à pied dans une péninsule compacte.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3200,
-  "total_walking_minutes": 40,
+  "total_walking_distance_meters": 1770,
+  "total_walking_minutes": 22,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Parte Vieja / Monte Urgull / La Concha",
       "neighborhood_description": "La Parte Vieja de San Sebastian est un réseau dense de ruelles étroites entre le port et le fleuve Urumea, reconstruite après qu'un assaut britannique et portugais ait brûlé la majeure partie de la ville en 1813. Monte Urgull s'élève directement derrière, couronné par un château et une statue géante du Christ, avec des vues dégagées sur la baie. La Concha s'étend vers l'ouest depuis la vieille ville comme l'une des plages urbaines les plus célèbres d'Europe.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 1770,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Basilica of Santa Maria del Coro",
         "wikidata_qid": "Q1068308",
@@ -41,8 +41,10 @@
         "notes": "La façade churrigueresque du 18e siècle sur Calle Mayor est l'ancre architecturale de la Vieille Ville. Entrez par l'accès de la rue étroite plutôt que par la façade principale pour profiter pleinement de la révélation théâtrale du retablo doré à l'intérieur. La lumière du matin entre par les fenêtres arrière et frappe directement le maître-autel - à midi, l'intérieur est considérablement plus sombre.",
         "walk_to_next": {
           "to": "Monte Urgull and Castillo de la Mota",
-          "distance_meters": 450,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 660,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "morning",
         "notes": "La colline est librement accessible via plusieurs chemins d'escalier depuis la Parte Vieja - l'ascension la plus courte commence à l'extrémité nord de Calle San Juan et prend environ douze minutes. Le musée du château est petit mais les batteries de canons et les chemins de ronde offrent un panorama complet : l'embouchure de la baie au nord, Monte Igueldo à l'ouest, l'embouchure de la rivière Urumea à l'est. La statue du Sacré-Cœur au sommet est visible depuis la plupart de la ville et fonctionne comme le meilleur point d'orientation à San Sebastian.",
         "walk_to_next": {
-          "to": "Playa de la Concha and Paseo de la Concha",
-          "distance_meters": 850,
-          "walking_minutes": 11
+          "to": "Paseo de la Concha and Playa de la Concha",
+          "transport_mode": "walk",
+          "distance_meters": 1110,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 22,
+  "last_verified": null
 }

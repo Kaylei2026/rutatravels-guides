@@ -1,7 +1,7 @@
 {
   "destination": "Austin",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:42:52.305Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Trois jours couvrant les caractéristiques essentielles d'Austin : le cœur politique et divertissant autour du Capitol et de Sixth Street, le corridor excentrique et accessible de South Congress, et le quartier culturel ancré par l'université avec ses musées de classe mondiale. Chaque jour est géographiquement autonome.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 2830,
+  "total_walking_minutes": 36,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Downtown / Capitol District",
       "neighborhood_description": "Le centre urbain dense d'Austin, ancré au nord par le Texas State Capitol sur sa colline imposante et descendant vers le sud via Congress Avenue jusqu'à la Colorado River. Le Sixth Street Entertainment District s'étend parallèlement à l'est, et les bars et salles de spectacle qui ont rendu Austin célèbre commencent à s'animer en début de soirée.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 27,
+      "day_walking_distance_meters": 690,
+      "day_walking_minutes": 9,
       "morning": {
         "activity_title": "Texas State Capitol",
         "wikidata_qid": "Q743422",
@@ -43,8 +43,10 @@
         "notes": "Des visites guidées gratuites partent toutes les 30 minutes du foyer sud ; elles sont véritablement instructives et donnent accès aux chambres du Sénat et de la Chambre. Le bâtiment mesure délibérément sept pieds de plus que le US Capitol ; placez-vous au centre de la rotonde et regardez droit vers le haut pour confirmer l'étoile. Les terrains incluent plusieurs monuments qui méritent un circuit lent à la sortie.",
         "walk_to_next": {
           "to": "Bullock Texas State History Museum",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "Trois étages couvrant Texas de l'établissement précolombien à l'essor du pétrole et au programme spatial. Les artefacts du premier étage sont les plus remarquables : l'étoile de bronze encastrée dans le plancher d'entrée et l'aigle de bronze géant au-dessus de l'escalier principal donnent le ton. Le théâtre IMAX projette un film sur l'histoire du Texas qui est remarquablement bien produit et une bonne pause après la chaleur.",
         "walk_to_next": {
-          "to": "Congress Avenue Bridge",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Congress Avenue Bridge bat colony emergence",
+          "transport_mode": "drive",
+          "distance_meters": 2740,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "South Congress / South Austin",
       "neighborhood_description": "South Congress Avenue (SoCo) s'étend vers le sud à partir du fleuve à travers une bande éclectique de boutiques vintage, de food trailers et d'hôtels indépendants qui sont devenus l'expression physique de Keep Austin Weird. Zilker Park se trouve à quelques pâtés de maisons à l'ouest, s'étendant le long de Barton Creek et contenant Barton Springs Pool, un bassin de baignade naturel alimenté par des aquifères souterrains.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1980,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 510,
+      "day_walking_minutes": 6,
       "morning": {
         "activity_title": "Barton Springs Pool",
         "wikidata_qid": "Q2884340",
@@ -151,8 +156,10 @@
         "notes": "Une piscine de trois acres alimentée par des sources souterraines qui maintiennent une température constante de 68 degrés Fahrenheit toute l'année - étonnamment froide à l'entrée mais idéale lors de la chaleur estivale d'Austin. Arrivez avant 10h pour trouver une place sur les berges calcaires avant que la foule du week-end n'arrive. La piscine est fermée le jeudi matin pour nettoyage ; vérifiez le site du Parks Department avant de vous rendre sur place. L'écran solaire n'est pas autorisé dans l'eau.",
         "walk_to_next": {
           "to": "Zilker Park",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 510,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -171,8 +178,10 @@
         "notes": "Le parc central de 350 acres d'Austin longeant la rive sud du Colorado River. La vue vers le nord depuis la pelouse du parc sur l'horizon du centre-ville de l'autre côté de Town Lake est la carte postale emblématique d'Austin. Le départ de sentier du Barton Creek Greenbelt est accessible depuis le coin sud-ouest du parc pour ceux qui souhaitent explorer le terrain des collines.",
         "walk_to_next": {
           "to": "South Congress Avenue",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "drive",
+          "distance_meters": 3820,
+          "travel_minutes": 10,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 28
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "University of Texas / Hyde Park",
       "neighborhood_description": "Le campus de l'University of Texas at Austin s'étend sur 433 acres immédiatement au nord du Capitol et contient plusieurs musées et bâtiments emblématiques en soi. Hyde Park, le quartier de l'époque victorienne à l'est du campus, est le district résidentiel pré-automobile le plus intact d'Austin, avec des bungalows et des chênes bordant les avenues qui mènent à des cafés indépendants et des librairies.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1630,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "LBJ Presidential Library",
         "wikidata_qid": "Q6464737",
@@ -238,9 +248,11 @@
         "optimal_timing": "morning",
         "notes": "L'une des plus importantes bibliothèques présidentielles du pays, largement en raison du fait que les années LBJ ont englobé simultanément le Civil Rights Act, la Great Society, et le Vietnam - les archives documentaires sont impressionnantes. La reproduction du Oval Office tel qu'il apparaissait en 1968 se trouve au dernier étage et est plus détaillée que la plupart. L'admission est gratuite. La salle de lecture au quatrième étage surplombe le campus et vaut le coup d'œil même si vous skiez les étages des expositions.",
         "walk_to_next": {
-          "to": "University of Texas at Austin campus",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "University of Texas at Austin - Main Mall and Tower",
+          "transport_mode": "walk",
+          "distance_meters": 530,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -259,8 +271,10 @@
         "notes": "Le Main Mall s'étend vers le sud depuis la UT Tower jusqu'à la fontaine de South Mall selon un axe formel bordé de chênes verts - parcourez le centre du mall en regardant vers le nord pour apprécier la composition prévue. Le pont d'observation de la Tower est ouvert à la visite sur réservation via le centre de visites de l'université ; réservez en ligne à l'avance car les places se remplissent rapidement. La Littlefield Fountain, à l'extrémité sud du mall, est un ambitieux monument en bronze de 1933 qui ancre l'ensemble.",
         "walk_to_next": {
           "to": "Harry Ransom Center",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 1100,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 17
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 55,
+  "last_verified": null
 }

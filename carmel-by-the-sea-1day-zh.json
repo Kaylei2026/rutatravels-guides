@@ -1,7 +1,7 @@
 {
   "destination": "Carmel-by-the-Sea",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:49:03.254Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "一日游览Carmel三角地带的精华景点：镇城建立历史的核心使命教堂、具有童话般建筑风格的村中心和画廊街道、Ocean Avenue脚下的白沙滩，以及南部海岬Point Lobos。行程从内陆历史逐步延伸至太平洋海岸。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2750,
+  "total_walking_minutes": 34,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Carmel Village / Carmel Beach / Point Lobos",
       "neighborhood_description": "Carmel-by-the-Sea坐落在Monterey Peninsula上被松树覆盖的海岬上。小镇的街道布局紧凑，步行从一端到另一端仅需20分钟，街道两旁是20世纪初由艺术家和作家们建造的英式小屋和童话般的Comstock建筑。Ocean Avenue脚下的海滩面向Carmel Bay，而Point Lobos State Natural Reserve则位于同一海岸线南方2英里处。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2750,
+      "day_walking_minutes": 34,
       "morning": {
         "activity_title": "Carmel Mission Basilica",
         "wikidata_qid": "Q1027150",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "由胡尼佩罗·塞拉在1770年创立，他被埋葬在圣殿地板下，墓碑在主教堂的地板上清晰可见。在10点之前到达，可以在旅游团抵达前游览四合院花园和博物馆。主立面上方的星形窗户受到摩尔建筑风格的影响，在加州传教堂中属罕见；注意两座不匹配的钟楼，一座为摩尔式，一座为罗马式。",
         "walk_to_next": {
-          "to": "Carmel Village - Ocean Avenue and surrounds",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "to": "Carmel Village and Ocean Avenue",
+          "transport_mode": "walk",
+          "distance_meters": 1920,
+          "travel_minutes": 24,
+          "walking_minutes": 24
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Ocean Avenue是主干道，但最好的建筑位于两侧一街区的巷道内 Dolores、Lincoln和Monte Verde，分别位于5th和8th之间。Torres Street靠近13th的Comstock童话小屋是Hugh Comstock原始1920年代建筑最密集的集群；注意陡峭的茅草式屋顶线条和霍比特人大小的门。该镇法令规定没有街道地址，因此需按十字路口而非房号导航。",
         "walk_to_next": {
-          "to": "Carmel Beach",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "to": "Carmel Beach at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 830,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 34
     }
-  ]
+  ],
+  "total_travel_minutes": 34,
+  "last_verified": null
 }

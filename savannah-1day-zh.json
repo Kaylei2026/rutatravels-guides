@@ -1,7 +1,7 @@
 {
   "destination": "Savannah",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:43:25.686Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "用一天时间游览Savannah历史中心，沿着南北向的中轴线从Forsyth Park出发，经过披着苔藓的广场，最后抵达Savannah River河畔的棉花仓库。22个信托广场组成的网格是这座城市的基本框架，这条路线在一次连贯的步行中串联了其中最精华的部分。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2060,
+  "total_walking_minutes": 26,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Savannah Historic District",
       "neighborhood_description": "这是美国最大的国家历史地标区，占地2.5平方英里，是James Oglethorpe在1733年规划的网格布局。22个公共广场有规律地点缀在街道规划中，每个广场原本都是独立的区域，配有各自的教堂、公共建筑和住宅地块。该地区从南部宽阔的Forsyth Park林荫大道延伸到北部俯瞰Savannah River的悬崖。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2060,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Forsyth Park",
         "wikidata_qid": "Q5471437",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "位于历史街区南端的30英亩标志性公园。1858年铸铁喷泉是萨凡纳最常被拍照的景观 - 应从中央南北向林荫大道接近它，而不是从Gaston Street大门进入，这样活橡树的树冠会框出美景。周六农贸市场从上午9点开始占据公园周边，其他早晨公园很安静，可以听到知更鸟的鸣叫。",
         "walk_to_next": {
-          "to": "Mercer Williams House",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "to": "Mercer Williams House Museum",
+          "transport_mode": "walk",
+          "distance_meters": 700,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Monterey Square上的意大利式豪宅，为休·默瑟将军建造，1871年竣工。后来被古董商吉姆·威廉姆斯拥有，并因约翰·贝伦特的《午夜在花园里》而闻名。由讲解员带领的一楼导览涵盖建筑、威廉姆斯的艺术收藏和审判内容，但不会过度渲染。导览每小时进行一次；马车房礼品店单独运营，不需要购票。",
         "walk_to_next": {
-          "to": "Cathedral of Saint John the Baptist",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Factors Walk and the Savannah Riverfront",
+          "transport_mode": "walk",
+          "distance_meters": 1360,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 26,
+  "last_verified": null
 }

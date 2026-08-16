@@ -1,7 +1,7 @@
 {
   "destination": "Barcelona",
   "duration_days": 7,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -19,8 +19,8 @@
   ],
   "guide_description": "Barcelonaの必見スポットを7日間で巡る旅程。Gaudíの丘の上の公園、Gràciaの村のような雰囲気、地中海沿岸部、そして2つの日帰り旅行：幻想的な山の修道院Montserratと海辺の町Sitges。各日程は地理的にまとまりのある構成になっています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 18000,
-  "total_walking_minutes": 234,
+  "total_walking_distance_meters": 11640,
+  "total_walking_minutes": 148,
   "days": [
     {
       "day": 1,
@@ -29,8 +29,8 @@
       "neighborhood_focus": "Barri Gòtic / El Born",
       "neighborhood_description": "Barcelonaの歴史的中心部を形成する隣接した2つの中世地区。Barri Gòticはローマ時代の基礎の上に築かれ、ゴシック様式のCathedralを中心としています。東側のEl Bornは元商人街で、より狭く活気があり、中心にはSanta Maria del Mar聖堂があります。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 630,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Cathedral of Barcelona (La Seu)",
         "wikidata_qid": "Q56551",
@@ -46,8 +46,10 @@
         "optimal_timing": "morning",
         "notes": "14世紀のゴシック大聖書で、ガウディのSagrada Famíliaとよく混同されますが、建築様式は全く異なります。中庭には13羽の白いガチョウがいて（伝統によると聖Eulaliaの生涯の年数を表している）、予想外の見どころとなっています。屋上テラスは有料のエレベーターでアクセス可能で、Sagrada Famíliaの観光客がめったに求めないゴシック地区を見渡す屋上からの眺めを楽しめます。",
         "walk_to_next": {
-          "to": "Plaça del Rei",
+          "to": "Plaça del Rei and the Roman walls",
+          "transport_mode": "walk",
           "distance_meters": 150,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -67,8 +69,10 @@
         "notes": "中世の王室広場で、1493年にColumbusがFerdinandとIsabellaに発見を報告したとされるPalau Reial Majorに囲まれています。広場にあるMUHBA Barcelona History Museumの入口から地下に降りると、足元の真下に驚くほど保存状態の良い4kmのローマ時代のBarcino（街路、染物工場、ワイナリー）があります。Barcelonaで最も驚きに満ちた博物館見学です。",
         "walk_to_next": {
           "to": "Santa Maria del Mar",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 480,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -108,7 +112,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 2,
@@ -117,8 +122,8 @@
       "neighborhood_focus": "Eixample",
       "neighborhood_description": "19世紀にBarcelonaの古い城壁の外側へと計画された拡張地区で、1859年に面取りされた角を持つ均一なグリッドで設計された。この面取りにより、街区は八角形のブロックとなり、この地区に独特の視覚的リズムを与えている。このグリッド内には、世界で最も密度の高いCatalanモデルニスメ（Gaudí、Domènech、Puigが牽引したスペインのアール・ヌーヴォー運動）の建築群が集中している。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2630,
+      "day_walking_minutes": 33,
       "morning": {
         "activity_title": "Sagrada Família",
         "wikidata_qid": "Q5882",
@@ -139,9 +144,11 @@
         "optimal_timing": "morning",
         "notes": "Gaudíの未完成のバシリカ聖堂で、1882年に着工し、中央のJesu Cristo塔は2026年に完成予定とされている。時間指定入場券は数週間前にオンラインで予約を - オフシーズンでも当日券は稀である。東向きのNativity facadeのステンドグラスから差し込む光を楽しむなら午前中の時間帯を選ぼう。この光が内部の柱を青とオレンジ色に染め上げる。塔のエレベーター券（NativityまたはPassion塔のいずれか）は別料金だが、尖塔のディテールを間近で見ることができるので価値がある。",
         "walk_to_next": {
-          "to": "Casa Batlló (via Passeig de Gràcia)",
-          "distance_meters": 1800,
-          "walking_minutes": 23
+          "to": "Casa Batlló and Passeig de Gràcia",
+          "transport_mode": "walk",
+          "distance_meters": 2000,
+          "travel_minutes": 25,
+          "walking_minutes": 25
         }
       },
       "afternoon": {
@@ -164,9 +171,11 @@
         "optimal_timing": "any",
         "notes": "既存のアパートメント建築をGaudíが1904年に改築したもので、骨のような曲線を描くバルコニー、龍のうろこのようなタイル屋根、煙突の柱はすべて彼の作品です。内部ツアーは素晴らしいですが（オンライン予約）、料金は高めです。予算を抑えたい場合は、Passeig de Gràciaの向かい側からファサードを眺めるだけでも十分見どころです。同じ区画内には、Puig i CadafalchによるCasa Amatller が建っており、二人の建築家のスタイルの対比がManzana de la Discordia（不和の街区）と呼ばれる所以となっています。",
         "walk_to_next": {
-          "to": "Casa Milà (La Pedrera)",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Casa Milà (La Pedrera) at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 630,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -211,7 +220,8 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     },
     {
       "day": 3,
@@ -220,8 +230,8 @@
       "neighborhood_focus": "Montjuïc / Poble Sec",
       "neighborhood_description": "西側のウォーターフロントから立ち上がる184メートルの丘で、1929年国際博覧会のために再開発され、1992年オリンピックの際に再び整備された。National Art Museum of Catalonia、Joan Miró Foundation、オリンピックスタジアム、そして頂上の中世の城があり、さらにBarcelonaで最も密集したパノラマビューの無料スポットが集まっている。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1750,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "MNAC - National Art Museum of Catalonia",
         "wikidata_qid": "Q861252",
@@ -238,8 +248,10 @@
         "notes": "1929年のPalau Nacionalに収蔵されているNational Art Museumは、世界で最も重要なロマネスク様式のフレスコ画コレクションを所蔵している。これらは1920年代にPyrenees山脈の村の教会から救出され、復元された後陣の形でここに再設置されたものだ。ロマネスク様式のギャラリーだけでも訪問する価値がある。上階のmodernisme棟ではGaudí時代の装飾芸術を展示している。毎月第1土曜日の午後と毎週日曜日の午後3時以降は無料。テラスからは街を見渡すパノラマビューが楽しめる。",
         "walk_to_next": {
           "to": "Fundació Joan Miró",
-          "distance_meters": 800,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -257,9 +269,11 @@
         "optimal_timing": "any",
         "notes": "Miróの友人Josep Lluís Sert（建築家、MITの学部長、Franco政権下のSpainからの亡命者）によって設計された財団建物は、それ自体が20世紀の偉大な美術館建築の一つである。天窓のあるギャラリーと屋上彫刻テラスを持つ白い地中海モダニズムの建築だ。コレクションは圧倒的にMiróの作品が占め、年代順に整理されており、彼に敬意を表して他の芸術家から贈られた作品を展示する印象的な「Tribute to Miró」の部屋もある。",
         "walk_to_next": {
-          "to": "Montjuïc Castle",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Montjuïc Castle and the Mediterranean panorama",
+          "transport_mode": "walk",
+          "distance_meters": 1030,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -299,7 +313,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     },
     {
       "day": 4,
@@ -308,8 +323,8 @@
       "neighborhood_focus": "Park Güell / Gràcia",
       "neighborhood_description": "市の北の斜面にあり、Gaudíが最も写真に撮られる公園を建設した場所、そして隣接するGràcia地区 - 1897年まで独立した町で、今でも小さな広場、低層建築、そしてBarcelona中心部で最も地元らしい雰囲気を保っています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 2070,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Park Güell",
         "wikidata_qid": "Q170842",
@@ -331,8 +346,10 @@
         "notes": "1900年にGaudíのパトロンであったEusebi Güellの高級住宅開発として始まったものの失敗に終わり - 実際に建設されたのは2軒のみで、市が1922年に土地を購入し公園として整備しました。有名なMonumental Zone（ドラゴンの階段、円柱のホール、波タイルのテラス）は現在時間指定チケットが必要ですが、周囲の公園は無料で散策する価値があります。時間指定チケットはオンラインで予約を。当日券の入手は不可能です。ツアー団体を避けるため開園時間に到着することをお勧めします。",
         "walk_to_next": {
           "to": "Plaça de la Vila de Gràcia",
-          "distance_meters": 1500,
-          "walking_minutes": 20
+          "transport_mode": "walk",
+          "distance_meters": 1820,
+          "travel_minutes": 23,
+          "walking_minutes": 23
         }
       },
       "afternoon": {
@@ -350,9 +367,11 @@
         "optimal_timing": "any",
         "notes": "かつてのGràcia町の中央広場で、1862年建設の時計塔（Torre del Rellotge）がそびえ立ち、19世紀後期のCatalan共和主義運動の政治的象徴として機能していました。この広場が地区の中心となっており - どの方向へも5分歩けば、並木のある細い通り、小さな本屋、vermutバー、タイル張りのパン屋に出会えます。地元の人々が多い平日の午後が最適です。",
         "walk_to_next": {
-          "to": "Plaça del Sol",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Plaça del Sol after dark",
+          "transport_mode": "walk",
+          "distance_meters": 250,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -392,7 +411,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 5,
@@ -401,8 +421,8 @@
       "neighborhood_focus": "Barceloneta / Port Vell",
       "neighborhood_description": "旧港と地中海の間にある三角形の半島で、1753年にCitadelの建設により立ち退きを余儀なくされた船員や港湾労働者のために計画的な格子状の区画として整備されました。現在はBarcelona中心部で最も密集したビーチエリアとなっており、シーフードレストランが立ち並び、オリンピック時代のウォーターフロント再開発が施されています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2940,
+      "day_walking_minutes": 37,
       "morning": {
         "activity_title": "Maritime Museum (Drassanes Reials)",
         "wikidata_qid": "Q1133778",
@@ -418,9 +438,11 @@
         "optimal_timing": "morning",
         "notes": "中世のRoyal Shipyards（Drassanes Reials）に収蔵されており、ヨーロッパに現存する最大規模のゴシック様式民間建築の一つです。13世紀に地中海の軍艦建造のために建てられた巨大な石造りヴォールト天井のホールが特徴的です。コレクションの中心は、1571年のLepantoの戦いでDon Juan of Austriaの旗艦となった船の実物大レプリカです。建物自体がより大きな見どころと言えるでしょう。",
         "walk_to_next": {
-          "to": "Port Vell / Rambla del Mar",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Port Vell and Barceloneta beach",
+          "transport_mode": "walk",
+          "distance_meters": 1600,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "afternoon": {
@@ -438,9 +460,11 @@
         "optimal_timing": "any",
         "notes": "La Ramblaのふもとから港沿いにPasseig de Joan de Borbóを東へ歩いてみましょう。Barceloneta地区の中心部は、もともと軍事用埋立地だった場所に建てられた細長く背の高いアパートメント群の狭い碁盤状の街並みです。ビーチ自体は1992年のオリンピックのために一から造成されました。ビーチの東端にあるFrank GehryのFish sculptureが、BarcelonetaとVila Olímpicaを分ける目印となっています。",
         "walk_to_next": {
-          "to": "Parc de la Ciutadella",
-          "distance_meters": 1200,
-          "walking_minutes": 16
+          "to": "Parc de la Ciutadella at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1340,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -480,7 +504,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 37
     },
     {
       "day": 6,
@@ -489,8 +514,8 @@
       "neighborhood_focus": "Montserrat (outside Barcelona)",
       "neighborhood_description": "Barcelonaの北西、Catalonia平原から突然そびえ立つ礫岩の奇峰群。その頂上には11世紀に創建されたBenedictine修道院Santa Maria de Montserratがあり、Catalonia地方の精神的中心地となっている。Plaça d'EspanyaからR5線で行き、そこから登山鉄道（cremallera）またはケーブルカー（aeri）で山を登ってアクセスできる。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 34,
+      "day_walking_distance_meters": 1290,
+      "day_walking_minutes": 17,
       "morning": {
         "activity_title": "Santa Maria de Montserrat monastery",
         "wikidata_qid": "Q830378",
@@ -506,8 +531,10 @@
         "optimal_timing": "morning",
         "notes": "1025年に創建されたBenedictine修道院で、La Moreneta（黒い聖母）の聖地。これは12世紀のRomanesque様式の聖母マリア彫刻で、Catalonia地方の守護聖人である。聖母像に触れるための礼拝堂の列は進みが遅いため、開門時間（バシリカは午前7時30分頃、聖母像の列は午前8時から）に到着することをお勧めする。少年合唱団Escolaniaは、授業期間中のほとんどの日に午後1時にSalve Reginaを歌う。",
         "walk_to_next": {
-          "to": "Mountain trails / Sant Joan funicular",
+          "to": "Sant Joan funicular and mountain trails",
+          "transport_mode": "walk",
           "distance_meters": 600,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -527,8 +554,10 @@
         "notes": "修道院からのケーブルカーは250メートル登ってSant Joan駅に到着し、そこから山の高地トレイルが始まります。Sant Jeroni山頂ハイキング（1,236m）はSant Joanから往復約90分で、山で最も高い展望ポイントを提供します。晴れた日には地中海越しにMallorcaまで見渡せます。より短い選択肢として、Sant Miquel修道院への散歩道があり、約30分で、より緩やかな地形です。",
         "walk_to_next": {
           "to": "Museum of Montserrat",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -568,7 +597,8 @@
             "walking_minutes": 11
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 17
     },
     {
       "day": 7,
@@ -577,8 +607,8 @@
       "neighborhood_focus": "Sitges (outside Barcelona)",
       "neighborhood_description": "Barcelonaの南40 km に位置する小さな海岸の町で、R2線で約35分でアクセスできます。かつては漁村でしたが、19世紀にはアメリカ大陸から富を得て帰国した裕福な人々（インディアーノス）の保養地となり、現在では保存状態の良い旧市街、2つの素晴らしい小さな博物館、そして市内から気軽にアクセスできるCatalan海岸で最も美しい海岸線を持つ、人気の週末の避暑地となっています。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 34,
+      "day_walking_distance_meters": 330,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Sant Bartomeu i Santa Tecla church and old town",
         "wikidata_qid": "Q12387566",
@@ -594,9 +624,11 @@
         "optimal_timing": "morning",
         "notes": "海を見下ろす岬の上に建つ白い教区教会は、Sitgesの絵葉書のような風景です。旧市街の細い路地 - Carrer de l'Aigua、Carrer Sant Joan、Carrer Major - を歩けば、インディアーノの邸宅（19世紀後期にCubaやPuerto Ricoから富を得て帰国したCatalan人たちが建てた）が最も密集している地域を見ることができます。港を見下ろすミラドール（小さな展望テラス）からは、Mediterraneanの広大な景色が楽しめます。",
         "walk_to_next": {
-          "to": "Cau Ferrat Museum",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Cau Ferrat and Maricel Museums",
+          "transport_mode": "walk",
+          "distance_meters": 20,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -614,9 +646,11 @@
         "optimal_timing": "any",
         "notes": "Cau Ferratは、モデルニスモの画家Santiago Rusiñolの住居兼アトリエで、Catalanモデルニスモの基礎的な場所の一つです。Rusiñolの折衷的なコレクションには、彼がParisのオークションで購入し、1894年に公開行列でSitgesに運び込んだEl Grecoの絵画2点が含まれています。隣接するMaricel Museum（1910年代に裕福なアメリカ人コレクターによって建てられた）では、コレクションがさらに展示されています。両方を見学できる共通チケットがあります。",
         "walk_to_next": {
-          "to": "Sitges beach promenade",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Passeig Marítim at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 310,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -656,7 +690,10 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 5
     }
-  ]
+  ],
+  "total_travel_minutes": 148,
+  "last_verified": null
 }

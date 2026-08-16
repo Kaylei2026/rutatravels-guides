@@ -1,7 +1,7 @@
 {
   "destination": "Amsterdam",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T11:57:50.910Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد في حلقة القنوات من القرن السابع عشر في Amsterdam وحي Jordaan المجاور لها، حلقة مكتفية بذاتها تغطي أهم متحف في المدينة، وحزام القنوات الذي يحدد الهوية العمرانية لـ Amsterdam، والمنزل الأكثر أهمية تاريخياً في هولندا.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 2260,
+  "total_walking_minutes": 29,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Grachtengordel / Jordaan",
       "neighborhood_description": "حزام القنوات المدرج في قائمة اليونسكو في Amsterdam تم تصميمه في دفعة واحدة من التخطيط بين 1613 و 1663، ثلاث قنوات نصف دائرية متحدة المركز (Herengracht و Keizersgracht و Prinsengracht) تشع من الميناء القروسطي. يقع Jordaan إلى الغرب مباشرة، شبكة أكثر كثافة من القنوات الأضيق التي كانت تأوي في الأصل العمال والحرفيين، وهي الآن الحي السكني الأكثر جاذبية في المدينة.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 2260,
+      "day_walking_minutes": 29,
       "morning": {
         "activity_title": "Rijksmuseum",
         "wikidata_qid": "Q190804",
@@ -41,8 +41,10 @@
         "notes": "احجز تذكرة دخول محددة المواعيد عبر الإنترنت قبل وصولك - قد تصل طوابير الانتظار بدونها إلى 45 دقيقة في أوقات الذروة. المجموعة ضخمة جداً؛ إذا كان لديك وقت محدود، توجه مباشرة إلى Gallery of Honour في الطابق الثاني حيث يعلق Night Watch لـ Rembrandt و Milkmaid لـ Vermeer. يعلق Night Watch في غرفة مخصصة له وحده ومضاء بطريقة تظهر الارتفاع الكامل البالغ ثلاثة أمتار - الوقوف على مسافة 10 أمتار بدلاً من الاقتراب من الحاجز يعطي فهماً أفضل بكثير لتكوين اللوحة.",
         "walk_to_next": {
           "to": "Anne Frank House",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "walk",
+          "distance_meters": 2200,
+          "travel_minutes": 28,
+          "walking_minutes": 28
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "تذاكر الدخول محددة المواعيد تنفد قبل أسابيع من خلال الإنترنت - لا يوجد عملياً دخول بدون تحفظ مسبق. توسع المتحف مؤخراً إلى مستودع مجاور (Prinsengracht 263) مع الحفاظ على غرف الاختباء الأصلية تماماً كما كانت عند اكتشاف Secret Annex في 1944. مكتب Otto Frank في الطابق الأرضي، حيث جلس لمدة سنتين يعمل بشكل طبيعي ظاهراً بينما كانت عائلته مختبئة مباشرة فوقه، هو أحد أكثر التفاصيل تأثيراً في المبنى بأكمله.",
         "walk_to_next": {
-          "to": "Westerkerk",
-          "distance_meters": 130,
-          "walking_minutes": 2
+          "to": "Westerkerk and Prinsengracht at dusk",
+          "transport_mode": "walk",
+          "distance_meters": 60,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "evening": {
@@ -127,7 +131,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 29
     }
-  ]
+  ],
+  "total_travel_minutes": 29,
+  "last_verified": null
 }

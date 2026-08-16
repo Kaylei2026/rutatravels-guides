@@ -1,7 +1,7 @@
 {
   "destination": "Amalfi Coast",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:08:29.062Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day centered on the twin historic nuclei of Amalfi and Atrani - the medieval maritime republic's cathedral, its hidden paper mill valley, and its smallest neighbor tucked around the headland. Ravello sits above as an optional elevation escape. The day builds from the cathedral square outward along the coast and up into the hills.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 1570,
+  "total_walking_minutes": 20,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Amalfi Town and Atrani",
       "neighborhood_description": "Amalfi was once a naval power rivaling Venice and Genoa, minting its own currency and writing maritime law codes still referenced today. The town is compressed into a narrow valley where the Canneto stream meets the Tyrrhenian Sea, with lanes that dead-end into staircases and paper mills clinging to the gorge walls. Atrani, a five-minute walk east around the cliff, is technically a separate comune - the smallest in Italy by area - and retains a working fishing-village character largely free of the main tourist flow.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 1570,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Amalfi Cathedral",
         "wikidata_qid": "Q840287",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Arrive before 9:30am when tour buses from Naples and Sorrento begin unloading - the Piazza del Duomo transforms from a quiet square into a crowd bottleneck within minutes of the first coaches arriving. The interlaced Arab-Norman geometric decoration on the facade is unique in southern Italy and reflects Amalfi's direct trade with the Arab world in the 10th and 11th centuries. The entry ticket includes the 9th-century crypt of Saint Andrew, where the mosaic program is better preserved than anything in the upper church.",
         "walk_to_next": {
-          "to": "Valle dei Mulini - Paper Mill Valley",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Valle dei Mulini - Museo della Carta",
+          "transport_mode": "walk",
+          "distance_meters": 330,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Walk straight up Via Lorenzo d'Amalfi past the duomo and keep going - the street narrows into the Canneto valley gorge and the air cools noticeably within three minutes. The paper museum occupies a 13th-century mill still using original hydraulic hammers; the working demonstration takes about twenty minutes and is the most specific reason to visit the Amalfi valley rather than just the coast. Amalfi produced some of the earliest European paper, and the mill explains the technology via Arabic transmission rather than Chinese directly.",
         "walk_to_next": {
-          "to": "Atrani",
-          "distance_meters": 680,
-          "walking_minutes": 9
+          "to": "Atrani - Piazza Umberto I and Santa Maria Maddalena",
+          "transport_mode": "walk",
+          "distance_meters": 1240,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     }
-  ]
+  ],
+  "total_travel_minutes": 20,
+  "last_verified": null
 }

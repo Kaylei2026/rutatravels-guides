@@ -1,7 +1,7 @@
 {
   "destination": "Bangkok",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:34:43.145Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد في جزيرة Rattanakosin، القلب الملكي التاريخي لبانكوك المحاط بنهر Chao Phraya وقناتين متحدتي المركز. القصر الكبير وWat Pho وقارب النهر السريع إلى Wat Arun يشكلان حلقة موحدة واحدة تجسد منطق تأسيس سلالة Chakri دون الدخول إلى المدينة الحديثة على الإطلاق.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3900,
-  "total_walking_minutes": 49,
+  "total_walking_distance_meters": 1400,
+  "total_walking_minutes": 17,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Rattanakosin / Phra Nakhon",
       "neighborhood_description": "الجزيرة الاصطناعية التي أنشأها ملوك Chakri عام 1782 عندما نقلوا العاصمة عبر نهر Chao Phraya من Thonburi. تضم في حوالي كيلومتر واحد مربع القصر الكبير وثلاث معابد ملكية رئيسية والحديقة الواسعة في Sanam Luang. يشكل النهر الحافة الغربية؛ قناتان تحيطان بالبقية. لم يُبنَ هنا شيء تقريباً بعد منتصف القرن العشرين.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1400,
+      "day_walking_minutes": 17,
       "morning": {
         "activity_title": "Wat Phra Kaew and the Grand Palace",
         "wikidata_qid": "Q898882",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "توجه إلى مدخل Na Phra Lan Road قبل الساعة 8:30 صباحًا - المجمع يفتح الأبواب في تمام الساعة 8:30 والساعة الأولى تشهد ازدحامًا أقل بكثير قبل وصول الحافلات السياحية. يتم تطبيق قواعس اللباس بصرامة على البوابة: يجب تغطية الكتفين والركبتين؛ وتتوفر السرونج والأوشحة للاستعارة داخل المجمع مباشرة إذا وصلت غير مستعد. تمثال بوذا الزمردي داخل البوت صغير - يبلغ ارتفاعه حوالي 66 سم - ويعرض على عرش مرتفع، وهذا يفاجئ معظم الزوار الذين يتوقعون شيئًا ضخمًا. لوحات الجدران المحيطة التي تصور ملحمة Ramakien كاملة تمتد عبر 178 لوحة حول المعرض الداخلي وهي المشهد الحقيقي المثير.",
         "walk_to_next": {
-          "to": "Wat Pho",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Wat Pho and the Reclining Buddha",
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "تمثال بوذا المستلقي يبلغ طوله 46 متراً وارتفاعه 15 متراً - طويل جداً بحيث ينضغط المنظور بشكل غريب من نهاية المدخل. امش طول المسافة كاملة إلى القدمين، اللتين يزينهما 108 رموز تيجة الأم اللؤلؤية. Wat Pho هي أيضاً المقر الوطني للتدليك التايلاندي التقليدي؛ مدرسة التدليك في النصف الجنوبي من المجمع تفرض رسوماً عادلة محددة من الحكومة وليست فخاً سياحياً. المجمع يحتوي على عدة أفنية وأكثر من 1000 صورة بوذا - اخرج من خلال البوابة الشرقية الأقل استخداماً على Chetuphon Road لتجنب الزحام حول محلات التذكارات على الجانب الشمالي.",
         "walk_to_next": {
-          "to": "Tha Tien Pier for the cross-river ferry to Wat Arun",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "to": "Wat Arun at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 680,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 17
     }
-  ]
+  ],
+  "total_travel_minutes": 17,
+  "last_verified": null
 }

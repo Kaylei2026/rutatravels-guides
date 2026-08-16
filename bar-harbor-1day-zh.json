@@ -1,7 +1,7 @@
 {
   "destination": "Bar Harbor",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:04:24.735Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "在一天内将Acadia National Park的马车道和山顶与Bar Harbor紧凑的村庄滨水区结合在一起 - 该岛唯一的城镇，也是公园的门户。这一天从早晨的花岗岩山脊线移向傍晚的潮汐沙洲和港口景观。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Acadia National Park / Bar Harbor Village",
       "neighborhood_description": "Mount Desert Island既拥有Acadia National Park - 密西西比河以东的第一个国家公园 - 也拥有Bar Harbor镇，一个维多利亚时代的夏季殖民地，已转变为门户村庄。公园由Rockefeller family建造的道路网络及其崎岖的大西洋海岸线距离村庄绿地仅几英里，可以步行和驾车完成真正的从山到港口的一日游。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Cadillac Mountain",
         "wikidata_qid": "Q975556",
@@ -41,8 +41,10 @@
         "notes": "这处海拔1,530英尺的地点是美国大西洋沿岸北纬巴西最高点,每年10月初到3月初,你可以成为美国本土最早看到日出的人之一。5月至10月期间需要办理定时车辆预约,且往往提前数周售罄;预约时间窗口一开放就要通过Recreation.gov立即预订。如果人潮拥挤,选择South Ridge Trail而非山顶环线步道,该步道从停车场出发且很快就会人烟稀少。",
         "walk_to_next": {
           "to": "Thunder Hole",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "transport_mode": "drive",
+          "distance_meters": 6510,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Ocean Path沿线粉红花岗岩中有一条狭窄的海蚀洞,涌入的海浪将空气和水压缩成震耳欲聋的巨响,百米外都能听见。这种效果在高潮来临前两小时左右且海浪中等高度时最为响亮壮观,在出行前的早上查看潮汐表。停在Ocean Path的停靠点,从Sand Beach沿着平坦的碎石步道向南行走,而不要直接驾车前往Thunder Hole,那里停车位有限。",
         "walk_to_next": {
-          "to": "Bar Harbor Village Green and Bar Island",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "to": "Bar Island and the Bar Harbor Village Green",
+          "transport_mode": "drive",
+          "distance_meters": 10640,
+          "travel_minutes": 19,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     }
-  ]
+  ],
+  "total_travel_minutes": 33,
+  "last_verified": null
 }

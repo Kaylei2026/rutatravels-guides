@@ -1,7 +1,7 @@
 {
   "destination": "Sydney",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T13:06:53.507Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Una giornata per coprire il quartiere portuale essenziale di Sydney - le due icone UNESCO a Circular Quay, le strade coloniali in arenaria di The Rocks, e il Royal Botanic Garden che si estende verso est lungo l'acqua. Tutto in un percorso a piedi compatto che non perde mai di vista il porto.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3900,
-  "total_walking_minutes": 49,
+  "total_walking_distance_meters": 2200,
+  "total_walking_minutes": 28,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Circular Quay / The Rocks / Sydney CBD",
       "neighborhood_description": "Il piccolo arco di costa tra l'Harbour Bridge e l'Opera House è dove nacque la città nel 1788 e dove ora le sue due strutture emblematiche si fronteggiano attraverso l'acqua. The Rocks, sul promontorio occidentale, è il paesaggio urbano più antico sopravvissuto in Australia - una fitta griglia di pub ottocenteschi in arenaria, magazzini dei mercanti e vicoli stretti che sfuggirono alle campagne di demolizione degli anni '70. Il Royal Botanic Garden si estende verso est dall'Opera House lungo la costa del porto, offrendo viste ininterrotte sull'acqua fino a Farm Cove.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Sydney Opera House",
         "wikidata_qid": "Q45178",
@@ -46,8 +46,10 @@
         "notes": "Prenota online prima dell'arrivo il tour di un'ora dietro le quinte o nelle aree pubbliche - la disponibilità dei tour al momento è inaffidabile durante l'alta stagione. Le scale esterne e il piazzale sono gratuiti e completamente accessibili a tutte le ore. La maggior parte delle fotografie delle conchiglie viene scattata dai moli dei traghetti di Circular Quay direttamente a ovest, non a livello strada; l'angolazione dal Wharf 6 guardando verso est inquadra l'harbour bridge e l'opera house nella stessa cornice senza bisogno di un teleobiettivo.",
         "walk_to_next": {
           "to": "Royal Botanic Garden Sydney",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 1080,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "Il più antico giardino scientifico d'Australia, fondato nel 1816 sul sito della prima fattoria della colonia. Ingresso gratuito. Il promontorio Mrs Macquaries Point all'estremità orientale del giardino è il miglior punto panoramico gratuito di Sydney - l'Opera House e l'Harbour Bridge si trovano sulla stessa linea visiva senza ostruzioni, e il prato lì è dove i locali si sistemano per i fuochi d'artificio di Capodanno. Percorri il sentiero lungo il porto piuttosto che quelli interni per mantenere l'acqua in vista per tutto il tragitto.",
         "walk_to_next": {
-          "to": "The Rocks",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "The Rocks and Sydney Harbour Bridge",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -127,7 +131,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     }
-  ]
+  ],
+  "total_travel_minutes": 28,
+  "last_verified": null
 }

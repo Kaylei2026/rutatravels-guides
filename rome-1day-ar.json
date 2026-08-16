@@ -1,7 +1,7 @@
 {
   "destination": "Rome",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T13:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم مشي عبر قلب روما الباروكي والقديم، حيث يتمحور حول Pantheon وينتهي عند Trevi Fountain بعد الغسق. لا حاجة لأي وسيلة نقل - كل شيء يقع ضمن حلقة بطول 1.5 كم.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 1020,
-  "total_walking_minutes": 13,
+  "total_walking_distance_meters": 1540,
+  "total_walking_minutes": 19,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Centro Storico",
       "neighborhood_description": "الحي التاريخي الكثيف الواقع بين منحنى Tiber و Via del Corso. معابد رومانية وساحات باروكية وأسواق عامة متراصة فوق شبكة شوارع يعود تاريخها إلى ألفي سنة.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1020,
-      "day_walking_minutes": 13,
+      "day_walking_distance_meters": 1540,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Pantheon",
         "wikidata_qid": "Q1142794",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "توصل عند افتتاح المكان الساعة التاسعة صباحاً لترى شعاع العين ينزل بنظافة على الداخل قبل أن يمتلئ الأرضية برحلات سياحية منظمة. يوجد الآن رسم دخول صغير في أيام الأسبوع؛ القداس يوم الأحد مجاني لكنه يحد من الحركة بالداخل.",
         "walk_to_next": {
-          "to": "Piazza Navona",
-          "distance_meters": 320,
-          "walking_minutes": 4
+          "to": "Piazza Navona and Sant'Agnese in Agone",
+          "transport_mode": "walk",
+          "distance_meters": 420,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "بني على أساس Stadium of Domitian، وهذا السبب في الشكل الممدود. Fountain of the Four Rivers من تصميم بيرنيني؛ واجهة الكنيسة المقابلة من تصميم منافسه بوروميني - الاثنان يتجادلان عبر الساحة منذ الخمسينيات من القرن السابع عشر.",
         "walk_to_next": {
-          "to": "Trevi Fountain",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trevi Fountain after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 19,
+  "last_verified": null
 }

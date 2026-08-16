@@ -1,7 +1,7 @@
 {
   "destination": "Sun Valley",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:59:47.415Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "在Sun Valley走廊度过三天：山间度假村及其滑雪历史、具有海明威遗产和河滨步道系统的紧凑型Ketchum市中心，以及一日游前往Sawtooth National Recreation Area欣赏高山湖泊和火山地质。每一天在地理位置上都是独立的。",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 5200,
-  "total_walking_minutes": 65,
+  "total_walking_distance_meters": 1000,
+  "total_walking_minutes": 13,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Sun Valley Village / Dollar Mountain",
       "neighborhood_description": "Sun Valley Resort的原始村庄，由美国联合太平洋铁路公司（Union Pacific Railroad）于1936年建造，是美国第一个目的地滑雪度假村。这个紧凑的步行村庄围绕Sun Valley Lodge、室外冰场和Dollar Mountain山脚聚集而成 - 是Ketchum以东一英里处的一个自成一体的飞地。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1400,
-      "day_walking_minutes": 18,
+      "day_walking_distance_meters": 1000,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Sun Valley Lodge",
         "wikidata_qid": "Q7638474",
@@ -43,8 +43,10 @@
         "notes": "沿着走廊漫步，欣赏1930年代至1960年代的客人合影，包括Hemingway、Gary Cooper、Marilyn Monroe以及那个时代几乎所有到访的电影明星。Duchin Room酒吧保留了其原有的奥地利小木屋风格装饰。可向前台咨询自助历史导览，虽然没有广告宣传，但工作人员会为您提供相关资料。",
         "walk_to_next": {
           "to": "Sun Valley Outdoor Ice Rink",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 70,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "美国历史最悠久的持续运营室外度假滑冰场，自1930年代以来一直举办Ice Follies演出。全年开放，滑冰鞋租赁服务位于南侧溜冰场建筑内。夏季溜冰场采用制冷冰面保持低温，而周围温度可能超过90华氏度，这确实是一种奇特的体验。",
         "walk_to_next": {
-          "to": "Dollar Mountain",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Dollar Mountain viewpoint",
+          "transport_mode": "walk",
+          "distance_meters": 930,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -104,7 +108,8 @@
             "walking_minutes": 15
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 2,
@@ -113,8 +118,8 @@
       "neighborhood_focus": "Ketchum Downtown / Trail Creek",
       "neighborhood_description": "Ketchum 是 Sun Valley 度假村旁边的实际城镇，拥有可步行的市中心，Main Street 和 Sun Valley Road 沿线遍布餐厅、美术馆和户外用品店。Trail Creek 从城镇东部流过一条由棉树林立的峡谷，连接海明威纪念碑和北欧式滑雪道网络。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Hemingway Memorial",
         "wikidata_qid": "Q5713209",
@@ -131,8 +136,10 @@
         "notes": "海明威的青铜半身像矗立在 Trail Creek 河畔，这位作家在 Ketchum 度过了他的最后岁月，并于 1961 年在此去世，因此安置了这座纪念碑。通过 Trail Creek Road 转向处的一条短土路可到达纪念碑 - 停车处位于 Sun Valley Inn 桥梁刚过去的小停靠点。碑文摘自海明威为一位狩猎同伴所写的悼词，考虑到他的死亡情况，这赋予了碑文一种无意中的双重含义。",
         "walk_to_next": {
           "to": "Hemingway Grave Site",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "drive",
+          "distance_meters": 3510,
+          "travel_minutes": 10,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -150,9 +157,11 @@
         "optimal_timing": "any",
         "notes": "海明威埋葬在城镇北侧的 Ketchum Cemetery 里,从 North Main Street 的主入口沿着一条短短的砾石小路就能到达。墓地是简朴的花岗岩 - 没有文学名言,没有精心设计的纪念碑。他的第四任妻子玛丽和儿子杰克也埋葬在附近。公墓靠着灌木丘陵,可以不受阻挡地看到 Bald Mountain 的南面。",
         "walk_to_next": {
-          "to": "Ketchum Main Street",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Ketchum Downtown and Main Street",
+          "transport_mode": "drive",
+          "distance_meters": 1390,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -192,7 +201,8 @@
             "walking_minutes": 20
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 17
     },
     {
       "day": 3,
@@ -201,8 +211,8 @@
       "neighborhood_focus": "Sawtooth National Recreation Area / Stanley Basin",
       "neighborhood_description": "Sawtooth National Recreation Area 大约位于 Ketchum 北方 20 英里处,沿 Highway 75 向北延伸,占地超过 75 万英亩的爱达荷州中部荒野。沿着 Big Wood River 峡谷向北行驶本身就是一次重要的景观体验,之后地形开阔进入 Stanley Basin,以 Sawtooth Range 作为背景。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1700,
-      "day_walking_minutes": 21,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Craters of the Moon National Monument",
         "wikidata_qid": "Q937775",
@@ -219,8 +229,10 @@
         "notes": "距 Ketchum 东南方约 90 分钟车程,沿 Highway 20/26,这是一条迂回路线而非北上的 Sawtooth 路线,请相应地规划一天的行程。七英里长的铺装环形公路经过火山渣锥、熔岩洞和喷溅锥,这些都是距今约 2,000 年前的火山喷发遗迹。可以步行进入 Indian Tunnel 熔岩洞 - 带上手电筒；入口是一个倒塌的天花板开口,宽约 30 英尺,隧道延伸 800 英尺。地表是吸热的黑色熔岩,所以在夏季要早点出发。",
         "walk_to_next": {
           "to": "Redfish Lake",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "drive",
+          "distance_meters": 207830,
+          "travel_minutes": 161,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -238,9 +250,11 @@
         "optimal_timing": "any",
         "notes": "Sawtooth NRA 中最便于到达的高山湖泊,距 Highway 75 南端 Stanley 以西 5 英里的铺装公路可达。湖泊位于海拔 6,550 英尺处,McGown Peak 和 Heyburn 地层在南岸直接上升。Redfish Lake Lodge 在主沙滩出租皮划艇和独木舟 - 在水上花一小时的时间能够看到 Sawtooth 石墙的景致,这是沿岸小径无法比拟的。红大麻哈鱼历史上曾从太平洋一路溯流而上 900 英里来到这里,目前正在进行恢复计划,游客中心的解说标志能很好地介绍这一情况。",
         "walk_to_next": {
-          "to": "Stanley",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Stanley, Idaho",
+          "transport_mode": "drive",
+          "distance_meters": 9960,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -280,7 +294,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 179
     }
-  ]
+  ],
+  "total_travel_minutes": 209,
+  "last_verified": null
 }

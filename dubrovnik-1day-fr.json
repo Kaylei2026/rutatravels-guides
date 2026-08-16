@@ -1,7 +1,7 @@
 {
   "destination": "Dubrovnik",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:14:33.353Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée à l'intérieur et au-dessus de la ville fortifiée : parcourez l'intégralité du circuit des murs médiévaux au début de la journée avant que la chaleur ne s'intensifie, descendez dans les ruelles calcaires du Stradun, et terminez la soirée sur une colline surplombant les toits.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 480,
+  "total_walking_minutes": 6,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Old Town (Grad)",
       "neighborhood_description": "La vieille ville de Dubrovnik est une cité fortifiée médiévale entièrement intacte sur un promontoire calcaire. Presque tous les grands monuments se trouvent dans un périmètre de murs de 2 kilomètres. La ville était une république indépendante - la République de Ragusa - pendant près de cinq siècles, et son réseau dense de palais calcaires, d'églises et de monastères reflète cette richesse civique.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 480,
+      "day_walking_minutes": 6,
       "morning": {
         "activity_title": "Walls of Dubrovnik",
         "wikidata_qid": "Q1067140",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Achetez votre billet à l'entrée de Pile Gate et parcourez le circuit dans le sens des aiguilles d'une montre - cette direction garde la vue sur la mer à votre gauche sur toute la section ouest, préservant ainsi les plus beaux panoramas au lieu de les découvrir à l'envers. Le circuit complet fait près de 2 kilomètres et est presque entièrement exposé ; partir à l'ouverture (8h) n'est pas qu'une stratégie pour éviter la foule, cela réduit la température de surface de la pierre sous vos pieds de plusieurs degrés par rapport à midi.",
         "walk_to_next": {
-          "to": "Franciscan Monastery and Pharmacy",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Stradun and the Franciscan Monastery",
+          "transport_mode": "walk",
+          "distance_meters": 80,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Le cloître du monastère est l'un des plus beaux espaces de transition Roman-Gothique de l'Adriatique - les doubles colonnes avec leurs chapiteaux sculptés sont pour la plupart d'origine et ont survécu au séisme de 1667 qui a rasé une grande partie de la ville. La pharmacie à l'intérieur prétend être parmi les plus anciennes apothicaireries en activité continue en Europe, ouverte depuis 1317. Parcourez le Stradun après : la rue principale en calcaire a été repavée après le séisme de 1667 en une seule campagne, lui donnant un caractère baroque inhabituellement uniforme pour une ville médiévale.",
         "walk_to_next": {
-          "to": "Rector's Palace",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "to": "Fort Lovrijenac at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 400,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 6
     }
-  ]
+  ],
+  "total_travel_minutes": 6,
+  "last_verified": null
 }

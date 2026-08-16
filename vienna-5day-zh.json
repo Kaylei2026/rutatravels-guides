@@ -1,7 +1,7 @@
 {
   "destination": "Vienna",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:03:26.743Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "五天的行程涵盖维也纳的各个层面：中世纪和巴洛克风格的皇帝核心区域、19世纪宏伟的Ringstrasse林荫大道及其博物馆群、市中心南部生机勃勃的市场和分离派艺术街区、位于西郊的哈布斯堡夏宫建筑群，以及运河对岸的Prater公园。每一天的行程都在地理上相对独立，可以根据天气或体力状况进行调整。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 16250,
-  "total_walking_minutes": 203,
+  "total_walking_distance_meters": 8230,
+  "total_walking_minutes": 103,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Innere Stadt - Imperial Core",
       "neighborhood_description": "位于旧城墙内的第一区，维也纳的罗马营地、中世纪市场和哈布斯堡皇室仪式中心都坐落在同样的几个街区内。Stephansdom大教堂尖塔和Hofburg宫殿构成了这个街区的两个中心极点。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2340,
-      "day_walking_minutes": 29,
+      "day_walking_distance_meters": 1050,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Stephansdom",
         "wikidata_qid": "Q163758",
@@ -50,8 +50,10 @@
         "notes": "在上午10点前抵达，这样可以在旅游团到来之前漫步中殿。登上南塔（343级台阶）可以近距离欣赏彩色人字形屋顶瓦片，这些瓦片从街道上看是平的。地下墓穴导览每30分钟进行一次，涵盖哈布斯堡骨库 - 这与上方镀金内部形成了令人惊奇的对比。",
         "walk_to_next": {
           "to": "Hofburg Palace",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 780,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -74,8 +76,10 @@
         "optimal_timing": "any",
         "notes": "Hofburg作为一个整体出售，包含皇帝公寓、茜茜博物馆和皇家银器收藏 - 一张票可以参观全部三个景点。按照这个顺序游览：茜茜博物馆提供背景信息，位于Hofburg西北翼的银器收藏几乎总是人烟稀少，展品包括欧洲任何博物馆中最奇特的物品（一个33米长的中心餐台摆设）。",
         "walk_to_next": {
-          "to": "Augustinerkirche",
-          "distance_meters": 250,
+          "to": "Augustinerkirche and the Herzgruft",
+          "transport_mode": "walk",
+          "distance_meters": 270,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -141,7 +145,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 2,
@@ -150,8 +155,8 @@
       "neighborhood_focus": "Innere Stadt - Ringstrasse",
       "neighborhood_description": "Ringstrasse是1857年由弗朗茨·约瑟夫下令拆除城墙后建造的,用一条两侧排列着历史主义风格建筑的礼仪大道取而代之。歌剧院、孪生博物馆、议会、市政厅和Burgtheater都在三十年内竣工,至今仍是这座城市的视觉骨架。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 1010,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Kunsthistorisches Museum",
         "wikidata_qid": "Q95569",
@@ -172,8 +177,10 @@
         "optimal_timing": "morning",
         "notes": "世界五大百科全书式艺术博物馆之一，游客相比卢浮宫或乌菲兹美术馆少得多。一楼的勃鲁盖尔厅收藏了现存约四十幅勃鲁盖尔画作中的十二幅 - 这是世界上最多的。入口大厅的格子穹顶，大理石楼梯上方是克林姆特绘制的帆角装饰 - 本身就是一部杰作。",
         "walk_to_next": {
-          "to": "Maria-Theresien-Platz",
-          "distance_meters": 100,
+          "to": "Maria-Theresien-Platz and Naturhistorisches Museum",
+          "transport_mode": "walk",
+          "distance_meters": 130,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -198,7 +205,9 @@
         "notes": "这两座孪生对称博物馆之间的广场是维也纳唯一的对称帝王广场。自然历史博物馆二楼的陨石收藏是世界上最大的之一，几乎总是不拥挤。距今25,000年的威伦多夫维纳斯雕像被放在一个陈列柜中，没有太多装饰 - 容易错过，但站在它前面时令人印象深刻。",
         "walk_to_next": {
           "to": "Vienna State Opera",
-          "distance_meters": 900,
+          "transport_mode": "walk",
+          "distance_meters": 880,
+          "travel_minutes": 11,
           "walking_minutes": 11
         }
       },
@@ -244,7 +253,8 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 3,
@@ -253,8 +263,8 @@
       "neighborhood_focus": "Naschmarkt / Karlsplatz / Wieden",
       "neighborhood_description": "Ringstrasse南部从Karlsplatz延伸至Belvedere宫殿花园的地带。Naschmarkt占据了一条被覆盖的运河河床,绵延超过一公里。分离派建筑、Otto Wagner设计的Stadtbahn车站和上Belvedere宫殿群聚集在彼此步行20分钟的范围内。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 2100,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Naschmarkt",
         "wikidata_qid": "Q694862",
@@ -271,8 +281,10 @@
         "notes": "维也纳主要的常设市场,周一至周六上午6时开放。靠近Kettenbruckengasse U-Bahn的西端集中了认真的食品摊位 - 土耳其、波斯和奥地利农产品商贩。周六上午在外围车道增添了大规模的跳蚤市场。最好的早餐是从相邻摊位购买半公斤樱桃和一个Semmel面包。",
         "walk_to_next": {
           "to": "Vienna Secession",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 490,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -290,9 +302,11 @@
         "optimal_timing": "any",
         "notes": "Joseph Olbrich 1898年的展览厅本身就是主要展品 - 镀金月桂叶圆顶从广场对面看起来像一个金色的卷心菜。Klimt创作的《贝多芬壁画》永久安装在地下室：34米长的蛋彩和金箔绘画，诠释第九交响曲，为1902年贝多芬展览创作，与Max Klinger的雕塑一并展出。下楼前请从前台购买印刷指南。",
         "walk_to_next": {
-          "to": "Upper Belvedere",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "to": "Upper Belvedere and the Klimt collection",
+          "transport_mode": "walk",
+          "distance_meters": 1610,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "evening": {
@@ -357,7 +371,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 4,
@@ -366,8 +381,8 @@
       "neighborhood_focus": "Schonbrunn / Hietzing",
       "neighborhood_description": "位于城市中心以西的第14区,由Schonbrunn宫殿建筑群及其160公顷的公园主导。公园从黄色的宫殿立面一直延伸到山上的Gloriette殖民地。毗邻的Hietzing社区在很大程度上保留了其19世纪晚期别墅的特色。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4100,
-      "day_walking_minutes": 51,
+      "day_walking_distance_meters": 1160,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Schonbrunn Palace",
         "wikidata_qid": "Q131330",
@@ -388,9 +403,11 @@
         "optimal_timing": "morning",
         "notes": "预订大巡回(40个房间)而不是皇家巡回(22个房间) - 额外的18个房间包括镜厅,六岁的莫扎特曾在1762年在那里为玛丽亚·特蕾莎演出,据称还向她的女儿求过婚。音频导览包含在内,节奏安排得当。通过Schonbrunner Schlossstrasse上的主门进入,而不是侧门,以获得完整的庭院体验。",
         "walk_to_next": {
-          "to": "Schonbrunn Palace Park and Gloriette",
-          "distance_meters": 850,
-          "walking_minutes": 11
+          "to": "Schonbrunn Palace Park and the Gloriette",
+          "transport_mode": "walk",
+          "distance_meters": 510,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -414,7 +431,9 @@
         "notes": "公园的中轴线从宫殿笔直向上延伸至山顶的Gloriette廊柱，这是一段20分钟的上坡路程。从Gloriette露台向下俯瞰宫殿、城市屋顶以及Vienna Woods的景观，是这座城市最佳的全景定向点。位于山脚下的Neptune Fountain是开始攀登前的一个不错的休息点。",
         "walk_to_next": {
           "to": "Schonbrunn Zoo",
-          "distance_meters": 600,
+          "transport_mode": "walk",
+          "distance_meters": 650,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -460,7 +479,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 5,
@@ -469,8 +489,8 @@
       "neighborhood_focus": "Leopoldstadt / Prater",
       "neighborhood_description": "多瑙河运河对岸的第二区。Leopoldstadt 几个世纪以来一直是维也纳的犹太区，至今保留着独特的街区特色。向东延伸数公里的 Prater 公园曾是皇帝的狩猎场，后来在1766年由约瑟夫二世向公众开放。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3510,
-      "day_walking_minutes": 44,
+      "day_walking_distance_meters": 2910,
+      "day_walking_minutes": 37,
       "morning": {
         "activity_title": "Prater and the Hauptallee",
         "wikidata_qid": "Q694036",
@@ -486,9 +506,11 @@
         "optimal_timing": "morning",
         "notes": "Hauptallee 是一条笔直的栗树林荫道，长4公里，宽度足以并行六辆马车 - 由约瑟夫二世设计，迄今仍是维也纳最优雅的绿色走廊。在4月末和5月，两侧的栗树同时绽放，形成一条树荫隧道。建议从 Praterstern 一端的自行车站租赁自行车，而不是步行全程。",
         "walk_to_next": {
-          "to": "Wiener Wurstelprater",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Wiener Wurstelprater and the Riesenrad",
+          "transport_mode": "walk",
+          "distance_meters": 460,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -507,8 +529,10 @@
         "notes": "Prater 的游乐园区环绕着1897年建造的 Riesenrad 摩天轮 - 世界上现存最古老的游乐园之一。Riesenrad 转速缓慢，从顶部的红色木质车厢可以饱览 Stephansdom 大教堂尖顶、Ringstrasse 的绿色走廊，天气晴朗时还能看到 Kahlenberg 山丘。这个摩天轮是1949年电影《第三人》的开场场景 - 值得在前一晚重温一遍。",
         "walk_to_next": {
           "to": "Augarten",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "transport_mode": "walk",
+          "distance_meters": 2450,
+          "travel_minutes": 31,
+          "walking_minutes": 31
         }
       },
       "evening": {
@@ -568,7 +592,10 @@
             "walking_minutes": 14
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 37
     }
-  ]
+  ],
+  "total_travel_minutes": 103,
+  "last_verified": null
 }

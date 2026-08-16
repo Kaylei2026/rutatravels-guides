@@ -1,7 +1,7 @@
 {
   "destination": "Chicago",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:54:42.035Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "三天行程涵盖Chicago的精华：拥有湖滨公园和公共艺术的Loop建筑区，湖滨Museum Campus汇集的世界级科学和自然历史博物馆群，以及River North画廊区的Magnificent Mile和Chicago River建筑走廊。每日行程都在地理位置上相对集中。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 7800,
-  "total_walking_minutes": 98,
+  "total_walking_distance_meters": 3640,
+  "total_walking_minutes": 47,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "The Loop / Millennium Park",
       "neighborhood_description": "The Loop是Chicago的中央商务区，因环绕该区的高架列车轨道而得名，也是美国建筑的摇篮--摩天大楼于1880s在此诞生。位于其东缘的Millennium Park是建在原铁路调车场上的户外文化园区，拥有宏伟的公共艺术作品和免费的夏季音乐会。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 1010,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Chicago Architecture Center River Cruise",
         "wikidata_qid": "Q5096549",
@@ -42,8 +42,10 @@
         "optimal_timing": "morning",
         "notes": "Chicago Architecture Center在Chicago River上运营最权威的建筑游船之-- 75分钟的行程，由经过培训的讲解员带领参观50多座建筑。在Michigan Avenue和河边登船（位于下层Wacker Drive，不是街面层）。上午出发的班次能在最佳光线下观赏朝东的建筑立面，游船也比下午班次人少。建议提前在线预订；周末班次会提前几天售罄。",
         "walk_to_next": {
-          "to": "Millennium Park",
-          "distance_meters": 550,
+          "to": "Millennium Park and Cloud Gate",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
           "walking_minutes": 7
         }
       },
@@ -63,8 +65,10 @@
         "notes": "Anish Kapoor的Cloud Gate雕塑--人们普遍称之为Bean--以扭曲的全景方式倒映着天际线，从正下方观赏最为有趣，凹面的底部形成令人目眩的鱼眼穹顶效果。向北步行至Jaume Plensa的Crown Fountain，两座50英尺高的玻璃砖塔会显示芝加哥人的面孔并定期喷水。后方的Jay Pritzker Pavilion露天音乐厅是Frank Gehry唯一的永久性公共作品。",
         "walk_to_next": {
           "to": "Art Institute of Chicago",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Museum Campus / Near South Side",
       "neighborhood_description": "Museum Campus是一个占地57英亩的公园，位于Grant Park南侧的湖滨半岛上，是三大重要机构的所在地--Field Museum、Shedd Aquarium和Adler Planetarium。这种布局拥有无遮挡的湖景和正北方的城市天际线，是世界上最壮观的博物馆环境之一。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 1170,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Field Museum of Natural History",
         "wikidata_qid": "Q1122595",
@@ -151,8 +156,10 @@
         "notes": "这是世界上最大的自然历史博物馆之一，拥有4000万件标本，涵盖植物学、地质学、人类学和动物学。Sue是迄今发现的最完整的霸王龙骨架之一，矗立在主要的Stanley Field Hall中，尽管有了更新的展览，但它仍然是这座建筑的核心展品。建议在上午9点开门时就到达；在学校团体到达之前的前45分钟，大厅会比较安静。古埃及展厅和地下的Evolving Planet展厅是两个最出色的常设展览。",
         "walk_to_next": {
           "to": "Shedd Aquarium",
-          "distance_meters": 450,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Shedd于1930年开放，是美国第一个拥有永久性海水收藏的内陆水族馆。中央圆形大厅的Caribbean Reef水箱可以从多个层面观看--建议从上层阳台观看，在那里你可以看到整个椭圆形水箱的横截面。海豚和白鲸表演是吸引人群的亮点；上层的太平洋白边海豚栖息地游客较少，可以让你与动物保持平视距离。",
         "walk_to_next": {
-          "to": "Adler Planetarium lakefront viewpoint",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Adler Planetarium and lakefront skyline view",
+          "transport_mode": "walk",
+          "distance_meters": 790,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "River North / Magnificent Mile",
       "neighborhood_description": "Magnificent Mile是Chicago River以北的Michigan Avenue路段，两侧林立着具有地标意义的早期摩天大楼和Water Tower，后者是1871年Great Chicago Fire后为数不多的幸存建筑之一。紧邻西侧的River North是Chicago的画廊区，拥有Manhattan以外最密集的艺术画廊群。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3000,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 1460,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Chicago Riverwalk",
         "wikidata_qid": "Q5094380",
@@ -259,8 +269,10 @@
         "notes": "Chicago River南岸的低层步道，从Lake Shore Drive向西延伸至Lake Street。建议上午时向东步行，这样您可以面对河畔高楼阳光照射的立面，而不会被阳光刺眼。Michigan Avenue和State Street之间的路段穿过五座连续的桥梁，从下往上仰视这些开合桥的底部结构，是一个被忽视的Chicago摄影角度。夏季有几家皮划艇租赁公司在Riverwalk营业。",
         "walk_to_next": {
           "to": "Tribune Tower",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 1180,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "any",
         "notes": "这座1925年的哥特式摩天大楼是为Chicago Tribune建造的，源于1922年的一次设计竞赛，该竞赛吸引了来自23个国家的263个参赛作品，成为美国建筑史上的重要事件。在街道层面绕建筑底部步行 - 外墙石灰石中嵌入了来自世界各地148块著名建筑和纪念碑的碎片，包括Parthenon神庙、中国长城、Taj Mahal和柏林墙的片段。每块碎片都有标识。该建筑现为住宅用途，因此内部参观有限。",
         "walk_to_next": {
-          "to": "Water Tower Place and Chicago Water Tower",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Chicago Water Tower",
+          "transport_mode": "walk",
+          "distance_meters": 280,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 47,
+  "last_verified": null
 }

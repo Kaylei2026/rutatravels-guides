@@ -1,7 +1,7 @@
 {
   "destination": "Athens",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:13:27.865Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Trois jours pour découvrir Athens en trois couches distinctes : le rocher sacré et ses versants sud, l'ancien cœur commercial et le quartier du bazar, et le centre civique néoclassique qui s'élève vers le point de vue du Lycabettus. Chaque journée est géographiquement autonome.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 8350,
-  "total_walking_minutes": 105,
+  "total_walking_distance_meters": 3530,
+  "total_walking_minutes": 45,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Acropolis / Koukaki",
       "neighborhood_description": "Le rocher calcaire qui s'élève à 156 mètres au-dessus de la ville, couronné par le Parthenon et trois autres temples classiques, avec sur les versants en contrebas deux théâtres antiques, un musée moderne de classe mondiale, et le quartier résidentiel tranquille de Koukaki immédiatement au sud. C'est le centre géographique et symbolique d'Athens.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 980,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Acropolis of Athens",
         "wikidata_qid": "Q131013",
@@ -48,7 +48,9 @@
         "notes": "Achetez vos billets à créneaux horaires en ligne au moins un jour à l'avance - le billet combiné couvre l'Acropolis plus sept autres sites antiques et est valable cinq jours, ce qui évite la pression de tout faire d'un coup. Arrivez au créneau d'ouverture de 8h00 pour parcourir l'enceinte du Parthenon avant la vague des groupes de touristes ; dès 10h00, la porte Propylaea devient un goulot d'étranglement. L'approche ouest par la Beule Gate offre la séquence architecturale la plus lisible - Propylaea, puis le temple de Nike à droite, puis le Parthenon. Portez des chaussures à semelles en caoutchouc car les sentiers de marbre sont très polis et en pente raide.",
         "walk_to_next": {
           "to": "Odeon of Herodes Atticus",
-          "distance_meters": 400,
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
           "walking_minutes": 5
         }
       },
@@ -73,8 +75,10 @@
         "notes": "L'odéon romain du 2ème siècle sur le versant sud-ouest, encore utilisé pour l'Athens Epidaurus Festival de juin à août. On ne peut pas y entrer librement en dehors des soirées de représentation, mais la façade complète et les gradins sont visibles depuis la promenade piétonne Dionysiou Areopagitou directement en contrebas - parcourez la promenade d'ouest en est pour la meilleure vue dégagée. Si vous visitez pendant la saison du festival, les représentations en soirée ici comptent parmi les expériences de concert les plus atmosphériques au monde.",
         "walk_to_next": {
           "to": "Acropolis Museum",
-          "distance_meters": 650,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 600,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -134,7 +138,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 2,
@@ -143,8 +148,8 @@
       "neighborhood_focus": "Monastiraki / Psiri / Ancient Agora",
       "neighborhood_description": "Le terrain plat au nord-ouest de l'Acropole où la démocratie athénienne fut débattue et le commerce pratiqué pendant trois mille ans. Le parc archéologique de l'Ancient Agora se trouve immédiatement à côté de Monastiraki, le quartier de bazar informel des marchés aux puces et de la street food qui s'est développé sous la domination ottomane et fonctionne encore comme le pouls commercial de la ville.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2750,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 1300,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Ancient Agora of Athens",
         "wikidata_qid": "Q184356",
@@ -161,8 +166,10 @@
         "notes": "Le marché où Socrate enseignait et où la démocratie athénienne était pratiquée. Le site est couvert par le billet combiné Acropole. Le Temple d'Héphaïstos sur la crête occidentale est le temple classique le mieux préservé de Grèce - mieux que le Parthénon - car il fut converti en église au 7e siècle et entretenu en permanence. La reconstruction de la Stoa of Attalos sur le bord oriental abrite un superbe petit musée avec des découvertes incluant les bulletins de vote en bronze et les jetons d'identification de jurés utilisés dans les tribunaux.",
         "walk_to_next": {
           "to": "Monastiraki Square and Flea Market",
-          "distance_meters": 450,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 360,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -181,7 +188,9 @@
         "notes": "Le quartier marchand rayonne depuis la place dans trois directions : Ifaistou Street s'étend vers l'ouest en direction des antiquaires et vendeurs vintage permanents ; Adrianou Street s'étend vers l'est en direction des articles touristiques ; Avissinias Square, à un pâté de maisons à l'ouest de la station de métro, est le marché sérieux d'antiquités et de brocante qui atteint son pic les dimanches matin. La Tzistarakis Mosque (1759) sur la place est l'une des deux seules mosquées ottomanes restantes à Athènes et abrite des céramiques des fouilles de Kerameikos.",
         "walk_to_next": {
           "to": "Kerameikos Archaeological Site",
-          "distance_meters": 900,
+          "transport_mode": "walk",
+          "distance_meters": 940,
+          "travel_minutes": 12,
           "walking_minutes": 12
         }
       },
@@ -242,7 +251,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 3,
@@ -251,8 +261,8 @@
       "neighborhood_focus": "Syntagma / Kolonaki / Lycabettus",
       "neighborhood_description": "Le cœur civique et bourgeois de l'Athens moderne : Syntagma Square avec le parlement et la Relève de la Garde, le quadrillage praticable de Kolonaki qui monte vers Lycabettus Hill, et le National Archaeological Museum à la lisière du quartier d'Exarchia. Ensemble, ces éléments forment la couche néoclassique du 19e siècle de la ville, construite après l'indépendance de l'Empire ottoman.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3000,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 1250,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "National Archaeological Museum",
         "wikidata_qid": "Q653031",
@@ -268,9 +278,11 @@
         "optimal_timing": "morning",
         "notes": "Le plus grand musée archéologique de Grèce et l'un des plus importants au monde. Prévoyez au moins deux heures et demie - la salle des Antiquités mycéniennes à elle seule mérite une heure, avec le Masque d'Agamemnon et les objets funéraires en or de Shaft Grave III. L'Artemision Jockey en bronze (Salle 21) - un jeune jockey et son cheval au galop, coulés vers 150 avant J.-C. et récupérés dans une épave - est l'un des plus beaux bronzes survivants de l'Antiquité et se trouve généralement dans une salle à part. Arrivez à l'ouverture pour parcourir les collections mycéniennes et cycladiques avant l'arrivée des groupes de touristes en milieu de matinée.",
         "walk_to_next": {
-          "to": "Syntagma Square and Hellenic Parliament",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "to": "Syntagma Square and the Hellenic Parliament",
+          "transport_mode": "transit",
+          "distance_meters": 2180,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -289,8 +301,10 @@
         "notes": "La Relève de la Garde des Evzone au Tombeau du Soldat inconnu a lieu toutes les heures pile, avec une version cérémonielle étendue tous les dimanches à 11h quand le peloton complet défile depuis Irodou Attikou Street. Le changement horaire individuel est déjà précis et vaut la peine d'être observé - chaque pas et mouvement de fusil est chorégraphié et maintenu pendant plusieurs secondes. Positionnez-vous du côté du parlement de la tombe plutôt que derrière les postes des Evzone pour une vue dégagée.",
         "walk_to_next": {
           "to": "Lycabettus Hill",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "transport_mode": "walk",
+          "distance_meters": 1250,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -350,7 +364,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     }
-  ]
+  ],
+  "total_travel_minutes": 57,
+  "last_verified": null
 }

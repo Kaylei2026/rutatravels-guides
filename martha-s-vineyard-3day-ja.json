@@ -1,7 +1,7 @@
 {
   "destination": "Martha's Vineyard",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:56:03.993Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Martha's Vineyard の本質的な魅力を3日間で巡るコース: 捕鯨時代の船乗りの町 Edgartown、ビクトリア朝風のお菓子の家のような Camp Meeting 村 Oak Bluffs、そして島の西端にある人里離れた粘土崖と先住民族の土地。毎日は地理的に独立しており、徒歩または自転車でのゆっくりした探索に値します。",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 5720,
-  "total_walking_minutes": 72,
+  "total_walking_distance_meters": 3230,
+  "total_walking_minutes": 41,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Edgartown",
       "neighborhood_description": "Martha's Vineyard の郡庁所在地であり、最も古い入植町で、1671年に組織されました。Edgartown は19世紀の捕鯨産業で繁栄し、その取引で築かれた富は North Water Street と South Water Street に並ぶ濃密なフェデラル様式およびギリシャ復興様式の船長邸宅に今も残っています。港は Chappaquiddick Island への狭い水路に開かれています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1270,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Edgartown Lighthouse",
         "wikidata_qid": "Q5341119",
@@ -43,8 +43,10 @@
         "notes": "1939年に建てられた鋳鉄製の灯台はNorth Water Streetの先端からの短いビーチウォークで到達できる砂州の上に立っています。午前10時前に到着すれば、港側のビーチをほぼ独占できます。停泊中のヨットとともに白い羽目板張りの町を見返す風景はEdgartownを象徴するイメージです。Martha's Vineyard Museumがこの灯台を運営しており、季節ごとに塔への登塔チケットを販売しています。",
         "walk_to_next": {
           "to": "Martha's Vineyard Museum",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 1140,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "このミュージアムは2018年に改築された1895年のMarine Hospitalの建物に移転しました。これは旧Cooke Houseキャンパスから大幅にアップグレードされたものです。捕鯨と海事に関する展示ギャラリーがメインですが、島の先住民であるWampanoag、特にAquinnah Wampanoagの歴史に関する展示は、地域の海事博物館としては異例なほど充実しています。Gay Head Lighthouseのオリジナルのフレネルレンズはこの崖の場所ではなくここに展示されています。",
         "walk_to_next": {
-          "to": "Edgartown Historic District - North Water Street",
-          "distance_meters": 420,
-          "walking_minutes": 6
+          "to": "Edgartown Historic District - North and South Water Streets",
+          "transport_mode": "walk",
+          "distance_meters": 130,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Oak Bluffs",
       "neighborhood_description": "もともと1835年に設立されたメソジスト派の夏季キャンプ・ミーティング・グラウンドとして始まったOak Bluffsは、島の他の地域とは全く異なる特徴を持つビクトリア朝のリゾート町へと発展しました。キャンプ・ミーティングの中核 - Martha's Vineyard Camp Meeting Association grounds（通称Campground）- には、鋳鉄製の幕屋を囲む300以上の装飾的なジンジャーブレッド・コテージが含まれています。Oak Bluffsはまた、Highlands近隣に根ざした島の長く確立されたアフリカン・アメリカン・サマー・コミュニティの中心でもあります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 320,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Martha's Vineyard Camp Meeting Association Grounds",
         "wikidata_qid": "Q6778284",
@@ -151,7 +156,9 @@
         "notes": "Campgroundはアメリカ国家歴史登録財であり、現在も機能している宗教的コミュニティです。コテージ間の路地は私有地であるため、指定された道に留まり、観光地というより近隣地域として扱ってください。最も写真映えするコテージはTrinity Parkと、Tabernacle直後ろのSiloam Avenue沿いにあります。平日の朝10時前は路地がほぼ無人です。",
         "walk_to_next": {
           "to": "Trinity Park Tabernacle",
-          "distance_meters": 80,
+          "transport_mode": "walk",
+          "distance_meters": 70,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -171,8 +178,10 @@
         "notes": "Campgroundの中央にある1879年製の鋳鉄製野外タバナクルで、アメリカ最大の鉄製タバナクルです。この建造物は本当に注目すべき構造をしており、130フィートの幅を持つ鍛造鉄製アーチが前組立され、内部には柱がなく、すべての座席が中央の説教壇を向いています。コミュニティシングと水曜夜のサービスは夏を通じて行われ、訪問者に開放されています。",
         "walk_to_next": {
           "to": "Flying Horses Carousel",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 250,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 23
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 4
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Aquinnah / Gay Head",
       "neighborhood_description": "Martha's Vineyardの最西端で、1万年以上この地に住んでいるAquinnah Wampanoag部族に属しています。Gay Head Cliffs（国立自然保護区）は、大西洋から150フィート上に聳える白亜紀の堆積層の崖で、赤、白、オレンジ、グレーの粘土が縞状に層をなしています。Aquinnah町（1998年にGay Headから改名）は島で最も田舎の地域です。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1640,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Gay Head Cliffs",
         "wikidata_qid": "Q1497440",
@@ -259,8 +269,10 @@
         "notes": "Aquinnah町営駐車場に停車し、アクセス可能な木道を歩いて主要な展望台へ向かいます。崖は太陽が真上に来て色のコントラストが薄れる前の朝の光で最も見応えがあります。下の海岸に降りたり、粘土の崖面に触れたりしてはいけません。ここは先住民族の土地であり、浸食は深刻な懸念事項です。展望台自体は中生代の地層の完全な地質断面を示しています。",
         "walk_to_next": {
           "to": "Gay Head Lighthouse",
-          "distance_meters": 260,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 150,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -279,8 +291,10 @@
         "notes": "元々の1799年の灯台は1844年にレンガ造りの現在の塔に置き換えられました。2015年には、油圧ローラーシステムを使用して構造全体が崖の縁から129フィート後方に移動されました。これは珍しく、技術的に印象的な歴史建造物の保存作業で、訪問者向け資料に記録されています。Martha's Vineyard博物館は夏の週末に塔への登山を開放しており、頂上からの眺めはElizabeth Islands、Cuttyhunk、そして晴れた日にはRhode Island海岸を見渡せます。",
         "walk_to_next": {
           "to": "Moshup Trail overlook and Lobsterville Beach",
-          "distance_meters": 910,
-          "walking_minutes": 12
+          "transport_mode": "walk",
+          "distance_meters": 1490,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 41,
+  "last_verified": null
 }

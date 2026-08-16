@@ -1,7 +1,7 @@
 {
   "destination": "Rio de Janeiro",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T13:02:58.522Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Um dia percorrendo o centro histórico e cultural do Rio de Janeiro: o bairro boêmio de Santa Teresa, o aqueduto colonial e os arcos de samba da Lapa e os monumentos em camadas do Centro. O dia se desenvolve a partir de ruas elevadas de paralelepípedos, passando pelo coração artístico e noturno da cidade até a baía.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 380,
+  "total_walking_minutes": 5,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Santa Teresa / Lapa / Centro",
       "neighborhood_description": "Santa Teresa é um enclave boêmio montanhoso acima do Centro, conectado à cidade abaixo pelo Aqueduto Carioca do século XVIII - hoje os Arcos da Lapa. Abaixo dela, a Lapa é o bairro de samba e vida noturna mais famoso do Rio. O Centro preserva as camadas coloniais e imperiais dos duzentos anos de ambição da fundação da cidade em poucas e densas quadras.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 380,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Escadaria Selaron",
         "wikidata_qid": "Q2093404",
@@ -41,8 +41,10 @@
         "notes": "O artista chileno Jorge Selaron revestiu essa escadaria de 215 degraus com fragmentos coletados em mais de 60 países, trabalhando nela obsessivamente de 1990 até sua morte em 2013. Chegue antes das 9h para fotografar sem o tráfego denso de pedestres que se acumula rapidamente. A escadaria fica entre a Rua Manuel Carneiro, na parte superior, e a Rua Joaquim Silva, na parte inferior, o que o coloca a uma quadra dos Arcos da Lapa.",
         "walk_to_next": {
           "to": "Arcos da Lapa",
-          "distance_meters": 150,
-          "walking_minutes": 2
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "Construídos entre 1719 e 1750 para transportar água doce do Rio Carioca para a cidade, os arcos de duas camadas em estilo romano têm 270 metros de extensão e ainda levam o histórico bonde de Santa Teresa pelo topo. O bonde bonde parte daqui - um passeio até Santa Teresa custa alguns reais e lhe dá uma abordagem lenta e elevada pelo bairro que não pode ser reproduzida a pé.",
         "walk_to_next": {
           "to": "Museu Nacional de Belas Artes",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "transit",
+          "distance_meters": 5120,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 23
     }
-  ]
+  ],
+  "total_travel_minutes": 23,
+  "last_verified": null
 }

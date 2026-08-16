@@ -1,7 +1,7 @@
 {
   "destination": "Martha's Vineyard",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:54:45.478Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "在Martha's Vineyard度过一天，以Edgartown为中心，这是该岛历史保存最完整的捕鲸时代小镇。路线从港口滨水区经过白色木板船长宅邸，延伸至岛屿东南端的屏障沙滩 - 一条从联邦建筑风格到开阔大西洋的连贯弧线。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 1690,
-  "total_walking_minutes": 22,
+  "total_walking_distance_meters": 2250,
+  "total_walking_minutes": 28,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Edgartown / Chappaquiddick",
       "neighborhood_description": "Edgartown是该岛最初的县城所在地，从1790年代至19世纪中期是其主要捕鲸港。船长们的财富遗留下新英格兰地区保存最完好的联邦和希腊复兴式住宅建筑集中区之一。港口在此处收窄成一条水道，将小镇与Chappaquiddick Island分隔开来，可通过自1926年以来持续运营的三车按需渡轮到达。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1690,
-      "day_walking_minutes": 22,
+      "day_walking_distance_meters": 2250,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Martha's Vineyard Museum",
         "wikidata_qid": "Q6776344",
@@ -41,8 +41,10 @@
         "notes": "该博物馆于2018年迁至港口的前海军医院综合楼，这座1895年的建筑本身就值得仔细观赏。这个捕鲸时代的藏品包括来自Gay Head灯塔的菲涅尔透镜和原始的骨雕工艺品，以及来自葡萄园注册船只的航海日志。在街道变得拥挤之前从这里开始；到了上午中段，Edgartown Main Street就会被一日游游客挤满。",
         "walk_to_next": {
           "to": "Edgartown Lighthouse",
-          "distance_meters": 650,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 1130,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "现在的铸铁塔建于1939年，坐落在一个沙嘴上，可从Lighthouse Beach停车区通过一条短短的堤道步行到达。Martha's Vineyard Heritage Museum负责运营这座塔；进入内部需要支付一笔小费用，但从顶部看到的港口景观，包括港口开口、通往Chappaquiddick的渡轮航线以及South Beach的屏障沙滩，能清晰地为您的一天定位。在下午1点之前到达，以避免沙嘴上下午的海滩人群。",
         "walk_to_next": {
           "to": "Edgartown Whaling Church",
-          "distance_meters": 590,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     }
-  ]
+  ],
+  "total_travel_minutes": 28,
+  "last_verified": null
 }

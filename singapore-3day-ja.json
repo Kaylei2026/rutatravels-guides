@@ -1,7 +1,7 @@
 {
   "destination": "Singapore",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:40:06.946Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Singaporeの本質的なコントラストを3日間で巡る旅：川沿いの植民地時代の官庁街、Chinatownの保存された伝統的な商店建築エリア、そしてMarina Bayの壮大な埋立ウォーターフロント。各日程は、それぞれ異なる都市の個性を中心とした自己完結型の徒歩圏内での散策コースです。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 9100,
-  "total_walking_minutes": 114,
+  "total_walking_distance_meters": 3150,
+  "total_walking_minutes": 40,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Civic District / Boat Quay / Fort Canning",
       "neighborhood_description": "1822年にStamford Rafflesが計画したこの地区は、Singapore River河口からFort Canning Hillの内陸部まで広がっています。壮大な植民地時代の政府建築群、元の商業埠頭、そして市内最古の丘の上の公園は、すべて徒歩20分圏内にあります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 1820,
+      "day_walking_minutes": 23,
       "morning": {
         "activity_title": "National Museum of Singapore",
         "wikidata_qid": "Q1322296",
@@ -43,8 +43,10 @@
         "notes": "1887年に建設されたSingaporeで最も古い博物館で、Stamford Roadにあるドーム型の新古典主義建築です。Singapore History Galleryでは植民地時代、日本占領時代、独立について、宣伝的な内容ではなく本当に有益な十分な資料と共に展示されています。後方のモダンなガラス製別館ではなく、オリジナルのロタンダから入場してください。ロタンダの天井だけでも5分間の見学の価値があります。",
         "walk_to_next": {
           "to": "Fort Canning Park",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 640,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "morning",
         "notes": "植民地化以前のマレー王が王座として使用していたこの丘は、現在複数の歴史的層を持つ公園となっています。1942年にイギリス軍司令官が降伏を決断したBattle Box地下壕、Rafflesが1822年に作った元々の配置から再植栽されたスパイスガーデン、そして現地で発見された9世紀のジャワの金製品（現在はAsian Civilisations Museumに展示）があります。バスゲートではなくArmenian Streetから階段で登ると、より緑豊かなアプローチとCivic Districtを見下ろす最高の眺望が楽しめます。",
         "walk_to_next": {
-          "to": "Asian Civilisations Museum / Boat Quay",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Asian Civilisations Museum and Boat Quay",
+          "transport_mode": "walk",
+          "distance_meters": 1180,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 23
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Chinatown / Tanjong Pagar / Keong Saik",
       "neighborhood_description": "1822年にRafflesが中国系住民の居住地として指定した、川の南西に広がる碁盤目状の街区です。2世紀にわたってFukkien、Teochew、Cantonese、Hakka系移民が次々と流入し、宗族廟、歴史的ショップハウス、庶民街が密集して形成されました。この地区は1970年代から1980年代の取り壊しの波を乗り越えて現在まで残っています。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 640,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Sri Mariamman Temple",
         "wikidata_qid": "Q1128883",
@@ -151,7 +156,9 @@
         "notes": "1827年に創建されたSingapore最古のヒンドゥー教寺院で、1843年に現在の形に再建された。入口上のgopuram塔には数百体の手彫りの神像が鮮やかな多彩色で描かれ覆われており、1平方メートルあたりの細部の精巧さは驚異的である。門で靴を脱ぐこと。Little IndiaではなくChinatownの中心部に位置しており、初期植民地時代のSingaporeの混在した居住パターンを反映している。",
         "walk_to_next": {
           "to": "Chinatown Heritage Centre",
-          "distance_meters": 200,
+          "transport_mode": "walk",
+          "distance_meters": 210,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -171,8 +178,10 @@
         "notes": "Pagoda Streetの復元された3軒の店舗住宅で、1950年代の姿を再現している。8人から12人が住む一室で、仕切られた寝床、five-foot wayでの共同調理、そしてChinatownの移民労働者階級の社会世界が完全に記録されている。再現には、このような環境で生活していた住民からの口述歴史証言が使用されている。従来の展示形式よりも感動的である。",
         "walk_to_next": {
           "to": "Thian Hock Keng Temple",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 430,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Marina Bay / Gardens by the Bay / Marina South",
       "neighborhood_description": "360ヘクタールの埋め立て地に完全に建設されたウォーターフロント地区で、2010年から2012年にかけて開業した。Marina Bay Sands、Gardens by the Bay、そしてベイプロムナードは、市内の古い地区とは全く異なる計画都市景観を形成しており、Singaporeが最新の土地に適用した建築的野心を表している。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 690,
+      "day_walking_minutes": 9,
       "morning": {
         "activity_title": "Gardens by the Bay - Flower Dome and Cloud Forest",
         "wikidata_qid": "Q4150586",
@@ -258,9 +268,11 @@
         "optimal_timing": "morning",
         "notes": "Wilkinson Eyre による2つのコンサバトリーは、庭園内で必見の有料アトラクションです。Cloud Forestの方がより壮観で、35メートルの屋内の山が熱帯高地植物に覆われ、その表面を滝が流れ落ちています。Flower Domeは標高が低いため終章のような感じがするので、2番目に訪れることをお勧めします。オンラインで共通チケットを購入し、コンサバトリーが最も混雑しておらず、ガラスシェル越しの光が最も美しい午前10時前に到着しましょう。",
         "walk_to_next": {
-          "to": "Supertree Grove",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Supertree Grove and OCBC Skyway",
+          "transport_mode": "walk",
+          "distance_meters": 310,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "sunset",
         "notes": "Grant Associatesがデザインした、25メートルから50メートルの高さの鋼鉄と植物による18本の垂直構造物の森です。標高22メートル地点で最も高い2本のSupertreeを結ぶOCBC Skywayの遊歩道は少額の料金がかかりますが、地上レベルでは得られない庭園全体からMarina Bay Sandsに向けての眺望を楽しめます。夜7時45分と8時45分に行われる毎晩のGarden Rhapsody光と音のショーのため、暗くなってから再び訪れてください。15分と短いですが、フルの明るさで照らされたSupertreeは昼間の姿とは全く異なって見えます。",
         "walk_to_next": {
-          "to": "Marina Bay waterfront promenade",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Marina Bay waterfront promenade and skyline",
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 9
     }
-  ]
+  ],
+  "total_travel_minutes": 40,
+  "last_verified": null
 }

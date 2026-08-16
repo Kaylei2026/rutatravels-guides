@@ -1,7 +1,7 @@
 {
   "destination": "Banff",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:20:31.252Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد في Banff يركز على أرضية Bow Valley والسلاسل الجبلية فوقها - حلقة ضيقة من ينابيع المدينة الحارة إلى البحيرة التي ألهمت آلاف البطاقات البريدية، مع قمة تلفريك في الوسط. يتطور المجموع من التاريخ الحراري عبر الجيولوجيا الألبية إلى الشاطئ الفيروزي الأيقوني.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Banff Townsite / Bow Valley",
       "neighborhood_description": "السبب الأصلي لإنشاء كندا أول منتزه وطني لها عام 1885 كان مجموعة من الينابيع الحرارية على جانب Sulphur Mountain. المدينة التي نمت حولها تقع على ارتفاع 1,383 متر في وادي جبال روكي الضيق، محاطة بقمم جيرية من كل جانب. في نطاق 15 كيلومتر لديك الينابيع الحارة الأصلية ورحلة سير جبلية يمكن الوصول إليها بواسطة التلفريك و Lake Louise - إحدى بحيرات الأنهار الجليدية الأكثر زيارة في أمريكا الشمالية.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Cave and Basin National Historic Site",
         "wikidata_qid": "Q1054005",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "ينبوع الكبريت الذي تم اكتشافه في عام 1883 والذي أطلق بشكل مباشر نظام الحدائق الوطنية الكندية. يستغرق الممر الخشبي حول حوض المياه الخارجي حوالي 20 دقيقة ويعرض موطن حلزون Banff Springs المستوطن - نوع لا يوجد في أي مكان آخر على الأرض. نفق الكهف نفسه قصير لكن رائحة الكبريت والسقف المنخفض المتقطر يجعلانه أكثر محطة جاذبية في الموقع. تصل مبكراً قبل وصول الحافلات السياحية حول الساعة العاشرة صباحاً.",
         "walk_to_next": {
-          "to": "Banff Gondola and Sulphur Mountain",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Banff Gondola and Sulphur Mountain Summit Ridge",
+          "transport_mode": "drive",
+          "distance_meters": 1680,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -71,8 +73,10 @@
         "notes": "تنقلك التلفريك إلى 2281 متراً على سلسلة جبال Sulphur Mountain. امش شمالاً على طول الممر الخشبي نحو محطة الأشعة الكونية المرممة في عام 1903 على قمة Sanson Peak - حوالي 15 دقيقة في كل اتجاه مع ارتفاع كبير حتى من محطة التلفريك، لذا حدد سرعتك الخاصة. تشمل المناظر بزاوية 360 درجة وادي Bow والشبكة الحضرية مباشرة أدناك وجبل Cascade إلى الشمال. احجز تذاكر التلفريك عبر الإنترنت لتجنب طابور محطة التلفريك، الذي يمكن أن يمتد لمدة 45 دقيقة في موسم الذروة.",
         "walk_to_next": {
           "to": "Lake Louise",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "transport_mode": "drive",
+          "distance_meters": 79600,
+          "travel_minutes": 78,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 14
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 85
     }
-  ]
+  ],
+  "total_travel_minutes": 85,
+  "last_verified": null
 }

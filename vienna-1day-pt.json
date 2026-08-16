@@ -1,7 +1,7 @@
 {
   "destination": "Vienna",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:00:17.485Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Um dia cobrindo o núcleo imperial de Viena: o complexo do palácio de Hofburg, a grande avenida da Ringstrasse e o coração gótico da Innere Stadt, terminando com um café e uma catedral ao anoitecer. A rota é geograficamente apertada, pode ser percorrida a pé e mistura interiores grandiosos com detalhes barrocos e góticos no nível da rua.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 1410,
+  "total_walking_minutes": 18,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Innere Stadt / Ringstrasse",
       "neighborhood_description": "O primeiro distrito de Viena, o Innere Stadt, é o núcleo medieval e imperial cercado pela avenida Ringstrasse, que o imperador Franz Joseph mandou construir em 1857 para substituir as antigas muralhas da cidade. Quase todas as instituições do estado, da cultura e da religião que os Habsburgos valorizavam foram colocadas nesse anel ou dentro dele. As distâncias são curtas, mas a densidade de importância é extraordinária.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 1410,
+      "day_walking_minutes": 18,
       "morning": {
         "activity_title": "Kunsthistorisches Museum Vienna",
         "wikidata_qid": "Q95569",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Chegue na hora da abertura (10h) para chegar à sala Bruegel no primeiro andar antes da chegada das excursões em grupo - ela possui a maior coleção de pinturas de Pieter Bruegel, o Velho, do mundo, doze obras em uma única sala. O prédio em si é um palácio da Ringstrasse projetado por Gottfried Semper; a escada octogonal em forma de cúpula tem afrescos de Klimt como uma das primeiras encomendas. Em uma primeira visita, deixe de lado a coleção egípcia e reserve um tempo para a Kunstkammer no andar térreo, onde o gabinete de curiosidades dos Habsburgos é exibido quase exatamente como foi montado.",
         "walk_to_next": {
-          "to": "Hofburg Palace",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Hofburg Palace - Imperial Apartments and Treasury",
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -70,8 +72,10 @@
         "optimal_timing": "any",
         "notes": "O Hofburg não é um prédio único, mas um acúmulo de dezoito alas construídas ao longo de seis séculos - não tente ver tudo. Compre um ingresso combinado para os Apartamentos Imperiais e o Tesouro Imperial; ignore o Museu Sisi, a menos que esteja especificamente interessado na Imperatriz Elisabeth. No Tesouro, a Lança Sagrada e a Coroa Imperial dos Habsburgos são exibidas sem barreiras de vidro, na altura dos olhos - acesso mais próximo do que quase todos os outros objetos de vestuário comparáveis na Europa. Entre pelo pátio Schweizerhof, no lado sul, em vez da entrada principal Michaelertor, para evitar o tráfego de pedestres mais intenso.",
         "walk_to_next": {
-          "to": "Stephansdom",
-          "distance_meters": 900,
+          "to": "Stephansdom and the Graben",
+          "transport_mode": "walk",
+          "distance_meters": 960,
+          "travel_minutes": 12,
           "walking_minutes": 12
         }
       },
@@ -137,7 +141,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     }
-  ]
+  ],
+  "total_travel_minutes": 18,
+  "last_verified": null
 }

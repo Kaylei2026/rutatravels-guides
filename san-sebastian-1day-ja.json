@@ -1,7 +1,7 @@
 {
   "destination": "San Sebastian",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:16:37.773Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "サン・セバスチャンの本質を1日で体験するコース: 中世の旧市街でピンチョスバーとバロック様式の教会を巡り、ビスケー湾を見下ろす丘の上の要塞を訪れ、夕暮れ時にラ・コンチャの弧を描く遊歩道で過ごす。コンパクトな半島内にあるため、すべて徒歩で移動できます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3200,
-  "total_walking_minutes": 40,
+  "total_walking_distance_meters": 1770,
+  "total_walking_minutes": 22,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Parte Vieja / Monte Urgull / La Concha",
       "neighborhood_description": "サン・セバスチャンの Parte Vieja は港と Urumea 川の間に広がる狭い街路の密集した碁盤目状の町で、1813年のイギリスとポルトガルの攻撃によって市街のほとんどが焼き払われた後に再建されました。Monte Urgull はその直後ろにそびえ立ち、城と巨大なキリスト像が頂上に立っており、湾全体の視界が遮られることなく広がります。La Concha は旧市街から西に弧を描いており、ヨーロッパで最も有名な都市ビーチの一つです。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 1770,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Basilica of Santa Maria del Coro",
         "wikidata_qid": "Q1068308",
@@ -41,8 +41,10 @@
         "notes": "Calle Mayorの18世紀チュリゲレスク様式のファサードはOld Townの建築的中心となっています。メインファサードではなく狭い通り側から入ると、内部の金箔で装飾されたレタブロの劇的な全景が現れます。朝の光は後部の窓から入り、高い祭壇に直接当たります。正午までには内部はかなり暗くなります。",
         "walk_to_next": {
           "to": "Monte Urgull and Castillo de la Mota",
-          "distance_meters": 450,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 660,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "morning",
         "notes": "この丘はParte Viejaから複数の階段経路を通じて自由にアクセスできます。最短の上昇ルートはCalle San Juanの北端から始まり、約12分かかります。城の博物館は小さいですが、銃台と城壁の遊歩道から完全なパノラマが見られます。北の湾の入り口、西のMonte Igueldo、東のUrumea川の河口です。頂上の聖心像はサンセバスチャンのほぼ全域から見え、市内の最良の方位指針として機能します。",
         "walk_to_next": {
-          "to": "Playa de la Concha and Paseo de la Concha",
-          "distance_meters": 850,
-          "walking_minutes": 11
+          "to": "Paseo de la Concha and Playa de la Concha",
+          "transport_mode": "walk",
+          "distance_meters": 1110,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 22,
+  "last_verified": null
 }

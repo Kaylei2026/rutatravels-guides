@@ -1,7 +1,7 @@
 {
   "destination": "Kyoto",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:27:23.585Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Higashiyama地区を中心とした一日プラン - 京都で最も完全に保存された近世以前の街並みが、南の丘にあるKiyomizuderaから石畳の小径を通ってGionとShirakawa運河まで続いています。一日中徒歩で回ることができ、交通機関を使わずに、京都の仏教寺院、神社、商人街の各層が織りなす一貫した街の姿を体験できます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3900,
-  "total_walking_minutes": 49,
+  "total_walking_distance_meters": 1700,
+  "total_walking_minutes": 21,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Higashiyama",
       "neighborhood_description": "京都中心部の東側にある狭い丘陵地帯で、中世の街路が火災、戦争、再開発を免れて現在まで残っています。森に覆われた丘の上のKiyomizuderaが南端の拠点となり、NinenzakaとSannenzakaの小径のネットワークが北へ向かってKodai-ji、Maruyama Park、そして最終的にはShirakawa運河沿いに保存されたGionのochaya（茶屋）街へと続いています。全体で約3キロメートルの距離があり、南から北へ一日かけて歩くことができます。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1700,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Kiyomizudera",
         "wikidata_qid": "Q588191",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "朝6時の開門と同時に到着すれば、ツアーバスが8時30分に到着する前に、森の丘陵から13メートル張り出した釘一本使わない有名な舞台をほぼ独り占めできます。南のChawan-zaka（Teapot Lane）からのアプローチは、メインのKiyomizu-zaka通りより静かで急な坂道で、Nio-mon門の手前でメインルートと合流します。舞台下のOtowa滝の湧水は3つの流れに分かれており、それぞれ違う御利益があるとされ、慣習では一つの流れからのみ飲むことになっています。",
         "walk_to_next": {
-          "to": "Ninenzaka and Sannenzaka lanes",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Ninenzaka and Sannenzaka",
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "石畳の2本の坂道がつながったSannenzaka（Third Year Slope）とNinenzaka（Second Year Slope）は、明治・大正時代のmachiya町屋が工芸品店、抹茶カフェ、漆器店に改装されて軒を連ねています。往復せずに両方とも北へ向かって歩くのがおすすめ：Sannenzakaが急な下の区間、NinenzakaがKodai-ji方向へ続く緩やかな上のカーブです。地元の迷信では、この石段で転ぶとそれぞれ3年または2年の悪運に見舞われるとされています。石段は実際にでこぼこしているので、この言い伝えには実用的な根拠があります。",
         "walk_to_next": {
-          "to": "Kodai-ji Temple",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Gion - Hanamikoji and Shirakawa",
+          "transport_mode": "walk",
+          "distance_meters": 1030,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -127,7 +131,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 21,
+  "last_verified": null
 }

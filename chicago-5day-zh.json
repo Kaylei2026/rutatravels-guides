@@ -1,7 +1,7 @@
 {
   "destination": "Chicago",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:56:44.100Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "五天行程涵盖Chicago的精髓特色：建筑荟萃的Loop区和湖滨地带、Burnham Harbor上的博物馆园区、River North和Michigan Avenue的商业画廊走廊、北区的住宅公园和Victorian街景，以及以University of Chicago为中心的知识分子聚集的南区。每天的行程都在地理上自成一体。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 18200,
-  "total_walking_minutes": 228,
+  "total_walking_distance_meters": 9110,
+  "total_walking_minutes": 115,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "The Loop / Millennium Park",
       "neighborhood_description": "Loop区是由高架CTA轨道环绕的中央商务区，在1871年大火后完全以钢铁和玻璃重建，是世界上第一批摩天大楼的诞生地。位于其东缘的Millennium Park是全市游客最多的公共空间，以Grant Park湖滨上Anish Kapoor的Cloud Gate雕塑为核心景点。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3400,
-      "day_walking_minutes": 43,
+      "day_walking_distance_meters": 990,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Chicago Architecture Center River Cruise",
         "wikidata_qid": "Q5101698",
@@ -44,9 +44,11 @@
         "optimal_timing": "morning",
         "notes": "90分钟的Chicago River Architecture Foundation游船是了解芝加哥建筑的最高效方式--从水上解说50多座建筑，包括Wrigley Building、Tribune Tower和Marina City，这些建筑的高度和密度只有从河面才能真正领会。登船地点在Michigan Avenue桥南岸。上午班次比下午班次的光线更适合观赏峡谷般的建筑群。夏季建议提前一天网上订票；上午9点和10点的船票最快售完。",
         "walk_to_next": {
-          "to": "Millennium Park",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Millennium Park and Cloud Gate",
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -64,8 +66,10 @@
         "optimal_timing": "any",
         "notes": "公园免费开放。Cloud Gate（当地人称为Bean）将天际线扭曲成镜面泡泡--走到拱门下方可以看到最令人眩晕的倒影，不只是外部的椭圆形。南端的Crown Fountain在LED塔上循环播放1000张芝加哥人的面孔，间歇喷出水柱--这是Jaume Plensa创作的真正市民艺术品。Jay Pritzker Pavilion夏季举办免费晚间音乐会；出行前请查看演出安排。",
         "walk_to_next": {
-          "to": "The Art Institute of Chicago",
+          "to": "Art Institute of Chicago",
+          "transport_mode": "walk",
           "distance_meters": 450,
+          "travel_minutes": 6,
           "walking_minutes": 6
         }
       },
@@ -126,7 +130,8 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 2,
@@ -135,8 +140,8 @@
       "neighborhood_focus": "Museum Campus / Near South Side",
       "neighborhood_description": "Museum Campus是位于Burnham Harbor的一座57英亩公园，就在Grant Park南侧，专门设计用于将三大重要机构聚集在湖滨周围。Burnham于1909年制定的Chicago规划将湖滨设想为永久性的公共空间--从园区向东眺望Lake Michigan的景色给人以海洋般的感觉。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 1180,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "The Field Museum",
         "wikidata_qid": "Q1122595",
@@ -153,8 +158,10 @@
         "notes": "这是世界上最大的自然历史博物馆之一。最完整的霸王龙骨架Sue矗立在入口处的Stanley Field Hall--她于2018年迁至此处，新的展示架正确地显示了水平的尾巴。上层的古埃及收藏包括一个完整的地下墓穴建筑群。建议网上购票以避免入口排队，周末上午11点后队伍会很长。",
         "walk_to_next": {
           "to": "Shedd Aquarium",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -172,9 +179,11 @@
         "optimal_timing": "any",
         "notes": "这座水族馆于1930年开放，当时是世界上最大的室内水族馆。上层的Oceanarium是白鲸和海豚栖息地，设计成Pacific Northwest海湾的样子，通过玻璃与Lake Michigan形成虚假的地平线融合效果--在建筑上不同于此前建造的任何水族馆展览。下层的Wild Reef珊瑚礁区域涵盖加勒比海和印度太平洋栖息地，在预定的喂食时间会有潜水员在水槽中。",
         "walk_to_next": {
-          "to": "Adler Planetarium",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Adler Planetarium and lakefront viewpoint",
+          "transport_mode": "walk",
+          "distance_meters": 800,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -234,7 +243,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -243,8 +253,8 @@
       "neighborhood_focus": "River North / Magnificent Mile",
       "neighborhood_description": "River North位于Chicago River正北方，是全市画廊最密集的区域，也是几座标志性中世纪和战后建筑的所在地。河流以北的Michigan Avenue--即Magnificent Mile--是零售和酒店走廊，两侧林立着Chicago一些最具代表性的建筑，从Tribune Tower到Hancock Center。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3800,
-      "day_walking_minutes": 48,
+      "day_walking_distance_meters": 2350,
+      "day_walking_minutes": 30,
       "morning": {
         "activity_title": "Tribune Tower and the Michigan Avenue Bridge",
         "wikidata_qid": "Q608608",
@@ -261,8 +271,10 @@
         "notes": "这座1925年的Gothic Revival塔楼是Howells和Hood在一场吸引了263个参赛作品的国际竞赛中获胜的作品，该竞赛为美国摩天大楼美学定义了十年的方向。慢慢绕着建筑底部走走--Tribune的记者们将著名建筑的碎片嵌入了底层外立面，包括Parthenon、Taj Mahal、Westminster Abbey和Berlin Wall的片段，都用小牌匾标注。这栋建筑现在已改建为公寓，但大厅层的碎片从人行道上就能看到。",
         "walk_to_next": {
           "to": "Marina City",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 600,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -280,9 +292,11 @@
         "optimal_timing": "any",
         "notes": "Bertrand Goldberg于1964年设计的玉米棒塔楼是Chicago最具原创性的建筑--65层的圆柱形建筑，底部19层是螺旋式露天停车场，从外面就能看到。走到两座塔楼间的河边，从下方观看放射状的混凝土楼层，这个角度能解释整个结构系统。House of Blues占据底层；这个综合体被设计为一座自给自足的城中城，包括保龄球馆、健身房和码头。",
         "walk_to_next": {
-          "to": "360 Chicago Observation Deck (John Hancock Center)",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "to": "360 Chicago Observation Deck",
+          "transport_mode": "walk",
+          "distance_meters": 1750,
+          "travel_minutes": 22,
+          "walking_minutes": 22
         }
       },
       "evening": {
@@ -342,7 +356,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 30
     },
     {
       "day": 4,
@@ -351,8 +366,8 @@
       "neighborhood_focus": "Lincoln Park / Old Town",
       "neighborhood_description": "Lincoln Park是Chicago最大的公共公园，沿湖向北延伸7英里，位于Near North Side以北。其西侧紧邻的Old Town保留着最密集的Victorian时代小屋和工人住房，这些建筑在1871年大火中幸存下来。两个区域共同构成了该市最宜居且历史文化底蕴最深厚的住宅走廊。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4600,
-      "day_walking_minutes": 58,
+      "day_walking_distance_meters": 2150,
+      "day_walking_minutes": 27,
       "morning": {
         "activity_title": "Lincoln Park Zoo",
         "wikidata_qid": "Q168571",
@@ -369,8 +384,10 @@
         "notes": "美国最后几个免费动物园之一--无需门票，无需预约。大猩猩馆设有行为丰富化项目，是游客停留时间最长的地方。动物园上午10点开放，但周围的公园从黎明时分就可以进入，早上7点慢跑者到来之前沿着公园内的湖滨小径漫步，是Chicago最宁静的城市体验之一。南端的Farm-in-the-Zoo对成年人来说也非常有趣--在大城市中心竟然有一个真正运作的示范农场。",
         "walk_to_next": {
           "to": "Lincoln Park Conservatory",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 270,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "afternoon": {
@@ -388,9 +405,11 @@
         "optimal_timing": "any",
         "notes": "这座建于1895年的Victorian玻璃温室免费开放，几乎从不拥挤。Palm House里有一棵50英尺高的Guadalupe扇叶棕榈，自1893年以来一直在同一个花盆中生长。在寒冷或多风的日子里，室内的热带湿度给人一种感官重置的感觉。四个相连的温室--Palm、Fern、Orchid和Show--可以在30分钟内游完，也可以延长到一小时。",
         "walk_to_next": {
-          "to": "Old Town Triangle Historic District",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "to": "Old Town Triangle and Wells Street",
+          "transport_mode": "walk",
+          "distance_meters": 1880,
+          "travel_minutes": 24,
+          "walking_minutes": 24
         }
       },
       "evening": {
@@ -450,7 +469,8 @@
             "walking_minutes": 13
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 27
     },
     {
       "day": 5,
@@ -459,8 +479,8 @@
       "neighborhood_focus": "Hyde Park / Woodlawn",
       "neighborhood_description": "Hyde Park是Chicago最独立完整的社区，最初建成独立郊区，1889年被并入市区，后来在University of Chicago的影响下发展成湖滨的Gothic学术飞地。Robie House、Museum of Science and Industry以及Jackson Park--Olmsted为1893年World's Columbian Exposition设计的最后一个伟大作品--构成了一个2英里的文化三角区。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3800,
-      "day_walking_minutes": 48,
+      "day_walking_distance_meters": 2440,
+      "day_walking_minutes": 30,
       "morning": {
         "activity_title": "Museum of Science and Industry",
         "wikidata_qid": "Q2519736",
@@ -476,9 +496,11 @@
         "optimal_timing": "morning",
         "notes": "博物馆坐落在1893年世界哥伦比亚博览会的美术馆建筑内--这是博览会中唯一幸存的主要建筑。缴获的德国U-505潜艇（美国境内唯一的德国潜艇）是最引人注目的展品，只能通过定时导览参观，必须在抵达时到售票处预约。煤矿穿行体验和天气展厅的模拟风暴是最受普通游客欢迎的展厅。建议在开馆时抵达，以便在U-505导览售罄前预约参观时间。",
         "walk_to_next": {
-          "to": "Jackson Park",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Jackson Park and the Wooded Island",
+          "transport_mode": "walk",
+          "distance_meters": 330,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -497,8 +519,10 @@
         "notes": "Frederick Law Olmsted为1893年哥伦比亚博览会设计了Jackson Park，其泻湖系统和Wooded Island是他作品中最少被游览的典范之一。位于南泻湖中心的Wooded Island是指定的鸟类保护区，几乎没有游客踏足--候鸟在春秋两季聚集于此。岛上复制的日本Ho-o-den亭（为1893年博览会建造，是博览会中唯一保留至今的此类建筑）直接影响了Frank Lloyd Wright早期的Prairie Style作品。",
         "walk_to_next": {
           "to": "Robie House",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "transport_mode": "walk",
+          "distance_meters": 2110,
+          "travel_minutes": 26,
+          "walking_minutes": 26
         }
       },
       "evening": {
@@ -563,7 +587,10 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 30
     }
-  ]
+  ],
+  "total_travel_minutes": 115,
+  "last_verified": null
 }

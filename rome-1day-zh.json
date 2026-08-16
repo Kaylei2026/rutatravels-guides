@@ -1,7 +1,7 @@
 {
   "destination": "Rome",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T13:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "罗马巴洛克式建筑和古代遗迹的一日步行之旅,以万神殿为中心,天黑后到达特雷维喷泉。无需乘坐交通工具 - 所有景点都在1.5公里的环形路线内。",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 1020,
-  "total_walking_minutes": 13,
+  "total_walking_distance_meters": 1540,
+  "total_walking_minutes": 19,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Centro Storico",
       "neighborhood_description": "Tiber河弯曲处和Via del Corso之间密集的历史街区。罗马神庙、巴洛克式广场和市场广场堆叠在两千年的街道网格之上。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1020,
-      "day_walking_minutes": 13,
+      "day_walking_distance_meters": 1540,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Pantheon",
         "wikidata_qid": "Q1142794",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "建议在开放时间（上午9点）抵达，这样可以在游客团队涌入之前看到光束清晰地照射到内部。工作日现在需要支付少量入场费；周日弥撒免费但会限制室内活动范围。",
         "walk_to_next": {
-          "to": "Piazza Navona",
-          "distance_meters": 320,
-          "walking_minutes": 4
+          "to": "Piazza Navona and Sant'Agnese in Agone",
+          "transport_mode": "walk",
+          "distance_meters": 420,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "建造在Domitian竞技场的原址上，这就是为什么建筑呈长形。Four Rivers喷泉是贝尼尼的作品；对面的教堂立面出自他的对手博罗米尼之手 - 自17世纪50年代以来，两人就在广场上相互争论。",
         "walk_to_next": {
-          "to": "Trevi Fountain",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trevi Fountain after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 19,
+  "last_verified": null
 }

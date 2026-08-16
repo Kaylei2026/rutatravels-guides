@@ -1,7 +1,7 @@
 {
   "destination": "Prague",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:03:58.808Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Prague の歴史的な背骨を辿る1日の旅。城の丘から中世の橋を通って Old Town square まで下る道のりです。ルートは Hradcany から Mala Strana を通り、Vltava を渡って、Stare Mesto のバロックとゴシック様式の中心部へと緩やかに下っていきます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3100,
-  "total_walking_minutes": 39,
+  "total_walking_distance_meters": 1980,
+  "total_walking_minutes": 25,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Hradcany / Mala Strana / Stare Mesto",
       "neighborhood_description": "Prague の重要な回廊は、西の丘にある Prague Castle から Little Quarter のバロック様式の宮殿や庭園を通り、Vltava に架かる Charles Bridge を渡って Old Town へと続いています。このルート全体が UNESCO 歴史地区内にあり、一続きの下り道として歩くことができます。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 1980,
+      "day_walking_minutes": 25,
       "morning": {
         "activity_title": "Prague Castle and St. Vitus Cathedral",
         "wikidata_qid": "Q26261",
@@ -46,8 +46,10 @@
         "notes": "東のJirska側の門ではなく、西のHradcanske namesti門から入場することをお勧めします。西側からのアプローチでは、Giant Battling Titansの彫像がある前庭の全景と、毎時ちょうどに行われる衛兵交代式を見ることができます。St. Vitus Cathedralは第二中庭内にあり、身廊への入場は無料です。宝物庫、塔、地下聖堂を見学したい場合のみ周遊チケットが必要です。南ファサードのバラ窓は20世紀のものですが、中世の図面に直接基づいてデザインされました。",
         "walk_to_next": {
           "to": "Charles Bridge",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "walk",
+          "distance_meters": 1050,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "橋に並ぶ30体のバロック彫像は、ほとんどが18世紀の複製品です。オリジナルはVystavisteのLapidariumに収蔵されています。最も多く触れられる像はSt. John of Nepomuk（Mala Strana側から5番目、北側）で、足元の青銅プレートは何世紀もの人々の手によって明るく磨かれています。正午頃は人出が多いですが、城からすでに歩いて下りてきていれば、午後の観光バスが到着する前の絶好のタイミングで橋を渡ることができるでしょう。",
         "walk_to_next": {
-          "to": "Old Town Square",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Old Town Square and the Astronomical Clock",
+          "transport_mode": "walk",
+          "distance_meters": 930,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 25
     }
-  ]
+  ],
+  "total_travel_minutes": 25,
+  "last_verified": null
 }

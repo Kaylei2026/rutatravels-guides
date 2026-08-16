@@ -1,7 +1,7 @@
 {
   "destination": "Chicago",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:53:26.241Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Um dia na espinha dorsal cultural à beira do lago de Chicago - o cânion arquitetônico do Loop, os espaços abertos monumentais do Grant Park e do Millennium Park, e o Art Institute ancorando todo o conjunto. Geograficamente apertado, totalmente acessível a pé e o melhor retrato de um único dia da importância de Chicago.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3200,
-  "total_walking_minutes": 40,
+  "total_walking_distance_meters": 1190,
+  "total_walking_minutes": 15,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "The Loop / Grant Park / Millennium Park",
       "neighborhood_description": "O Loop é o distrito comercial central de Chicago, definido pela linha ferroviária elevada que lhe deu o nome e cercado por alguns dos primeiros arranha-céus mais significativos do mundo. Sua extremidade leste se dissolve no Grant Park e no Millennium Park, um vasto lago aberto que funciona como o gramado da frente da cidade, com o Art Institute em seu centro.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 1190,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Art Institute of Chicago",
         "wikidata_qid": "Q239303",
@@ -41,8 +41,10 @@
         "notes": "Entre pela Michigan Avenue e suba diretamente para as galerias impressionistas do segundo andar antes que os grupos de excursão cheguem - Seurat, Nighthawks e Sunday on La Grande Jatte estão todos pendurados aqui e as salas são fáceis de administrar antes do meio-dia. A ala moderna, acrescentada em 2009 por Renzo Piano, conecta-se por uma ponte de pedestres sobre a Monroe Street diretamente ao Millennium Park - use-a como saída em vez de voltar para a Michigan Avenue.",
         "walk_to_next": {
           "to": "Millennium Park and Cloud Gate",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "A escultura Cloud Gate de Anish Kapoor - universalmente chamada de Bean pelos habitantes de Chicago - fica na AT&T Plaza e reflete a linha do horizonte em um panorama distorcido que, na verdade, é mais interessante visto de baixo, olhando diretamente para o umbigo côncavo. A Crown Fountain adjacente, de Jaume Plensa, duas torres de blocos de vidro de 15 metros projetando faces de vídeo que periodicamente cospem água, está entre as obras de arte pública urbana mais bem-sucedidas dos Estados Unidos. Caminhe para o norte, passando pelo Jay Pritzker Pavilion - a concha de Frank Gehry - até a BP Bridge, seu único projeto de ponte, que oferece a melhor vista desobstruída do horizonte no parque.",
         "walk_to_next": {
-          "to": "Chicago Riverwalk and Michigan Avenue Bridge",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Chicago Riverwalk and the Michigan Avenue Bridge",
+          "transport_mode": "walk",
+          "distance_meters": 740,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     }
-  ]
+  ],
+  "total_travel_minutes": 15,
+  "last_verified": null
 }

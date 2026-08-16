@@ -1,7 +1,7 @@
 {
   "destination": "Mexico City",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T13:00:23.584Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days covering Mexico City's essential layers: the Aztec and colonial historic core built on a drained lake bed, the southern bohemian villages of Coyoacan and the ancient floating gardens of Xochimilco, and the grand western park corridor from Chapultepec Castle through the museum mile to the neighborhood cafes of Roma Norte. Each day is geographically self-contained.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 4220,
+  "total_walking_minutes": 53,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Centro Historico",
       "neighborhood_description": "Built directly on top of Tenochtitlan, the Aztec island capital conquered in 1521, Mexico City's historic center is one of the largest in the Americas. The ground is still sinking - buildings visibly tilt - because the entire city rests on the soft sediment of the drained Lake Texcoco. The Zocalo and surrounding blocks concentrate five centuries of layered history within easy walking distance.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1690,
-      "day_walking_minutes": 21,
+      "day_walking_distance_meters": 680,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Templo Mayor and Museum",
         "wikidata_qid": "Q207326",
@@ -47,9 +47,11 @@
         "optimal_timing": "morning",
         "notes": "The main pyramid of Tenochtitlan was rediscovered in 1978 when electricity workers hit a carved stone disc depicting the moon goddess Coyolxauhqui. The outdoor excavation site and the attached museum together tell the story - do the museum last so you recognize what you are looking at in the ruins. Tuesday to Sunday only; buy tickets at the east entrance on Seminario street, not from street vendors nearby.",
         "walk_to_next": {
-          "to": "Zocalo and Metropolitan Cathedral",
+          "to": "Metropolitan Cathedral of Mexico City",
+          "transport_mode": "walk",
           "distance_meters": 200,
-          "walking_minutes": 3
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -72,9 +74,11 @@
         "optimal_timing": "any",
         "notes": "Construction began in 1573 and was not completed until 1813, which is why the nave shows Baroque, Neoclassical, and Renaissance bays side by side. The building tilts noticeably to the southeast - the corrective pendulum hung above the nave floor is an active engineering instrument, not a decoration. The Altar de los Reyes at the far east end has the most elaborate churrigueresque gilding in the city.",
         "walk_to_next": {
-          "to": "Palacio Nacional",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Palacio Nacional murals by Diego Rivera",
+          "transport_mode": "walk",
+          "distance_meters": 480,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -139,7 +143,8 @@
             "walking_minutes": 11
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 2,
@@ -148,8 +153,8 @@
       "neighborhood_focus": "Chapultepec / Polanco",
       "neighborhood_description": "Bosque de Chapultepec is one of the largest urban parks in the western hemisphere - 686 hectares of forest that served as the Aztec royal retreat before becoming a Spanish military academy and then Mexico's central park. The eastern edge along Paseo de la Reforma lines up four major museums within a fifteen-minute walk of each other.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2040,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 2770,
+      "day_walking_minutes": 35,
       "morning": {
         "activity_title": "National Museum of Anthropology",
         "wikidata_qid": "Q838691",
@@ -166,8 +171,10 @@
         "notes": "The Aztec Sun Stone (popularly called the Aztec Calendar) is in Room 7 on the ground floor, directly opposite the entrance - but go there last rather than immediately, or you'll rush past every other hall. The Teotihuacan room has architectural scale models that make the site visit (if you go) far more legible. Tuesday to Sunday; arrive at opening at 9am on weekends to avoid school groups.",
         "walk_to_next": {
           "to": "Chapultepec Castle",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 1080,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -186,8 +193,10 @@
         "notes": "The only castle in mainland North America ever used as an imperial residence - Maximilian I and Empress Carlota furnished the upper floors in European style while the ground floor murals celebrate Mexico's pre-Hispanic identity. The walk up the hill takes about twelve minutes through forest; the view from the upper terrace over Paseo de la Reforma and the city skyline is the best elevated panorama in central Mexico City.",
         "walk_to_next": {
           "to": "Museo Tamayo Arte Contemporaneo",
-          "distance_meters": 780,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 1690,
+          "travel_minutes": 21,
+          "walking_minutes": 21
         }
       },
       "evening": {
@@ -247,7 +256,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 35
     },
     {
       "day": 3,
@@ -256,8 +266,8 @@
       "neighborhood_focus": "Coyoacan / Xochimilco",
       "neighborhood_description": "Coyoacan - meaning 'place of coyotes' in Nahuatl - was a separate colonial town absorbed by the city's sprawl, but still reads as a village: low colonial houses, shaded plazas, and a central market. Xochimilco, twenty minutes further south by taxi, preserves a remnant of the pre-Hispanic lake system as a network of canals and artificial island gardens that have been continuously farmed for over a thousand years.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2250,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 770,
+      "day_walking_minutes": 10,
       "morning": {
         "activity_title": "Museo Frida Kahlo (Casa Azul)",
         "wikidata_qid": "Q1124335",
@@ -273,9 +283,11 @@
         "optimal_timing": "morning",
         "notes": "Frida Kahlo's birth house and lifelong home, its cobalt blue walls packed with her paintings, pre-Hispanic collection, personal letters, and medical corsets. Daily ticket quotas sell out weeks in advance on the official website - this is not a place you can walk up to. If you cannot get a timed-entry, the Leon Trotsky Museum two blocks north at number 45 Viena street is a compelling alternative with almost no queue.",
         "walk_to_next": {
-          "to": "Jardin Centenario and Plaza Hidalgo, Coyoacan",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "to": "Jardin Centenario and Mercado de Coyoacan",
+          "transport_mode": "walk",
+          "distance_meters": 770,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -293,9 +305,11 @@
         "optimal_timing": "any",
         "notes": "The twin colonial plazas - Jardin Centenario and Plaza Hidalgo separated by a pedestrian street - are the social core of Coyoacan. The Mercado de Coyoacan behind the church on Ignacio Allende street is the best market for tostadas in the city: Tostadas Coyoacan stall has been in the same spot for decades and the queue is its own recommendation. Weekend afternoons bring street performers and the plaza becomes harder to navigate.",
         "walk_to_next": {
-          "to": "Xochimilco canals",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Xochimilco Trajineras",
+          "transport_mode": "drive",
+          "distance_meters": 16610,
+          "travel_minutes": 27,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -360,7 +374,10 @@
             "walking_minutes": 49
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 37
     }
-  ]
+  ],
+  "total_travel_minutes": 80,
+  "last_verified": null
 }

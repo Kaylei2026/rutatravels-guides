@@ -1,7 +1,7 @@
 {
   "destination": "Austin",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:41:35.510Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد متوقف في وسط Austin القابل للمشي سيراً على الأقدام - Texas State Capitol وأراضيه، وممر Congress Avenue، وجسر South Congress بمستعمرة الخفافيش، وشارع الموسيقى الحية في Sixth Street. يبني التسلسل من التاريخ المدني في الصباح إلى المشهد الخارجي المميز للمدينة عند الغسق.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 670,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown / Capitol District / Sixth Street",
       "neighborhood_description": "يتنظم وسط Austin على طول عمود واحد من الشمال إلى الجنوب، وهو Congress Avenue، يمتد من نهر Colorado River شمالاً إلى Texas State Capitol. تقع ساحات العاصمة و Bullock Texas State History Museum وكتل honky-tonk في Sixth Street جميعها على بعد أقل من كيلومتر واحد من بعضها، مما يجعل هذا وسط مدينة أمريكي نادر يستحق المشي سيراً على الأقدام.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 670,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Texas State Capitol",
         "wikidata_qid": "Q816649",
@@ -41,8 +41,10 @@
         "notes": "تغادر الجولات الموجهة المجانية من الفناء الجنوبي وفقاً لجدول زمني متواصل ابتداءً من الساعة 8:30 صباحاً في أيام الأسبوع، ولا تحتاج إلى حجز مسبق. تأثير \"معرض الهمسات\" في الدوران حقيقي فعلاً: قف مباشرة تحت النجم المرصع في الأرضية وتحدث بهدوء؛ سيسمعك شخص يقف تحت الجدار المقابل بوضوح تام. المبنى أطول بقصد بمسافة سبعة أقدام من مبنى الكابيتول الأمريكي - توجه إلى الجانب الشمالي واليفت نظرك نحو القبة من الحديقة الخلفية للحصول على أوضح منظر خالٍ من العوائق.",
         "walk_to_next": {
           "to": "Bullock Texas State History Museum",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "ثلاث طوابق منظمة حول الأعلام الثلاثة التي حكمت Texas - الإسباني والمكسيكي والأمريكي. تحتوي معرض الطابق الأول الدائم على وثائق منحة Stephen F. Austin الأصلية وقسم الهيكل المستعاد من La Belle، حطام السفينة الفرنسية من عام 1686 الذي تم اكتشافه في Matagorda Bay عام 1995. تجاوز IMAX إلا إذا كان لديك وقت إضافي؛ المجموعة الدائمة هي الحجة الأقوى لتبرير رسم الدخول.",
         "walk_to_next": {
-          "to": "Congress Avenue Bridge",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "to": "Congress Avenue Bridge bat colony",
+          "transport_mode": "drive",
+          "distance_meters": 2890,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 17
     }
-  ]
+  ],
+  "total_travel_minutes": 17,
+  "last_verified": null
 }

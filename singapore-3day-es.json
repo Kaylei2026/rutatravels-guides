@@ -1,7 +1,7 @@
 {
   "destination": "Singapore",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:40:06.946Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tres días recorriendo los contrastes esenciales de Singapore: el núcleo cívico colonial a lo largo del río, los distritos de shophouses conservados de Chinatown, y la espectacular costa recuperada en Marina Bay. Cada día es un circuito peatonal independiente centrado en un carácter urbano distintivo.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 9100,
-  "total_walking_minutes": 114,
+  "total_walking_distance_meters": 3150,
+  "total_walking_minutes": 40,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Civic District / Boat Quay / Fort Canning",
       "neighborhood_description": "El distrito que Stamford Raffles planificó en 1822, extendiéndose desde la desembocadura del Singapore River tierra adentro hasta Fort Canning Hill. Los grandes edificios gubernamentales coloniales, el muelle comercial original, y el parque más antiguo de la ciudad en la cima de la colina están todos a menos de veinte minutos a pie.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 1820,
+      "day_walking_minutes": 23,
       "morning": {
         "activity_title": "National Museum of Singapore",
         "wikidata_qid": "Q1322296",
@@ -43,8 +43,10 @@
         "notes": "El museo más antiguo de Singapore, construido en 1887, en un edificio neoclásico con cúpula en Stamford Road. La Singapore History Gallery cubre el período colonial, la Ocupación Japonesa, y la independencia con suficiente material de archivo para ser genuinamente informativo en lugar de promocional. Entre por la rotonda original en lugar del anexo de vidrio moderno en la parte trasera - solo el techo de la rotonda justifica una parada de cinco minutos.",
         "walk_to_next": {
           "to": "Fort Canning Park",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 640,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "morning",
         "notes": "La colina que los reyes malayos precoloniales usaban como sede real ahora es un parque público con múltiples capas históricas: el búnker Battle Box donde los comandantes británicos tomaron la decisión de rendirse en 1942, un jardín de especias replantado según el diseño original de Raffles de 1822, y artefactos de oro javaneses del siglo IX encontrados en el sitio (ahora en el Asian Civilisations Museum). Suba los escalones desde Armenian Street en lugar de la puerta de autobuses para un acceso más verde y la mejor vista de regreso sobre el Civic District.",
         "walk_to_next": {
-          "to": "Asian Civilisations Museum / Boat Quay",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Asian Civilisations Museum and Boat Quay",
+          "transport_mode": "walk",
+          "distance_meters": 1180,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 23
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Chinatown / Tanjong Pagar / Keong Saik",
       "neighborhood_description": "La cuadrícula de calles al suroeste del río que Raffles designó para el asentamiento chino en 1822. Dos siglos de oleadas sucesivas de migrantes Hokkien, Teochew, Cantoneses y Hakka dejaron una densa acumulación de templos de clan, casas comerciales patrimoniales y calles de clase trabajadora que sobrevivieron las olas de demolición de las décadas de 1970 y 1980.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 640,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Sri Mariamman Temple",
         "wikidata_qid": "Q1128883",
@@ -151,7 +156,9 @@
         "notes": "El templo hindú más antiguo de Singapore, fundado en 1827 y reconstruido en su forma actual en 1843. La torre gopuram sobre la entrada está cubierta con cientos de deidades esculpidas a mano, pintadas en policromía vívida - el detalle por metro cuadrado es extraordinario. Quítate los zapatos en la puerta. Ubicado en el corazón de Chinatown en lugar de Little India, refleja los patrones de asentamiento mixtos del Singapore colonial temprano.",
         "walk_to_next": {
           "to": "Chinatown Heritage Centre",
-          "distance_meters": 200,
+          "transport_mode": "walk",
+          "distance_meters": 210,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -171,8 +178,10 @@
         "notes": "Tres unidades de casas comerciales restauradas en Pagoda Street recreadas como habrían aparecido en la década de 1950 - una sola habitación alojando de ocho a doce personas, con cubículos para dormir divididos, cocina compartida en la acera de cinco pies, y todo el mundo social documentado de la clase trabajadora migrante de Chinatown. Las recreaciones usan testimonios de historia oral de residentes que vivieron en condiciones como estas. Más conmovedor que el formato convencional de galería.",
         "walk_to_next": {
           "to": "Thian Hock Keng Temple",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 430,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Marina Bay / Gardens by the Bay / Marina South",
       "neighborhood_description": "El distrito costero de 360 hectáreas construido completamente sobre terreno recuperado y abierto entre 2010 y 2012. El Marina Bay Sands, Gardens by the Bay y el paseo de la bahía forman un paisaje urbano planificado distinto a cualquier cosa en los distritos más antiguos de la ciudad y representan la ambición arquitectónica que Singapore ha aplicado a su terreno más nuevo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 690,
+      "day_walking_minutes": 9,
       "morning": {
         "activity_title": "Gardens by the Bay - Flower Dome and Cloud Forest",
         "wikidata_qid": "Q4150586",
@@ -258,9 +268,11 @@
         "optimal_timing": "morning",
         "notes": "Los dos invernaderos de Wilkinson Eyre son la atracción paga esencial dentro de los jardines. El Cloud Forest es el más espectacular de los dos - una montaña interior de 35 metros cubierta de plantas tropicales de tierras altas con una cascada que cae por su cara. Visita el Flower Dome segundo ya que su menor altitud lo hace sentir como una coda. Compra un boleto combinado en línea y llega antes de las 10am cuando los invernaderos están menos concurridos y la luz a través del domo de cristal está en su mejor momento.",
         "walk_to_next": {
-          "to": "Supertree Grove",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Supertree Grove and OCBC Skyway",
+          "transport_mode": "walk",
+          "distance_meters": 310,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "sunset",
         "notes": "El bosque de 18 estructuras verticales de acero y plantas que van de 25 a 50 metros, diseñadas por Grant Associates. La pasarela OCBC Skyway que conecta dos de los Supertrees más altos a 22 metros de elevación cuesta una pequeña tarifa y ofrece una vista sobre todos los jardines hacia el Marina Bay Sands que el nivel del suelo no puede ofrecer. Regresa después del anochecer para el espectáculo nocturno de luces y sonido Garden Rhapsody a las 7:45pm y 8:45pm - es corto (15 minutos) pero los Supertrees iluminados a plena intensidad se ven completamente diferentes a su apariencia diurna.",
         "walk_to_next": {
-          "to": "Marina Bay waterfront promenade",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Marina Bay waterfront promenade and skyline",
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 9
     }
-  ]
+  ],
+  "total_travel_minutes": 40,
+  "last_verified": null
 }

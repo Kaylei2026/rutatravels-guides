@@ -1,7 +1,7 @@
 {
   "destination": "Tokyo",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "三天游览东京的本质对比:古老的寺庙区浅草,青年时尚和神社轴线涩谷/原宿,以及摩天大楼和夜生活区新宿。每一天都是一个独立的列车枢纽。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 9000,
-  "total_walking_minutes": 118,
+  "total_walking_distance_meters": 7330,
+  "total_walking_minutes": 92,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Asakusa / Ueno",
       "neighborhood_description": "保留了比城市其他地方更多战前东京特色的东北部地区。浅草以Sensō-ji寺庙为中心,这是东京最古老、最受欢迎的佛教寺庙。向西二十分钟的上野公园拥有日本最密集的国家博物馆群。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 42,
+      "day_walking_distance_meters": 860,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Sensō-ji and Nakamise-dōri",
         "wikidata_qid": "Q200035",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "东京最古老的佛教寺庙，建于645年，拥有巨大的红色雷门（Kaminarimon）和其巨大的纸灯笼，是明信片上的经典形象。在上午9点之前到达，可以在纪念品拥挤之前在仲见世通（Nakamise-dōri）街道上散步。主殿堂免费进入；旁边的五层塔是东京拍摄最多的建筑之一。主殿前升起的清晨香烟是寺庙最美的时刻。",
         "walk_to_next": {
-          "to": "Sumida River Walk",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Sumida River and Asakusa backstreets",
+          "transport_mode": "walk",
+          "distance_meters": 860,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "隅田河畔公园提供了跨越Tokyo Skytree和朝日啤酒总部的标志性景色（其金色火焰雕塑由Philippe Starck设计，当地人昵称为\"黄金便便\"）。在浅草寺和河流之间的背街漫步，可以找到合羽桥通（Kappabashi-dōri）（厨具街）和仍在出售扇子、毛笔和米饼的隐蔽的江户时代商店。穿过吾妻桥可获得最佳的Skytree拍摄角度。",
         "walk_to_next": {
-          "to": "Ueno Park",
-          "distance_meters": 2000,
-          "walking_minutes": 26
+          "to": "Ueno Park and the Tokyo National Museum",
+          "transport_mode": "transit",
+          "distance_meters": 3370,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Shibuya / Harajuku / Omotesandō",
       "neighborhood_description": "定义当代东京的西部轴线 - Shibuya的步行横穿广场、Harajuku青年时尚街区、Omotesandō奢侈大道,以及Meiji Jingū森林神社,所有这些都通过沿山手线车站的一条二十分钟步行路线连接起来。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2900,
-      "day_walking_minutes": 38,
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
       "morning": {
         "activity_title": "Meiji Jingū Shrine",
         "wikidata_qid": "Q229121",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "供奉明治天皇和昭宪皇太后的神道神社，坐落在一片70公顷的人工林中（每棵树都是在1920年代由捐赠者亲手种植的）。经过巨大的木质鸟居门和碎石小径，仿佛离开了东京。神社本身是战后重建的，但保持了原有的明治时代格局。免费入场。内花园是另外付费的区域，特别推荐在6月时前往观赏菖蒲花园。",
         "walk_to_next": {
-          "to": "Harajuku / Takeshita Street",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Harajuku and Omotesandō",
+          "transport_mode": "walk",
+          "distance_meters": 1040,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Takeshita-dōri是密集的年轻人时尚街道 - 可丽饼、角色主题咖啡馆、可爱风格服装，周末时人挤人。平行的Omotesandō大道则截然相反 - 宽阔的林荫街道，汇集了东京最集中的建筑展示（Prada Aoyama由Herzog and de Meuron设计，Tod's由Toyo Ito设计，Dior由SANAA设计）。两条街都走一遍，能体验定义这个街区的对比风格。",
         "walk_to_next": {
-          "to": "Shibuya Crossing",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Shibuya Crossing at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1560,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Shinjuku",
       "neighborhood_description": "这个西区围绕世界最繁忙的火车站而建（日均客流量360万人次）。西侧的摩天大楼群拥有免费的Metropolitan Government观景台；东侧延伸进入Kabukichō娱乐区和Golden Gai迷宫般的战后小酒馆。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2900,
-      "day_walking_minutes": 38,
+      "day_walking_distance_meters": 3870,
+      "day_walking_minutes": 48,
       "morning": {
         "activity_title": "Shinjuku Gyoen National Garden",
         "wikidata_qid": "Q1322323",
@@ -258,9 +268,11 @@
         "optimal_timing": "morning",
         "notes": "占地58公顷的皇家花园分为三种不同风格 - 日本传统风格、法国正式风格和英式风景式 - 全部原本是江户时代的诸侯宅邸。是少数几个收费的东京公园之一（费用较低）；作为交换，禁止大型团体和酒精饮料，因此相比代代木公园或上野公园明显更加安静。周一闭园。樱花盛开期在3月下旬/4月初，从开园起就会吸引大量排队的人。",
         "walk_to_next": {
-          "to": "Tokyo Metropolitan Government Building",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "Tokyo Metropolitan Government Building observation deck",
+          "transport_mode": "walk",
+          "distance_meters": 2240,
+          "travel_minutes": 28,
+          "walking_minutes": 28
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "any",
         "notes": "丹下健三设计的孪生塔楼1991年政府建筑，建成时是东京最高的建筑物。两个观景台（北和南，均距地面202米）完全免费。晴朗的日子里，景观可以延伸到西南方向的富士山。南观景台关闭较早；北观景台开放到晚上10点，是更好的晚间选择。相比涩谷空中观景台或东京塔提供类似景观，这里排队人数更少。",
         "walk_to_next": {
-          "to": "Golden Gai / Omoide Yokochō",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "to": "Golden Gai and Omoide Yokochō",
+          "transport_mode": "walk",
+          "distance_meters": 1630,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 48
     }
-  ]
+  ],
+  "total_travel_minutes": 107,
+  "last_verified": null
 }

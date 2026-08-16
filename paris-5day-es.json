@@ -1,7 +1,7 @@
 {
   "destination": "Paris",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Cinco días que cubren lo esencial de Paris además del norte artístico y el intelectual Left Bank. Cada día está geográficamente autocontenido: elige el orden según el clima, el jet lag o la ubicación del hotel.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 9100,
-  "total_walking_minutes": 119,
+  "total_walking_distance_meters": 9410,
+  "total_walking_minutes": 117,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Île de la Cité / Le Marais",
       "neighborhood_description": "La Île de la Cité es el corazón geográfico e histórico de Paris, el asentamiento galo-romano original en una isla del Seine. Le Marais, al otro lado del río hacia el este, es el barrio judío medieval que escapó de las demoliciones haussmanianas del siglo XIX, preservando calles estrechas y mansiones aristocráticas.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1450,
-      "day_walking_minutes": 19,
+      "day_walking_distance_meters": 2110,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Sainte-Chapelle",
         "wikidata_qid": "Q193517",
@@ -50,8 +50,10 @@
         "notes": "La capilla real del siglo XIII construida por Louis IX para albergar la Corona de Espinas. Omite la capilla inferior y ve directamente arriba: quince vitrales que se alzan quince metros narran la mayor parte de la Biblia, y el sol matutino a través del rosetón orientado al este es la experiencia de luz gótica más intensa de Europa. Dentro del complejo del Palais de Justice, por lo que se requiere control de seguridad en la puerta de entrada del Boulevard du Palais.",
         "walk_to_next": {
           "to": "Notre-Dame de Paris",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 580,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -74,9 +76,11 @@
         "optimal_timing": "any",
         "notes": "Reabierta en diciembre de 2024 tras el incendio de 2019. La entrada es gratuita pero se requiere reserva anticipada con horario específico a través del sitio web oficial de la catedral, con cupos diarios limitados. El interior posterior a la restauración es lo más limpio que se ha visto la catedral en más de dos siglos: la piedra caliza limpia se ve casi amarilla en lugar del gris hollín de la memoria previa al incendio. El tesoro y la subida a la torre son entradas pagadas por separado.",
         "walk_to_next": {
-          "to": "Place des Vosges",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Place des Vosges and Le Marais wandering",
+          "transport_mode": "walk",
+          "distance_meters": 1530,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "evening": {
@@ -136,7 +140,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 2,
@@ -145,8 +150,8 @@
       "neighborhood_focus": "Louvre / Tuileries / 1st arrondissement",
       "neighborhood_description": "El barrio real central de París, definido por el ala oriental del Louvre y que se extiende hacia el oeste a lo largo de los Tuileries hasta la Place de la Concorde. El conjunto fue diseñado a lo largo de cuatro siglos como un solo eje ceremonial desde el palacio medieval hasta la vía triunfal moderna.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
       "morning": {
         "activity_title": "Louvre Museum",
         "wikidata_qid": "Q188709",
@@ -167,9 +172,11 @@
         "optimal_timing": "morning",
         "notes": "Reserva la entrada con horario específico en línea - las entradas sin reserva ahora son raras y la cola de la pirámide hace perder una hora. Elige dos de las tres alas, no las tres; tratar de verlo todo es el error clásico de la primera visita. La mayoría de visitantes da prioridad a Denon (Mona Lisa, Renacimiento italiano, escultura griega) y Sully (antigüedades egipcias, pintura francesa). Cerrado los martes.",
         "walk_to_next": {
-          "to": "Tuileries Garden",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Tuileries Garden and Place de la Concorde",
+          "transport_mode": "walk",
+          "distance_meters": 1050,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "afternoon": {
@@ -192,9 +199,11 @@
         "optimal_timing": "any",
         "notes": "El jardín formal de Le Nôtre, diseñado en 1664 - la misma mano y la misma geometría que Versailles. Los bronces de Maillol dispersos por la allée central son originales. Camina hacia el oeste hasta la Place de la Concorde para ver el obelisco y la vista panorámica de los Champs-Élysées hasta el Arc de Triomphe.",
         "walk_to_next": {
-          "to": "Palais-Royal",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Palais-Royal gardens and arcades",
+          "transport_mode": "walk",
+          "distance_meters": 950,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -254,7 +263,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 25
     },
     {
       "day": 3,
@@ -263,8 +273,8 @@
       "neighborhood_focus": "7th arrondissement",
       "neighborhood_description": "El gran barrio del Left Bank trazado en los siglos XVIII y XIX como escenario para el ejército francés y la Exposición Universal de 1889. Amplios espacios ceremoniales, monumentos de cúpula dorada y la estructura más fotografiada del mundo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 1890,
+      "day_walking_minutes": 24,
       "morning": {
         "activity_title": "Eiffel Tower",
         "wikidata_qid": "Q243",
@@ -280,9 +290,11 @@
         "optimal_timing": "morning",
         "notes": "Reserva online con semanas de antelación para el ascensor hasta la cima: los boletos sin reserva son casi imposibles de conseguir en temporada alta. Los boletos para subir por las escaleras hasta el segundo nivel son más baratos, tienen menos cola y son posiblemente más atmosféricos. La vista desde el segundo nivel es en realidad mejor para orientarse; la cima es para la foto. El mejor acercamiento matutino es desde Trocadéro para conseguir el ángulo de postal antes de caminar por debajo y cruzar.",
         "walk_to_next": {
-          "to": "Champ de Mars",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Champ de Mars and Rue Cler",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -300,9 +312,11 @@
         "optimal_timing": "any",
         "notes": "La larga extensión verde que se extiende desde la Torre Eiffel hacia el sur hasta la École Militaire: diseñada como campo de desfiles, ahora es un parque para picnics. A unas pocas manzanas al este, Rue Cler es una de las mejores calles de mercado tradicional que se conservan en la ciudad: peatonalizada, llena de quesos, carnicerías y puestos de productos frescos, menos turística que Rue Montorgueil.",
         "walk_to_next": {
-          "to": "Les Invalides",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Les Invalides and Napoleon's Tomb",
+          "transport_mode": "walk",
+          "distance_meters": 1330,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -342,7 +356,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 24
     },
     {
       "day": 4,
@@ -351,8 +366,8 @@
       "neighborhood_focus": "18th arrondissement",
       "neighborhood_description": "El pueblo en la colina del norte que Paris se tragó en 1860 pero nunca digirió completamente - callejuelas estrechas, casitas cubiertas de enredaderas, el último molino en funcionamiento de la ciudad, y la basílica de Sacré-Cœur coronando el punto más alto de Paris. Al pie de la colina, Pigalle es el barrio de placer del siglo XIX que nos dio a Toulouse-Lautrec.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 1120,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Sacré-Cœur Basilica",
         "wikidata_qid": "Q207986",
@@ -368,8 +383,10 @@
         "optimal_timing": "morning",
         "notes": "La basílica de travertino blanco que corona la Butte Montmartre - controvertida cuando se construyó (1875-1914) como penitencia conservadora tras la Comuna de París, ahora fotografiada universalmente. La entrada es gratuita. La cripta y la subida a la cúpula son entradas pagadas por separado; la vista desde la cúpula es una de las mejores vistas panorámicas de Paris aunque es más empinada de lo que parece. La mejor manera de llegar es por el funicular desde abajo; las escaleras funcionan pero son agotadoras.",
         "walk_to_next": {
-          "to": "Place du Tertre",
-          "distance_meters": 250,
+          "to": "Place du Tertre and Montmartre village",
+          "transport_mode": "walk",
+          "distance_meters": 240,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -388,9 +405,11 @@
         "optimal_timing": "any",
         "notes": "La plaza de retratistas al aire libre - turística y orgullosa de serlo, pero las calles circundantes son el verdadero Montmartre. Camina hacia el oeste pasando la Église Saint-Pierre (800 años más antigua que Sacré-Cœur) hacia Rue Lepic para ver el último molino en funcionamiento de Paris (Moulin de la Galette, pintado por Renoir) y la casa donde Van Gogh vivió con su hermano Theo en el número 54.",
         "walk_to_next": {
-          "to": "Moulin Rouge / Pigalle",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Moulin Rouge and Pigalle",
+          "transport_mode": "walk",
+          "distance_meters": 880,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -450,7 +469,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 5,
@@ -459,8 +479,8 @@
       "neighborhood_focus": "5th / 6th arrondissement",
       "neighborhood_description": "La Left Bank al sur del Seine, definida por la medieval Sorbonne y los salones literarios del siglo XVII que fueron el centro de la vida intelectual francesa durante tres siglos. Los cafés donde trabajaron Sartre, Beauvoir y Hemingway siguen aquí, principalmente como destinos turísticos costosos, pero las librerías, los jardines y la secuencia de museos siguen siendo la verdadera atracción.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1850,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 2290,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Musée d'Orsay",
         "wikidata_qid": "Q83410",
@@ -481,9 +501,11 @@
         "optimal_timing": "morning",
         "notes": "La colección de arte impresionista y postimpresionista más importante del mundo, alojada en una estación de tren Beaux-Arts de 1900 convertida en museo. Ve directo al quinto piso para ver a Monet, Renoir, Degas, Van Gogh y Cézanne - esa es la razón por la que viene la mayoría de visitantes. El enorme reloj ornamental en el quinto piso que enmarca la vista del Sacré-Cœur es la fotografía característica del edificio. Cerrado los lunes.",
         "walk_to_next": {
-          "to": "Saint-Germain-des-Prés",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Saint-Germain-des-Prés Church and quarter",
+          "transport_mode": "walk",
+          "distance_meters": 1160,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -502,8 +524,10 @@
         "notes": "La iglesia más antigua de París (siglo VI, con la mayor parte de la estructura sobreviviente del siglo XI), y el centro histórico de la escena intelectual de la Left Bank. La torre románica sobre la puerta oeste es una de las estructuras más antiguas en pie de la ciudad. Café de Flore y Les Deux Magots están frente a la iglesia al otro lado de la plaza - perfectos para un café a precios turísticos y el aura literaria, menos recomendables para comidas serias.",
         "walk_to_next": {
           "to": "Luxembourg Gardens",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 1130,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -563,7 +587,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     }
-  ]
+  ],
+  "total_travel_minutes": 117,
+  "last_verified": null
 }

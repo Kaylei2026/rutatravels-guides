@@ -1,7 +1,7 @@
 {
   "destination": "Hiroshima",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-08-11T16:31:55.244Z",
   "sources": [
     "wikidata",
@@ -13,7 +13,7 @@
   ],
   "guide_description": "Ein Tag im Zentrum von Hiroshima, vom Friedenspark nach Norden durch die wiederaufgebaute Stadt zur Burg und zum Abschluss vor einer Okonomiyaki-Platte. Die gesamte Strecke ist flach, kompakt und gut vom Straßenbahnnetz erschlossen. Miyajima und der Itsukushima-Schrein sind der zweite Grund, weshalb man hierherkommt, und brauchen einen eigenen halben Tag, deshalb ist der Tag so angelegt, dass er einen Austausch verkraftet und keine Ergänzung.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3100,
+  "total_walking_distance_meters": 3190,
   "total_walking_minutes": 39,
   "days": [
     {
@@ -23,7 +23,7 @@
       "neighborhood_focus": "Naka-ku / Friedenspark",
       "neighborhood_description": "Das Zentrum von Hiroshima liegt auf einem Flussdelta, und der Friedenspark nimmt die dreieckige Insel ein, an der sich Motoyasu und Ota teilen, früher das geschäftigste Handelsviertel der Stadt und unmittelbar unter der Detonation von 1945. Nördlich davon wurde das Straßenraster in den fünfziger Jahren um breite Boulevards herum neu aufgebaut, mit dem Burggelände und dem Garten Shukkei-en fünfzehn Gehminuten weiter. Hondori und Nagarekawa, die überdachte Einkaufsstraße und das Ausgehviertel, liegen dazwischen.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
+      "day_walking_distance_meters": 3190,
       "day_walking_minutes": 39,
       "morning": {
         "activity_title": "Hiroshima Peace Memorial Park and Museum",
@@ -41,8 +41,10 @@
         "notes": "Friedenspark und Friedensmuseum Hiroshima. Kommen Sie zur Öffnung. Das Hauptgebäude des Museums wurde 2019 neu eingerichtet, um persönliche Gegenstände und Zeugnisse statt Modelle in den Mittelpunkt zu stellen, und es schont niemanden; die meisten Besucher müssen sich danach setzen, und der Park selbst ist dafür der richtige Ort. Von dort aus arbeitet man sich nach außen vor: das mit Papierkranichen behängte Kinderfriedensdenkmal, das Kenotaph, dessen Bogen die Kuppel einrahmt, und die Atombombenkuppel an der Nordspitze, das einzige nahe dem Hypozentrum stehen gebliebene Bauwerk und der von der UNESCO gelistete Teil der Anlage. Die Nationale Gedenkhalle nebenan ist kostenlos, stiller und bewahrt die Namen und Fotografien der Toten. Die Öffnungszeiten wechseln saisonal, und der 6. August bringt die jährliche Zeremonie mit sehr großem Andrang, prüfen Sie daher die aktuellen Zeiten beim Museum, bevor Sie den Vormittag planen.",
         "walk_to_next": {
           "to": "Hiroshima Castle",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "transport_mode": "walk",
+          "distance_meters": 1800,
+          "travel_minutes": 22,
+          "walking_minutes": 22
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "Burg Hiroshima. 1589 von Mori Terumoto auf den flachen Deltaböden errichtet, weshalb sie als Karpfenburg bekannt ist und in einem breiten Wassergraben liegt statt auf einer Anhöhe. Der Bergfried wurde 1945 zerstört und 1958 in Beton wieder aufgebaut; heute beherbergt er ein Museum zur Burgstadt und zur Samuraizeit mit einer Aussichtsebene ganz oben. Zwei Dinge auf dem Gelände verdienen einen längeren Blick: ein Eukalyptus und eine Weide, die die Explosion überstanden haben und weiterwachsen, sowie die freigelegten Fundamente des Bunkers des Armeehauptquartiers, aus dem die erste Meldung über den Abwurf abgesetzt wurde. Essen Sie auf dem Weg hinauf in der Hondori zu Mittag, da das Angebot im Park begrenzt ist.",
         "walk_to_next": {
           "to": "Okonomimura and Nagarekawa",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "transport_mode": "walk",
+          "distance_meters": 1390,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 39
     }
-  ]
+  ],
+  "total_travel_minutes": 39,
+  "last_verified": null
 }

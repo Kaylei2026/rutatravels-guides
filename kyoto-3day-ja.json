@@ -1,7 +1,7 @@
 {
   "destination": "Kyoto",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:28:46.173Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "京都の本質的な対比を3日間で巡る：Higashiyamaの石畳の寺院回廊、Arashiyamaの竹と川の地区、そしてFushimi Inariを中心とした神社と市場の軸。それぞれのエリアは地理的にまとまっており、引き返すことなく徒歩で回ることができます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 10400,
-  "total_walking_minutes": 130,
+  "total_walking_distance_meters": 2330,
+  "total_walking_minutes": 30,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Higashiyama",
       "neighborhood_description": "京都市内で最も前近代の京都の姿を保持している東山麓の地区。保存された町家がNinenzakaとSannenzekaの石畳の小径に軒を連ね、南のKiyomizuderaから北のChion-inとGion芸者街まで、一本の途切れない道で結んでいます。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1160,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Kiyomizudera",
         "wikidata_qid": "Q503496",
@@ -47,9 +47,11 @@
         "optimal_timing": "morning",
         "notes": "朝8時前に到着しましょう。寺院は朝6時に開門し、森林に覆われた丘陵地に張り出した本堂の木造舞台は、最初の2時間は本当に静寂に包まれています。バス停からChawan-zaka（茶わん坂）を上るアプローチには陶器店が軒を連ねていますが、この時間帯はすべて閉店しているため、静かに登ることができます。舞台から谷を隔てた三重塔を振り返って眺めると、境内全体の最高の写真が撮れます。",
         "walk_to_next": {
-          "to": "Ninenzaka and Sannenzaka",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "to": "Ninenzaka and Sannenzaka stone lanes",
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -67,8 +69,10 @@
         "optimal_timing": "any",
         "notes": "Kiyomizuderaから北に延びる、保存された江戸時代の石畳の小径2本が、保護された町家地区を貫いています。Ninenzakaでつまずくと2年間の不運が訪れるという迷信（二年は2年という意味）があるため、濡れた石の上では慎重に歩く観光客もいます。雨の日は滑りやすいので注意が必要です。最も保存状態の良い町家の外観は、Sannenzakaの上部のカーブにあります。メインカーブの手前右側の路地には、ほとんどの観光客が素通りしてしまう伝統工芸の工房が並んでいます。",
         "walk_to_next": {
-          "to": "Kodaiji",
-          "distance_meters": 450,
+          "to": "Kodaiji and the lantern-lit evening garden",
+          "transport_mode": "walk",
+          "distance_meters": 470,
+          "travel_minutes": 6,
           "walking_minutes": 6
         }
       },
@@ -129,7 +133,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -138,8 +143,8 @@
       "neighborhood_focus": "Arashiyama / Sagano",
       "neighborhood_description": "Oi Riverが森林に覆われた丘陵に向かって曲がる西部地区。竹林、Tenryujiの庭園、Togetsukyobridge は互いに数百メートル以内にある。より静かなSaganoの小道は北に向かい、小さな寺院群と明らかに人の少ない時間へと導いてくれる。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3500,
-      "day_walking_minutes": 44,
+      "day_walking_distance_meters": 1170,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Arashiyama Bamboo Grove",
         "wikidata_qid": "Q578450",
@@ -156,7 +161,9 @@
         "notes": "竹林の小径は長さわずか400メートルで、多くの訪問者が驚きます。9時以降に増える人混みを避けるため、7時30分前に到着して歩きましょう。風に竹がカチカチと鳴る音は写真では伝わらない感覚的な魅力で、観光バスがまだ到着していない涼しい朝の時間帯に最もよく聞こえます。竹林はTenryuji後門の真北にあるので、庭園にこちら側から入って南に抜ければ、戻る必要がありません。",
         "walk_to_next": {
           "to": "Tenryuji",
+          "transport_mode": "walk",
           "distance_meters": 300,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -180,9 +187,11 @@
         "optimal_timing": "any",
         "notes": "ここの庭園は1345年頃に夢窓疎石によって設計され、現在でも本質的にそのまま残っており、借景という技法でArashiyama の山々を取り込んでいるため、季節や時間帯によって庭園の表情が完全に変わります。中央の池は南側の観賞用ベンチから見ると、山々と本堂を同時に映し出します。入場料は2つに分かれており、庭園のみの料金と本堂内部も含む料金があります。ほとんどの場合、庭園のみのチケットで十分です。",
         "walk_to_next": {
-          "to": "Togetsukyo Bridge",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Togetsukyo Bridge and riverside",
+          "transport_mode": "walk",
+          "distance_meters": 870,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -242,7 +251,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -251,8 +261,8 @@
       "neighborhood_focus": "Fushimi / Nishiki",
       "neighborhood_description": "朱色の鳥居のトンネルで有名なFushimi Inariから、Horikawa運河沿いのFushimi酒蔵群を経て、京都中心部のNishiki市場まで続く南側のルート。地理的には広範囲にわたりますが、一本の電車路線で結ばれているため、論理的な順序で巡ることができます。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3000,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Fushimi Inari-taisha",
         "wikidata_qid": "Q464405",
@@ -268,9 +278,11 @@
         "optimal_timing": "morning",
         "notes": "この神社は24時間開放されており、無料です。Kyoto Stationから7分の電車でアクセスできますが、観光バスが到着する前の午前7時前に着いて、下の鳥居のトンネルを歩くことをお勧めします。ほとんどの観光客は最初の15分程度の参道で写真を撮って帰ってしまいますが、Ichinofune山頂まで登ると約90分かかります。Yotsutsuji交差点を過ぎると鳥居の密度はすぐに薄くなり、南京都の景色が開けます。この交差点が多くの人にとって実用的な折り返し地点で、麓から約30分です。",
         "walk_to_next": {
-          "to": "Fushimi sake district",
-          "distance_meters": 1800,
-          "walking_minutes": 22
+          "to": "Fushimi sake district and Gekkeikan Okura Museum",
+          "transport_mode": "transit",
+          "distance_meters": 4230,
+          "travel_minutes": 16,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -289,8 +301,10 @@
         "notes": "Fushimiは17世紀以来の酒造の中心地で、Momoyama丘陵の格別に柔らかい地下水に恵まれています。Gekkeikan Okura Museumは1909年の酒蔵を利用しており、400年間の酒造道具を展示し、控えめな入館料に試飲も含まれています。酒蔵沿いのHorikawa運河には古い蔵（酒倉庫）が立ち並び、Tsukiyomi BridgeとSakenosho Bridge間の柳並木の遊歩道が最も風情ある区間です。",
         "walk_to_next": {
           "to": "Nishiki Market",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "drive",
+          "distance_meters": 9760,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -350,7 +364,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 34
     }
-  ]
+  ],
+  "total_travel_minutes": 64,
+  "last_verified": null
 }

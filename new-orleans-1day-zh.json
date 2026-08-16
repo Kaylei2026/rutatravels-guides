@@ -1,7 +1,7 @@
 {
   "destination": "New Orleans",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:57:16.434Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "在法国区停留一天,这是新奥尔良最古老、最密集的地区。路线从Jackson Square的精神和市政中心出发,经过Royal街和Bourbon街的街头音乐文化,进入河畔的有顶市场,在天黑后结束,此时城市才真正苏醒。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 1230,
+  "total_walking_minutes": 15,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "French Quarter / Jackson Square",
       "neighborhood_description": "Vieux Carre是由法国工程师在1718年在密西西比河的一个月牙形河岸上规划的原始殖民地定居点。尽管名字如此,现存的大部分建筑是西班牙殖民地风格,在1788年和1794年的火灾后重建。这个社区从Canal Street延伸到Esplanade Avenue共十三个街区,从河滨延伸到Rampart Street共六个街区深 - 所有地方都可以步行到达。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 1230,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "St. Louis Cathedral and Jackson Square",
         "wikidata_qid": "Q1421011",
@@ -41,7 +41,9 @@
         "notes": "在上午9点之前到达，此时广场上的算命师和街头表演者还在布置摊位 - 由Cabildo和Presbytere两栋建筑框架的教堂立面在这个时间窗口最干净。内部免费进入，比街道凉爽得多；抬头欣赏祭坛上方的透视画法壁画。教堂已重建三次；目前的结构可追溯到1850年。参观完内部后，沿着Pirate's Alley走到教堂后面 - 这是教堂和Cabildo之间的狭窄通道，威廉·福克纳在第624号住过，当时他正在写他的第一部小说。",
         "walk_to_next": {
           "to": "The Cabildo",
+          "transport_mode": "walk",
           "distance_meters": 80,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "1803年路易斯安那州购地转让协议签署的西班牙殖民政府建筑。现为路易斯安那州立博物馆，展示该市的殖民地、奴隶制和内战历史，以大多数美国历史博物馆所回避的直率方式呈现。馆内收藏的拿破仑死亡面具是他1821年去世后数天内制作的仅有四件铸件之一。周一和周二关闭 - 来访前请确认。",
         "walk_to_next": {
-          "to": "French Market",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Frenchmen Street after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1150,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     }
-  ]
+  ],
+  "total_travel_minutes": 15,
+  "last_verified": null
 }

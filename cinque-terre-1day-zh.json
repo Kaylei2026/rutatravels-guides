@@ -1,7 +1,7 @@
 {
   "destination": "Cinque Terre",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:06:25.682Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "一日游览五渔村的核心地带：五个村庄中最壮观的村落、沿着悬崖面连接它们的步道，以及利古里亚海岸上最佳的日落观景点。路线先向南乘坐火车，然后在地形允许的地方徒步前进。",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 4550,
-  "total_walking_minutes": 57,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Vernazza / Corniglia / Monterosso",
       "neighborhood_description": "组成五渔村国家公园和联合国教科文组织世界遗产地的五个村庄中的三个。Vernazzo 是该地区保存最完整的中世纪港口村庄。Corniglia 独自坐落在岬角上，没有海滩通道 - 五个村庄中唯一的一个。Monterosso 是最北边和最大的村庄，拥有唯一真正的沙滩和一座 14 世纪的塔楼，将老城镇与现代区分开来。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4550,
-      "day_walking_minutes": 57,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Vernazza",
         "wikidata_qid": "Q82546",
@@ -46,8 +46,10 @@
         "notes": "乘坐从La Spezia或Levanto出发的早班列车抵达,在上午10点30分游客涌入高峰期之前到达。中世纪港口广场Piazza Marconi直接面向水域,从主要caruggio顶部的面包店买一份焦点面包,坐在港口墙边享用,此时光线仍然很低,渔船正在出海。登上港口北端的Doria Castle塔楼,欣赏整个村庄屋顶线的全景 - 塔楼门票只需几欧元,而景观是Cinque Terre的经典照片。",
         "walk_to_next": {
           "to": "Corniglia",
-          "distance_meters": 3100,
-          "walking_minutes": 39
+          "transport_mode": "transit",
+          "distance_meters": 3170,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -71,8 +73,10 @@
         "notes": "Corniglia是五个村庄中最安静的,因为到达它需要从火车站爬382级台阶(Lardarina楼梯)或乘坐班车。大多数一日游游客因此会跳过它,这意味着Via Fieschi周围的狭窄街道和村庄北端的观景台即使在旅游旺季也总是人烟稀少。主街末端的露台直接俯瞰悬崖下的大海,没有栏杆遮挡 - 这是海岸线上最令人眩晕的景观之一。",
         "walk_to_next": {
           "to": "Monterosso al Mare",
-          "distance_meters": 1450,
-          "walking_minutes": 18
+          "transport_mode": "transit",
+          "distance_meters": 6640,
+          "travel_minutes": 21,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 35
     }
-  ]
+  ],
+  "total_travel_minutes": 35,
+  "last_verified": null
 }

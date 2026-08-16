@@ -1,7 +1,7 @@
 {
   "destination": "Hallstatt",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:22:45.019Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Una giornata in uno dei villaggi più antichi continuamente abitati d'Europa, un agglomerato lakeside di facciate barocche e miniere di sale preistoriche incastonato tra il massiccio Dachstein e il Hallstatter See. Il villaggio è abbastanza piccolo da percorrerlo da un capo all'altro in quindici minuti, quindi la giornata è strutturata tanto verticalmente quanto orizzontalmente: il livello del lago al mattino, l'altopiano della miniera a mezzogiorno, e il centro del villaggio all'ora d'oro.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 240,
+  "total_walking_minutes": 4,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Hallstatt Village / Hallstatter See / Salzwelten",
       "neighborhood_description": "Hallstatt è un villaggio UNESCO di circa 800 abitanti stretto tra una parete rocciosa quasi verticale e il freddo verde Hallstatter See. La cultura archeologica Hallstatt che dà il nome al luogo, la civiltà determinante dell'Europa centrale dell'Età del Ferro, è stata identificata qui grazie a un cimitero di oltre mille tombe. Le miniere di sale sopra il villaggio sono in funzione almeno dal 1000 BC, il che le rende tra le più antiche del mondo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 240,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Salzwelten Hallstatt - prehistoric salt mine",
         "wikidata_qid": "Q874841",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Prendete la funicolare Salzbergbahn dal lungomare del villaggio - parte da un terminal appena a nord della piazza del mercato principale e sale 855 metri in meno di quattro minuti. L'interno della miniera ospita una scala in legno dell'Età del Bronzo ben conservata, una conduttura in legno preistorica e due scivoli minerari in legno che potete scendere seduti durante la visita. La temperatura all'interno è costante 8 gradi Celsius indipendentemente dalla stagione, quindi portate uno strato aggiuntivo. Prenotate i biglietti con orario online il giorno prima in estate, i gruppi di turisti che arrivano in autobus verso le 10am riempiono rapidamente gli slot disponibili.",
         "walk_to_next": {
-          "to": "Hallstatt Skywalk viewpoint",
-          "distance_meters": 480,
-          "walking_minutes": 6
+          "to": "Hallstatt Skywalk",
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "morning",
         "notes": "Una piattaforma in acciaio a sbalzo 360 metri sopra la superficie del lago, raggiungibile da un sentiero segnalato di circa 350 metri dall'uscita della miniera - tenete la sinistra dove il sentiero si biforca e seguite i cartelli Welterbeblick. La vista si allinea su tutta la lunghezza del Hallstatter See verso sud e posiziona il villaggio direttamente sotto, motivo per cui ogni foto aerea di Hallstatt è scattata da circa questa elevazione. Inutile con nuvolosità bassa, se i picchi del Dachstein sono nascosti quando arrivate alla miniera, saltate questo e aggiungete tempo al villaggio invece.",
         "walk_to_next": {
-          "to": "Hallstatt Market Square (Marktplatz)",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Hallstatt Marktplatz and lakefront",
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 4
     }
-  ]
+  ],
+  "total_travel_minutes": 4,
+  "last_verified": null
 }

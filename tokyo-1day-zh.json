@@ -1,7 +1,7 @@
 {
   "destination": "Tokyo",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "在老东京度过一天，以浅草的Sensō-ji寺庙建筑群为中心，向西延伸至上野公园的博物馆区。这是步行可到达的最浓缩的战前和江户时代东京体验。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3200,
-  "total_walking_minutes": 42,
+  "total_walking_distance_meters": 860,
+  "total_walking_minutes": 11,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Asakusa / Ueno",
       "neighborhood_description": "这些东北部的地区比城市的任何其他地方都更好地保留了战前的东京面貌。浅草以Sensō-ji寺庙为中心，这是东京最古老、参访人数最多的佛教寺庙。位于西边20分钟距离的上野公园拥有日本最密集的国家博物馆群。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 42,
+      "day_walking_distance_meters": 860,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Sensō-ji and Nakamise-dōri",
         "wikidata_qid": "Q200035",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "东京最古老的佛寺，建于645年，以巨大的红色Kaminarimon（雷门）和其巨大的纸灯笼作为明信片形象而闻名。在上午9点前到达，可以在纪念品涌入之前漫步Nakamise-dōri街道。主殿免费进入；旁边的五层宝塔是东京最常被拍摄的建筑之一。清晨时主殿前升起的香烟是寺庙最美的时刻。",
         "walk_to_next": {
-          "to": "Sumida River Walk",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Sumida River and Asakusa backstreets",
+          "transport_mode": "walk",
+          "distance_meters": 860,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Sumida河滨公园提供了跨越Tokyo Skytree和Asahi啤酒总部（带有Philippe Starck设计的金色火焰雕塑，当地人昵称为\"黄金便便\"）的标志性景观。在Sensō-ji和河流之间的小街上漫步，可以找到kappabashi-dōri（厨具街）和隐藏的江户时代商店，仍在出售扇子、笔刷和仙贝。穿过Azuma Bridge可拍摄最佳的Skytree照片。",
         "walk_to_next": {
-          "to": "Ueno Park",
-          "distance_meters": 2000,
-          "walking_minutes": 26
+          "to": "Ueno Park and the Tokyo National Museum",
+          "transport_mode": "transit",
+          "distance_meters": 3370,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 26,
+  "last_verified": null
 }

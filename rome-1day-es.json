@@ -1,7 +1,7 @@
 {
   "destination": "Rome",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T13:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día caminando por el núcleo barroco y antiguo de Roma, centrado en el Pantheon y terminando en la Trevi Fountain después del anochecer. No se requiere transporte - todo está dentro de un circuito de 1.5 km.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 1020,
-  "total_walking_minutes": 13,
+  "total_walking_distance_meters": 1540,
+  "total_walking_minutes": 19,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Centro Storico",
       "neighborhood_description": "El denso barrio histórico entre la curva del Tiber y Via del Corso. Templos romanos, plazas barrocas y mercados superpuestos sobre dos milenios de trazado urbano.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1020,
-      "day_walking_minutes": 13,
+      "day_walking_distance_meters": 1540,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Pantheon",
         "wikidata_qid": "Q1142794",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Llega a la apertura (9am) para ver el haz de luz del oculus posarse limpiamente en el interior antes de que el suelo se llene de grupos turísticos. Ahora se cobra una pequeña entrada entre semana; la misa dominical es gratuita pero limita el movimiento en el interior.",
         "walk_to_next": {
-          "to": "Piazza Navona",
-          "distance_meters": 320,
-          "walking_minutes": 4
+          "to": "Piazza Navona and Sant'Agnese in Agone",
+          "transport_mode": "walk",
+          "distance_meters": 420,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Construida sobre las bases del Stadium of Domitian, por eso la forma es alargada. La Fountain of the Four Rivers es de Bernini; la fachada de la iglesia opuesta es de su rival Borromini - los dos han estado discutiendo a través de la plaza desde la década de 1650.",
         "walk_to_next": {
-          "to": "Trevi Fountain",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trevi Fountain after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 19,
+  "last_verified": null
 }

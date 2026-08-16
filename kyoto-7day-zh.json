@@ -1,7 +1,7 @@
 {
   "destination": "Kyoto",
   "duration_days": 7,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T15:53:12.097Z",
   "sources": [
     "wikidata",
@@ -19,8 +19,8 @@
   ],
   "guide_description": "七天的京都之旅，从东山密集的寺庙山坡出发，一路延伸至岚山的竹林，每个地区各用一整天细细品味：祇园的艺伎街、伏见的朱红鸟居隧道、西北部的金阁寺和银阁寺路线、城市中心的皇宫区，以及向南前往产茶小镇宇治的一日游。每个区域在地理上相对独立，却共同勾勒出一座城市的文化轮廓，日本的文化遗产在这片山谷中的集中度超过了全国任何其他地方。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 26700,
-  "total_walking_minutes": 334,
+  "total_walking_distance_meters": 8630,
+  "total_walking_minutes": 108,
   "days": [
     {
       "day": 1,
@@ -29,8 +29,8 @@
       "neighborhood_focus": "Higashiyama",
       "neighborhood_description": "Higashiyama 山脉的长脊线形成了京都的东部边界，其山脚下完整保存的历史街区是全市最原汁原味的古镇风景。石板铺就的小巷连接了从南边Kiyomizudera到北边Nanzenji的一条寺庙链，途中经过Ninenzaka和Sannenzaka小巷，这里的町家古宅自江户时代以来外观几乎没有改变过。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1210,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Kiyomizudera",
         "wikidata_qid": "Q645249",
@@ -52,8 +52,10 @@
         "notes": "在开放时间到达(夏季早上6点,其他季节6点30分),在第一批旅游大巴到来之前在木舞台上散步 - 这是一个13米的悬臂平台,由139根榧木柱子支撑,没有使用任何钉子 - 舞台面向西边俯瞰城市,而不是山丘,这与直觉相反;经典照片是从舞台的最左端拍摄,背景是森林覆盖的山坡上的主殿。通往基部音羽瀑布的下行路径经过三个水口,据说可以分别赐予长寿、学业成功和爱情幸运 - 只从两个水口饮水,因为三个都喝被认为是贪心的。",
         "walk_to_next": {
           "to": "Ninenzaka and Sannenzaka",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 650,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -72,8 +74,10 @@
         "notes": "从Kiyomizudera向北延伸的两条相连的石铺小巷是日本保存最完好的历史街景之一 - 两层楼的町家店铺出售抹茶甜点、豆皮和京都漆器。Sannenzaka(上面的小巷)有一个当地传说,任何在其台阶上绊倒的人会在三年内死亡;实际的结果是每个人都注意脚下,使其成为城市中最少有人低头看手机的街道之一。下午来自西边的光线很好地照亮了建筑立面;早上人群较少但光线平淡。",
         "walk_to_next": {
           "to": "Kodaiji",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -133,7 +137,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -142,8 +147,8 @@
       "neighborhood_focus": "Gion / Hanamikoji / Okazaki",
       "neighborhood_description": "祇园是京都最著名的艺妓区，从Kamo River东侧延伸，位于四条街和三条街之间。Hanamikoji-dori上保存完好的木制okiya（艺妓屋）立面和更狭窄的Shirakawa-minami-dori后街形成了视觉核心。Philosopher's Path是一条运河畔步行道，两侧栽满樱花树，将该街区与北部Nanzenji寺院群和Okazaki博物馆公园相连。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3800,
-      "day_walking_minutes": 48,
+      "day_walking_distance_meters": 390,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Fushimi Inari-taisha early walk (preview)",
         "wikidata_qid": "Q462271",
@@ -159,9 +164,11 @@
         "optimal_timing": "morning",
         "notes": "伏见稻荷需要整整一天（第3天），但如果住在祇园附近，可以在早上7点之前骑车快速前往参观下方的鸟居隧道 - 此时景点几乎没有游人 - 这是京都最高效的游览方式之一。从第一段到第二段鸟居隧道直到四辻大约需要20分钟，能看到标志性景象而无需进行完整的两小时山路登山。之后返回祇园继续主要行程。",
         "walk_to_next": {
-          "to": "Hanamikoji-dori",
-          "distance_meters": 2100,
-          "walking_minutes": 26
+          "to": "Hanamikoji-dori and Gion backstreets",
+          "transport_mode": "transit",
+          "distance_meters": 5500,
+          "travel_minutes": 19,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -180,8 +187,10 @@
         "notes": "Hanamikoji-dori是主要保留下来的茶屋街 - 宽度足以容纳一辆人力车，两侧排列着格子纹的土黄色外立面和低调的纸灯笼。真正的发现是往北一个街区的Shirakawa-minami-dori：一条更狭窄的运河边小径，柳树枝垂入水面，茶屋的后墙面向溪流。艺妓和舞妓最有可能在下午5点30分到晚上7点之间在Hanamikoji出现，他们在这段时间往来于各项任务之间 - 请不要拍照或跟随她们，因为这是她们的工作场所。",
         "walk_to_next": {
           "to": "Yasaka Shrine",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 390,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -221,7 +230,8 @@
             "walking_minutes": 19
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 24
     },
     {
       "day": 3,
@@ -230,8 +240,8 @@
       "neighborhood_focus": "Fushimi",
       "neighborhood_description": "京都南部地区有两个完全不同的景点，相距仅需15分钟步行。Fushimi Inari-taisha是一座神道教山间神社，以其密集的朱红色鸟居走廊而闻名，这些鸟居是几个世纪以来由商家和个人捐献的。北边的Fushimi Momoyama是日本历史悠久的清酒酿造中心之一，这要归功于其异常柔软的地下水 - 运河边的仓库和酿酒厂墙壁呈现出一种独特而宁静的京都风貌。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4200,
-      "day_walking_minutes": 53,
+      "day_walking_distance_meters": 660,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Fushimi Inari-taisha",
         "wikidata_qid": "Q462271",
@@ -248,8 +258,10 @@
         "notes": "上至山顶Ichinomine（233米）再返回的完整山路线路耗时约两小时，游客很少走这整个路线 - 过了半山腰的Yotsutsuji十字路口后，人群会立即稀少得几乎为零。鸟居在最初的20分钟内最为密集；Yotsutsuji之上，步道经过较小的子神社、石狐狸守护者和山杉树。在上午7点前到达可以在近乎独处的状态下游览下层走廊。穿着防滑鞋履 - 石阶经过打磨且倾斜度不规则。",
         "walk_to_next": {
           "to": "Gekkeikan Okura Sake Museum",
-          "distance_meters": 1800,
-          "walking_minutes": 23
+          "transport_mode": "transit",
+          "distance_meters": 4110,
+          "travel_minutes": 16,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -267,8 +279,10 @@
         "optimal_timing": "any",
         "notes": "Gekkeikan自1637年以来一直在Fushimi酿造清酒,这座改建的仓库(kura)博物馆用保存完好的原始设备讲解生产工艺 - 巨大的杉木酒桶和手工工具仍然摆放在它们当年使用的房间里。门票包括三种清酒的品尝。博物馆外的运河(Horikawa)有白色的墙壁、铺顶瓦片和柳树;沿着运河步行10分钟到Teradaya船登陆处是不跟团游览清酒街区的最佳方式。",
         "walk_to_next": {
-          "to": "Fushimi Momoyama Canal Walk",
-          "distance_meters": 600,
+          "to": "Teradaya and Fushimi Canal",
+          "transport_mode": "walk",
+          "distance_meters": 660,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -309,7 +323,8 @@
             "walking_minutes": 19
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 24
     },
     {
       "day": 4,
@@ -318,8 +333,8 @@
       "neighborhood_focus": "Arashiyama / Sagano",
       "neighborhood_description": "Kyoto西边，Oi River蜿蜒流过林木茂密的山谷。Arashiyama自平安时代以来就是贵族的度假胜地；主要旅游街道后面的Sagano地区拥有京都访客最少的几座主要寺庙，由竹林小径和具有乡村风情的街道相隔。Tenryuji庭园、竹林和Okochi Sanso别墅形成了一条天然的游览路线。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3600,
-      "day_walking_minutes": 45,
+      "day_walking_distance_meters": 1170,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Tenryuji and the Sogenchi Garden",
         "wikidata_qid": "Q1881486",
@@ -340,9 +355,11 @@
         "optimal_timing": "morning",
         "notes": "Rinzai Tenryuji学派的总寺院，由足利尊氏于1339年创建。Sogenchi Garden是来此的主要原因 - 这是由梦窗疎石设计的借景山水庭园，以Arashiyama山作为背景。从竹林的北门进入（仅游览庭园或主殿需分别购票）在Togetsu-kyo桥被人群挤满前游览回游式庭园。法堂内的龙天花板绘画是2000年的复制品，但其108平方米的面积仍然令人印象深刻。",
         "walk_to_next": {
-          "to": "Arashiyama Bamboo Grove",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Arashiyama Bamboo Grove and Okochi Sanso",
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -360,9 +377,11 @@
         "optimal_timing": "morning",
         "notes": "Tenryuji北门和Jojakko-ji之间的竹林小径约500米长。著名的走廊段仅约200米，被拍照众多；继续经过它前往Okochi Sanso别墅（合理的入场费包括抹茶和和菓子点心），以获得Oi River和Arashiyama山脉的最佳俯视，并观赏无声电影明星Okochi Denjiro设计并花费30多年建造的私人花园。竹林在一天的开始和结束时光线有方向性的时候最富有氛围。",
         "walk_to_next": {
-          "to": "Jojakko-ji",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Jojakko-ji and Nison-in",
+          "transport_mode": "walk",
+          "distance_meters": 790,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -422,7 +441,8 @@
             "walking_minutes": 18
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 5,
@@ -431,8 +451,8 @@
       "neighborhood_focus": "Nishijin / Kinkaku-ji / Kinugasa",
       "neighborhood_description": "京都中心的西北部汇集了该市最具标志性的单一景观（金阁寺）和最令人深思的景观（龙安寺的石庭园），两者相距仅20分钟步程。在它们下方，西阵地区是京都丝绸织造的历史中心，是一个生活气息浓厚的社区，其狭窄的町屋街道两侧仍有一些织布机的声音穿过墙壁传出。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 4100,
-      "day_walking_minutes": 51,
+      "day_walking_distance_meters": 1470,
+      "day_walking_minutes": 18,
       "morning": {
         "activity_title": "Kinkaku-ji (Temple of the Golden Pavilion)",
         "wikidata_qid": "Q210080",
@@ -454,8 +474,10 @@
         "notes": "在开放时间（上午9点）抵达，在云层聚集之前拍摄亭阁在镜湖池上的倒影。整个游览沿着单向路线进行，亭阁内部无法进入 - 体验的核心是花园漫步和从三个观景点欣赏这座金箔覆盖的建筑物及其水景。第三层的内外墙壁都覆盖着纯金箔；屋顶上的凤凰顶饰重1公斤黄金。现有的建筑是1955年重建的，原建筑在1950年被三岛由纪夫安排的纵火僧人烧毁。",
         "walk_to_next": {
           "to": "Ryoan-ji",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "walk",
+          "distance_meters": 1470,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "afternoon": {
@@ -478,9 +500,11 @@
         "optimal_timing": "any",
         "notes": "这个枯山水石庭园由15块石头排列在耙平的白色碎石中，从任何单一视角最多只能看到14块石头，是日本最具争议的花园。没有人记录过原始设计者或其意图。坐在走廊上而不是站立；低矮的木制座椅能强制形成正确的透视角度。龙安寺池泉园环绕寺庙建筑，是15世纪的回游式庭园，所获关注远少于石庭园，但漫步其中更加令人愉快。",
         "walk_to_next": {
-          "to": "Nishijin Textile Center",
-          "distance_meters": 2100,
-          "walking_minutes": 26
+          "to": "Nishijin Textile Center and the weaving district",
+          "transport_mode": "transit",
+          "distance_meters": 3720,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -520,7 +544,8 @@
             "walking_minutes": 53
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     },
     {
       "day": 6,
@@ -529,8 +554,8 @@
       "neighborhood_focus": "Nijo / Kyoto Imperial Park / Teramachi",
       "neighborhood_description": "平安京网格的中心，皇宫区和二条城隔着城市平原相对而立。向南延伸的寺町商业街连接了这两个历史地标，街上有古籍书店、漆器商店和寺庙门楼。这是京都主要历史区中游客最少的地方，也是最能理解这座城市作为生活城市本质的地方。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3600,
-      "day_walking_minutes": 45,
+      "day_walking_distance_meters": 2300,
+      "day_walking_minutes": 29,
       "morning": {
         "activity_title": "Nijo-jo Castle",
         "wikidata_qid": "Q645561",
@@ -551,9 +576,11 @@
         "optimal_timing": "morning",
         "notes": "德川家康在京都的官邸，建于1603年，是对皇城中将军权力的明确宣示。二之丸宫殿内部 - 33个房间，800张榻榻米 - 是日本现存最精美的书院造宫殿建筑范例。地板被特意建造成会发出声音的（夜莺地板），用来探测入侵者；走得慢一些可以听到每块木板的抗议声。由小堀远州设计的二之丸花园，三面环绕宫殿，中央有池塘和覆盖着松树的石桥。",
         "walk_to_next": {
-          "to": "Kyoto Imperial Park",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "Kyoto Imperial Park and Gosho",
+          "transport_mode": "walk",
+          "distance_meters": 2300,
+          "travel_minutes": 29,
+          "walking_minutes": 29
         }
       },
       "afternoon": {
@@ -571,9 +598,11 @@
         "optimal_timing": "any",
         "notes": "皇宫（Gosho）自2016年起免费向公众开放，无需预约 - 此前需提前申请。建筑本身是19世纪对平安时期建筑形式的重建（原建筑多次被烧毁），但御池庭院是真实的，隔壁的仙洞皇宫花园需在公园内皇宫护卫厅办公室单独领取免费门票，是全国最美的漫步花园之一。周围的公园（京都御苑）是65公顷的公共绿地，深受当地人欢迎用于野餐和慢跑 - 基本上是这座城市的中央公园。",
         "walk_to_next": {
-          "to": "Teramachi-dori shopping street",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Teramachi-dori and Nishiki Market",
+          "transport_mode": "transit",
+          "distance_meters": 3050,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -613,7 +642,8 @@
             "walking_minutes": 23
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 43
     },
     {
       "day": 7,
@@ -622,8 +652,8 @@
       "neighborhood_focus": "Uji",
       "neighborhood_description": "一个紧凑的小镇，从京都乘火车向南20分钟即可到达，自12世纪以来一直是日本的高级茶叶种植地，当时僧侣Myoe种植了从中国带来的茶种。小镇还拥有Byodo-in，这是一座11世纪的藤原氏族别墅，其Phoenix Hall出现在10日元硬币上，以及Ujigami Shrine，日本最古老的现存神道神社。世界遗产建筑与活跃的茶文化的结合使其成为从京都出发最连贯的一日游选择。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3500,
-      "day_walking_minutes": 44,
+      "day_walking_distance_meters": 1430,
+      "day_walking_minutes": 18,
       "morning": {
         "activity_title": "Byodo-in",
         "wikidata_qid": "Q649011",
@@ -645,8 +675,10 @@
         "notes": "凤凰堂（Hoodo）建于1053年，是为藤原赖通而建，是现存不多的保留原貌的平安时期建筑之一。凤凰堂坐落在一个小岛上，通过跨越阿字池的桥梁到达，该池被建造成代表阿弥陀佛的西方极乐世界。进入内部参观原有的52尊乘云菩萨雕像和镀金的阿弥陀佛像需要单独购买定时票（在售票处购买，每小时限制人数）。池塘的倒影完全对称，在风起之前的清晨最为平静优美。",
         "walk_to_next": {
           "to": "Ujigami Shrine",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 440,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -669,9 +701,11 @@
         "optimal_timing": "any",
         "notes": "日本现存最古老的神社，主殿年代约为平安时期晚期（约1060年），拜殿为镰仓时期早期，两者均被指定为国宝。这个遗址规模较小，游客数量远少于河对岸的Byodo-in。神社背后林木茂密的山坡和园内自然的石泉（Kiri-no-Shiru）是值得停留的理由。经过Uji Bridge（日本最古老的桥梁遗址，现在的结构是现代的）跨越宇治河，可以看到被树林覆盖的神社山丘的迷人景色。",
         "walk_to_next": {
-          "to": "Uji tea shops and Nakatani-en",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Uji tea district and Tsuen Tea",
+          "transport_mode": "walk",
+          "distance_meters": 990,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -711,7 +745,10 @@
             "walking_minutes": 17
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     }
-  ]
+  ],
+  "total_travel_minutes": 172,
+  "last_verified": null
 }

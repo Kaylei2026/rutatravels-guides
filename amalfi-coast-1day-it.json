@@ -1,7 +1,7 @@
 {
   "destination": "Amalfi Coast",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:08:29.062Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Una giornata incentrata sui due nuclei storici gemelli di Amalfi e Atrani - la cattedrale della repubblica marittima medievale, la sua valle nascosta dei mulini di carta e il suo vicino più piccolo nascosto dietro il promontorio. Ravello si trova in alto come una fuga opzionale in elevazione. La giornata si sviluppa dalla piazza della cattedrale verso l'esterno lungo la costa e su nelle colline.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 1570,
+  "total_walking_minutes": 20,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Amalfi Town and Atrani",
       "neighborhood_description": "Amalfi era una volta una potenza navale che rivaleggiava con Venezia e Genova, coniando la propria valuta e redigendo codici di diritto marittimo ancora oggi citati come riferimento. La città è compressa in una valle stretta dove il torrente Canneto incontra il Mar Tirreno, con vicoli che terminano in scalinate e mulini di carta aggrappati alle pareti della gola. Atrani, a cinque minuti a piedi a est intorno alla scogliera, è tecnicamente un comune separato - il più piccolo d'Italia per area - e mantiene un carattere da villaggio di pescatori operativo in gran parte libero dal flusso turistico principale.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 1570,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Amalfi Cathedral",
         "wikidata_qid": "Q840287",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Arrivate prima delle 9:30 quando i pullman da Napoli e Sorrento iniziano a scaricare passeggeri, la Piazza del Duomo si trasforma da piazza tranquilla a collo di bottiglia affollato nel giro di pochi minuti dall'arrivo dei primi autobus. La decorazione geometrica arabo-normanna intrecciata sulla facciata è unica nell'Italia meridionale e riflette i commerci diretti di Amalfi con il mondo arabo nel X e XI secolo. Il biglietto d'ingresso include la cripta del IX secolo di Sant'Andrea, dove il programma musivo è meglio conservato di qualsiasi cosa nella chiesa superiore.",
         "walk_to_next": {
-          "to": "Valle dei Mulini - Paper Mill Valley",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Valle dei Mulini - Museo della Carta",
+          "transport_mode": "walk",
+          "distance_meters": 330,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Camminate dritto su Via Lorenzo d'Amalfi superando il duomo e continuate, la strada si stringe nella gola della valle Canneto e l'aria si rinfresca notevolmente nel giro di tre minuti. Il museo della carta occupa un mulino del XIII secolo che utilizza ancora i martelli idraulici originali; la dimostrazione funzionante dura circa venti minuti ed è la ragione più specifica per visitare la valle di Amalfi piuttosto che solo la costa. Amalfi produsse alcuni dei primi fogli di carta europei, e il mulino spiega la tecnologia attraverso la trasmissione araba piuttosto che direttamente dalla Cina.",
         "walk_to_next": {
-          "to": "Atrani",
-          "distance_meters": 680,
-          "walking_minutes": 9
+          "to": "Atrani - Piazza Umberto I and Santa Maria Maddalena",
+          "transport_mode": "walk",
+          "distance_meters": 1240,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     }
-  ]
+  ],
+  "total_travel_minutes": 20,
+  "last_verified": null
 }

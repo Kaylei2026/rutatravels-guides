@@ -1,7 +1,7 @@
 {
   "destination": "London",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "ثلاثة أيام تغطي أهم معالم لندن: المحور الاحتفالي في Westminster، و City بتاريخه العريق والمالي وبرجه المدرج في قائمة اليونسكو، ومثلث المتاحف والحدائق في South Kensington. كل يوم مكتفٍ بذاته من الناحية الجغرافية.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 6600,
-  "total_walking_minutes": 85,
+  "total_walking_distance_meters": 5920,
+  "total_walking_minutes": 75,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Westminster / South Bank",
       "neighborhood_description": "Westminster هو مقر الحكومة البريطانية والكنيسة التتويجية للملكية، وتتمركز حول Parliament Square. الضفة الجنوبية عبر Westminster Bridge هي النقطة الثقافية المقابلة، وتصطف على جانبيها منتزه الضفة النهرية و London Eye والعديد من دور الفنون الرئيسية.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Westminster Abbey",
         "wikidata_qid": "Q5933",
@@ -47,8 +47,10 @@
         "optimal_timing": "morning",
         "notes": "موقع تتويج كل ملك إنجليزي منذ عام 1066 وضريح سبعة عشر ملكاً. احجز تذكرة بموعد محدد عبر الإنترنت لتجنب الطوابير. Poets' Corner حيث يرقد Chaucer و Dickens و Hardy و Browning و Coronation Chair هي المعالم الرئيسية، لكن Cosmati Pavement الذي يقع مباشرة أمام High Altar والذي غالباً ما يتم تجاهله هو فسيفساء هندسية من القرن الثالث عشر حيث تقام مراسم التتويج الفعلية. مغلق أيام الأحد ما عدا أوقات الخدمات الدينية.",
         "walk_to_next": {
-          "to": "Houses of Parliament",
-          "distance_meters": 250,
+          "to": "Houses of Parliament and Big Ben",
+          "transport_mode": "walk",
+          "distance_meters": 230,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -72,9 +74,11 @@
         "optimal_timing": "any",
         "notes": "قصر Palace of Westminster ذو العمارة القوطية الحديثة، اكتمل بناؤه عام 1870 بعد احتراق المبنى الأصلي الوسيط عام 1834. يمكن لسكان المملكة المتحدة ودول الكومنولث حضور النقاشات مجاناً من خلال الانتظار في Cromwell Green، بينما يستطيع الزوار الأجانب حجز جولات مدفوعة في أيام عدم انعقاد البرلمان (عادة أيام السبت وأسابيع الإجازات). Big Ben هو اسم الجرس وليس البرج - البرج نفسه يسمى Elizabeth Tower وقد تم ترميمه مؤخراً ليعود إلى ألوانه الفيكتورية الأصلية.",
         "walk_to_next": {
-          "to": "London Eye via Westminster Bridge",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "South Bank and London Eye at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -134,7 +138,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     },
     {
       "day": 2,
@@ -143,8 +148,8 @@
       "neighborhood_focus": "The City / Tower",
       "neighborhood_description": "The Square Mile التي كانت Roman Londinium واستمرت كمدينة كاملة حتى العصر التيودوري - الآن المنطقة المالية في London، لكن مع الحفاظ على نمطها الشارعي الوسيط، و Tower of London، و St. Paul's Cathedral. إنها أكثر كيلومتر مربع كثافة أثرية في Britain.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 2770,
+      "day_walking_minutes": 35,
       "morning": {
         "activity_title": "Tower of London",
         "wikidata_qid": "Q11953",
@@ -165,8 +170,10 @@
         "optimal_timing": "morning",
         "notes": "برج White Tower الذي بناه William the Conqueror عام 1078، إضافة إلى 900 سنة من الإضافات - كان بمثابة قصر ملكي وسجن وخزانة وسك نقود وحديقة حيوانات في فترات مختلفة. احجز تذكرتك عبر الإنترنت قبل القدوم. جولات Yeoman Warder (Beefeater) مجانية مع التذكرة وتنطلق كل 30 دقيقة، وهي بشكل مفاجئ أفضل جزء في الزيارة - فكاهية وجريئة وغنية بالمعلومات التاريخية. طابور Crown Jewels يتحرك بسرعة أكبر في الساعة الأولى بعد افتتاح الموقع.",
         "walk_to_next": {
-          "to": "Tower Bridge",
-          "distance_meters": 350,
+          "to": "Tower Bridge and the riverside walk",
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
           "walking_minutes": 5
         }
       },
@@ -186,8 +193,10 @@
         "notes": "جسر Victorian bascule الذي يخطئ الكثيرون في الخلط بينه وبين London Bridge (وهو الجسر البسيط الواقع في المنطقة العليا من النهر). الممر بين البرجين - مزود الآن بأرضيات زجاجية - هو جاذبية برسم دخول، لكن العبور عبر سطح الطريق مجاني ويوفر نفس المنظر. يرتفع الجسر حوالي 800 مرة في السنة؛ الجدول الزمني منشور على الإنترنت والانتظار لمشاهدة رفع الجسر يستحق العناء.",
         "walk_to_next": {
           "to": "St. Paul's Cathedral",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "transport_mode": "walk",
+          "distance_meters": 2390,
+          "travel_minutes": 30,
+          "walking_minutes": 30
         }
       },
       "evening": {
@@ -247,7 +256,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 35
     },
     {
       "day": 3,
@@ -257,7 +267,7 @@
       "neighborhood_description": "الحي الثقافي الفيكتوري الذي تم إنشاؤه من عائدات معرض 1851 Great Exhibition، يضم ثلاثة من أعظم متاحف العالم المتجمعة حول Exhibition Road. شمالاً عبر Kensington Gore، يشكل Hyde Park و Kensington Gardens 250 هكتاراً من أراضي الحدائق الملكية المتجاورة.",
       "weather_profile": "resilient",
       "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 29,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Victoria and Albert Museum",
         "wikidata_qid": "Q213322",
@@ -274,8 +284,10 @@
         "notes": "أكبر متحف في العالم للفنون الزخرفية والتصميم يضم 2.8 مليون قطعة موزعة على 145 معرضاً. الدخول مجاني. قاعات الجبس (تحتوي على نسخ بالحجم الطبيعي من عمود تراجان وتمثال ميكيلانجيلو لداود، صنعت عندما كانت المتاحف الفيكتورية تجمع الاستنساخات بدلاً من الأصول) فريدة من نوعها في لندن. مقهى الحديقة الواقع تحت الغرف المزينة بطراز William Morris يعتبر من أفضل مقاهي المتاحف للغداء في المدينة.",
         "walk_to_next": {
           "to": "Natural History Museum",
-          "distance_meters": 250,
-          "walking_minutes": 3
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -293,9 +305,11 @@
         "optimal_timing": "any",
         "notes": "الدخول مجاني. هيكل الحوت الأزرق في Hintze Hall (الذي حل محل ديبي الديناصور في 2017) معلق في الصحن المركزي ويمثل المنظر المميز للمبنى. محاكي الزلازل في معرض البراكين والزلازل، الذي يعيد خلق زلزال كوبه عام 1995 داخل متجر بقالة يابانية مقلدة، يعتبر المعرض الأكثر مفاجأة. تهيمن العائلات على نهاية الأسبوع، لذا توجه صباح أحد أيام الأسبوع إذا كنت تريد مساحة للتفكير.",
         "walk_to_next": {
-          "to": "Hyde Park Serpentine",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Hyde Park and the Serpentine at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1820,
+          "travel_minutes": 23,
+          "walking_minutes": 23
         }
       },
       "evening": {
@@ -355,7 +369,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     }
-  ]
+  ],
+  "total_travel_minutes": 75,
+  "last_verified": null
 }

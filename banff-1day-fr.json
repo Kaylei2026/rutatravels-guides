@@ -1,7 +1,7 @@
 {
   "destination": "Banff",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:20:31.252Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée à Banff concentrée sur le plancher de Bow Valley et les crêtes au-dessus, une boucle serrée depuis les sources chaudes du townsite jusqu'au lac qui a inspiré mille cartes postales, avec un sommet en téléphérique entre les deux. L'ensemble se construit à partir de l'histoire thermale en passant par la géologie alpine jusqu'à la rive turquoise emblématique.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Banff Townsite / Bow Valley",
       "neighborhood_description": "La raison originelle pour laquelle le Canada a créé son premier parc national en 1885 était un ensemble de sources thermales sur le flanc de Sulphur Mountain. Le townsite qui s'y est développé se situe à 1,383 mètres dans une vallée étroite des Rocheuses, encerclé par des pics calcaires de tous côtés. Dans un rayon de 15 kilomètres, vous avez les sources chaudes fondatrices, une promenade en crête accessible par téléphérique et Lake Louise, l'un des lacs glaciaires les plus visités en Amérique du Nord.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Cave and Basin National Historic Site",
         "wikidata_qid": "Q1054005",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "La source de soufre découverte en 1883 qui a directement déclenché la création du système des parcs nationaux du Canada. La passerelle autour du bassin extérieur prend environ 20 minutes et montre l'habitat de l'escargot de Banff Springs endémique - une espèce qu'on ne trouve nulle part ailleurs sur terre. Le tunnel de la grotte lui-même est court mais l'odeur de soufre et le plafond bas qui goutte en font l'arrêt le plus atmosphérique du townsite. Arrivez tôt avant l'arrivée des autocars autour de 10h.",
         "walk_to_next": {
-          "to": "Banff Gondola and Sulphur Mountain",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Banff Gondola and Sulphur Mountain Summit Ridge",
+          "transport_mode": "drive",
+          "distance_meters": 1680,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -71,8 +73,10 @@
         "notes": "La télécabine vous dépose à 2 281 mètres sur la crête de Sulphur Mountain. Marchez vers le nord le long de la passerelle jusqu'à la station de rayons cosmiques restaurée de 1903 à Sanson Peak - environ 15 minutes aller-retour et un gain d'altitude significatif même depuis le terminal de la télécabine, donc allez à votre rythme. La vue à 360 degrés englobe la Bow Valley, la grille urbaine directement en bas, et Cascade Mountain au nord. Réservez les billets de télécabine en ligne pour éviter la file d'attente au terminal, qui peut s'étirer sur 45 minutes en haute saison.",
         "walk_to_next": {
           "to": "Lake Louise",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "transport_mode": "drive",
+          "distance_meters": 79600,
+          "travel_minutes": 78,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 14
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 85
     }
-  ]
+  ],
+  "total_travel_minutes": 85,
+  "last_verified": null
 }

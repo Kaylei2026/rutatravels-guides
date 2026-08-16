@@ -1,7 +1,7 @@
 {
   "destination": "New Orleans",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:57:16.434Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée ancrée dans le French Quarter, la partie la plus ancienne et la plus dense de New Orleans. L'itinéraire part du cœur spirituel et civique de Jackson Square, traverse la culture musicale de rue de Royal et Bourbon, passe par le marché couvert au bord du fleuve, et se termine après la tombée de la nuit quand la ville devient vraiment elle-même.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 1230,
+  "total_walking_minutes": 15,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "French Quarter / Jackson Square",
       "neighborhood_description": "Le Vieux Carre est le premier établissement colonial tracé par des ingénieurs français en 1718 sur un croissant du Mississippi. Malgré son nom, la plupart de l'architecture survivante est coloniale espagnole, reconstruite après les incendies de 1788 et 1794. Le quartier s'étend sur treize blocs de Canal Street à Esplanade Avenue et six blocs de profondeur du fleuve à Rampart Street - tout se fait à pied.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 1230,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "St. Louis Cathedral and Jackson Square",
         "wikidata_qid": "Q1421011",
@@ -41,7 +41,9 @@
         "notes": "Arrivez avant 9h du matin quand les diseuses de bonne aventure et les artistes de rue de la place s'installent encore - la façade de la cathédrale encadrée par les bâtiments jumeaux Cabildo et Presbytere est plus nette à ce moment. L'intérieur est gratuit et plus frais que la rue ; levez les yeux vers les peintures en trompe-l'œil au-dessus de l'autel. La cathédrale a été reconstruite trois fois ; la structure actuelle date de 1850. Après la visite intérieure, promenez-vous derrière la cathédrale le long de Pirate's Alley - l'étroit passage entre la cathédrale et le Cabildo où William Faulkner a vécu au numéro 624 en écrivant son premier roman.",
         "walk_to_next": {
           "to": "The Cabildo",
+          "transport_mode": "walk",
           "distance_meters": 80,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Le bâtiment du gouvernement colonial espagnol où fut signé le transfert de la Louisiana Purchase en 1803. Maintenant un Louisiana State Museum qui couvre l'histoire coloniale, esclavagiste et de la Guerre de Sécession de la ville avec une franchise que la plupart des musées d'histoire américains évitent. Le masque mortuaire de Napoléon dans la collection est l'un des quatre seuls moulages connus réalisés dans les jours suivant sa mort en 1821. Fermé les lundis et mardis - vérifiez avant de visiter.",
         "walk_to_next": {
-          "to": "French Market",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Frenchmen Street after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1150,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     }
-  ]
+  ],
+  "total_travel_minutes": 15,
+  "last_verified": null
 }

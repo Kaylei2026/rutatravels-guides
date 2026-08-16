@@ -1,7 +1,7 @@
 {
   "destination": "Santa Barbara",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:56:40.088Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Santa Barbaraのコンパクトな歴史地区を1日で巡るコース：ダウンタウンの市民地区に立つスペイン植民地復興様式の建築、丘の上のミッション、State Streetの足元にある稼働中の港。各スポットは歩いて簡単に移動でき、または短いドライブで到着できます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3380,
-  "total_walking_minutes": 43,
+  "total_walking_distance_meters": 1600,
+  "total_walking_minutes": 20,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown / El Pueblo Viejo / Waterfront",
       "neighborhood_description": "Santa Barbaraのダウンタウンコアは1925年の地震後に統一されたスペイン植民地復興様式で再建されました - 白いスタッコ、赤いタイル屋根、市条例によって強制されたアーケード型店舗。ミッションは数ブロック北にある低い尾根に位置し、Stearns Wharf と港は State Street の南端を形成しています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3380,
-      "day_walking_minutes": 43,
+      "day_walking_distance_meters": 1600,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Santa Barbara County Courthouse",
         "wikidata_qid": "Q7422012",
@@ -41,8 +41,10 @@
         "notes": "1929年に建設された、カリフォルニア州内で最も優れたスペイン植民地復興様式の公共建築です。無料のセルフガイドツアーでは、沈下式ガーデン中庭と壁画が描かれた集会室を自分のペースで見学できます。El Mirador時計塔に登ると、屋上の展望台からは都市のグリッド、背後の山々、晴れた朝にはChannel Islands(チャネル諸島)を遮るものなく見ることができます。",
         "walk_to_next": {
           "to": "Old Mission Santa Barbara",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 1600,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "1786年に設立され、フランシスコ会の手から一度も離れたことのないカリフォルニア州唯一のミッションです。双塔のファサードは、ウィトルウィウスのローマ寺院の正面を1820年に解釈したもので、修道士たちは実際の建物ではなく書籍の挿絵を参考にして設計しました。セルフガイドツアーには、Serra礼拝堂、チュマシュ族の墓がある墓地、修道院棟の小さな博物館が含まれています。Laguna Street(ラグーナ通り)から上り坂でアプローチすると、Santa Ynez Mountains(サンタイネス山脈)に囲まれたファサード全体が素晴らしく現れます。",
         "walk_to_next": {
-          "to": "Stearns Wharf",
-          "distance_meters": 2080,
-          "walking_minutes": 26
+          "to": "Stearns Wharf and Santa Barbara Harbor",
+          "transport_mode": "drive",
+          "distance_meters": 4990,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 24
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 32,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Sun Valley",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:58:34.876Z",
   "sources": [
     "wikidata",
@@ -12,8 +12,8 @@
   ],
   "guide_description": "Un día recorriendo el núcleo histórico del primer resort de esquí de destino de América: el Sun Valley Lodge y su pueblo circundante, el corredor de Trail Creek donde Hemingway escribió y cazó, y las laderas abiertas de Dollar Mountain. El conjunto es compacto y transitable, mezclando arquitectura de resort de mediados de siglo con genuino paisaje montañoso.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -22,8 +22,8 @@
       "neighborhood_focus": "Sun Valley Village / Trail Creek / Dollar Mountain",
       "neighborhood_description": "Sun Valley fue construido desde cero en 1936 por Union Pacific Railroad como un resort de destino modelado en pueblos alpinos europeos. El pueblo compacto se sitúa aproximadamente a 1.750 metros de elevación en Wood River Valley en el centro de Idaho, con Sun Valley Lodge como su ancla social y Trail Creek corriendo justo al este a través de terreno de salvia y álamo que se convirtió en inseparable de los años de Idaho de Ernest Hemingway.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Sun Valley Lodge",
         "wikidata_qid": "Q7638000",
@@ -40,8 +40,10 @@
         "notes": "El vestíbulo principal y el corredor de Ram Restaurant están cubiertos de fotografías en blanco y negro de todas las celebridades que se hospedaron aquí desde los años 30 en adelante - Gary Cooper, Clark Gable, Marilyn Monroe, y un Hemingway recurrente. Camina por los pasillos de la planta baja sin pagar por una habitación; la pista de patinaje al aire libre inmediatamente frente al lodge funcionaba todo el año antes de que las pistas artificiales fueran comunes en cualquier parte de América, y la piscina exterior climatizada es visualmente idéntica a las fotografías de la inauguración de 1936.",
         "walk_to_next": {
           "to": "Trail Creek Cabin",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "drive",
+          "distance_meters": 2020,
+          "travel_minutes": 8,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,8 +62,10 @@
         "notes": "La cabaña de troncos a una milla al este del lodge a lo largo de Trail Creek Road fue el lugar preferido de Hemingway para almuerzo y cena durante sus repetidas estancias en Idaho desde 1939 en adelante. Completó For Whom the Bell Tolls cerca de aquí y está enterrado en Ketchum Cemetery a poca distancia en auto hacia el sur. El paseo junto al creek desde el lodge sigue un camino bien transitado a través de álamos de Virginia y prados abiertos; en verano el creek es audible durante todo el recorrido. La cabaña todavía funciona como restaurante en invierno, más limitado en verano - llama con anticipación antes de considerarla como parada para comer.",
         "walk_to_next": {
           "to": "Dollar Mountain",
-          "distance_meters": 1560,
-          "walking_minutes": 19
+          "transport_mode": "drive",
+          "distance_meters": 1730,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -121,7 +125,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     }
-  ]
+  ],
+  "total_travel_minutes": 15,
+  "last_verified": null
 }

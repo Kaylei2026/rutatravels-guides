@@ -1,7 +1,7 @@
 {
   "destination": "Interlaken",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:24:41.470Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día en Interlaken estructurado alrededor de la geografía característica de la ciudad: una estrecha franja de tierra entre el Lake Thun y el Lake Brienz, con los picos de Bernese Oberland elevándose por todos lados. El día se mueve desde el gran paseo hasta las alturas sobre la ciudad y regresa hacia la orilla del agua, construyendo una imagen completa de por qué este valle se convirtió en la capital del turismo de montaña de Europa.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 2340,
-  "total_walking_minutes": 29,
+  "total_walking_distance_meters": 1470,
+  "total_walking_minutes": 18,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Interlaken Town / Hoheweg / Harder Kulm",
       "neighborhood_description": "Interlaken se encuentra en la llanura aluvial entre Lake Thun y Lake Brienz, rodeada por la cresta de Harder Kulm al norte y el macizo de Jungfrau al sur. El Hoheweg es el gran paseo del siglo XIX en el centro de la ciudad, diseñado para que los huéspedes del hotel pudieran ver el Jungfrau a través del prado Hohematte. Todo en Interlaken está a una distancia caminable de este eje.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2340,
-      "day_walking_minutes": 29,
+      "day_walking_distance_meters": 1470,
+      "day_walking_minutes": 18,
       "morning": {
         "activity_title": "Hoheweg Promenade and Hohematte",
         "wikidata_qid": "Q1619078",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "Recorre toda la extensión del Hoheweg desde la estación Interlaken West hasta Interlaken Ost - aproximadamente 1,5 kilómetros - antes de que lleguen los grupos de turistas. El prado Hohematte en el lado sur se mantiene permanentemente abierto por una restricción establecida en una escritura del siglo XIX que previene el desarrollo, preservando la vista sin obstáculos de la Jungfrau. El lado norte del paseo conserva varias fachadas de hoteles Grand Belle Epoque de los años 1860s-1900s del auge turístico.",
         "walk_to_next": {
-          "to": "Harder Kulm Funicular",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Harder Kulm",
+          "transport_mode": "transit",
+          "distance_meters": 1810,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "morning",
         "notes": "Toma el funicular desde el lado de Interlaken Ost - la estación inferior está a cinco minutos a pie al norte de la estación principal de trenes a través de un túnel peatonal bajo la vía férrea. En la cumbre a 1322 metros, la plataforma de observación en voladizo se extiende sobre el valle y ofrece una vista simultánea de ambos lagos y la cresta completa Eiger - Mönch - Jungfrau. Visita antes del mediodía cuando la luz matutina incide directamente en las caras del glaciar orientadas al sur; la bruma de la tarde se acumula rápidamente en verano.",
         "walk_to_next": {
-          "to": "Lake Brienz shore at Interlaken Ost",
-          "distance_meters": 780,
-          "walking_minutes": 10
+          "to": "Lake Brienz waterfront at Interlaken Ost",
+          "transport_mode": "walk",
+          "distance_meters": 1470,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 30
     }
-  ]
+  ],
+  "total_travel_minutes": 30,
+  "last_verified": null
 }

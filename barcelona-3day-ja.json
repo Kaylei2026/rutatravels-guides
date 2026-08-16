@@ -1,7 +1,7 @@
 {
   "destination": "Barcelona",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Barcelona の本質的な3つの層を3日間で巡ります：中世の Gothic 地区の中心部、Gaudí によって特徴づけられた Eixample の碁盤目状街区、そして博物館と城のある Montjuïc の丘。各日程は地理的にまとまった範囲で構成されています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 7300,
-  "total_walking_minutes": 95,
+  "total_walking_distance_meters": 5010,
+  "total_walking_minutes": 63,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Barri Gòtic / El Born",
       "neighborhood_description": "Barcelona の歴史的中心部を形成する隣接する2つの中世地区。Barri Gòtic はローマ時代の基盤の上に建てられ、Gothic Cathedral を中心としています。東側の El Born は元商人街で、より狭く活気があり、中心には Santa Maria del Mar 聖堂があります。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 630,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Cathedral of Barcelona (La Seu)",
         "wikidata_qid": "Q56551",
@@ -42,8 +42,10 @@
         "optimal_timing": "morning",
         "notes": "14世紀のゴシック様式大聖堂で、ガウディのSagrada Famíliaとよく混同されるが、建築様式は全く異なる。13羽の白いガチョウがいる回廊（伝統的に聖エウラリアの人生の年数を表す）が意外な見どころ。屋上テラスは少額の料金でエレベーターでアクセスでき、Sagrada Famíliaの観光客がめったに探さないゴシック地区の屋上からの眺めを楽しめる。",
         "walk_to_next": {
-          "to": "Plaça del Rei",
+          "to": "Plaça del Rei and the Roman walls",
+          "transport_mode": "walk",
           "distance_meters": 150,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -63,8 +65,10 @@
         "notes": "中世の王室広場で、1493年にコロンブスがFerdinandとIsabellaに発見を報告したとされるPalau Reial Majorに囲まれている。広場にあるMUHBA Barcelona History Museumの入口から地下に降りると、足元の真下に驚くほど保存状態の良い4kmのローマ時代のBarcino（街路、染色工房、ワイナリー）が広がっている。Barcelonaで最も驚きの博物館体験。",
         "walk_to_next": {
           "to": "Santa Maria del Mar",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 480,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -104,7 +108,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 2,
@@ -113,8 +118,8 @@
       "neighborhood_focus": "Eixample",
       "neighborhood_description": "1859年に設計された、Barcelona の旧市街の城壁外への19世紀の計画的拡張地区。面取りされた角を持つ統一されたグリッド状に配置され、この地区に八角形ブロックの視覚的リズムを与えています。このグリッドは、世界で最も密度の高いカタルーニャ・モデルニスモ（Gaudí、Domènech、Puigが牽引したスペインのアール・ヌーヴォー運動）の集積地となっています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2630,
+      "day_walking_minutes": 33,
       "morning": {
         "activity_title": "Sagrada Família",
         "wikidata_qid": "Q5882",
@@ -135,9 +140,11 @@
         "optimal_timing": "morning",
         "notes": "Gaudíが手がけた未完の大聖堂で、1882年に着工し、現在は中央のJesus Christ塔が2026年に完成予定です。時間指定入場券は数週間前にオンラインで予約してください。当日券はオフシーズンでもほとんど入手できません。東向きのNativity facadeのステンドグラスから差し込む光を楽しむなら午前中の時間帯を選びましょう。青とオレンジの光が聖堂内部の柱を照らします。塔のエレベーター券（NativityまたはPassionの塔のいずれか）は別料金ですが、尖塔の詳細を間近で見ることができるので価値があります。",
         "walk_to_next": {
-          "to": "Casa Batlló (via Passeig de Gràcia)",
-          "distance_meters": 1800,
-          "walking_minutes": 23
+          "to": "Casa Batlló and Passeig de Gràcia",
+          "transport_mode": "walk",
+          "distance_meters": 2000,
+          "travel_minutes": 25,
+          "walking_minutes": 25
         }
       },
       "afternoon": {
@@ -160,9 +167,11 @@
         "optimal_timing": "any",
         "notes": "Gaudíが1904年に既存のアパート建築を改築したもので、骨のような曲線の バルコニー、竜の鱗のようなタイル屋根、煙突の柱群は全て彼の作品です。内部見学ツアーは素晴らしい内容ですが（オンライン予約）料金は高め。予算重視なら、Passeig de Gràciaの向かい側からファサードを眺めるだけでも十分見どころです。同じブロックにはPuig i CadafalchによるCasa Amatllerもあり、二人の建築家のスタイルの対比こそがManzana de la Discordia（不和のブロック）と呼ばれる所以です。",
         "walk_to_next": {
-          "to": "Casa Milà (La Pedrera)",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Casa Milà (La Pedrera) at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 630,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -227,7 +236,8 @@
             "walking_minutes": 14
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     },
     {
       "day": 3,
@@ -236,8 +246,8 @@
       "neighborhood_focus": "Montjuïc / Poble Sec",
       "neighborhood_description": "西側の海岸線からそびえ立つ184メートルの丘で、1929年国際博覧会、そして1992年オリンピックのために再開発されました。National Art Museum of Catalonia、Joan Miró Foundation、オリンピックスタジアム、そして頂上の中世の城があり、さらにBarcelonaで最も密集した無料パノラマビューのスポットでもあります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1750,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "MNAC - National Art Museum of Catalonia",
         "wikidata_qid": "Q861252",
@@ -254,8 +264,10 @@
         "notes": "1929年のPalau Nacionalに収蔵されているNational Art Museumには、世界で最も重要なロマネスク様式のフレスコ画コレクションがあります。これらは1920年代にPyrenean山脈の村の教会から救出され、ここで復元された後陣の形で再設置されました。ロマネスク様式のギャラリーだけでも訪問する価値があります。上階のmodernisme棟ではGaudí時代の装飾芸術を展示しています。毎月第1土曜日の午後と毎週日曜日の午後3時以降は無料です。テラスからは街を見渡すパノラマビューが楽しめます。",
         "walk_to_next": {
           "to": "Fundació Joan Miró",
-          "distance_meters": 800,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -273,9 +285,11 @@
         "optimal_timing": "any",
         "notes": "Miróの友人Josep Lluís Sert（建築家、MIT学部長、Franco政権下のスペインからの亡命者）によって設計された財団の建物は、それ自体が20世紀の偉大な美術館建築の一つです。白い地中海のモダニズム建築で、天窓のあるギャラリーと屋上彫刻テラスを備えています。コレクションは圧倒的にMiróの作品が占め、年代順に整理されており、Miróに敬意を表して他の芸術家から贈られた作品を展示する印象的な「Tribute to Miró」の部屋があります。",
         "walk_to_next": {
-          "to": "Montjuïc Castle",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Montjuïc Castle and the Mediterranean panorama",
+          "transport_mode": "walk",
+          "distance_meters": 1030,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -335,7 +349,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 63,
+  "last_verified": null
 }

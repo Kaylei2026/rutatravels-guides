@@ -1,7 +1,7 @@
 {
   "destination": "Aspen",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:52:50.275Z",
   "sources": [
     "wikidata",
@@ -13,7 +13,7 @@
   ],
   "guide_description": "Ein Tag durch Aspens begehbares historisches Zentrum - eine viktorianische Silberbergbau-Stadt, die den Zusammenbruch intakt überstand und sich als Kultur- und Skiziel neu erfand. Die Route führt vom zivilen Innenstadtgitter zur Bergbahn-Basis und zurück durch den Kunstkorridor, wobei sich ein kohärentes Bild der Stadt ohne Auto ergibt.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 1690,
+  "total_walking_distance_meters": 1800,
   "total_walking_minutes": 22,
   "days": [
     {
@@ -23,7 +23,7 @@
       "neighborhood_focus": "Aspen Downtown / Wagner Park / Aspen Mountain Base",
       "neighborhood_description": "Aspens kompakte Innenstadt ist ein fast perfekt erhaltenes Bergbaugitter aus den 1880er Jahren, dessen Ziegelsteingebäude und Ziegel- und Sandsteinbauten den Silberkrach von 1893 überlebten, weil die Stadt zu arm war, um sie abzureißen. Die Bergbahn-Basis liegt am südlichen Rand der Stadt, und der Kulturcampus mit der Wheeler Opera House und dem Aspen Art Museum sind alle innerhalb einer fünfminütigen Gehzeit erreichbar.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1690,
+      "day_walking_distance_meters": 1800,
       "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Wheeler Opera House",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "Das 1889 von Silberbaron Jerome B. Wheeler erbaute Opernhaus prägt die Mill Street und ist der deutlichste Ausdruck von Aspens Ambitionen während des Gilded Age. Die Lobby und das Erdgeschoss sind an den meisten Vormittagen ohne Eintrittsticket für Selbstführungen zugänglich - betreten Sie das Gebäude von der Mill Street aus, nicht vom Alleyeingang, um die ursprünglichen Details der gusseisernen Fassade zu sehen. Schauen Sie auf die Anzeigetafel des Ticketschalters, um sich über Abendaufführungen zu informieren, die von Jazz bis Klassik reichen und oft zu moderaten Preisen angeboten werden.",
         "walk_to_next": {
-          "to": "Hotel Jerome",
-          "distance_meters": 130,
-          "walking_minutes": 2
+          "to": "Gondola Plaza and Silver Queen Gondola Base",
+          "transport_mode": "walk",
+          "distance_meters": 820,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "Die Silver Queen Gondola verkehrt im Sommer zum Sightseeing und für Mountainbike-Zugang - kaufen Sie eine einfache Fahrkarte hinauf und gehen oder fahren Sie hinunter. Der Gipfel auf 11.212 Fuß bietet ungehinderte Ausblicke über die Elk Mountains und hinunter zum Roaring Fork Valley. Akklimatisieren Sie sich zunächst, wenn Sie aus niedriger Höhe anreisen; der Aufstieg mit der Gondel ist schnell und Höhensymptome können oben schnell auftreten.",
         "walk_to_next": {
           "to": "Aspen Art Museum",
-          "distance_meters": 760,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 980,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 22,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Asheville",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:51:00.108Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "花一天时间领略Asheville的独特魅力：Pack Square的镀金时代建筑、River Arts District的壁画和工作室，以及这座小型Appalachian城市所具有的艺术装饰风格公民设施，使其在美国南方独树一帜。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown Asheville / Pack Square / River Arts District",
       "neighborhood_description": "Asheville紧凑的市中心以Pack Square为中心而建，这个公民核心区通过大萧条时期的破产和后来的历史保护相结合，保留了20世纪初的建筑风格。沿Depot Street向西南方向驱车短距离或步行较长距离，便可到达River Arts District，这个曾经的工业走廊由砖砌仓库改建而成，现有200多个在职艺术家工作室。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Biltmore Estate",
         "wikidata_qid": "Q811915",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "乔治·范德比尔特的8000英亩庄园，建于1889年至1895年间 - 是美国最大的私人所有住宅，面积为178926平方英尺。建议提前在线购票；在门口购票需支付额外费用，上午进入可以避开主宅的中午人流高峰。从地下室开始逐层往上参观：保龄球馆、游泳池和仆人住所的拍照者较少，但能更好地揭示庄园的实际运作方式。由Frederick Law Olmsted设计的正式花园是独立的游览路线，在参观完住宅后值得花费约一小时。",
         "walk_to_next": {
-          "to": "Pack Square Park",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "to": "Pack Square Park and Asheville City Hall",
+          "transport_mode": "drive",
+          "distance_meters": 5280,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Asheville City Hall建于1928年，是美国南方最不寻常的装饰艺术风格政府建筑 - 一座粉色和绿色陶土八角形塔楼，配有锥形顶，由Douglas Ellington设计。站在Pack Square对面的Vance Monument一侧向上看，可以看到整个立面；从那个距离看，上层的彩色细节几乎呈现出阿兹特克复兴风格。沿Patton Avenue周围街区包括S and W Cafeteria Building和Kress Building，都是原汁原味的1920年代商业装饰艺术建筑。",
         "walk_to_next": {
-          "to": "River Arts District",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "River Arts District studios",
+          "transport_mode": "drive",
+          "distance_meters": 2580,
+          "travel_minutes": 8,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     }
-  ]
+  ],
+  "total_travel_minutes": 20,
+  "last_verified": null
 }

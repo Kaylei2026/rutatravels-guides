@@ -1,7 +1,7 @@
 {
   "destination": "Florence",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:23:08.864Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Cinq jours pour construire une vision cohérente de Florence : le complexe de la cathédrale et le cœur civique, le quartier des galeries autour des Uffizi, le quartier artisanal de l'autre côté de l'Arno, le corridor culturel des Medici au nord, et une excursion d'une journée sur la colline de Fiesole avec vue sur toute la vallée. Chaque zone est autonome et se parcourt à pied.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 13260,
-  "total_walking_minutes": 166,
+  "total_walking_distance_meters": 4330,
+  "total_walking_minutes": 55,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Piazza del Duomo / Piazza della Repubblica",
       "neighborhood_description": "Le cœur religieux et commercial de la Florence médiévale, concentré sur quelques centaines de mètres. Le complexe de la cathédrale occupe l'extrémité nord ; le quartier marchand à plan romain autour de la Piazza della Repubblica remplit l'espace où se dressait l'ancien forum. Presque tout ici est du tissu urbain médiéval ou Renaissance construit sur des fondations romaines.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 190,
+      "day_walking_minutes": 3,
       "morning": {
         "activity_title": "Florence Baptistery",
         "wikidata_qid": "Q131537",
@@ -49,9 +49,11 @@
         "optimal_timing": "morning",
         "notes": "Commencez ici avant la cathédrale, car le Baptistère est souvent moins bondé à l'ouverture. Les Portes du Paradis sur la porte est sont des répliques de Ghiberti - les originaux sont au Museo dell'Opera del Duomo de l'autre côté de la place, qui mérite une visite séparée. À l'intérieur, le plafond en mosaïque du XIIIe siècle représentant le Jugement dernier couvre 1 200 mètres carrés et précède la cathédrale elle-même.",
         "walk_to_next": {
-          "to": "Florence Cathedral",
-          "distance_meters": 80,
-          "walking_minutes": 1
+          "to": "Florence Cathedral - Santa Maria del Fiore",
+          "transport_mode": "walk",
+          "distance_meters": 130,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -75,7 +77,9 @@
         "notes": "Réservez l'ascension de la coupole (la cupola de Brunelleschi) sur le site du complexe du Duomo bien à l'avance - c'est complet plusieurs jours à l'avance, surtout le premier créneau à 8h15 quand la lumière à l'intérieur de la lanterne est la plus claire et la queue au sommet la plus courte. L'ascension fait 463 marches sans ascenseur ; le passage étroit entre les coques intérieure et extérieure est la révélation architecturale, pas seulement la vue du sommet. L'entrée au sol de la cathédrale est gratuite mais nécessite aussi une réservation.",
         "walk_to_next": {
           "to": "Giotto's Campanile",
-          "distance_meters": 80,
+          "transport_mode": "walk",
+          "distance_meters": 60,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -141,7 +145,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 3
     },
     {
       "day": 2,
@@ -150,8 +155,8 @@
       "neighborhood_focus": "Piazza della Signoria / Uffizi / Ponte Vecchio",
       "neighborhood_description": "L'épine dorsale politique de la Florence Renaissance s'étendant du Palazzo Vecchio vers le sud à travers le corridor des Uffizi jusqu'à l'Arno. Les Medici construisirent les Uffizi comme bureaux gouvernementaux et les remplirent plus tard de leur collection d'art ; la distance à pied de la place civique à la rivière fait moins de 400 mètres.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2300,
-      "day_walking_minutes": 29,
+      "day_walking_distance_meters": 640,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Uffizi Gallery",
         "wikidata_qid": "Q51252",
@@ -173,8 +178,10 @@
         "notes": "Réservez votre créneau d'entrée en ligne plusieurs semaines à l'avance - les Uffizi sont l'un des musées les plus visités d'Europe et les files d'attente sans réservation en haute saison dépassent deux heures. Les salles du premier étage couvrant les XIIIe et XIVe siècles (Cimabue, Duccio, Giotto) sont souvent expédiées par les visiteurs se dirigeant vers Botticelli ; elles préparent pourtant tout ce qui suit. La salle Botticelli (salles 10-14) est l'événement principal - arrivez à l'ouverture pour voir la Naissance de Vénus et le Printemps sans la foule pressée contre la corde.",
         "walk_to_next": {
           "to": "Piazza della Signoria",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "transport_mode": "walk",
+          "distance_meters": 280,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -198,8 +205,10 @@
         "notes": "La collection de sculptures en plein air sous la Loggia dei Lanzi est gratuite et comprend des originaux de Cellini (Persée avec la tête de Méduse) et de Giambologna (l'Enlèvement des Sabines) - des bronzes de classe mondiale exposés à l'air libre sans ticket requis. Le David devant le Palazzo Vecchio est une copie ; l'original se trouve à l'Accademia. Savonarola fut brûlé sur le bûcher sur cette place en 1498 ; une plaque circulaire en marbre dans le pavé marque l'endroit.",
         "walk_to_next": {
           "to": "Ponte Vecchio",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 360,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -264,7 +273,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 3,
@@ -273,8 +283,8 @@
       "neighborhood_focus": "Oltrarno / San Frediano / San Miniato",
       "neighborhood_description": "La rive sud de l'Arno a toujours été la contrepartie populaire du quartier marchand du nord. Palazzo Pitti marque l'extrémité prestigieuse ; vers l'ouest en direction de San Frediano, les rues se resserrent dans un quartier artisanal encore actif où travaillent relieurs, doreurs et maroquiniers. La colline qui surplombe abrite deux des plus beaux points de vue de Toscane.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Palazzo Pitti and Boboli Gardens",
         "wikidata_qid": "Q13361",
@@ -296,8 +306,10 @@
         "notes": "La Palatine Gallery au second étage contient la collection d'art personnelle des Medici, encore accrochée comme ils l'ont laissée - les toiles empilées jusqu'au plafond dans un arrangement d'époque plutôt que l'espacement épuré des musées comme aux Uffizi. La Velata de Raphael et le Portrait of a Gentleman du Titien s'y trouvent sans les foules que ces œuvres attireraient ailleurs. Les Boboli Gardens derrière le palais forment un paysage maniériste du XVIe siècle - la fontaine Neptune sur la terrasse supérieure offre un premier aperçu de la ligne d'horizon de la ville.",
         "walk_to_next": {
           "to": "Piazzale Michelangelo",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "walk",
+          "distance_meters": 1630,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "afternoon": {
@@ -316,7 +328,9 @@
         "notes": "Le panorama de carte postale classique de Florence - Duomo, Palazzo Vecchio et le méandre de l'Arno dans un seul cadre - se prend d'ici. Midi est le moment le moins gratifiant ; la lumière est plate et les cars de tourisme envahissent la place. Arrivez en fin d'après-midi quand la lumière vient de l'ouest et que le dôme rougeoie. Montez par le sentier à marches Viale Giuseppe Poggi plutôt que par la route - il traverse une roseraie qui évite le pire de la zone d'arrivée des circuits touristiques.",
         "walk_to_next": {
           "to": "San Miniato al Monte",
-          "distance_meters": 480,
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
           "walking_minutes": 6
         }
       },
@@ -362,7 +376,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 4,
@@ -371,8 +386,8 @@
       "neighborhood_focus": "San Lorenzo / San Marco / Accademia",
       "neighborhood_description": "Le quartier nord du centre historique où la famille Médicis a concentré son mécénat - l'église paroissiale de San Lorenzo, le complexe monastique de San Marco entièrement décoré par Fra Angelico, et l'Accademia où le David de Michel-Ange se dresse depuis 1873. Le Mercato Centrale à proximité est le principal marché couvert alimentaire de la ville.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2650,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 1030,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Galleria dell'Accademia - Michelangelo's David",
         "wikidata_qid": "Q338483",
@@ -393,9 +408,11 @@
         "optimal_timing": "morning",
         "notes": "Réservez un créneau horaire en ligne - les files d'attente sans réservation s'étendent autour du pâté de maisons dès 9h en saison. Le David mesure 5,17 mètres de haut et l'échelle ne se perçoit qu'en personne ; les photographies ne parviennent jamais à la transmettre. Passez devant les Prisonniers inachevés - quatre figures de marbre brut que Michel-Ange a abandonnées - avant d'entrer dans la rotonde de la Tribune. Elles donnent l'impression que le David émerge de la même pierre, ce qui était probablement intentionnel.",
         "walk_to_next": {
-          "to": "San Marco Museum",
-          "distance_meters": 430,
-          "walking_minutes": 5
+          "to": "Museo di San Marco",
+          "transport_mode": "walk",
+          "distance_meters": 230,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "afternoon": {
@@ -418,9 +435,11 @@
         "optimal_timing": "any",
         "notes": "Fra Angelico a vécu comme frère dominicain dans ce couvent et a peint une Annonciation en haut de chaque escalier de moine, puis des fresques individuelles dans presque chaque cellule - le même sujet répété avec de minuscules variations de composition et de couleur à travers 44 salles. C'est l'une des expériences artistiques les plus discrètement bouleversantes de Florence et souvent à moitié vide comparé aux Uffizi. La cellule de Savonarole, préservée intacte, se trouve dans le même bâtiment.",
         "walk_to_next": {
-          "to": "Basilica di San Lorenzo",
-          "distance_meters": 870,
-          "walking_minutes": 11
+          "to": "Basilica di San Lorenzo and Medici Chapels",
+          "transport_mode": "walk",
+          "distance_meters": 800,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -485,7 +504,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 5,
@@ -494,8 +514,8 @@
       "neighborhood_focus": "Fiesole",
       "neighborhood_description": "Une petite ville perchée à 8 kilomètres au nord-est de Florence, plus ancienne que la cité en contrebas. Fiesole était un établissement étrusque puis romain d'où l'on pouvait voir la ville de la vallée de l'Arno bien avant que Florence n'existe. Un théâtre romain, une cathédrale plus ancienne que le Duomo, et un couvent franciscain se dressent à quelques centaines de mètres les uns des autres sur la crête.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3260,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 390,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Fiesole Archaeological Area",
         "wikidata_qid": "Q3713553",
@@ -511,9 +531,11 @@
         "optimal_timing": "morning",
         "notes": "Un théâtre romain du premier siècle encore utilisé pour les concerts d'été, un complexe de thermes romains, une plateforme de temple étrusque, et un petit musée sont tous inclus dans un seul billet. Le théâtre est l'un des mieux conservés du nord de l'Italie et le site n'est que rarement bondé même en haute saison. Venez le matin quand la lumière pénètre dans le théâtre par l'est. Le bus 7 depuis la gare Florence Santa Maria Novella passe toutes les 20-30 minutes et s'arrête sur la place principale de Fiesole, à 5 minutes de marche en descente du site.",
         "walk_to_next": {
-          "to": "Cathedral of San Romolo",
-          "distance_meters": 430,
-          "walking_minutes": 5
+          "to": "Cathedral of San Romolo, Fiesole",
+          "transport_mode": "walk",
+          "distance_meters": 130,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -531,9 +553,11 @@
         "optimal_timing": "any",
         "notes": "Fondée en 1028, antérieure à la cathédrale de Florence de plus de deux siècles. L'intérieur est d'un roman dépouillé - un contraste délibéré avec le marbre polychrome de tout ce qui se trouve à Florence en contrebas. La crypte abrite les restes de saint Romulus et un retable de Mino da Fiesole régulièrement négligé car les principales attractions de la ville attirent les visiteurs vers la zone archéologique. Accordez-vous cinq minutes dans la crypte.",
         "walk_to_next": {
-          "to": "Franciscan Convent of Fiesole",
-          "distance_meters": 450,
-          "walking_minutes": 6
+          "to": "Franciscan Convent of Fiesole and viewpoint",
+          "transport_mode": "walk",
+          "distance_meters": 260,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -573,7 +597,10 @@
             "walking_minutes": 11
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 5
     }
-  ]
+  ],
+  "total_travel_minutes": 55,
+  "last_verified": null
 }

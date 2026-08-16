@@ -1,7 +1,7 @@
 {
   "destination": "Hallstatt",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:24:07.947Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Trois jours dans l'une des destinations patrimoniales les plus concentrées géographiquement des Alpes. Le premier jour couvre le village au bord du lac au niveau du sol. Le deuxième jour monte vers la mine de sel préhistorique et la chapelle aux ossements au-dessus de la ville. Le troisième jour s'enfonce dans le massif Dachstein et le plus large Salzkammergut. L'ensemble de la zone de trois jours se situe dans une zone inscrite au patrimoine mondial de l'UNESCO.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 7200,
-  "total_walking_minutes": 90,
+  "total_walking_distance_meters": 1120,
+  "total_walking_minutes": 15,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Hallstatt Marktplatz and Lakefront",
       "neighborhood_description": "Le village entier de Hallstatt occupe une étroite corniche entre le Hallstattersee et une paroi rocheuse quasi verticale. Le Marktplatz, l'église paroissiale, la jetée des bateaux et les principales ruelles résidentielles se trouvent tous à quelques centaines de mètres les uns des autres - c'est l'un des établissements historiques les plus compacts d'Europe centrale.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1600,
-      "day_walking_minutes": 20,
+      "day_walking_distance_meters": 490,
+      "day_walking_minutes": 7,
       "morning": {
         "activity_title": "Hallstatt Marktplatz",
         "wikidata_qid": "Q1571403",
@@ -48,8 +48,10 @@
         "notes": "Arrivez avant 9h du matin - la place est véritablement tranquille en début de matinée avant que les autobus touristiques ne commencent à déposer les visiteurs du parking situé au-dessus. La Trinity Column au centre date de 1752. Les ruelles étroites qui s'ébranchent vers le nord à partir de la place en direction de la falaise, notamment Kirchenweg, abritent les structures résidentielles les plus anciennes du village, toujours occupées sans interruption.",
         "walk_to_next": {
           "to": "Hallstatt Catholic Parish Church",
-          "distance_meters": 150,
-          "walking_minutes": 2
+          "transport_mode": "walk",
+          "distance_meters": 50,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -72,9 +74,11 @@
         "optimal_timing": "any",
         "notes": "La nef gothique date du 15e siècle et contient un retable ailé de 1510 qui est resté intact pendant la Réforme. Le cimetière immédiatement derrière est construit sur un terrain quasi-vertical - les tombes sont empilées contre la paroi rocheuse. L'espace a toujours été tellement limité ici que les os étaient exhumés après environ 10 ans et transférés à l'ossuaire adjacent, une pratique qui a continué jusqu'au 20e siècle.",
         "walk_to_next": {
-          "to": "Beinhaus (Charnel House)",
-          "distance_meters": 80,
-          "walking_minutes": 1
+          "to": "Hallstatt Lakefront and Boat Jetty",
+          "transport_mode": "walk",
+          "distance_meters": 440,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -139,7 +143,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 7
     },
     {
       "day": 2,
@@ -148,8 +153,8 @@
       "neighborhood_focus": "Hallstatt Salzberg and Salt Mine",
       "neighborhood_description": "La montagne directement au-dessus du village de Hallstatt est exploitée pour le sel depuis au moins 1000 BCE, ce qui en fait l'un des sites industriels les plus anciens continuellement exploités sur terre. Le plateau accessible par funiculaire abrite l'entrée de la mine, le cimetière préhistorique qui a défini la période archéologique de Hallstatt, et le point de vue Skywalk surplombant le lac.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 630,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Hallstatt Salt Mine (Salzwelten)",
         "wikidata_qid": "Q693053",
@@ -171,8 +176,10 @@
         "notes": "Réservez vos billets à accès limité en ligne avant votre arrivée - la capacité est limitée et les créneaux du matin se vendent rapidement en haute saison. Les visites se font en allemand et en anglais et incluent les glissoires en bois des mineurs (Rutschen) qui descendent entre les niveaux - les adultes empruntent le même toboggan que les écoliers. Les restes préservés d'un mineur de l'âge du Bronze, découverts en 1734 dans le sel, sont exposés à l'intérieur. La température souterraine est constante à 8 degrés Celsius indépendamment des conditions extérieures.",
         "walk_to_next": {
           "to": "Hallstatt Skywalk Viewpoint",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 190,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -195,9 +202,11 @@
         "optimal_timing": "any",
         "notes": "La plateforme en bois en porte-à-faux s'avance de 100 mètres au-dessus du village et offre une vue plongeante directe sur l'établissement riverain compressé en dessous - le seul angle qui rend pleinement lisible l'improbabilité flagrante de la localisation du village. Par temps clair, la vue s'étend vers le sud sur toute la longueur du Hallstattersee. Le sentier d'approche depuis la zone minière est balisé et prend environ 12 minutes à pied.",
         "walk_to_next": {
-          "to": "Hallstatt Funicular (Salzbergbahn) descent",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Hallstatt Funicular - Salzbergbahn",
+          "transport_mode": "walk",
+          "distance_meters": 440,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -237,7 +246,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 3,
@@ -246,8 +256,8 @@
       "neighborhood_focus": "Dachstein and Upper Traun Valley",
       "neighborhood_description": "Le massif Dachstein forme la paroi méridionale du bassin de Hallstatt. La vallée Gosau sur son flanc occidental est un cirque glaciaire avec un caractère différent du Salzkammergut principal - moins de visiteurs, une série de lacs de montagne, et un accès direct au système de téléphérique du glacier Dachstein. À 20 minutes en voiture ou en bus de Hallstatt.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2400,
-      "day_walking_minutes": 30,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Dachstein Giant Ice Cave",
         "wikidata_qid": "Q1171582",
@@ -269,8 +279,10 @@
         "notes": "Accessible par téléphérique depuis Obertraun, à 20 minutes en voiture à l'est de Hallstatt le long du lac. Les formations de glace à l'intérieur sont des caractéristiques glaciaires permanentes - la plus grande chambre contient des structures de glace jusqu'à 10 mètres de haut. La température à l'intérieur est d'environ moins 1 degré Celsius toute l'année ; apportez une couche supplémentaire même par les chaudes journées d'été. Le téléphérique vers l'entrée de la grotte part du village d'Obertraun, non pas de Hallstatt lui-même - réservez le téléphérique et l'entrée de la grotte ensemble à la station de la vallée d'Obertraun.",
         "walk_to_next": {
           "to": "Gosausee",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "transport_mode": "drive",
+          "distance_meters": 19190,
+          "travel_minutes": 31,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -293,9 +305,11 @@
         "optimal_timing": "any",
         "notes": "Un lac formé par les glaciers à 933 mètres d'altitude avec une vue directe sur le glacier Dachstein. Le sentier de promenade circulaire autour du lac inférieur prend environ 75 minutes et reste plat, offrant des perspectives changeantes des pics enneigés du glacier reflétés dans l'eau. Le Gosausee supérieur nécessite une montée supplémentaire de 45 minutes mais est beaucoup moins fréquenté. Accessible en bus depuis le village de Gosau ou en voiture - pas directement accessible depuis Obertraun sans véhicule.",
         "walk_to_next": {
-          "to": "Gosau village",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Gosau Village and Valley Return",
+          "transport_mode": "transit",
+          "distance_meters": 5240,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 49
     }
-  ]
+  ],
+  "total_travel_minutes": 64,
+  "last_verified": null
 }

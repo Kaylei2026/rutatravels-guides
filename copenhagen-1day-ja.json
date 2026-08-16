@@ -1,7 +1,7 @@
 {
   "destination": "Copenhagen",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:23:42.649Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Copenhagenの歴史的中心部を1日で巡る：王室の島Slotsholmen、中世の大聖堂地区、そして色とりどりの港Nyhavn。このエリアは十分にコンパクトなので、公共交通機関を使わずに徒歩で全て回ることができ、午前中の王室と市民の歴史から夕方の運河沿いの雰囲気まで楽しめます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2490,
+  "total_walking_minutes": 32,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Indre By / Slotsholmen / Nyhavn",
       "neighborhood_description": "Copenhagenの歴史的中心部は、港の二つの入り江に挟まれた狭い半島に位置しています。Slotsholmenは人工島で、12世紀以来デンマーク王室と政府権力の中枢を担ってきました。その真北にあるIndre Byには大学地区、大聖堂、円塔があります。この地区全体は、1673年に商船を市中心部に引き込むために掘られた狭い運河Nyhavnで終わります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2490,
+      "day_walking_minutes": 32,
       "morning": {
         "activity_title": "Christiansborg Palace",
         "wikidata_qid": "Q319061",
@@ -41,8 +41,10 @@
         "notes": "宮殿の塔は無料で登ることができ、午前10時に開館します。ツアーグループが到着する前に直接上に向かいましょう。高さ106メートルでCopenhagen最高のアクセス可能な塔であり、Rosenborgや Marble Church、港の向こうのOpera Houseなど歴史地区全体を一望できます。地下にあるRoyal Ruinsでは、Bishop Absalonが1167年に築いた要塞の基礎部分を見ることができ、宮殿チケットに含まれています。",
         "walk_to_next": {
           "to": "Copenhagen Cathedral",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 930,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "C.F. Hansenによる新古典主義の内装（1829年完成）は、ゴシック様式の装飾過多とは正反対で、白い壁、筒型天井、そして祭壇画としてのBertel Thorvaldsenによるキリスト像の大理石彫刻があり、身廊には12使徒が並んでいます。入場は無料です。真正面にある大学本館は同じ建築家によって同じ10年間に設計されており、この広場に北ヨーロッパの都市中心部では珍しい統一感を与えています。",
         "walk_to_next": {
-          "to": "Rundetaarn",
-          "distance_meters": 310,
-          "walking_minutes": 4
+          "to": "Nyhavn",
+          "transport_mode": "walk",
+          "distance_meters": 1560,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 32,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Lisbon",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:08:04.456Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Una giornata nel quartiere più antico e stratificato di Lisbona: la collina moresca di Alfama che sale verso il castello medievale, con la cattedrale gotica più antica della città alla sua base e i migliori punti panoramici di Lisbona lungo la dorsale.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 1130,
+  "total_walking_minutes": 14,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Alfama / Castelo",
       "neighborhood_description": "Il quartiere più antico sopravvissuto a Lisbona, costruito sulla ripida collina a est della Baixa. Alfama era la medina moresca e sopravvisse al terremoto del 1755 che rase al suolo la maggior parte della città. Il suo labirinto di vicoli stretti - troppo angusti per la ricostruzione pombalina - contiene la cattedrale romanica, il castello di fondazione moresca e una densa concentrazione di case tradizionali del fado. La cima della collina si affaccia sull'estuario del Tagus e sui tetti arancioni della città bassa.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1130,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Lisbon Cathedral (Se de Lisboa)",
         "wikidata_qid": "Q1702579",
@@ -41,8 +41,10 @@
         "notes": "La chiesa più antica di Lisbona, iniziata nel 1147 sul sito della principale moschea moresca immediatamente dopo la riconquista cristiana - le merlature militari sulle torri sono intenzionali, non decorative. La navata romanica è austera e severa in un modo che la distingue nettamente dalle chiese manueliche più in alto sulla collina. Entrate dalla facciata ovest che guarda verso il tram e camminate attraverso il chiostro gotico sul retro, dove gli scavi archeologici hanno esposto simultaneamente strati romani, moreschi e medievali. Arrivate prima delle 10 per evitare le folle del tram 28E che si ferma direttamente davanti.",
         "walk_to_next": {
           "to": "Castelo de Sao Jorge",
-          "distance_meters": 750,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 610,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "Il castello occupa il sito dell'alcaçova moresca, essa stessa costruita su fortificazioni dell'età del ferro e romane - la stratificazione è il punto focale, non solo le mura. All'interno dei bastioni, il Nucleo Arqueologico contiene stanze di palazzo scavate di tutti i periodi. Percorrete tutto il circuito delle mura esterne per viste libere dal bastione orientale sul Tagus e dalla torre settentrionale attraverso la griglia della Baixa verso la collina del Bairro Alto. I pavoni che vagano nel cortile interno non sono un espediente turistico - vivono qui dal XVI secolo.",
         "walk_to_next": {
           "to": "Miradouro da Graca",
-          "distance_meters": 750,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 520,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     }
-  ]
+  ],
+  "total_travel_minutes": 14,
+  "last_verified": null
 }

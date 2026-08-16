@@ -1,7 +1,7 @@
 {
   "destination": "Bend, Oregon",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:01:49.582Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Trois jours à Bend organisés autour des deux caractéristiques déterminantes de la ville : un centre-ville compact et accessible à pied traversé par la Deschutes River, et le désert volcanique de haute altitude qui l'entoure. Les premier et deuxième jours restent en ville et couvrent le corridor fluvial depuis le centre-ville vers le sud jusqu'à Old Mill. Le troisième jour vous mène vers le sud dans la région de Newberry Volcano - géologiquement l'un des paysages volcaniques les plus accessibles des États-Unis continentaux.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 6370,
-  "total_walking_minutes": 80,
+  "total_walking_distance_meters": 650,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Downtown Bend / Drake Park",
       "neighborhood_description": "Le centre commercial original de Bend, tracé au début des années 1900 autour de Wall Street et Bond Street, se situe à deux pâtés de maisons de la Deschutes River. Drake Park est la pelouse verte centrale de la ville sur Mirror Pond, le point de vue qui définit l'identité civique de Bend.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 270,
+      "day_walking_minutes": 3,
       "morning": {
         "activity_title": "High Desert Museum",
         "wikidata_qid": "Q5754838",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "Un musée d'histoire naturelle et culturelle à trois miles au sud du centre-ville sur Highway 97. Les expositions vivantes de rapaces et de loutres sont véritablement de classe mondiale : les démonstrations de vol des oiseaux de proie se font à des heures fixes affichées à l'entrée, et arriver pour la première du jour signifie une foule moins importante. La promenade historique Spirit of the West reproduit un établissement Pacific Northwest des années 1880 avec des détails d'époque qui évite le kitsch.",
         "walk_to_next": {
-          "to": "Drake Park",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Drake Park and Mirror Pond",
+          "transport_mode": "drive",
+          "distance_meters": 12930,
+          "travel_minutes": 22,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "Le parc occupe la rive ouest du Mirror Pond, la portion du Deschutes retenue par un barrage qui a donné à Bend sa vue de carte postale des Cascades. Marchez vers l'extrémité nord du parc jusqu'au pont piétonnier pour voir le reflet symétrique des volcans Three Sisters par temps calme. Le pond a été dragué de manière significative en 2014 : le débat sur la façon de le gérer à long terme est toujours activement débattu au conseil municipal et offre une fenêtre utile sur la politique de l'eau à Bend.",
         "walk_to_next": {
-          "to": "Wall Street and Bond Street downtown",
-          "distance_meters": 480,
-          "walking_minutes": 6
+          "to": "Wall Street and Bond Street historic commercial district",
+          "transport_mode": "walk",
+          "distance_meters": 270,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -104,7 +108,8 @@
             "walking_minutes": 26
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 25
     },
     {
       "day": 2,
@@ -113,8 +118,8 @@
       "neighborhood_focus": "Bend Whitewater Park / Old Mill District",
       "neighborhood_description": "Le sentier de la Deschutes River suit la rivière vers le sud depuis le Whitewater Park - un rapide de classe III aménagé par l'homme au cœur de la ville - à travers le Old Mill District, un ancien complexe de scierie transformé au début des années 2000 en quartier commercial et gastronomique au bord de la rivière. Le trio original de cheminées en brique a été préservé comme point de repère local.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2690,
-      "day_walking_minutes": 34,
+      "day_walking_distance_meters": 380,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Bend Whitewater Park",
         "wikidata_qid": "Q4889380",
@@ -130,9 +135,11 @@
         "optimal_timing": "morning",
         "notes": "Ouvert en 2015 après une décennie de planification, ce canal d'eau vive aménagé contourne le barrage historique Colorado Dam - restaurant le passage des poissons pour la première fois en plus d'un siècle tout en créant une vague de surf et deux canaux de kayak. Tenez-vous sur la passerelle au-dessus du canal principal vers 9h un jour de semaine pour regarder les kayakistes descendre sans la foule du week-end sur les berges. La pelouse adjacente du Farewell Bend Park est l'endroit où les habitants nagent en été.",
         "walk_to_next": {
-          "to": "Deschutes River Trail south section",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Deschutes River Trail",
+          "transport_mode": "drive",
+          "distance_meters": 1750,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -150,9 +157,11 @@
         "optimal_timing": "any",
         "notes": "Le sentier pavé s'étend sur onze miles le long de la rivière, de Tumalo State Park au sud jusqu'à Meadow Camp. Pour la connexion Old Mill, empruntez la section de deux miles vers le sud depuis Whitewater Park en passant par des affleurements de lave de basalte qui descendent directement jusqu'à la rive - la géologie volcanique du High Desert y est plus visible qu'ailleurs en ville. Le sentier traverse deux fois via des passerelles ; prenez la rive est vers le sud pour profiter de meilleures vues sur la rivière.",
         "walk_to_next": {
-          "to": "Old Mill District",
-          "distance_meters": 1690,
-          "walking_minutes": 21
+          "to": "Old Mill District and the three smokestacks",
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Newberry National Volcanic Monument",
       "neighborhood_description": "Le volcan Newberry est un volcan bouclier de 1 200 milles carrés situé à 23 milles au sud de Bend, désigné Monument volcanique national en 1990. Sa caldeira effondrée contient deux lacs - Paulina et East - séparés par une coulée d'obsidienne de rhyolite datant de moins de 1 300 ans. Le monument abrite également la Lava Cast Forest et le cône de cendres Lava Butte, tous deux accessibles directement depuis la Highway 97 en direction du sud.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1600,
-      "day_walking_minutes": 20,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Lava Butte and Lava Lands Visitor Center",
         "wikidata_qid": "Q6501614",
@@ -238,9 +248,11 @@
         "optimal_timing": "morning",
         "notes": "Le Lava Lands Visitor Center à la base de Lava Butte est le premier arrêt obligatoire pour obtenir un Northwest Forest Pass ou un pass America the Beautiful - sans celui-ci, le monument facture un droit par véhicule à chaque site. Lava Butte est un cône de cendres parfaitement symétrique de 500 pieds ; une route pavée s'enroule jusqu'au sommet mais les véhicules nécessitent une navette depuis le centre des visiteurs en été (fonctionne à chaque heure à partir de 9h du matin). La promenade du rebord du cratère est une boucle d'un demi-mille avec la chaîne des Cascades visible à l'ouest et le rebord de la caldeira de Newberry au sud.",
         "walk_to_next": {
-          "to": "Paulina Lake and Newberry Caldera",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Newberry National Volcanic Monument - Paulina Lake",
+          "transport_mode": "drive",
+          "distance_meters": 33130,
+          "travel_minutes": 36,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -259,8 +271,10 @@
         "notes": "La route de 14 milles jusqu'à la bordure de la caldeira depuis la Highway 97 gagne 2 400 pieds et se termine au Paulina Lake, un lac de caldeira à 6 300 pieds d'altitude. Marchez le court sentier depuis le quai du Paulina Lake Resort vers l'est le long du rivage du lac pendant 15 minutes pour atteindre les sources thermales chaudes qui s'infiltrent directement sur la rive - non marquées sur la plupart des cartes mais connues de tous les habitants. Le trailhead du Big Obsidian Flow se trouve à 4 milles à l'est sur la route de la caldeira et nécessite une courte boucle d'un mille séparate à travers le plus grand et le plus jeune flux d'obsidienne des États-Unis continentaux.",
         "walk_to_next": {
           "to": "Paulina Peak viewpoint",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "transport_mode": "drive",
+          "distance_meters": 2730,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -321,7 +335,10 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 45
     }
-  ]
+  ],
+  "total_travel_minutes": 82,
+  "last_verified": null
 }

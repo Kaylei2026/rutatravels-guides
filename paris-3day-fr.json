@@ -1,7 +1,7 @@
 {
   "destination": "Paris",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Trois jours pour couvrir l'essentiel de Paris : l'épine dorsale médiévale de la Seine, les musées de l'axe royal, et les monuments emblématiques de la Rive Gauche. Chaque journée est géographiquement autonome - choisissez l'ordre selon la météo, le décalage horaire, ou votre lieu de séjour.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5350,
-  "total_walking_minutes": 70,
+  "total_walking_distance_meters": 6000,
+  "total_walking_minutes": 75,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Île de la Cité / Le Marais",
       "neighborhood_description": "L'Île de la Cité est le cœur géographique et historique de Paris - l'établissement gallo-romain originel sur une île de la Seine. Le Marais, de l'autre côté de la rivière à l'est, est l'ancien quartier juif médiéval qui a échappé aux démolitions haussmaniennes du XIXe siècle, préservant ses rues étroites et ses hôtels particuliers aristocratiques.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1450,
-      "day_walking_minutes": 19,
+      "day_walking_distance_meters": 2110,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Sainte-Chapelle",
         "wikidata_qid": "Q193517",
@@ -48,8 +48,10 @@
         "notes": "La chapelle royale du XIIIe siècle construite par Louis IX pour abriter la Couronne d'épines. Évitez la chapelle basse et montez directement - quinze verrières s'élevant à quinze mètres racontent la majeure partie de la Bible, et le soleil matinal traversant la rosace orientée à l'est offre l'expérience lumineuse gothique la plus intense d'Europe. À l'intérieur du complexe du Palais de Justice, un contrôle de sécurité est donc requis à la porte d'entrée sur le Boulevard du Palais.",
         "walk_to_next": {
           "to": "Notre-Dame de Paris",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 580,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -72,9 +74,11 @@
         "optimal_timing": "any",
         "notes": "Rouverte en décembre 2024 après l'incendie de 2019. L'entrée est gratuite mais une réservation préalable avec créneau horaire via le site officiel de la cathédrale est obligatoire, avec des créneaux quotidiens limités. L'intérieur post-restauration est le plus propre que la cathédrale ait jamais été depuis plus de deux siècles - le calcaire nettoyé paraît presque jaune plutôt que le gris de suie du souvenir d'avant l'incendie. Le trésor et la montée des tours sont des billets payants séparés.",
         "walk_to_next": {
-          "to": "Place des Vosges",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Place des Vosges and Le Marais wandering",
+          "transport_mode": "walk",
+          "distance_meters": 1530,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "evening": {
@@ -134,7 +138,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 2,
@@ -143,8 +148,8 @@
       "neighborhood_focus": "Louvre / Tuileries / 1st arrondissement",
       "neighborhood_description": "Le quartier royal central de Paris, délimité par l'aile orientale du Louvre et s'étendant vers l'ouest le long des Tuileries jusqu'à la Place de la Concorde. Cet aménagement a été conçu sur quatre siècles comme un axe cérémonial unique allant du palais médiéval à la voie triomphale moderne.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
       "morning": {
         "activity_title": "Louvre Museum",
         "wikidata_qid": "Q188709",
@@ -165,9 +170,11 @@
         "optimal_timing": "morning",
         "notes": "Réservez le billet à créneaux horaires en ligne - l'entrée sans réservation est désormais rare et la file d'attente à la pyramide fait perdre une heure. Choisissez deux des trois ailes, pas les trois ; vouloir tout voir est l'erreur classique de la première visite. La plupart des visiteurs privilégient Denon (Mona Lisa, Renaissance italienne, sculpture grecque) et Sully (antiquités égyptiennes, peinture française). Fermé le mardi.",
         "walk_to_next": {
-          "to": "Tuileries Garden",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Tuileries Garden and Place de la Concorde",
+          "transport_mode": "walk",
+          "distance_meters": 1050,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "afternoon": {
@@ -190,9 +197,11 @@
         "optimal_timing": "any",
         "notes": "Le jardin à la française de Le Nôtre, conçu en 1664 - la même main et la même géométrie qu'à Versailles. Les bronzes de Maillol disséminés dans l'allée centrale sont des originaux. Marchez vers l'ouest jusqu'à la Place de la Concorde pour voir l'obélisque et la longue perspective sur les Champs-Élysées jusqu'à l'Arc de Triomphe.",
         "walk_to_next": {
-          "to": "Palais-Royal",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Palais-Royal gardens and arcades",
+          "transport_mode": "walk",
+          "distance_meters": 950,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -252,7 +261,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 25
     },
     {
       "day": 3,
@@ -261,8 +271,8 @@
       "neighborhood_focus": "7th arrondissement",
       "neighborhood_description": "Le grand quartier de la rive gauche aménagé aux XVIIIe et XIXe siècles comme écrin pour l'armée française et l'Exposition universelle de 1889. Vastes espaces cérémoniels, monuments au dôme doré, et la structure la plus photographiée au monde.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 1890,
+      "day_walking_minutes": 24,
       "morning": {
         "activity_title": "Eiffel Tower",
         "wikidata_qid": "Q243",
@@ -278,9 +288,11 @@
         "optimal_timing": "morning",
         "notes": "Réservez en ligne des semaines à l'avance pour l'ascenseur jusqu'au sommet - les billets sur place sont quasi impossibles à obtenir en saison. Les billets pour monter à pied jusqu'au deuxième étage sont moins chers, avec moins d'attente et sans doute plus authentiques. La vue depuis le deuxième étage est en fait meilleure pour s'orienter ; le sommet, c'est pour la photo. La meilleure approche matinale se fait depuis Trocadéro pour l'angle carte postale avant de passer dessous et de traverser.",
         "walk_to_next": {
-          "to": "Champ de Mars",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Champ de Mars and Rue Cler",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -298,9 +310,11 @@
         "optimal_timing": "any",
         "notes": "La longue pelouse qui s'étend de la Tour Eiffel vers le sud jusqu'à l'École Militaire - conçue comme terrain de manœuvres, c'est aujourd'hui un parc à pique-nique. Quelques rues à l'est, Rue Cler est l'une des meilleures rues marchandes traditionnelles qui subsistent dans la ville - piétonne, bordée de fromagers, bouchers et étals de primeurs, moins touristique que Rue Montorgueil.",
         "walk_to_next": {
-          "to": "Les Invalides",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Les Invalides and Napoleon's Tomb",
+          "transport_mode": "walk",
+          "distance_meters": 1330,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -360,7 +374,10 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 24
     }
-  ]
+  ],
+  "total_travel_minutes": 75,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Florence",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:19:45.495Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée pour découvrir le cœur médiéval-Renaissance de Florence : le complexe de la cathédrale, le centre civique de la Signoria, et la plus grande concentration au monde de peintures Renaissance à l'intérieur des Uffizi. La journée se termine de l'autre côté de l'Arno sur la colline d'Oltrarno pour la vue qui explique comment toute la ville s'articule.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2040,
+  "total_walking_minutes": 26,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Centro Storico / Oltrarno",
       "neighborhood_description": "Le plan de rues médiévales du centre de Florence se concentre sur moins d'un kilomètre carré, avec la cathédrale et le baptistère au nord, le Palazzo Vecchio et les Uffizi au centre civique, et le Ponte Vecchio menant vers le sud à travers l'Arno jusqu'à la colline d'Oltrarno. Presque tous les monuments majeurs se trouvent à moins de dix minutes de marche les uns des autres.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2040,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Florence Cathedral and Brunelleschi's Dome",
         "wikidata_qid": "Q15972",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Réservez l'ascension du dôme en ligne sur le site web de l'Opera del Duomo avant votre arrivée - les créneaux se remplissent des jours à l'avance en saison et le billet combiné couvre le baptistère, le campanile de Giotto, le musée, et la crypte. Grimpez le dôme plutôt que le campanile si vous n'en faites qu'un : la vue intérieure de la fresque du Jugement dernier de Vasari de près depuis la passerelle autour du tambour intérieur est quelque chose qu'aucune photographie ne peut préparer. L'ascension fait 463 marches sans ascenseur ; le dernier tronçon entre les deux coques du dôme est assez étroit pour sentir l'ingénierie.",
         "walk_to_next": {
-          "to": "Piazza della Signoria",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Uffizi Gallery",
+          "transport_mode": "walk",
+          "distance_meters": 800,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Réservez l'entrée à heure fixe en ligne bien à l'avance - les Uffizi ont des limites de capacité strictes et l'entrée sans réservation les jours d'affluence peut signifier deux heures d'attente sur la loggia. Pour une seule visite, orientez votre parcours sur les Salles 10-14 pour Botticelli (la Naissance de Vénus et le Printemps occupent la même salle et sont plus grands que la plupart des gens ne s'y attendent), puis suivez le corridor jusqu'aux salles Caravaggio vers la sortie. Le café de la terrasse sur le toit a une vue directe sur la tour du Palazzo Vecchio et est rarement bondé même quand les galeries en dessous sont pleines.",
         "walk_to_next": {
-          "to": "Ponte Vecchio",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "to": "Piazzale Michelangelo at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1240,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 26,
+  "last_verified": null
 }

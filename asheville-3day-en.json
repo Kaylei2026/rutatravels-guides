@@ -1,7 +1,7 @@
 {
   "destination": "Asheville",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:52:15.304Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days covering Asheville's essential character: the arts-saturated downtown core, the turn-of-the-century residential districts and grand inn perched above the city, and the sprawling Vanderbilt estate that put western North Carolina on the map. Each day is geographically self-contained and can be reordered based on weather or accommodation location.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5460,
-  "total_walking_minutes": 68,
+  "total_walking_distance_meters": 2300,
+  "total_walking_minutes": 29,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Downtown / Pack Square",
       "neighborhood_description": "Asheville's walkable downtown is a dense grid of 1920s and 1930s Art Deco commercial buildings that survived urban renewal largely intact. Pack Square is the civic anchor, with galleries, independent shops, and the city's best street-level architecture radiating outward in all directions.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1560,
-      "day_walking_minutes": 20,
+      "day_walking_distance_meters": 730,
+      "day_walking_minutes": 9,
       "morning": {
         "activity_title": "Asheville Art Museum",
         "wikidata_qid": "Q4807958",
@@ -43,7 +43,9 @@
         "notes": "Reopened in 2019 in a renovated and expanded building anchoring the east side of Pack Square. The permanent collection focuses on 20th and 21st-century American art with strong representation from Appalachian artists. Arrive at opening to avoid school groups that arrive mid-morning.",
         "walk_to_next": {
           "to": "Pack Square Park",
+          "transport_mode": "walk",
           "distance_meters": 80,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -63,7 +65,9 @@
         "notes": "The civic plaza at the center of downtown, formed from the merger of Pack Square and Court Plaza. The Vance Monument obelisk at its center was dedicated to Zebulon Vance, wartime governor of North Carolina. The square is the best orientation point for the downtown grid - stand here and identify which Art Deco rooflines you want to explore next.",
         "walk_to_next": {
           "to": "Thomas Wolfe Memorial",
+          "transport_mode": "walk",
           "distance_meters": 650,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -124,7 +128,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 9
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Montford / Grove Park",
       "neighborhood_description": "Montford is Asheville's oldest intact residential neighborhood, platted in the 1890s and lined with Queen Anne, Colonial Revival, and Craftsman homes. To the north, the Grove Park Inn sits on the ridge of Sunset Mountain, built in 1913 from locally quarried boulders and still hosting guests in its original stone lodge.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 620,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Montford Historic District",
         "wikidata_qid": "Q6906223",
@@ -151,8 +156,10 @@
         "notes": "Walk the main spine of Montford Avenue north from Haywood Street - the blocks between Watauga and Pearson contain the densest concentration of late Victorian architecture in the city. Look for the Richard Sharp Smith-designed cottages: Smith was the supervising architect of Biltmore Estate and later opened a private practice in Asheville, stamping Montford with his distinctive pebbledash stucco and half-timbering.",
         "walk_to_next": {
           "to": "Riverside Cemetery",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 620,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -171,8 +178,10 @@
         "notes": "A Victorian rural cemetery established in 1885 on a wooded hillside above the French Broad River. Thomas Wolfe and O. Henry (William Sydney Porter) are both buried here - Wolfe's grave is marked with a simple stone near the main entrance path, O. Henry's in a separate section to the west. Free, always open, with a printed self-guided walking map available at the entrance gate.",
         "walk_to_next": {
           "to": "The Grove Park Inn",
-          "distance_meters": 1430,
-          "walking_minutes": 17
+          "transport_mode": "drive",
+          "distance_meters": 2530,
+          "travel_minutes": 8,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 98
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Biltmore Estate",
       "neighborhood_description": "George Vanderbilt's 8,000-acre estate, now reduced to roughly 8,000 acres of managed land south of Asheville. Richard Morris Hunt designed the 250-room chateau in the French Renaissance style; Frederick Law Olmsted designed the approach road and gardens. The estate remains privately owned and operated as a paid attraction with its own winery, hotel, and village.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Biltmore House",
         "wikidata_qid": "Q527799",
@@ -238,9 +248,11 @@
         "optimal_timing": "morning",
         "notes": "Buy tickets online in advance - the estate sets daily entry caps and walk-up availability is unreliable on weekends. The self-guided house tour covers roughly 70 rooms across four floors, including the bowling alley and indoor swimming pool in the basement. Start on the top floor and work down to finish in the kitchen quarters, which most visitors do in reverse and find rushed.",
         "walk_to_next": {
-          "to": "Walled Garden and Conservatory",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Biltmore Walled Garden and Conservatory",
+          "transport_mode": "walk",
+          "distance_meters": 410,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -258,9 +270,11 @@
         "optimal_timing": "any",
         "notes": "Olmsted's four-acre walled kitchen and cutting garden, now maintained as an ornamental garden with seasonal plantings managed in the original Victorian framework. The adjacent Conservatory - a steel-and-glass Victorian greenhouse - holds the estate's propagation operation and is often overlooked by visitors heading directly to the winery. Walk the azalea garden path on the south side of the walled garden for the best framed view back toward the chateau.",
         "walk_to_next": {
-          "to": "Antler Hill Village and Winery",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Antler Hill Village and Biltmore Winery",
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     }
-  ]
+  ],
+  "total_travel_minutes": 37,
+  "last_verified": null
 }

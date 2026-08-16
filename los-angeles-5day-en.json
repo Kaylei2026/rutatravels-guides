@@ -1,7 +1,7 @@
 {
   "destination": "Los Angeles",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:52:52.348Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Five days covering Los Angeles as it actually works: a cluster of distinct neighborhoods each with its own character, connected by the logic of geography rather than a single walkable core. Downtown anchors the east, Hollywood and the hills define the center, the Westside reaches toward the ocean, and Griffith Park caps the north. Each day is self-contained and can be reordered based on where you are staying.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 13650,
-  "total_walking_minutes": 171,
+  "total_walking_distance_meters": 2180,
+  "total_walking_minutes": 27,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Downtown Los Angeles",
       "neighborhood_description": "The original core of the city, laid out on a Spanish grid from 1781, now layered with Gilded Age civic architecture, a surviving Mexican-American historic district, a Frank Gehry masterpiece, and one of the densest arts districts in California. Most of it is walkable within a mile-wide zone.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 650,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Olvera Street and El Pueblo de Los Angeles",
         "wikidata_qid": "Q1257436",
@@ -45,8 +45,10 @@
         "notes": "The oldest surviving block in Los Angeles, preserved as a Mexican marketplace since 1930. The Avila Adobe at the north end is the oldest standing building in the city, built in 1818. Walk through the covered stalls early before the midday heat - the vendors selling hand-painted pottery and leather goods are the same families who occupied stalls decades ago. The Zanja Madre marker on the south side marks where the city's first irrigation canal was dug.",
         "walk_to_next": {
           "to": "Grand Central Market",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "transport_mode": "drive",
+          "distance_meters": 1610,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -65,8 +67,10 @@
         "notes": "Operating continuously since 1917 inside a Beaux-Arts building on Broadway - the neon signage is original from mid-century remodels. Lunch here rather than at a restaurant: Tacos Tumbras a Tomas at the back serves Mexico City-style birria, and Egg Slut draws queues but the tacos from the older vendors are equally good and half the wait. Look up at the ceiling - the exposed steel trusses and the 1917 tile floor are intact.",
         "walk_to_next": {
           "to": "Walt Disney Concert Hall",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 650,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -126,7 +130,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -135,8 +140,8 @@
       "neighborhood_focus": "Hollywood / Los Feliz",
       "neighborhood_description": "Hollywood Boulevard runs east-west through the flat basin north of central LA, lined with 1920s and 1930s landmark buildings from cinema's peak decade. A short drive or bus ride east takes you up into Los Feliz, where Griffith Observatory sits on a chaparral hillside with clear sightlines to the Hollywood Sign and across the basin.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "TCL Chinese Theatre",
         "wikidata_qid": "Q631433",
@@ -153,8 +158,10 @@
         "notes": "The 1927 Sid Grauman theater with its pagoda facade and the forecourt of celebrity hand and footprints in concrete. Go early before the costumed character performers set up - by 10am the forecourt is a gauntlet. The lobby and auditorium are occasionally open during IMAX screenings; a ticket to any film includes the interior, which preserves original Chinese-influenced painted ceiling panels and dragon-column chandeliers.",
         "walk_to_next": {
           "to": "Hollywood Walk of Fame",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "transport_mode": "drive",
+          "distance_meters": 1680,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -173,8 +180,10 @@
         "notes": "2,700 terrazzo stars embedded in the sidewalks of Hollywood Boulevard and Vine Street. The stars are more interesting for their organization than their celebrity - five categories (film, TV, radio, recording, theater) marked by different symbols in the center. The most visited single star is Michael Jackson's at 6927 Hollywood Boulevard, between Highland and Las Palmas. Walk east toward Vine rather than west toward La Brea where the boulevard gets quieter and less touristed.",
         "walk_to_next": {
           "to": "Griffith Observatory",
-          "distance_meters": 1800,
-          "walking_minutes": 23
+          "transport_mode": "drive",
+          "distance_meters": 4130,
+          "travel_minutes": 11,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -214,7 +223,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     },
     {
       "day": 3,
@@ -223,8 +233,8 @@
       "neighborhood_focus": "Brentwood / Venice",
       "neighborhood_description": "The west side of Los Angeles where the basin meets the Santa Monica Mountains and the Pacific. The Getty Center sits on a travertine ridge above the 405 freeway with panoramic views from downtown to the ocean. Venice, twenty minutes south, is a flat grid of 1905 canals, the surf-influenced boardwalk, and Abbot Kinney's gallery and restaurant strip.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 1120,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Getty Center",
         "wikidata_qid": "Q731126",
@@ -240,9 +250,11 @@
         "optimal_timing": "morning",
         "notes": "Admission is free; parking is not and fills early on weekends - arrive by 10am or take the Big Blue Bus from Westwood. The Richard Meier travertine buildings are as much of the experience as the collection inside. The Central Garden by Robert Irwin in the plaza below the museum building changes seasonally. For the collection, prioritize the Impressionist and post-Impressionist paintings in the North Pavilion and Van Gogh's Irises, then spend time on the outdoor terraces facing the Pacific - the view on a clear day extends to Catalina Island.",
         "walk_to_next": {
-          "to": "Venice Canals",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Venice Canals Historic District",
+          "transport_mode": "drive",
+          "distance_meters": 12820,
+          "travel_minutes": 22,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -261,8 +273,10 @@
         "notes": "Six blocks of surviving original canals from Abbot Kinney's 1905 'Venice of America' development - most of the canal network was paved over in 1929 but this southeast pocket was preserved. Walk the wooden footbridges on Eastern Canal and Carroll Canal where the 1910s-era bungalows back directly onto the water. The canals are a residential neighborhood - the boardwalk a block west is the tourist Venice; this is the quiet version.",
         "walk_to_next": {
           "to": "Venice Beach Boardwalk",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -302,7 +316,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 36
     },
     {
       "day": 4,
@@ -311,8 +326,8 @@
       "neighborhood_focus": "Mid-Wilshire / Miracle Mile / Koreatown",
       "neighborhood_description": "The broad mid-city band running along Wilshire Boulevard from Fairfax to Western. The Miracle Mile was developed in the 1930s as Los Angeles's first automobile-oriented shopping and cultural district, now home to LACMA and the La Brea Tar Pits. A mile east, Koreatown is the most densely populated neighborhood in the city, with a vertical, 24-hour urban character unlike anywhere else in LA.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2400,
-      "day_walking_minutes": 30,
+      "day_walking_distance_meters": 410,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "La Brea Tar Pits and Page Museum",
         "wikidata_qid": "Q899062",
@@ -328,8 +343,10 @@
         "optimal_timing": "morning",
         "notes": "Active asphalt seeps in the middle of Wilshire Boulevard have been trapping Ice Age megafauna for 50,000 years. Pit 91 and Project 23 are active excavations visible through observation windows during summer months. The Page Museum inside holds the reconstructed skeletons of mammoths, dire wolves, and saber-toothed cats - the dire wolf skull wall in the central hall displays over 400 specimens. The tar smell is faint but real.",
         "walk_to_next": {
-          "to": "LACMA",
-          "distance_meters": 400,
+          "to": "Los Angeles County Museum of Art",
+          "transport_mode": "walk",
+          "distance_meters": 410,
+          "travel_minutes": 5,
           "walking_minutes": 5
         }
       },
@@ -348,9 +365,11 @@
         "optimal_timing": "any",
         "notes": "The largest art museum in the western United States, spread across multiple buildings on a single campus. Chris Burden's Urban Light installation - 202 restored antique LA street lamps in a grid outside the Wilshire entrance - is the most photographed artwork in the city and is free to walk through at any hour. Inside, the Islamic art galleries and the South and Southeast Asian collection are less trafficked than the European and American wings and equally strong. The Resnick Pavilion exhibitions change regularly and are often the best contemporary programming in the city.",
         "walk_to_next": {
-          "to": "Koreatown",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "Koreatown - Wilshire and Western corridor",
+          "transport_mode": "drive",
+          "distance_meters": 7400,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -410,7 +429,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     },
     {
       "day": 5,
@@ -419,8 +439,8 @@
       "neighborhood_focus": "Griffith Park / Silver Lake",
       "neighborhood_description": "Griffith Park covers 4,300 acres of chaparral-covered Santa Monica Mountain foothills north of Los Feliz - the largest municipal park in the United States with a public golf course, the LA Zoo, and miles of hiking trails. To the south, Silver Lake is a hilly residential neighborhood around a reservoir, with a dense strip of record shops, bookstores, and restaurants along Sunset Boulevard.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2150,
-      "day_walking_minutes": 27,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Hollyhock House",
         "wikidata_qid": "Q1621844",
@@ -441,9 +461,11 @@
         "optimal_timing": "morning",
         "notes": "Frank Lloyd Wright's first Los Angeles building, completed in 1921 for oil heiress Aline Barnsdall on the flat hilltop of Barnsdall Art Park. The house is named for the abstract hollyhock motif Wright integrated into the concrete capitals, roof line, and interior furniture. Timed tours run on the hour; book online through the city parks site as walk-up slots are limited. The rooftop moat - a shallow reflecting pool encircling the living room skylight - is the most unusual Wright detail in any of his California buildings.",
         "walk_to_next": {
-          "to": "Griffith Park trails",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "to": "Griffith Park - Mount Hollywood Trail",
+          "transport_mode": "drive",
+          "distance_meters": 4790,
+          "travel_minutes": 11,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -461,9 +483,11 @@
         "optimal_timing": "any",
         "notes": "Park at the Vermont Canyon trailhead lot (free, fills by 9am weekends) and take the 3.2-mile Mount Hollywood loop to the summit at 1,625 feet. The Hollywood Sign is visible from the ridge at close enough range to read individual letters; the summit view also covers the San Fernando Valley to the north and the full basin south to the Palos Verdes peninsula on a clear day. Carry water - there is none on trail. Return via the Eastern Canyon trail for a different descent line and fewer hikers.",
         "walk_to_next": {
-          "to": "Silver Lake Reservoir",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Silver Lake Reservoir and Sunset Boulevard",
+          "transport_mode": "drive",
+          "distance_meters": 7870,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -523,7 +547,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 115,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Istanbul",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T11:52:41.004Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Istanbulの必須地理を3日間でカバーします：歴史半島にあるByzantineとOttomanの帝国中心部、Golden Hornを挟んで向かい側にある19世紀の国際的な丘Beyoglu、そしてヨーロッパとアジアを結ぶBosphorus海岸沿い。各日程は地理的に完結しています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5720,
-  "total_walking_minutes": 72,
+  "total_walking_distance_meters": 3600,
+  "total_walking_minutes": 45,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Sultanahmet / Eminonu",
       "neighborhood_description": "古代Constantinopleの第一の丘。ここでJustinianが偉大な教会を建設し、Mehmed IIが宮殿を築き、6世紀にわたる皇帝たちがモスクとバザールを重ね合わせて、世界で最も歴史が密集した広場の一つを作り上げました。ここではすべてが他のすべてから徒歩10分圏内にあります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1690,
-      "day_walking_minutes": 22,
+      "day_walking_distance_meters": 1670,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Hagia Sophia",
         "wikidata_qid": "Q12506",
@@ -48,7 +48,9 @@
         "notes": "開館の30分以内（8:30am）に到着すれば、主要な礼拝者と観光バスが10時頃に集まる前に内部を見学できます。北側前室の石のスロープから上がる上階のギャラリーでは、9世紀のByzantine mosaicsを目の高さで鑑賞でき、特に南東角のDeesis mosaicはByzantine artに現存する最高傑作の一つです。2020年にモスクに再転換されたため、服装規定が厳格で靴の脱着が必要です。",
         "walk_to_next": {
           "to": "Topkapi Palace",
-          "distance_meters": 550,
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
           "walking_minutes": 7
         }
       },
@@ -72,9 +74,11 @@
         "optimal_timing": "any",
         "notes": "Haremのチケットは正門ではなく、Harem入口で別途購入してください。正門の列にはHaremは含まれておらず、多くの観光客が後で気づくことになります。第三中庭にあるTreasuryでは、86カラットのSpoonmaker's Diamondがほぼ仕切りのないケースに展示されています。BosphorusとGolden Hornが合流する眺めを見下ろす第四中庭のテラスは、この街全体で最も戦略的で劇的な景観ポイントです。",
         "walk_to_next": {
-          "to": "Blue Mosque",
-          "distance_meters": 650,
-          "walking_minutes": 9
+          "to": "Sultan Ahmed Mosque (Blue Mosque)",
+          "transport_mode": "walk",
+          "distance_meters": 1130,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -139,7 +143,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     },
     {
       "day": 2,
@@ -148,8 +153,8 @@
       "neighborhood_focus": "Beyoglu / Galata / Karakoy",
       "neighborhood_description": "歴史的半島からGolden Hornを挟んだ対岸の地区で、オスマン帝国時代にヨーロッパ人居住区として発展しました。丘の下部にはジェノヴァ人植民地のGalataがあり、その上のBeyogluは19世紀に大使館地区となり、Grande Rue de Pera（現在の歩行者天国Istiklal Avenue）を中心に整備されました。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1930,
+      "day_walking_minutes": 24,
       "morning": {
         "activity_title": "Galata Tower",
         "wikidata_qid": "Q207694",
@@ -165,9 +170,11 @@
         "optimal_timing": "morning",
         "notes": "14世紀のGenoa人監視塔からは、街で最高の360度パノラマが楽しめます。歴史的な半島、Bosphorus、Golden Horn、そしてアジア側の海岸が一度に見渡せます。週末は塔の麓で長蛇の列ができることがあるので、チケットはオンラインで購入することをお勧めします。周辺のGalata地区にはIstanbulで最高のコーヒーショップが点在しており、Galip Dede Caddesi沿いのKronotropは訪問前後の立ち寄りスポットとして定評があります。",
         "walk_to_next": {
-          "to": "Istiklal Avenue",
-          "distance_meters": 650,
-          "walking_minutes": 9
+          "to": "Istiklal Avenue and Cicek Pasaji",
+          "transport_mode": "walk",
+          "distance_meters": 1090,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -186,8 +193,10 @@
         "notes": "現代Istanbulの1.4キロメートルに及ぶ歩行者専用の大通りで、Taksim Squareからトンネル式ケーブルカーまで続いています。メインストリートではなく、脇道に足を向けてみてください。Cicek Pasaji（花の小径）は19世紀の屋根付きアーケードで、現在はmeyhane居酒屋が軒を連ねています。その真後ろのSahne Sokakにある魚市場は、地域住民の食を支える現役の青果・海産物市場です。大通りを走る年代物の赤いトラムは交通手段としてはほとんど役に立ちませんが、写真撮影にはぴったりです。",
         "walk_to_next": {
           "to": "Istanbul Modern",
-          "distance_meters": 980,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 840,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -247,7 +256,8 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 24
     },
     {
       "day": 3,
@@ -256,8 +266,8 @@
       "neighborhood_focus": "Besiktas / Ortakoy / Dolmabahce",
       "neighborhood_description": "Beyogluの北に位置するヨーロッパ側のBosphorus沿岸地区では、19世紀のオスマン帝国スルタンたちがTopkapiから離れ、水辺に向けて西欧バロック様式の新しい宮殿を建設しました。海岸道路は巨大なDolmabahce Palaceと、吊り橋の下にある芸術的な村の広場Ortakoyを結んでおり、さらに北には中世のRumeli Hisari要塞があります。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2210,
-      "day_walking_minutes": 27,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Dolmabahce Palace",
         "wikidata_qid": "Q625847",
@@ -273,9 +283,11 @@
         "optimal_timing": "morning",
         "notes": "入場はガイドツアーのみで、指定時間制のため売り切れとなります - 前日にオンライン予約をしてください。宮殿には285の部屋、43のホール、68のトイレがあります：式典ホールにある4.5トンのBohemian製クリスタルシャンデリアは重量で世界最大です。Ataturkは1938年11月10日にここで亡くなり、宮殿内のすべての時計は彼の死の瞬間である午前9時05分で止まっています。",
         "walk_to_next": {
-          "to": "Ciragan Palace",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "to": "Ortakoy Square and Mosque",
+          "transport_mode": "transit",
+          "distance_meters": 3200,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -294,8 +306,10 @@
         "notes": "水際にある小さな新古典主義のモスクは、頭上にBosphorus Bridgeを望み、Istanbulで最も写真に撮られる光景の一つです。モスクの裏の広場は週末のクラフトと食べ物の市場になっており、kumpir（具沢山のベイクドポテト）の屋台がここの地元ストリートフードの名物です。埠頭から橋に向かって北を見上げ、アジア側の岸に向かって南を望む景色は、この街の代表的なウォーターフロントの眺望です。",
         "walk_to_next": {
           "to": "Rumeli Hisari",
-          "distance_meters": 1170,
-          "walking_minutes": 14
+          "transport_mode": "transit",
+          "distance_meters": 6480,
+          "travel_minutes": 21,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -355,7 +369,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 35
     }
-  ]
+  ],
+  "total_travel_minutes": 80,
+  "last_verified": null
 }

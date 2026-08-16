@@ -1,7 +1,7 @@
 {
   "destination": "New Orleans",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:57:16.434Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد مرساة في French Quarter، وهي الجزء الأقدم والأكثر كثافة من New Orleans. يتحرك المسار من القلب الروحي والمدني عند Jackson Square عبر ثقافة موسيقى الشارع في Royal و Bourbon، إلى السوق المغطى على نهر Mississippi، وينتهي بعد حلول الظلام عندما تصبح المدينة نفسها بالكامل.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 1230,
+  "total_walking_minutes": 15,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "French Quarter / Jackson Square",
       "neighborhood_description": "Vieux Carre هو الاستيطان الاستعماري الأصلي الذي وضعه المهندسون الفرنسيون عام 1718 على منحنى نهر Mississippi. رغم الاسم، فإن معظم العمارة الباقية هي استعمارية إسبانية، أعيد بناؤها بعد الحرائق في 1788 و 1794. يمتد الحي ثلاثة عشر مربع من Canal Street إلى Esplanade Avenue وستة مربع من النهر إلى Rampart Street - كل شيء قابل للمشي.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 1230,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "St. Louis Cathedral and Jackson Square",
         "wikidata_qid": "Q1421011",
@@ -41,7 +41,9 @@
         "notes": "تجنب قبل الساعة التاسعة صباحاً عندما يكون منجمو الحظ وفناني الشارع في ساحة Jackson Square لا يزالون يجهزون أماكنهم - واجهة Cathedral مؤطرة بمبنيي Cabildo و Presbytere التوأم تكون الأنظف في تلك الفترة الزمنية. المدخل الداخلي مجاني وأبرد من الشارع؛ انظر إلى لوحات trompe-l'oeil فوق المذبح. تم إعادة بناء الكاتدرائية ثلاث مرات؛ البناء الحالي يعود إلى سنة 1850. بعد الزيارة الداخلية، امشِ خلف الكاتدرائية عبر Pirate's Alley - الممر الضيق بين الكاتدرائية و Cabildo حيث عاش William Faulkner في الرقم 624 أثناء كتابة روايته الأولى.",
         "walk_to_next": {
           "to": "The Cabildo",
+          "transport_mode": "walk",
           "distance_meters": 80,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "مبنى الحكومة الاستعمارية الإسبانية حيث تم التوقيع على معاهدة شراء Louisiana سنة 1803. الآن هو متحف Louisiana State يغطي تاريخ المدينة الاستعماري والعبودية والحرب الأهلية بصراحة تتجنبها معظم المتاحف الأمريكية للتاريخ. قناع وفاة Napoleon الموجود في المجموعة هو واحد من أربعة نماذج معروفة فقط تم صنعها في أيام وفاته سنة 1821. مغلق أيام الاثنين والثلاثاء - تحقق قبل الزيارة.",
         "walk_to_next": {
-          "to": "French Market",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Frenchmen Street after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1150,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     }
-  ]
+  ],
+  "total_travel_minutes": 15,
+  "last_verified": null
 }

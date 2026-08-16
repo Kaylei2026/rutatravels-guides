@@ -1,7 +1,7 @@
 {
   "destination": "Marrakech",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T13:11:05.070Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Una giornata all'interno della medina medievale di Marrakech, spostandosi dalla grande moschea e dalle concerie dei souk settentrionali attraverso i palazzi dell'epoca saadiana fino al teatro elettrizzante di Djemaa el-Fna al calar della sera. Il percorso è geograficamente concentrato e cresce di intensità man mano che la giornata procede.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3100,
-  "total_walking_minutes": 39,
+  "total_walking_distance_meters": 950,
+  "total_walking_minutes": 12,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Medina - Djemaa el-Fna / Souks / Mouassine",
       "neighborhood_description": "La medina di Marrakech, patrimonio UNESCO, è una delle città islamiche medievali meglio conservate al mondo. La città murata si divide grosso modo nel quartiere dei souk settentrionali centrato sulla moschea Koutoubia e sulla madrasa Ben Youssef, il distretto dei palazzi saadiani a sud, e Djemaa el-Fna - la grande piazza che funziona simultaneamente come mercato, teatro e centro sociale dall'alba fino a ben oltre la mezzanotte.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Ben Youssef Madrasa",
         "wikidata_qid": "Q744690",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "La più grande scuola coranica del Marocco, costruita sotto il sultano saadiano Abdallah al-Ghalib nel 1565. Arrivate prima delle 9 per avere il cortile centrale - piastrelle zellij fino all'altezza delle spalle, stucco scolpito sopra, grate di cedro al livello della galleria - quasi tutto per voi prima che arrivino i gruppi turistici. Le celle degli studenti ai piani superiori sono aperte alla visita: 130 stanze un tempo piene di studiosi provenienti da tutto il Maghreb, ciascuna a malapena abbastanza grande per un letto e una lampada.",
         "walk_to_next": {
-          "to": "Medersa Ben Youssef Mosque courtyard and Souk Semmarine",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Bahia Palace",
+          "transport_mode": "drive",
+          "distance_meters": 10210,
+          "travel_minutes": 19,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "Costruito negli anni 1890 da Si Moussa e suo figlio Ba Ahmed, gran visir del sultano Hassan I, il Bahia (che significa 'splendore') fu progettato per essere il più grande palazzo del suo tempo. Gli 8 ettari di stanze, cortili e giardini sono aperti solo parzialmente, ma il grande cortile riad con il suo soffitto di legno di cedro dipinto e gli appartamenti dell'harem danno un'idea vivida della vita dell'élite marocchina di fine XIX secolo. Entrate da Rue Riad Zitoun el-Jedid - l'ingresso sud ha un'attesa più breve rispetto all'approccio turistico principale da nord.",
         "walk_to_next": {
-          "to": "Saadian Tombs",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Djemaa el-Fna at nightfall",
+          "transport_mode": "walk",
+          "distance_meters": 950,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -132,7 +136,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 31
     }
-  ]
+  ],
+  "total_travel_minutes": 31,
+  "last_verified": null
 }

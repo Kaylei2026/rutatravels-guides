@@ -1,7 +1,7 @@
 {
   "destination": "Mexico City",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:59:04.741Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Um dia no centro histórico da Cidade do México, construído diretamente sobre a capital asteca Tenochtitlan. A Plaza de la Constitucion é a âncora de um aglomerado que pode ser percorrido a pé, onde ruínas pré-hispânicas, uma catedral barroca e murais de Diego Rivera ficam a poucas centenas de metros um do outro.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 1430,
-  "total_walking_minutes": 18,
+  "total_walking_distance_meters": 650,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Centro Historico",
       "neighborhood_description": "O centro histórico fica no leito seco do Lago Texcoco, construído pelos espanhóis sobre as ruínas de Tenochtitlan após a conquista de 1521. As ruas seguem a antiga grade asteca em alguns lugares, e o solo afunda visivelmente em todo o bairro - os edifícios se inclinam, as fachadas racham e a catedral afunda em um ritmo diferente de suas torres. Listado pela UNESCO e genuinamente denso, com camadas de história no nível da rua.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1430,
-      "day_walking_minutes": 18,
+      "day_walking_distance_meters": 650,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Templo Mayor and its museum",
         "wikidata_qid": "Q207538",
@@ -46,8 +46,10 @@
         "notes": "Chegue na abertura (9h) antes que o local esquente - as ruínas estão totalmente expostas e quase não há sombra. O ingresso inclui o Museo del Templo Mayor no local, que abriga o disco de pedra Coyolxauhqui de 24 toneladas descoberto por um trabalhador de serviços públicos em 1978; ver o artefato depois de caminhar pela escavação dá a dimensão do que estava enterrado sob a cidade colonial. Entre pela rua Seminario, não pelo lado do Zocalo.",
         "walk_to_next": {
           "to": "Mexico City Metropolitan Cathedral",
-          "distance_meters": 180,
-          "walking_minutes": 2
+          "transport_mode": "walk",
+          "distance_meters": 220,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "A construção durou de 1573 a 1813, e é por isso que a nave mistura baías renascentistas, barrocas e neoclássicas no mesmo edifício. A catedral afunda de forma desigual porque se apóia em escombros astecas sobre sedimentos macios do lago - olhe para o piso interno e a inclinação diferencial é visível a olho nu. O Altar dos Reis, na extremidade mais distante, é a peça do cenário barroco; o Sagrario Metropolitano adjacente, uma igreja churrigueresca separada que compartilha a parede norte, é frequentemente ignorado.",
         "walk_to_next": {
-          "to": "Palacio Nacional",
-          "distance_meters": 250,
-          "walking_minutes": 3
+          "to": "Palacio Nacional and Diego Rivera murals",
+          "transport_mode": "walk",
+          "distance_meters": 430,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     }
-  ]
+  ],
+  "total_travel_minutes": 8,
+  "last_verified": null
 }

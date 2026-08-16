@@ -1,7 +1,7 @@
 {
   "destination": "Bend, Oregon",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:00:22.049Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée explorant le cœur géographique et culturel de Bend : le paysage volcanique qui définit la région, le parc fluvial au centre-ville, et la bande commerçante compacte où la scène de la bière artisanale a vu le jour. La journée progresse de l'ancien vers le contemporain, se terminant précisément où la ville vit son meilleur moment.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Drake Park / Mirror Pond / Downtown Bend",
       "neighborhood_description": "Bend se situe à la lisière orientale des Cascades où le High Desert rencontre la Deschutes River. Le centre-ville est compact et accessible à pied, flanqué par Drake Park et Mirror Pond à l'ouest. La région volcanique de Newberry au sud donne à toute la zone son caractère géologique - des champs de lave, des cônes de cendre et des coulées d'obsidienne qui étaient encore actifs au cours des derniers milliers d'années.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Newberry National Volcanic Monument",
         "wikidata_qid": "Q1378429",
@@ -41,8 +41,10 @@
         "notes": "Dirigez-vous vers le sud depuis Bend sur US-97 sur environ 23 miles pour atteindre l'entrée du monument. Le Big Obsidian Flow - un flux de lave vieux de 1 300 ans recouvert de verre volcanique noir de jais - est accessible par un court sentier en boucle d'un demi-mile à partir du parking. La lumière du matin capture la surface d'obsidienne et rend l'éclat indéniable ; en milieu de journée, l'éblouissement aplatit tout. Un Northwest Forest Pass ou un pass America the Beautiful couvre le droit d'accès à la journée au départ du sentier.",
         "walk_to_next": {
           "to": "Drake Park and Mirror Pond",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "drive",
+          "distance_meters": 53350,
+          "travel_minutes": 54,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "Le parc se situe directement à l'ouest du centre-ville le long de la Deschutes River - entrez par Riverside Boulevard plutôt que par les parkings de Wall Street pour profiter pleinement de l'approche de Mirror Pond avec les Cascades encadrant l'eau par beau temps. L'étang est formé par un petit barrage et reflète les pins ponderosa environnants ; le sentier riverain pavé se connecte directement vers le nord dans le centre-ville sans retracer vos pas.",
         "walk_to_next": {
           "to": "Old Mill District",
-          "distance_meters": 1560,
-          "walking_minutes": 19
+          "transport_mode": "drive",
+          "distance_meters": 1550,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 61
     }
-  ]
+  ],
+  "total_travel_minutes": 61,
+  "last_verified": null
 }

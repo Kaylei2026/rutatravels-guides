@@ -1,7 +1,7 @@
 {
   "destination": "Hallstatt",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:22:45.019Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد في إحدى أقدم القرى المأهولة بالسكان بشكل مستمر في أوروبا، وهي عبارة عن مجموعة على ضفاف البحيرة تتميز بواجهات باروكية وعمال ملح من عصور ما قبل التاريخ محشورة بين كتلة Dachstein وبحيرة Hallstatter See. القرية صغيرة بما يكفي للمشي من طرف إلى آخر في خمسة عشر دقيقة، لذلك ينقسم اليوم بشكل عمودي وأفقي على حد سواء: مستوى البحيرة في الصباح، وهضبة المنجم في منتصف النهار، وقلب القرية عند الساعة الذهبية.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 240,
+  "total_walking_minutes": 4,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Hallstatt Village / Hallstatter See / Salzwelten",
       "neighborhood_description": "Hallstatt قرية مدرجة في قائمة اليونسكو يبلغ عدد سكانها حوالي 800 نسمة، محصورة بين جدار صخري شبه عمودي وبحيرة Hallstatter See الخضراء الباردة. تم تحديد ثقافة Hallstatt الحضارية - التي تعتبر الحضارة المحددة لأوروبا الوسطى في العصر الحديدي - هنا من خلال مقبرة تضم أكثر من ألف قبر. كانت عمال الملح فوق القرية تعمل منذ 1000 قبل الميلاد على الأقل، مما يجعلها من بين الأقدم في العالم.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 240,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Salzwelten Hallstatt - prehistoric salt mine",
         "wikidata_qid": "Q874841",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "استقل تلفريك Salzbergbahn من الواجهة البحرية للقرية - ينطلق من محطة تقع مباشرة شمال ساحة السوق الرئيسية ويرتفع 855 متراً في أقل من أربع دقائق. يحتفظ داخل المنجم بدرج خشبي محفوظ من العصر البرونزي وأنبوب خشبي قديم وشريحتي تعدين خشبيتين تنحدر عليهما جالساً أثناء الجولة. درجة الحرارة داخل المنجم ثابتة عند 8 درجات مئوية بغض النظر عن الموسم، لذا احمل طبقة إضافية. احجز تذاكر موقوتة عبر الإنترنت قبل يوم واحد في الصيف لأن مجموعات الجولات التي تصل بالحافلة حول الساعة 10 صباحاً تملأ الفترات الزمنية بسرعة.",
         "walk_to_next": {
-          "to": "Hallstatt Skywalk viewpoint",
-          "distance_meters": 480,
-          "walking_minutes": 6
+          "to": "Hallstatt Skywalk",
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "morning",
         "notes": "منصة فولاذية كابولية على ارتفاع 360 متراً فوق سطح البحيرة، يمكن الوصول إليها عبر مسار موقع على الخريطة بطول حوالي 350 متر من مخرج المنجم - انحرف لليسار حيث ينقسم المسار واتبع علامات Welterbeblick. يمتد المنظر على طول بحيرة Hallstatter See كاملة نحو الجنوب ويضع القرية مباشرة أسفلك، وهذا هو السبب في أن كل صورة جوية لـ Hallstatt تُؤخذ تقريباً من هذا الارتفاع. عديم الفائدة في السحب المنخفضة؛ إذا كانت قمم Dachstein مختفية عند وصولك للمنجم، تخطّ هذه وأضف وقتاً للقرية بدلاً منها.",
         "walk_to_next": {
-          "to": "Hallstatt Market Square (Marktplatz)",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Hallstatt Marktplatz and lakefront",
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 4
     }
-  ]
+  ],
+  "total_travel_minutes": 4,
+  "last_verified": null
 }

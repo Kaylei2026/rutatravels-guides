@@ -1,7 +1,7 @@
 {
   "destination": "Athens",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:12:06.643Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día cubriendo el arco esencial de Athens: la roca sagrada de la Acropolis al amanecer, el antiguo Agora debajo de ella, y la vida callejera en capas otomana-bizantina-neoclásica de Monastiraki y Plaka mientras la ciudad se refresca por la tarde.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3100,
-  "total_walking_minutes": 39,
+  "total_walking_distance_meters": 1820,
+  "total_walking_minutes": 22,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Acropolis / Monastiraki / Plaka",
       "neighborhood_description": "Las laderas sur y norte de la colina de la Acropolis forman una sola zona transitable. La roca misma está rodeada de santuarios y teatros antiguos; la ladera norte desciende a través del antiguo Agora hacia Monastiraki, un barrio comprimido de iglesias bizantinas, salones de mercado otomanos y ruinas romanas sobre las que Athens ha estado construyendo durante dos mil años.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 1820,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Acropolis of Athens",
         "wikidata_qid": "Q131013",
@@ -46,8 +46,10 @@
         "notes": "Compra el boleto combinado del sitio (válido por 5 días, cubre el Agora, Kerameikos y otros cuatro sitios) en línea el día anterior - la cola en la entrada principal suroeste es lenta, pero la entrada Beule Gate usada por la mayoría de grupos turísticos es diferente del acceso peatonal menos usado de Dionysiou Areopagitou desde el sur, que te deposita directamente en el teatro de Dionysus. Llega lo más cerca posible de la apertura a las 8am en verano; los senderos de mármol se vuelven ardientes como hornos para las 10am y no hay sombra en la meseta de la cumbre. La columnata norte del Parthenon está bajo andamios de restauración continua en el extremo este - la fachada oeste es el ángulo fotográfico más limpio.",
         "walk_to_next": {
           "to": "Acropolis Museum",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 510,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "El edificio Bernhard Tschumi de 2009 se sitúa directamente sobre un barrio residencial paleocristiano y bizantino excavado visible a través de los pisos de vidrio del nivel de entrada - mira hacia abajo antes de mirar hacia arriba. La Parthenon Gallery del último piso está orientada para alinearse exactamente con el Parthenon mismo en la colina, así que las secciones del friso sobrevivientes miran hacia sus posiciones originales. Los espacios llenos con moldes de yeso blanco son los originales del British Museum; la incompletud deliberada es el argumento del museo. Cerrado los lunes.",
         "walk_to_next": {
-          "to": "Ancient Agora of Athens",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Ancient Agora of Athens and Monastiraki",
+          "transport_mode": "walk",
+          "distance_meters": 1310,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -132,7 +136,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 22,
+  "last_verified": null
 }

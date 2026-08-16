@@ -1,7 +1,7 @@
 {
   "destination": "New York",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:44:16.381Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tre giorni per scoprire l'essenziale di New York: la storica punta meridionale dove nacque la città, il denso corridoio di Midtown con le sue torri iconiche e musei di fama mondiale, e la spina verde di Central Park circondata dalle istituzioni culturali dell'Upper West Side. Ogni giornata è geograficamente autonoma.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 7800,
-  "total_walking_minutes": 98,
+  "total_walking_distance_meters": 6460,
+  "total_walking_minutes": 80,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Lower Manhattan / Financial District",
       "neighborhood_description": "La punta meridionale di Manhattan è la parte più antica della città, dove i coloni olandesi tracciarono la griglia originale di New Amsterdam negli anni 1620. Wall Street, Trinity Church, il 9/11 Memorial e il terminal del Staten Island Ferry si trovano tutti a dieci minuti a piedi l'uno dall'altro, e le viste del porto da Battery Park rimangono le migliori della città.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 1720,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "9/11 Memorial and Museum",
         "wikidata_qid": "Q1260874",
@@ -43,8 +43,10 @@
         "notes": "Prenota online i biglietti con orario prestabilito prima di arrivare - le fasce mattutine si esauriscono giorni prima in estate. Le due vasche riflettenti occupano le impronte esatte delle Twin Towers; i nomi delle vittime sono incisi nei parapetti di bronzo secondo una disposizione deliberata che raggruppa colleghi e familiari insieme. Se visiti solo la piazza commemorativa saltando il museo, l'ingresso è gratuito. La Foundation Hall sotterranea del museo, dove sono conservati il muro di contenimento originale e l'Last Column, è lo spazio architettonicamente più suggestivo.",
         "walk_to_next": {
           "to": "Trinity Church",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 490,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "La chiesa in arenaria del Gothic Revival del 1846 all'inizio di Wall Street è stata la struttura più alta di New York per gran parte del XIX secolo. Alexander Hamilton è sepolto nel cimitero sul lato sud - la sua tomba si trova immediatamente a destra del cancello sud e riceve un flusso costante di visitatori grazie alla popolarità del musical Hamilton. L'interno è fresco, buio e genuinamente tranquillo nonostante si trovi a pochi passi dalla borsa.",
         "walk_to_next": {
-          "to": "Battery Park and Staten Island Ferry",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Battery Park and the Staten Island Ferry",
+          "transport_mode": "walk",
+          "distance_meters": 1230,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Midtown Manhattan",
       "neighborhood_description": "Midtown tra la 34th e la 50th Street è la concentrazione più densa di architettura monumentale al mondo - Grand Central Terminal, il Chrysler Building, l'Empire State Building e la High Line tutti all'interno di un corridoio lungo ma percorribile a piedi. La griglia qui fu tracciata prima che esistesse qualsiasi di questi edifici, e la tensione tra il piano stradale implacabile e l'ambizione individuale di ogni torre è ciò che rende Midtown visivamente straordinaria.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 34,
+      "day_walking_distance_meters": 3210,
+      "day_walking_minutes": 40,
       "morning": {
         "activity_title": "Grand Central Terminal",
         "wikidata_qid": "Q181081",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "Il terminale Beaux-Arts del 1913 non è principalmente un'attrazione turistica ma un hub funzionante per i pendolari, ed è questo che lo rende straordinario. Venite dalle 8 alle 9 del mattino per vedere 750.000 persone fluire attraverso l'atrio principale nella luce obliqua delle finestre del cleristorio sulla facciata sud. Il soffitto a volta a botte dipinto di turchese mostra le costellazioni invernali in foglia d'oro - dipinte al contrario perché il progettista originale lavorò da un manoscritto medievale che raffigurava il cielo come visto dall'esterno della sfera celeste. L'Oyster Bar al piano inferiore è aperto dall'inaugurazione del terminale nel 1913.",
         "walk_to_next": {
-          "to": "Chrysler Building",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Empire State Building",
+          "transport_mode": "walk",
+          "distance_meters": 1110,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -171,8 +178,10 @@
         "notes": "Prenotate il biglietto d'ingresso a orario fisso online e pagate il costo aggiuntivo per l'osservatorio del 102° piano piuttosto che fermarvi all'86° - la differenza nel panorama è significativa e il 102° è raramente affollato. In una giornata limpida la vista si estende per 130 chilometri. L'atrio Art Déco sulla 34th Street è ad ingresso gratuito e merita uno sguardo attento - i lavori metallici in alluminio e marmo furono progettati dalla ditta rivale di William Van Alen e rimangono uno dei più bei interni di Midtown.",
         "walk_to_next": {
           "to": "The High Line",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "walk",
+          "distance_meters": 2100,
+          "travel_minutes": 26,
+          "walking_minutes": 26
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 40
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Upper West Side / Central Park / Upper East Side",
       "neighborhood_description": "Central Park fu progettato da Frederick Law Olmsted e Calvert Vaux a partire dal 1858 come paesaggio pubblico democratico per una città che allora era edificata solo fino alla 34th Street. Le istituzioni che sorsero sul suo fianco orientale - la Museum Mile lungo Fifth Avenue tra la 82nd e 105th Streets - rappresentano l'ambizione vittoriana di fare di New York una capitale culturale. Il solo Metropolitan Museum of Art contiene oltre due milioni di oggetti.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2500,
-      "day_walking_minutes": 31,
+      "day_walking_distance_meters": 1530,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Metropolitan Museum of Art",
         "wikidata_qid": "Q160236",
@@ -258,9 +268,11 @@
         "optimal_timing": "morning",
         "notes": "Acquistate i biglietti online per evitare la coda alla biglietteria. Scegliete tre dipartimenti anziché tentare di visitare l'intero edificio - le gallerie di Egyptian Art incluso il Temple of Dendur (un tempio egizio completo del 15 a.C. ricostruito all'interno di una sala dalle pareti di vetro), le gallerie Greek e Roman, e l'American Wing sono i punti di riferimento più solidi. Il giardino di sculture sul tetto è aperto stagionalmente e offre una vista diretta su Central Park che la maggior parte dei visitatori non scopre mai.",
         "walk_to_next": {
-          "to": "Central Park - The Ramble",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Central Park",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -279,8 +291,10 @@
         "notes": "Entrate dalla 79th Street Transverse dalla Museum Mile e camminate verso ovest in direzione del Belvedere Castle - una follia vittoriana su un affioramento di scisto che funge da stazione meteorologica del parco e ha la migliore vista sopraelevata del Ramble e del Lake. Continuate verso sud fino a Bethesda Terrace, che Olmsted considerava il cuore formale del parco - l'arcade sotto la terrazza ha alcune delle più belle opere in piastrelle encaustiche del paese. La fila di olmi lungo il Mall a sud di Bethesda è uno degli ultimi gruppi intatti di olmo americano nel nordest degli Stati Uniti.",
         "walk_to_next": {
           "to": "American Museum of Natural History",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "walk",
+          "distance_meters": 970,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 80,
+  "last_verified": null
 }

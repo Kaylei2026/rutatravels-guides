@@ -1,7 +1,7 @@
 {
   "destination": "New York",
   "duration_days": 7,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:48:53.210Z",
   "sources": [
     "wikidata",
@@ -19,8 +19,8 @@
   ],
   "guide_description": "Siete días construyendo una imagen coherente de New York desde el extremo sur de Manhattan hacia el norte y cruzando el East River: el corazón financiero colonial, el paseo marítimo de Brooklyn, el cañón del Midtown, el corredor cultural del Upper East Side, el sur bohemio, la capital cultural afroamericana de Harlem, y el lado oeste que pasó de industrial a artístico. Cada día es geográficamente independiente.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 27950,
-  "total_walking_minutes": 350,
+  "total_walking_distance_meters": 11390,
+  "total_walking_minutes": 141,
   "days": [
     {
       "day": 1,
@@ -29,8 +29,8 @@
       "neighborhood_focus": "Lower Manhattan / Financial District",
       "neighborhood_description": "La punta original de la isla de Manhattan, colonizada por los holandeses como New Amsterdam en 1624. El trazado de las calles aquí es pre-revolucionario e irregular, a diferencia del resto de Manhattan. Wall Street, la primera bolsa de valores, Trinity Church y el 9/11 Memorial ocupan unas pocas manzanas densas donde cuatro siglos de historia comercial estadounidense se superponen una sobre otra.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1280,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "9/11 Memorial and Museum",
         "wikidata_qid": "Q2516866",
@@ -46,9 +46,11 @@
         "optimal_timing": "morning",
         "notes": "Reserva las entradas del museo online antes de llegar - hay entrada sin reserva pero las colas son largas a media mañana. Las dos piscinas reflectantes ubicadas en las huellas de las Twin Towers son el memorial; el museo desciende siete pisos bajo tierra hasta la roca madre original. La exhibición más conmovedora son las llamadas telefónicas y mensajes de voz grabados que dejaron pasajeros y trabajadores de oficina la mañana del September 11, 2001 - tómate más tiempo del que crees que necesitarás.",
         "walk_to_next": {
-          "to": "Trinity Church",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Trinity Church and Wall Street",
+          "transport_mode": "walk",
+          "distance_meters": 490,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -66,9 +68,11 @@
         "optimal_timing": "any",
         "notes": "La iglesia Gothic Revival de 1846 en el extremo de Wall Street, en un sitio que ha tenido una iglesia desde 1698. Alexander Hamilton está enterrado en el cementerio directamente detrás del edificio, junto con Robert Fulton y otros fundadores. El cementerio es uno de los espacios verdes más antiguos que sobreviven en Manhattan y las lápidas son legibles e históricamente ricas. La entrada al interior es gratuita.",
         "walk_to_next": {
-          "to": "Battery Park and Statue of Liberty ferry",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Battery Park and the harbor view",
+          "transport_mode": "walk",
+          "distance_meters": 790,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -128,7 +132,8 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 2,
@@ -137,8 +142,8 @@
       "neighborhood_focus": "Brooklyn Bridge / DUMBO / Brooklyn Heights",
       "neighborhood_description": "El Brooklyn Bridge conecta Lower Manhattan con DUMBO (Down Under the Manhattan Bridge Overpass), un antiguo distrito industrial ribereño con calles empedradas y almacenes convertidos. Una corta subida hacia el sur llega a Brooklyn Heights, uno de los vecindarios residenciales del siglo XIX mejor conservados del país, con un famoso Promenade con vista a todo el horizonte de Manhattan.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4550,
-      "day_walking_minutes": 57,
+      "day_walking_distance_meters": 1240,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Brooklyn Bridge",
         "wikidata_qid": "Q18748",
@@ -154,9 +159,11 @@
         "optimal_timing": "morning",
         "notes": "Camina desde el lado de Manhattan (entrada en Centre Street cerca de City Hall) hacia Brooklyn, para que tengas de frente la vista del horizonte de Brooklyn y las torres de Manhattan detrás de ti. El sendero peatonal y ciclista de madera está elevado sobre los carriles vehiculares. Cruza temprano - para las 10am el sendero peatonal está abarrotado y el conflicto con el carril bici es frustrante. Las torres de granito son las torres de suspensión de cables de acero estructural más antiguas del mundo.",
         "walk_to_next": {
-          "to": "DUMBO waterfront",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "DUMBO and the Brooklyn Bridge Park",
+          "transport_mode": "walk",
+          "distance_meters": 510,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -175,7 +182,9 @@
         "notes": "El parque lineal de 85 acres a lo largo de la ribera de Brooklyn, construido sobre antiguos muelles de carga. La vista desde el Pier 1 mirando hacia el noroeste enmarca el Brooklyn Bridge y el horizonte de lower Manhattan juntos - la misma composición que la postal clásica de New York. Camina dos cuadras tierra adentro por Washington Street entre el Manhattan y Brooklyn Bridges para encontrar el hueco donde ambos puentes son visibles simultáneamente, enmarcados por los almacenes de ladrillo del siglo XIX a ambos lados.",
         "walk_to_next": {
           "to": "Brooklyn Heights Promenade",
-          "distance_meters": 700,
+          "transport_mode": "walk",
+          "distance_meters": 730,
+          "travel_minutes": 9,
           "walking_minutes": 9
         }
       },
@@ -236,7 +245,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -245,8 +255,8 @@
       "neighborhood_focus": "Midtown East / Fifth Avenue",
       "neighborhood_description": "El núcleo comercial de Manhattan entre las calles 42nd y 57th, donde la cuadrícula de rascacielos es más densa y el efecto de cañón de las calles es más fuerte. Grand Central Terminal, el Chrysler Building y St. Patrick's Cathedral están a seis cuadras una de otra, representando diferentes cumbres de la ambición arquitectónica de New York.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 1240,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Grand Central Terminal",
         "wikidata_qid": "Q180342",
@@ -263,8 +273,10 @@
         "notes": "La terminal Beaux-Arts de 1913, salvada de la demolición en los años 1970 a través de una batalla legal liderada por Jacqueline Kennedy Onassis. El techo del Main Concourse está pintado con las constelaciones de invierno en pan de oro sobre azul prusiano - las figuras astronómicas están al revés (pintadas como se ven desde fuera de la esfera celeste, no desde la Tierra). Párate en el balcón oeste sobre el vestíbulo alrededor de las 9am cuando la luz matutina de los viajeros entra por las ventanas del claristorio sur.",
         "walk_to_next": {
           "to": "Chrysler Building",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 240,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "afternoon": {
@@ -282,9 +294,11 @@
         "optimal_timing": "any",
         "notes": "La torre Art Deco de 1930, brevemente el edificio más alto del mundo antes de que el Empire State lo superara. El vestíbulo está abierto al público y es uno de los interiores Art Deco más refinados de la ciudad - mármol africano, murales de acero y techo abovedado de ladrillo marroquí. Las famosas gárgolas de águila de acero inoxidable del piso 61 se ven mejor desde el nivel de la calle mirando hacia arriba en Lexington Avenue en 42nd Street.",
         "walk_to_next": {
-          "to": "St. Patrick's Cathedral",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "to": "St. Patrick's Cathedral and Rockefeller Center",
+          "transport_mode": "walk",
+          "distance_meters": 1000,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -344,7 +358,8 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 4,
@@ -353,8 +368,8 @@
       "neighborhood_focus": "Museum Mile / Central Park",
       "neighborhood_description": "El tramo de Fifth Avenue desde 82nd hasta 105th Street bordea Central Park y alberga la mayor concentración de museos importantes del Hemisferio Occidental. Central Park en sí mismo - diseñado por Frederick Law Olmsted y Calvert Vaux entre 1858 y 1876 - es una obra maestra del diseño paisajístico del siglo XIX que reemplazó un pantano y barrio de chabolas con los pulmones de la ciudad.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 4200,
-      "day_walking_minutes": 53,
+      "day_walking_distance_meters": 2060,
+      "day_walking_minutes": 25,
       "morning": {
         "activity_title": "Metropolitan Museum of Art",
         "wikidata_qid": "Q160236",
@@ -370,9 +385,11 @@
         "optimal_timing": "morning",
         "notes": "El museo de arte más grande del Hemisferio Occidental - 17 departamentos curatoriales que abarcan 5,000 años de civilización. No intentes verlo todo; elige dos o tres alas. El ala de Egyptian Art con su Temple of Dendur - un templo de piedra arenisca del 15 a.C. reubicado bloque por bloque desde el Nilo y reconstruido dentro de una galería con paredes de cristal - es la sala más sorprendente del Met. La instalación de la azotea (abierta de mayo a octubre) tiene la mejor vista del museo hacia Central Park y el horizonte de Midtown.",
         "walk_to_next": {
-          "to": "Central Park - the Reservoir",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Central Park",
+          "transport_mode": "walk",
+          "distance_meters": 1000,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -390,9 +407,11 @@
         "optimal_timing": "any",
         "notes": "Entra por 79th Street desde Fifth Avenue y camina hacia el noroeste hasta el Reservoir (90th Street), luego hacia el sur a través del Ramble hasta la Bethesda Terrace and Fountain. Esta ruta de aproximadamente una milla pasa por el terreno más variado del parque - el Ramble es un bosque deliberadamente salvaje que se siente improbablemente remoto. La Bethesda Fountain es la única escultura formalmente encargada del parque, construida en 1873, y la terraza con arcadas sobre ella es el lugar más fotografiado.",
         "walk_to_next": {
-          "to": "Guggenheim Museum",
-          "distance_meters": 750,
-          "walking_minutes": 10
+          "to": "Solomon R. Guggenheim Museum",
+          "transport_mode": "walk",
+          "distance_meters": 1060,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -452,7 +471,8 @@
             "walking_minutes": 17
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 25
     },
     {
       "day": 5,
@@ -461,8 +481,8 @@
       "neighborhood_focus": "Greenwich Village / SoHo",
       "neighborhood_description": "Greenwich Village es el barrio que rechazó la cuadrícula de calles de Manhattan de 1811 y conservó sus propias calles diagonales y manzanas pequeñas - históricamente el centro de la vida literaria, artística y LGBTQ de Nueva York. SoHo inmediatamente al sur tiene la mayor concentración de arquitectura de hierro fundido del mundo, construida como distrito comercial en las décadas de 1860 y 1870 y convertida en galerías y lofts en los años 1970.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3800,
-      "day_walking_minutes": 48,
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Washington Square Park",
         "wikidata_qid": "Q744826",
@@ -478,9 +498,11 @@
         "optimal_timing": "morning",
         "notes": "El centro social de Greenwich Village, construido sobre un campo del alfarero donde se estima que están enterradas 20,000 personas. El arco de Stanford White de 1892 en la entrada de Fifth Avenue fue modelado según el Arc de Triomphe; en 1917 Marcel Duchamp subió hasta la cima para declarar Greenwich Village una república independiente. El parque está en su mejor momento las mañanas de fin de semana cuando los jugadores de ajedrez se instalan en las mesas de la esquina suroeste y los músicos se reúnen alrededor de la fuente central.",
         "walk_to_next": {
-          "to": "MacDougal Street and Bleecker Street",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "SoHo Cast-Iron Historic District",
+          "transport_mode": "walk",
+          "distance_meters": 1190,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "afternoon": {
@@ -498,9 +520,11 @@
         "optimal_timing": "any",
         "notes": "Camina hacia el sur desde Washington Square por Greene Street - la manzana más intacta de fachadas comerciales de hierro fundido que existe. Las fachadas de hierro fundido eran prefabricadas y atornilladas a estructuras de mampostería, permitiendo que los edificios fueran ornamentados con columnas, cornisas y arcos más económicamente que con piedra. Mira hacia arriba - los detalles están todos en el segundo piso y más arriba. La esquina de Greene Street y Prince Streets tiene cinco edificios intactos de la década de 1870 visibles simultáneamente.",
         "walk_to_next": {
-          "to": "Hudson River Park - Pier 25",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "to": "Hudson River Park",
+          "transport_mode": "walk",
+          "distance_meters": 890,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -560,7 +584,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 6,
@@ -569,8 +594,8 @@
       "neighborhood_focus": "Harlem / Morningside Heights",
       "neighborhood_description": "Harlem, centrado en 125th Street, ha sido la capital cultural de la vida afroamericana desde la Great Migration de principios del siglo XX - el barrio que produjo el Harlem Renaissance, el bebop, y una corriente continua de producción literaria y artística. Morningside Heights al oeste se asienta en una meseta sobre el Hudson, hogar de Columbia University, la Cathedral of St. John the Divine, y Grant's Tomb.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3950,
-      "day_walking_minutes": 50,
+      "day_walking_distance_meters": 2070,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Cathedral Church of Saint John the Divine",
         "wikidata_qid": "Q1088589",
@@ -586,9 +611,11 @@
         "optimal_timing": "morning",
         "notes": "La catedral gótica más grande del mundo por volumen, comenzada en 1892 y aún formalmente sin terminar - la torre sur permanece incompleta y la construcción ocasionalmente se reanuda. La nave mide 601 pies de largo. Las siete capillas que se extienden desde el ábside representan cada una una comunidad nacional diferente en New York y fueron amuebladas con donaciones de esas comunidades a principios del siglo XX. Los pavos reales que viven en los terrenos son reales y no están enjaulados.",
         "walk_to_next": {
-          "to": "Grant's Tomb",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "General Grant National Memorial",
+          "transport_mode": "walk",
+          "distance_meters": 600,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -606,9 +633,11 @@
         "optimal_timing": "any",
         "notes": "El mausoleo más grande de América del Norte, completado en 1897, que alberga los sarcófagos de Ulysses S. Grant y su esposa Julia. Entrada gratuita. Los bancos de mosaico que rodean el exterior, instalados en los años 1970 como un proyecto de arte comunitario inspirado en Park Guell de Gaudí, crean una colisión estética fascinante y sorprendente con el monumento neoclásico de granito que está arriba. La vista hacia el norte del Hudson desde la terraza circundante es una de las mejores del norte de Manhattan.",
         "walk_to_next": {
-          "to": "125th Street and the Apollo Theater",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "to": "Apollo Theater",
+          "transport_mode": "walk",
+          "distance_meters": 1470,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "evening": {
@@ -668,7 +697,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 7,
@@ -677,8 +707,8 @@
       "neighborhood_focus": "High Line / Chelsea / Meatpacking District",
       "neighborhood_description": "The High Line es un parque elevado de 1.45 millas construido sobre una línea ferroviaria de carga en desuso de 1934 que va desde Gansevoort Street hacia el norte hasta 34th Street. Debajo de él, las calles del lado oeste de Chelsea contienen la mayor concentración de galerías de arte contemporáneo del mundo. The Meatpacking District en el extremo sur pasó de su función literal del siglo XIX a convertirse en la manzana con mayor densidad de moda y vida nocturna en Manhattan.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 4300,
-      "day_walking_minutes": 54,
+      "day_walking_distance_meters": 1420,
+      "day_walking_minutes": 18,
       "morning": {
         "activity_title": "The High Line",
         "wikidata_qid": "Q1191517",
@@ -694,9 +724,11 @@
         "optimal_timing": "morning",
         "notes": "Ingresa por el extremo sur de Gansevoort Street y camina hacia el norte - esta dirección te lleva hacia Hudson Yards y la luz es mejor para fotografía por la mañana. El diseño de plantación de Piet Oudolf utiliza plantas perennes y pastos que se auto siembran y cambian dramáticamente según la estación, evocando deliberadamente las plantas silvestres que colonizaron las vías después de que la línea cerró en 1980. The 10th Avenue Square en 17th Street es una gradería incorporada con vista a la avenida de abajo - una pieza particularmente efectiva de teatro urbano.",
         "walk_to_next": {
-          "to": "Chelsea Galleries on West 22nd Street",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Chelsea Gallery District",
+          "transport_mode": "walk",
+          "distance_meters": 70,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -715,8 +747,10 @@
         "notes": "Las seis manzanas de West 20th, 21st, 22nd, 24th y 25th Streets entre Tenth y Eleventh Avenues contienen más de 200 galerías, la mayoría con entrada gratuita. Este es el mercado primario de arte contemporáneo en Estados Unidos. Las inauguraciones de los jueves (6 a 8pm) son las más activas; las tardes entre semana son más tranquilas y los galeristas tienen tiempo para conversar. Gagosian en 522 West 21st, Pace en 510 West 25th y David Zwirner en 519 West 19th son las instituciones ancla.",
         "walk_to_next": {
           "to": "Whitney Museum of American Art",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "walk",
+          "distance_meters": 1350,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -776,7 +810,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     }
-  ]
+  ],
+  "total_travel_minutes": 141,
+  "last_verified": null
 }

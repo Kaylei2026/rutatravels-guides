@@ -1,7 +1,7 @@
 {
   "destination": "Charleston",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:45:14.410Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Una giornata nella densa penisola storica di Charleston: vie antebellum, l'orto pubblico più antico del paese, una batteria sul waterfront e lo skyline dominato dalle chiese del French Quarter. L'intero complesso è percorribile a piedi entro un raggio di mezzo miglio.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 1250,
+  "total_walking_minutes": 16,
   "days": [
     {
       "day": 1,
@@ -23,10 +23,10 @@
       "neighborhood_focus": "South of Broad / Battery / French Quarter",
       "neighborhood_description": "La punta meridionale della penisola di Charleston, dove i fiumi Ashley e Cooper incontrano il porto. Sontuose dimore antebellum si affacciano sull'acqua lungo la Battery, il French Quarter conserva la griglia coloniale della città, e Broad Street divide la vecchia ricchezza dalla storia ancora più remota. Quasi tutto ciò che è importante si trova entro una passeggiata di quindici minuti.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1250,
+      "day_walking_minutes": 16,
       "morning": {
-        "activity_title": "Magnolia Cemetery - replaced with: The Battery and White Point Garden",
+        "activity_title": "The Battery and White Point Garden",
         "wikidata_qid": "Q7977003",
         "wikipedia_url": "https://en.wikipedia.org/wiki/White_Point_Garden",
         "coordinates": {
@@ -41,8 +41,10 @@
         "notes": "La passeggiata del lungomare dove i fiumi Ashley e Cooper confluiscono in Charleston Harbor, con Fort Sumter visibile a tre miglia di distanza nelle giornate serene. Percorri l'intero perimetro del parco piuttosto che solo la fila di cannoni del lato Battery, il lato di Murray Boulevard rivolto a sud offre il panorama più ampio del porto ed evita la concentrazione di gruppi turistici vicino ai monumenti Confederati. La luce del mattino riflette sull'acqua da est.",
         "walk_to_next": {
           "to": "Nathaniel Russell House",
-          "distance_meters": 390,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 470,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Una residenza in stile Federal del 1808 considerata il più bell'esempio di architettura domestica neoclassica nel Sud americano. Il carattere distintivo dell'interno è una scala ellittica a sé stante che si eleva per tre piani senza alcun supporto visibile, visibile dalla hall d'ingresso senza acquistare un biglietto, ma il tour completo consente l'accesso alle stanze del secondo piano e ai loro soffitti in stucco originali. Il giardino recintato sul lato sud viene spesso tralasciato ma merita i cinque minuti extra.",
         "walk_to_next": {
-          "to": "St. Michael's Church",
-          "distance_meters": 420,
-          "walking_minutes": 5
+          "to": "St. Philip's Church",
+          "transport_mode": "walk",
+          "distance_meters": 780,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     }
-  ]
+  ],
+  "total_travel_minutes": 16,
+  "last_verified": null
 }

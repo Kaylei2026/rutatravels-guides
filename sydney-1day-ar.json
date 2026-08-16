@@ -1,7 +1,7 @@
 {
   "destination": "Sydney",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T13:06:53.507Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد يغطي المناطق الأساسية في Sydney Harbour - الرمزان المدرجان على قائمة اليونسكو في Circular Quay، وشوارع The Rocks الاستعمارية الحجرية، و Royal Botanic Garden الممتدة شرقاً على طول المياه. كل شيء ضمن حلقة مشي ضيقة لا تفقد البصر بالميناء أبداً.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3900,
-  "total_walking_minutes": 49,
+  "total_walking_distance_meters": 2200,
+  "total_walking_minutes": 28,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Circular Quay / The Rocks / Sydney CBD",
       "neighborhood_description": "القوس الصغير من الواجهة البحرية بين Harbour Bridge و Opera House هو المكان الذي بدأت فيه المدينة عام 1788 وحيث يواجه هياكلاها المحددان بعضهما البعض عبر المياه. The Rocks، على الرأس الغربي، هو أقدم منظر شارع محفوظ في Australia - شبكة كثيفة من حانات الحجر الرملي من القرن التاسع عشر، ومستودعات التجار، والحارات الضيقة التي نجت من حملات الهدم في السبعينيات. يمتد Royal Botanic Garden شرقاً من Opera House على طول ساحل الميناء، مما يوفر مناظر مائية دون انقطاع طوال الطريق إلى Farm Cove.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 2200,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Sydney Opera House",
         "wikidata_qid": "Q45178",
@@ -46,8 +46,10 @@
         "notes": "احجز جولة لمدة ساعة واحدة خلف الكواليس أو في المقدمة عبر الإنترنت قبل وصولك - توفر الجولات العفوية غير موثوق به في موسم الذروة. السلالم الخارجية والساحة الأمامية مجانية وسهلة الوصول في جميع الأوقات. معظم صور الأصداف تُؤخذ من رصائف العبّارات في Circular Quay مباشرة غرباً، وليس من مستوى الشارع؛ الزاوية من Wharf 6 باتجاه الشرق تضع جسر الميناء وأوبرا هاوس في نفس الإطار بدون عدسة تقريب.",
         "walk_to_next": {
           "to": "Royal Botanic Garden Sydney",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 1080,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "أقدم حديقة علمية في أستراليا، تأسست عام 1816 على موقع أول مزرعة في المستعمرة. الدخول مجاني. رأس أرض Mrs Macquaries Point في الطرف الشرقي للحديقة هو أفضل نقطة مشاهدة مجانية في Sydney - أوبرا هاوس وجسر الميناء يقعان على نفس خط النظر بدون عوائق، والمنحدر العشبي هناك هو حيث يستعد السكان المحليون لألعاب رأس السنة الميلادية. سر في مسار حافة الميناء بدلاً من المسارات الداخلية للحفاظ على المياه في منظورك طوال الطريق.",
         "walk_to_next": {
-          "to": "The Rocks",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "The Rocks and Sydney Harbour Bridge",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -127,7 +131,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     }
-  ]
+  ],
+  "total_travel_minutes": 28,
+  "last_verified": null
 }

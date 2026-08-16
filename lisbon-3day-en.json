@@ -1,7 +1,7 @@
 {
   "destination": "Lisbon",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:09:26.931Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days covering Lisbon's essential layers: the Moorish hilltop quarter of Alfama, the pombaline downtown grid rising into the bohemian Chiado and Bairro Alto, and the riverfront suburb of Belem where Portugal's Age of Discovery began. Each day is geographically self-contained.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 8450,
-  "total_walking_minutes": 106,
+  "total_walking_distance_meters": 3810,
+  "total_walking_minutes": 48,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Alfama / Mouraria",
       "neighborhood_description": "Lisbon's oldest surviving neighborhood, built on the steep hillside below the Castelo de Sao Jorge. Alfama predates the 1755 earthquake that destroyed most of the city, preserving a labyrinth of medieval lanes, whitewashed houses, and miradouros. Moorish Mouraria abuts its western edge. The neighborhood is the historic home of fado music.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 1060,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Castelo de Sao Jorge",
         "wikidata_qid": "Q1020753",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "Arrive at opening (9am) before the tour groups arrive from the cruise terminal. The Moorish foundations date to the 9th century; the current walls are largely medieval Portuguese reconstruction. Walk the full circuit of the battlements clockwise - the northeastern tower gives the most complete panorama of the Tagus, Alfama rooftops, and the distant Ponte 25 de Abril. The archaeological dig inside the castle walls has exposed layers from Phoenician to Islamic occupation and is included in the ticket.",
         "walk_to_next": {
-          "to": "Se de Lisboa",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "to": "Se de Lisboa (Lisbon Cathedral)",
+          "transport_mode": "walk",
+          "distance_meters": 610,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -63,8 +65,10 @@
         "notes": "The oldest church in Lisbon, begun in 1147 on the site of the main mosque after the Christian reconquest - the twin-towered Romanesque facade is modeled on the Cathedral of Coimbra, both derived from a military fortress aesthetic. The Gothic cloister accessed from the right nave contains Roman and Islamic archaeological layers visible through floor grating. The treasury museum holds relics of Saint Vincent of Saragossa, Lisbon's patron, in a 13th-century silver sarcophagus.",
         "walk_to_next": {
           "to": "Miradouro das Portas do Sol",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Baixa / Chiado / Bairro Alto",
       "neighborhood_description": "Lisbon's rebuilt downtown, designed by the Marquis of Pombal after the 1755 earthquake on a rational grid of wide pedestrian streets. At its western edge the grid climbs into Chiado, the literary and intellectual quarter, and then into Bairro Alto, a grid of narrow lanes that transforms into a bar district after dark. All three are walkable from each other within 15 minutes.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 940,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Praca do Comercio and the Pombaline Grid",
         "wikidata_qid": "Q736569",
@@ -151,8 +156,10 @@
         "notes": "The vast riverfront square - once the site of the royal Ribeira Palace, demolished by the earthquake - is framed on three sides by yellow arcaded government buildings and open to the Tagus on the fourth. The equestrian statue of King Jose I in the center is by the sculptor Machado de Castro. Walk north through the Arco da Rua Augusta (there is a small fee for the arch tower) into the Baixa grid, where every street name reveals its original trade: Rua dos Sapateiros (cobblers), Rua do Ouro (goldsmiths), Rua da Prata (silversmiths).",
         "walk_to_next": {
           "to": "Elevador de Santa Justa",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 750,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "The 1902 iron lift by Raul Mesnier de Ponsard connects the Baixa to the Carmo plateau 32 meters above. Buy a Viva Viagem card at any metro station and load it with 1-2 euros rather than paying the inflated single-ride tourist price at the lift itself. The rooftop walkway gives a direct eye-level view of the Carmo Convent's exposed Gothic arches - the church roof collapsed in the 1755 earthquake and was never rebuilt, leaving the skeleton open to the sky.",
         "walk_to_next": {
-          "to": "Museu Arqueologico do Carmo",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Museu Arqueologico do Carmo and Largo do Carmo",
+          "transport_mode": "walk",
+          "distance_meters": 190,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 11
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Belem",
       "neighborhood_description": "The riverside suburb 6km west of central Lisbon, from which Vasco da Gama departed for India in 1497. Belem holds the two great monuments of the Manueline architectural style - the Tower of Belem and the Jeronimos Monastery - along with the Monument to the Discoveries, the Berardo Collection museum, and the Museu de Arte, Arquitectura e Tecnologia. The neighborhood is flat and walkable along the waterfront promenade.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3550,
-      "day_walking_minutes": 45,
+      "day_walking_distance_meters": 1810,
+      "day_walking_minutes": 23,
       "morning": {
         "activity_title": "Mosteiro dos Jeronimos",
         "wikidata_qid": "Q193811",
@@ -263,9 +273,11 @@
         "optimal_timing": "morning",
         "notes": "Built from 1502 onward using a tithe on spices from the India trade, the monastery is the supreme example of Manueline style - Portuguese late Gothic fused with maritime motifs, armillary spheres, and rope-carved stonework. Arrive at opening (10am, 9:30am in summer) to get the two-storey cloister before the tour groups. The church nave is free; the cloister requires a ticket. Vasco da Gama and the poet Luis de Camoes are both entombed in the church.",
         "walk_to_next": {
-          "to": "Padrao dos Descobrimentos (Monument to the Discoveries)",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Padrao dos Descobrimentos",
+          "transport_mode": "walk",
+          "distance_meters": 610,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -284,8 +296,10 @@
         "notes": "The 1960 concrete monument in the form of a ship's prow, with 33 figures of Portuguese explorers, missionaries, and cartographers carved along its flanks - Henry the Navigator at the point. The interior lift accesses a rooftop terrace with direct views east toward the Tower of Belem and west toward the Ponte 25 de Abril suspension bridge. The large marble compass rose on the plaza pavement was a gift from South Africa in 1960 and shows the routes of the Portuguese navigators.",
         "walk_to_next": {
           "to": "Torre de Belem",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "transport_mode": "walk",
+          "distance_meters": 1200,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "evening": {
@@ -350,7 +364,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 23
     }
-  ]
+  ],
+  "total_travel_minutes": 48,
+  "last_verified": null
 }

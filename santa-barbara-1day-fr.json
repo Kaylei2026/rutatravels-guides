@@ -1,7 +1,7 @@
 {
   "destination": "Santa Barbara",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:56:40.088Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée pour découvrir le centre historique compact de Santa Barbara : l'architecture Spanish Colonial Revival du quartier civique du centre-ville, la mission sur la colline au-dessus, et le port actif au pied de State Street. Chaque site est à distance de marche facile ou à un court trajet en voiture des autres.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3380,
-  "total_walking_minutes": 43,
+  "total_walking_distance_meters": 1600,
+  "total_walking_minutes": 20,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown / El Pueblo Viejo / Waterfront",
       "neighborhood_description": "Le centre-ville de Santa Barbara a été reconstruit après un tremblement de terre en 1925 dans un style Spanish Colonial Revival unifié : stuc blanc, toits en tuiles rouges et façades à arcades imposées par ordonnance municipale. La mission se dresse sur une faible crête à quelques pâtés de maisons au nord, tandis que Stearns Wharf et le port marquent l'extrémité sud de State Street.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3380,
-      "day_walking_minutes": 43,
+      "day_walking_distance_meters": 1600,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Santa Barbara County Courthouse",
         "wikidata_qid": "Q7422012",
@@ -41,8 +41,10 @@
         "notes": "Construite en 1929, c'est le plus beau bâtiment civic Spanish Colonial Revival en Californie. Les visites gratuites en accès libre vous permettent de parcourir le jardin intérieur en terrasse et la salle d'assemblée aux fresques à votre rythme. Montez à la tour d'horloge El Mirador - la terrasse d'observation sur le toit offre la meilleure vue dégagée sur la grille urbaine, les montagnes à l'arrière-plan, et les Channel Islands par une matinée dégagée.",
         "walk_to_next": {
           "to": "Old Mission Santa Barbara",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 1600,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Fondée en 1786 et seule mission californiennes n'ayant jamais échappé aux mains des Franciscains. La façade aux deux tours est une interprétation de 1820 d'une façade de temple romain de Vitruve - les frères travaillaient à partir d'une illustration de livre, non d'un vrai bâtiment. La visite en accès libre comprend la Serra Chapel d'origine, le cimetière avec les sépultures chumash, et un petit musée dans l'aile du monastère. Approchez depuis Laguna Street en montant pour bénéficier de la révélation complète de la façade encadrée par les Santa Ynez Mountains.",
         "walk_to_next": {
-          "to": "Stearns Wharf",
-          "distance_meters": 2080,
-          "walking_minutes": 26
+          "to": "Stearns Wharf and Santa Barbara Harbor",
+          "transport_mode": "drive",
+          "distance_meters": 4990,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 24
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 32,
+  "last_verified": null
 }

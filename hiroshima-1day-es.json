@@ -1,7 +1,7 @@
 {
   "destination": "Hiroshima",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-08-11T16:31:55.244Z",
   "sources": [
     "wikidata",
@@ -13,7 +13,7 @@
   ],
   "guide_description": "Un día en el centro de Hiroshima, caminando hacia el norte desde el Parque Memorial de la Paz, atravesando la ciudad reconstruida hasta el castillo y terminando frente a una plancha de okonomiyaki. El recorrido completo es llano, compacto y está bien servido por la red de tranvías. Miyajima y el santuario de Itsukushima son la otra razón por la que se viene aquí y necesitan medio día propio, así que la jornada está diseñada para admitir una sustitución antes que una añadidura.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3100,
+  "total_walking_distance_meters": 3190,
   "total_walking_minutes": 39,
   "days": [
     {
@@ -23,7 +23,7 @@
       "neighborhood_focus": "Naka-ku / Parque Memorial de la Paz",
       "neighborhood_description": "El centro de Hiroshima se asienta sobre un delta fluvial, y el Parque Memorial de la Paz ocupa la isla triangular donde se separan los ríos Motoyasu y Ota, antiguamente el barrio comercial más concurrido de la ciudad y situado justo bajo la detonación de 1945. Al norte, la trama urbana se reconstruyó en los años cincuenta en torno a amplios bulevares, con el recinto del castillo y el jardín Shukkei-en a quince minutos a pie. Hondori y Nagarekawa, la calle comercial cubierta y el barrio de ocio nocturno, quedan entre ambos.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
+      "day_walking_distance_meters": 3190,
       "day_walking_minutes": 39,
       "morning": {
         "activity_title": "Hiroshima Peace Memorial Park and Museum",
@@ -41,8 +41,10 @@
         "notes": "Parque Memorial de la Paz y Museo Memorial de la Paz de Hiroshima. Llega a la hora de apertura. El edificio principal del museo se reorganizó en 2019 en torno a objetos personales y testimonios en lugar de maquetas, y no concede tregua alguna; la mayoría de la gente necesita sentarse después, y el propio parque es el lugar indicado para hacerlo. Desde ahí conviene avanzar hacia fuera: el Monumento a la Paz de los Niños cubierto de grullas de papel, el cenotafio alineado de modo que el arco enmarca la cúpula, y la Cúpula Genbaku en el extremo norte, la única estructura que quedó en pie cerca del hipocentro y el elemento inscrito por la UNESCO. La Sala Nacional Memorial de la Paz, al lado, es gratuita, más silenciosa y guarda los nombres y las fotografías de los fallecidos. Los horarios cambian según la temporada y el 6 de agosto se celebra la ceremonia anual con muchísima afluencia, así que confirma los horarios vigentes con el museo antes de organizar la mañana.",
         "walk_to_next": {
           "to": "Hiroshima Castle",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "transport_mode": "walk",
+          "distance_meters": 1800,
+          "travel_minutes": 22,
+          "walking_minutes": 22
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "Castillo de Hiroshima. Lo levantó Mori Terumoto en 1589 sobre las llanuras del delta, y de ahí que se le conozca como el castillo de la carpa y que se alce dentro de un foso ancho en lugar de sobre una colina. La torre del homenaje quedó destruida en 1945 y se reconstruyó en hormigón en 1958; hoy alberga un museo sobre la ciudad-castillo y el periodo samurái, con un mirador en la última planta. Dos cosas del recinto merecen una mirada pausada: un eucalipto y un sauce que sobrevivieron a la explosión y siguen creciendo, y los cimientos excavados del búnker del cuartel general del ejército desde el que se envió el primer parte del bombardeo. Come en Hondori durante el paseo de subida, ya que la oferta dentro del parque es limitada.",
         "walk_to_next": {
           "to": "Okonomimura and Nagarekawa",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "transport_mode": "walk",
+          "distance_meters": 1390,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 39
     }
-  ]
+  ],
+  "total_travel_minutes": 39,
+  "last_verified": null
 }

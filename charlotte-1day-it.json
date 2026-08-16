@@ -1,7 +1,7 @@
 {
   "destination": "Charlotte",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:47:07.898Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Una giornata nel cuore di Uptown Charlotte, che copre il distretto skyline dell'era bancaria della città, il suo migliore museo di storia, una tasca di quartiere vittoriano e il sentiero di arti pubbliche che li unisce. Il complesso è percorribile da un capo all'altro e mescola profondità interna con orientamento esterno.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 770,
+  "total_walking_minutes": 10,
   "days": [
     {
       "day": 1,
@@ -23,26 +23,28 @@
       "neighborhood_focus": "Uptown Charlotte / Fourth Ward",
       "neighborhood_description": "L'Uptown di Charlotte è una griglia compatta di quattro ward che è cresciuta da un incrocio di tribunale coloniale fino a diventare il secondo più grande centro bancario degli Stati Uniti. Fourth Ward, il quadrante nord-occidentale, preserva una tasca di case vittoriane dietro le torri di vetro. L'intero complesso è navigabile a piedi tra il museo di storia, il distretto delle arti e la piazza centrale.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 770,
+      "day_walking_minutes": 10,
       "morning": {
-        "activity_title": "Levine Museum of the New South",
-        "wikidata_qid": "Q6537732",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Levine_Museum_of_the_New_South",
+        "activity_title": "Harvey B. Gantt Center for African-American Arts and Culture",
+        "wikidata_qid": "Q5677720",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harvey_B._Gantt_Center_for_African-American_Arts_%2B_Culture",
         "coordinates": {
-          "lat": 35.2271,
-          "lon": -80.8456
+          "lat": 35.2261,
+          "lon": -80.8441
         },
-        "unesco_designation": null,
-        "duration_minutes": 90,
-        "type": "museum",
+        "duration_minutes": 75,
+        "type": "art_museum",
         "weather_sensitivity": "indoor",
         "optimal_timing": "morning",
-        "notes": "La mostra permanente Cotton Fields to Skyscrapers è la spiegazione più coerente in una singola sala di come il Sud post-Guerra Civile si industrializzò, usando Charlotte come caso di studio. La sezione dedicata ai villaggi dei mulini tessili del Piedmont - dove le famiglie si trasferirono dalle fattorie negli alloggi di proprietà aziendale e operarono una singola macchina per tutta la vita - è inaspettatamente commovente. Iniziate qui prima che il contesto dello skyline acquisti senso.",
+        "notes": "Intitolato al primo sindaco afroamericano di Charlotte e al primo studente afroamericano ammesso alla Clemson University. La collezione permanente documenta la produzione artistica afroamericana delle Carolinas in particolare, non solo a livello nazionale - le sezioni dedicate all'arte popolare e alle trapunte hanno una specificità regionale che le istituzioni più grandi tendono ad appiattire. Situato anche nel campus del Levine Center, il che lo rende una terza tappa naturale se avete il pomeriggio libero.",
+        "unesco_designation": null,
         "walk_to_next": {
-          "to": "Charlotte Museum of History / Hezekiah Alexander House",
-          "distance_meters": 430,
-          "walking_minutes": 5
+          "to": "Bechtler Museum of Modern Art",
+          "transport_mode": "walk",
+          "distance_meters": 230,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "La famiglia Bechtler assemblò il modernismo europeo di metà secolo in Svizzera per decenni prima di donarlo a Charlotte, il che significa che una piccola città americana custodisce bronzi originali di Giacometti, ceramiche di Mirò e un ritratto di Warhol della nonna di Andreas Bechtler. L'edificio è un progetto di Mario Botta; l'atrio della lobby con la sua griglia di lucernari merita un minuto prima di iniziare le gallerie. Situato sul margine meridionale di Levine Center for the Arts, quindi potete passare da qui al Mint Museum Uptown sullo stesso isolato.",
         "walk_to_next": {
-          "to": "Fourth Ward historic neighborhood",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Fourth Ward and Romare Bearden Park",
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -101,28 +105,14 @@
             "distance_meters": 80,
             "walking_minutes": 1
           }
-        },
-        {
-          "activity_title": "Harvey B. Gantt Center for African-American Arts and Culture",
-          "wikidata_qid": "Q5677720",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Harvey_B._Gantt_Center_for_African-American_Arts_%2B_Culture",
-          "coordinates": {
-            "lat": 35.2261,
-            "lon": -80.8441
-          },
-          "neighborhood": "Uptown Charlotte",
-          "duration_minutes": 60,
-          "type": "art_museum",
-          "weather_sensitivity": "indoor",
-          "optimal_timing": "any",
-          "notes": "Intitolato al primo sindaco afroamericano di Charlotte e al primo studente afroamericano ammesso alla Clemson University. La collezione permanente documenta la produzione artistica afroamericana delle Carolinas in particolare, non solo a livello nazionale - le sezioni dedicate all'arte popolare e alle trapunte hanno una specificità regionale che le istituzioni più grandi tendono ad appiattire. Situato anche nel campus del Levine Center, il che lo rende una terza tappa naturale se avete il pomeriggio libero.",
-          "walk_from_main_route": {
-            "from": "Bechtler Museum of Modern Art",
-            "distance_meters": 130,
-            "walking_minutes": 2
-          }
         }
-      ]
+      ],
+      "day_travel_minutes": 10
     }
-  ]
+  ],
+  "needs_retranslation": [
+    "guide_description"
+  ],
+  "total_travel_minutes": 10,
+  "last_verified": null
 }

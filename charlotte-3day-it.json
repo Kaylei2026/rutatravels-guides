@@ -1,7 +1,7 @@
 {
   "destination": "Charlotte",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:48:26.961Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tre giorni alla scoperta del carattere essenziale di Charlotte: il compatto nucleo finanziario di Uptown con i suoi musei e il distretto dell'arena, il vittoriano Fourth Ward e il corridoio artistico di NoDa a nord, e la South End facilmente percorribile a piedi con la sua pista di birrifici e arti. Ogni giorno è geograficamente autonomo e costruisce un quadro coerente di una città che si è reinventata più volte.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5200,
-  "total_walking_minutes": 65,
+  "total_walking_distance_meters": 2190,
+  "total_walking_minutes": 28,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Uptown / Third Ward",
       "neighborhood_description": "Uptown Charlotte è il centro storico originale della città, costruito su due percorsi commerciali nativi americani che divennero Trade Street e Tryon Street. Third Ward, direttamente a sud del nucleo urbano, ospita il principale campus culturale della città, compreso Romare Bearden Park e NASCAR Hall of Fame.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1600,
-      "day_walking_minutes": 20,
+      "day_walking_distance_meters": 1170,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "NASCAR Hall of Fame",
         "wikidata_qid": "Q6971722",
@@ -43,8 +43,10 @@
         "notes": "Acquista i biglietti online per evitare la fila alla biglietteria nei fine settimana affollati. La mostra Glory Road mette in evidenza diciotto auto storiche a grandezza naturale su una sezione di pista ovale in pendenza - cammina lungo la ringhiera esterna e guarda verso il basso per avere la migliore percezione delle proporzioni. Le cabine del simulatore di guida al piano superiore si prenotano velocemente; assicurati un posto non appena entri.",
         "walk_to_next": {
           "to": "Romare Bearden Park",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 470,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -63,7 +65,9 @@
         "notes": "Prende il nome dal collage artist nato a Charlotte i cui lavori sono esposti al MoMA. Il parco delimita il bordo occidentale di Uptown e si collega tramite un ponte pedonale allo Bank of America Stadium. La grande fontana all'estremità meridionale è il riferimento visivo più diretto ai collage a tema acquatico di Bearden - leggi il pannello interpretativo prima di guardare i getti d'acqua e l'effetto diventerà ovvio.",
         "walk_to_next": {
           "to": "Mint Museum Uptown",
+          "transport_mode": "walk",
           "distance_meters": 700,
+          "travel_minutes": 9,
           "walking_minutes": 9
         }
       },
@@ -124,7 +128,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Fourth Ward / NoDa",
       "neighborhood_description": "Fourth Ward è il quartiere residenziale del XIX secolo meglio preservato di Charlotte, immediatamente a nord della griglia di Uptown, con un parco vittoriano al suo centro e la chiesa più antica della città sul suo bordo. NoDa, a due miglia a nord-est lungo North Davidson Street, è l'ex villaggio di fabbriche tessili che è diventato il centro della galeria e della musica di Charlotte.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 420,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Fourth Ward Historic District",
         "wikidata_qid": "Q5459396",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "Inizia la passeggiata a Alexander Park su West Ninth Street, il centro geografico del ward, e procedi a spirale verso l'esterno. Il blocco di North Pine Street tra Seventh e Ninth contiene la concentrazione più fitta di cottage originali Queen Anne e Italianate. La maggior parte delle facciate si affaccia a est, quindi la luce del mattino è la scelta giusta per vedere chiaramente la falegnameria dipinta sui porticati.",
         "walk_to_next": {
-          "to": "St. Peter's Catholic Church",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "to": "St. Peter's Catholic Church, Charlotte",
+          "transport_mode": "walk",
+          "distance_meters": 420,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -171,8 +178,10 @@
         "notes": "La chiesa cattolica più antica di Charlotte, fondata nel 1851. L'attuale struttura in stile Gothic Revival risale al 1893 e si trova all'angolo tra Tryon e Seventh, rendendola l'ancora visiva tra Fourth Ward e Uptown. Le vetrate colorate dell'interno sono di provenienza tedesca dalla costruzione originale e raramente discusse nelle guide cittadine - chiedi alla porta laterale se è chiusa al di fuori degli orari di messa.",
         "walk_to_next": {
           "to": "NoDa Arts District",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "transit",
+          "distance_meters": 2960,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "South End / Dilworth",
       "neighborhood_description": "South End occupa l'antico corridoio industriale lungo South Boulevard, ricostruito negli ultimi due decenni attorno alla linea LYNX light rail nella più densa concentrazione di birrerie, gallerie e architettura di riuso adattivo della città. Dilworth, immediatamente a est, è il primo sobborgo pianificato con tram della città risalente agli anni 1890, con bungalow intatti e una strada principale ombrosa.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1700,
-      "day_walking_minutes": 21,
+      "day_walking_distance_meters": 600,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Charlotte Rail Trail",
         "wikidata_qid": "Q108165019",
@@ -238,9 +248,11 @@
         "optimal_timing": "morning",
         "notes": "Una greenway di 3,5 miglia convertita da un antico corridoio merci CSX, che attraversa il cuore di South End con installazioni di arte pubblica ogni poche centinaia di metri. Iniziate dalla stazione light rail di Bland Street e camminate verso nord in direzione di Uptown - i murales industriali sulle pareti di contenimento sono più concentrati nel primo miglio. Le mattine dei giorni feriali sono significativamente più tranquille rispetto ai fine settimana.",
         "walk_to_next": {
-          "to": "Sycamore Brewing / South End Brewery Row",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Latta Park, Dilworth",
+          "transport_mode": "transit",
+          "distance_meters": 1560,
+          "travel_minutes": 11,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -258,8 +270,10 @@
         "optimal_timing": "any",
         "notes": "Il fulcro di Dilworth, progettato dalla ditta Olmsted nel 1891 come parco terminale per la linea tranviaria di Edward Dilworth Latta. Il lago poco profondo e la volta di querce mature sono insoliti in un quartiere di Charlotte che altrimenti si è densificato significativamente. Entrare da East Park Avenue e percorrere il perimetro per vedere gli alloggi in stile cottage originale degli anni 1890 sui blocchi circostanti.",
         "walk_to_next": {
-          "to": "East Boulevard, Dilworth",
+          "to": "East Boulevard commercial strip, Dilworth",
+          "transport_mode": "walk",
           "distance_meters": 600,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -320,7 +334,10 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 53,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Copenhagen",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:25:03.372Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Copenhagenの本質的な魅力を3日間で巡る：市の行政中心部にある中世の島要塞、北東部のバロック様式の王室地区と運河地区、そしてFrederiksberg宮殿庭園を中心とした緑豊かな西部地区。各日程は地理的にまとまっています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 6110,
-  "total_walking_minutes": 77,
+  "total_walking_distance_meters": 3360,
+  "total_walking_minutes": 42,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Slotsholmen / Indre By",
       "neighborhood_description": "Slotsholmenは運河によって市の他の地域から分離された小さな島で、Christiansborg宮殿とデンマーク国会議事堂があります。周辺のIndre By地区にはCopenhagenで最も古い街路パターンが保存されており、Round TowerやLatin Quarterへも徒歩圏内です。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1190,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Christiansborg Palace",
         "wikidata_qid": "Q331498",
@@ -43,7 +43,9 @@
         "notes": "世界で唯一、政府の三権すべて（議会、最高裁判所、王室接客間）を収容する建物です。王室接客間は有料ですが、タペストリー・ホールだけでも見る価値があります。ここにはMargrethe II女王が依頼したスタイルでデンマークの歴史を描いた15枚の記念碑的なタペストリーが展示されています。宮殿の塔は無料で毎日開放されており、エレベーターで上がって外部テラスを歩けば、市内中心部で最も高い公共展望台からの眺めを楽しめます。",
         "walk_to_next": {
           "to": "National Museum of Denmark",
-          "distance_meters": 350,
+          "transport_mode": "walk",
+          "distance_meters": 310,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -63,8 +65,10 @@
         "notes": "デンマーク最大の博物館で、Christiansborgから運河を挟んだ真向かいにあるバロック様式のPrince's Palaceを占めています。先史時代のコレクションが最大の見どころで、3,400年前の金箔を施した青銅製の祭祀用品である太陽の馬車（Solvognen）は、それだけでスカンジナビア半島で最も注目すべき遺物です。入場無料なので、この一帯全体を雨の日に巡る拠点として自然な選択となります。",
         "walk_to_next": {
           "to": "Round Tower",
-          "distance_meters": 750,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 880,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Frederiksstaden / Nyhavn",
       "neighborhood_description": "Frederiksstadanは18世紀に計画された地区で、Amalienborg Palace Squareを中心とした厳格な八角形の格子状に配置されています。北側はKastellet要塞と港湾地区に、南西側はNyhavnに接続しています。Nyhavnは修復された運河沿いにカラフルな商家が並ぶ地区で、Copenhagenの最も象徴的な景観となっています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2290,
-      "day_walking_minutes": 29,
+      "day_walking_distance_meters": 900,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Amalienborg Palace and Square",
         "wikidata_qid": "Q332683",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "八角形の広場を囲んで配置された4つの同一のロココ様式宮殿で、中央にはFrederik V世の騎馬像が立っています。衛兵交代式はRosenborg Castleから午前11時30分に出発し、正午きっかりにここに到着します。この時間に合わせて訪問する価値があります。Palace Christian VIIIにあるAmalienborg Museumでは王室の居住区画に最も親密にアクセスでき、一翼は現在も王室が実際に使用しています。",
         "walk_to_next": {
-          "to": "The Marble Church (Frederiks Kirke)",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "The Marble Church",
+          "transport_mode": "walk",
+          "distance_meters": 190,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Frederiks Kirkeは建設途中で資金が尽き、完成まで150年を要しました。直径31メートルのドームはスカンジナビアでも最大級の一つです。内部への入場は無料で、夏の週末にはガイド付きのドーム登頂ツアーが実施され、彩色されたドラム部分を間近で見た後、Frederiksstadtの屋根線上の外部歩道に出ることができます。",
         "walk_to_next": {
-          "to": "Kastellet",
-          "distance_meters": 850,
-          "walking_minutes": 11
+          "to": "Nyhavn Canal",
+          "transport_mode": "walk",
+          "distance_meters": 710,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 11
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 11
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Frederiksberg / Vesterbro",
       "neighborhood_description": "Frederiksborgは技術的にはCopenhagenに完全に囲まれた独立した自治体で、丘の上の宮殿と動物園に隣接する正式庭園を中心としています。Vestbroは中央駅に向かって東に延び、2000年代に歓楽街からKodbyenの古い食肉処理場周辺の密度の高いクリエイティブな地区へと変貌しました。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2000,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 1270,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Frederiksberg Gardens and Palace",
         "wikidata_qid": "Q1386444",
@@ -258,9 +268,11 @@
         "optimal_timing": "morning",
         "notes": "運河沿いの丘陵地に広がる32ヘクタールのEnglish風ロマンチック庭園で、手漕ぎボートのレンタルも可能。東斜面にあるChinese Pavilionは1799年に建てられ、Scandinaviaで最も美しいシノワズリ様式の庭園建築の一つ。正門ではなくFrederiksberg Alleから入園し、南側から丘を登って宮殿のテラスに向かうと、眼下に広がる庭園を最高の角度で眺めることができる。",
         "walk_to_next": {
-          "to": "Frederiksberg Palace",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Tivoli Gardens",
+          "transport_mode": "transit",
+          "distance_meters": 3850,
+          "travel_minutes": 16,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "any",
         "notes": "1843年開園の世界で2番目に古い現役遊園地で、観光客向けの後付け施設ではなく、Copenhagenの市民アイデンティティを体現する本物のスポット。Walt DisneyもDisneyland設計前にここを訪れている。Wooden Roller Coasterは1914年製で、世界最古級の現役木製コースターの一つ。午後入園は夕方より安く、夕暮れ時に提灯やイルミネーションが灯る様子を見るため滞在するのがおすすめ。",
         "walk_to_next": {
-          "to": "Kodbyen (Meatpacking District)",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Kodbyen - Copenhagen Meatpacking District",
+          "transport_mode": "walk",
+          "distance_meters": 1270,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 16
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 58,
+  "last_verified": null
 }

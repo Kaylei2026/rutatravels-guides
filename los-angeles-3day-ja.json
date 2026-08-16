@@ -1,7 +1,7 @@
 {
   "destination": "Los Angeles",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:50:38.100Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Los Angelesの必見スポットを3日間で巡るプラン：街のスカイラインを象徴する丘の上の天文台と公園、Downtownの文化と歴史が凝縮されたエリア、そして街が太平洋と出会う海岸沿いのストリップ。各日程は地理的にまとまっており、ほとんどの宿泊施設から30分以内で車でアクセスできます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 1160,
+  "total_walking_minutes": 15,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Griffith Park / Los Feliz",
       "neighborhood_description": "Griffith Parkは、Hollywoodの北東に位置するチャパラル植生に覆われた丘陵地帯4,300エーカー以上を占める、アメリカ最大級の都市公園の一つです。Griffith Observatory、Greek Theatre、そして晴れた日にはSanta Monica Mountainsから太平洋まで見渡せる遮るもののないパノラマビューを楽しめるトレイルネットワークがあります。その麓のLos Felizは、Art Decoのアパートメント棟とVermont Avenueのメインストリートを持つ、歩きやすい20世紀初頭の街並みです。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Griffith Observatory",
         "wikidata_qid": "Q1396488",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "駐車スペースを確保するため午前10時前に到着しましょう。上部天文台駐車場は週末の午前中には満車になり、Vermont Avenueトレイルヘッドからのシャトルバスは往復で20分余計にかかります。南向きのテラスからはLos Angeles Basinの代表的な眺望が楽しめ、晴れた冬や春の朝にはDowntownから海まで格子状の街並みを一望できます。メインドームのZeiss望遠鏡は晴れた夜に無料で利用できます。",
         "walk_to_next": {
-          "to": "Griffith Park trails to the Beacon Hill viewpoint",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Griffith Park",
+          "transport_mode": "drive",
+          "distance_meters": 2820,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -63,8 +65,10 @@
         "notes": "天文台から西向きのBrush CanyonとBeacon Hillトレイルは、メインのHollyridge Trailよりも人通りが少なく、Hollywood Signへの見通しも良好です。看板自体は意図的に間近での撮影が困難になっており、背景の丘陵と合わせた最も美しい構図は天文台テラスからではなく、Canyon Drive終点の展望エリアから望むことができます。",
         "walk_to_next": {
           "to": "The Greek Theatre",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "drive",
+          "distance_meters": 3610,
+          "travel_minutes": 10,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 11
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Downtown Los Angeles / Bunker Hill",
       "neighborhood_description": "Bunker Hillは Downtown Los Angelesの高台にある中心部で、1960年代にVictorian様式の住宅が取り壊され、Walt Disney Concert Hall、Museum of Contemporary Art、Broadを中核とする文化地区として再開発されました。東と南には、歴史あるBroadway回廊とPlazaがあり、全米で最も古い継続営業している劇場街を含む、市内最古の建物群が残されています。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1980,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 820,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Grand Central Market",
         "wikidata_qid": "Q5586748",
@@ -151,7 +156,9 @@
         "notes": "1917年からBroadwayの1階アーケードで継続営業しているこの市場は、Downtownの朝食とコーヒーの事実上の拠点として機能しています。午前9時前に到着すれば、Egg SlutやAna Mariaのカウンター席で待つことなく座れます。Broadwayのファサードには1917年オリジナルのテラコッタ装飾が今も残っており、上階を見上げると現存するタイル看板を見ることができます。",
         "walk_to_next": {
           "to": "Bradbury Building",
+          "transport_mode": "walk",
           "distance_meters": 120,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -171,8 +178,10 @@
         "notes": "1893年建造のオフィスビルで、中央アトリウム（ガラス張りの天窓、装飾鉄工、開放式ケージエレベーター）は米国西部で最も美しいビクトリア朝インテリアの一つです。業務目的でなければ一般入場は1階と2階踊り場まで制限されていますが、5階まで吹き抜けのアトリウム全体を見るには十分です。自然光は南側天窓が完全に照らされる午前中頃がピークで、西側が影に落ちる午後の見学は避けた方が良いでしょう。",
         "walk_to_next": {
           "to": "Walt Disney Concert Hall",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 700,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 11
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Venice / Santa Monica",
       "neighborhood_description": "Los AngelesがPacificと出会う海岸エリアで、Venice CanalsとAbbot Kinney Boulevardから北はSanta Monica PierとPalisades Parkまで広がっています。Veniceは1905年にイタリアの同名都市をモデルにしたテーマパークとして建設されました。Santa Monicaは海辺のリゾート地として発展し、現在は車なしの遊歩道とRoute 66の西の終点となる桟橋を持つ、歩いて回れる都市型ビーチタウンになっています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 340,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Venice Canal Historic District",
         "wikidata_qid": "Q7919619",
@@ -259,8 +269,10 @@
         "notes": "Abbot Kinneyの1905年の開発当初から残る6ブロックの運河で、バンガローが立ち並び、アーチ型の歩道橋で結ばれています。観光客向けのWashington Street側からではなく、Dell Avenueから入ることをお勧めします。EasternとCarroll運河の間の北側区間は静かで、写真を撮る人も少なく、オリジナルのバンガローの雰囲気がより残っています。運河沿いの道路はほとんどが住宅街で狭いため、東から水面に光が差し込む午前10時前の散策がベストです。",
         "walk_to_next": {
           "to": "Venice Beach Boardwalk",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 340,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -279,8 +291,10 @@
         "notes": "ボードウォークはVenice Pierから北にSanta Monicaに向かって約2マイル続き、週末の午後が最も賑やかです。南端にあるMuscle Beach Outdoor Gymは1930年代からの地元の本格的な施設で、観光用の再現ではありません。VeniceのボードウォークからSanta Monicaの自転車道への移り変わりは標示されていませんが見分けがつきます。舗装が専用の自転車レーンになり、露店がビーチバレーコートに変わります。",
         "walk_to_next": {
           "to": "Santa Monica Pier",
-          "distance_meters": 950,
-          "walking_minutes": 12
+          "transport_mode": "drive",
+          "distance_meters": 4990,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     }
-  ]
+  ],
+  "total_travel_minutes": 46,
+  "last_verified": null
 }

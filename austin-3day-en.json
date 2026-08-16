@@ -1,7 +1,7 @@
 {
   "destination": "Austin",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:42:52.305Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days covering Austin's essential characters: the political and entertainment core around the Capitol and Sixth Street, the eccentric and walkable South Congress corridor, and the university-anchored cultural district with its world-class museums. Each day is geographically self-contained.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 2830,
+  "total_walking_minutes": 36,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Downtown / Capitol District",
       "neighborhood_description": "The dense urban center of Austin, anchored at the north by the Texas State Capitol on its commanding hill and descending south through Congress Avenue to the Colorado River. The Sixth Street Entertainment District runs parallel to the east, and the bars and venues that made Austin famous begin warming up by early evening.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 27,
+      "day_walking_distance_meters": 690,
+      "day_walking_minutes": 9,
       "morning": {
         "activity_title": "Texas State Capitol",
         "wikidata_qid": "Q743422",
@@ -43,8 +43,10 @@
         "notes": "Free guided tours run every 30 minutes from the south foyer - they are genuinely informative and access the Senate and House chambers. The building is deliberately seven feet taller than the US Capitol; stand at the center of the rotunda and look straight up at the star to confirm it. The grounds include several monuments worth a slow circuit on the way out.",
         "walk_to_next": {
           "to": "Bullock Texas State History Museum",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "Three floors covering Texas from pre-Columbian settlement through the oil boom and the space program. The first-floor artifacts are the strongest - the bronze star embedded in the entry floor and the giant bronze eagle over the main staircase set the tone. The IMAX theater runs a Texas history film that is surprisingly well-produced and a good recovery from the heat.",
         "walk_to_next": {
-          "to": "Congress Avenue Bridge",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Congress Avenue Bridge bat colony emergence",
+          "transport_mode": "drive",
+          "distance_meters": 2740,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "South Congress / South Austin",
       "neighborhood_description": "South Congress Avenue (SoCo) runs south from the river through an eclectic strip of vintage shops, food trailers, and independently owned hotels that became the physical expression of Keep Austin Weird. Zilker Park sits a few blocks west, stretching along Barton Creek and containing Barton Springs Pool, a natural swimming hole fed by underground aquifers.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1980,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 510,
+      "day_walking_minutes": 6,
       "morning": {
         "activity_title": "Barton Springs Pool",
         "wikidata_qid": "Q2884340",
@@ -151,8 +156,10 @@
         "notes": "A three-acre swimming pool fed by underground springs that hold a constant 68 degrees Fahrenheit year-round - shockingly cold on entry but ideal in Austin summer heat. Arrive before 10am to get a spot on the limestone banks before the weekend crowds arrive. The pool is closed on Thursday mornings for cleaning; check the Parks Department site before going. Sunscreen is not allowed in the water.",
         "walk_to_next": {
           "to": "Zilker Park",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 510,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -171,8 +178,10 @@
         "notes": "Austin's 350-acre central park along the south bank of the Colorado River. The view north from the park's lawn toward the downtown skyline across Town Lake is the defining Austin postcard. The Barton Creek Greenbelt trailhead is accessible from the southwest corner of the park for anyone who wants to extend into hill country terrain.",
         "walk_to_next": {
           "to": "South Congress Avenue",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "drive",
+          "distance_meters": 3820,
+          "travel_minutes": 10,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 28
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "University of Texas / Hyde Park",
       "neighborhood_description": "The University of Texas at Austin campus covers 433 acres immediately north of the Capitol and contains several museums and landmark buildings in its own right. Hyde Park, the Victorian-era neighborhood east of the campus, is Austin's most intact pre-car residential district, with bungalows and oaks lining avenues that run to independent coffeehouses and bookstores.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1630,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "LBJ Presidential Library",
         "wikidata_qid": "Q6464737",
@@ -238,9 +248,11 @@
         "optimal_timing": "morning",
         "notes": "One of the strongest presidential libraries in the country, largely because the LBJ years encompassed the Civil Rights Act, the Great Society, and Vietnam simultaneously - the documentary record is staggering. The reproduction of the Oval Office as it looked in 1968 is on the top floor and is more detailed than most. Admission is free. The reading room on the fourth floor overlooks the campus and is worth a look even if you skip the exhibit floors.",
         "walk_to_next": {
-          "to": "University of Texas at Austin campus",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "University of Texas at Austin - Main Mall and Tower",
+          "transport_mode": "walk",
+          "distance_meters": 530,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -259,8 +271,10 @@
         "notes": "The Main Mall runs south from the UT Tower to the South Mall fountain in a formal axis of live oaks - walk the center of the mall looking north for the intended composition. The Tower observation deck is open for tours on a reservation basis through the UT visitor center; book online in advance as spots fill quickly. The Littlefield Fountain at the south end of the mall is an ambitious 1933 bronze monument that anchors the ensemble.",
         "walk_to_next": {
           "to": "Harry Ransom Center",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 1100,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 17
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 55,
+  "last_verified": null
 }

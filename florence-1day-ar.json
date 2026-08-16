@@ -1,7 +1,7 @@
 {
   "destination": "Florence",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:19:45.495Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد يغطي القلب الكثيف في العصور الوسطى والنهضة في Florence: مجمع الكاتدرائية، والقلب المدني لـ Signoria، وأعظم تركيز للرسم في عصر النهضة في العالم داخل Uffizi. ينتهي اليوم عبر Arno على تل Oltrarno للاستمتاع بالمنظر الذي يوضح كيف تتناسب المدينة بأكملها معاً.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2040,
+  "total_walking_minutes": 26,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Centro Storico / Oltrarno",
       "neighborhood_description": "شبكة الشوارع في العصور الوسطى من وسط Florence مضغوطة في أقل من كيلومتر مربع واحد، مع الكاتدرائية والمعمودية في الطرف الشمالي، و Palazzo Vecchio و Uffizi في المركز المدني، و Ponte Vecchio يمتد جنوباً عبر Arno إلى تل Oltrarno. يقع كل نصب تذكاري رئيسي تقريباً على بعد مسافة عشر دقائق سيراً على الأقدام من أي نصب تذكاري آخر.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2040,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Florence Cathedral and Brunelleschi's Dome",
         "wikidata_qid": "Q15972",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "احجز صعود القبة عبر موقع Opera del Duomo قبل وصولك - تمتلئ الحجوزات قبل أيام عديدة في موسم الذروة والتذكرة المدمجة تغطي المعمودية و campanile جيوتو والمتحف والقبو. اختر صعود القبة بدلاً من campanile إذا كنت ستختار واحداً فقط - المنظر الداخلي لجدارية الحساب الأخير لفاساري عن قرب من الممر حول الأسطوانة الداخلية شيء لا تعده أي صورة. الصعود يتطلب 463 درجة بدون مصعد؛ المقطع الأخير بين غلافي القبة ضيق بما يكفي لتشعر بالهندسة المعمارية.",
         "walk_to_next": {
-          "to": "Piazza della Signoria",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Uffizi Gallery",
+          "transport_mode": "walk",
+          "distance_meters": 800,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "احجز دخول موقوتة عبر الإنترنت قبل وقت طويل من الزيارة - معرض Uffizi لديه حدود صارمة للسعة والدخول بدون حجز في الأيام المزدحمة قد يعني انتظار ساعتين على loggia. في زيارة واحدة، ركز مسارك على الأجنحة 10-14 لـ Botticelli (Birth of Venus و Primavera يشغلان نفس الجناح وهما أكبر مما يتوقعه معظم الناس)، ثم اتبع الممر نحو أجنحة Caravaggio في اتجاه المخرج. مقهى التراس على السطح يطل مباشرة على برج Palazzo Vecchio وهو نادراً ما يكون مكتظاً حتى عندما تكون المعارض أدناه ممتلئة.",
         "walk_to_next": {
-          "to": "Ponte Vecchio",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "to": "Piazzale Michelangelo at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1240,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 26,
+  "last_verified": null
 }

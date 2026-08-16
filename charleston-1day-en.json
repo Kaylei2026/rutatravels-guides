@@ -1,7 +1,7 @@
 {
   "destination": "Charleston",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:45:14.410Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day covering the dense historic peninsula of Charleston: antebellum streets, the country's oldest public garden, a waterfront battery, and the French Quarter's church-dominated skyline. The entire cluster is walkable within a half-mile radius.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 1250,
+  "total_walking_minutes": 16,
   "days": [
     {
       "day": 1,
@@ -23,10 +23,10 @@
       "neighborhood_focus": "South of Broad / Battery / French Quarter",
       "neighborhood_description": "The southern tip of the Charleston peninsula, where the Ashley and Cooper rivers meet the harbor. Grand antebellum mansions face the water along the Battery, the French Quarter preserves the city's colonial grid, and Broad Street divides old money from older history. Nearly everything of significance is within a fifteen-minute walk.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1250,
+      "day_walking_minutes": 16,
       "morning": {
-        "activity_title": "Magnolia Cemetery - replaced with: The Battery and White Point Garden",
+        "activity_title": "The Battery and White Point Garden",
         "wikidata_qid": "Q7977003",
         "wikipedia_url": "https://en.wikipedia.org/wiki/White_Point_Garden",
         "coordinates": {
@@ -41,8 +41,10 @@
         "notes": "The seawall promenade where the Ashley and Cooper rivers converge into Charleston Harbor - Fort Sumter is visible three miles out on a clear morning. Walk the full perimeter of the park rather than just the Battery-side cannon row; the south-facing Murray Boulevard side gives the widest harbor panorama and avoids the tour-group concentration near the Confederate monuments. Morning light comes off the water from the east.",
         "walk_to_next": {
           "to": "Nathaniel Russell House",
-          "distance_meters": 390,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 470,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "An 1808 Federal-style mansion considered the finest example of neoclassical domestic architecture in the American South. The interior's signature feature is a freestanding elliptical staircase that rises three stories with no visible means of support - visible from the entry hall without buying a ticket, but the full tour earns the second-floor rooms and their original plasterwork ceilings. The walled garden on the south side is often skipped and worth the extra five minutes.",
         "walk_to_next": {
-          "to": "St. Michael's Church",
-          "distance_meters": 420,
-          "walking_minutes": 5
+          "to": "St. Philip's Church",
+          "transport_mode": "walk",
+          "distance_meters": 780,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     }
-  ]
+  ],
+  "total_travel_minutes": 16,
+  "last_verified": null
 }

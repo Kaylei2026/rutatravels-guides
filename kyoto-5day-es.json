@@ -1,7 +1,7 @@
 {
   "destination": "Kyoto",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:30:48.586Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Cinco días estructurados para recorrer los polos geográficos y culturales distintivos de Kyoto sin repetir rutas. Las colinas orientales (Higashiyama, Gion) ocupan los primeros dos días, los valles de bambú y templos de Arashiyama el tercero, la montaña santuario de Fushimi el cuarto, y el circuito de templos del norte con su pabellón dorado y distrito textil el quinto. Cada día es una caminata independiente.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 19500,
-  "total_walking_minutes": 244,
+  "total_walking_distance_meters": 5870,
+  "total_walking_minutes": 73,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Higashiyama",
       "neighborhood_description": "Las estribaciones orientales de Kyoto albergan el paisaje urbano histórico mejor conservado de la ciudad: callejones empedrados, casas tradicionales machiya de madera, y una cadena de templos y santuarios que asciende por la ladera desde Kiyomizudera al sur hasta Chion-in al norte. Todo el distrito se puede recorrer a pie en una sola mañana.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3800,
-      "day_walking_minutes": 48,
+      "day_walking_distance_meters": 1260,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Kiyomizudera",
         "wikidata_qid": "Q645237",
@@ -50,8 +50,10 @@
         "notes": "Llega a la hora de apertura (6am en verano, verifica horarios estacionales) para tener la terraza del salón principal casi para ti solo: la terraza que se proyecta sobre la ladera sostenida por 139 pilares de madera es una de las vistas más fotografiadas de Japón. Las tres corrientes de la cascada Otowa debajo del salón principal representan longevidad, amor y éxito académico; los visitantes hacen fila para beber de cada una con una copa de mango largo. Acércate por Chawan-zaka (Callejón de la Tetera) en lugar del Kiyomizuzaka principal para una caminata cuesta arriba más tranquila pasando tiendas de cerámica.",
         "walk_to_next": {
           "to": "Sannenzaka and Ninenzaka",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 820,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -70,8 +72,10 @@
         "notes": "Dos callejones empedrados conectados que descienden desde Kiyomizudera a través de algunas de las casas tradicionales de madera de la era Meiji mejor conservadas de Kyoto. La superstición local de que tropezar en estos escalones trae tres años de mala suerte hace que las multitudes se muevan con inusual cuidado. La curva entre los dos callejones, flanqueada por un pequeño bosquecillo de bambú y casas de té, es donde se posicionan la mayoría de los fotógrafos: llega antes de las 9am para esa toma sin grupos de turistas llenando el encuadre.",
         "walk_to_next": {
           "to": "Kodai-ji",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 440,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -131,7 +135,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 2,
@@ -140,8 +145,8 @@
       "neighborhood_focus": "Gion / Okazaki",
       "neighborhood_description": "El norte de Higashiyama hace transición desde la ladera de los templos hacia Gion, el distrito de entretenimiento de geishas intacto de Kyoto, luego sigue el canal Shirakawa hacia el norte hasta el Philosopher's Path y el conjunto de museos y santuarios de Okazaki. Una sola caminata larga conecta los tres.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 4200,
-      "day_walking_minutes": 53,
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
       "morning": {
         "activity_title": "Fushimi Inari-taisha - morning walk",
         "wikidata_qid": "Q654418",
@@ -157,9 +162,11 @@
         "optimal_timing": "morning",
         "notes": "Los miles de puertas torii bermellón que suben por la montaña son la imagen más reconocible de Kyoto. Las puertas inferiores siempre están abarrotadas; camina al menos 30 minutos hasta la intersección Yotsutsuji (aproximadamente a la mitad) donde las multitudes disminuyen y se abre la vista sobre la ciudad. Las puertas son dedicadas por empresas y familias - cada una tiene el nombre del donante y la fecha en la cara posterior, que nadie fotografía. Abierto 24 horas; llega antes de las 7am para tener las mil puertas inferiores prácticamente para ti solo.",
         "walk_to_next": {
-          "to": "Gion Hanamachi",
-          "distance_meters": 2800,
-          "walking_minutes": 35
+          "to": "Gion Hanamachi - Shirakawa and Hanamikoji",
+          "transport_mode": "transit",
+          "distance_meters": 5490,
+          "travel_minutes": 19,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -177,9 +184,11 @@
         "optimal_timing": "any",
         "notes": "Camina primero a lo largo del canal Shirakawa (el arroyo estrecho bordeado de cerezos y casas de té ochaya), luego dirígete al sur hacia Hanamikoji-dori - la calle del distrito de geishas mejor preservada de Japón, con fachadas ininterrumpidas de okiya (casas de geishas) de madera oscura y faroles. No fotografíes ni obstruyas a las maiko o geiko si te las encuentras en la calle; es genuinamente inoportuno y los letreros por todo el distrito lo hacen explícito. La mejor luz en Hanamikoji cae al atardecer.",
         "walk_to_next": {
-          "to": "Philosopher's Path",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Heian Shrine and Okazaki",
+          "transport_mode": "walk",
+          "distance_meters": 2000,
+          "travel_minutes": 25,
+          "walking_minutes": 25
         }
       },
       "evening": {
@@ -219,7 +228,8 @@
             "walking_minutes": 15
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 44
     },
     {
       "day": 3,
@@ -228,8 +238,8 @@
       "neighborhood_focus": "Arashiyama / Sagano",
       "neighborhood_description": "Los suburbios occidentales de Kyoto donde el río Hozu se encuentra con las montañas Arashiyama. El distrito se agrupa en el bosque de bambú, el jardín de Tenryu-ji, el parque ribereño Nakanoshima, y una cadena de templos más pequeños que se extienden hacia el norte en el valle Sagano. Todo el conjunto es accesible desde la estación Arashiyama.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4100,
-      "day_walking_minutes": 51,
+      "day_walking_distance_meters": 940,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Arashiyama Bamboo Grove",
         "wikidata_qid": "Q2298936",
@@ -246,7 +256,9 @@
         "notes": "El sendero de 500 metros que atraviesa el denso bambú moso al norte de Tenryu-ji es verdaderamente impresionante, pero toma menos de 30 minutos caminar de extremo a extremo. El sonido del viento entre los tallos está realmente en la lista oficial japonesa de los 100 paisajes sonoros imprescindibles. Llega antes de las 7:30am - para las 9am el sendero está abarrotado de visitantes. La luz que se filtra por el dosel es dramáticamente mejor en la primera hora después del amanecer, y el bosque está abierto las 24 horas.",
         "walk_to_next": {
           "to": "Tenryu-ji",
-          "distance_meters": 350,
+          "transport_mode": "walk",
+          "distance_meters": 330,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -270,9 +282,11 @@
         "optimal_timing": "any",
         "notes": "El templo principal de la escuela Rinzai Tenryu, con el mejor jardín en Arashiyama - un jardín con estanque diseñado en el siglo XIV por el monje Muso Soseki utilizando las montañas Arashiyama como paisaje prestado. Compra el boleto solo para el jardín (más barato) a menos que quieras ver el techo del dragón en la sala Hatto, que requiere el boleto más caro. El circuito del jardín toma aproximadamente 40 minutos; las azaleas en la orilla norte del estanque están en su mejor momento a finales de abril.",
         "walk_to_next": {
-          "to": "Jojakko-ji",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Okochi Sanso Villa and Garden",
+          "transport_mode": "walk",
+          "distance_meters": 610,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -332,7 +346,8 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     },
     {
       "day": 4,
@@ -341,8 +356,8 @@
       "neighborhood_focus": "Fushimi",
       "neighborhood_description": "El distrito sur de Kyoto que combina el santuario de montaña de Fushimi Inari con la histórica ciudad productora de sake de Fushimi, cuyos canales alimentaron la industria durante siglos. Los dos sitios están separados por un corto viaje en tren y juntos forman un día completo sin superposición con el centro de la ciudad.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4600,
-      "day_walking_minutes": 58,
+      "day_walking_distance_meters": 200,
+      "day_walking_minutes": 2,
       "morning": {
         "activity_title": "Fushimi Inari-taisha - full mountain circuit",
         "wikidata_qid": "Q654418",
@@ -358,9 +373,11 @@
         "optimal_timing": "morning",
         "notes": "El circuito completo de dos horas hasta la cumbre Ichinomine a 233 metros y de regreso abarca aproximadamente 4 kilómetros y pasa por corredores de túneles casi continuos de puertas, sub-santuarios y guardianes de zorro de piedra (kitsune, el mensajero de Inari). La montaña superior está casi siempre silenciosa incluso al mediodía. Cada puerta es una donación comercial - las puertas supervivientes más antiguas están en las laderas superiores donde los reemplazos son menos frecuentes. Trae agua ya que no hay tiendas más allá del cruce Yotsutsuji.",
         "walk_to_next": {
-          "to": "Fushimi Momoyama - Gekkeikan Okura Sake Museum",
-          "distance_meters": 2200,
-          "walking_minutes": 28
+          "to": "Gekkeikan Okura Sake Museum",
+          "transport_mode": "transit",
+          "distance_meters": 4790,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -378,9 +395,11 @@
         "optimal_timing": "any",
         "notes": "Dentro de un edificio de cervecería Gekkeikan de 1909 en el canal Fushimi - la cervecería ha funcionado continuamente desde 1637. La colección abarca 2,000 artefactos relacionados con el sake incluyendo recipientes de fermentación, barriles de entrega y publicidad de la era Meiji. La entrada incluye una copa de sake para degustar. El canal exterior (Horikawa) está bordeado de sauces y paredes de cervecería de sake, y la posada Teradaya cercana es donde Sakamoto Ryoma sobrevivió a un intento de asesinato en 1866.",
         "walk_to_next": {
-          "to": "Fushimi Momoyama riverbank",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "to": "Fushimi canal walk and Teradaya",
+          "transport_mode": "walk",
+          "distance_meters": 200,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -420,7 +439,8 @@
             "walking_minutes": 44
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     },
     {
       "day": 5,
@@ -429,8 +449,8 @@
       "neighborhood_focus": "Nishijin / Kita-ku",
       "neighborhood_description": "El cuadrante noroeste de Kyoto concentra los tres templos más famosos de la ciudad alta - Kinkaku-ji (el Pabellón Dorado), Ryoan-ji (el jardín zen de rocas por excelencia), y Ninna-ji (un complejo imperial declarado Patrimonio de la Humanidad por la UNESCO) - todos conectados por una sola carretera. Al sur de estos, el distrito textil de Nishijin ha producido las mejores telas de seda de Kyoto durante cinco siglos.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 1470,
+      "day_walking_minutes": 18,
       "morning": {
         "activity_title": "Kinkaku-ji",
         "wikidata_qid": "Q210108",
@@ -452,8 +472,10 @@
         "notes": "El pabellón de tres pisos cubierto de pan de oro reflejado en Kyoko-chi (Estanque Espejo) es el sitio más visitado de Kyoto - llega a la apertura (9am) para verlo antes de que el sendero se congestione. El edificio actual es una reconstrucción de 1955 después de que un monje quemara el original en 1950 (el evento que Mishima ficcionalizó en El Templo del Pabellón Dorado). El sendero único de dirección obligatoria significa que no puedes demorarte en la vista principal - hazte a la derecha del sendero y deja pasar a los grupos para mantener el ángulo.",
         "walk_to_next": {
           "to": "Ryoan-ji",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "transport_mode": "walk",
+          "distance_meters": 1470,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "afternoon": {
@@ -477,8 +499,10 @@
         "notes": "El karesansui (jardín seco de rocas) del siglo XV de 15 piedras dispuestas en grava blanca rastrillada es el jardín zen más estudiado de Japón y posiblemente del mundo. El diseño es intencional: desde cualquier posición sentada en la plataforma de observación, exactamente 14 de las 15 piedras son visibles. Siéntate en la plataforma en lugar de fotografiar inmediatamente - el silencio y la geometría toman unos minutos en registrarse. El gran jardín del estanque Kyoyochi que rodea los edificios del templo es frecuentemente pasado por alto y vale diez minutos.",
         "walk_to_next": {
           "to": "Nishijin Textile Center",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "transport_mode": "transit",
+          "distance_meters": 3200,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -538,7 +562,10 @@
             "walking_minutes": 11
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 124,
+  "last_verified": null
 }

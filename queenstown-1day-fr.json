@@ -1,7 +1,7 @@
 {
   "destination": "Queenstown",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:18:38.723Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée couvrant l'expérience essentielle de Queenstown : le centre-ville en bord de lac, le panorama des Remarkables depuis Bob's Peak, et le quartier historique de la ruée vers l'or d'Arrowtown en excursion de l'après-midi. La journée progresse de la promenade au niveau du lac à un point de vue en hauteur et se termine par la plus belle bande de coucher de soleil de la ville.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 1890,
+  "total_walking_minutes": 23,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Queenstown Town Centre / Waterfront / Bob's Peak",
       "neighborhood_description": "Queenstown s'étend sur une étroite péninsule qui s'avance dans le Lake Wakatipu, dominée par la steep Queenstown Hill. Le centre-ville est compact et accessible à pied, avec la promenade en bord de mer, Steamer Wharf, et la base de la télécabine tous à quelques minutes l'un de l'autre. Bob's Peak s'élève à 450 mètres directement au-dessus de la ville et offre le panorama définitif du lac et de la chaîne des Remarkables.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1890,
+      "day_walking_minutes": 23,
       "morning": {
         "activity_title": "Queenstown Gardens",
         "wikidata_qid": "Q7270237",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "Les jardins occupent toute la péninsule de tombolo qui abrite le port de plaisance de la ville. Parcourez le sentier du périmètre extérieur dans le sens des aiguilles d'une montre - la côte orientale fait face directement à Cecil Peak et offre la vue la plus claire et dégagée de la chaîne des Remarkables, avec l'eau lisse avant que le vent de l'après-midi se lève. Les sapins de Douglas de l'intérieur datent de la plantation des années 1870 et figurent parmi les plus grands de l'Île du Sud.",
         "walk_to_next": {
-          "to": "Queenstown Waterfront and Steamer Wharf",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Skyline Queenstown Gondola and Bob's Peak",
+          "transport_mode": "walk",
+          "distance_meters": 990,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "La base du téléphérique est à courte distance à pied en montée depuis l'extrémité Beach Street du centre-ville - suivez Brecon Street plutôt que la zone touristique pour l'atteindre sans la foule. En haut, marchez vers la gauche en passant par la piste de luge jusqu'au point de vue du promontoire, qui se trouve à environ 100 mètres au-delà du point où la plupart des visiteurs s'arrêtent - l'arc complet du Lake Wakatipu des Remarkables à Cecil Peak s'ouvre de là. Si les nuages recouvrent les Remarkables, attendez 20 minutes; la vallée se dégage fréquemment en milieu de journée.",
         "walk_to_next": {
-          "to": "Steamer Wharf",
-          "distance_meters": 910,
-          "walking_minutes": 12
+          "to": "Steamer Wharf and Queenstown Bay waterfront",
+          "transport_mode": "walk",
+          "distance_meters": 900,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 16
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 23
     }
-  ]
+  ],
+  "total_travel_minutes": 23,
+  "last_verified": null
 }

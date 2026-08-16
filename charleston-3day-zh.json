@@ -1,7 +1,7 @@
 {
   "destination": "Charleston",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:46:33.218Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "三天游览Charleston的核心特色:老钱云集半岛尖端的战前街景和港湾风光、French Quarter密集的殖民地和宗教中心,以及上半岛的博物馆园区和市场区。每一天都是地理位置独立的。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 2290,
+  "total_walking_minutes": 28,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "South of Broad / The Battery",
       "neighborhood_description": "Charleston半岛的最南端,Ashley河和Cooper河在此交汇。这是城市最早开发的区域 - 密集的18和19世纪单栋建筑和双层门廊网格,面向港湾。The Battery海滨城墙是这个社区的标志性公共边界。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 430,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "The Battery and White Point Garden",
         "wikidata_qid": "Q4896551",
@@ -43,8 +43,10 @@
         "notes": "从Murray Boulevard东侧沿着海滨长廊漫步至尖端，在热浪增强之前抵达White Point Garden。Fort Sumter隔着港口向东南方向清晰可见，花园中大炮和纪念碑的位置刻意朝向它。East Battery沿线的战前豪宅从海滨一侧观看效果最佳，而不是从人行道上。",
         "walk_to_next": {
           "to": "Edmondston-Alston House",
+          "transport_mode": "walk",
           "distance_meters": 200,
-          "walking_minutes": 3
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -63,8 +65,10 @@
         "notes": "East Battery上为数不多的战前豪宅之一，开放导览式室内参观。二楼的piazza面向港口，1861年4月12日，P.G.T. Beauregard将军在此观看了Fort Sumter的炮击，这里的讲解员对该家族的战争经历描述得异常详细，使其成为比通用型房屋博物馆更好的原始历史参观地点。",
         "walk_to_next": {
           "to": "Nathaniel Russell House",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 230,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 5
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "French Quarter / Church Street",
       "neighborhood_description": "位于Broad Street北侧的历史中心区，始建于17世纪晚期，由法国胡格诺派难民和英国圣公会教徒在相邻的几个街区内建立各自的宗教社区。Church Street是美国保存最完好的殖民地时期街景之一。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1680,
-      "day_walking_minutes": 21,
+      "day_walking_distance_meters": 550,
+      "day_walking_minutes": 7,
       "morning": {
         "activity_title": "St. Philip's Episcopal Church",
         "wikidata_qid": "Q7596492",
@@ -151,7 +156,9 @@
         "notes": "这座建筑建于1838年，但教区本身是卡罗来纳州最古老的英国国教堂区，成立于1680年。这座尖塔曾在超过一个世纪的时间里为进入Charleston Harbor的船只提供导航标志，也出现在殖民时期的沿海地图上。街道两侧的墓地包含了殖民地时期和战前Charleston社会的代表性截面，John C. Calhoun最初埋葬在这里。",
         "walk_to_next": {
           "to": "French Huguenot Church",
+          "transport_mode": "walk",
           "distance_meters": 210,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -171,8 +178,10 @@
         "notes": "美国仅有的一座仍按照法国胡格诺派礼仪传统进行礼拜的教堂。当前的哥特式复兴建筑建于1845年，但教区可追溯到1681年，该地点自1687年以来一直保持活跃。内部按照胡格诺派神学原则刻意保持简朴，值得花几分钟进去看看，与一个街区外的英国国教堂的宏伟形成对比。",
         "walk_to_next": {
           "to": "Old Exchange and Provost Dungeon",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 340,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 7
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Market District / Upper King Street",
       "neighborhood_description": "半岛中部的商业和市民中心区域，以historic City Market棚厦建筑群为锚点，向北沿着King Street延伸。这里是两个世纪以来商人、自由的黑人工匠和被奴役的工人每天交汇的地方，现在也是最优秀的历史解读博物馆集中的地区。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2480,
-      "day_walking_minutes": 31,
+      "day_walking_distance_meters": 1310,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Charleston Museum",
         "wikidata_qid": "Q4972748",
@@ -259,7 +269,9 @@
         "notes": "这座博物馆成立于1773年，是美国历史最悠久的博物馆。自然历史和装饰艺术收藏品质量上乘，但最值得参观的具体原因是H.L. Hunley潜艇复制品和关于邦联潜艇计划的解读材料，详细程度足以令人惊讶，即使你已经了解大致历史也不例外。如果计划参观附近的Aiken-Rhett和Joseph Manigault住宅，购买组合票可以节省费用。",
         "walk_to_next": {
           "to": "Joseph Manigault House",
-          "distance_meters": 260,
+          "transport_mode": "walk",
+          "distance_meters": 240,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -279,7 +291,9 @@
         "notes": "这是一座建于1803年的亚当风格住宅，由美国首批本土培养的建筑师之一Gabriel Manigault设计。近年来，该建筑的解读内容得到了显著更新，将奴役人口维持家务运作的经历置于体验的中心。花园中的小门廊寺庙是一座独立建筑，可通过场地进入，是该市少见的保存完好的联邦时期装饰性花园建筑范例。",
         "walk_to_next": {
           "to": "Charleston City Market",
-          "distance_meters": 1040,
+          "transport_mode": "walk",
+          "distance_meters": 1070,
+          "travel_minutes": 13,
           "walking_minutes": 13
         }
       },
@@ -340,7 +354,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     }
-  ]
+  ],
+  "total_travel_minutes": 28,
+  "last_verified": null
 }

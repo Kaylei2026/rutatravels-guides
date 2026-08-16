@@ -1,7 +1,7 @@
 {
   "destination": "Amalfi Coast",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:08:29.062Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد يركز على النواتين التاريخيتين التوأمتين لـ Amalfi و Atrani - كاتدرائية الجمهورية البحرية في العصور الوسطى، وودي مطاحن الورق الخفي، وأصغر جارة لها ملتصقة حول الرأس. يجلس Ravello في الأعلى كملاذ اختياري للارتفاع. يبدأ اليوم من ساحة الكاتدرائية ويمتد خارجاً على طول الساحل وصعوداً إلى التلال.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 1570,
+  "total_walking_minutes": 20,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Amalfi Town and Atrani",
       "neighborhood_description": "كانت Amalfi ذات يوم قوة بحرية تنافس Venice و Genoa، وتضرب عملتها الخاصة وتكتب قوانين بحرية لا تزال مرجعية حتى اليوم. تنضغط المدينة في وادٍ ضيق حيث يلتقي تيار Canneto ببحر Tyrrhenian، مع أزقة تنتهي بسلالم ومطاحن ورق معلقة على جدران الشق. Atrani، على بعد مسيرة خمس دقائق شرقاً حول الجرف، هي من الناحية الفنية بلدية منفصلة - الأصغر في إيطاليا من حيث المساحة - وتحتفظ بطابع قرية صيد عامل خالية في الغالب من التدفق السياحي الرئيسي.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 1570,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Amalfi Cathedral",
         "wikidata_qid": "Q840287",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "توصل قبل الساعة 9:30 صباحًا قبل أن تبدأ حافلات الجولات السياحية من نابولي وسورينتو بتفريغ ركابها - حيث تتحول Piazza del Duomo من ساحة هادئة إلى اختناق بشري في دقائق معدودة من وصول أول حافلة. الزخرفة الهندسية العربية - النورماندية المتشابكة على الواجهة فريدة من نوعها في جنوب إيطاليا وتعكس التجارة المباشرة لأمالفي مع العالم العربي في القرنين العاشر والحادي عشر. تشمل تذكرة الدخول الجناح تحت الأرضي من القرن التاسع لديير سانت أندرو، حيث يتمتع برنامج الفسيفساء بحفظ أفضل من أي شيء في الكنيسة العلوية.",
         "walk_to_next": {
-          "to": "Valle dei Mulini - Paper Mill Valley",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Valle dei Mulini - Museo della Carta",
+          "transport_mode": "walk",
+          "distance_meters": 330,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "امشِ مباشرة صعودًا على Via Lorenzo d'Amalfi بجانب الدومو واستمر - الشارع يضيق ليصير جورج وادي Canneto والهواء يبرد ملحوظًا في غضون ثلاث دقائق. يقع متحف الورق في طاحونة من القرن الثالث عشر لا تزال تستخدم المطاقع الهيدروليكية الأصلية؛ العرض العملي يستغرق حوالي عشرين دقيقة وهو السبب الأكثر تحديدًا لزيارة وادي أمالفي بدلاً من الساحل فقط. أنتجت أمالفي بعضًا من أقدم الورق الأوروبي، وتشرح الطاحونة التكنولوجيا عن طريق الانتقال العربي بدلاً من الصيني المباشر.",
         "walk_to_next": {
-          "to": "Atrani",
-          "distance_meters": 680,
-          "walking_minutes": 9
+          "to": "Atrani - Piazza Umberto I and Santa Maria Maddalena",
+          "transport_mode": "walk",
+          "distance_meters": 1240,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     }
-  ]
+  ],
+  "total_travel_minutes": 20,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "San Sebastian",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:18:03.777Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days covering San Sebastian's essential character: the pintxos-dense Old Town on the bay, the Belle Epoque promenade and riverfront of the city center, and the quieter western beaches and hilltop panoramas. Each day is geographically self-contained and walkable.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 6110,
-  "total_walking_minutes": 77,
+  "total_walking_distance_meters": 1740,
+  "total_walking_minutes": 22,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Parte Vieja",
       "neighborhood_description": "San Sebastian's old quarter is a tight grid of narrow streets rebuilt in the early 19th century after a fire. It is bordered by the Monte Urgull promontory to the north, La Concha bay to the west, and the mouth of the Urumea river to the east. Every ground floor seems to be a bar; every bar counter carries a landscape of pintxos.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 290,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Monte Urgull and Castillo de la Mota",
         "wikidata_qid": "Q1953383",
@@ -43,8 +43,10 @@
         "notes": "Climb from the Parte Vieja side via the staircase off Plaza de Zuloaga rather than the longer path from the port - it takes about 15 minutes and deposits you directly at the castle battlements. The Cristo de la Mota statue on the summit gives a clear 360-degree view of La Concha bay, the two flanking hills, and the full sweep of the Cantabrian coast. The interior of the castle holds a small free museum on the city's military history.",
         "walk_to_next": {
           "to": "Basilica de Santa Maria del Coro",
-          "distance_meters": 480,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 170,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "The churrigueresque facade on Calle Mayor is one of the most theatrical baroque frontages in the Basque Country - look for the sculpted anchors and maritime motifs worked into the stonework, a reference to the city's seafaring identity. The interior is cooler and quieter than the street outside, and the painted vaults are easy to miss if you keep your eyes at counter level.",
         "walk_to_next": {
-          "to": "Plaza de la Constitucion",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Plaza de la Constitucion and pintxos crawl",
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 4
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Centro / Gros / La Concha",
       "neighborhood_description": "The 19th-century grid expansion of San Sebastian wraps the south shore of La Concha bay and steps across the Urumea river into Gros, the younger neighbourhood fronting Zurriola beach. The Paseo de la Concha promenade, the Miramar Palace gardens, and the colonnaded balustrades were all built during the Spanish royal family's summer residency.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2340,
-      "day_walking_minutes": 30,
+      "day_walking_distance_meters": 960,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Paseo de la Concha",
         "wikidata_qid": "Q2360286",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "Walk the full promenade from the old town end to the Miramar headland rather than turning back - the iron balustrades with their scallop-shell cutouts were designed by Jose Goicoa in the 1880s and are the visual signature of the bay. The floating pontoon platform anchored offshore is the Isla de Santa Clara ferry landing; early morning the beach is used exclusively by local swimmers doing laps parallel to the shore.",
         "walk_to_next": {
-          "to": "Palacio de Miramar",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Palacio de Miramar and gardens",
+          "transport_mode": "walk",
+          "distance_meters": 960,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "The Queen Regent Maria Cristina had this English-style country house built in 1893 on the headland separating La Concha from Ondarreta beach. The palace interior is not publicly accessible but the gardens are free and the headland position gives simultaneous views of both bays. The formal rose garden on the lower terrace faces directly onto the open Atlantic.",
         "walk_to_next": {
-          "to": "Kursaal Congress Centre",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "to": "Kursaal Congress Centre and Zurriola Beach",
+          "transport_mode": "drive",
+          "distance_meters": 2970,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Monte Igueldo / Ondarreta",
       "neighborhood_description": "The western promontory closing off La Concha bay, accessed via the quiet Ondarreta residential beach. Monte Igueldo was developed in the early 20th century as a leisure hill - funicular, vintage amusement park, and a belvedere tower that gives the definitive view of the full bay arc. The Peine del Viento sculptures at the base of the hill are among the most celebrated public artworks in Spain.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 490,
+      "day_walking_minutes": 6,
       "morning": {
         "activity_title": "Peine del Viento",
         "wikidata_qid": "Q1419528",
@@ -238,9 +248,11 @@
         "optimal_timing": "morning",
         "notes": "Eduardo Chillida's three rusted steel sculptures are anchored directly into the wave-cut rock platform at the base of Monte Igueldo - arrive at high tide or during a west swell when the sea surges through the blowholes cut into the rocks, shooting jets of water into the air. The surrounding terraced walkway was designed by Luis Pena Ganchegui; the integrated relationship between sculpture, geology, and sea is the point, not just the objects in isolation.",
         "walk_to_next": {
-          "to": "Funicular de Igueldo",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Funicular de Igueldo and Monte Igueldo summit",
+          "transport_mode": "walk",
+          "distance_meters": 190,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -258,9 +270,11 @@
         "optimal_timing": "any",
         "notes": "The funicular has been running since 1912 and the wooden cars are original - the ride up takes about four minutes and the cars pass each other at the midpoint. At the top, walk past the vintage amusement park rides to the stone belvedere tower at the far end of the summit for the unobstructed view: La Concha arc, both flanking hills, the old town grid, and on clear days the French Basque coast east toward Biarritz. The amusement park is low-key and mostly aimed at children, but the roller coaster built into the hillside dates from 1928.",
         "walk_to_next": {
-          "to": "Ondarreta Beach",
-          "distance_meters": 860,
-          "walking_minutes": 11
+          "to": "Ondarreta Beach and Paseo Eduard Chillida",
+          "transport_mode": "walk",
+          "distance_meters": 300,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 6
     }
-  ]
+  ],
+  "total_travel_minutes": 31,
+  "last_verified": null
 }

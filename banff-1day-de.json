@@ -1,7 +1,7 @@
 {
   "destination": "Banff",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:20:31.252Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Ein Tag in Banff mit Fokus auf den Boden des Bow Valley und die Grate darüber - eine enge Schleife von den heißen Quellen der Stadt zum See, der tausend Postkarten inspiriert hat, mit einem Gondel-Gipfel dazwischen. Die Attraktion entwickelt sich von der Thermalgeschichte über die alpine Geologie bis zum ikonischen türkisfarbenen Ufer.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Banff Townsite / Bow Valley",
       "neighborhood_description": "Der ursprüngliche Grund, warum Kanada 1885 seinen ersten Nationalpark gründete, war eine Reihe von Thermalquellen an der Flanke des Sulphur Mountain. Die Stadt, die um sie herum entstanden ist, liegt auf 1.383 Metern in einem engen Rocky-Mountain-Tal, umgeben von Kalksteinspitzen auf allen Seiten. Innerhalb eines Radius von 15 Kilometern befinden sich die gründenden heißen Quellen, eine per Gondel erreichbare Grat-Wanderung und Lake Louise - einer der meistbesuchten Gletscherseen in Nordamerika.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Cave and Basin National Historic Site",
         "wikidata_qid": "Q1054005",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Die 1883 entdeckte Schwefelquelle, die direkt zur Gründung des kanadischen Nationalparksystems führte. Der Gehweg um das Außenbecken dauert etwa 20 Minuten und zeigt den Lebensraum der endemischen Banff Springs Schnecke - eine Art, die nirgendwo sonst auf der Erde vorkommt. Der Höhlentunnel selbst ist kurz, aber der Schwefelgeruch und die niedrige tropfende Decke machen ihn zum atmosphärischsten Ort in der Townsite. Kommen Sie früh an, bevor Bustouren um 10 Uhr eintreffen.",
         "walk_to_next": {
-          "to": "Banff Gondola and Sulphur Mountain",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Banff Gondola and Sulphur Mountain Summit Ridge",
+          "transport_mode": "drive",
+          "distance_meters": 1680,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -71,8 +73,10 @@
         "notes": "Die Gondel bringt Sie auf 2.281 Metern zum Grat des Sulphur Mountain. Gehen Sie nach Norden entlang des Gehwegs zur restaurierten Kosmische-Strahlung-Station von 1903 auf dem Sanson Peak - etwa 15 Minuten hin und zurück mit erheblichem Höhengewinn auch vom Gondelterminal aus, also passen Sie Ihr eigenes Tempo an. Die 360-Grad-Aussicht umfasst das Bow Valley, das Stadtgitter direkt darunter und den Cascade Mountain im Norden. Buchen Sie Gondeltickets online, um die Warteschlange am Terminal zu umgehen, die in der Hochsaison bis zu 45 Minuten dauern kann.",
         "walk_to_next": {
           "to": "Lake Louise",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "transport_mode": "drive",
+          "distance_meters": 79600,
+          "travel_minutes": 78,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 14
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 85
     }
-  ]
+  ],
+  "total_travel_minutes": 85,
+  "last_verified": null
 }

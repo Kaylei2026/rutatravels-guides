@@ -1,7 +1,7 @@
 {
   "destination": "Paris",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "五天时间游览巴黎的精华景点，加上艺术气息浓厚的北部地区和知识氛围浓郁的左岸。每一天的行程在地理位置上都相对独立 - 可根据天气、时差调整或酒店位置来选择游览顺序。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 9100,
-  "total_walking_minutes": 119,
+  "total_walking_distance_meters": 9410,
+  "total_walking_minutes": 117,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Île de la Cité / Le Marais",
       "neighborhood_description": "Île de la Cité 是巴黎在地理和历史上的中心 - 原始的高卢罗马人在塞纳河岛屿上的定居点。位于河流东岸的 Le Marais 是中世纪犹太人聚居区，逃过了19世纪奥斯曼的大规模拆除，保留了狭窄的街道和贵族宅邸。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1450,
-      "day_walking_minutes": 19,
+      "day_walking_distance_meters": 2110,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Sainte-Chapelle",
         "wikidata_qid": "Q193517",
@@ -50,8 +50,10 @@
         "notes": "路易九世在13世纪建造的皇家礼拜堂，用来供奉荆棘冠。跳过下层礼拜堂直接上楼 - 十五扇彩色玻璃窗高耸十五米，讲述了大部分的圣经故事，早晨东向玫瑰窗透入的阳光是欧洲最强烈的哥特式光线体验。位于Palais de Justice建筑群内部，因此入口处Boulevard du Palais的门闸需要进行安全检查。",
         "walk_to_next": {
           "to": "Notre-Dame de Paris",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 580,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -74,9 +76,11 @@
         "optimal_timing": "any",
         "notes": "在2019年火灾后于2024年12月重新开放。入场免费但需要通过教堂官方网站提前预订定时门票，每天名额有限。火灾后修复的内部是两个多世纪以来最干净的样子 - 清洁后的石灰石呈现几乎是黄色而非火灾前记忆中的煤灰色。宝藏室和钟楼攀登需要另外购买门票。",
         "walk_to_next": {
-          "to": "Place des Vosges",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Place des Vosges and Le Marais wandering",
+          "transport_mode": "walk",
+          "distance_meters": 1530,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "evening": {
@@ -136,7 +140,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 2,
@@ -145,8 +150,8 @@
       "neighborhood_focus": "Louvre / Tuileries / 1st arrondissement",
       "neighborhood_description": "巴黎的中心皇家区域,由 Louvre 的东翼界定,向西延伸至 Tuileries 和协和广场(Place de la Concorde)。这个布局在四个世纪内精心设计,形成了一条从中世纪王宫到现代凯旋门的单一仪式轴线。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 2000,
+      "day_walking_minutes": 25,
       "morning": {
         "activity_title": "Louvre Museum",
         "wikidata_qid": "Q188709",
@@ -167,9 +172,11 @@
         "optimal_timing": "morning",
         "notes": "在线预订限时门票 - 现场购票已经很少见，金字塔前的队伍会浪费一小时。在三个展厅中选择两个，不要全部参观；试图看遍所有展品是初次访客的经典错误。大多数游客优先选择Denon展厅（蒙娜丽莎、意大利文艺复兴、希腊雕塑）和Sully展厅（埃及文物、法国绘画）。周二闭馆。",
         "walk_to_next": {
-          "to": "Tuileries Garden",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Tuileries Garden and Place de la Concorde",
+          "transport_mode": "walk",
+          "distance_meters": 1050,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "afternoon": {
@@ -192,9 +199,11 @@
         "optimal_timing": "any",
         "notes": "Le Nôtre设计的正式花园，建于1664年 - 与凡尔赛宫出自同一位设计师，采用相同的几何布局。散布在中央林荫道上的Maillol青铜雕像都是原作。向西步行至Place de la Concorde可以看到方尖碑，以及一路延伸到Arc de Triomphe的Champs-Élysées长景观。",
         "walk_to_next": {
-          "to": "Palais-Royal",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Palais-Royal gardens and arcades",
+          "transport_mode": "walk",
+          "distance_meters": 950,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -254,7 +263,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 25
     },
     {
       "day": 3,
@@ -263,8 +273,8 @@
       "neighborhood_focus": "7th arrondissement",
       "neighborhood_description": "这座宏伟的左岸地区在18和19世纪建成，用作法国军事展示和1889年世博会的舞台。宽阔的仪式广场、镀金圆顶纪念碑，以及地球上被拍摄最多的建筑。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 1890,
+      "day_walking_minutes": 24,
       "morning": {
         "activity_title": "Eiffel Tower",
         "wikidata_qid": "Q243",
@@ -280,9 +290,11 @@
         "optimal_timing": "morning",
         "notes": "提前数周在线预订登顶电梯 - 现场买票在旺季几乎不可能。楼梯票到二层更便宜,排队更少,而且气氛可说更有味道。从二层的景观实际上更适合辨别方位;登顶只是为了拍照。早上最好从Trocadéro出发,先拍明信片角度的照片,然后从下面和对面走过去。",
         "walk_to_next": {
-          "to": "Champ de Mars",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Champ de Mars and Rue Cler",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -300,9 +312,11 @@
         "optimal_timing": "any",
         "notes": "从Eiffel Tower向南延伸到École Militaire的长草坪 - 原本设计作阅兵场,现在是野餐公园。向东几个街区,Rue Cler是城市现存最好的传统市集街之一 - 行人专用道,两边是奶酪店、肉铺和蔬果摊位,游客比Rue Montorgueil少。",
         "walk_to_next": {
-          "to": "Les Invalides",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Les Invalides and Napoleon's Tomb",
+          "transport_mode": "walk",
+          "distance_meters": 1330,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -342,7 +356,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 24
     },
     {
       "day": 4,
@@ -351,8 +366,8 @@
       "neighborhood_focus": "18th arrondissement",
       "neighborhood_description": "巴黎北部的山顶村庄，1860年被巴黎吞并，但从未被完全同化 - 狭窄的小巷、藤蔓覆盖的小屋、城市中最后一座仍在运营的风车，以及坐落在巴黎最高点的Sacré-Cœur圣殿。山脚下的Pigalle是19世纪的娱乐区，曾孕育了图卢兹 - 劳特雷克。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 1120,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Sacré-Cœur Basilica",
         "wikidata_qid": "Q207986",
@@ -368,8 +383,10 @@
         "optimal_timing": "morning",
         "notes": "坐落在Butte Montmartre山顶的白色石灰华圣殿 - 建造之初（1875-1914年）因是巴黎公社之后的保守赎罪之举而备受争议，如今已成为全球摄影的热门地点。入场免费。地下室和圆顶攀登需要单独购票；圆顶观景台是巴黎最佳全景观点之一，不过坡度比外观看起来要陡。最佳方式是乘坐下方的缆车；走楼梯也可以，但会很累。",
         "walk_to_next": {
-          "to": "Place du Tertre",
-          "distance_meters": 250,
+          "to": "Place du Tertre and Montmartre village",
+          "transport_mode": "walk",
+          "distance_meters": 240,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -388,9 +405,11 @@
         "optimal_timing": "any",
         "notes": "露天肖像画家广场 - 游客众多且引以为傲，但周围街道才是真正的Montmartre。向西步行经过Église Saint-Pierre（比Sacré-Cœur早800年），朝Rue Lepic方向走，可以看到巴黎最后一座仍在运营的风车（Moulin de la Galette，由雷诺阿作画）以及梵高与哥哥Theo住过的54号小屋。",
         "walk_to_next": {
-          "to": "Moulin Rouge / Pigalle",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Moulin Rouge and Pigalle",
+          "transport_mode": "walk",
+          "distance_meters": 880,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -450,7 +469,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 5,
@@ -459,8 +479,8 @@
       "neighborhood_focus": "5th / 6th arrondissement",
       "neighborhood_description": "塞纳河南岸的左岸，以中世纪的Sorbonne和17世纪的文学沙龙为特征，这些沙龙三个世纪以来锚定了法国的知识生活。Sartre、Beauvoir和Hemingway工作过的咖啡馆仍然存在，大多数已成为昂贵的旅游景点，但书店、花园和博物馆序列仍然是真正的吸引力所在。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1850,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 2290,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Musée d'Orsay",
         "wikidata_qid": "Q83410",
@@ -481,9 +501,11 @@
         "optimal_timing": "morning",
         "notes": "世界上最重要的印象派和后印象派收藏，收藏在一座改建的1900年Beaux-Arts火车站内。直接前往五楼欣赏Monet、Renoir、Degas、Van Gogh和Cézanne的作品 - 这正是大多数游客前来的原因。五楼巨大的装饰时钟窗户框出Sacré-Cœur的景观，是这座建筑最具代表性的拍照地点。周一闭馆。",
         "walk_to_next": {
-          "to": "Saint-Germain-des-Prés",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Saint-Germain-des-Prés Church and quarter",
+          "transport_mode": "walk",
+          "distance_meters": 1160,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -502,8 +524,10 @@
         "notes": "巴黎最古老的教堂（6世纪建成，现存建筑主要来自11世纪），也是左岸知识精英聚集地的历史中心。西门上方的罗曼式塔楼是这座城市保存最久的建筑之一。Café de Flore和Les Deux Magots咖啡馆面对着教堂坐落在广场对面 - 适合以游客价格喝咖啡和感受文学气息，但不太适合正餐。",
         "walk_to_next": {
           "to": "Luxembourg Gardens",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 1130,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -563,7 +587,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     }
-  ]
+  ],
+  "total_travel_minutes": 117,
+  "last_verified": null
 }

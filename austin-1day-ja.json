@@ -1,7 +1,7 @@
 {
   "destination": "Austin",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:41:35.510Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Austin のウォーカブルなダウンタウンコアに1日を費やしましょう。Texas State Capitol とその敷地、Congress Avenue 回廊、South Congress 橋のコウモリ群生地、そして Sixth Street のライブミュージックストリップが含まれます。朝の市民歴史から夕暮れ時の街の象徴的なアウトドアスペクタクルへと進みます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 670,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown / Capitol District / Sixth Street",
       "neighborhood_description": "Austin のダウンタウンは単一の南北軸である Congress Avenue に沿って組織されており、Colorado River の南から Texas State Capitol の北まで走っています。Capitol の敷地、Bullock Texas State History Museum、および Sixth Street のホンキートンクブロックはすべてお互い1キロメートル以内にあり、ここはアメリカの珍しいダウンタウンであり、散歩することの価値があります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 670,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Texas State Capitol",
         "wikidata_qid": "Q816649",
@@ -41,8 +41,10 @@
         "notes": "無料のガイド付きツアーは平日の午前8時30分から順次、南側のロビーを出発します。予約は不要です。回転室の「ささやきギャラリー」効果は本物です。床に埋め込まれた星の真下に立って静かに話しかけると、反対側の壁の下に立っている人がはっきりと聞こえます。この建物は意図的に米国議会議事堂より7フィート高く設計されています。北側に回り込んで、裏の芝生から丸天井を見上げると、最も邪魔のない眺めが楽しめます。",
         "walk_to_next": {
           "to": "Bullock Texas State History Museum",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "テキサスを統治した3つの旗、スペイン、メキシコ、アメリカを中心に組織された3階建ての施設です。1階の常設ギャラリーには、Stephen F. Austin の元の土地助成金文書と、1995年に Matagorda Bay で発見された1686年のフランスの難船 La Belle の回収された船体部分が展示されています。時間に余裕がなければ IMAX はスキップしてください。常設コレクションの方が入場料を払う価値があります。",
         "walk_to_next": {
-          "to": "Congress Avenue Bridge",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "to": "Congress Avenue Bridge bat colony",
+          "transport_mode": "drive",
+          "distance_meters": 2890,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 17
     }
-  ]
+  ],
+  "total_travel_minutes": 17,
+  "last_verified": null
 }

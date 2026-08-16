@@ -1,7 +1,7 @@
 {
   "destination": "Chicago",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:53:26.241Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "在Chicago湖滨文化脊梁度过一天--Loop的建筑峡谷、Grant Park和Millennium Park的纪念性开放空间，以及作为整个区域核心的Art Institute。地理位置紧凑，完全可以步行游览，是了解Chicago重要性的最佳单日行程。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3200,
-  "total_walking_minutes": 40,
+  "total_walking_distance_meters": 1190,
+  "total_walking_minutes": 15,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "The Loop / Grant Park / Millennium Park",
       "neighborhood_description": "Loop是Chicago的中央商务区，因环绕其周围的高架铁路线而得名，这里汇聚了世界上一些最重要的早期摩天大楼。其东侧边界延伸至Grant Park和Millennium Park，这片广阔的湖滨开放区域犹如城市的前院，而Art Institute则坐落在其中心位置。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 1190,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Art Institute of Chicago",
         "wikidata_qid": "Q239303",
@@ -41,8 +41,10 @@
         "notes": "从Michigan Avenue进入，在旅行团到达之前直接上楼到二楼的印象派画廊--Seurat的作品、《夜鹰》和《大碗岛的星期天下午》都悬挂在这里，中午前房间还比较好逛。2009年由Renzo Piano增建的Modern Wing通过Monroe Street上的人行天桥直接连通Millennium Park--把这里作为出口，不用原路返回Michigan Avenue。",
         "walk_to_next": {
           "to": "Millennium Park and Cloud Gate",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Anish Kapoor的Cloud Gate雕塑--Chicago人都叫它Bean--坐落在AT&T Plaza，以扭曲的全景反射着天际线，从下方直视其凹陷的\"肚脐\"实际上更有趣。相邻的由Jaume Plensa设计的Crown Fountain是两座15米高的玻璃砖塔，投影着视频人脸并定期喷水，是美国最成功的城市公共艺术作品之一。向北走过Jay Pritzker Pavilion--Frank Gehry设计的露天音乐台--到达BP Bridge，这是他唯一的桥梁设计，可以欣赏到公园内最佳的无遮挡天际线景观。",
         "walk_to_next": {
-          "to": "Chicago Riverwalk and Michigan Avenue Bridge",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Chicago Riverwalk and the Michigan Avenue Bridge",
+          "transport_mode": "walk",
+          "distance_meters": 740,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     }
-  ]
+  ],
+  "total_travel_minutes": 15,
+  "last_verified": null
 }

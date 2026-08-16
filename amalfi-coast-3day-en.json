@@ -1,7 +1,7 @@
 {
   "destination": "Amalfi Coast",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:10:01.128Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days along the Amalfi Coast covering its three distinct characters: the medieval maritime republic at the center, the vertical fishing-village glamour of the western coast, and the aristocratic hilltop gardens above the sea. Each cluster is geographically self-contained and connected by ferry or coastal road.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 5460,
-  "total_walking_minutes": 68,
+  "total_walking_distance_meters": 2150,
+  "total_walking_minutes": 26,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Amalfi and Atrani",
       "neighborhood_description": "Amalfi was one of the four great maritime republics of medieval Italy, trading with Constantinople and North Africa long before Venice rose to prominence. Today the town is compressed into the mouth of the Valle dei Mulini, with its Arab-Norman cathedral dominating the main piazza. Atrani, a five-minute walk east around the headland, is a genuine working village that most day-trippers entirely miss.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1620,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Amalfi Cathedral",
         "wikidata_qid": "Q1074077",
@@ -47,9 +47,11 @@
         "optimal_timing": "morning",
         "notes": "Arrive before 9:30am when the ferry day-trippers from Positano and Salerno flood the piazza. The 62-step staircase facade is Norman-Arab-Byzantine in style - a hybrid that reflects Amalfi's trading networks across the medieval Mediterranean. The entry ticket includes the Chiostro del Paradiso, a 13th-century cloister with interlaced Arab arches, and the crypt of Saint Andrew. The bronze doors were cast in Constantinople around 1066.",
         "walk_to_next": {
-          "to": "Valle dei Mulini",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Valle dei Mulini - Paper Museum",
+          "transport_mode": "walk",
+          "distance_meters": 320,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -67,9 +69,11 @@
         "optimal_timing": "any",
         "notes": "Amalfi produced some of the earliest European paper in the 13th century and this working mill in the Valle dei Mulini still demonstrates the process using the original water-hammer system. The walk up the valley from Piazza Duomo takes about ten minutes through a narrow gorge that is genuinely cool on a hot day - useful in July and August. The museum is small but the demonstration is specific and not available anywhere else on the coast.",
         "walk_to_next": {
-          "to": "Atrani",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Atrani village and Piazza Umberto I",
+          "transport_mode": "walk",
+          "distance_meters": 1300,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -134,7 +138,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     },
     {
       "day": 2,
@@ -143,8 +148,8 @@
       "neighborhood_focus": "Positano and Praiano",
       "neighborhood_description": "Positano is the most photographed village on the coast, its pastel houses cascading down a near-vertical cliff to a black-sand beach. The crowds are real but manageable before 11am and after 5pm. Praiano, three kilometers east along the Nastro Azzurro, is smaller, quieter, and sits higher on the cliff with a different angle on the sea - the place Positano visitors drive past without stopping.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 110,
+      "day_walking_minutes": 1,
       "morning": {
         "activity_title": "Positano - Chiesa di Santa Maria Assunta",
         "wikidata_qid": "Q3895833",
@@ -165,9 +170,11 @@
         "optimal_timing": "morning",
         "notes": "The majolica-tiled dome visible in every photograph of Positano is this church, sitting just above the beach. Inside is a 13th-century Byzantine icon of the Black Madonna, the object around which the entire village's founding legend turns. Go early - the church is small and the interior is dark and cool. The walk down from the main road to the church through the village staircase alleys is the best introduction to Positano's spatial logic.",
         "walk_to_next": {
-          "to": "Spiaggia Grande - Positano",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Spiaggia Grande and the Positano cliffside",
+          "transport_mode": "walk",
+          "distance_meters": 110,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -190,9 +197,11 @@
         "optimal_timing": "any",
         "notes": "The beach itself is crowded and the sun beds expensive - the free section is at the far eastern end near the ferry dock. The more rewarding afternoon activity is climbing back up through the village via Via dei Mulini and Via Cristoforo Colombo rather than the main Via Pasitea. These narrower staircases pass through working residential layers of Positano that the boutique strip never shows.",
         "walk_to_next": {
-          "to": "Praiano",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Praiano and Marina di Praia cove",
+          "transport_mode": "drive",
+          "distance_meters": 5850,
+          "travel_minutes": 13,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -237,7 +246,8 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 3,
@@ -246,8 +256,8 @@
       "neighborhood_focus": "Ravello",
       "neighborhood_description": "Ravello sits on a ridge above the Valle del Dragone, accessible by a winding road from Atrani or by bus from Amalfi. The town was a Norman feudal capital and later a refuge for Wagner, DH Lawrence, and Gore Vidal. Its two great villas - Rufolo and Cimbrone - have gardens that project over the cliff edge with unobstructed views across the Tyrrhenian sea. The town itself is small enough to cover entirely on foot.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1690,
-      "day_walking_minutes": 21,
+      "day_walking_distance_meters": 420,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Villa Rufolo",
         "wikidata_qid": "Q1093662",
@@ -269,8 +279,10 @@
         "notes": "Built in the 13th century by a Ravello merchant family wealthy enough to bankroll three popes, the villa was ruined and overgrown by the 19th century when Scottish botanist Francis Neville Reid restored it. Wagner visited in 1880 and declared the Moorish courtyard was the garden of Klingsor from Parsifal - the festival held here every summer is named for that visit. Go early before the tour buses arrive at 10am; the tower is the best single viewpoint and gets crowded fast.",
         "walk_to_next": {
           "to": "Ravello Cathedral",
-          "distance_meters": 120,
-          "walking_minutes": 2
+          "transport_mode": "walk",
+          "distance_meters": 80,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -293,9 +305,11 @@
         "optimal_timing": "any",
         "notes": "Founded in 1086 and rebuilt several times since - the facade is a 1930s reconstruction, but the interior holds two 12th-century marble ambos that are among the finest examples of Romanesque decorative carving in southern Italy. The ambo on the right, commissioned by Nicola Rufolo in 1272, features mosaic-inlaid columns supported by six lions and a carved relief of Jonah and the whale that reads almost as proto-Gothic sculpture.",
         "walk_to_next": {
-          "to": "Villa Cimbrone",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Villa Cimbrone - Terrace of Infinity",
+          "transport_mode": "walk",
+          "distance_meters": 340,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -360,7 +374,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 5
     }
-  ]
+  ],
+  "total_travel_minutes": 39,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Singapore",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:38:50.654Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "一日游行程涵盖殖民地时期的市民中心和Marina Bay滨水区，这是新加坡历史和建筑的脊梁，从头到尾都可步行游览，融合了19世纪的英式街区与21世纪的花园和天际线，彰显了现代新加坡的特色。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5070,
-  "total_walking_minutes": 63,
+  "total_walking_distance_meters": 670,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Civic District / Marina Bay",
       "neighborhood_description": "从Bras Basah Road向南延伸至Marina Bay滨水区的这段街道集中了新加坡最密集的殖民地时期纪念碑、莱佛士时代的市政建筑，以及21世纪填海开发项目，正是这些项目使这座城市国家闻名于世。几乎所有景点都通过有盖走廊或短距离的露天路径相连，即使在热带酷热中也易于游览。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 5070,
-      "day_walking_minutes": 63,
+      "day_walking_distance_meters": 670,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "National Museum of Singapore",
         "wikidata_qid": "Q1264489",
@@ -41,8 +41,10 @@
         "notes": "新加坡最古老的博物馆，坐落在1887年的殖民地建筑内，以其标志性的绿色圆顶而闻名。新加坡历史展廊展现了从14世纪新加坡贸易港口到日本占领再到独立的完整历史脉络 - 战争时期的展厅以其对占领期间平民苦难的坦诚描写而独树一帜。在上午10点开门时到达，这样可以在学生团队到来前参观。W Architects设计的玻璃圆形大厅延伸部分连接了新旧展厅，从建筑角度来说本身就值得特意前往参观。",
         "walk_to_next": {
           "to": "Fort Canning Park",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "morning",
         "notes": "莱佛士在这座山丘上建造了他的第一座平房，英国司令部地堡也仍然存在于地下，1942年新加坡向日本投降就发生在这里 - Battle Box博物馆位于地堡内部，需要单独购票。山顶还矗立着Keramat of Iskandar Shah，这座纪念碑标志着古代新加坡王国最后统治者的坟墓。从Armenian Church这一侧的Hill Street入口上山可以获得最多的树荫遮挡；靠近山顶的基督教公墓中的1791年墓碑比下方大多数殖民地建筑的历史都要久远。",
         "walk_to_next": {
-          "to": "Gardens by the Bay",
-          "distance_meters": 2730,
-          "walking_minutes": 34
+          "to": "Gardens by the Bay - Supertree Grove and OCBC Skyway",
+          "transport_mode": "transit",
+          "distance_meters": 3250,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 18
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 22,
+  "last_verified": null
 }

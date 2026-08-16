@@ -1,7 +1,7 @@
 {
   "destination": "Kyoto",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:28:46.173Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "三天游览京都的核心对比景观：东山的石板寺庙走廊、嵯峨野的竹林与河流地带，以及以伏见稻荷为中心的神社 - 市场轴线。每个区域地理位置相对独立，步行游览不需要往返。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 10400,
-  "total_walking_minutes": 130,
+  "total_walking_distance_meters": 2330,
+  "total_walking_minutes": 30,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Higashiyama",
       "neighborhood_description": "这个东部山麓地区比京都其他任何地方都更好地保留了前现代京都的风貌。保存完好的町家传统民居沿着二年坂和三年坂石板小巷排列，从南边的清水寺连接到北边的知恩院和祇园艺妓区，形成一条不间断的步行路线。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1160,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Kiyomizudera",
         "wikidata_qid": "Q503496",
@@ -47,9 +47,11 @@
         "optimal_timing": "morning",
         "notes": "在早上8点之前到达 - 寺庙早上6点开放,延伸到林地山坡上的主要木制舞台在最初两个小时内确实很安静。从公交车站沿着茶碗坂(茶壶巷)向上走的路线两旁都是陶瓷和陶器店,此时都还没有开门,这意味着攀登是平静的。从舞台向回看向山谷对面的三层塔楼能拍到该建筑群最好的照片。",
         "walk_to_next": {
-          "to": "Ninenzaka and Sannenzaka",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "to": "Ninenzaka and Sannenzaka stone lanes",
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -67,8 +69,10 @@
         "optimal_timing": "any",
         "notes": "两条保存完好的江户时期石铺路从Kiyomizudera向北穿过受保护的老街区。踩到Ninenzaka会带来两年坏运气的迷信说法(ninen意为两年)让一些游客在湿润的石头上小心翼翼行走 - 下雨时路面很滑,值得注意。保存最好的町屋立面位于Sannenzaka的上弯处;主弯道之前右侧的小巷有一排传统工艺坊,大多数游客都会走过而不会注意。",
         "walk_to_next": {
-          "to": "Kodaiji",
-          "distance_meters": 450,
+          "to": "Kodaiji and the lantern-lit evening garden",
+          "transport_mode": "walk",
+          "distance_meters": 470,
+          "travel_minutes": 6,
           "walking_minutes": 6
         }
       },
@@ -129,7 +133,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -138,8 +143,8 @@
       "neighborhood_focus": "Arashiyama / Sagano",
       "neighborhood_description": "Oi河弯曲流经的西部地区，河流被森林覆盖的山丘挡住。竹林、Tenryuji的花园和Togetsukyo桥在几百米范围内；较为安静的Sagano小径向北延伸，通向较小的寺庙和游客明显稀少的时段。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3500,
-      "day_walking_minutes": 44,
+      "day_walking_distance_meters": 1170,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Arashiyama Bamboo Grove",
         "wikidata_qid": "Q578450",
@@ -156,7 +161,9 @@
         "notes": "竹林小径仅长400米，这往往出乎大多数游客的意料。应在早上7点30分前到达，以便在9点开始聚集人群之前漫步其中。竹子在风中发出的声响是任何照片都无法传达的感官体验，在清晨游客大巴还未到达时最能听到这种声音。竹林位于Tenryuji后门的正北方，因此从这一侧进入花园，从南侧离开，可以避免往返奔波。",
         "walk_to_next": {
           "to": "Tenryuji",
+          "transport_mode": "walk",
           "distance_meters": 300,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -180,9 +187,11 @@
         "optimal_timing": "any",
         "notes": "这里的花园由Muso Soseki在1345年左右设计，至今本质上保持完整 - 采用借景（shakkei）手法将Arashiyama群山作为背景，因此花园的特色会根据季节和时间完全改变。从南侧观景台的长椅上，中心池塘同时映照着群山和主厅。门票分为两种：一种仅供游览花园，一种包括主厅内部；对于大多数参观来说，只买花园票就足够了。",
         "walk_to_next": {
-          "to": "Togetsukyo Bridge",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Togetsukyo Bridge and riverside",
+          "transport_mode": "walk",
+          "distance_meters": 870,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -242,7 +251,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -251,8 +261,8 @@
       "neighborhood_focus": "Fushimi / Nishiki",
       "neighborhood_description": "南部弧线将Fushimi Inari的朱红色鸟居隧道与沿Horikawa运河的伏见酒厂连接起来,然后返回中央京都的Nishiki室内市场。地理位置分散,但由单条铁路线连接,使得游览路线清晰有序。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3000,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Fushimi Inari-taisha",
         "wikidata_qid": "Q464405",
@@ -268,9 +278,11 @@
         "optimal_timing": "morning",
         "notes": "这座神社全天开放，免费参观。建议在上午7点前到达，这样可以在京都站的游客团队抵达前游览下方的鸟居隧道。京都站距离这里仅七分钟车程。大多数游客只拍摄前15分钟的路程就离开了。登顶稻荷山需要约90分钟，过了四辻交叉口后，鸟居密度迅速降低，那里可以欣赏到京都南部的景色。这个交叉口是大多数游客的实际折返点，从山脚下上来约需30分钟。",
         "walk_to_next": {
-          "to": "Fushimi sake district",
-          "distance_meters": 1800,
-          "walking_minutes": 22
+          "to": "Fushimi sake district and Gekkeikan Okura Museum",
+          "transport_mode": "transit",
+          "distance_meters": 4230,
+          "travel_minutes": 16,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -289,8 +301,10 @@
         "notes": "伏见自17世纪以来就是清酒酿造中心，得益于来自桃山山丘的特别软的地下水。月桂冠大仓纪念馆占据了一座1909年的酿酒厂，展示了400年的清酒生产工具，门票价格不贵且包括品酒。堀川运河沿着酿酒厂延伸，两侧排列着老旧的酒库；杨柳掩映的从月读桥到酒之庄桥的浴道步行是氛围最浓厚的路段。",
         "walk_to_next": {
           "to": "Nishiki Market",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "drive",
+          "distance_meters": 9760,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -350,7 +364,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 34
     }
-  ]
+  ],
+  "total_travel_minutes": 64,
+  "last_verified": null
 }

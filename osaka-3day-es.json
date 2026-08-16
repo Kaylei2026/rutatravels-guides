@@ -1,7 +1,7 @@
 {
   "destination": "Osaka",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-08-11T16:28:41.507Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tres días siguiendo la propia división norte-sur de Osaka. El primero va del castillo hacia el oeste, río abajo por las islas fluviales, hasta Kita, la mitad corporativa y de grandes almacenes de la ciudad. El segundo se queda íntegramente en Minami, donde están la comida y el neón. El tercero recorre los barrios meridionales más antiguos, desde el primer templo budista de Estado de Japón hasta una torre de 1912 y el edificio más alto del país. Osaka se disfruta comiendo a lo largo del día antes que planificando en torno a las comidas.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 8700,
-  "total_walking_minutes": 110,
+  "total_walking_distance_meters": 6120,
+  "total_walking_minutes": 76,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Castillo de Osaka / Nakanoshima / Umeda",
       "neighborhood_description": "El castillo ocupa un gran parque en el lado oriental del centro, rodeado de fosos tan anchos que se leen como un pequeño lago. Al oeste, los ríos Dojima y Tosabori se separan en torno a Nakanoshima, una isla larga y estrecha que reúne la arquitectura cívica de la era Taisho, la biblioteca principal y una rosaleda. Más al norte queda Umeda, el distrito de negocios de Kita, donde tres terminales ferroviarias y una densa pila de grandes almacenes se apilan unos sobre otros.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 4200,
-      "day_walking_minutes": 53,
+      "day_walking_distance_meters": 1850,
+      "day_walking_minutes": 23,
       "morning": {
         "activity_title": "Osaka Castle",
         "wikidata_qid": null,
@@ -43,8 +43,10 @@
         "notes": "El castillo de Osaka. La torre del homenaje es una reconstrucción de hormigón de 1931 con ascensor y museo dentro, así que el placer honesto está en el recinto: los sillares ciclópeos del acceso de Otemon, algunos de más de cien toneladas y traídos desde las islas del mar interior de Seto, y la escala del sistema de fosos que Hideyoshi ordenó en 1583. Entra por la estación de Tanimachi 4-chome y sal por Osakajokoen para la mejor secuencia. El jardín Nishinomaru reúne unos 600 cerezos y cobra entrada aparte durante la floración de principios de abril, cuando es uno de los dos o tres mejores lugares de hanami de Kansai. Confirma en la web oficial del castillo los horarios y la última entrada antes de organizar la mañana en torno a subir.",
         "walk_to_next": {
           "to": "Nakanoshima",
-          "distance_meters": 2400,
-          "walking_minutes": 30
+          "transport_mode": "walk",
+          "distance_meters": 1850,
+          "travel_minutes": 23,
+          "walking_minutes": 23
         }
       },
       "afternoon": {
@@ -63,8 +65,10 @@
         "notes": "Un banco de arena de tres kilómetros entre dos ríos que funciona como la espina cívica de Osaka. El Salón Público Central de 1918 es el hito, de ladrillo rojo y estilo Beaux-Arts, y la Biblioteca Prefectural de Nakanoshima, al lado, es aún más antigua y se puede entrar a verla. La rosaleda del extremo oriental alcanza su mejor momento en mayo y de nuevo en octubre. Si el tiempo se tuerce, el Museo de Arte de Nakanoshima y el Museo de Cerámica Oriental están ambos en la isla y son alternativas de interior que aguantan una tarde entera.",
         "walk_to_next": {
           "to": "Umeda Sky Building",
-          "distance_meters": 1800,
-          "walking_minutes": 23
+          "transport_mode": "transit",
+          "distance_meters": 3320,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 38
     },
     {
       "day": 2,
@@ -133,7 +138,7 @@
       "neighborhood_focus": "Minami: Namba y Dotonbori",
       "neighborhood_description": "Minami es la mitad sur del centro de Osaka y la mitad que la gente imagina. Kuromon Ichiba abastece a sus restaurantes, Shinsaibashi-suji recorre seis manzanas cubiertas de tiendas hacia el norte desde el canal, Amerikamura concentra la escena vintage y del monopatín, y Dotonbori son unos cientos de metros de frente de canal con más rotulación por metro cuadrado que ningún otro lugar de Japón. Aquí todo queda a menos de quince minutos a pie de todo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1700,
+      "day_walking_distance_meters": 1720,
       "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Kuromon Ichiba",
@@ -151,7 +156,9 @@
         "notes": "Seiscientos metros de mercado cubierto que alimentan las cocinas de Osaka desde principios del siglo XIX y que se conocen localmente como la cocina de la ciudad. Ven a las 9:00, cuando los puestos de pescado todavía trabajan en lugar de actuar: uni, otoro, vieiras a la parrilla y fugu en invierno, casi todo asado al momento y comido de pie junto al puesto. Los precios han subido con fuerza a medida que el mercado se ha volcado en el visitante, y los puestos de una manzana más allá del pasillo principal salen más baratos y son mejores. Muchos cierran a media tarde y la actividad de los domingos es limitada.",
         "walk_to_next": {
           "to": "Shinsaibashi-suji and Amerikamura",
-          "distance_meters": 1200,
+          "transport_mode": "walk",
+          "distance_meters": 1170,
+          "travel_minutes": 15,
           "walking_minutes": 15
         }
       },
@@ -171,7 +178,9 @@
         "notes": "Shinsaibashi-suji y Amerikamura. Shinsaibashi-suji es una galería cubierta que sube unos 600 metros hacia el norte desde el canal de Dotonbori, lo que la convierte en el plan por defecto con lluvia o con el calor de agosto. Dos manzanas al oeste, Amerikamura es el contrapeso: ropa vintage, tiendas de discos, streetwear de segunda mano y un pequeño parque triangular que es punto de reunión adolescente desde los años setenta. Midosuji, el bulevar que las separa, está flanqueado por ginkgos que amarillean a mediados de noviembre y se iluminan durante el invierno. Cruza al lado de Hozenji para un café cuando las galerías se hagan excesivas.",
         "walk_to_next": {
           "to": "Dotonbori",
-          "distance_meters": 500,
+          "transport_mode": "walk",
+          "distance_meters": 550,
+          "travel_minutes": 7,
           "walking_minutes": 7
         }
       },
@@ -232,7 +241,8 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Tennoji / Shinsekai",
       "neighborhood_description": "El sur de Osaka es más antiguo y de aristas más ásperas que el centro, y bastante más barato. Shitenno-ji se fundó en 593 y es anterior a la ciudad que lo rodea. Shinsekai se trazó en 1912 como distrito de exposición universal inspirado mitad en París y mitad en Coney Island, entró en una larga decadencia y hoy comercia con esa historia tras un muro de locales de kushikatsu. Justo al sur, Abeno Harukas se alza 300 metros sobre la estación de Tennoji, que es la yuxtaposición más marcada que ofrece Osaka.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 2550,
+      "day_walking_minutes": 31,
       "morning": {
         "activity_title": "Shitenno-ji",
         "wikidata_qid": null,
@@ -259,8 +269,10 @@
         "notes": "Fundado por el príncipe Shotoku en 593 y considerado por lo general el primer templo budista levantado por el Estado japonés. Los edificios son reconstrucciones del siglo XX posteriores a los bombardeos de la guerra, fieles al eje original orientado al sur de puerta, pagoda y pabellón dorado que da nombre a la disposición shitennoji en la historia de la arquitectura japonesa. El recinto exterior es gratuito; el interior, la casa del tesoro y el jardín Gokuraku-jodo se pagan aparte. Un mercadillo llena el recinto los días 21 y 22 de cada mes y merece la pena cuadrar la visita con ellos.",
         "walk_to_next": {
           "to": "Shinsekai and Tsutenkaku",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "walk",
+          "distance_meters": 1230,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "afternoon": {
@@ -279,8 +291,10 @@
         "notes": "Shinsekai y la Tsutenkaku. La torre actual data de 1956 y sustituye a la original de 1912, desmontada para chatarra durante la guerra, y la iluminación de su tramo superior sigue funcionando como el parte meteorológico del barrio. Esta es la casa del kushikatsu, brochetas rebozadas y fritas que se mojan una sola vez en el bote de salsa compartido, y Daruma es la cadena que se atribuye el invento. El barrio arrastra una fama algo turbia que es sobre todo histórica, aunque Shin-Imamiya, inmediatamente al oeste, sigue siendo una parte muy distinta de la ciudad. Come aquí, porque las raciones y los precios son los más amables de los tres días.",
         "walk_to_next": {
           "to": "Abeno Harukas",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "transport_mode": "walk",
+          "distance_meters": 1320,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 31
     }
-  ]
+  ],
+  "total_travel_minutes": 91,
+  "last_verified": null
 }

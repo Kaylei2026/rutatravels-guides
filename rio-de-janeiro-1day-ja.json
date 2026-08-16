@@ -1,7 +1,7 @@
 {
   "destination": "Rio de Janeiro",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T13:02:58.522Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Rio の歴史的・文化的中心部を1日で巡るコース：ボヘミアンな丘陵地区Santa Teresa、植民地時代の水道橋とサンバのアーチがあるLapa、そして様々な時代のモニュメントが重なり合うCentro。標高の高い石畳の街から、街のアーティスティックでナイトライフの中心部を経て、湾へと下る一日のルートです。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 380,
+  "total_walking_minutes": 5,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Santa Teresa / Lapa / Centro",
       "neighborhood_description": "Santa Teresa はCentro の上にある丘陵のボヘミアン地区で、18世紀のCarioca Aqueduct（現在のArcos da Lapa）によって下の街とつながっています。その下にあるLapa は、Rio で最も有名なナイトライフとサンバの地区です。Centro では、街の建設から200年間の野心が詰まった植民地時代と帝政時代の歴史的層が、密集した数ブロックの中に保存されています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 380,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Escadaria Selaron",
         "wikidata_qid": "Q2093404",
@@ -41,8 +41,10 @@
         "notes": "チリ人アーティストのJorge Selaronが1990年から2013年に亡くなるまで執念的に取り組んだこの215段の階段は、60カ国以上から集めた破片でタイル装飾されています。午前9時前に到着すれば、急速に増える密集した人通りを避けて写真撮影ができます。階段は上部のRua Manuel Carneiroと下部のRua Joaquim Silvaの間にあり、Arcos da Lapaから1ブロックの場所に位置しています。",
         "walk_to_next": {
           "to": "Arcos da Lapa",
-          "distance_meters": 150,
-          "walking_minutes": 2
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "1719年から1750年にかけてCarioca川から市内に真水を運ぶために建設された、270メートルにわたる2層のローマ風アーチで、現在も上部を歴史あるSanta Teresaトラムが走っています。bondeトラムはここから出発し、Santa Teresaまでの乗車は数reaisで、徒歩では味わえないゆっくりとした高架からの街並み散策が楽しめます。",
         "walk_to_next": {
           "to": "Museu Nacional de Belas Artes",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "transit",
+          "distance_meters": 5120,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 23
     }
-  ]
+  ],
+  "total_travel_minutes": 23,
+  "last_verified": null
 }

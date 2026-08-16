@@ -1,7 +1,7 @@
 {
   "destination": "Asheville",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:52:15.304Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Tres días recorriendo el carácter esencial de Asheville: el núcleo del centro saturado de arte, los distritos residenciales de principios del siglo XX y la posada de gran envergadura ubicada sobre la ciudad, así como la extensa propiedad Vanderbilt que puso el oeste de Carolina del Norte en el mapa. Cada día es geográficamente autónomo y puede reordenarse según el clima o la ubicación del alojamiento.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5460,
-  "total_walking_minutes": 68,
+  "total_walking_distance_meters": 2300,
+  "total_walking_minutes": 29,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Downtown / Pack Square",
       "neighborhood_description": "El centro caminable de Asheville es una densa cuadrícula de edificios comerciales Art Decó de los años 1920 y 1930 que sobrevivieron a la renovación urbana prácticamente intactos. Pack Square es el ancla cívica, con galerías, tiendas independientes y la mejor arquitectura a nivel de calle de la ciudad irradiando en todas las direcciones.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1560,
-      "day_walking_minutes": 20,
+      "day_walking_distance_meters": 730,
+      "day_walking_minutes": 9,
       "morning": {
         "activity_title": "Asheville Art Museum",
         "wikidata_qid": "Q4807958",
@@ -43,7 +43,9 @@
         "notes": "Reabierto en 2019 en un edificio renovado y ampliado que ancla el lado este de Pack Square. La colección permanente se enfoca en arte estadounidense de los siglos XX y XXI con fuerte representación de artistas de Appalachia. Llegue a la hora de apertura para evitar los grupos escolares que llegan a media mañana.",
         "walk_to_next": {
           "to": "Pack Square Park",
+          "transport_mode": "walk",
           "distance_meters": 80,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -63,7 +65,9 @@
         "notes": "La plaza cívica en el centro del centro, formada por la fusión de Pack Square y Court Plaza. El obelisco Vance Monument en su centro fue dedicado a Zebulon Vance, gobernador en tiempos de guerra de North Carolina. La plaza es el mejor punto de orientación para la cuadrícula del centro - párese aquí e identifique qué líneas de techo Art Deco desea explorar a continuación.",
         "walk_to_next": {
           "to": "Thomas Wolfe Memorial",
+          "transport_mode": "walk",
           "distance_meters": 650,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -124,7 +128,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 9
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Montford / Grove Park",
       "neighborhood_description": "Montford es el barrio residencial más antiguo e íntegro de Asheville, trazado en los años 1890 y flanqueado por casas Queen Anne, Colonial Revival y Craftsman. Al norte, la Grove Park Inn se sitúa en la cresta de Sunset Mountain, construida en 1913 con piedras de cantera local y aún hospedando huéspedes en su lodge de piedra original.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 620,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Montford Historic District",
         "wikidata_qid": "Q6906223",
@@ -151,8 +156,10 @@
         "notes": "Recorra la avenida principal de Montford hacia el norte desde Haywood Street, los bloques entre Watauga y Pearson contienen la concentración más densa de arquitectura victoriana tardía de la ciudad. Busque las casitas diseñadas por Richard Sharp Smith: Smith fue el arquitecto supervisor de Biltmore Estate y luego abrió una práctica privada en Asheville, marcando Montford con su distintivo estuco de piedra molida y entramado de madera.",
         "walk_to_next": {
           "to": "Riverside Cemetery",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 620,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -171,8 +178,10 @@
         "notes": "Un cementerio rural victoriano establecido en 1885 en una ladera arbolada sobre el río French Broad. Thomas Wolfe y O. Henry (William Sydney Porter) están enterrados aquí, la tumba de Wolfe está marcada con una piedra simple cerca del camino de entrada principal, la de O. Henry en una sección separada hacia el oeste. Gratuito, siempre abierto, con un mapa de recorrido autoguiado impreso disponible en la puerta de entrada.",
         "walk_to_next": {
           "to": "The Grove Park Inn",
-          "distance_meters": 1430,
-          "walking_minutes": 17
+          "transport_mode": "drive",
+          "distance_meters": 2530,
+          "travel_minutes": 8,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 98
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Biltmore Estate",
       "neighborhood_description": "La propiedad de 8,000 acres de George Vanderbilt, ahora reducida a aproximadamente 8,000 acres de terreno manejado al sur de Asheville. Richard Morris Hunt diseñó el castillo de 250 habitaciones en estilo Renacimiento francés; Frederick Law Olmsted diseñó el camino de entrada y los jardines. La propiedad sigue siendo de propiedad privada y operada como atracción de pago con su propia bodega, hotel y pueblo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Biltmore House",
         "wikidata_qid": "Q527799",
@@ -238,9 +248,11 @@
         "optimal_timing": "morning",
         "notes": "Compre entradas en línea con anticipación - la propiedad establece límites diarios de entrada y la disponibilidad sin cita previa es poco confiable los fines de semana. El recorrido autoguiado por la casa cubre aproximadamente 70 habitaciones en cuatro pisos, incluyendo la cancha de boliche y la piscina cubierta en el sótano. Comience en el piso superior y descienda hasta terminar en la zona de cocina, que la mayoría de los visitantes recorren en orden inverso y encuentran apresurado.",
         "walk_to_next": {
-          "to": "Walled Garden and Conservatory",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Biltmore Walled Garden and Conservatory",
+          "transport_mode": "walk",
+          "distance_meters": 410,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -258,9 +270,11 @@
         "optimal_timing": "any",
         "notes": "El jardín de cocina y corte de cuatro acres amurallado de Olmsted, ahora mantenido como un jardín ornamental con plantaciones de temporada gestionadas dentro del marco Victoriano original. El Conservatorio adyacente - un invernadero Victoriano de acero y vidrio - alberga la operación de propagación de la finca y a menudo es pasado por alto por los visitantes que se dirigen directamente a la bodega. Camine por el sendero del jardín de azaleas en el lado sur del jardín amurallado para obtener la mejor vista enmarcada de regreso hacia el castillo.",
         "walk_to_next": {
-          "to": "Antler Hill Village and Winery",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Antler Hill Village and Biltmore Winery",
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     }
-  ]
+  ],
+  "total_travel_minutes": 37,
+  "last_verified": null
 }

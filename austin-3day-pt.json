@@ -1,7 +1,7 @@
 {
   "destination": "Austin",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:42:52.305Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Três dias cobrindo os personagens essenciais de Austin: o núcleo político e de entretenimento ao redor do Capitol e Sixth Street, o corredor excêntrico e acessível a pé de South Congress, e o distrito cultural ancorado pela universidade com seus museus de classe mundial. Cada dia é geograficamente autossuficiente.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5980,
-  "total_walking_minutes": 75,
+  "total_walking_distance_meters": 2830,
+  "total_walking_minutes": 36,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Downtown / Capitol District",
       "neighborhood_description": "O denso centro urbano de Austin, ancorado ao norte pelo Texas State Capitol em sua colina imponente e descendo para o sul pela Congress Avenue até o Colorado River. O Sixth Street Entertainment District corre paralelo a leste, e os bares e casas de shows que tornaram Austin famosa começam a esquentar no início da noite.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 27,
+      "day_walking_distance_meters": 690,
+      "day_walking_minutes": 9,
       "morning": {
         "activity_title": "Texas State Capitol",
         "wikidata_qid": "Q743422",
@@ -43,8 +43,10 @@
         "notes": "Visitas guiadas gratuitas saem a cada 30 minutos do foyer sul, e são genuinamente informativas, com acesso às câmaras do Senado e da Câmara dos Representantes. O prédio é intencionalmente sete pés mais alto que o Capitólio dos EUA; fique no centro da rotunda e olhe para cima em direção à estrela para confirmar. Os jardins incluem vários monumentos que valem a pena conhecer lentamente no caminho de saída.",
         "walk_to_next": {
           "to": "Bullock Texas State History Museum",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "Três andares abrangendo o Texas desde o período pré-colombiano até o boom do petróleo e o programa espacial. Os artefatos do primeiro andar são os mais impressionantes, com a estrela de bronze embutida no piso da entrada e a gigantesca águia de bronze sobre a escada principal definindo o tom. O teatro IMAX exibe um filme sobre a história do Texas que é surpreendentemente bem produzido e oferece um bom alívio do calor.",
         "walk_to_next": {
-          "to": "Congress Avenue Bridge",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Congress Avenue Bridge bat colony emergence",
+          "transport_mode": "drive",
+          "distance_meters": 2740,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "South Congress / South Austin",
       "neighborhood_description": "South Congress Avenue (SoCo) segue para o sul a partir do rio, passando por uma faixa eclética de lojas vintage, food trailers e hotéis independentes que se tornaram a expressão física de Keep Austin Weird. Zilker Park fica alguns quarteirões a oeste, estendendo-se ao longo de Barton Creek e contendo Barton Springs Pool, uma piscina natural alimentada por aquíferos subterrâneos.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1980,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 510,
+      "day_walking_minutes": 6,
       "morning": {
         "activity_title": "Barton Springs Pool",
         "wikidata_qid": "Q2884340",
@@ -151,8 +156,10 @@
         "notes": "Uma piscina de três acres alimentada por nascentes subterrâneas que mantêm uma temperatura constante de 68 graus Fahrenheit o ano todo - chocantemente fria na entrada, mas ideal no calor do verão de Austin. Chegue antes das 10h para garantir um lugar nas margens de calcário antes da multidão de fim de semana. A piscina fica fechada nas manhãs de quinta-feira para limpeza; verifique o site do Parks Department antes de ir. Protetor solar não é permitido na água.",
         "walk_to_next": {
           "to": "Zilker Park",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 510,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -171,8 +178,10 @@
         "notes": "O parque central de 350 acres de Austin ao longo da margem sul do Colorado River. A vista para o norte desde o gramado do parque em direção ao horizonte do centro da cidade através de Town Lake é o cartão-postal que define Austin. O trailhead do Barton Creek Greenbelt é acessível a partir do canto sudoeste do parque para quem quiser se estender para o terreno das colinas.",
         "walk_to_next": {
           "to": "South Congress Avenue",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "drive",
+          "distance_meters": 3820,
+          "travel_minutes": 10,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 28
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "University of Texas / Hyde Park",
       "neighborhood_description": "O campus da University of Texas at Austin ocupa 433 acres imediatamente ao norte do Capitol e contém vários museus e edifícios de referência por direito próprio. Hyde Park, o bairro de era vitoriana a leste do campus, é o distrito residencial pré-automóvel mais intacto de Austin, com bangalôs e carvalhos alinhando avenidas que levam a cafeterias e livrarias independentes.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1630,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "LBJ Presidential Library",
         "wikidata_qid": "Q6464737",
@@ -238,9 +248,11 @@
         "optimal_timing": "morning",
         "notes": "Uma das mais importantes bibliotecas presidenciais do país, em grande parte porque os anos de LBJ abrangeram simultaneamente a Civil Rights Act, a Great Society e o Vietnã - o acervo documental é impressionante. A reprodução do Oval Office como estava em 1968 fica no último andar e é mais detalhada do que na maioria dos lugares. A entrada é gratuita. A sala de leitura no quarto andar tem vista para o campus e vale a pena visitar mesmo que você pule os andares de exposições.",
         "walk_to_next": {
-          "to": "University of Texas at Austin campus",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "University of Texas at Austin - Main Mall and Tower",
+          "transport_mode": "walk",
+          "distance_meters": 530,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -259,8 +271,10 @@
         "notes": "A Main Mall segue do UT Tower até a fonte da South Mall em um eixo formal de carvalhos vivos - caminhe pelo centro da mall olhando para o norte para ver a composição pretendida. O observation deck da Tower abre para tours mediante reserva através do visitor center da UT; faça sua reserva online com antecedência pois os lugares se preenchem rapidamente. A Littlefield Fountain na extremidade sul da mall é um ambicioso monumento de bronze de 1933 que ancora o conjunto.",
         "walk_to_next": {
           "to": "Harry Ransom Center",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 1100,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 17
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 55,
+  "last_verified": null
 }

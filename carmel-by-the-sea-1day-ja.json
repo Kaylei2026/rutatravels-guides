@@ -1,7 +1,7 @@
 {
   "destination": "Carmel-by-the-Sea",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:49:03.254Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Carmelの三角エリアの必見スポットを1日で巡るコース: 町の建設の歴史を象徴するミッション、童話のような建築とギャラリーが並ぶ村の中心部、Ocean Avenueの麓にある白砂のビーチ、そして南に位置するPoint Lobosの沿岸岬。このルートは内陸の歴史から太平洋へと向かっていきます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2750,
+  "total_walking_minutes": 34,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Carmel Village / Carmel Beach / Point Lobos",
       "neighborhood_description": "Carmel-by-the-SeaはMonterey半島の松の林に覆われた岬に位置しています。町のグリッド構造は小さく、端から端まで徒歩で20分で歩き切ることができます。英国コテージとComstock様式のおとぎ話的な建築が並び、20世紀初頭に芸術家や作家たちによって建てられました。Ocean Avenueの麓のビーチはCarmel Bayへと開かれており、Point Lobos State Natural Reserveは南へ2マイル離れた同じ海岸線に位置しています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2750,
+      "day_walking_minutes": 34,
       "morning": {
         "activity_title": "Carmel Mission Basilica",
         "wikidata_qid": "Q1027150",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "1770年にJunipero Serraによって創設され、彼は聖堂の床下に埋葬されています。床に刻まれた墓標が本堂の床に見えます。午前10時前に到着して、ツアーグループが到着する前に中庭の庭園と博物館の部屋を散策することをお勧めします。本正面上のスター窓はムーア様式の影響を受けており、カリフォルニアの伝道所の中でも珍しいものです。異なる2つの鐘楼、1つはムーア様式、もう1つはロマネスク様式に注目してください。",
         "walk_to_next": {
-          "to": "Carmel Village - Ocean Avenue and surrounds",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "to": "Carmel Village and Ocean Avenue",
+          "transport_mode": "walk",
+          "distance_meters": 1920,
+          "travel_minutes": 24,
+          "walking_minutes": 24
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Ocean Avenueはメインの通りですが、最高の建築は1ブロック離れた側路、つまり5番街から8番街の間のDolores、Lincoln、Monte Verdeにあります。13番街付近のTorres StreetにあるComstock童話のようなコテージは、Hugh Comstockの元々の1920年代の建設物が最も密集した場所です。急な藁葺き屋根のラインと小びと人サイズのドアの寸法に注目してください。町は条例により街路番号がないため、家番号ではなく交差点で移動してください。",
         "walk_to_next": {
-          "to": "Carmel Beach",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "to": "Carmel Beach at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 830,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 34
     }
-  ]
+  ],
+  "total_travel_minutes": 34,
+  "last_verified": null
 }

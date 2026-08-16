@@ -1,7 +1,7 @@
 {
   "destination": "London",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم مشي على طول العمود الفقري الاحتفالي لنهر التايمز بلندن، بدءاً من Westminster Abbey عبر Houses of Parliament والعبور إلى South Bank. القلب السياسي والملكي للمدينة في حلقة واحدة.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 2200,
-  "total_walking_minutes": 28,
+  "total_walking_distance_meters": 950,
+  "total_walking_minutes": 12,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Westminster / South Bank",
       "neighborhood_description": "Westminster هي مقر الحكومة البريطانية وكنيسة التتويج للملكية، ترتكز على Parliament Square. South Bank عبر Westminster Bridge هي نقطة المقابلة الثقافية، وتصطف على طول مسار النهر الساحلي و London Eye والعديد من دور الفنون الرئيسية.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Westminster Abbey",
         "wikidata_qid": "Q5933",
@@ -45,8 +45,10 @@
         "optimal_timing": "morning",
         "notes": "موقع جميع تتويجات الملوك الإنجليز منذ عام 1066 ومثوى سبعة عشر ملكاً. احجز تذكرة محددة الوقت عبر الإنترنت لتجنب طوابير الانتظار. Poets' Corner (Chaucer و Dickens و Hardy و Browning) والكرسي الملكي للتتويج هما الجاذبيتان الواضحتان؛ أما Cosmati Pavement الذي يغفل عنه الكثيرون والواقع مباشرة أمام High Altar فهو فسيفساء هندسية من القرن الثالث عشر حيث تجري التتويجات الفعلية. مغلق أيام الأحد ما عدا في أوقات الخدمات الدينية.",
         "walk_to_next": {
-          "to": "Houses of Parliament",
-          "distance_meters": 250,
+          "to": "Houses of Parliament and Big Ben",
+          "transport_mode": "walk",
+          "distance_meters": 230,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "قصر Westminster الذي يتبع العمارة النيوجوثية، واكتمل بناؤه عام 1870 بعد احتراق الأصل الوسيط عام 1834. يمكن لسكان المملكة المتحدة ودول الكومنولث حضور جلسة نقاش مجاناً بالانتظار في Cromwell Green؛ أما الزوار الدوليون فيمكنهم حجز جولات مدفوعة في أيام عدم انعقاد الجلسات (عادة أيام السبت وفترات الانقطاع). Big Ben هو الجرس وليس البرج - البرج نفسه هو Elizabeth Tower الذي تم ترميمه مؤخراً ليعود إلى ألوانه الفيكتورية الأصلية.",
         "walk_to_next": {
-          "to": "London Eye via Westminster Bridge",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "South Bank and London Eye at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -132,7 +136,10 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     }
-  ]
+  ],
+  "total_travel_minutes": 12,
+  "last_verified": null
 }

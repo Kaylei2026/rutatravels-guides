@@ -1,7 +1,7 @@
 {
   "destination": "Chicago",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:54:42.035Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Chicago の見どころを 3 日間で巡るコース：湖畔の公園とパブリックアートがある建築の街 Loop、湖畔に世界クラスの科学・自然史博物館が集まる Museum Campus、そして Magnificent Mile と Chicago River の建築回廊がある River North のギャラリー地区。各日程は地理的にまとまった構成になっています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 7800,
-  "total_walking_minutes": 98,
+  "total_walking_distance_meters": 3640,
+  "total_walking_minutes": 47,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "The Loop / Millennium Park",
       "neighborhood_description": "The Loop は Chicago の中心業務地区で、周囲を囲む高架鉄道から名前が付けられ、アメリカ建築の発祥地でもあります。超高層ビルは 1880年代にここで発明されました。東端にある Millennium Park は、かつての操車場跡地に造られた屋外文化施設で、記念碑的なパブリックアートや夏季の無料コンサートが楽しめます。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 1010,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Chicago Architecture Center River Cruise",
         "wikidata_qid": "Q5096549",
@@ -42,8 +42,10 @@
         "optimal_timing": "morning",
         "notes": "Chicago Architecture Centerは、Chicago River沿いで決定版となる建築ボートツアーを運営しています。75分間、訓練を受けたドーセントによる解説付きで50以上の建物を巡ります。Michigan Avenueと川の合流点（通りレベルではなく、lower Wacker Driveレベル）から乗船します。朝の出発時間なら東向きのファサードが最高の光の下で見られ、午後の便よりもボートが混雑しません。事前にオンライン予約を。週末ツアーは数日前に売り切れます。",
         "walk_to_next": {
-          "to": "Millennium Park",
-          "distance_meters": 550,
+          "to": "Millennium Park and Cloud Gate",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
           "walking_minutes": 7
         }
       },
@@ -63,8 +65,10 @@
         "notes": "Anish KapoorのCloud Gate彫刻は、誰もがBeanと呼んでいますが、歪んだパノラマで街のスカイラインを反射し、真下から見るのが最も興味深く、凹面の下側が方向感覚を失わせる魚眼レンズ状のドームを作り出します。北へ歩いてJaume PlensaのCrown Fountainへ。50フィートの2つのガラスブロック塔にChicagoansの顔が映し出され、定期的に水を噴き出します。後方のJay Pritzker Pavilionバンドシェルは、Frank Gehryの唯一の恒久的公共作品です。",
         "walk_to_next": {
           "to": "Art Institute of Chicago",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Museum Campus / Near South Side",
       "neighborhood_description": "Museum Campusは、Grant Parkのすぐ南にある湖畔の半島に位置する57エーカーの公園で、3つの主要な施設 - Field Museum、Shedd Aquarium、Adler Planetariumの拠点となっている。遮るもののない湖の眺望と真北に広がる市街地のスカイラインを持つこの配置は、世界で最もドラマチックな博物館環境の一つである。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 1170,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Field Museum of Natural History",
         "wikidata_qid": "Q1122595",
@@ -151,8 +156,10 @@
         "notes": "世界最大級の自然史博物館の一つで、植物学、地質学、人類学、動物学の分野で4000万点の標本を所蔵している。これまでに発見された中で最も完全なT-rexの骨格の一つであるSueは、メインのStanley Field Hallに展示されており、より新しい展示があるにもかかわらず、今でも建物の目玉となっている。開館時刻の9amに到着することをお勧めする。学校団体が到着する前の最初の45分間はホールが静かに見学できる。古代エジプト展示室と地下のEvolving Planet hallが、常設展示の中でも特に優れた二つの展示である。",
         "walk_to_next": {
           "to": "Shedd Aquarium",
-          "distance_meters": 450,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "1930年に開館したSheddは、アメリカ内陸部で海水コレクションを常設した初の水族館である。中央ロタンダのCaribbean Reefタンクは複数のレベルから見ることができる。上階のバルコニーから見下ろすと、楕円形のタンクの断面全体を見ることができる。イルカとベルーガのショーが人気の呼び物だが、上階のPacific white-sided dolphinの生息地展示は混雑が少なく、動物たちを目線の高さで間近に観察できる。",
         "walk_to_next": {
-          "to": "Adler Planetarium lakefront viewpoint",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Adler Planetarium and lakefront skyline view",
+          "transport_mode": "walk",
+          "distance_meters": 790,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "River North / Magnificent Mile",
       "neighborhood_description": "Magnificent MileはChicago Riverの北側のMichigan Avenue沿いの区間で、歴史的な初期の摩天楼とWater Towerが立ち並んでいる。Water Towerは1871年のGreat Chicago Fireを生き延びた数少ない建造物の一つである。すぐ西側のRiver Northは、Chicagoのギャラリー地区で、Manhattanに次ぐアートギャラリーの集積地となっている。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3000,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 1460,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Chicago Riverwalk",
         "wikidata_qid": "Q5094380",
@@ -259,8 +269,10 @@
         "notes": "Chicago Riverの南岸に沿って、Lake Shore Driveから西のLake Streetまで続く低層レベルの歩行者道路。川沿いの高層ビルの日光に照らされたファサードを眺めるため、太陽を直視することなく、朝は東向きに歩くのがおすすめ。Michigan AvenueとState Streetの間の区間は5つの連続する橋の下を通り、跳ね橋の下部構造を見上げる角度からの眺めは見過ごされがちなChicagoの撮影スポット。夏季にはRiverwalkから複数のカヤックレンタル業者が営業している。",
         "walk_to_next": {
           "to": "Tribune Tower",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 1180,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "any",
         "notes": "23か国から263の応募があった1922年のデザインコンペティション後にChicago Tribune用に建設された1925年のゴシック様式超高層建築で、アメリカ建築史の決定的な出来事となった。街路レベルでビルの基部を歩いてみよう。世界中の有名な建物や記念物の148の断片が外装の石灰石に埋め込まれており、Parthenon、万里の長城、Taj Mahal、ベルリンの壁の一部などが含まれている。各断片にはラベルが付いている。現在は住宅として使用されているため、内部へのアクセスは制限されている。",
         "walk_to_next": {
-          "to": "Water Tower Place and Chicago Water Tower",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Chicago Water Tower",
+          "transport_mode": "walk",
+          "distance_meters": 280,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 47,
+  "last_verified": null
 }

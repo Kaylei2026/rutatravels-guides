@@ -1,7 +1,7 @@
 {
   "destination": "Bar Harbor",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:04:24.735Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day combining the carriage roads and summit of Acadia National Park with the compact village waterfront of Bar Harbor - the island's only town and the gateway to the park. The day moves from high granite ridgelines in the morning to tidal bars and harbor views by evening.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Acadia National Park / Bar Harbor Village",
       "neighborhood_description": "Mount Desert Island holds both Acadia National Park - the first national park east of the Mississippi - and the town of Bar Harbor, a Victorian-era summer colony turned gateway village. The park's road network, built by the Rockefeller family, and its rocky Atlantic coastline are within a few miles of the village green, making a genuine mountain-to-harbor day possible on foot and by car.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Cadillac Mountain",
         "wikidata_qid": "Q975556",
@@ -41,8 +41,10 @@
         "notes": "At 1,530 feet, the highest point on the US Atlantic coast north of Brazil - from early October through early March you can be among the first people in the continental United States to see the sunrise. A timed vehicle reservation is required from May through October and sells out weeks ahead; book through Recreation.gov the moment your window opens. Walk the South Ridge Trail rather than the summit loop if crowds are heavy - it extends from the parking area and thins out fast.",
         "walk_to_next": {
           "to": "Thunder Hole",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "transport_mode": "drive",
+          "distance_meters": 6510,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "A narrow sea chasm in the pink granite of Ocean Path where incoming waves compress air and water into a booming crash audible from a hundred meters away. The effect is loudest and most dramatic about two hours before high tide with a moderate ocean swell - check a tide table the morning of your visit. Park on the Ocean Path pullouts and walk the flat gravel path south from Sand Beach rather than driving directly to Thunder Hole, which has limited parking.",
         "walk_to_next": {
-          "to": "Bar Harbor Village Green and Bar Island",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "to": "Bar Island and the Bar Harbor Village Green",
+          "transport_mode": "drive",
+          "distance_meters": 10640,
+          "travel_minutes": 19,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     }
-  ]
+  ],
+  "total_travel_minutes": 33,
+  "last_verified": null
 }

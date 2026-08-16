@@ -1,7 +1,7 @@
 {
   "destination": "Bar Harbor",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:04:24.735Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día combinando los caminos de carruaje y la cumbre de Acadia National Park con el pueblo portuario compacto de Bar Harbor, el único pueblo de la isla y la puerta de entrada al parque. El día transcurre desde crestas de granito elevadas por la mañana hasta barras de marea y vistas del puerto al atardecer.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Acadia National Park / Bar Harbor Village",
       "neighborhood_description": "Mount Desert Island alberga tanto Acadia National Park - el primer parque nacional al este del Mississippi - como el pueblo de Bar Harbor, una colonia veraniega de la era victoriana convertida en pueblo puerta de entrada. La red de carreteras del parque, construida por la familia Rockefeller, y su costa rocosa del Atlántico se encuentran a pocos kilómetros de la plaza del pueblo, haciendo posible un auténtico día de montaña al puerto a pie y en automóvil.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Cadillac Mountain",
         "wikidata_qid": "Q975556",
@@ -41,8 +41,10 @@
         "notes": "A 1,530 pies de altura, el punto más alto de la costa atlántica de EE.UU. al norte de Brasil, desde principios de octubre hasta principios de marzo puedes estar entre las primeras personas en los EE.UU. continentales en ver la salida del sol. Se requiere una reserva de vehículo con hora programada de mayo a octubre y se agotan semanas antes, reserva a través de Recreation.gov en el momento en que se abre tu ventana. Camina por South Ridge Trail en lugar del circuito de la cumbre si hay muchedumbres, se extiende desde el área de estacionamiento y se despeja rápidamente.",
         "walk_to_next": {
           "to": "Thunder Hole",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "transport_mode": "drive",
+          "distance_meters": 6510,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Una grieta marina estrecha en el granito rosa de Ocean Path donde las olas entrantes comprimen aire y agua en un crash ensordecedor audible a cien metros de distancia. El efecto es más fuerte y dramático aproximadamente dos horas antes de la pleamar con un oleaje moderado, consulta una tabla de mareas la mañana de tu visita. Estaciona en los miradores de Ocean Path y camina por el sendero plano de grava hacia el sur desde Sand Beach en lugar de conducir directamente a Thunder Hole, que tiene estacionamiento limitado.",
         "walk_to_next": {
-          "to": "Bar Harbor Village Green and Bar Island",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "to": "Bar Island and the Bar Harbor Village Green",
+          "transport_mode": "drive",
+          "distance_meters": 10640,
+          "travel_minutes": 19,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     }
-  ]
+  ],
+  "total_travel_minutes": 33,
+  "last_verified": null
 }

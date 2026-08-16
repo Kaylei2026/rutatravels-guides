@@ -1,7 +1,7 @@
 {
   "destination": "New York",
   "duration_days": 7,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:48:53.210Z",
   "sources": [
     "wikidata",
@@ -19,8 +19,8 @@
   ],
   "guide_description": "Manhattan南端から北へ、そしてEast Riverを渡って7日間でNew Yorkの全体像を描く旅程：植民地時代の金融の中心地、Brooklynのウォーターフロント、Midtownの渓谷のような街並み、Upper East Sideの文化回廊、ボヘミアンな南部、アフリカ系アメリカ人文化の拠点Harlem、そして工業地帯から芸術地区に生まれ変わった西側。各日程は地理的にまとまりを持って構成されています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 27950,
-  "total_walking_minutes": 350,
+  "total_walking_distance_meters": 11390,
+  "total_walking_minutes": 141,
   "days": [
     {
       "day": 1,
@@ -29,8 +29,8 @@
       "neighborhood_focus": "Lower Manhattan / Financial District",
       "neighborhood_description": "Manhattan島の最南端は、1624年にオランダ人がNew Amsterdamとして入植した地域です。ここの街路は革命以前に作られた不規則な格子状で、Manhattan の他の地域とは異なります。Wall Street、最初の証券取引所、Trinity Church、そして9/11 Memorialが密集した数ブロックの中に、4世紀にわたるアメリカ商業史が層となって重なっています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1280,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "9/11 Memorial and Museum",
         "wikidata_qid": "Q2516866",
@@ -46,9 +46,11 @@
         "optimal_timing": "morning",
         "notes": "到着前にオンラインで博物館のチケットを予約しておきましょう。当日券もありますが、午前中頃には長い行列ができます。Twin Towersの足跡に設けられた2つの反射池が記念碑で、博物館は地下7階まで続き、元の岩盤まで降りていきます。最も心を打つ展示は、2001年9月11日の朝に乗客や会社員が残した録音された電話やボイスメールです。思っているより多くの時間を取って見学することをお勧めします。",
         "walk_to_next": {
-          "to": "Trinity Church",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Trinity Church and Wall Street",
+          "transport_mode": "walk",
+          "distance_meters": 490,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -66,9 +68,11 @@
         "optimal_timing": "any",
         "notes": "Wall Street突き当たりにある1846年建立のGothic Revival様式の教会で、1698年から教会が建っていた場所です。Alexander Hamiltonは建物の真後ろにある墓地に埋葬されており、Robert Fultonや他の建国の父たちも眠っています。この墓地はManhattanに現存する最古の緑地の一つで、墓石は読むことができ、歴史的価値が高いものです。内部への入場は無料です。",
         "walk_to_next": {
-          "to": "Battery Park and Statue of Liberty ferry",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Battery Park and the harbor view",
+          "transport_mode": "walk",
+          "distance_meters": 790,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -128,7 +132,8 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 2,
@@ -137,8 +142,8 @@
       "neighborhood_focus": "Brooklyn Bridge / DUMBO / Brooklyn Heights",
       "neighborhood_description": "Brooklyn BridgeはLower ManhattanとDUMBO（Down Under the Manhattan Bridge Overpass）を結んでいます。DUMBOはかつての工業用水辺地区で、石畳の通りと改装された倉庫群があります。南へ少し登るとBrooklyn Heightsに到着します。ここは国内で最もよく保存された19世紀の住宅街のひとつで、Manhattan全体のスカイラインを見渡す有名なPromenadeがあります。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4550,
-      "day_walking_minutes": 57,
+      "day_walking_distance_meters": 1240,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Brooklyn Bridge",
         "wikidata_qid": "Q18748",
@@ -154,9 +159,11 @@
         "optimal_timing": "morning",
         "notes": "Manhattan側（City Hall近くのCentre Street入口）からBrooklyn方面へ歩きましょう。そうすることでBrooklynのスカイラインを正面に見ながら、Manhattanの高層ビル群を背にすることができます。木製の歩行者・自転車専用通路は車道より高い位置にあります。朝早く、10時までに渡ることをお勧めします。それ以降は歩行者で混雑し、自転車との接触でイライラすることになります。花崗岩の塔は、世界最古の構造用鋼線ケーブル吊り橋の塔です。",
         "walk_to_next": {
-          "to": "DUMBO waterfront",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "DUMBO and the Brooklyn Bridge Park",
+          "transport_mode": "walk",
+          "distance_meters": 510,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -175,7 +182,9 @@
         "notes": "かつての船舶埠頭跡地に建設された、Brooklyn waterfront沿いの85エーカーの線状公園です。Pier 1から北西を望む眺めは、Brooklyn BridgeとManhattan下部のスカイラインを同時に捉え、クラシックなNew Yorkの絵葉書と同じ構図になります。Manhattan BridgeとBrooklyn Bridgeの間のWashington Streetを内陸に2ブロック歩くと、19世紀の煉瓦倉庫群に挟まれて、両方の橋が同時に見える隙間を見つけることができます。",
         "walk_to_next": {
           "to": "Brooklyn Heights Promenade",
-          "distance_meters": 700,
+          "transport_mode": "walk",
+          "distance_meters": 730,
+          "travel_minutes": 9,
           "walking_minutes": 9
         }
       },
@@ -236,7 +245,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 3,
@@ -245,8 +255,8 @@
       "neighborhood_focus": "Midtown East / Fifth Avenue",
       "neighborhood_description": "42nd Street から57th Street までのManhattan の商業中心地で、超高層ビルが最も密集し、街路の峡谷効果が最も強い場所です。Grand Central Terminal、Chrysler Building、St. Patrick's Cathedral は互いに6ブロック圏内にあり、ニューヨーク建築の野心を示すそれぞれ異なる頂点を表しています。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 1240,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Grand Central Terminal",
         "wikidata_qid": "Q180342",
@@ -263,8 +273,10 @@
         "notes": "1913年建設のBeaux-Arts様式のターミナルで、1970年代にJacqueline Kennedy Onassisが主導した法廷闘争により取り壊しから救われました。Main Concourseの天井には、プルシアンブルーの背景に金箔で冬の星座が描かれています。天体図は逆向きになっています（地球からではなく、天球の外側から見たように描かれています）。午前9時頃、通勤者の光が南側のclerestory窓から差し込む時間帯に、コンコース上の西側バルコニーに立ってみてください。",
         "walk_to_next": {
           "to": "Chrysler Building",
-          "distance_meters": 350,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 240,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "afternoon": {
@@ -282,9 +294,11 @@
         "optimal_timing": "any",
         "notes": "1930年建設のArt Deco様式のタワーで、Empire Stateに抜かれるまで一時的に世界最高層建築でした。ロビーは一般公開されており、市内でも最高級のArt Deco内装の一つです。アフリカ産大理石、スチール製壁画、そしてモロッコ煉瓦のアーチ天井が見どころです。61階にある有名なステンレス製のイーグルガーゴイルは、42nd StreetのLexington Avenueから見上げるのが最適です。",
         "walk_to_next": {
-          "to": "St. Patrick's Cathedral",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "to": "St. Patrick's Cathedral and Rockefeller Center",
+          "transport_mode": "walk",
+          "distance_meters": 1000,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -344,7 +358,8 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 4,
@@ -353,8 +368,8 @@
       "neighborhood_focus": "Museum Mile / Central Park",
       "neighborhood_description": "82nd Streetから105th StreetまでのFifth Avenueの区間はCentral Parkに面しており、西半球で最も主要な美術館が集中している地域です。Central Park自体は1858年から1876年にかけてFrederick Law OlmstedとCalvert Vauxによって設計された19世紀の造園設計の傑作で、沼地とスラム街を都市の肺となる場所に変えました。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 4200,
-      "day_walking_minutes": 53,
+      "day_walking_distance_meters": 2060,
+      "day_walking_minutes": 25,
       "morning": {
         "activity_title": "Metropolitan Museum of Art",
         "wikidata_qid": "Q160236",
@@ -370,9 +385,11 @@
         "optimal_timing": "morning",
         "notes": "西半球最大の美術館で、5,000年にわたる文明の17の学芸部門を擁している。すべてを見ようとしてはいけない。2つか3つの棟を選ぼう。Egyptian Art棟のTemple of Dendurは、紀元前15年の砂岩の神殿で、Nile川からブロックごとに移設され、ガラス張りのギャラリー内に再建されたもので、Metで最も驚くべき部屋である。屋上インスタレーション（5月から10月まで開放）からは、Central ParkとMidtownのスカイラインを望む館内最高の眺めが楽しめる。",
         "walk_to_next": {
-          "to": "Central Park - the Reservoir",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Central Park",
+          "transport_mode": "walk",
+          "distance_meters": 1000,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -390,9 +407,11 @@
         "optimal_timing": "any",
         "notes": "Fifth Avenue沿いの79th Streetから入り、北西に歩いてReservoir（90th Street）へ向かい、その後Rambleを通って南下し、Bethesda Terrace and Fountainへ。この約1マイルのルートは公園内で最も変化に富んだ地形を通る。Rambleは意図的に野性的な森林地帯で、信じられないほど人里離れた感覚を味わえる。Bethesda Fountainは公園唯一の正式委託彫刻で1873年に建造され、その上のアーケード状のテラスは最も写真に撮られるスポットである。",
         "walk_to_next": {
-          "to": "Guggenheim Museum",
-          "distance_meters": 750,
-          "walking_minutes": 10
+          "to": "Solomon R. Guggenheim Museum",
+          "transport_mode": "walk",
+          "distance_meters": 1060,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -452,7 +471,8 @@
             "walking_minutes": 17
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 25
     },
     {
       "day": 5,
@@ -461,8 +481,8 @@
       "neighborhood_focus": "Greenwich Village / SoHo",
       "neighborhood_description": "Greenwich Villageは1811年のManhattan街路格子計画を拒否し、独自の斜めの通りと小さな街区を保持した地域で、歴史的にNew Yorkの文学、芸術、LGBTQライフの中心地でした。すぐ南にあるSoHoは世界最大の鋳鉄建築集積地で、1860年代から1870年代に商業地区として建設され、1970年代にギャラリーやロフトに改装されました。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3800,
-      "day_walking_minutes": 48,
+      "day_walking_distance_meters": 2080,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Washington Square Park",
         "wikidata_qid": "Q744826",
@@ -478,9 +498,11 @@
         "optimal_timing": "morning",
         "notes": "Greenwich Villageの社会的中心地で、推定2万人が埋葬されている共同墓地の上に建設されました。Fifth Avenue入口にある1892年のStanford White archは、Arc de Triompheをモデルにしており、1917年にはMarcel Duchampがその頂上に登ってGreenwich Villageを独立共和国として宣言しました。この公園が最も美しいのは週末の朝で、チェスプレイヤーが南西角のテーブルに陣取り、ミュージシャンたちが中央の噴水周辺に集まります。",
         "walk_to_next": {
-          "to": "MacDougal Street and Bleecker Street",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "SoHo Cast-Iron Historic District",
+          "transport_mode": "walk",
+          "distance_meters": 1190,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "afternoon": {
@@ -498,9 +520,11 @@
         "optimal_timing": "any",
         "notes": "Washington Squareから南へ、Greene Streetを歩いてください。ここは現存する鋳鉄製商業建築ファサードの最も完全に保存された街区です。鋳鉄製の正面は工場で予め製造され、石造構造物にボルトで固定されており、石材よりも安価に柱、コーニス、アーチで建物を装飾することができました。上を見上げてください。装飾の詳細はすべて2階以上にあります。GreeneとPrince Streetsの角では、1870年代の建物5棟を同時に見ることができます。",
         "walk_to_next": {
-          "to": "Hudson River Park - Pier 25",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "to": "Hudson River Park",
+          "transport_mode": "walk",
+          "distance_meters": 890,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -560,7 +584,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 6,
@@ -569,8 +594,8 @@
       "neighborhood_focus": "Harlem / Morningside Heights",
       "neighborhood_description": "125th Streetを中心とするHarlemは、20世紀初頭のGreat Migration以来、アフリカ系アメリカ人の文化的中心地となっています。Harlem Renaissance、bebop、そして絶え間ない文学・芸術活動を生み出した地区です。西側のMorningside HeightsはHudson川を見下ろす高台に位置し、Columbia University、Cathedral of St. John the Divine、Grant's Tombがあります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3950,
-      "day_walking_minutes": 50,
+      "day_walking_distance_meters": 2070,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Cathedral Church of Saint John the Divine",
         "wikidata_qid": "Q1088589",
@@ -586,9 +611,11 @@
         "optimal_timing": "morning",
         "notes": "世界最大規模のゴシック様式大聖堂で、1892年に建設が始まり、現在も正式には未完成です。南塔は未完のままで、時折建設工事が再開されます。身廊の長さは601フィートです。後陣から放射状に配された7つの礼拝堂は、それぞれNew Yorkの異なる民族コミュニティを表しており、20世紀初頭にそれらのコミュニティからの寄付によって装飾されました。敷地内に住む孔雀たちは本物で、囲いに入れられていません。",
         "walk_to_next": {
-          "to": "Grant's Tomb",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "General Grant National Memorial",
+          "transport_mode": "walk",
+          "distance_meters": 600,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -606,9 +633,11 @@
         "optimal_timing": "any",
         "notes": "北米最大の霊廟で、1897年に完成し、Ulysses S. Grantと妻Juliaの石棺が安置されています。入場無料です。外周を囲むモザイクのベンチは、1970年代にGaudiのPark Guellをモデルとしたコミュニティアートプロジェクトとして設置されたもので、上部の新古典主義の花崗岩記念碑との間に印象的で魅力的な美的対比を生み出しています。周囲のテラスからHudson川を北に望む眺望は、upper Manhattanでも屈指の美しさです。",
         "walk_to_next": {
-          "to": "125th Street and the Apollo Theater",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "to": "Apollo Theater",
+          "transport_mode": "walk",
+          "distance_meters": 1470,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "evening": {
@@ -668,7 +697,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 7,
@@ -677,8 +707,8 @@
       "neighborhood_focus": "High Line / Chelsea / Meatpacking District",
       "neighborhood_description": "The High Lineは、1934年に建設された貨物鉄道路線跡地に作られた1.45マイルの高架公園で、Gansevoort Streetから34th Streetまで北に延びています。その下のChelseaの西側の街路には、世界で最も高密度の現代アートギャラリーが集まっています。南端のMeatpacking Districtは、19th世紀の文字通りの機能から変貌し、現在はManhattanで最も高密度のファッション・ナイトライフ街区となっています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 4300,
-      "day_walking_minutes": 54,
+      "day_walking_distance_meters": 1420,
+      "day_walking_minutes": 18,
       "morning": {
         "activity_title": "The High Line",
         "wikidata_qid": "Q1191517",
@@ -694,9 +724,11 @@
         "optimal_timing": "morning",
         "notes": "Gansevoort Street南端から入り北へ歩く - この方向はHudson Yardsに向かい、朝の時間帯は写真撮影により良い光が得られる。Piet Oudolfによる植栽デザインでは、自然に種を落とす多年草や草を使用し、季節によって劇的に変化する。これは1980年に路線が廃止された後、線路に根付いた野生植物を意図的に再現している。17th StreetのThe 10th Avenue Squareは、下の通りを見下ろす組み込み式の観覧席で、都市劇場として独特に効果的な空間である。",
         "walk_to_next": {
-          "to": "Chelsea Galleries on West 22nd Street",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Chelsea Gallery District",
+          "transport_mode": "walk",
+          "distance_meters": 70,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -715,8 +747,10 @@
         "notes": "Tenth AvenueとEleventh Avenue間のWest 20th、21st、22nd、24th、25th Streetsの6ブロックには200以上のギャラリーがあり、そのほとんどが入場無料。ここはアメリカの現代アート第一級市場である。木曜日のオープニング（午後6時から8時）が最も活発で、平日の午後は静かでギャラリストと話をする時間がある。522 West 21stのGagosian、510 West 25thのPace、519 West 19thのDavid Zwirnerが中核的な機関である。",
         "walk_to_next": {
           "to": "Whitney Museum of American Art",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "walk",
+          "distance_meters": 1350,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -776,7 +810,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     }
-  ]
+  ],
+  "total_travel_minutes": 141,
+  "last_verified": null
 }

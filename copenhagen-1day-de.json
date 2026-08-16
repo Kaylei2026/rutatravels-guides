@@ -1,7 +1,7 @@
 {
   "destination": "Copenhagen",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:23:42.649Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Ein Tag durch Kopenhagens historischen Kern: die königliche Insel Slotsholmen, das mittelalterliche Domviertel und die bemalte Hafenfront von Nyhavn. Das Gebiet ist kompakt genug, um es vollständig zu Fuß zu erkunden, beginnend mit königlicher und städtischer Geschichte am Morgen bis hin zur Kanalatmosphäre am Abend.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2490,
+  "total_walking_minutes": 32,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Indre By / Slotsholmen / Nyhavn",
       "neighborhood_description": "Kopenhagens historischer Kern liegt auf einer schmalen Halbinsel zwischen zwei Armen des Hafens. Slotsholmen ist eine künstliche Insel, die seit dem 12. Jahrhundert Sitz der dänischen königlichen und staatlichen Macht ist. Direkt nördlich davon enthält Indre By das Universitätsviertel, den Dom und den runden Turm. Das gesamte Viertel endet am Nyhavn, dem schmalen Kanal, der 1673 gegraben wurde, um Handelsschiffe ins Stadtzentrum zu ziehen.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2490,
+      "day_walking_minutes": 32,
       "morning": {
         "activity_title": "Christiansborg Palace",
         "wikidata_qid": "Q319061",
@@ -41,8 +41,10 @@
         "notes": "Der Palastturm kann kostenlos bestiegen werden und öffnet um 10am - gehen Sie direkt hinauf, bevor die Reisegruppen ankommen. Mit 106 Metern ist er der höchste zugängliche Turm in Kopenhagen und rahmt das gesamte historische Zentrum ein, einschließlich Rosenborg, der Marmorkirche und des Opernhauses auf der anderen Seite des Hafens. Die Royal Ruins im Untergeschoss legen die Fundamente von Bischof Absalons ursprünglicher Festung von 1167 frei und sind im Palastticket enthalten.",
         "walk_to_next": {
           "to": "Copenhagen Cathedral",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 930,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Das neoklassizistische Interieur von C.F. Hansen (fertiggestellt 1829) ist das Gegenteil gotischer Überladenheit - weiße Wände, Tonnengewölbe und Bertel Thorvaldsens Marmor-Christus als Altarbild, mit den zwölf Aposteln entlang des Kirchenschiffs. Der Eintritt ist frei. Das Universitätshauptgebäude direkt gegenüber wurde vom selben Architekten im selben Jahrzehnt entworfen, was dem Platz eine seltene Geschlossenheit für ein nordeuropäisches Stadtzentrum verleiht.",
         "walk_to_next": {
-          "to": "Rundetaarn",
-          "distance_meters": 310,
-          "walking_minutes": 4
+          "to": "Nyhavn",
+          "transport_mode": "walk",
+          "distance_meters": 1560,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 32,
+  "last_verified": null
 }

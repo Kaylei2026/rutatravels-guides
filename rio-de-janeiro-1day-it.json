@@ -1,7 +1,7 @@
 {
   "destination": "Rio de Janeiro",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T13:02:58.522Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Una giornata alla scoperta del cuore storico e culturale di Rio: il quartiere bohémien collinare di Santa Teresa, l'acquedotto coloniale e gli archi del samba di Lapa, e i monumenti stratificati di Centro. La giornata si snoda dalle strade acciottolate in altura attraverso il cuore artistico e della vita notturna della città fino alla baia.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 380,
+  "total_walking_minutes": 5,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Santa Teresa / Lapa / Centro",
       "neighborhood_description": "Santa Teresa è un'enclave bohémien collinare sopra Centro, collegata alla città sottostante dall'Acquedotto Carioca del XVIII secolo - oggi gli Arcos da Lapa. Sotto di esso, Lapa è il quartiere più leggendario di Rio per la vita notturna e il samba. Centro conserva gli strati coloniali e imperiali dei primi duecento anni di ambizioni della città in pochi isolati densi di storia.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 380,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Escadaria Selaron",
         "wikidata_qid": "Q2093404",
@@ -41,8 +41,10 @@
         "notes": "L'artista cileno Jorge Selaron ha rivestito questa scalinata di 215 gradini con frammenti raccolti da oltre 60 paesi, lavorandoci ossessivamente dal 1990 fino alla sua morte nel 2013. Arrivate prima delle 9 per fotografare senza il traffico pedonale intenso che si forma rapidamente. La scalinata si estende tra Rua Manuel Carneiro in cima e Rua Joaquim Silva in fondo, portandovi a un isolato dagli Arcos da Lapa.",
         "walk_to_next": {
           "to": "Arcos da Lapa",
-          "distance_meters": 150,
-          "walking_minutes": 2
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "Costruiti tra il 1719 e il 1750 per portare acqua dolce dal fiume Carioca nella città, gli archi a due livelli in stile romano si estendono per 270 metri e ancora oggi trasportano lo storico tram di Santa Teresa sulla sommità. Il tram bonde parte da qui - una corsa fino a Santa Teresa costa pochi reais e offre l'approccio lento e sopraelevato attraverso il quartiere che camminando non si può replicare.",
         "walk_to_next": {
           "to": "Museu Nacional de Belas Artes",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "transit",
+          "distance_meters": 5120,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 23
     }
-  ]
+  ],
+  "total_travel_minutes": 23,
+  "last_verified": null
 }

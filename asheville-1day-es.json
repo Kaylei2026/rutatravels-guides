@@ -1,7 +1,7 @@
 {
   "destination": "Asheville",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:51:00.108Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día explorando el carácter esencial de Asheville: la arquitectura de la Edad Dorada en Pack Square, los murales y estudios del River Arts District, y el tejido cívico art deco que hace que esta pequeña ciudad de Apalaches sea única en el Sur estadounidense.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown Asheville / Pack Square / River Arts District",
       "neighborhood_description": "El centro compacto de Asheville se articula alrededor de Pack Square, un núcleo cívico que conservó su arquitectura de principios del siglo XX gracias a una combinación de quiebras de la era de la Gran Depresión y posterior preservación histórica. Un corto trayecto en auto o un largo paseo hacia el suroeste por Depot Street lleva al River Arts District, un antiguo corredor industrial de almacenes de ladrillo convertidos en más de 200 estudios de artistas en activo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Biltmore Estate",
         "wikidata_qid": "Q811915",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "La finca de 8,000 acres de George Vanderbilt, construida entre 1889 y 1895, es la casa de propiedad privada más grande de Estados Unidos con 178,926 pies cuadrados. Compra las entradas en línea con anticipación; los visitantes que llegan sin reserva pagan una tarifa más alta y la entrada matutina evita las multitudes del mediodía en la casa principal. Comienza en el sótano y sube: los bolos, la piscina y los cuartos del servicio son menos fotografiados que el salón de banquetes pero revelan más sobre cómo funcionaba realmente la finca. Los jardines formales diseñados por Frederick Law Olmsted constituyen un circuito separado que vale la pena dedicarle una hora después de recorrer la casa.",
         "walk_to_next": {
-          "to": "Pack Square Park",
-          "distance_meters": 1560,
-          "walking_minutes": 20
+          "to": "Pack Square Park and Asheville City Hall",
+          "transport_mode": "drive",
+          "distance_meters": 5280,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "El Asheville City Hall, completado en 1928, es uno de los edificios municipales art deco más inusuales del sur estadounidense, una torre octagonal de terracota rosa y verde con techo piramidal, diseñada por Douglas Ellington. Párate al otro lado de Pack Square desde el lado del Vance Monument y mira hacia arriba la fachada completa; los detalles policromados en los pisos superiores se leen casi como Revival Azteca a esa distancia. El bloque circundante a lo largo de Patton Avenue contiene el S and W Cafeteria Building y el Kress Building, ambos comercios art deco originales de los años 1920.",
         "walk_to_next": {
-          "to": "River Arts District",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "River Arts District studios",
+          "transport_mode": "drive",
+          "distance_meters": 2580,
+          "travel_minutes": 8,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     }
-  ]
+  ],
+  "total_travel_minutes": 20,
+  "last_verified": null
 }

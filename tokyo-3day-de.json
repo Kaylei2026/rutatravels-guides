@@ -1,7 +1,7 @@
 {
   "destination": "Tokyo",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Drei Tage durch Tokyos wesentliche Gegensätze: das alte Tempelviertel Asakusa, die Jugendmode-und-Schrein-Achse Shibuya/Harajuku und das Wolkenkratzer-und-Nachtleben-Viertel Shinjuku. Jeder Tag ist ein eigenständiger Bahnknotenpunkt.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 9000,
-  "total_walking_minutes": 118,
+  "total_walking_distance_meters": 7330,
+  "total_walking_minutes": 92,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Asakusa / Ueno",
       "neighborhood_description": "Die nordöstlichen Bezirke, die mehr vom Vorkriegs-Tokyo bewahrt haben als jeder andere Stadtteil. Asakusa konzentriert sich um den Sensō-ji Tempel, Tokyos ältesten und meistbesuchten buddhistischen Tempel. Der Ueno Park, zwanzig Minuten westlich, beherbergt die dichteste Konzentration von Nationalmuseen in Japan.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 42,
+      "day_walking_distance_meters": 860,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Sensō-ji and Nakamise-dōri",
         "wikidata_qid": "Q200035",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "Tokyos ältester buddhistischer Tempel, 645 gegründet, mit dem riesigen roten Kaminarimon (Thunder Gate) und seiner enormen Papierlaterne als Postkartenmotiv. Kommen Sie vor 9 Uhr morgens, um die Nakamise-dōri Zugangsstraße vor dem Souvenirgedränge zu erleben. Die Haupttempelhalle kann kostenlos betreten werden; die fünfstöckige Pagode daneben ist eines der meistfotografierten Bauwerke Tokyos. Der frühmorgendliche Weihrauch vor der Haupthalle zeigt den Tempel von seiner besten Seite.",
         "walk_to_next": {
-          "to": "Sumida River Walk",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Sumida River and Asakusa backstreets",
+          "transport_mode": "walk",
+          "distance_meters": 860,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "Der Sumida Uferpark bietet den ikonischen Blick hinüber zum Tokyo Skytree und der Asahi Beer Zentrale (mit ihrer goldenen Flammenskulptur von Philippe Starck, im Volksmund \"goldener Haufen\" genannt). Wandeln Sie durch die Seitenstraßen zwischen Sensō-ji und dem Fluss zur kappabashi-dōri (Küchengeräte-Straße) und versteckten Läden aus der Edo-Zeit, die noch immer Fächer, Pinsel und Reiskräcker verkaufen. Überqueren Sie die Azuma Bridge für das beste Skytree Foto.",
         "walk_to_next": {
-          "to": "Ueno Park",
-          "distance_meters": 2000,
-          "walking_minutes": 26
+          "to": "Ueno Park and the Tokyo National Museum",
+          "transport_mode": "transit",
+          "distance_meters": 3370,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Shibuya / Harajuku / Omotesandō",
       "neighborhood_description": "Die westliche Achse, die das moderne Tokyo prägt - Shibuyas Fußgänger-Scramble, das Jugendmodeviertel Harajuku, der Luxusboulevard Omotesandō und der Waldschrein Meiji Jingū, alle durch einen einzigen zwanzigminütigen Spaziergang entlang der Yamanote-Bahnhöfe miteinander verbunden.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2900,
-      "day_walking_minutes": 38,
+      "day_walking_distance_meters": 2600,
+      "day_walking_minutes": 33,
       "morning": {
         "activity_title": "Meiji Jingū Shrine",
         "wikidata_qid": "Q229121",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "Der Shintō-Schrein für Kaiser Meiji und Kaiserin Shōken, gelegen in einem 70 Hektar großen angelegten Wald (jeder Baum wurde in den 1920er Jahren gespendet und von Hand gepflanzt). Der Weg durch die riesigen hölzernen Torii-Tore und über den Kiesweg fühlt sich an, als würde man Tokyo völlig verlassen. Der Schrein selbst wurde nach dem Krieg wiederaufgebaut, folgt aber dem ursprünglichen Plan aus der Meiji-Zeit. Eintritt frei. Der innere Garten ist ein separater kostenpflichtiger Bereich und lohnt sich für den Irisgarten im Juni.",
         "walk_to_next": {
-          "to": "Harajuku / Takeshita Street",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Harajuku and Omotesandō",
+          "transport_mode": "walk",
+          "distance_meters": 1040,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Takeshita-dōri ist die dicht gedrängte Jugendmode-Gasse - Crêpes, Charakter-Cafés, Kawaii-Mode, an Wochenenden Schulter an Schulter gedrängt. Der parallele Boulevard Omotesandō ist das komplette Gegenteil - eine breite, von Bäumen gesäumte Allee mit der konzentriertesten Architekturschau Tokyos (Prada Aoyama von Herzog and de Meuron, Tod's von Toyo Ito, Dior von SANAA). Erkunden Sie beide für den Kontrast, der dieses Viertel prägt.",
         "walk_to_next": {
-          "to": "Shibuya Crossing",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Shibuya Crossing at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1560,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Shinjuku",
       "neighborhood_description": "Der westliche Bezirk rund um den verkehrsreichsten Bahnhof der Welt (3,6 Millionen Fahrgäste täglich). Das Wolkenkratzer-Cluster auf der Westseite beherbergt die kostenlose Aussichtsplattform des Metropolitan Government; die Ostseite erstreckt sich in das Vergnügungsviertel Kabukichō und das Labyrinth der winzigen Nachkriegsbars von Golden Gai.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2900,
-      "day_walking_minutes": 38,
+      "day_walking_distance_meters": 3870,
+      "day_walking_minutes": 48,
       "morning": {
         "activity_title": "Shinjuku Gyoen National Garden",
         "wikidata_qid": "Q1322323",
@@ -258,9 +268,11 @@
         "optimal_timing": "morning",
         "notes": "58 Hektar kaiserlicher Garten, unterteilt in drei verschiedene Stile - traditionell japanisch, französisch formal und englische Landschaftsgestaltung - ursprünglich eine Feudalresidenz aus der Edo-Zeit. Einer der wenigen Tokyo-Parks mit Eintrittsgebühr (bescheidener Preis); dafür keine großen Gruppen und kein Alkohol, was ihn merklich ruhiger macht als Yoyogi oder Ueno. Montags geschlossen. Die Kirschblütenhochzeit Ende März/Anfang April zieht ab Öffnung Warteschlangen an.",
         "walk_to_next": {
-          "to": "Tokyo Metropolitan Government Building",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "Tokyo Metropolitan Government Building observation deck",
+          "transport_mode": "walk",
+          "distance_meters": 2240,
+          "travel_minutes": 28,
+          "walking_minutes": 28
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "any",
         "notes": "Kenzō Tanges Zwillingsturm-Regierungsgebäude von 1991, das beim Bau höchste Bauwerk Tokyos. Die beiden Aussichtsplattformen (Nord und Süd, beide 202 Meter hoch) sind völlig kostenlos. An klaren Tagen reicht die Sicht bis Mount Fuji im Südwesten. Die Südplattform schließt früher; die Nordplattform ist bis 22 Uhr geöffnet und die bessere Abendoption. Weniger überfüllt als Shibuya Sky oder Tokyo Tower bei vergleichbaren Aussichten.",
         "walk_to_next": {
-          "to": "Golden Gai / Omoide Yokochō",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "to": "Golden Gai and Omoide Yokochō",
+          "transport_mode": "walk",
+          "distance_meters": 1630,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 48
     }
-  ]
+  ],
+  "total_travel_minutes": 107,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Amsterdam",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T11:57:50.910Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un giorno nel anello di canali del XVII secolo di Amsterdam e nel quartiere Jordaan che lo affianca - un percorso autonomo che copre il museo più importante della città, la cintura di canali che definisce il DNA urbano di Amsterdam, e la casa storicamente più significativa dei Paesi Bassi.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 2260,
+  "total_walking_minutes": 29,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Grachtengordel / Jordaan",
       "neighborhood_description": "La cintura di canali di Amsterdam, riconosciuta dall'UNESCO, fu progettata in un'unica fase di pianificazione tra il 1613 e il 1663 - tre canali concentrici semicircolari (Herengracht, Keizersgracht, Prinsengracht) che si irradiano dal porto medievale. Il Jordaan si trova appena a ovest, una griglia più densa di canali più stretti che originariamente ospitava operai e commercianti, ora il quartiere residenziale più caratteristico della città.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 2260,
+      "day_walking_minutes": 29,
       "morning": {
         "activity_title": "Rijksmuseum",
         "wikidata_qid": "Q190804",
@@ -41,8 +41,10 @@
         "notes": "Prenota online un biglietto con orario prima di arrivare - la coda senza prenotazione può durare 45 minuti in alta stagione. La collezione è enorme; se hai poco tempo, vai direttamente alla Gallery of Honour al secondo piano dove sono esposte la Ronda di notte di Rembrandt e la Lattaia di Vermeer. La Ronda di notte è esposta in una sala dedicata ed è illuminata per mostrare tutta l'altezza di tre metri - osservarla da 10 metri di distanza piuttosto che premere contro la barriera offre una lettura molto migliore della composizione.",
         "walk_to_next": {
           "to": "Anne Frank House",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "transport_mode": "walk",
+          "distance_meters": 2200,
+          "travel_minutes": 28,
+          "walking_minutes": 28
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "I biglietti con orario si esauriscono settimane prima online - praticamente non esiste l'ingresso senza prenotazione. Il museo si è recentemente espanso nell'edificio magazzino adiacente (Prinsengracht 263) preservando le stanze nascoste originali esattamente come erano quando il Secret Annex fu scoperto nel 1944. L'ufficio di Otto Frank al piano terra, dove rimase seduto per due anni apparentemente lavorando normalmente mentre la sua famiglia si nascondeva proprio sopra, è uno dei dettagli più toccanti di tutto l'edificio.",
         "walk_to_next": {
-          "to": "Westerkerk",
-          "distance_meters": 130,
-          "walking_minutes": 2
+          "to": "Westerkerk and Prinsengracht at dusk",
+          "transport_mode": "walk",
+          "distance_meters": 60,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "evening": {
@@ -127,7 +131,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 29
     }
-  ]
+  ],
+  "total_travel_minutes": 29,
+  "last_verified": null
 }

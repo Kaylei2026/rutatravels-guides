@@ -1,7 +1,7 @@
 {
   "destination": "Mexico City",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:59:04.741Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Mexico City の歴史地区での一日。この地区は Aztec の首都 Tenochtitlan の真上に建設されています。Plaza de la Constitucion を中心とした歩いて回れるエリアには、先コロンブス期の遺跡、バロック様式の大聖堂、そして Diego Rivera の壁画が、互いに数百メートル以内に点在しています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 1430,
-  "total_walking_minutes": 18,
+  "total_walking_distance_meters": 650,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Centro Historico",
       "neighborhood_description": "歴史地区は Lake Texcoco の干上がった湖底に位置し、1521年の征服後にスペイン人が Tenochtitlan の遺跡の上に建設しました。通りは場所によって古い Aztec の格子状配置に沿っており、地区全体で地盤沈下が目に見えて進行しています。建物は傾き、ファサードにひびが入り、大聖堂は塔とは異なる速度で沈んでいます。UNESCO に登録されており、街レベルで歴史の層が本当に密に積み重なっています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1430,
-      "day_walking_minutes": 18,
+      "day_walking_distance_meters": 650,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Templo Mayor and its museum",
         "wikidata_qid": "Q207538",
@@ -46,8 +46,10 @@
         "notes": "遺跡は完全に露出しており、日陰がほとんどないため、暑くなる前のオープン時間（午前9時）に到着しましょう。チケットには敷地内のMuseo del Templo Mayorの入場料が含まれており、ここには1978年に電力会社の作業員によって発見された24トンのCoyolxauhqui石円盤が展示されています。発掘現場を歩いた後にこの遺物を見ると、植民地時代の都市の下に埋もれていたものの規模がよく分かります。入場はZocalo側からではなく、Seminario通りからとなります。",
         "walk_to_next": {
           "to": "Mexico City Metropolitan Cathedral",
-          "distance_meters": 180,
-          "walking_minutes": 2
+          "transport_mode": "walk",
+          "distance_meters": 220,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "建設は1573年から1813年まで続いたため、身廊には同じ建物内にルネサンス、バロック、新古典主義様式の柱間が混在しています。大聖堂は軟らかい湖底堆積物の上にあるアステカの瓦礫の上に建っているため不均一に沈下しており、内部の床を見ると肉眼でも傾きの差が確認できます。奥のAltar of the Kingsは後期バロック様式の傑作であり、北壁を共有する隣接のSagrario Metropolitanoは、チュリゲラ様式の独立した教会ですが、見落とされがちです。",
         "walk_to_next": {
-          "to": "Palacio Nacional",
-          "distance_meters": 250,
-          "walking_minutes": 3
+          "to": "Palacio Nacional and Diego Rivera murals",
+          "transport_mode": "walk",
+          "distance_meters": 430,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     }
-  ]
+  ],
+  "total_travel_minutes": 8,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Hallstatt",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:22:45.019Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "在欧洲历史最悠久的连续定居村落之一度过一天 - 这是一个依山傍水的小镇，巴洛克风格的建筑错落有致，史前盐矿就夹在 Dachstein 山群和 Hallstatter See 之间。村庄小到可以在十五分钟内走完全程，因此这一天的游览既是水平的探索，更是垂直的体验：上午在湖畔，正午登上矿场高地，黄金时段漫步村中心。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 240,
+  "total_walking_minutes": 4,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Hallstatt Village / Hallstatter See / Salzwelten",
       "neighborhood_description": "Hallstatt 是一个被联合国教科文组织列入名录的村庄，约有 800 名居民生活在近乎垂直的悬崖和清冷翠绿的 Hallstatter See 之间。以村庄名字命名的 Hallstatt 考古文化是铁器时代中欧文明的代表，考古学家在这里发现的一个埋藏着一千多座墓葬的公墓中识别出了这一文化。村庄上方的盐矿至少从公元前 1000 年就开始运营，是世界上最古老的盐矿之一。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 240,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Salzwelten Hallstatt - prehistoric salt mine",
         "wikidata_qid": "Q874841",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "从湖滨村庄乘坐Salzbergbahn缆车上山，缆车站位于主市场广场北侧，4分钟内上升855米。矿坑内部保留着一座青铜时代的木制楼梯、一条史前木制输水管和两条木制采矿滑道，游客在参观时可以坐着滑下来。矿内温度全年恒定为8摄氏度，所以要带一件外套。夏季时请在前一天在线预订有时间限制的门票，因为上午10点左右乘坐大巴抵达的旅游团会很快填满名额。",
         "walk_to_next": {
-          "to": "Hallstatt Skywalk viewpoint",
-          "distance_meters": 480,
-          "walking_minutes": 6
+          "to": "Hallstatt Skywalk",
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "morning",
         "notes": "一座悬臂式钢铁平台，距离湖面360米高，从矿山出口沿着标有指示的小径步行约350米即可到达，在步道分叉处向左，按照Welterbeblick标志指向行走。这个角度可以看到Hallstatter See的全景向南延伸，村庄就直接在下方，这也是为什么哈尔施塔特的每张航拍照片都是从这个高度拍摄的。如果云层很厚就没有意义，抵达矿山时如果Dachstein山峰被隐藏在云中，就跳过这里，把时间多花在村庄里。",
         "walk_to_next": {
-          "to": "Hallstatt Market Square (Marktplatz)",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Hallstatt Marktplatz and lakefront",
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 4
     }
-  ]
+  ],
+  "total_travel_minutes": 4,
+  "last_verified": null
 }

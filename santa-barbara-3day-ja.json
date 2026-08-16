@@ -1,7 +1,7 @@
 {
   "destination": "Santa Barbara",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:57:59.222Z",
   "sources": [
     "wikidata",
@@ -15,7 +15,7 @@
   ],
   "guide_description": "Santa Barbaraの必須スポットを3日間で巡ります。スペイン植民地様式の復興建築が立ち並ぶダウンタウンと裁判所、歴史的中心部、港と海岸沿いのエリア、そしてSanta Ynez山麓へ向かって広がるミッション地区です。各日程は地理的に独立しています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5460,
+  "total_walking_distance_meters": 5400,
   "total_walking_minutes": 68,
   "days": [
     {
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Downtown / El Pueblo Viejo",
       "neighborhood_description": "State Street、Anacapa Street、Figueroa Streetに囲まれたこのエリアは、Santa Barbaraの歴史的中心部を形成しています。1925年の地震により旧ダウンタウンの大部分が破壊されましたが、その跡地に建設されたのは、厳格な設計条例によって統一されたスペイン植民地様式の復興建築です。これらの条例は今日でも有効であり、Santa Barbaraはアメリカ西部で最も建築的に統一されたダウンタウンの一つとなっています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1430,
-      "day_walking_minutes": 18,
+      "day_walking_distance_meters": 1510,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Santa Barbara County Courthouse",
         "wikidata_qid": "Q7419130",
@@ -43,7 +43,9 @@
         "notes": "入場無料でガイド付きツアーも無料、月曜から土曜の午前10時に Anacapa Street のメイン入口から出発しています。El Mirador 時計塔に登ると、海まで続く赤いタイル屋根の最高の眺めが得られます。塔は建物内のエレベーターでアクセスできます。ほとんどの来館者が最初に試みる階段ではなく、エレベーターをご利用ください。階上の Mural Room には、カリフォルニアの歴史を描いた WPA 時代の絵画が展示されていますが、ほとんどの来館者は説明を読まずに通り過ぎています。",
         "walk_to_next": {
           "to": "Santa Barbara Historical Museum",
-          "distance_meters": 350,
+          "transport_mode": "walk",
+          "distance_meters": 280,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "この複合施設には、1780年代からの土造建物が後ろの中庭に今も現存しており、Covarrubias Adobe はこの街で最も古い建造物の一つです。博物館自体は小さく、1時間以内で見学できます。土造建物とその庭園が主な見どころで、De la Guerra Street の入口からアクセスできます。入場無料です。",
         "walk_to_next": {
-          "to": "State Street",
-          "distance_meters": 280,
-          "walking_minutes": 4
+          "to": "State Street and El Paseo arcade",
+          "transport_mode": "walk",
+          "distance_meters": 1230,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "The Waterfront / Harbor",
       "neighborhood_description": "Santa Barbaraの海岸線は、Cabrillo Boulevard沿いにおおよそ2キロメートルに渡り広がっています。中心部のharbor と Stearns Wharfから East Beach と防波堤まで続きます。Santa Ynez Mountainsは、水から北を眺めた時に街の背後に聳え立つため、Santa Barbaraは南カリフォルニアの他のビーチタウンとは明らかに異なる雰囲気を持っています。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 2140,
+      "day_walking_minutes": 27,
       "morning": {
         "activity_title": "Stearns Wharf",
         "wikidata_qid": "Q7610094",
@@ -151,8 +156,10 @@
         "notes": "西海岸で最も古く現在も使用されている木製埠頭で、1872年に建設されました。先端まで歩くと、山と港を同時に見ることができます - 両方をフレームに入れられる角度は埠頭の先端からのみ可能です。埠頭の中ほどにあるNature Conservancyの展示にある小さなサメ水槽は無料で10分で見られます。お子さんがいる方やサメが好きな方にはお勧めです。朝霧は通常午前9時までに晴れます。",
         "walk_to_next": {
           "to": "Santa Barbara Harbor and Breakwater",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 600,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "外側の防波堤を歩いて、最後の灯台まで行ってください - 往復距離は約1.6キロメートルで、ほとんどの観光客は最初の曲がり角で引き返します。カリフォルニアアシカは港内の商業漁業埠頭近くのドックに上陸しており、展望ポイントのチケットやアクセス料金なしで公共遊歩道から見ることができます。港のLido Restaurant rowは西向きで、日光を浴びながら遅めの昼食を楽しむのに防波堤沿いで最良の場所です。",
         "walk_to_next": {
-          "to": "East Beach",
-          "distance_meters": 780,
-          "walking_minutes": 10
+          "to": "East Beach and Cabrillo Boulevard at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1540,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 27
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Mission / Upper State Street / Riviera",
       "neighborhood_description": "ダウンタウンから北東方向に向かい Santa Ynez 麓まで広がる住宅地。ミッションは Laguna Street の頂上近くの高台に位置し、街を見下ろす戦略的に計算された立地です。フランシスコ会のミッションは周辺の農業地帯から見えるように意図的に配置されていました。Santa Barbara Botanic Garden はその奥の渓谷を占めています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 1750,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Mission Santa Barbara",
         "wikidata_qid": "Q1424400",
@@ -239,8 +249,10 @@
         "notes": "1786年に創設され、21のカリフォルニアミッション中でフランシスコ会の継続的な管理下にある唯一のミッションです。双塔のファサードは 21 のミッション中でも独特で、ほとんどは単一の塔を持ちます。教会には本来の正面玄関の左側の博物館棟から入場します。自動音声ガイドツアーは入場料に含まれており、建物の背後にある水道橋システムについて説明します。このシステムは現在でも稼働していますが、見落とされることがよくあります。教会の右側の墓地には 4,000 人以上のチュマシュ人の遺骨が埋葬されており、カリフォルニアで最も古い現在も使用されている墓地の一つです。",
         "walk_to_next": {
           "to": "Santa Barbara Botanic Garden",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 1110,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -259,7 +271,9 @@
         "notes": "Mission Canyonにある78エーカーのカリフォルニア原生植物園。まずレッドウッドの林のセクションを歩くことをお勧めします。1930年代に植えられたコースタルレッドウッドは今では十分な高さに成長し、非在来種の地形ではありますが、林は本当に没入感のある体験を提供します。ダム横断トレイルは1807年のミッション水路の石積み工事の脇を通るループになっており、この石積みは当時のままで誰でも沿って歩くことができます。上部のキャニオンループのためには水を持参してください。",
         "walk_to_next": {
           "to": "Santa Barbara Museum of Natural History",
-          "distance_meters": 650,
+          "transport_mode": "walk",
+          "distance_meters": 640,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -320,7 +334,10 @@
             "walking_minutes": 175
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 68,
+  "last_verified": null
 }

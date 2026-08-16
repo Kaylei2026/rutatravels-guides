@@ -1,7 +1,7 @@
 {
   "destination": "Barcelona",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "徒步游览Barcelona中世纪核心区域，以Gothic Cathedral为中心，向东延伸至El Born区。狭窄的石板小巷、罗马遗址，以及欧洲中世纪建筑最密集的区域之一，全程1公里环线。",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 1800,
-  "total_walking_minutes": 23,
+  "total_walking_distance_meters": 630,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Barri Gòtic / El Born",
       "neighborhood_description": "两个相邻的中世纪街区构成了Barcelona的历史核心。Barri Gòtic建在罗马遗址之上，以Gothic Cathedral为中心；东侧的El Born是昔日的商人区，街道更加狭窄，氛围更为活跃，Santa Maria del Mar大教堂坐落于此区的中心位置。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 630,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Cathedral of Barcelona (La Seu)",
         "wikidata_qid": "Q56551",
@@ -40,8 +40,10 @@
         "optimal_timing": "morning",
         "notes": "这座14世纪哥特式大教堂经常被误认为是高迪的Sagrada Família，但在建筑风格上完全不同。回廊里养着十三只白鹅（传统上代表圣女Eulalia生命中的每一年），是这里意想不到的核心景点。花少量费用可乘电梯到达屋顶露台，在那里可以俯瞰整个哥特区，这是那些涌向Sagrada Família的游客很少想到要寻找的视角。",
         "walk_to_next": {
-          "to": "Plaça del Rei",
+          "to": "Plaça del Rei and the Roman walls",
+          "transport_mode": "walk",
           "distance_meters": 150,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -61,8 +63,10 @@
         "notes": "这座中世纪皇家广场四周环绕着Palau Reial Major，据说1493年哥伦布曾在此向费迪南德和伊莎贝拉汇报他的发现。广场上的MUHBA Barcelona History Museum入口通向地下，在你脚下直接保存着4公里长的罗马时期Barcino遗迹--街道、染坊、酒庄，保存得异常完好。这是Barcelona最令人惊喜的博物馆参观体验。",
         "walk_to_next": {
           "to": "Santa Maria del Mar",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 480,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     }
-  ]
+  ],
+  "total_travel_minutes": 8,
+  "last_verified": null
 }

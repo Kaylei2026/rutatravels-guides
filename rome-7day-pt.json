@@ -1,7 +1,7 @@
 {
   "destination": "Rome",
   "duration_days": 7,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T13:00:00Z",
   "sources": [
     "wikidata",
@@ -19,8 +19,8 @@
   ],
   "guide_description": "Sete dias cobrindo os pontos essenciais de Roma, as colinas mais calmas do sul e uma viagem de um dia para Tivoli, rica em UNESCO. Cada dia é geograficamente autônomo.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 15020,
-  "total_walking_minutes": 192,
+  "total_walking_distance_meters": 9710,
+  "total_walking_minutes": 122,
   "days": [
     {
       "day": 1,
@@ -29,8 +29,8 @@
       "neighborhood_focus": "Centro Storico",
       "neighborhood_description": "O denso bairro histórico entre a curva do Tibre e a Via del Corso. Templos romanos, praças barrocas e praças de mercado empilhados em cima de dois milênios de grade de ruas.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1020,
-      "day_walking_minutes": 13,
+      "day_walking_distance_meters": 1540,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Pantheon",
         "wikidata_qid": "Q1142794",
@@ -51,9 +51,11 @@
         "optimal_timing": "morning",
         "notes": "Chegue na hora da abertura (9h) para ver o feixe oculus aterrissar no interior antes que o andar se encha de grupos de turistas. Uma pequena taxa de entrada é aplicada nos dias de semana; a missa de domingo é gratuita, mas limita a circulação no interior.",
         "walk_to_next": {
-          "to": "Piazza Navona",
-          "distance_meters": 320,
-          "walking_minutes": 4
+          "to": "Piazza Navona and Sant'Agnese in Agone",
+          "transport_mode": "walk",
+          "distance_meters": 420,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -76,9 +78,11 @@
         "optimal_timing": "any",
         "notes": "Construído sobre a pegada do Estádio de Domiciano, razão pela qual a forma é alongada. A Fonte dos Quatro Rios é de Bernini; a fachada da igreja em frente é de seu rival Borromini - os dois vêm discutindo na piazza desde a década de 1650.",
         "walk_to_next": {
-          "to": "Trevi Fountain",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trevi Fountain after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -123,7 +127,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 2,
@@ -132,8 +137,8 @@
       "neighborhood_focus": "Monti / Celio / Palatino",
       "neighborhood_description": "O canto sudeste do centro de Roma, onde a cidade antiga era governada e se divertia. O Coliseu, o Fórum e o Palatino compartilham um único ingresso e uma única zona arqueológica que abrange quase um quilômetro quadrado.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1900,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 1100,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Colosseum",
         "wikidata_qid": "Q10285",
@@ -155,8 +160,10 @@
         "notes": "Reserve o ingresso com horário marcado on-line com dias de antecedência - quem chega a pé normalmente enfrenta filas de 2 horas. O ingresso combinado Coliseu/Fórum/Palatino é válido por 24 horas.",
         "walk_to_next": {
           "to": "Roman Forum",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 810,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -179,9 +186,11 @@
         "optimal_timing": "any",
         "notes": "Entre pela Via dei Fori Imperiali, não pelo lado do Coliseu - a elevação que desce pelos arcos é a abordagem cinematográfica. Leve água; quase não há sombra e os caminhos de mármore refletem o calor.",
         "walk_to_next": {
-          "to": "Piazza del Campidoglio",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Piazza del Campidoglio and Capitoline views",
+          "transport_mode": "walk",
+          "distance_meters": 290,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "evening": {
@@ -226,7 +235,8 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 3,
@@ -235,8 +245,8 @@
       "neighborhood_focus": "Vatican City / Borgo",
       "neighborhood_description": "Um estado independente dentro de Roma, ao qual se chega caminhando para o oeste através do rio Tibre. Os Museus do Vaticano, a Capela Sistina e a Basílica de São Pedro juntos formam um dos locais religiosos e culturais mais visitados do mundo.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2000,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 2020,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Vatican Museums and Sistine Chapel",
         "wikidata_qid": "Q160821",
@@ -258,8 +268,10 @@
         "notes": "Faça sua reserva on-line no site oficial do museu com semanas de antecedência - as filas de espera costumam ultrapassar 3 horas na temporada. Ao entrar na Capela Sistina, você pode sair diretamente para a Basílica de São Pedro se for para a direita.",
         "walk_to_next": {
           "to": "St. Peter's Basilica",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 620,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -282,9 +294,11 @@
         "optimal_timing": "any",
         "notes": "A entrada é gratuita, mas a fila de segurança na Praça de São Pedro pode ser longa. O código de vestimenta é obrigatório - ombros e joelhos cobertos, sem exceções. A subida à cúpula é um ingresso separado que vale a pena comprar na entrada.",
         "walk_to_next": {
-          "to": "Castel Sant'Angelo",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Castel Sant'Angelo and the bridge at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1400,
+          "travel_minutes": 18,
+          "walking_minutes": 18
         }
       },
       "evening": {
@@ -329,7 +343,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 4,
@@ -338,8 +353,8 @@
       "neighborhood_focus": "Trastevere",
       "neighborhood_description": "Do outro lado do rio Tibre, ao sul do Vaticano, Trastevere é o bairro mais atmosférico de Roma - ruas medievais estreitas, fachadas cobertas de hera e uma história da classe trabalhadora que ainda cintila nos bares e trattorias agora gentrificados.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1400,
-      "day_walking_minutes": 18,
+      "day_walking_distance_meters": 1130,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Santa Maria in Trastevere",
         "wikidata_qid": "Q200751",
@@ -361,8 +376,10 @@
         "notes": "Uma das igrejas mais antigas de Roma, com uma tradição contínua de adoração pública desde o século III. O mosaico da abside do século XII, que representa Maria entronizada ao lado de Cristo, é a peça central.",
         "walk_to_next": {
           "to": "Villa Farnesina",
-          "distance_meters": 500,
-          "walking_minutes": 6
+          "transport_mode": "walk",
+          "distance_meters": 590,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -380,9 +397,11 @@
         "optimal_timing": "any",
         "notes": "Uma vila renascentista com afrescos de Rafael - muito menos lotada do que o Vaticano, mas com poder artístico comparável. A Loggia de Cupido e Psique e o Triunfo de Galatea são os destaques. Fechado aos domingos, exceto no segundo domingo do mês.",
         "walk_to_next": {
-          "to": "Gianicolo Hill viewpoint",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Gianicolo Hill at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -422,7 +441,8 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     },
     {
       "day": 5,
@@ -431,8 +451,8 @@
       "neighborhood_focus": "Pinciano / Campo Marzio",
       "neighborhood_description": "O quadrante nordeste do centro de Roma, onde o maior parque da cidade se encontra com a grade elegante do Tridente - três ruas que se estendem para o sul a partir da Piazza del Popolo e que têm sido o endereço mais elegante de Roma desde o século XVII.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 37,
+      "day_walking_distance_meters": 2360,
+      "day_walking_minutes": 30,
       "morning": {
         "activity_title": "Galleria Borghese",
         "wikidata_qid": "Q190044",
@@ -448,9 +468,11 @@
         "optimal_timing": "morning",
         "notes": "Reserva antecipada obrigatória com entrada programada. Apolo e Daphne e Davi, de Bernini, estão aqui, juntamente com Caravaggios e a Canova Pauline Bonaparte. O limite de duas horas é rigorosamente cumprido.",
         "walk_to_next": {
-          "to": "Pincio Terrace",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Pincio Terrace and Villa Borghese gardens",
+          "transport_mode": "walk",
+          "distance_meters": 1490,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "afternoon": {
@@ -468,9 +490,11 @@
         "optimal_timing": "any",
         "notes": "O terraço do Pincio tem vista para a Piazza del Popolo, com uma vista de longa distância dos telhados até a cúpula de São Pedro. Aluguel de bicicletas próximo à entrada, se você quiser percorrer o terreno.",
         "walk_to_next": {
-          "to": "Piazza di Spagna",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Spanish Steps and Piazza di Spagna",
+          "transport_mode": "walk",
+          "distance_meters": 870,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -515,7 +539,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 30
     },
     {
       "day": 6,
@@ -524,8 +549,8 @@
       "neighborhood_focus": "Aventino / Testaccio",
       "neighborhood_description": "Os bairros centrais mais tranquilos de Roma. O Aventino é uma das sete colinas, arborizada e residencial, com dois dos melhores pontos de vista gratuitos da cidade. Testaccio, abaixo, foi construído em um monte de cacos de ânforas antigas e agora é o bairro gastronômico mais confiável da classe trabalhadora de Roma.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2400,
-      "day_walking_minutes": 30,
+      "day_walking_distance_meters": 1320,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Giardino degli Aranci and Santa Sabina",
         "wikidata_qid": "Q3766873",
@@ -541,9 +566,11 @@
         "optimal_timing": "morning",
         "notes": "O terraço nos fundos oferece um amplo panorama do Tibre até a cúpula de São Pedro - igual a qualquer mirante pago da cidade, e gratuito. A Santa Sabina, ao lado, é uma basílica do século V com portas originais de cipreste esculpidas que representam uma das primeiras imagens conhecidas da Crucificação.",
         "walk_to_next": {
-          "to": "Aventine Keyhole",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "Aventine Keyhole (Priory of the Knights of Malta)",
+          "transport_mode": "walk",
+          "distance_meters": 170,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -561,9 +588,11 @@
         "optimal_timing": "morning",
         "notes": "Olhe através do buraco da fechadura de bronze na porta do convento e você verá a cúpula de São Pedro perfeitamente emoldurada por um caminho de jardim cercado de sebes - um truque óptico projetado por Piranesi na década de 1760 que alinha três territórios soberanos (Itália, a Ordem de Malta, o Vaticano) em uma única linha de visão. A fila pode ter de 15 a 20 pessoas na alta temporada; vá antes das 10h ou espere até o pôr do sol.",
         "walk_to_next": {
-          "to": "Pyramid of Cestius",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Pyramid of Cestius and the Non-Catholic Cemetery",
+          "transport_mode": "walk",
+          "distance_meters": 1150,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -608,7 +637,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 7,
@@ -617,8 +647,8 @@
       "neighborhood_focus": "Tivoli (outside Rome)",
       "neighborhood_description": "Uma pequena cidade a 30 km a leste de Roma, nas colinas de Sabine, que abriga dois locais de Patrimônio Mundial da UNESCO que, juntos, contam a história do lazer romano ao longo de 1500 anos. Acessível por trem regional (Roma Tiburtina para Tivoli, cerca de 1 hora) ou por ônibus da Cotral.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3500,
-      "day_walking_minutes": 45,
+      "day_walking_distance_meters": 240,
+      "day_walking_minutes": 3,
       "morning": {
         "activity_title": "Hadrian's Villa (Villa Adriana)",
         "wikidata_qid": "Q207614",
@@ -639,9 +669,11 @@
         "optimal_timing": "morning",
         "notes": "Retiro do imperador Adriano no século II - um amplo complexo de palácios, banhos, teatros e espelhos d'água espalhados por 120 hectares. A piscina Canopus, com sua colunata reconstruída em estilo egípcio, é a imagem icônica. Planeje um mínimo de 3 horas; o local é enorme e só tem sombra em parte.",
         "walk_to_next": {
-          "to": "Villa d'Este (via bus to Tivoli town)",
-          "distance_meters": 6000,
-          "walking_minutes": 20
+          "to": "Villa d'Este",
+          "transport_mode": "transit",
+          "distance_meters": 4040,
+          "travel_minutes": 16,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -664,9 +696,11 @@
         "optimal_timing": "any",
         "notes": "Uma vila de cardeais do século XVI com o jardim aquático mais elaborado da Europa - fontes em terraços, um órgão hidráulico que ainda toca e o canal das Cem Fontes que percorre toda a extensão dos jardins. Terreno íngreme na descida; calçados confortáveis são essenciais.",
         "walk_to_next": {
-          "to": "Tivoli town center",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Tivoli town and return to Rome",
+          "transport_mode": "walk",
+          "distance_meters": 240,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -706,7 +740,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 138,
+  "last_verified": null
 }

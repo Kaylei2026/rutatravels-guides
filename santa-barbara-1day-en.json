@@ -1,7 +1,7 @@
 {
   "destination": "Santa Barbara",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:56:40.088Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "One day covering Santa Barbara's compact historic core: the Spanish Colonial Revival architecture of the downtown civic district, the mission on the hill above, and the working harbor at the foot of State Street. Each stop is within easy walking or a short drive of the others.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3380,
-  "total_walking_minutes": 43,
+  "total_walking_distance_meters": 1600,
+  "total_walking_minutes": 20,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown / El Pueblo Viejo / Waterfront",
       "neighborhood_description": "Santa Barbara's downtown core was rebuilt after a 1925 earthquake in a unified Spanish Colonial Revival style - white stucco, red tile roofs, and arcaded storefronts enforced by city ordinance. The mission sits on a low ridge a few blocks north, while Stearns Wharf and the harbor anchor the southern end of State Street.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3380,
-      "day_walking_minutes": 43,
+      "day_walking_distance_meters": 1600,
+      "day_walking_minutes": 20,
       "morning": {
         "activity_title": "Santa Barbara County Courthouse",
         "wikidata_qid": "Q7422012",
@@ -41,8 +41,10 @@
         "notes": "Built in 1929, this is the finest Spanish Colonial Revival civic building in California. Free self-guided tours let you walk through the sunken garden courtyard and the muraled assembly room on your own. Climb the El Mirador clock tower - the rooftop observation deck gives the best unobstructed view of the city grid, the mountains behind, and the Channel Islands on a clear morning.",
         "walk_to_next": {
           "to": "Old Mission Santa Barbara",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 1600,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Founded in 1786 and the only California mission never to have fallen out of Franciscan hands. The twin-towered facade is an 1820 interpretation of a Roman temple front from Vitruvius - the friars were working from a book illustration, not a real building. The self-guided tour includes the original Serra Chapel, the cemetery with Chumash graves, and a small museum in the monastery wing. Approach from Laguna Street uphill for the full facade reveal framed by the Santa Ynez Mountains.",
         "walk_to_next": {
-          "to": "Stearns Wharf",
-          "distance_meters": 2080,
-          "walking_minutes": 26
+          "to": "Stearns Wharf and Santa Barbara Harbor",
+          "transport_mode": "drive",
+          "distance_meters": 4990,
+          "travel_minutes": 12,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 24
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 32,
+  "last_verified": null
 }

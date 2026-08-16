@@ -1,7 +1,7 @@
 {
   "destination": "Barcelona",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée de marche à travers le cœur médiéval de Barcelona, centrée sur la cathédrale gothique et s'étendant vers l'est dans El Born. Ruelles étroites en pierre, fondations romaines et l'une des concentrations les plus denses d'architecture médiévale d'Europe dans une boucle de 1 km.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 1800,
-  "total_walking_minutes": 23,
+  "total_walking_distance_meters": 630,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Barri Gòtic / El Born",
       "neighborhood_description": "Les deux quartiers médiévaux adjacents qui forment le centre historique de Barcelona. Le Barri Gòtic est construit sur des fondations romaines et centré sur la cathédrale gothique ; El Born à l'est est l'ancien quartier des marchands, plus étroit, plus animé, avec la basilique Santa Maria del Mar en son cœur.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 630,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Cathedral of Barcelona (La Seu)",
         "wikidata_qid": "Q56551",
@@ -40,8 +40,10 @@
         "optimal_timing": "morning",
         "notes": "La cathédrale gothique du 14ème siècle, souvent confondue avec la Sagrada Família de Gaudí mais architecturalement totalement distincte. Le cloître avec ses treize oies blanches (une pour chaque année de la vie de sainte Eulalie, selon la tradition) est le point central inattendu. Les terrasses du toit sont accessibles par ascenseur pour une petite somme et offrent une vue sur les toits du quartier gothique que les foules de la Sagrada Família pensent rarement à chercher.",
         "walk_to_next": {
-          "to": "Plaça del Rei",
+          "to": "Plaça del Rei and the Roman walls",
+          "transport_mode": "walk",
           "distance_meters": 150,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -61,8 +63,10 @@
         "notes": "La place royale médiévale, encadrée par le Palau Reial Major où Christophe Colomb aurait présenté ses découvertes à Ferdinand et Isabelle en 1493. L'entrée du MUHBA Barcelona History Museum sur la place descend sous terre vers 4 km remarquablement préservés de la Barcino romaine - rues, teintureries, caves à vin - directement sous vos pieds. La visite de musée la plus surprenante de Barcelona.",
         "walk_to_next": {
           "to": "Santa Maria del Mar",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 480,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     }
-  ]
+  ],
+  "total_travel_minutes": 8,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Santorini",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:10:38.420Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "一天沿着火山口边缘从 Fira 向北经过 Imerovigli 到达 Oia - 这是一条连贯的火山山脊,拥有爱琴海最壮观的海景、一座被埋没的青铜时代城市,以及希腊最富传奇色彩的日落。",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 3100,
-  "total_walking_minutes": 39,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Fira / Imerovigli / Oia",
       "neighborhood_description": "圣托里尼岛的西部山脊位于一个火山口的内壁上,这个火山口是由有记录以来最大规模的火山喷发形成的。Fira 是该岛的首府,城市密集、商业繁荣,耸立在海拔 260 米的高处。火山口边缘步道向北经过宁静的悬崖顶部定居点 Imerovigli,然后下降到 Oia,这座标志性的蓝顶村庄位于岛屿北端。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Akrotiri Archaeological Site",
         "wikidata_qid": "Q284892",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "整个遗址被现代保护屋顶完全覆盖，是岛上最好的防雨选择。Akrotiri在公元前1627年左右的米诺斯火山爆发中被埋没 - 被称为爱琴海的庞贝 - 其多层建筑、陶瓷储存容器和壁画墙壁保存完好。在开放时间（夏季上午8点）到达，赶在游轮转运队伍到达之前；与中午相比，上午10点半左右遗址游客明显减少。",
         "walk_to_next": {
-          "to": "Fira town center and caldera viewpoint",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "to": "Museum of Prehistoric Thera",
+          "transport_mode": "drive",
+          "distance_meters": 10360,
+          "travel_minutes": 19,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "最好的了解Akrotiri原始风貌的地方 - 为保护而移除的原始壁画在这里展出，包括著名的带有燕子和百合花的春天壁画以及展现青铜时代船队的微型壁画。位于Fira中心的Mitropoleos Street，距离主要火山口边缘步道仅两分钟。规模小，可以在一小时内充分游览而不感到疲劳。",
         "walk_to_next": {
-          "to": "Oia",
-          "distance_meters": 1800,
-          "walking_minutes": 22
+          "to": "Oia sunset from the kasteli ruins",
+          "transport_mode": "drive",
+          "distance_meters": 9580,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 69
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 37
     }
-  ]
+  ],
+  "total_travel_minutes": 37,
+  "last_verified": null
 }

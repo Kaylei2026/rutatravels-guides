@@ -1,7 +1,7 @@
 {
   "destination": "Copenhagen",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:26:47.498Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Copenhagen の本質を5日間で巡る：街の起源である中世の島要塞、運河地区と王室バロック地区、庭園と宮殿の北部エリア、食肉処理場と公園の西部地域、そして港の向こう側にある独立した運河島。各日程は地理的にまとまっており、地下鉄を使わずに歩いて回れます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 18200,
-  "total_walking_minutes": 228,
+  "total_walking_distance_meters": 6230,
+  "total_walking_minutes": 77,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Indre By / Slotsholmen",
       "neighborhood_description": "Slotsholmen は Copenhagen の中心にある小さな島で、1167年に司教 Absalon が最初の城を建てた場所です。現在は Christiansborg Palace と数多くの民主的機関が置かれています。周囲の Indre By の中世の小道が格子状に広がり、19世紀の Stroget ショッピング街と市庁舎広場を結んでいます。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Christiansborg Palace",
         "wikidata_qid": "Q319851",
@@ -45,8 +45,10 @@
         "notes": "世界で唯一、国家の三権すべて（議会、最高裁判所、首相官邸）を収容する建物で、王室迎賓館とともに島を共有しています。無料の塔展望デッキからは、Copenhagen中心部の最高のパノラマが楽しめます。エレベーターで上がり、最後に階段を登ると、緑の銅屋根の上に開放的な展望台があります。Bishop Absalonが1167年に建てた元の城の遺跡が地下に保存されており、メインチケットに含まれています。",
         "walk_to_next": {
           "to": "Thorvaldsens Museum",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "transport_mode": "walk",
+          "distance_meters": 140,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -64,9 +66,11 @@
         "optimal_timing": "any",
         "notes": "彫刻家Bertel Thorvaldsenの生涯の作品と彼の個人的な古美術品コレクションを収蔵するため、1848年に建てられました。彼のCopenhagenへの凱旋帰国を描いた外壁のフリーズが建物の周りを連続して巡っています。Thorvaldsen自身の墓が中央の中庭にあり、この規模の美術館としては珍しく親密な配置となっています。18歳未満は入場無料で、大人料金も手頃な価格設定です。",
         "walk_to_next": {
-          "to": "Copenhagen City Hall",
-          "distance_meters": 850,
-          "walking_minutes": 11
+          "to": "Copenhagen City Hall and Radhuspladsen",
+          "transport_mode": "walk",
+          "distance_meters": 810,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -106,7 +110,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     },
     {
       "day": 2,
@@ -115,8 +120,8 @@
       "neighborhood_focus": "Nyhavn / Frederiksstaden",
       "neighborhood_description": "Nyhavnは17世紀に港と市内中心部を結ぶために掘られた運河で、その北岸に並ぶ色鮮やかに塗られた商家はデンマークで最も写真に撮られる風景です。5分ほど北に向かうと、Frederiksstaden は18世紀の王室地区で、フランス・バロック様式の格子状に設計され、8角形の広場を中心に四隅すべてに宮殿が配置されています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3600,
-      "day_walking_minutes": 45,
+      "day_walking_distance_meters": 910,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Nyhavn Canal",
         "wikidata_qid": "Q186434",
@@ -133,7 +138,9 @@
         "notes": "北岸ではなく南岸を歩きましょう。南側からは彩色されたファサードを正面に見ることができ、朝の光が直接当たります。Hans Christian Andersenは時期によって18番、20番、67番に住んでおり、20番には小さな記念プレートが設置されています。朝の10時前に到着すれば、午前中頃には北岸のベンチを埋め尽くすツアーグループより先に楽しむことができます。",
         "walk_to_next": {
           "to": "Amalienborg Palace",
-          "distance_meters": 650,
+          "transport_mode": "walk",
+          "distance_meters": 640,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -153,8 +160,10 @@
         "notes": "八角形の広場に建つ4つの同一のロココ様式宮殿で、現在もデンマーク王室の居住地となっている。正午の衛兵交代式はChristiansborgを11:30amに出発し、正午にAmalienborgに到着する - 可能であればタイミングを合わせる価値がある。Amalienborg MuseumはChristian IX世とFrederick VIII世の宮殿の一部を占め、19世紀からほぼ変わらぬ王室の居住空間を展示している。Amalienborg Slotspladsの中央に立ち、西方向の軸線を見ると、宮殿の間に完璧に額縁のように収まったMarble Churchのドームを見ることができる。",
         "walk_to_next": {
           "to": "The Marble Church",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 270,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -214,7 +223,8 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 11
     },
     {
       "day": 3,
@@ -223,8 +233,8 @@
       "neighborhood_focus": "Rosenborg / Osterbro approach",
       "neighborhood_description": "Kongens Have庭園とRosenborg城は中世都市の北端に位置し、Norreport駅から徒歩5分の場所にあります。周辺のブロックには国立美術館、地質博物館、Hirschsprung Collectionが近距離に集まっており、ロンドンのSouth Kensingtonエリアに相当するCopenhagen文化地区となっています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3800,
-      "day_walking_minutes": 48,
+      "day_walking_distance_meters": 550,
+      "day_walking_minutes": 7,
       "morning": {
         "activity_title": "Rosenborg Castle",
         "wikidata_qid": "Q322383",
@@ -241,7 +251,9 @@
         "notes": "1606年から1624年に建設されたChristian 4世のオランダ・ルネッサンス様式の離宮で、現在は17世紀以降のデンマーク王室史を時代順に展示する博物館となっています。地下の宝物庫には王冠宝器が収蔵されており、Christian 4世の王冠や1671年以来すべてのデンマーク戴冠式で使用されてきた王権の象徴が展示されています。3階の大広間には創建当時の天井画と、等身大の3頭の銀のライオンに挟まれた王座があり、荒唐無稽でありながら壮麗な光景を呈しています。",
         "walk_to_next": {
           "to": "Kongens Have",
-          "distance_meters": 150,
+          "transport_mode": "walk",
+          "distance_meters": 160,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -260,9 +272,11 @@
         "optimal_timing": "any",
         "notes": "Copenhagenで最も古い公園で、18世紀に市民に開放され、入場無料です。Rosenborgを囲む庭園の幾何学的配置は17世紀フランス式正庭園のオリジナルレイアウトで、外側の部分はよりカジュアルなイングリッシュパーク様式になっています。夏の午後にはHercules Pavilion近くで人形劇が上演されます。これは純粋に地元の催しで、ほとんどの観光客が気づかずに素通りしてしまいます。",
         "walk_to_next": {
-          "to": "National Gallery of Denmark",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "to": "National Gallery of Denmark - Statens Museum for Kunst",
+          "transport_mode": "walk",
+          "distance_meters": 390,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "evening": {
@@ -302,7 +316,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 7
     },
     {
       "day": 4,
@@ -311,8 +326,8 @@
       "neighborhood_focus": "Vesterbro / Frederiksberg",
       "neighborhood_description": "Vesterbro は Copenhagen の労働者階級の食肉処理場地区でしたが、現在は市内で最も活気ある食とデザインの街となっています。徒歩で西に10分のところにある Frederiksberg は完全に独立した自治体で、見晴らしの良い丘陵公園と夏の王室離宮がある裕福なガーデンシティです。この2つの地区を合わせると、市内で最も住みやすく、観光客が最も少ない一日観光コースになります。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 4200,
-      "day_walking_minutes": 53,
+      "day_walking_distance_meters": 2260,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Torvehallerne Market",
         "wikidata_qid": "Q12329584",
@@ -328,9 +343,11 @@
         "optimal_timing": "morning",
         "notes": "Israels Plads にある2つの屋根付きガラス製マーケットホールで、約60の店舗があります。東側入口近くの Hall 1 にある燻製魚とオープンサンドイッチのカウンターは、Copenhagen で最も模倣されているランチです。ディルとマスタードを添えたライ麦パンの塩漬けサーモンは、smørrebrød がどういうものかを知る上で妥当な基準となります。昼食の行列ができる前の午前9時から11時の間に行くのがおすすめです。外周の花屋は、ホールよりも古い歴史ある屋外市場の名残です。",
         "walk_to_next": {
-          "to": "Meatpacking District - Kodbyen",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Kodbyen - the Meatpacking District",
+          "transport_mode": "walk",
+          "distance_meters": 2260,
+          "travel_minutes": 28,
+          "walking_minutes": 28
         }
       },
       "afternoon": {
@@ -348,9 +365,11 @@
         "optimal_timing": "any",
         "notes": "1879年から1934年にかけて建設された、機能的に異なる3つの区域 - Brown Meat City、White Meat City、Grey Meat City があり、すべて当時のタイル張りの内装と鋳鉄製の設備がそのまま残されています。White Meat City が現在最も活気のある区域で、かつての精肉場だった建物にレストランやギャラリーが入っています。日中は比較的静かで、ほとんどの店舗は午後5時から本格的にオープンしますが、白い外壁の建築は午後の光の中で最も美しく見えます。",
         "walk_to_next": {
-          "to": "Frederiksberg Gardens",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "Frederiksberg Gardens and Palace",
+          "transport_mode": "transit",
+          "distance_meters": 2520,
+          "travel_minutes": 13,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -390,7 +409,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 41
     },
     {
       "day": 5,
@@ -399,8 +419,8 @@
       "neighborhood_focus": "Christianshavn",
       "neighborhood_description": "Christianshavnは1617年にChristian IV世によって商業・海軍地区として建設された人工島で、内港によって旧市街から隔てられています。オランダ様式の運河と城壁により、Copenhagenの他の地区とは建築的に異なる特徴を持っています。東端部では、Christianiaが1971年以来自治区として運営されています。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3500,
-      "day_walking_minutes": 44,
+      "day_walking_distance_meters": 1560,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Church of Our Saviour",
         "wikidata_qid": "Q1392025",
@@ -416,9 +436,11 @@
         "optimal_timing": "morning",
         "notes": "1752年建造の外部らせん階段は、尖塔の外側を反時計回りに巻いており、最後の150段を登ります。手すりは腰の高さで、階段は上に向かって狭くなるため、本当に露出した状態になります。頂上の金球からの眺めは、街全体と港を一望できます。Baroque様式の内装には4階建ての彫刻が施されたオルガンケースと、デンマーク象勲章を象徴する象と城のモチーフが全体に施されています。港が輝き、南にOresund橋が見える晴れた朝に訪れることをお勧めします。",
         "walk_to_next": {
-          "to": "Christiania",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Freetown Christiania",
+          "transport_mode": "walk",
+          "distance_meters": 520,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -436,9 +458,11 @@
         "optimal_timing": "any",
         "notes": "1971年に不法占拠者が使われなくなった軍事兵舎を占拠して設立されました。約800人の住民が、デンマーク国家との交渉による半自治的な取り決めの下で今でも生活しています。Pusher Streetでの写真撮影は禁止されていますが、湖エリア、コミュニティガーデン、工芸工房を含む地区の他の場所では歓迎されています。建築は50年間にわたって蓄積されたリサイクル材料による本物のフォークビルトのパッチワークです。最も雰囲気のある部分を見るには、東端の城壁湖に向かって歩いてください。",
         "walk_to_next": {
-          "to": "Christianshavn Canal",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Christianshavn Canal and Ramparts",
+          "transport_mode": "walk",
+          "distance_meters": 1040,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -478,7 +502,10 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 90,
+  "last_verified": null
 }

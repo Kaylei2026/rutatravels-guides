@@ -1,7 +1,7 @@
 {
   "destination": "Hiroshima",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-08-11T16:31:55.244Z",
   "sources": [
     "wikidata",
@@ -13,7 +13,7 @@
   ],
   "guide_description": "在广岛市中心的一天，从和平纪念公园一路向北，穿过战后重建的城区抵达广岛城，最后在御好烧的铁板前收尾。整条路线地势平坦、距离紧凑，电车网络覆盖良好。宫岛与严岛神社是人们来到这一带的另一个理由，它们需要单独的半天时间，因此这一天的安排是为了容纳一次替换，而不是一次追加。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3100,
+  "total_walking_distance_meters": 3190,
   "total_walking_minutes": 39,
   "days": [
     {
@@ -23,7 +23,7 @@
       "neighborhood_focus": "中区 / 和平纪念公园",
       "neighborhood_description": "广岛市中心坐落在一片河口三角洲上，和平纪念公园占据了元安川与太田川分流处的那座三角形小岛，那里曾是全城最繁忙的商业区，也正位于1945年爆炸点的正下方。往北，街区在五十年代沿宽阔的林荫大道重建，广岛城的城址与缩景园步行十五分钟可达。本通与流川，也就是有顶棚的商店街和夜生活街区，就夹在两者之间。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
+      "day_walking_distance_meters": 3190,
       "day_walking_minutes": 39,
       "morning": {
         "activity_title": "Hiroshima Peace Memorial Park and Museum",
@@ -41,8 +41,10 @@
         "notes": "广岛和平纪念公园与和平纪念资料馆。开馆即到。资料馆本馆在2019年重新布展，围绕遗物与幸存者证言展开，而非模型，展陈毫不留情；大多数人看完之后需要坐一会儿，公园本身正是适合坐下来的地方。之后再由内向外走：挂满千纸鹤的原爆之子像、经过对位使拱形正好框住圆顶的慰灵碑，以及北端的原爆圆顶馆，它是爆心地附近唯一留存的建筑，也是列入联合国教科文组织名录的那一处。旁边的国立广岛原爆死没者追悼平和祈念馆免费开放，更为安静，保存着遇难者的姓名与照片。开放时间随季节调整，8月6日有年度纪念仪式且人潮极大，因此在安排上午行程前请向资料馆确认当前时间。",
         "walk_to_next": {
           "to": "Hiroshima Castle",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "transport_mode": "walk",
+          "distance_meters": 1800,
+          "travel_minutes": 22,
+          "walking_minutes": 22
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "广岛城。毛利辉元于1589年建于三角洲平地之上，因此得名鲤城，坐落在宽阔的护城河内而非山冈之上。天守在1945年被摧毁，1958年以混凝土重建，如今内设城下町与武士时代的博物馆，顶层设有瞭望层。城址内有两处值得慢慢看：一株桉树与一株柳树在爆炸中幸存并仍在生长；以及经发掘的陆军司令部地下壕遗迹，第一份关于原子弹爆炸的报告正是从那里发出的。上行途中在本通用午餐，公园内的选择有限。",
         "walk_to_next": {
           "to": "Okonomimura and Nagarekawa",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "transport_mode": "walk",
+          "distance_meters": 1390,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 39
     }
-  ]
+  ],
+  "total_travel_minutes": 39,
+  "last_verified": null
 }

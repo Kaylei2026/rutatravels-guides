@@ -1,7 +1,7 @@
 {
   "destination": "Munich",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-08-11T16:20:14.882Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Trois jours à travers les trois registres distincts de Munich: l'Altstadt compacte avec ses marchés, ses appartements royaux et ses brasseries; le quartier des musées de Maxvorstadt qui file vers l'est jusqu'au Jardin anglais; et la résidence d'été des Wittelsbach avec le parc olympique de 1972 dans les quartiers ouest. Le temps passé en brasserie de plein air est inscrit au programme comme une étape à part entière, ce qui correspond au fonctionnement réel de la ville.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 8850,
-  "total_walking_minutes": 112,
+  "total_walking_distance_meters": 6130,
+  "total_walking_minutes": 76,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Altstadt / Vieille ville",
       "neighborhood_description": "Le noyau historique de Munich tient à l'intérieur de l'anneau des anciens remparts et se traverse à pied en une vingtaine de minutes. Marienplatz l'ancre en son centre, l'ensemble de la Residenz s'étend vers le nord en direction d'Odeonsplatz, et le marché alimentaire quotidien comme les plus anciennes brasseries se trouvent à quelques pâtés de maisons dans l'une ou l'autre direction. Le quartier se vide de ses habitants à la fin de la journée de travail, si bien que les matinées ressemblent à une ville qui travaille et les soirées à un décor.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1350,
-      "day_walking_minutes": 17,
+      "day_walking_distance_meters": 1280,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Marienplatz",
         "wikidata_qid": null,
@@ -43,7 +43,9 @@
         "notes": "Le Glockenspiel du beffroi du Neues Rathaus se déclenche en principe à 11h00 et à 12h00 toute l'année, avec une représentation supplémentaire l'après-midi aux beaux jours; confirmez les horaires en vigueur auprès de l'office de tourisme avant d'organiser la matinée autour. Le spectacle déçoit franchement et tout le monde le regarde quand même une fois. Laissez tomber la tour de l'hôtel de ville et montez plutôt à l'Alter Peter, 306 marches sans ascenseur, pour la plus belle vue de la ville en regardant la place en direction de la Frauenkirche. Arrivez avant 10h00 si vous voulez la place sans les groupes.",
         "walk_to_next": {
           "to": "Munich Residenz",
-          "distance_meters": 700,
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
           "walking_minutes": 9
         }
       },
@@ -63,8 +65,10 @@
         "notes": "La Residenz de Munich, ancien palais royal des Wittelsbach, est bien plus vaste à l'intérieur que ne le laisse deviner sa façade, et 150 minutes constituent le minimum réaliste. L'Antiquarium, salle Renaissance à voûte en berceau longue comme un pâté de maisons, est la pièce qui justifie à elle seule la visite. Le Trésor et le théâtre rococo de Cuvilliés se paient séparément des appartements, décidez donc à l'avance de la combinaison souhaitée. Mangez d'abord au Viktualienmarkt en chemin, car l'offre sur place est limitée et vous en aurez pour un moment à l'intérieur.",
         "walk_to_next": {
           "to": "Hofbrauhaus am Platzl",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "transport_mode": "walk",
+          "distance_meters": 590,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Maxvorstadt / Englischer Garten",
       "neighborhood_description": "Maxvorstadt est le quartier universitaire et muséal au nord de l'Altstadt, qui réunit cinq grands musées d'art à quelques rues les uns des autres. En marchant vers l'est, la trame s'ouvre sur l'Englischer Garten, plus vaste que Central Park et long de quatre kilomètres vers le nord le long de l'Isar. L'extrémité sud est animée et sociable, les parties septentrionales sont assez calmes pour marcher pour de bon.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 3050,
+      "day_walking_minutes": 38,
       "morning": {
         "activity_title": "Alte Pinakothek",
         "wikidata_qid": null,
@@ -151,8 +156,10 @@
         "notes": "L'une des grandes collections de peinture ancienne d'Europe, bâtie sur quatre siècles d'acquisitions des Wittelsbach. Le fonds Rubens est le plus important au monde, et La Bataille d'Alexandre à Issos d'Altdorfer, à l'étage, justifie à elle seule de traverser la ville. Deux heures couvrent honnêtement l'essentiel; une journée entière est possible si vous êtes du genre à lire les cartels. Les musées d'État bavarois pratiquent de longue date un tarif réduit le dimanche, ce qui attire la foule en conséquence, et une matinée en semaine est donc plus paisible.",
         "walk_to_next": {
           "to": "Englischer Garten and the Eisbach wave",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "transport_mode": "walk",
+          "distance_meters": 1670,
+          "travel_minutes": 21,
+          "walking_minutes": 21
         }
       },
       "afternoon": {
@@ -171,8 +178,10 @@
         "notes": "Le Jardin anglais et la vague de l'Eisbach. Entrez par la pointe sud, près de la Haus der Kunst, où une vague stationnaire sur le canal de l'Eisbach attire des surfeurs en combinaison toute l'année, y compris sous la neige. Regarder est gratuit et permanent, et il faut environ un quart d'heure pour cesser de trouver la scène surréaliste. De là, remontez le long de l'eau en passant sous la butte du Monopteros, qui offre la plus belle vue sur les toits depuis le parc. Le bronzage intégral est légal et parfaitement banal dans les prairies signalées; personne n'y trouvera à redire.",
         "walk_to_next": {
           "to": "Chinesischer Turm beer garden",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "transport_mode": "walk",
+          "distance_meters": 1380,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 38
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Neuhausen-Nymphenburg / Olympiapark",
       "neighborhood_description": "À l'ouest et au nord du centre, Munich devient résidentielle et verte. Le château de Nymphenburg se dresse au bout d'un canal d'apparat, avec un parc qui s'étire derrière lui; le Hirschgarten occupe une clairière un peu plus à l'est, et l'Olympiapark s'étend plus au nord sur une colline formée des gravats de la guerre. Les distances y sont plus grandes que dans l'Altstadt, et le tramway comme le U-Bahn font le travail de liaison.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4900,
-      "day_walking_minutes": 62,
+      "day_walking_distance_meters": 1800,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Nymphenburg Palace",
         "wikidata_qid": null,
@@ -259,8 +269,10 @@
         "notes": "Le château de Nymphenburg, résidence d'été des Wittelsbach, s'atteint par le tramway 17 depuis la Hauptbahnhof en une vingtaine de minutes. À l'intérieur, la Galerie des beautés commandée par Louis Ier est la curiosité mémorable: trente-six portraits de femmes qu'il jugeait dignes d'être peintes, sans considération de rang à la cour. Le Marstallmuseum, dans l'aile sud, conserve les carrosses royaux, dont le traîneau doré de nuit de Louis II. Le parc à l'arrière est gratuit et immense, avec le pavillon de chasse d'Amalienburg dissimulé à l'intérieur et qui vaut largement le détour.",
         "walk_to_next": {
           "to": "Hirschgarten",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "transport_mode": "walk",
+          "distance_meters": 1800,
+          "travel_minutes": 22,
+          "walking_minutes": 22
         }
       },
       "afternoon": {
@@ -279,8 +291,10 @@
         "notes": "La plus grande brasserie de plein air du monde, avec environ 8 000 places, un enclos à cerfs à une extrémité et une clientèle très locale et familiale. Augustiner à la pression, tirée de fûts en bois au comptoir, ce que les Munichois vous présenteront comme la bonne manière de la boire. C'est l'étape déjeuner naturelle de la journée: Schweinshaxe, Obatzda avec un bretzel ou Leberkäse dans un petit pain, le tout accommodant pour les espèces et souvent en espèces uniquement. Ouverture saisonnière comme pour toutes les brasseries de plein air, en gros du printemps au début de l'automne.",
         "walk_to_next": {
           "to": "Olympiapark and the Olympiaturm",
-          "distance_meters": 3300,
-          "walking_minutes": 42
+          "transport_mode": "transit",
+          "distance_meters": 4900,
+          "travel_minutes": 18,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 40
     }
-  ]
+  ],
+  "total_travel_minutes": 94,
+  "last_verified": null
 }

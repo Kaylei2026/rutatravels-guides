@@ -1,7 +1,7 @@
 {
   "destination": "Lisbon",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:08:04.456Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Lisbon最古で最も歴史が重層するAlfama地区での一日：中世の城塞まで続くMoorsの丘陵地帯を登り、麓には市内最古のGothic大聖堂、尾根沿いにはLisbon随一の展望スポットが点在しています。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 1130,
+  "total_walking_minutes": 14,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Alfama / Castelo",
       "neighborhood_description": "Lisbonで現存する最古の地区で、Baixa東側の急峻な丘に築かれています。AlfamaはMoorsのメディナとして栄え、1755年の大地震で市街地の大部分が倒壊した中でも生き残りました。Pombaline様式での再建には狭すぎた迷路のような細道には、Romanesque様式の大聖堂、Moors創建の城塞、そして伝統的なfadoハウスが密集しています。丘の頂上からはTagus河口と下町のオレンジ色の屋根を一望できます。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1130,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Lisbon Cathedral (Se de Lisboa)",
         "wikidata_qid": "Q1702579",
@@ -41,8 +41,10 @@
         "notes": "Lisbonで最も古い教会で、キリスト教徒による再征服直後の1147年、主要なイスラム教モスクの跡地に建設が始まりました。塔の軍事的胸壁は装飾的なものではなく、意図的なものです。Romanesque様式の身廊は厳格で厳粛な造りとなっており、丘の上にあるManueline様式の教会とは明確に異なります。トラム側の西側ファサードから入り、奥にあるGothic様式の回廊まで歩いてください。そこではローマ時代、イスラム時代、中世の地層が同時に発掘されています。28Eトラムが直接前に停車するため、午前10時前に到着して混雑を避けましょう。",
         "walk_to_next": {
           "to": "Castelo de Sao Jorge",
-          "distance_meters": 750,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 610,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "この城は、Iron Age時代とローマ時代の要塞の上に建てられたイスラム教のalcacovaの跡地にあります。重要なのは壁だけでなく、この積み重ねられた歴史です。城壁内のNucleo Arqueologicoには、全時代の宮殿の部屋が発掘され展示されています。外壁を一周歩いて、東の砦からはTagus川の遮られることのない眺めを、北の塔からはBaixa地区の格子状の街並みを越えてBairro Altoの丘を望むことができます。内庭を歩き回る孔雀は観光客向けの演出ではなく、16世紀からここに住んでいます。",
         "walk_to_next": {
           "to": "Miradouro da Graca",
-          "distance_meters": 750,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 520,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     }
-  ]
+  ],
+  "total_travel_minutes": 14,
+  "last_verified": null
 }

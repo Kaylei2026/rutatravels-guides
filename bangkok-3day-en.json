@@ -1,7 +1,7 @@
 {
   "destination": "Bangkok",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:36:08.580Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days on Bangkok's oldest island and its riverine neighbors. Day one covers the royal ceremonial core on Ko Ratanakosin, day two follows the river into Chinatown's market streets and the port district, and day three moves north to the tree-lined boulevards and throne halls of Dusit. The three clusters are geographically contiguous and work as a single walking city rather than three separate taxi trips.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 10400,
-  "total_walking_minutes": 130,
+  "total_walking_distance_meters": 3860,
+  "total_walking_minutes": 48,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Ko Ratanakosin",
       "neighborhood_description": "The artificial island created in 1782 when King Rama I dug a canal to extend the natural bend of the Chao Phraya. The Grand Palace, Wat Phra Kaew, and Wat Pho all sit within a few hundred meters of each other on its western edge. Across the river by a two-minute ferry is Wat Arun, the spire-covered temple of dawn that dominates the Bangkok skyline.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3600,
-      "day_walking_minutes": 45,
+      "day_walking_distance_meters": 1190,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Wat Phra Kaew and the Grand Palace",
         "wikidata_qid": "Q842285",
@@ -42,9 +42,11 @@
         "optimal_timing": "morning",
         "notes": "Buy tickets at the Visetchaisri Gate on Na Phra Lan Road - never from touts who approach you on the street claiming the complex is closed for a ceremony. Dress code is strict and enforced: shoulders and knees covered, no flip-flops. Free sarongs are available at the entrance if you arrive underprepared. Arrive at opening (8:30am) to reach the Emerald Buddha chapel before the group tours; by 10am the galleries around the main chapel are shoulder-to-shoulder. The Ramakien murals running the full length of the gallery wall are 178 panels and worth a slow circuit.",
         "walk_to_next": {
-          "to": "Wat Pho",
+          "to": "Wat Pho and the Reclining Buddha",
+          "transport_mode": "walk",
           "distance_meters": 500,
-          "walking_minutes": 7
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "The temple complex is larger than the Grand Palace and far less crowded in its outer courtyards. The Reclining Buddha is 46 meters long and covered in gold leaf - the feet alone show 108 auspicious characteristics in mother-of-pearl inlay. After the main hall, spend time in the open courtyards where hundreds of chedi (stupas) in different dynasties and colors crowd together. Wat Pho is also the national center for traditional Thai massage; the onsite school runs 30-minute sessions at fixed government-regulated prices and the quality is consistently reliable.",
         "walk_to_next": {
-          "to": "Tha Tien Pier for ferry to Wat Arun",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Wat Arun at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Chinatown / Yaowarat / Pahurat",
       "neighborhood_description": "Bangkok's Chinatown stretches along Yaowarat Road from the elevated Hua Lamphong rail station down to the Chao Phraya. Established in the 1780s when Rama I relocated Chinese merchants to make room for the new capital, the district has been commercially uninterrupted ever since. Gold traders, dried seafood merchants, Chinese temples, and shrine rooms above noodle shops create a neighborhood that operates on its own internal logic entirely separate from the rest of Bangkok.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3500,
-      "day_walking_minutes": 44,
+      "day_walking_distance_meters": 1380,
+      "day_walking_minutes": 17,
       "morning": {
         "activity_title": "Wat Traimit and the Golden Buddha",
         "wikidata_qid": "Q1518440",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "The ground floor holds the Chinatown Heritage Centre with good English-language exhibition on the district's history - genuinely informative, not tourist-facing pablum. The main attraction is on the upper floors: a solid gold Buddha image weighing 5.5 tonnes, cast in the 13th century and covered in plaster for centuries to protect it from Burmese invasion. The plaster cracked during a move in 1955 revealing the gold beneath. Visit the heritage centre first so the Buddha has context when you reach it.",
         "walk_to_next": {
-          "to": "Yaowarat Road",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Yaowarat Road and the Chinatown market lanes",
+          "transport_mode": "walk",
+          "distance_meters": 750,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Walk the main Yaowarat Road for the gold shops and signage, but the real character is in the perpendicular sois running south toward the river. Soi Nana (not to be confused with the one in Sukhumvit) has become the best single street in Bangkok for specialty coffee and bar-with-Chinese-antiques hybrids in old shophouses. Talat Noi, the sub-district closer to the river, has streets of rusting warehouses, ship-repair yards, and old Chinese clan houses that are quietly one of the most atmospheric corners of the city.",
         "walk_to_next": {
-          "to": "Wat Mangkon Kamalawat",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Wat Mangkon Kamalawat by night",
+          "transport_mode": "walk",
+          "distance_meters": 630,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 17
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Dusit / Thewet",
       "neighborhood_description": "The district laid out by Rama V in the late 19th century after his first trips to Europe, designed as a Thai response to Haussmann's Paris - wide boulevards, European neoclassical government buildings, and a new palace complex set in a formal European garden. It sits immediately north of the old city and is connected to it by the ceremonial Ratchadamnoen Avenue.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3300,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 1290,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Vimanmek Teak Mansion",
         "wikidata_qid": "Q2498413",
@@ -258,9 +268,11 @@
         "optimal_timing": "morning",
         "notes": "Claimed to be the world's largest golden teak wood building, constructed in 1900 and used as the residential quarters of Rama V. The guided tour is mandatory and included in the ticket price - the guides are well-informed and the tour takes about an hour. Dress code applies (same as the Grand Palace). The rooms contain the first bathroom in Thailand, the first typewriter used for Thai script, and a collection of Rama V's photographs taken on his European trips that give the building its context. Entry is included with the Grand Palace ticket if used within 30 days.",
         "walk_to_next": {
-          "to": "Dusit Palace and Abhisek Dusit Throne Hall",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Abhisek Dusit Throne Hall",
+          "transport_mode": "walk",
+          "distance_meters": 140,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "any",
         "notes": "The ornamental hall built in 1904 for Rama V, combining Victorian and Moorish architectural elements with Thai craftsmanship - the result is genuinely singular rather than awkward. Now houses the SUPPORT Foundation collection of traditional Thai handicrafts, including the best display of Benjarong porcelain and nielloware (black-inlaid silverwork) in any public collection. Less visited than Vimanmek, which means the exhibits get proper attention.",
         "walk_to_next": {
-          "to": "Wat Benchamabophit",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Wat Benchamabophit at dusk",
+          "transport_mode": "walk",
+          "distance_meters": 1150,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     }
-  ]
+  ],
+  "total_travel_minutes": 48,
+  "last_verified": null
 }

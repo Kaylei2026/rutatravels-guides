@@ -1,7 +1,7 @@
 {
   "destination": "Barcelona",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Cinq jours pour découvrir l'essentiel de Barcelona, plus le parc perché de Gaudí, l'atmosphère villageoise de Gràcia et le front de mer méditerranéen. Chaque jour est géographiquement autonome.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 12700,
-  "total_walking_minutes": 166,
+  "total_walking_distance_meters": 10020,
+  "total_walking_minutes": 126,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Barri Gòtic / El Born",
       "neighborhood_description": "Les deux quartiers médiévaux adjacents qui forment le cœur historique de Barcelona. Le Barri Gòtic est construit sur des fondations romaines et centré autour de la Cathédrale gothique ; El Born à l'est est l'ancien quartier des marchands, plus étroit, plus animé, avec la basilique Santa Maria del Mar en son cœur.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1800,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 630,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Cathedral of Barcelona (La Seu)",
         "wikidata_qid": "Q56551",
@@ -44,8 +44,10 @@
         "optimal_timing": "morning",
         "notes": "La cathédrale gothique du XIVe siècle, souvent confondue avec la Sagrada Família de Gaudí mais architecturalement totalement distincte. Le cloître avec ses treize oies blanches (une pour chaque année de la vie de sainte Eulalie, selon la tradition) constitue le point central inattendu. Les terrasses du toit sont accessibles par ascenseur pour une somme modique et offrent une vue panoramique sur le quartier gothique que les foules de la Sagrada Família pensent rarement à rechercher.",
         "walk_to_next": {
-          "to": "Plaça del Rei",
+          "to": "Plaça del Rei and the Roman walls",
+          "transport_mode": "walk",
           "distance_meters": 150,
+          "travel_minutes": 2,
           "walking_minutes": 2
         }
       },
@@ -65,8 +67,10 @@
         "notes": "La place royale médiévale, encadrée par le Palau Reial Major où Colomb aurait présenté ses découvertes à Ferdinand et Isabelle en 1493. L'entrée du MUHBA Barcelona History Museum sur la place descend sous terre vers 4 km remarquablement préservés de la Barcino romaine - rues, teintureries, caves - directement sous vos pieds. La visite de musée la plus surprenante de Barcelona.",
         "walk_to_next": {
           "to": "Santa Maria del Mar",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 480,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -106,7 +110,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 2,
@@ -115,8 +120,8 @@
       "neighborhood_focus": "Eixample",
       "neighborhood_description": "L'extension planifiée de Barcelone au 19e siècle au-delà des anciens remparts, tracée en 1859 selon une grille uniforme aux angles chanfreinés qui donne au quartier son rythme visuel d'îlots octogonaux. Cette trame abrite la plus forte concentration mondiale de modernisme catalan (le mouvement Art nouveau espagnol mené par Gaudí, Domènech et Puig).",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2630,
+      "day_walking_minutes": 33,
       "morning": {
         "activity_title": "Sagrada Família",
         "wikidata_qid": "Q5882",
@@ -137,9 +142,11 @@
         "optimal_timing": "morning",
         "notes": "La basilique inachevée de Gaudí, commencée en 1882 et dont l'achèvement de la tour centrale Jesus Christ est maintenant prévu pour 2026. Réservez le billet d'entrée à horaire fixe en ligne plusieurs semaines à l'avance - l'achat sur place est rare même en basse saison. Choisissez un créneau matinal pour profiter de la lumière de la façade Nativité orientée à l'est à travers les vitraux, qui inonde les colonnes intérieures de bleu et d'orange. Les billets d'ascenseur pour les tours (l'une des tours Nativité ou Passion) sont un supplément qui en vaut la peine pour la vue rapprochée des détails des flèches.",
         "walk_to_next": {
-          "to": "Casa Batlló (via Passeig de Gràcia)",
-          "distance_meters": 1800,
-          "walking_minutes": 23
+          "to": "Casa Batlló and Passeig de Gràcia",
+          "transport_mode": "walk",
+          "distance_meters": 2000,
+          "travel_minutes": 25,
+          "walking_minutes": 25
         }
       },
       "afternoon": {
@@ -162,9 +169,11 @@
         "optimal_timing": "any",
         "notes": "La rénovation par Gaudí en 1904 d'un immeuble d'appartements existant - les balcons courbes rappelant des os, le toit carrelé aux écailles de dragon, les colonnes de cheminées sont tous de lui. La visite intérieure est excellente (à réserver en ligne) mais chère ; pour les budgets serrés, la vue sur la façade depuis l'autre côté du Passeig de Gràcia constitue déjà une attraction majeure. Dans le même pâté de maisons se dresse Casa Amatller de Puig i Cadafalch - le contraste entre les styles des deux architectes est tout l'intérêt de la Manzana de la Discordia (Pâté de maisons de la Discorde).",
         "walk_to_next": {
-          "to": "Casa Milà (La Pedrera)",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Casa Milà (La Pedrera) at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 630,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -209,7 +218,8 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 33
     },
     {
       "day": 3,
@@ -218,8 +228,8 @@
       "neighborhood_focus": "Montjuïc / Poble Sec",
       "neighborhood_description": "Cette colline de 184 mètres qui s'élève depuis le front de mer occidental, réaménagée pour l'Exposition internationale de 1929 puis pour les Jeux olympiques de 1992. Elle abrite le Musée national d'art de Catalogne, la Fondation Joan Miró, le stade olympique et le château médiéval au sommet - ainsi que la plus forte concentration de points de vue panoramiques gratuits de Barcelona.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1750,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "MNAC - National Art Museum of Catalonia",
         "wikidata_qid": "Q861252",
@@ -236,8 +246,10 @@
         "notes": "Installé dans le Palau Nacional de 1929, le Musée national d'art détient la plus importante collection mondiale de fresques romanes - sauvées d'églises de villages pyrénéens dans les années 1920 et réinstallées ici sur des reconstitutions d'absides. Les galeries romanes justifient à elles seules la visite ; l'aile modernisme à l'étage présente les arts décoratifs de l'époque Gaudí. Entrée gratuite le premier samedi après-midi et tous les dimanches après 15h. La terrasse offre une vue panoramique sur toute la ville.",
         "walk_to_next": {
           "to": "Fundació Joan Miró",
-          "distance_meters": 800,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -255,9 +267,11 @@
         "optimal_timing": "any",
         "notes": "Conçu par Josep Lluís Sert, ami de Miró (architecte, doyen du MIT, exilé de l'Espagne franquiste), le bâtiment de la fondation constitue lui-même l'une des plus belles réussites architecturales muséales du 20e siècle - modernisme méditerranéen blanc avec galeries éclairées par le toit et terrasse de sculptures sur le toit. La collection est essentiellement consacrée à Miró, organisée chronologiquement, avec une saisissante salle « Hommage à Miró » présentant des œuvres d'autres artistes offertes en son honneur.",
         "walk_to_next": {
-          "to": "Montjuïc Castle",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Montjuïc Castle and the Mediterranean panorama",
+          "transport_mode": "walk",
+          "distance_meters": 1030,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -297,7 +311,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     },
     {
       "day": 4,
@@ -306,8 +321,8 @@
       "neighborhood_focus": "Park Güell / Gràcia",
       "neighborhood_description": "Les pentes nord au-dessus de la ville, où Gaudí a construit son parc le plus photographié, et le quartier adjacent de Gràcia - une ville indépendante jusqu'en 1897, qui conserve encore de petites places, des bâtiments de faible hauteur et l'atmosphère la plus authentique du centre de Barcelone.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 2070,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Park Güell",
         "wikidata_qid": "Q170842",
@@ -329,8 +344,10 @@
         "notes": "Commencé en 1900 comme un projet immobilier de luxe qui a échoué pour le mécène de Gaudí, Eusebi Güell - seulement deux maisons furent jamais construites, et la ville finit par racheter le terrain pour en faire un parc public en 1922. La célèbre Zone Monumentale (l'escalier au dragon, la salle aux colonnes, la terrasse aux carreaux ondulants) nécessite désormais un billet à créneaux horaires ; le parc environnant est gratuit et mérite d'être exploré. Réservez le billet horaire en ligne ; l'achat sur place est impossible. Arrivez à l'ouverture pour devancer les groupes de touristes.",
         "walk_to_next": {
           "to": "Plaça de la Vila de Gràcia",
-          "distance_meters": 1500,
-          "walking_minutes": 20
+          "transport_mode": "walk",
+          "distance_meters": 1820,
+          "travel_minutes": 23,
+          "walking_minutes": 23
         }
       },
       "afternoon": {
@@ -348,9 +365,11 @@
         "optimal_timing": "any",
         "notes": "La place centrale de l'ancienne ville de Gràcia, dominée par la tour de l'horloge de 1862 (Torre del Rellotge), qui servait de phare politique du mouvement républicain catalan à la fin du 19ème siècle. La place ancre le quartier - cinq minutes de marche dans n'importe quelle direction vous mènent sur des rues étroites bordées d'arbres, de petites librairies, de bars à vermut et de boulangeries aux façades carrelées. Idéal un après-midi de semaine quand les locaux dominent.",
         "walk_to_next": {
-          "to": "Plaça del Sol",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Plaça del Sol after dark",
+          "transport_mode": "walk",
+          "distance_meters": 250,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -390,7 +409,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     },
     {
       "day": 5,
@@ -399,8 +419,8 @@
       "neighborhood_focus": "Barceloneta / Port Vell",
       "neighborhood_description": "La péninsule triangulaire entre l'ancien port et la Méditerranée, tracée en 1753 comme un quadrillage planifié pour les marins et dockers déplacés lors de la construction de la Citadelle. Désormais le tronçon de plage le plus concentré du centre de Barcelone, bordé de restaurants de fruits de mer et du réaménagement du front de mer de l'époque olympique.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2700,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2940,
+      "day_walking_minutes": 37,
       "morning": {
         "activity_title": "Maritime Museum (Drassanes Reials)",
         "wikidata_qid": "Q1133778",
@@ -416,9 +436,11 @@
         "optimal_timing": "morning",
         "notes": "Installé dans les chantiers navals royaux médiévaux (Drassanes Reials), l'un des plus grands bâtiments civils gothiques survivants d'Europe - d'immenses halles voûtées en pierre construites pour la construction de navires de guerre méditerranéens au XIIIe siècle. La collection s'articule autour d'une réplique grandeur nature du navire amiral de Don Juan of Austria de la bataille de Lepanto de 1571. Le bâtiment lui-même constitue la plus grande attraction.",
         "walk_to_next": {
-          "to": "Port Vell / Rambla del Mar",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Port Vell and Barceloneta beach",
+          "transport_mode": "walk",
+          "distance_meters": 1600,
+          "travel_minutes": 20,
+          "walking_minutes": 20
         }
       },
       "afternoon": {
@@ -436,9 +458,11 @@
         "optimal_timing": "any",
         "notes": "Longez le port depuis le pied de La Rambla vers l'est le long du Passeig de Joan de Borbó - le quartier de Barceloneta proprement dit est cette grille étroite de hauts immeubles d'appartements élancés construits sur ce qui était à l'origine un terrain militaire gagné sur la mer. La plage elle-même a été créée de toutes pièces pour les Jeux olympiques de 1992. La sculpture Fish de Frank Gehry qui marque l'extrémité est de la plage est le point de repère qui sépare Barceloneta de la Vila Olímpica.",
         "walk_to_next": {
-          "to": "Parc de la Ciutadella",
-          "distance_meters": 1200,
-          "walking_minutes": 16
+          "to": "Parc de la Ciutadella at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1340,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -478,7 +502,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 37
     }
-  ]
+  ],
+  "total_travel_minutes": 126,
+  "last_verified": null
 }

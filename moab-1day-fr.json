@@ -1,7 +1,7 @@
 {
   "destination": "Moab",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:02:25.765Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Une journée construite autour du paysage de roches rouges qui caractérise Moab : les fines couches de grès et les arches du parc national le matin, le canyon du Colorado River à midi, et le spectacle de lumière en bordure du canyon au coucher du soleil. L'ensemble s'étend au nord de la ville le long de US-191 et Utah-128, limitant les trajets en voiture entre les différents arrêts.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 5460,
-  "total_walking_minutes": 68,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Arches National Park / Colorado River Corridor",
       "neighborhood_description": "La région du pays de canyons immédiatement au nord et au nord-est de la ville de Moab - Arches National Park commence à cinq kilomètres de Main Street, et Utah-128 longe le Colorado River vers l'est à partir de la même jonction. Ensemble, ils couvrent l'histoire géologique du Colorado Plateau dans une seule boucle routière.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 5460,
-      "day_walking_minutes": 68,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Delicate Arch",
         "wikidata_qid": "Q1183461",
@@ -41,8 +41,10 @@
         "notes": "Le sentier aller-retour de 4,8 kilomètres grimpe 146 mètres sur du rocher lisse avec presque aucune ombre - ne commencez pas plus tard que 7h du matin en été pour terminer avant que la chaleur devienne dangereuse. L'arche ne se révèle qu'à la toute fin du sentier au bord d'une cuvette de grès, alors résistez à l'envie de consulter des photos au préalable ; la surprise spatiale à la limite est toute la récompense. Les permis d'accès chronométré pour Arches sont obligatoires d'avril à octobre et s'épuisent des semaines à l'avance via Recreation.gov.",
         "walk_to_next": {
           "to": "Landscape Arch",
-          "distance_meters": 4160,
-          "walking_minutes": 52
+          "transport_mode": "drive",
+          "distance_meters": 15000,
+          "travel_minutes": 25,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "Le sentier à travers Devils Garden vers Landscape Arch est un aller-retour plat de 2,6 kilomètres sur un chemin gravillonné - gérable à midi contrairement à Delicate Arch. Landscape Arch s'étend sur 88 mètres, l'arche naturelle la plus longue d'Amérique du Nord ; une dalle s'est détachée du dessous en 1991 et le ruban de roche est visiblement plus mince d'un côté. Le sentier de départ de Devils Garden abrite également le seul terrain de camping aménagé du parc, ce qui vaut la peine d'être noté si vous prévoyez de rester.",
         "walk_to_next": {
-          "to": "Colorado River Overlook - Utah-128 viewpoint near Moab",
-          "distance_meters": 1300,
-          "walking_minutes": 16
+          "to": "Dead Horse Point State Park",
+          "transport_mode": "drive",
+          "distance_meters": 50640,
+          "travel_minutes": 52,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 13
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 77
     }
-  ]
+  ],
+  "total_travel_minutes": 77,
+  "last_verified": null
 }

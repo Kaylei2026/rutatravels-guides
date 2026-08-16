@@ -1,7 +1,7 @@
 {
   "destination": "Lisbon",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:08:04.456Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "在里斯本最古老、历史最悠久的街区度过一天：这是一片摩尔人的山坡地带Alfama，向上延伸到中世纪城堡，山脚下是该市最古老的哥特式大教堂，沿着山脊分布着里斯本最好的观景点。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 1130,
+  "total_walking_minutes": 14,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Alfama / Castelo",
       "neighborhood_description": "里斯本现存最古老的街区，坐落在Baixa东侧的陡峭山坡上。Alfama曾是摩尔人的麦地那，在1755年那场夷平了城市大部分地区的地震中幸存下来。其迷宫般的狭窄小巷 - 太过狭窄而无法进行庞巴林式的重建 - 包含了罗马式风格的大教堂、摩尔人创建的城堡，以及集中分布的众多传统法多酒吧。山顶可以俯瞰塔古斯河口和下城的橙色屋顶。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 1130,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Lisbon Cathedral (Se de Lisboa)",
         "wikidata_qid": "Q1702579",
@@ -41,8 +41,10 @@
         "notes": "里斯本最古老的教堂，始建于1147年，坐落在基督教收复失地运动后摩尔人主要清真寺的遗址上 - 塔楼上的军事齿状垛口是刻意设计的，而非装饰性的。罗曼式中殿设计朴素严峻，与山上高处的曼努埃尔式教堂形成鲜明对比。从面向电车的西立面进入，穿过走廊来到后方的哥特式回廊，考古挖掘已同时暴露了罗马、摩尔和中世纪的地层。建议在上午10点前到达，以避开停靠在教堂外的28E电车带来的人潮。",
         "walk_to_next": {
           "to": "Castelo de Sao Jorge",
-          "distance_meters": 750,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 610,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -61,8 +63,10 @@
         "notes": "城堡占据了摩尔人alcacova的遗址，而后者本身又建在铁器时代和罗马时期的防御工事上 - 这种分层本身就是看点，不仅仅是城墙。城墙内部，Nucleo Arqueologico博物馆内陈列着各个时期挖掘出的宫殿房间。绕外城墙的完整一圈漫步，可以从东部堡垒眺望Tagus河，也能从北塔俯瞰Baixa的网格街道和Bairro Alto山。在内部庭院漫步的孔雀不是旅游噱头 - 它们从16世纪以来就在这里生活。",
         "walk_to_next": {
           "to": "Miradouro da Graca",
-          "distance_meters": 750,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 520,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 14
     }
-  ]
+  ],
+  "total_travel_minutes": 14,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "New York",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:46:13.723Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "穿越纽约五大地区，每个都有独特的地理和文化特色：下曼哈顿的殖民地和金融中心、布鲁克林的桥梁和褐石住宅区、中城的摩天大楼走廊、上西区的博物馆街和公园，以及下东城移民汇聚的街道。每一天都是自成一体且可在该地区内步行游览的行程。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 17550,
-  "total_walking_minutes": 219,
+  "total_walking_distance_meters": 9170,
+  "total_walking_minutes": 115,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Lower Manhattan / Financial District",
       "neighborhood_description": "曼哈顿南端是纽约市最古老的持续城市格局，由荷兰人在1626年建立为新阿姆斯特丹。在几个街区范围内，矗立着原始的殖民地街道网格、亚历山大·汉密尔顿的墓地、华盛顿首次就职典礼的遗址，以及9月11日纪念馆。这里每个街区所承载的历史厚重感在全市无与伦比。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 1610,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "9/11 Memorial and Museum",
         "wikidata_qid": "Q1076123",
@@ -44,9 +44,11 @@
         "optimal_timing": "morning",
         "notes": "两个足迹池位于户外，免费参观；下方的博物馆需要提前预订定时票。从遗址北侧的玻璃馆进入博物馆。Foundation Hall展厅围绕幸存的泥浆墙和从Ground Zero移除的最后一根钢柱而建，是任何美国纪念馆中建筑结构最引人注目的空间。开放时间就到达可以避免学生团体，他们通常在上午10点左右大量涌入。",
         "walk_to_next": {
-          "to": "Wall Street and Federal Hall",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Federal Hall National Memorial",
+          "transport_mode": "walk",
+          "distance_meters": 690,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -64,9 +66,11 @@
         "optimal_timing": "any",
         "notes": "Wall Street上的希腊复兴式建筑标志着乔治·华盛顿于1789年4月30日宣誓就职美国总统的地点。目前的1842年结构替代了原来的Federal Hall。免费入场 - 这是纽约历史意义最重大且人烟最稀少的景点之一。内部圆形大厅以万神殿为原型，远比狭窄的街道外观要宏伟得多。",
         "walk_to_next": {
-          "to": "Trinity Church",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Battery Park and the Harbor from the Staten Island Ferry",
+          "transport_mode": "walk",
+          "distance_meters": 920,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -126,7 +130,8 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     },
     {
       "day": 2,
@@ -135,8 +140,8 @@
       "neighborhood_focus": "Brooklyn Bridge / DUMBO / Brooklyn Heights",
       "neighborhood_description": "Brooklyn Bridge将下曼哈顿与布鲁克林历史最悠久、建筑保存最完整的社区相连。DUMBO是桥下曾经的工业滨水区，如今是五个行政区内曼哈顿天际线摄影最密集的地方。位于上方高地的Brooklyn Heights保留了城市现存最精美的19世纪褐砂石排屋，沿着East River边缘有一条林荫步道。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3800,
-      "day_walking_minutes": 48,
+      "day_walking_distance_meters": 1700,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Brooklyn Bridge walkway",
         "wikidata_qid": "Q83079",
@@ -152,9 +157,11 @@
         "optimal_timing": "morning",
         "notes": "从曼哈顿走向布鲁克林，不要反向走 - 这样你会面对布鲁克林的高楼，曼哈顿天际线在你身后逐渐消退。行人通道高架在车道上方；要待在行人区域（画出的线条很重要，因为骑自行车的人速度很快）。第一个塔锚点距离曼哈顿入口约700米，是整个过桥过程中视角最好的单一位置 - 在那里停留而不是在中点。",
         "walk_to_next": {
-          "to": "DUMBO waterfront",
-          "distance_meters": 550,
-          "walking_minutes": 7
+          "to": "DUMBO and Brooklyn Bridge Park",
+          "transport_mode": "walk",
+          "distance_meters": 630,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -173,8 +180,10 @@
         "notes": "Washington街在桥塔之间向上的景色 - 背景是Manhattan Bridge - 是纽约最常被拍照的街道画面。站在Washington街和Water街的交叉口向北看。Brooklyn Bridge Park沿着滨水区延伸1.3英里，从桥向南至Atlantic Avenue；Pier 1可以直接看到天际线，Pier 6有沙滩排球区和维多利亚式拱廊下的旋转木马。",
         "walk_to_next": {
           "to": "Brooklyn Heights Promenade",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 1070,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -234,7 +243,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     },
     {
       "day": 3,
@@ -243,8 +253,8 @@
       "neighborhood_focus": "Midtown / Fifth Avenue",
       "neighborhood_description": "Midtown走廊在42街至57街之间是世界上最密集的20世纪地标建筑集中地 - Chrysler Building、Grand Central Terminal、Rockefeller Center、St. Patrick's Cathedral和New York Public Library都在彼此相距数个街区之内。Fifth Avenue是组织脊柱，在这里网格的逻辑最易辨认。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 1760,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Grand Central Terminal",
         "wikidata_qid": "Q180916",
@@ -261,7 +271,9 @@
         "notes": "这座1913年落成的美术馆艺术建筑是免费进入的,也是纽约最精美的室内空间之一。Main Concourse的天花板上绘有2,500颗星星的天蓝色星图,以其反向绘制而著称(从天外望向天球,而非从地球望向天空)。在上午9点之前站在东侧上层阳台上,可以观看上班高峰期的人流涌动。下层Oyster Bar外的Whispering Gallery复制了教堂穹顶的声学效应。",
         "walk_to_next": {
           "to": "Rockefeller Center",
-          "distance_meters": 850,
+          "transport_mode": "walk",
+          "distance_meters": 880,
+          "travel_minutes": 11,
           "walking_minutes": 11
         }
       },
@@ -280,9 +292,11 @@
         "optimal_timing": "any",
         "notes": "这座22栋建筑组成的装饰艺术风格建筑群建于1930-1939年,最好的游览方式是沿着Channel Gardens从Fifth Avenue步行向30 Rock方向前进 - 通过两侧建筑框架看向镀金的Prometheus雕像和Lower Plaza的视角被设计成了一条处理庄严的长廊。Top of the Rock观景台(需付费)提供了与Empire State Building不同的天际线视角:从67层楼高的地方向南眺望Empire State Building。建筑群西侧的Radio City Music Hall提供大堂导览。",
         "walk_to_next": {
-          "to": "St. Patrick's Cathedral",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "New York Public Library and Bryant Park",
+          "transport_mode": "walk",
+          "distance_meters": 880,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -342,7 +356,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     },
     {
       "day": 4,
@@ -351,8 +366,8 @@
       "neighborhood_focus": "Upper West Side / Central Park",
       "neighborhood_description": "Upper West Side从72街到86街，是城市知识和文化身份的中心 - Lincoln Center、American Museum of Natural History和Metropolitan Museum of Art都在Central Park西边界的步行距离内。公园本身由Frederick Law Olmsted和Calvert Vaux设计，于1858年开放，是整个曼哈顿上城西侧的组织性景观。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1830,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "American Museum of Natural History",
         "wikidata_qid": "Q217717",
@@ -368,9 +383,11 @@
         "optimal_timing": "morning",
         "notes": "Theodore Roosevelt Rotunda 入口大厅以50英尺高的腕龙昂起后腿保护幼龙的雕像而闻名，立刻定下了参观的基调。生物多样性展厅和海洋生物展厅（蓝鲸悬挂在蓝色照明的展厅中）是恐龙展厅之外最值得看的两个展厅。位于西北角的 Rose Center for Earth and Space 是一个独立的 Hayden Planetarium，位于玻璃立方体内，值得购买额外门票。开门时就到达：恐龙展厅很快就会人满为患。",
         "walk_to_next": {
-          "to": "Central Park - Strawberry Fields and the Ramble",
-          "distance_meters": 400,
-          "walking_minutes": 6
+          "to": "Central Park",
+          "transport_mode": "walk",
+          "distance_meters": 830,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "afternoon": {
@@ -389,8 +406,10 @@
         "notes": "从72街入口进入，前往 Strawberry Fields（泪滴形状的花园，用来纪念 John Lennon，位于 Central Park West 的 Dakota 公寓楼对面，Lennon 在那里被枪杀）。从那里沿着东北方向的小径进入 Ramble，这是一个36英亩的设计林地，蜿蜒的小径刻意设计得令人迷失方向，Olmsted 称之为他最重要的设计挑战。位于 Ramble 东北边缘的 Belvedere Castle 配有免费望远镜和最佳的360度公园景观。",
         "walk_to_next": {
           "to": "Metropolitan Museum of Art",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "walk",
+          "distance_meters": 1000,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -450,7 +469,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     },
     {
       "day": 5,
@@ -459,8 +479,8 @@
       "neighborhood_focus": "East Village / Lower East Side",
       "neighborhood_description": "Houston Street和14th Street之间、Bowery以东的街区，每英亩的移民历史层次比美国任何其他地方都更加密集。德国、犹太人、意大利、波多黎各和乌克兰社区各自留下了永久的物质痕迹 - 被改建成摇滚俱乐部的犹太教堂、被保护成博物馆的廉租公寓楼、从废弃地块开辟的社区花园。与下曼哈顿几乎任何其他地方相比，这个社区在这里更好地抵抗了士绅化。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3500,
-      "day_walking_minutes": 44,
+      "day_walking_distance_meters": 2270,
+      "day_walking_minutes": 29,
       "morning": {
         "activity_title": "Tenement Museum",
         "wikidata_qid": "Q7702624",
@@ -476,9 +496,11 @@
         "optimal_timing": "morning",
         "notes": "只能通过导游讲解参观 - 需提前在线预订，因为旅游团常常提前数天售罄。Orchard Street 上的两座建筑保存了1860年代至1930年代真实移民家庭的公寓；不同的导游讲解团介绍不同家庭的故事（德国犹太人、意大利天主教徒、东欧犹太人）。97 Orchard Street 建筑内的公寓被精心恢复到特定的年份而非笼统的历史时期；Rogarshevsky 家族的公寓被保留在1918年的样貌，细节最为丰富。可根据最感兴趣的家族历史来选择导游讲解团。",
         "walk_to_next": {
-          "to": "Orchard Street and the Lower East Side",
-          "distance_meters": 100,
-          "walking_minutes": 2
+          "to": "Lower East Side Tenement neighborhood walk",
+          "transport_mode": "walk",
+          "distance_meters": 610,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -496,9 +518,11 @@
         "optimal_timing": "any",
         "notes": "沿 Orchard Street 向北步行至 Delancey，然后向东到 Essex Street Market（1940年推车市场的继承者，现已是有顶棚的食品大厅）。从那里沿 Essex 向北到 Rivington，然后向西到 Eldridge Street 上的 Eldridge Street Synagogue - 这座1887年的摩尔式哥特建筑经过近期修复，保留了原始的玫瑰花窗，西侧窗户是艺术家 Kiki Smith 在2010年安装的现代替代品。从街道上可以看到同一立面上原始窗户与新窗户的对比，无需进入建筑内部。",
         "walk_to_next": {
-          "to": "St. Marks Place and Tompkins Square Park",
-          "distance_meters": 1100,
-          "walking_minutes": 14
+          "to": "Tompkins Square Park and St. Marks Place",
+          "transport_mode": "walk",
+          "distance_meters": 1660,
+          "travel_minutes": 21,
+          "walking_minutes": 21
         }
       },
       "evening": {
@@ -558,7 +582,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 29
     }
-  ]
+  ],
+  "total_travel_minutes": 115,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Prague",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:03:58.808Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "يوم واحد يتتبع العمود الفقري التاريخي لـ Prague، من تل القلعة نزولاً عبر الجسر الوسيط إلى ساحة Old Town. يهبط الطريق تدريجياً من Hradcany عبر Mala Strana وفوق Vltava، منتهياً في القلب الباروكي والقوطي لـ Stare Mesto.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3100,
-  "total_walking_minutes": 39,
+  "total_walking_distance_meters": 1980,
+  "total_walking_minutes": 25,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Hradcany / Mala Strana / Stare Mesto",
       "neighborhood_description": "يمتد ممر Prague الأساسي من Prague Castle على التل الغربي نزولاً عبر الأرباع الصغار بقصورها الباروكية وحدائقها، عابراً Charles Bridge فوق Vltava، ويدخل Old Town. يقع المسار بأكمله داخل منطقة UNESCO التاريخية ويمكن السير فيه في نزول متواصل واحد.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 1980,
+      "day_walking_minutes": 25,
       "morning": {
         "activity_title": "Prague Castle and St. Vitus Cathedral",
         "wikidata_qid": "Q26261",
@@ -46,8 +46,10 @@
         "notes": "ادخل من بوابة Hradcanske namesti الغربية بدلاً من البوابة الشرقية من Jirska - المسار الغربي يعطيك الفناء الكامل مع تماثيل Giant Battling Titans وتبديل الحرس في رأس كل ساعة. توجد كاتدرائية St. Vitus داخل الفناء الثاني وتستطيع دخول الصحن مجاناً؛ بطاقة الدائرة الكاملة مطلوبة فقط إذا كنت تريد خزينة الكنيسة أو البرج أو القبو. الوردة الزجاجية على الواجهة الجنوبية من القرن العشرين لكن تم تصميمها مباشرة من الرسومات القروسطية.",
         "walk_to_next": {
           "to": "Charles Bridge",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "walk",
+          "distance_meters": 1050,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "التماثيل الـ 30 الباروكية التي تصطف على الجسر هي في الغالب بدائل من القرن الثامن عشر؛ الأصلية موجودة في Lapidarium بـ Vystaviste. الشخصية الأكثر لمساً هي St. John of Nepomuk (الخامسة من نهاية Mala Strana على الجانب الشمالي) - لوحة البرونز عند قدميه مصقولة براقة من قبل قرون من الأيدي. الحشود في الظهيرة كثيفة؛ إذا كنت قد نزلت بالفعل من القلعة، ستعبر في الوقت المناسب تماماً قبل وصول حافلات الجولات بعد الظهر.",
         "walk_to_next": {
-          "to": "Old Town Square",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Old Town Square and the Astronomical Clock",
+          "transport_mode": "walk",
+          "distance_meters": 930,
+          "travel_minutes": 12,
+          "walking_minutes": 12
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 6
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 25
     }
-  ]
+  ],
+  "total_travel_minutes": 25,
+  "last_verified": null
 }

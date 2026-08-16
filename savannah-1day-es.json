@@ -1,7 +1,7 @@
 {
   "destination": "Savannah",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:43:25.686Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día recorriendo el centro histórico de Savannah a lo largo del eje norte-sur que va desde Forsyth Park pasando por las plazas cubiertas de musgo hasta los almacenes de algodón en el Savannah River. La cuadrícula de 22 plazas de fideicomiso es la lógica organizadora de la ciudad y esta ruta atraviesa las mejores en un paseo coherente y único.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 2060,
+  "total_walking_minutes": 26,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Savannah Historic District",
       "neighborhood_description": "El Distrito de Patrimonio Histórico Nacional más grande de los Estados Unidos, abarcando 2.5 square miles de la cuadrícula de 1733 de James Oglethorpe. Veintidós plazas públicas marcan el plan de calles a intervalos regulares, cada una originalmente una parroquia diferente con su propia iglesia, edificios públicos y lotes residenciales. El distrito se extiende desde el amplio bulevar de Forsyth Park en el sur hasta el acantilado que da al Savannah River en el norte.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 2060,
+      "day_walking_minutes": 26,
       "morning": {
         "activity_title": "Forsyth Park",
         "wikidata_qid": "Q5471437",
@@ -40,9 +40,11 @@
         "optimal_timing": "morning",
         "notes": "El ancla de 30 acres en el extremo sur del distrito histórico. La fuente de hierro fundido de 1858 es el objeto más fotografiado en Savannah - acérquese a través de la alameda central de norte a sur en lugar de por la puerta de Gaston Street, para que el dosel de robles vivos enmarque la vista. El mercado de agricultores de los sábados ocupa el perímetro desde las 9am; en otras mañanas el parque es lo suficientemente tranquilo para escuchar a los sinsontés.",
         "walk_to_next": {
-          "to": "Mercer Williams House",
-          "distance_meters": 350,
-          "walking_minutes": 4
+          "to": "Mercer Williams House Museum",
+          "transport_mode": "walk",
+          "distance_meters": 700,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "La mansión de estilo italianano en Monterey Square construida para el General Hugh Mercer y completada en 1871, posteriormente propiedad del comerciante de antigüedades Jim Williams e hecha famosa por Midnight in the Garden of Good and Evil de John Berendt. El tour guiado por docentes de la planta baja cubre la arquitectura, la colección de arte de Williams, y el juicio sin sensacionalismos. Los tours se realizan cada hora; la tienda de regalos de la casa de carruajes se opera por separado y no requiere entrada.",
         "walk_to_next": {
-          "to": "Cathedral of Saint John the Baptist",
-          "distance_meters": 650,
-          "walking_minutes": 8
+          "to": "Factors Walk and the Savannah Riverfront",
+          "transport_mode": "walk",
+          "distance_meters": 1360,
+          "travel_minutes": 17,
+          "walking_minutes": 17
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 26,
+  "last_verified": null
 }

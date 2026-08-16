@@ -1,7 +1,7 @@
 {
   "destination": "Hallstatt",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:22:45.019Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Um dia em uma das aldeias mais antigas continuamente habitadas da Europa - um aglomerado à beira do lago com fachadas barrocas e minas de sal pré-históricas encravadas entre o maciço Dachstein e o Hallstatter See. A aldeia é pequena o suficiente para ser percorrida de ponta a ponta em quinze minutos, então o dia é estruturado tanto na vertical quanto na horizontal: nível do lago pela manhã, o platô da mina ao meio-dia, e o núcleo da aldeia na hora dourada.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2080,
-  "total_walking_minutes": 26,
+  "total_walking_distance_meters": 240,
+  "total_walking_minutes": 4,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Hallstatt Village / Hallstatter See / Salzwelten",
       "neighborhood_description": "Hallstatt é uma aldeia listada pela UNESCO com aproximadamente 800 residentes espremida entre uma parede rochosa quase vertical e o frio e verde Hallstatter See. A cultura arqueológica Hallstatt que dá nome ao lugar - a civilização definidora da Europa Central da Idade do Ferro - foi identificada aqui a partir de um cemitério com mais de mil sepulturas. As minas de sal acima da aldeia estão operando desde pelo menos 1000 BC, tornando-as entre as mais antigas do mundo.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 240,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Salzwelten Hallstatt - prehistoric salt mine",
         "wikidata_qid": "Q874841",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Pegue o funicular Salzbergbahn na orla do vilarejo - ele sai de um terminal logo ao norte da praça principal de mercado e sobe 855 metros em menos de quatro minutos. O interior da mina abriga uma escadaria de madeira da Idade do Bronze preservada, um gasoduto de madeira pré-histórico e dois tobogãs de mineração de madeira pelos quais você desce sentado durante o passeio. A temperatura dentro é constante 8 graus Celsius independentemente da estação, então leve uma camada de roupa. Reserve ingressos com horário marcado online no dia anterior no verão; os grupos de turistas que chegam de ônibus por volta das 10am preenchem os horários rapidamente.",
         "walk_to_next": {
-          "to": "Hallstatt Skywalk viewpoint",
-          "distance_meters": 480,
-          "walking_minutes": 6
+          "to": "Hallstatt Skywalk",
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "morning",
         "notes": "Uma plataforma de aço em balanço 360 metros acima da superfície do lago, acessível por uma trilha sinalizada de aproximadamente 350 metros da saída da mina - mantenha-se à esquerda onde a trilha se divide e siga as placas Welterbeblick. A vista alinha todo o comprimento do Hallstatter See para o sul e coloca o vilarejo diretamente abaixo, e é por isso que todas as fotos aéreas de Hallstatt são tiradas de aproximadamente esta elevação. Inútil em nuvens baixas; se os picos do Dachstein estiverem escondidos quando você chegar na mina, pule isto e dedique mais tempo ao vilarejo em vez disso.",
         "walk_to_next": {
-          "to": "Hallstatt Market Square (Marktplatz)",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "to": "Hallstatt Marktplatz and lakefront",
+          "transport_mode": "walk",
+          "distance_meters": 120,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 4
     }
-  ]
+  ],
+  "total_travel_minutes": 4,
+  "last_verified": null
 }

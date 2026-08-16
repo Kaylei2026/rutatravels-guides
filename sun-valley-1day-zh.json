@@ -1,7 +1,7 @@
 {
   "destination": "Sun Valley",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:58:34.876Z",
   "sources": [
     "wikidata",
@@ -12,8 +12,8 @@
   ],
   "guide_description": "一日游览美国第一个目的地滑雪胜地的历史核心区域：Sun Valley Lodge及其周围村庄、Hemingway曾在此写作和狩猎的Trail Creek走廊，以及Dollar Mountain开阔的雪坡。这片区域紧凑而便于步行，融合了中世纪度假村建筑风格与真实的山地景观。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 2860,
-  "total_walking_minutes": 36,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -22,8 +22,8 @@
       "neighborhood_focus": "Sun Valley Village / Trail Creek / Dollar Mountain",
       "neighborhood_description": "Sun Valley于1936年由联合太平洋铁路公司从零开始建造，是一个以欧洲阿尔卑斯山村庄为模板的目的地度假村。这个紧凑的村庄位于Wood River Valley中部爱达荷州海拔约1750米处，Sun Valley Lodge是其社交中心，Trail Creek从东侧流过，穿过鼠尾草和棉木地形，这片景观与Ernest Hemingway在爱达荷州的岁月紧密相连。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2860,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Sun Valley Lodge",
         "wikidata_qid": "Q7638000",
@@ -40,8 +40,10 @@
         "notes": "主宾厅和Ram Restaurant走廊的两侧装饰着黑白照片，展示了从1930年代开始在这里下榻的众多名人 - Gary Cooper、Clark Gable、Marilyn Monroe，以及频繁出现的Hemingway。不用付房费就可以在一楼走廊里漫步；小屋前面的室外冰场在美国其他地方还没有人工冰场的时代就开始全年运营，而加热的室外游泳池在视觉上与1936年开业时的照片完全一致。",
         "walk_to_next": {
           "to": "Trail Creek Cabin",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "drive",
+          "distance_meters": 2020,
+          "travel_minutes": 8,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -60,8 +62,10 @@
         "notes": "沿着Trail Creek Road向东约一英里处的木屋是Hemingway在1939年后多次到访爱达荷州期间喜爱的午餐和晚餐地点。他在附近完成了《丧钟为谁而鸣》，并安葬在向南驾车不远的Ketchum Cemetery。从小屋沿小溪散步的路线穿过棉白杨林和开阔的草地，是一条踩踏得很厚实的小径；夏季时整个路线都能听到小溪的声音。这间木屋冬季仍然作为餐厅营业，夏季服务有限 - 在将其作为用餐地点之前请提前致电。",
         "walk_to_next": {
           "to": "Dollar Mountain",
-          "distance_meters": 1560,
-          "walking_minutes": 19
+          "transport_mode": "drive",
+          "distance_meters": 1730,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -121,7 +125,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     }
-  ]
+  ],
+  "total_travel_minutes": 15,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Martha's Vineyard",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:56:03.993Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "为期三天的Martha's Vineyard之旅涵盖其核心特色:19世纪捕鲸业时代的船长镇Edgartown、维多利亚式姜饼风格的营地村落Oak Bluffs,以及岛屿西端的偏远黏土悬崖和部落领地。每一天的行程地理位置各自独立,适合步行或骑自行车进行深度探索。",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 5720,
-  "total_walking_minutes": 72,
+  "total_walking_distance_meters": 3230,
+  "total_walking_minutes": 41,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Edgartown",
       "neighborhood_description": "Martha's Vineyard的县城和最古老的定居城镇,成立于1671年。Edgartown在19世纪因捕鲸业而繁荣,这一贸易积累的财富保留至今,体现在North Water Street和South Water Street沿线密集分布的联邦式和希腊复兴式船长豪宅中。港口开向通往Chappaquiddick Island的狭窄水道。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1270,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Edgartown Lighthouse",
         "wikidata_qid": "Q5341119",
@@ -43,8 +43,10 @@
         "notes": "1939年的铸铁灯塔坐落在一片沙嘴上，从North Water Street尽头经过一段短短的海滩步行即可到达。在上午10点之前到达，可以几乎独占这片港湾海滩 - 回望白色木板小镇及停泊的帆船的景色是Edgartown最具代表性的形象。Martha's Vineyard Museum运营该灯塔，并按季节销售登塔门票。",
         "walk_to_next": {
           "to": "Martha's Vineyard Museum",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 1140,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "该博物馆于2018年迁入一座改造后的1895年Marine Hospital建筑，这是从旧Cooke House校园的重大升级。捕鲸和海事展厅是核心展区，但关于岛上土著Wampanoag历史的展览 - 特别是Aquinnah Wampanoag - 对于一家地区海事博物馆而言内容异常丰富。来自Gay Head Lighthouse的原始菲涅尔透镜在这里展出，而非在悬崖景点处。",
         "walk_to_next": {
-          "to": "Edgartown Historic District - North Water Street",
-          "distance_meters": 420,
-          "walking_minutes": 6
+          "to": "Edgartown Historic District - North and South Water Streets",
+          "transport_mode": "walk",
+          "distance_meters": 130,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 16
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Oak Bluffs",
       "neighborhood_description": "Oak Bluffs 最初是1835年建立的卫理公会夏季营地会议场地，后来发展成为一座维多利亚式度假小镇，其风格与岛屿其他地方截然不同。营地核心区域，即 Martha's Vineyard Camp Meeting Association 场地（被称为 Campground），拥有超过300栋装饰精美的姜饼小屋，环绕着一座铸铁帐幕。Oak Bluffs 也是岛上历史悠久的非裔美国人夏季社区的中心，其根源在于 Highlands 社区。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 320,
+      "day_walking_minutes": 4,
       "morning": {
         "activity_title": "Martha's Vineyard Camp Meeting Association Grounds",
         "wikidata_qid": "Q6778284",
@@ -151,7 +156,9 @@
         "notes": "露营地是一处国家历史地标，同时仍是一个运作中的宗教社区 - 小屋之间的小巷是私人财产，请留在路径上，将其视为一个社区而非景点。最上镜的小屋位于Trinity Park和Tabernacle正后方的Siloam Avenue沿线。工作日早晨10点之前，小巷几乎没有人迹。",
         "walk_to_next": {
           "to": "Trinity Park Tabernacle",
-          "distance_meters": 80,
+          "transport_mode": "walk",
+          "distance_meters": 70,
+          "travel_minutes": 1,
           "walking_minutes": 1
         }
       },
@@ -171,8 +178,10 @@
         "notes": "位于露营地中心的1879年铸铁露天礼拜堂 - 美国最大的铁质礼拜堂。这座建筑物确实非凡：预制锻铁拱跨度达130英尺，内部没有支撑柱，所有座位都朝向中央讲坛。社区合唱和周三晚间的礼拜活动全年贯穿整个夏季，对游客开放。",
         "walk_to_next": {
           "to": "Flying Horses Carousel",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "transport_mode": "walk",
+          "distance_meters": 250,
+          "travel_minutes": 3,
+          "walking_minutes": 3
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 23
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 4
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Aquinnah / Gay Head",
       "neighborhood_description": "Martha's Vineyard最西端属于Aquinnah Wampanoag部落，该部落在这片土地上已居住了超过10,000年。Gay Head Cliffs是一座国家自然保护区标志地，由白垩纪沉积岩层组成的悬崖高出大西洋150英尺，展现出红色、白色、橙色和灰色粘土的条纹。Aquinnah镇（1998年从Gay Head改名）是岛屿上最偏远的地区。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1640,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Gay Head Cliffs",
         "wikidata_qid": "Q1497440",
@@ -259,8 +269,10 @@
         "notes": "在 Aquinnah 镇停车场停车，沿着无障碍木板路步行至主观景台 - 在太阳升至头顶使色彩对比变平之前的晨光中观看悬崖效果最佳。请勿下降到下方的海滩或触碰泥土崖面；这是部落领地，侵蚀是严重的持续问题。观景台本身提供了白垩纪地层的完整地质断面。",
         "walk_to_next": {
           "to": "Gay Head Lighthouse",
-          "distance_meters": 260,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 150,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -279,8 +291,10 @@
         "notes": "最初的 1799 年灯塔在 1844 年被现在的砖塔所取代。在 2015 年，整个建筑结构使用液压滚筒系统向后移动了 129 英尺以远离侵蚀的悬崖边缘 - 这是一次罕见且技术含量高的历史保护工程，游客资料中有记录。Martha's Vineyard Museum 在夏季周末开放塔楼供游客攀登；从顶部的景观可以看到 Elizabeth Islands、Cuttyhunk，在晴朗日子还能看到罗德岛海岸。",
         "walk_to_next": {
           "to": "Moshup Trail overlook and Lobsterville Beach",
-          "distance_meters": 910,
-          "walking_minutes": 12
+          "transport_mode": "walk",
+          "distance_meters": 1490,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "evening": {
@@ -320,7 +334,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 41,
+  "last_verified": null
 }

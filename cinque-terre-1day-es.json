@@ -1,7 +1,7 @@
 {
   "destination": "Cinque Terre",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T15:06:25.682Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Un día recorriendo el corazón de Cinque Terre: el más dramático de los cinco pueblos, el sendero que los conecta a lo largo del acantilado, y el mejor mirador para ver la puesta de sol en la costa de Liguria. El recorrido va de sur a norte en tren, y luego continúa a pie donde el terreno lo permite.",
   "weather_profile": "weather_dependent",
-  "total_walking_distance_meters": 4550,
-  "total_walking_minutes": 57,
+  "total_walking_distance_meters": 0,
+  "total_walking_minutes": 0,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Vernazza / Corniglia / Monterosso",
       "neighborhood_description": "Tres de los cinco pueblos que conforman el parque nacional de Cinque Terre y Sitio de Patrimonio de la Humanidad de la UNESCO. Vernazzo es el pueblo puerto medieval mejor conservado del grupo. Corniglia se encuentra sola en un promontorio sin acceso a playa, siendo la única de las cinco. Monterosso es la más septentrional y la más grande, con la única playa de arena real y una torre del siglo XIV que divide el pueblo antiguo de la zona moderna.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 4550,
-      "day_walking_minutes": 57,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Vernazza",
         "wikidata_qid": "Q82546",
@@ -46,8 +46,10 @@
         "notes": "Llegue en el primer tren de la mañana desde La Spezia o Levanto antes de que el flujo de visitantes de un día alcance su pico alrededor de las 10:30am. La medieval Piazza Marconi se abre directamente al agua, compre una focaccia de la panadería en la parte superior del caruggio principal y cómala en el muro del puerto mientras la luz todavía es baja y los botes de pesca están en el mar. Suba a la torre del Doria Castle en el extremo norte del puerto para disfrutar de un panorama sobre toda la línea de tejados del pueblo, la entrada a la torre cuesta unos pocos euros y la vista es la fotografía definitiva de Cinque Terre.",
         "walk_to_next": {
           "to": "Corniglia",
-          "distance_meters": 3100,
-          "walking_minutes": 39
+          "transport_mode": "transit",
+          "distance_meters": 3170,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -71,8 +73,10 @@
         "notes": "Corniglia es el más tranquilo de los cinco pueblos porque para llegar a él hay que subir 382 escalones desde la estación de tren (la escalera Lardarina) o tomar un autobús lanzadera. La mayoría de los visitantes de un día lo evitan por esta razón, lo que significa que los angostos callejones alrededor de Via Fieschi y el mirador en el extremo norte del pueblo están confiablemente sin multitudes incluso en temporada alta. La terraza al final de la calle principal mira directamente hacia el acantilado al mar sin interrupción de barandilla, una de las vistas más vertiginosas de la costa.",
         "walk_to_next": {
           "to": "Monterosso al Mare",
-          "distance_meters": 1450,
-          "walking_minutes": 18
+          "transport_mode": "transit",
+          "distance_meters": 6640,
+          "travel_minutes": 21,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 1
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 35
     }
-  ]
+  ],
+  "total_travel_minutes": 35,
+  "last_verified": null
 }

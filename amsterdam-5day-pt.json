@@ -1,7 +1,7 @@
 {
   "destination": "Amsterdam",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T11:59:42.390Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Cinco dias cobrindo as camadas essenciais de Amsterdã: o núcleo medieval e seus canais mais antigos, o anel de canais da Era de Ouro, o grande bairro dos museus, as ruas íntimas de Jordaan e os animados bairros operários do século XIX ao sul e a leste do centro. Cada dia é geograficamente autocontido e pode ser percorrido a pé sem bonde.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 14950,
-  "total_walking_minutes": 187,
+  "total_walking_distance_meters": 6350,
+  "total_walking_minutes": 80,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Medieval Centre / De Wallen",
       "neighborhood_description": "O assentamento original ao redor da represa de Amstel, definido pelos canais Damrak e Rokin e pelas duas grandes igrejas medievais. A grade de ruas aqui é mais antiga do que o anel de canais da Era de Ouro e preserva a escala comprimida de um porto comercial pré-moderno.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2600,
-      "day_walking_minutes": 33,
+      "day_walking_distance_meters": 630,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Nieuwe Kerk",
         "wikidata_qid": "Q1179006",
@@ -44,9 +44,11 @@
         "optimal_timing": "morning",
         "notes": "Apesar do nome, essa é uma igreja gótica do século XV que tem servido como igreja de coroação dos monarcas holandeses desde 1814. O interior é vasto e normalmente usado para exposições rotativas, juntamente com o memorial permanente ao Almirante de Ruyter. Entre pelo lado norte, voltado para a Praça Dam, em vez de pelo portal principal ao sul - o interior se revela mais gradualmente dessa forma.",
         "walk_to_next": {
-          "to": "Dam Square",
-          "distance_meters": 80,
-          "walking_minutes": 1
+          "to": "Dam Square and the Royal Palace",
+          "transport_mode": "walk",
+          "distance_meters": 180,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -64,9 +66,11 @@
         "optimal_timing": "any",
         "notes": "O centro geográfico de Amsterdã e o local da represa original no Amstel. O Palácio Real, no lado oeste, foi construído como prefeitura em 1655 e seu interior está aberto aos visitantes - o Salão dos Cidadãos, no térreo, tem um mapa-múndi incrustado em mármore que mostra Amsterdã no centro do mundo conhecido, o que diz tudo sobre a autoimagem da cidade durante a Era de Ouro.",
         "walk_to_next": {
-          "to": "Oude Kerk",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "to": "Oude Kerk and De Wallen",
+          "transport_mode": "walk",
+          "distance_meters": 450,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "evening": {
@@ -126,7 +130,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 8
     },
     {
       "day": 2,
@@ -135,8 +140,8 @@
       "neighborhood_focus": "Canal Ring West / Grachtengordel",
       "neighborhood_description": "O arco ocidental do anel de canais do século XVII de Amsterdã, listado pela UNESCO, que se estende do Brouwersgracht, ao norte, até o Leidsegracht. Essa seção foi a primeira a ser desenvolvida e continua sendo a mais intacta do ponto de vista arquitetônico, com casas comerciais de duas águas ao longo do Herengracht, Keizersgracht e Prinsengracht.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 1350,
+      "day_walking_minutes": 17,
       "morning": {
         "activity_title": "Anne Frank House",
         "wikidata_qid": "Q317576",
@@ -153,8 +158,10 @@
         "notes": "Reserve o ingresso com semanas de antecedência pelo site oficial - esse é um dos locais mais visitados da Holanda e as pessoas que chegam sem avisar são rejeitadas. O Anexo Secreto, onde Anne Frank e outras sete pessoas se esconderam por dois anos, foi preservado sem móveis (os pertences da família foram confiscados após a prisão), o que torna os cômodos vazios mais assustadores do que seria uma reconstrução. O diário original é exibido na seção final.",
         "walk_to_next": {
           "to": "Westerkerk",
-          "distance_meters": 130,
-          "walking_minutes": 2
+          "transport_mode": "walk",
+          "distance_meters": 90,
+          "travel_minutes": 1,
+          "walking_minutes": 1
         }
       },
       "afternoon": {
@@ -177,9 +184,11 @@
         "optimal_timing": "any",
         "notes": "A igreja protestante de Hendrik de Keyser, concluída em 1631, é a mais alta de Amsterdã, com 85 metros. Rembrandt está enterrado aqui em um túmulo não identificado em algum lugar do piso - a igreja reconhece isso, mas a localização exata foi perdida. Suba na torre Westertoren (ingresso separado, apenas para pequenos grupos guiados) para ter uma vista do anel do canal que nenhum outro ponto de Amsterdã iguala.",
         "walk_to_next": {
-          "to": "Herengracht",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Herengracht - the Golden Bend",
+          "transport_mode": "walk",
+          "distance_meters": 1260,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -224,7 +233,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 17
     },
     {
       "day": 3,
@@ -233,8 +243,8 @@
       "neighborhood_focus": "Museumplein / Oud-Zuid",
       "neighborhood_description": "O campus cultural estabelecido no final do século XIX ao sul do anel do canal. Três das coleções nacionais mais importantes da Holanda estão localizadas a menos de 500 metros uma da outra em uma praça ajardinada, cercada pelas ruas residenciais burguesas de Oud-Zuid e do Vondelpark.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 1510,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Rijksmuseum",
         "wikidata_qid": "Q190804",
@@ -251,8 +261,10 @@
         "notes": "Reserve on-line a entrada com horário marcado - o museu tem lotação esgotada e os horários da manhã são bem menos concorridos. O edifício em si é uma catedral cultural gótico-renascentista de Cuypers (1885); caminhe pela passagem coberta para bicicletas antes de entrar para ver a escala do edifício. A Gallery of Honour (Galeria de Honra), no segundo andar, é a rota essencial - doze salas que culminam na Night Watch (Ronda Noturna) de Rembrandt, que, com 3,6 por 4,4 metros, é maior do que a maioria das pessoas espera. The Milkmaid (A Leiteira), de Vermeer, fica na mesma ala e quase sempre está menos lotada.",
         "walk_to_next": {
           "to": "Van Gogh Museum",
-          "distance_meters": 260,
-          "walking_minutes": 4
+          "transport_mode": "walk",
+          "distance_meters": 410,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -271,8 +283,10 @@
         "notes": "A maior coleção do mundo da obra de Van Gogh, organizada cronologicamente desde o sombrio período holandês, passando pelos anos de influência japonesa em Paris, até o colorido explosivo de Arles e Saint-Remy. Faça sua reserva on-line - o museu opera com uma capacidade restrita de entrada por horário. O quarto andar, que mostra suas lutas contra a saúde mental juntamente com o trabalho tardio, é a curadoria de museu mais intelectualmente honesta de qualquer biografia de artista importante na Europa.",
         "walk_to_next": {
           "to": "Vondelpark",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 1100,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -312,7 +326,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 4,
@@ -321,8 +336,8 @@
       "neighborhood_focus": "Jordaan / Westerpark",
       "neighborhood_description": "O Jordaan foi construído no início do século XVII como um distrito da classe trabalhadora nos arredores do anel de canais, com sua rede de ruas seguindo as linhas de drenagem dos antigos pôlderes. Hoje em dia, é o bairro residencial mais procurado da cidade: pequenos canais, ruas estreitas, pátios de bolso chamados hofjes e lojas independentes que sobreviveram à pressão das cadeias de lojas que a maioria dos centros históricos europeus enfrenta.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3450,
-      "day_walking_minutes": 44,
+      "day_walking_distance_meters": 2470,
+      "day_walking_minutes": 31,
       "morning": {
         "activity_title": "Noordermarkt and the Saturday market",
         "wikidata_qid": "Q2572745",
@@ -338,9 +353,11 @@
         "optimal_timing": "morning",
         "notes": "Aos sábados, dois mercados funcionam simultaneamente ao redor da igreja Noordermarkt: o Boerenmarkt (mercado de produtores orgânicos) na própria praça e o mercado de pulgas e antiguidades Noordermarkt ao longo da Prinsengracht e da Westerstraat. Chegue antes das 10h, quando as barracas estão mais cheias e a vizinhança está fazendo suas compras de verdade, em vez de posar para os turistas. O mercado de segunda-feira aqui tem um caráter diferente - apenas roupas e tecidos de segunda mão.",
         "walk_to_next": {
-          "to": "Jordaan hofjes",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Jordaan Hofjes Walk",
+          "transport_mode": "walk",
+          "distance_meters": 570,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "afternoon": {
@@ -363,9 +380,11 @@
         "optimal_timing": "any",
         "notes": "O Jordaan contém mais de vinte hofjes - pátios fechados de esmolas construídos por comerciantes ricos para os idosos pobres. A maioria ainda é residencial e abre somente durante o dia; empurre a porta da rua e entre sem fazer barulho. O Karthuizerhofje na Karthuizerstraat (o maior de Amsterdã) e o Sint Andrieshofje na Egelantiersgracht 107 são os dois que merecem prioridade. O último tem um quadro de azulejos na passagem de entrada datado de 1616.",
         "walk_to_next": {
-          "to": "Westerpark",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Westerpark and Westergasfabriek",
+          "transport_mode": "walk",
+          "distance_meters": 1900,
+          "travel_minutes": 24,
+          "walking_minutes": 24
         }
       },
       "evening": {
@@ -425,7 +444,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 31
     },
     {
       "day": 5,
@@ -434,8 +454,8 @@
       "neighborhood_focus": "De Pijp / Oostelijk Havengebied",
       "neighborhood_description": "De Pijp era o bairro de classe trabalhadora mais denso de Amsterdã, construído nas décadas de 1860 e 70 para abrigar trabalhadores em blocos estreitos de cortiços. Atualmente, é o bairro mais multicultural da cidade, ancorado pelo mercado Albert Cuyp. As Eastern Docklands, ao norte, são as antigas ilhas portuárias remodeladas desde a década de 1990 e transformadas em uma vitrine da arquitetura contemporânea holandesa.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3000,
-      "day_walking_minutes": 36,
+      "day_walking_distance_meters": 390,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "Albert Cuypmarkt",
         "wikidata_qid": "Q879705",
@@ -451,9 +471,11 @@
         "optimal_timing": "morning",
         "notes": "O maior mercado de rua da Holanda e um dos maiores da Europa - 325 barracas em toda a extensão da Albert Cuypstraat, aberto de segunda a sábado, das 9h às 17h. O mercado é genuinamente misto, com barracas de comida para turistas (stroopwafels, arenque cru) e barracas de mercearia que atendem às comunidades surinamesa, marroquina e turca do bairro. Vá primeiro à extremidade oeste, perto da Ferdinand Bolstraat - essa seção é a menos lotada e a mais local.",
         "walk_to_next": {
-          "to": "Heineken Experience",
-          "distance_meters": 520,
-          "walking_minutes": 7
+          "to": "Sarphatipark",
+          "transport_mode": "walk",
+          "distance_meters": 390,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -471,9 +493,11 @@
         "optimal_timing": "any",
         "notes": "O pequeno parque vitoriano no coração de De Pijp, projetado em 1886 como um pulmão do bairro para os densos quarteirões da classe trabalhadora que o cercam. Muito menos visitado do que o Vondelpark e genuinamente usado por famílias e estudantes locais. O monumento a Samuel Sarphati, no centro, homenageia o médico judeu que promoveu a construção do De Pijp - ele morreu em 1866, antes que todo o parque fosse construído.",
         "walk_to_next": {
-          "to": "NEMO Science Museum",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "NEMO Science Museum rooftop",
+          "transport_mode": "transit",
+          "distance_meters": 3010,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -533,7 +557,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 94,
+  "last_verified": null
 }

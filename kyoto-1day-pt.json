@@ -1,7 +1,7 @@
 {
   "destination": "Kyoto",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:27:23.585Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Um dia concentrou-se no distrito de Higashiyama, o trecho mais intacto da Kyoto pré-moderna, que vai de Kiyomizudera, na colina ao sul, até Gion e o canal Shirakawa, passando por ruas pavimentadas de pedra. O dia inteiro pode ser percorrido a pé sem trânsito e cria uma imagem coerente das camadas de templos budistas, santuários xintoístas e bairros comerciais da cidade.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3900,
-  "total_walking_minutes": 49,
+  "total_walking_distance_meters": 1700,
+  "total_walking_minutes": 21,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Higashiyama",
       "neighborhood_description": "A estreita faixa de colinas a leste do centro de Kyoto, onde a rede de ruas medievais sobreviveu a incêndios, guerras e reformas. Kiyomizudera ancora a extremidade sul em uma encosta arborizada; a rede de ruas de Ninenzaka e Sannenzaka conecta-se ao norte com Kodai-ji, o Parque Maruyama e, por fim, as ruas ochaya (casas de chá) preservadas de Gion ao longo do canal Shirakawa. Toda a sequência cobre aproximadamente três quilômetros e pode ser percorrida de sul a norte em um único dia.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3900,
-      "day_walking_minutes": 49,
+      "day_walking_distance_meters": 1700,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Kiyomizudera",
         "wikidata_qid": "Q588191",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Chegue na abertura às 6h para ter o famoso palco de madeira - suspenso 13 metros sobre a encosta arborizada sem um único prego - quase só para você antes da chegada dos ônibus de turismo às 8h30. A subida da Chawan-zaka (Teapot Lane) pelo sul é mais tranquila e mais íngreme do que a estrada principal Kiyomizu-zaka; ela se junta ao caminho principal logo abaixo do portão Nio-mon. A água da nascente da cachoeira Otowa, abaixo do palco, é dividida em três riachos separados, cada um deles supostamente concedendo um benefício diferente - o costume é beber de apenas um.",
         "walk_to_next": {
-          "to": "Ninenzaka and Sannenzaka lanes",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Ninenzaka and Sannenzaka",
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -65,9 +67,11 @@
         "optimal_timing": "any",
         "notes": "Duas ruas de pedra conectadas - Sannenzaka (Ladeira do Terceiro Ano) e Ninenzaka (Ladeira do Segundo Ano) - repletas de casas machiya da era Meiji e Taisho convertidas em lojas de artesanato, cafés de matcha e vendedores de laca. Caminhe para o norte por ambas, em vez de voltar para trás: Sannenzaka é a seção inferior mais íngreme, Ninenzaka é a curva superior mais suave que leva ao Kodai-ji. Uma superstição local afirma que tropeçar nesses degraus traz três ou dois anos de má sorte, respectivamente - os degraus são realmente irregulares, portanto, o aviso tem fundamento prático.",
         "walk_to_next": {
-          "to": "Kodai-ji Temple",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "Gion - Hanamikoji and Shirakawa",
+          "transport_mode": "walk",
+          "distance_meters": 1030,
+          "travel_minutes": 13,
+          "walking_minutes": 13
         }
       },
       "evening": {
@@ -127,7 +131,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     }
-  ]
+  ],
+  "total_travel_minutes": 21,
+  "last_verified": null
 }

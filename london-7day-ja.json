@@ -1,7 +1,7 @@
 {
   "destination": "London",
   "duration_days": 7,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T12:00:00Z",
   "sources": [
     "wikidata",
@@ -19,8 +19,8 @@
   ],
   "guide_description": "London の必見スポット、West End の文化の中心地、ユネスコ海事都市 Greenwich、北西部のオルタナティブな地区、そして Kew への植物園日帰り旅行を網羅する7日間。各日は地理的にまとまった構成になっています。",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 16400,
-  "total_walking_minutes": 210,
+  "total_walking_distance_meters": 13200,
+  "total_walking_minutes": 166,
   "days": [
     {
       "day": 1,
@@ -29,8 +29,8 @@
       "neighborhood_focus": "Westminster / South Bank",
       "neighborhood_description": "Westminster は英国政府の所在地であり、君主制の戴冠式教会でもあり、Parliament Square を中心としています。Westminster Bridge を渡った向かいの South Bank は文化的な対極をなし、川沿いの遊歩道、London Eye、主要な芸術施設が立ち並んでいます。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 950,
+      "day_walking_minutes": 12,
       "morning": {
         "activity_title": "Westminster Abbey",
         "wikidata_qid": "Q5933",
@@ -51,8 +51,10 @@
         "optimal_timing": "morning",
         "notes": "1066年以来すべてのイングランド戴冠式が行われ、17人の君主が埋葬されている場所。行列をスキップするためにオンラインで時間指定チケットを予約しましょう。Poets' Corner（Chaucer、Dickens、Hardy、Browning）とCoronation Chairが明らかな見どころですが、見落とされがちなのがHigh Altarの真正面にあるCosmati Pavementで、これは実際の戴冠式が行われる13世紀の幾何学的モザイクです。日曜日は礼拝以外は閉館。",
         "walk_to_next": {
-          "to": "Houses of Parliament",
-          "distance_meters": 250,
+          "to": "Houses of Parliament and Big Ben",
+          "transport_mode": "walk",
+          "distance_meters": 230,
+          "travel_minutes": 3,
           "walking_minutes": 3
         }
       },
@@ -76,9 +78,11 @@
         "optimal_timing": "any",
         "notes": "中世の建物が1834年に焼失した後、1870年に完成したネオゴシック様式のPalace of Westminster。英国およびコモンウェルス住民はCromwell Greenで列に並べば討議を無料見学できます。海外からの訪問者は議会非開催日（通常土曜日や休会週）に有料ツアーを予約可能。Big Benは鐘の名前で塔ではありません。塔自体はElizabeth Towerで、最近ヴィクトリア朝時代の本来の色に修復されました。",
         "walk_to_next": {
-          "to": "London Eye via Westminster Bridge",
-          "distance_meters": 600,
-          "walking_minutes": 8
+          "to": "South Bank and London Eye at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -118,7 +122,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 12
     },
     {
       "day": 2,
@@ -127,8 +132,8 @@
       "neighborhood_focus": "The City / Tower",
       "neighborhood_description": "かつてRoman Londiniumであり、Tudor時代まで都市全体であったThe Square Mile - 現在はLondonの金融街だが、中世の街路パターン、Tower of London、St. Paul's Cathedralがすべて保存されている。Britainで最も考古学的に密度の高い1平方キロメートル。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 2770,
+      "day_walking_minutes": 35,
       "morning": {
         "activity_title": "Tower of London",
         "wikidata_qid": "Q11953",
@@ -149,8 +154,10 @@
         "optimal_timing": "morning",
         "notes": "William the Conquerorが1078年に建てたWhite Towerに、900年にわたる増築部分 - 時代により王宮、監獄、宝庫、造幣所、動物園として使われた。到着前にオンラインで予約を。Yeoman Warder（Beefeater）ツアーは入場料に含まれ、30分おきに実施されており、意外にも最高の見どころ - 機知に富み、不遜で、歴史的内容が濃密。Crown Jewelsの行列は開館後最初の1時間が最も早く進む。",
         "walk_to_next": {
-          "to": "Tower Bridge",
-          "distance_meters": 350,
+          "to": "Tower Bridge and the riverside walk",
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
           "walking_minutes": 5
         }
       },
@@ -170,8 +177,10 @@
         "notes": "Victorian時代のバスキュール橋で、しばしばLondon Bridge（上流にある地味な橋）と間違えられる。塔の間の歩道は現在ガラス床になっており有料の観光施設だが、車道部分を歩いて渡るのは無料で同じ景色を楽しめる。年間約800回橋が上がり、スケジュールはオンラインで公開されているので、橋の開閉を見るために立ち止まる価値がある。",
         "walk_to_next": {
           "to": "St. Paul's Cathedral",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "transport_mode": "walk",
+          "distance_meters": 2390,
+          "travel_minutes": 30,
+          "walking_minutes": 30
         }
       },
       "evening": {
@@ -211,7 +220,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 35
     },
     {
       "day": 3,
@@ -221,7 +231,7 @@
       "neighborhood_description": "1851年Great Exhibitionの収益から造られたVictorian時代の文化地区で、Exhibition Road周辺に世界の偉大な博物館3つが集まっています。Kensington Goreを北に越えると、Hyde ParkとKensington Gardensが250ヘクタールの連続した王立公園を形成しています。",
       "weather_profile": "resilient",
       "day_walking_distance_meters": 2200,
-      "day_walking_minutes": 29,
+      "day_walking_minutes": 28,
       "morning": {
         "activity_title": "Victoria and Albert Museum",
         "wikidata_qid": "Q213322",
@@ -238,8 +248,10 @@
         "notes": "世界最大の装飾美術・デザイン博物館 - 145のギャラリーに280万点のコレクションを収蔵。入場無料。キャスト・コート（Trajan's ColumnとMichelangeloのDavidの実物大石膏模型で、Victorian時代の博物館がオリジナルではなく複製品を収集していた時代に作られたもの）はLondon独特のものです。William Morrisが装飾した部屋の下にあるガーデン・カフェは、市内で最も快適な博物館ランチの一つです。",
         "walk_to_next": {
           "to": "Natural History Museum",
-          "distance_meters": 250,
-          "walking_minutes": 3
+          "transport_mode": "walk",
+          "distance_meters": 380,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -257,9 +269,11 @@
         "optimal_timing": "any",
         "notes": "入場無料。中央身廊に吊り下げられたHintze Hallのシロナガスクジラの骨格標本（2017年に恐竜のDippyに代わって設置）が建物のシンボル的な光景です。Volcanoes and Earthquakes galleryの地震シミュレーター（日本の食料品店を模した店内で1995年のKobe地震を再現）が最も驚きの展示です。週末は家族連れで混雑するため、ゆっくり考えたいなら平日の午後がおすすめです。",
         "walk_to_next": {
-          "to": "Hyde Park Serpentine",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "to": "Hyde Park and the Serpentine at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1820,
+          "travel_minutes": 23,
+          "walking_minutes": 23
         }
       },
       "evening": {
@@ -299,7 +313,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 28
     },
     {
       "day": 4,
@@ -308,8 +323,8 @@
       "neighborhood_focus": "Covent Garden / Bloomsbury / Soho",
       "neighborhood_description": "ロンドン中心部のエンターテイメントと博物館地区 - Covent Gardenの17世紀の広場と元果物市場、BloomsburyにあるBritish Museumの啓蒙時代の宝庫、そしてPiccadillyまで西に広がるSohoの密集したレストランと劇場街。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 27,
+      "day_walking_distance_meters": 1710,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "British Museum",
         "wikidata_qid": "Q6373",
@@ -325,9 +340,11 @@
         "optimal_timing": "morning",
         "notes": "入館無料、1753年に世界初の公共博物館として設立。Norman Fosterのガラス屋根に覆われたGreat Courtは、それ自体が一見の価値あり。必見スポット：Rosetta Stone（Room 4）、Parthenon marbles（Room 18、議論を呼んでいるためその旨表記あり）、エジプトのミイラ展示室（Rooms 62-63）、Sutton Hoo helmet（Room 41）、Lewis Chessmen（Room 40）。3つか4つのギャラリーに絞って、すべては見られないことを受け入れましょう - この博物館には800万点の収蔵品があります。",
         "walk_to_next": {
-          "to": "Covent Garden",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Covent Garden Piazza",
+          "transport_mode": "walk",
+          "distance_meters": 1150,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -345,9 +362,11 @@
         "optimal_timing": "any",
         "notes": "Inigo Jonesが1631年に設計した広場 - イングランド初の計画的公共広場で、彼がGrand Tourで見たイタリアの広場をモデルにしています。Apple Market（中央のガラス建物内）では工芸品を販売、周辺の通りにはRoyal Opera HouseやLondon Transport Museumがあります。大道芸人は輪番制のライセンス制で広場で演技しており、火曜から木曜の午後のシフトに最高のパフォーマーが登場します。",
         "walk_to_next": {
-          "to": "Trafalgar Square / National Gallery",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trafalgar Square and the National Gallery",
+          "transport_mode": "walk",
+          "distance_meters": 560,
+          "travel_minutes": 7,
+          "walking_minutes": 7
         }
       },
       "evening": {
@@ -387,7 +406,8 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     },
     {
       "day": 5,
@@ -396,8 +416,8 @@
       "neighborhood_focus": "Greenwich",
       "neighborhood_description": "London中心部の南東にある川沿いの区で、WrenとHawksmoorによる最も壮大な規模の海軍・天文学関連建築群のUNESCO世界遺産がある。Thames Clipperの河川ボート（最も景色の良いアプローチ）、DLR、または鉄道でアクセス可能。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2100,
-      "day_walking_minutes": 28,
+      "day_walking_distance_meters": 1020,
+      "day_walking_minutes": 13,
       "morning": {
         "activity_title": "Old Royal Naval College",
         "wikidata_qid": "Q1788916",
@@ -418,9 +438,11 @@
         "optimal_timing": "morning",
         "notes": "Christopher Wrenによる左右対称の河畔複合施設で、元々は退役船員のためのRoyal Hospital（1696年）でした。The Painted Hallは時にイギリスのSistine Chapelと呼ばれ、James Thornhillがフレスコ画を完成させるのに19年かかり、最近大規模な修復が行われました。向かいのChapel of St. Peter and St. Paulはより控えめですが、合わせて見る価値があります。",
         "walk_to_next": {
-          "to": "National Maritime Museum / Queen's House",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "to": "Queen's House and National Maritime Museum",
+          "transport_mode": "walk",
+          "distance_meters": 300,
+          "travel_minutes": 4,
+          "walking_minutes": 4
         }
       },
       "afternoon": {
@@ -443,9 +465,11 @@
         "optimal_timing": "any",
         "notes": "Inigo Jonesの1635年のQueen's Houseは、イギリス初の真の古典様式建築で、イギリス建築が中世後期から Renaissance様式へと転換した瞬間を表しています。両博物館とも入場無料です。Queen's House内のTulip Stairsは、イギリス初の幾何学的自立階段です。Maritime Museumのコレクションは膨大で、Nelsonギャラリーと極地展示が最も見応えのある見学スポットです。",
         "walk_to_next": {
-          "to": "Royal Observatory",
-          "distance_meters": 700,
-          "walking_minutes": 10
+          "to": "Royal Observatory and the Prime Meridian",
+          "transport_mode": "walk",
+          "distance_meters": 720,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -490,7 +514,8 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 13
     },
     {
       "day": 6,
@@ -499,8 +524,8 @@
       "neighborhood_focus": "Camden / Regent's Park / Primrose Hill",
       "neighborhood_description": "John Nashが1810年代にRegency様式のガーデン・サバーブとして設計した北西部地区と、戦後にRegent's Canal沿いに発展したカウンターカルチャーの街。Camden Marketは、Londonで最も個性的なショッピング体験の一つです。Primrose Hillは、市内最高の無料パノラマビューポイントです。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2400,
-      "day_walking_minutes": 32,
+      "day_walking_distance_meters": 3070,
+      "day_walking_minutes": 38,
       "morning": {
         "activity_title": "Regent's Park and the Open Air Theatre",
         "wikidata_qid": "Q207577",
@@ -516,9 +541,11 @@
         "optimal_timing": "morning",
         "notes": "1811年にJohn Nashが手がけた王立公園で、彼のクリーム色のRegency様式テラスハウスに囲まれています（Cumberland TerraceとPark Crescentが最も美しく残存）。中央のQueen Mary's Gardensには12,000本のバラが植えられており、西側のボート池では手漕ぎボートをレンタルできます。Open Air Theatreでは、夏にShakespeareやミュージカルが上演され、緑豊かな円形劇場はLondonで最も愛される季節限定の会場の一つです。",
         "walk_to_next": {
-          "to": "Camden Market via canal",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "to": "Camden Market and Regent's Canal",
+          "transport_mode": "walk",
+          "distance_meters": 1770,
+          "travel_minutes": 22,
+          "walking_minutes": 22
         }
       },
       "afternoon": {
@@ -536,9 +563,11 @@
         "optimal_timing": "any",
         "notes": "ヴィンテージ服、ストリートフード、レコード、レザー製品、珍品を扱う6つの相互につながったマーケット群で、1970年代にこの界隈を有名にしたパンクやゴスシーンの流れを汲んでいる。週末が最も賑やか。平日は落ち着いている。公園からRegent's Canalの遊歩道経由でアクセスするのがおすすめ。30分の散歩でLondon ZooやSnowdon Aviaryを通り、マーケットの混雑前にこの界隈の魅力を存分に味わえる。",
         "walk_to_next": {
-          "to": "Primrose Hill summit",
-          "distance_meters": 1000,
-          "walking_minutes": 14
+          "to": "Primrose Hill at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1300,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -598,7 +627,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 38
     },
     {
       "day": 7,
@@ -607,8 +637,8 @@
       "neighborhood_focus": "Kew (outside central London)",
       "neighborhood_description": "ロンドン南西部のThames沿いにあるThe Royal Botanic Gardens at Kewは、2003年よりUNESCO世界遺産に登録されており、世界最大かつ最も多様な植物学・菌類学コレクションを保有しています。District線でKew Gardens駅まで（ロンドン中心部から約35分）、または夏季は遊覧船でアクセスできます。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 38,
+      "day_walking_distance_meters": 1480,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Palm House and Victorian glasshouses",
         "wikidata_qid": "Q3895041",
@@ -629,9 +659,11 @@
         "optimal_timing": "morning",
         "notes": "Decimus Burtonが設計した1848年建設のPalm Houseは、現存する世界最重要のヴィクトリア朝鉄骨ガラス構造建築で、その後に建てられたすべての温室、駅舎、展示ホールの建築的プロトタイプとなりました。隣接するTemperate House（5年間の修復工事を経て2018年に再開）は、世界最大のヴィクトリア朝温室です。割引価格でKew Gardensの1日券をオンラインで予約できます。",
         "walk_to_next": {
-          "to": "Treetop Walkway and arboretum",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "to": "Treetop Walkway and Kew arboretum",
+          "transport_mode": "walk",
+          "distance_meters": 460,
+          "travel_minutes": 6,
+          "walking_minutes": 6
         }
       },
       "afternoon": {
@@ -654,8 +686,10 @@
         "optimal_timing": "any",
         "notes": "2008年にオープンしたXstrata Treetop Walkwayは、オーク、スイートチェストナット、ライムの林の樹冠を地上18メートルの高さで200メートルにわたって走り、London観光客が現役の森の中を歩く体験に最も近いものです。より広い樹木園には14,000本を超える個々の木々があり、1760年代にCapability Brownによって植えられた標本も含まれています。",
         "walk_to_next": {
-          "to": "Princess of Wales Conservatory",
-          "distance_meters": 1000,
+          "to": "Princess of Wales Conservatory and Kew Palace",
+          "transport_mode": "walk",
+          "distance_meters": 1020,
+          "travel_minutes": 13,
           "walking_minutes": 13
         }
       },
@@ -701,7 +735,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 166,
+  "last_verified": null
 }

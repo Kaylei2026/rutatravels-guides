@@ -1,7 +1,7 @@
 {
   "destination": "Austin",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:41:35.510Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "在Austin可步行的市中心花上一天 - 参观德州州议会大厦及其周围广场、Congress Avenue走廊、South Congress大桥的蝙蝠群落，以及Sixth Street的现场音乐酒吧街。从上午的民政历史开始，逐步推进到傍晚时分城市标志性的户外奇观。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 3250,
-  "total_walking_minutes": 41,
+  "total_walking_distance_meters": 670,
+  "total_walking_minutes": 8,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Downtown / Capitol District / Sixth Street",
       "neighborhood_description": "Austin的市中心沿着一条南北向的主轴 - Congress Avenue - 规划布局，从Colorado River向北延伸至德州州议会大厦。州议会大厦广场、Bullock Texas State History Museum以及Sixth Street的乡村音乐酒吧街区彼此间距不超过一公里，这使得这里成为一个罕见的美国市中心，非常适合步行探索。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3250,
-      "day_walking_minutes": 41,
+      "day_walking_distance_meters": 670,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Texas State Capitol",
         "wikidata_qid": "Q816649",
@@ -41,8 +41,10 @@
         "notes": "免费讲解团从南侧门厅按滚动时间表出发,工作日从上午8:30开始,无需预约。圆形大厅的\"耳语画廊\"效果是真实存在的:站在地板上星形图案的正下方小声说话,站在对面墙下的人能听得很清楚。这座建筑故意比美国国会大厦高七英尺,绕到北侧,从后草坪向上看圆顶能获得最清晰无遮挡的视角。",
         "walk_to_next": {
           "to": "Bullock Texas State History Museum",
-          "distance_meters": 400,
-          "walking_minutes": 5
+          "transport_mode": "walk",
+          "distance_meters": 670,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -60,9 +62,11 @@
         "optimal_timing": "any",
         "notes": "三层楼围绕曾统治德克萨斯州的三面旗帜而组织,分别是西班牙、墨西哥和美国旗。一楼常设展厅展示了Stephen F. Austin原始的土地赠予文件和La Belle号船体残骸,这艘1686年的法国沉船于1995年在Matagorda Bay被发现。除非时间充裕,否则跳过IMAX;常设展览才是值得门票费用的主要看点。",
         "walk_to_next": {
-          "to": "Congress Avenue Bridge",
-          "distance_meters": 1600,
-          "walking_minutes": 20
+          "to": "Congress Avenue Bridge bat colony",
+          "transport_mode": "drive",
+          "distance_meters": 2890,
+          "travel_minutes": 9,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -122,7 +126,10 @@
             "walking_minutes": 4
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 17
     }
-  ]
+  ],
+  "total_travel_minutes": 17,
+  "last_verified": null
 }

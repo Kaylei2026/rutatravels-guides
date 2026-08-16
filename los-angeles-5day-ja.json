@@ -1,7 +1,7 @@
 {
   "destination": "Los Angeles",
   "duration_days": 5,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:52:52.348Z",
   "sources": [
     "wikidata",
@@ -17,8 +17,8 @@
   ],
   "guide_description": "Los Angelesを実際の街の構造に沿って5日間で巡る旅程：それぞれ独自の個性を持つ異なる地区のクラスター、歩いて回れる単一の中心部ではなく地理的論理によって結ばれています。Downtownが東の拠点、HollywoodとHillsが中心部を形成し、Westsideは海に向かって広がり、Griffith Parkが北を締めくくります。各日程は独立しており、宿泊場所に応じて順序を変更できます。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 13650,
-  "total_walking_minutes": 171,
+  "total_walking_distance_meters": 2180,
+  "total_walking_minutes": 27,
   "days": [
     {
       "day": 1,
@@ -27,8 +27,8 @@
       "neighborhood_focus": "Downtown Los Angeles",
       "neighborhood_description": "1781年にスペイン式グリッドで設計された街の元々の中核部分、現在は金ぴか時代の公共建築、現存するMexican-American歴史地区、Frank Gehryの傑作、そしてCalifornia屈指の密度を誇るアーツディストリクトが重層的に構成されています。その大部分は1マイル幅のゾーン内で徒歩圏内です。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 3100,
-      "day_walking_minutes": 39,
+      "day_walking_distance_meters": 650,
+      "day_walking_minutes": 8,
       "morning": {
         "activity_title": "Olvera Street and El Pueblo de Los Angeles",
         "wikidata_qid": "Q1257436",
@@ -45,8 +45,10 @@
         "notes": "1930年からMexican marketplaceとして保存されている、Los Angelesで現存する最古の街区です。北端にあるAvila Adobeは1818年に建てられた市内最古の現存建築物です。日中の暑さが厳しくなる前の早い時間に屋根付きの露店を歩いてみましょう。手描きの陶器や革製品を売る商人たちは、何十年も前からここで店を構える同じ家族です。南側にあるZanja Madreの標識は、市初の灌漑用水路が掘られた場所を示しています。",
         "walk_to_next": {
           "to": "Grand Central Market",
-          "distance_meters": 900,
-          "walking_minutes": 12
+          "transport_mode": "drive",
+          "distance_meters": 1610,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -65,8 +67,10 @@
         "notes": "Broadway沿いのBeaux-Arts様式の建物内で1917年から続く営業を続けています。ネオンサインは20世紀半ばの改装時のオリジナルです。レストランではなくここでランチを取りましょう。奥にあるTacos Tumbras a Tomasでは Mexico City風のbirriaが味わえ、Egg Slutには行列ができますが、老舗の商人が作るタコスも同じくらい美味しく、待ち時間は半分です。天井を見上げてみてください。むき出しの鉄骨トラスと1917年のタイル床がそのまま残っています。",
         "walk_to_next": {
           "to": "Walt Disney Concert Hall",
-          "distance_meters": 800,
-          "walking_minutes": 10
+          "transport_mode": "walk",
+          "distance_meters": 650,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "evening": {
@@ -126,7 +130,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -135,8 +140,8 @@
       "neighborhood_focus": "Hollywood / Los Feliz",
       "neighborhood_description": "Hollywood Boulevardは、LA中心部の北にある平坦な盆地を東西に走り、映画界の最盛期だった1920年代と1930年代の歴史的建造物が立ち並んでいます。車やバスで少し東に向かうとLos Felizに入り、Griffith Observatoryがチャパラルの丘の中腹に位置し、Hollywood Signや盆地全体を見渡すことができます。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "TCL Chinese Theatre",
         "wikidata_qid": "Q631433",
@@ -153,8 +158,10 @@
         "notes": "1927年のSid Graumanシアターで、パゴダ風のファサードと有名人の手型・足型をコンクリートに刻んだ前庭で知られています。コスチュームを着たキャラクター芸人が準備を始める前の早朝に行きましょう。午前10時までには前庭は人だかりになります。ロビーと客席はIMAX上映時に時折開放されており、どの映画のチケットでも内部を見ることができ、オリジナルの中国風の塗装が施された天井パネルと龍の柱のシャンデリアが保存されています。",
         "walk_to_next": {
           "to": "Hollywood Walk of Fame",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "transport_mode": "drive",
+          "distance_meters": 1680,
+          "travel_minutes": 7,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -173,8 +180,10 @@
         "notes": "Hollywood BoulevardとVine Streetの歩道に埋め込まれた2,700個のテラゾ製の星。この星々は有名人よりもその組織化が興味深く、5つのカテゴリー（映画、テレビ、ラジオ、レコーディング、演劇）が中央の異なるシンボルで示されています。最も多く訪れられる単独の星はMichael Jacksonのもので、HighlandとLas Palmasの間の6927 Hollywood Boulevardにあります。La Brea方面の西側は静かで観光客も少なくなるため、Vine方面の東側に向かって歩くことをお勧めします。",
         "walk_to_next": {
           "to": "Griffith Observatory",
-          "distance_meters": 1800,
-          "walking_minutes": 23
+          "transport_mode": "drive",
+          "distance_meters": 4130,
+          "travel_minutes": 11,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -214,7 +223,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 18
     },
     {
       "day": 3,
@@ -223,8 +233,8 @@
       "neighborhood_focus": "Brentwood / Venice",
       "neighborhood_description": "Los Angeles西部の、盆地がSanta Monica Mountainsと太平洋と出会う場所。The Getty Centerは405フリーウェイ上のトラバーチンの尾根に位置し、ダウンタウンから海まで一望できるパノラマビューを誇る。20分南のVeniceは、1905年の運河の平坦な格子状の区画、サーフカルチャーの影響を受けたボードウォーク、そしてAbbot Kinneyのギャラリーとレストランストリップで構成されている。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 3200,
-      "day_walking_minutes": 40,
+      "day_walking_distance_meters": 1120,
+      "day_walking_minutes": 14,
       "morning": {
         "activity_title": "Getty Center",
         "wikidata_qid": "Q731126",
@@ -240,9 +250,11 @@
         "optimal_timing": "morning",
         "notes": "入場は無料だが駐車場は有料で、週末は早い時間に満車になる。午前10時までに到着するか、WestwoodからBig Blue Busを利用しよう。Richard Meierによるトラバーチンの建物群は、館内のコレクションと同じくらい体験の重要な部分となっている。美術館建物の下のプラザにあるRobert Irwinによる中央庭園は季節ごとに変化する。コレクションでは、North Pavilionの印象派・ポスト印象派の絵画とVan GoghのIrisesを優先して見学し、その後太平洋に面した屋外テラスでゆっくり過ごそう。晴れた日にはCatalina Islandまで見渡せる。",
         "walk_to_next": {
-          "to": "Venice Canals",
-          "distance_meters": 1200,
-          "walking_minutes": 15
+          "to": "Venice Canals Historic District",
+          "transport_mode": "drive",
+          "distance_meters": 12820,
+          "travel_minutes": 22,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -261,8 +273,10 @@
         "notes": "Abbot Kinneyが1905年に開発した「Venice of America」から現存するオリジナル運河の6ブロック。運河網の大部分は1929年に舗装されてしまいましたが、この南東部分は保存されています。Eastern CanalとCarroll Canalの木製歩道橋を歩いてみてください。1910年代の小屋が直接水辺に建っています。運河は住宅街なので、西に1ブロック離れたボードウォークが観光客向けのVeniceですが、ここは静かなVeniceです。",
         "walk_to_next": {
           "to": "Venice Beach Boardwalk",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -302,7 +316,8 @@
             "walking_minutes": 7
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 36
     },
     {
       "day": 4,
@@ -311,8 +326,8 @@
       "neighborhood_focus": "Mid-Wilshire / Miracle Mile / Koreatown",
       "neighborhood_description": "FairfaxからWesternまで、Wilshire Boulevard沿いに広がるmid-cityの帯状エリア。Miracle Mileは1930年代にLos Angeles初の自動車中心のショッピング・文化地区として開発され、現在はLACMAやLa Brea Tar Pitsの本拠地となっている。1マイル東のKoreatownは市内で最も人口密度が高い地区で、LA の他のどこにもない垂直的で24時間営業の都市的特徴を持つ。",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 2400,
-      "day_walking_minutes": 30,
+      "day_walking_distance_meters": 410,
+      "day_walking_minutes": 5,
       "morning": {
         "activity_title": "La Brea Tar Pits and Page Museum",
         "wikidata_qid": "Q899062",
@@ -328,8 +343,10 @@
         "optimal_timing": "morning",
         "notes": "Wilshire Boulevard の真ん中にある活発なアスファルト湧出地では、50,000年間にわたって氷河期の巨大動物が捕獲されてきた。Pit 91とProject 23は夏季に観察窓から見ることができる活発な発掘現場である。内部のPage Museumにはマンモス、ダイアウルフ、剣歯虎の復元骨格が展示されており、中央ホールのダイアウルフの頭蓋骨の壁には400体以上の標本が展示されている。タールの匂いは微かだが確実に感じられる。",
         "walk_to_next": {
-          "to": "LACMA",
-          "distance_meters": 400,
+          "to": "Los Angeles County Museum of Art",
+          "transport_mode": "walk",
+          "distance_meters": 410,
+          "travel_minutes": 5,
           "walking_minutes": 5
         }
       },
@@ -348,9 +365,11 @@
         "optimal_timing": "any",
         "notes": "アメリカ西部最大の美術館で、単一のキャンパス内の複数の建物に展示が広がっている。Chris BurdenのUrban Lightのインスタレーション - Wilshire入口外の格子状に配置された202基の復元されたLA のアンティーク街灯 - は市内で最も撮影される芸術作品で、24時間いつでも無料で歩いて鑑賞できる。館内では、イスラム美術ギャラリーと南・東南アジアコレクションは、ヨーロッパ・アメリカ館ほど混雑しておらず、同等の質を誇る。Resnick Pavilionの展示は定期的に変わり、しばしば市内最高の現代美術プログラムとなっている。",
         "walk_to_next": {
-          "to": "Koreatown",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "to": "Koreatown - Wilshire and Western corridor",
+          "transport_mode": "drive",
+          "distance_meters": 7400,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -410,7 +429,8 @@
             "walking_minutes": 5
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 20
     },
     {
       "day": 5,
@@ -419,8 +439,8 @@
       "neighborhood_focus": "Griffith Park / Silver Lake",
       "neighborhood_description": "Griffith Parkは、Los Felizの北にあるSanta Monica Mountainの麓4,300エーカーのチャパラルに覆われた丘陵地帯を占める、パブリックゴルフコース、LA Zoo、そして何マイルものハイキングトレイルを有するアメリカ最大の市営公園です。南側のSilver Lakeは、貯水池周辺の起伏に富んだ住宅地で、Sunset Boulevardに沿ってレコード店、書店、レストランが密集して並んでいます。",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2150,
-      "day_walking_minutes": 27,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Hollyhock House",
         "wikidata_qid": "Q1621844",
@@ -441,9 +461,11 @@
         "optimal_timing": "morning",
         "notes": "1921年に石油相続人Aline BarnsdallのためにBarnsdall Art Parkの平らな丘頂に建てられた、Frank Lloyd Wrightの初のLos Angeles建築物。この邸宅は、Wrightがコンクリートの柱頭、屋根線、室内家具に組み込んだ抽象的なタチアオイのモチーフにちなんで名付けられました。時間制限付きのツアーが毎時実施されており、当日受付は限られているため市の公園サイトからオンライン予約をお勧めします。屋上の堀-リビングルームの天窓を囲む浅い反射プール-は、彼のCalifornia建築群の中で最もユニークなWrightのディテールです。",
         "walk_to_next": {
-          "to": "Griffith Park trails",
-          "distance_meters": 1400,
-          "walking_minutes": 18
+          "to": "Griffith Park - Mount Hollywood Trail",
+          "transport_mode": "drive",
+          "distance_meters": 4790,
+          "travel_minutes": 11,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -461,9 +483,11 @@
         "optimal_timing": "any",
         "notes": "Vermont Canyon trailheadの駐車場（無料、週末は午前9時までに満車）に駐車し、標高1,625フィートの山頂へ向かう3.2マイルのMount Hollywoodループを歩きます。Hollywood Signは稜線から文字一つ一つが読み取れるほど近い距離で見ることができ、山頂からの眺めは晴れた日には北のSan Fernando Valleyから南のPalos Verdes半島まで盆地全体を見渡せます。水を持参してください-トレイル上には水場はありません。異なる下山ルートでハイカーも少ないEastern Canyon trailを通って戻ることができます。",
         "walk_to_next": {
-          "to": "Silver Lake Reservoir",
-          "distance_meters": 500,
-          "walking_minutes": 7
+          "to": "Silver Lake Reservoir and Sunset Boulevard",
+          "transport_mode": "drive",
+          "distance_meters": 7870,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -523,7 +547,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 26
     }
-  ]
+  ],
+  "total_travel_minutes": 115,
+  "last_verified": null
 }

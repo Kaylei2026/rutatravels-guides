@@ -1,7 +1,7 @@
 {
   "destination": "Rome",
   "duration_days": 1,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-17T13:00:00Z",
   "sources": [
     "wikidata",
@@ -13,8 +13,8 @@
   ],
   "guide_description": "Una giornata a piedi attraverso il cuore barocco e antico di Roma, incentrata sul Pantheon e che termina alla Fontana di Trevi dopo il tramonto. Non serve trasporto pubblico - tutto si trova all'interno di un percorso di 1,5 km.",
   "weather_profile": "resilient",
-  "total_walking_distance_meters": 1020,
-  "total_walking_minutes": 13,
+  "total_walking_distance_meters": 1540,
+  "total_walking_minutes": 19,
   "days": [
     {
       "day": 1,
@@ -23,8 +23,8 @@
       "neighborhood_focus": "Centro Storico",
       "neighborhood_description": "Il denso quartiere storico tra l'ansa del Tevere e Via del Corso. Templi romani, piazze barocche e mercati sovrapposti su duemila anni di reticolo stradale.",
       "weather_profile": "resilient",
-      "day_walking_distance_meters": 1020,
-      "day_walking_minutes": 13,
+      "day_walking_distance_meters": 1540,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Pantheon",
         "wikidata_qid": "Q1142794",
@@ -45,9 +45,11 @@
         "optimal_timing": "morning",
         "notes": "Arrivate all'apertura (ore 9) per vedere il fascio di luce dell'oculus posarsi nitidamente sull'interno prima che il pavimento si riempia di gruppi turistici. Ora si applica una piccola tariffa d'ingresso nei giorni feriali; la messa domenicale è gratuita ma limita i movimenti all'interno.",
         "walk_to_next": {
-          "to": "Piazza Navona",
-          "distance_meters": 320,
-          "walking_minutes": 4
+          "to": "Piazza Navona and Sant'Agnese in Agone",
+          "transport_mode": "walk",
+          "distance_meters": 420,
+          "travel_minutes": 5,
+          "walking_minutes": 5
         }
       },
       "afternoon": {
@@ -70,9 +72,11 @@
         "optimal_timing": "any",
         "notes": "Costruita sul perimetro dello Stadium di Domiziano, ecco perché la forma è allungata. La Fontana dei Quattro Fiumi è del Bernini; la facciata della chiesa di fronte è del suo rivale Borromini - i due stanno litigando attraverso la piazza dal 1650.",
         "walk_to_next": {
-          "to": "Trevi Fountain",
-          "distance_meters": 700,
-          "walking_minutes": 9
+          "to": "Trevi Fountain after dark",
+          "transport_mode": "walk",
+          "distance_meters": 1120,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -137,7 +141,10 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     }
-  ]
+  ],
+  "total_travel_minutes": 19,
+  "last_verified": null
 }

@@ -1,7 +1,7 @@
 {
   "destination": "Osaka",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-08-11T16:28:41.507Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Three days following Osaka's own north-to-south divide. Day one runs from the castle west along the river islands into Kita, the corporate and department store half of the city. Day two stays entirely in Minami, where the food and the neon are. Day three covers the older southern wards, from Japan's first state Buddhist temple to a 1912 tower and the tallest building in the country. Osaka rewards eating your way through a day rather than scheduling around meals.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 8700,
-  "total_walking_minutes": 110,
+  "total_walking_distance_meters": 6120,
+  "total_walking_minutes": 76,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Osaka Castle / Nakanoshima / Umeda",
       "neighborhood_description": "The castle sits in a large park on the eastern side of the centre, surrounded by moats wide enough to read as a small lake. West of it the Dojima and Tosabori rivers split around Nakanoshima, a long thin island holding the city's Taisho-era civic architecture, the main library, and a rose garden. Further north again is Umeda, the Kita business district, where three railway terminals and a dense stack of department stores sit on top of one another.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 4200,
-      "day_walking_minutes": 53,
+      "day_walking_distance_meters": 1850,
+      "day_walking_minutes": 23,
       "morning": {
         "activity_title": "Osaka Castle",
         "wikidata_qid": null,
@@ -43,8 +43,10 @@
         "notes": "The keep is a 1931 concrete reconstruction with an elevator and a museum inside, so the honest pleasure here is the grounds: the cyclopean stones of the Otemon approach, some weighing over a hundred tonnes and hauled from Setouchi islands, and the scale of the moat system Hideyoshi ordered in 1583. Enter from Tanimachi 4-chome station and leave via Osakajokoen for the best sequence. Nishinomaru Garden holds roughly 600 cherry trees and charges separate admission during the early April bloom, when it is one of the two or three best hanami sites in Kansai. Confirm keep hours and last admission on the castle's official site before building the morning around going inside.",
         "walk_to_next": {
           "to": "Nakanoshima",
-          "distance_meters": 2400,
-          "walking_minutes": 30
+          "transport_mode": "walk",
+          "distance_meters": 1850,
+          "travel_minutes": 23,
+          "walking_minutes": 23
         }
       },
       "afternoon": {
@@ -63,8 +65,10 @@
         "notes": "A three-kilometre sandbar between two rivers that functions as Osaka's civic spine. The Central Public Hall of 1918 is the landmark, red brick and Beaux-Arts, and the Prefectural Nakanoshima Library next door is older still and open to walk into. The rose garden at the eastern end peaks in May and again in October. If the weather turns, the Nakanoshima Museum of Art and the Museum of Oriental Ceramics are both on the island and both indoor alternatives that hold up for a full afternoon.",
         "walk_to_next": {
           "to": "Umeda Sky Building",
-          "distance_meters": 1800,
-          "walking_minutes": 23
+          "transport_mode": "transit",
+          "distance_meters": 3320,
+          "travel_minutes": 15,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 38
     },
     {
       "day": 2,
@@ -133,7 +138,7 @@
       "neighborhood_focus": "Minami: Namba and Dotonbori",
       "neighborhood_description": "Minami is the southern half of central Osaka and the half people picture. Kuromon Ichiba supplies its restaurants, Shinsaibashi-suji runs six covered blocks of shopping north from the canal, Amerikamura holds the vintage and skate scene, and Dotonbori itself is a few hundred metres of canal frontage carrying more signage per square metre than anywhere in Japan. Everything here is within a fifteen-minute walk of everything else.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1700,
+      "day_walking_distance_meters": 1720,
       "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Kuromon Ichiba",
@@ -151,7 +156,9 @@
         "notes": "Six hundred metres of covered market that has fed Osaka's kitchens since the early nineteenth century and is known locally as the city's kitchen. Come at 9:00 when the fish stalls are still working rather than performing: uni, otoro, grilled scallops, and fugu in winter, most of it grilled to order and eaten standing at the stall. Prices have risen sharply as the market has shifted toward visitors, and the stalls a block off the main run are cheaper and better. Many close by mid-afternoon and Sunday trading is limited.",
         "walk_to_next": {
           "to": "Shinsaibashi-suji and Amerikamura",
-          "distance_meters": 1200,
+          "transport_mode": "walk",
+          "distance_meters": 1170,
+          "travel_minutes": 15,
           "walking_minutes": 15
         }
       },
@@ -171,7 +178,9 @@
         "notes": "Shinsaibashi-suji is a covered arcade running roughly 600 metres north from the Dotonbori canal, which makes it the default plan in rain or in the August heat. Two blocks west, Amerikamura is the counterweight: vintage clothing, record shops, secondhand streetwear, and a small triangular park that has been the teenage gathering point since the 1970s. Midosuji, the boulevard between them, is lined with ginkgo trees that turn in mid-November and are lit through the winter. Cross to the Hozenji side for a coffee break when the arcades get to be too much.",
         "walk_to_next": {
           "to": "Dotonbori",
-          "distance_meters": 500,
+          "transport_mode": "walk",
+          "distance_meters": 550,
+          "travel_minutes": 7,
           "walking_minutes": 7
         }
       },
@@ -232,7 +241,8 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Tennoji / Shinsekai",
       "neighborhood_description": "South Osaka is older and rougher-edged than the centre and considerably cheaper. Shitenno-ji was founded in 593 and predates the city around it. Shinsekai was laid out in 1912 as a world's fair district modelled half on Paris and half on Coney Island, went into long decline, and now trades on that history with a wall of kushikatsu shops. Immediately south, Abeno Harukas rises 300 metres over Tennoji station, which is the sharpest juxtaposition Osaka offers.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2800,
-      "day_walking_minutes": 35,
+      "day_walking_distance_meters": 2550,
+      "day_walking_minutes": 31,
       "morning": {
         "activity_title": "Shitenno-ji",
         "wikidata_qid": null,
@@ -259,8 +269,10 @@
         "notes": "Founded by Prince Shotoku in 593 and generally counted as the first Buddhist temple built by the Japanese state. The buildings are twentieth-century reconstructions after wartime bombing, faithful to the original south-facing axis of gate, pagoda and golden pavilion that gives the Shitennoji layout its name in Japanese architectural history. The outer grounds are free; the inner precinct, the treasure house and the Gokuraku-jodo garden are ticketed separately. A flea market fills the grounds on the 21st and 22nd of each month and is worth timing a visit around.",
         "walk_to_next": {
           "to": "Shinsekai and Tsutenkaku",
-          "distance_meters": 1300,
-          "walking_minutes": 17
+          "transport_mode": "walk",
+          "distance_meters": 1230,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "afternoon": {
@@ -279,8 +291,10 @@
         "notes": "The current Tsutenkaku dates from 1956, replacing a 1912 original that was dismantled for scrap during the war, and the lighting on its upper section still functions as the neighbourhood's weather forecast. This is the home of kushikatsu, deep-fried skewers dipped once into a shared sauce tin, and Daruma is the chain that claims the invention. The district carries a slightly rough reputation that is mostly historical, though Shin-Imamiya immediately west remains a very different part of the city. Lunch here, since the portions and prices are the friendliest of the three days.",
         "walk_to_next": {
           "to": "Abeno Harukas",
-          "distance_meters": 1500,
-          "walking_minutes": 19
+          "transport_mode": "walk",
+          "distance_meters": 1320,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 8
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 31
     }
-  ]
+  ],
+  "total_travel_minutes": 91,
+  "last_verified": null
 }

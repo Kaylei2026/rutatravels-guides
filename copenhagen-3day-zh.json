@@ -1,7 +1,7 @@
 {
   "destination": "Copenhagen",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T12:25:03.372Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "三天时间领略Copenhagen的精髓：位于城市行政中心的中世纪岛屿要塞、东北部的巴洛克皇家区和运河区，以及以Frederiksberg宫殿花园为核心的绿意盎然的西部社区。每天的行程都集中在一个地理区域内。",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 6110,
-  "total_walking_minutes": 77,
+  "total_walking_distance_meters": 3360,
+  "total_walking_minutes": 42,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Slotsholmen / Indre By",
       "neighborhood_description": "Slotsholmen是一座被运河与城市其他区域分隔开的小岛，这里坐落着Christiansborg Palace和丹麦国会。周围的Indre By区保留着Copenhagen最古老的街道格局，Round Tower和Latin Quarter都在步行范围内。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1190,
+      "day_walking_minutes": 15,
       "morning": {
         "activity_title": "Christiansborg Palace",
         "wikidata_qid": "Q331498",
@@ -43,7 +43,9 @@
         "notes": "世界上唯一一座同时容纳政府三个分支机构的建筑--议会、最高法院和皇家接待厅。皇家接待厅需要门票，但仅凭挂毯大厅就值得一游，那里有十五幅巨型挂毯，以Margrethe II女王委托的风格描绘丹麦历史。宫殿塔楼免费开放，每日开放--乘电梯上去，在外部露台漫步，这里是市中心最高的公共观景点。",
         "walk_to_next": {
           "to": "National Museum of Denmark",
-          "distance_meters": 350,
+          "transport_mode": "walk",
+          "distance_meters": 310,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -63,8 +65,10 @@
         "notes": "丹麦最大的博物馆坐落在运河对面Christiansborg正对面的巴洛克王子宫殿中。史前收藏是最值得参观的理由--太阳战车(Solvognen)是一件有3400年历史的镀金青铜祭祀器物，仅此一件就是斯堪的纳维亚最杰出的文物。免费入场使其自然成为整个景区群雨天游览的理想选择。",
         "walk_to_next": {
           "to": "Round Tower",
-          "distance_meters": 750,
-          "walking_minutes": 9
+          "transport_mode": "walk",
+          "distance_meters": 880,
+          "travel_minutes": 11,
+          "walking_minutes": 11
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 15
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "Frederiksstaden / Nyhavn",
       "neighborhood_description": "Frederiksstaden是18世纪规划建设的区域，按照严格的八角形网格布局，以Amalienborg Palace Square为中心。它向北连接Kastellet要塞和港口前沿，向西南延伸至Nyhavn--这条修复的运河两岸排列着色彩缤纷的商人住宅，已成为Copenhagen最具代表性的景观。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2290,
-      "day_walking_minutes": 29,
+      "day_walking_distance_meters": 900,
+      "day_walking_minutes": 11,
       "morning": {
         "activity_title": "Amalienborg Palace and Square",
         "wikidata_qid": "Q332683",
@@ -150,9 +155,11 @@
         "optimal_timing": "morning",
         "notes": "四座相同的洛可可风格宫殿围绕着一个八角形广场排列，广场中央矗立着Frederik V的骑马雕像。卫兵换岗仪式从Rosenborg Castle于上午11:30出发，正午时分准时抵达这里--值得安排时间观看。位于Palace Christian VIII内的Amalienborg Museum能让游客最近距离地参观王室的起居apartments；其中一翼至今仍为王室所用。",
         "walk_to_next": {
-          "to": "The Marble Church (Frederiks Kirke)",
-          "distance_meters": 200,
-          "walking_minutes": 3
+          "to": "The Marble Church",
+          "transport_mode": "walk",
+          "distance_meters": 190,
+          "travel_minutes": 2,
+          "walking_minutes": 2
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Frederiks Kirke历时150年才建成，因为建设过程中资金耗尽。直径31米的穹顶是斯堪的纳维亚半岛最大的穹顶之一。内部参观免费；夏季周末提供导览登顶服务，可以近距离观赏彩绘鼓形部分，然后登上外部步道，俯瞰Frederiksstaden的屋顶景观。",
         "walk_to_next": {
-          "to": "Kastellet",
-          "distance_meters": 850,
-          "walking_minutes": 11
+          "to": "Nyhavn Canal",
+          "transport_mode": "walk",
+          "distance_meters": 710,
+          "travel_minutes": 9,
+          "walking_minutes": 9
         }
       },
       "evening": {
@@ -232,7 +241,8 @@
             "walking_minutes": 11
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 11
     },
     {
       "day": 3,
@@ -241,8 +251,8 @@
       "neighborhood_focus": "Frederiksberg / Vesterbro",
       "neighborhood_description": "Frederiksberg在技术上是一个独立的自治市，完全被Copenhagen环绕，以山顶宫殿为中心，其正式花园与动物园相邻。Vesterbro向东延伸至中央车站，在2000年代从红灯区转变为围绕Kodbyen旧肉类加工厂的密集创意街区。",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 2000,
-      "day_walking_minutes": 25,
+      "day_walking_distance_meters": 1270,
+      "day_walking_minutes": 16,
       "morning": {
         "activity_title": "Frederiksberg Gardens and Palace",
         "wikidata_qid": "Q1386444",
@@ -258,9 +268,11 @@
         "optimal_timing": "morning",
         "notes": "这是一座占地32公顷的英式浪漫主义风景园林，坐落在运河系统上方的山丘上，游客可以租用划艇。东坡上的Chinese Pavilion建于1799年，是Scandinavia地区最精美的中国风园林建筑之一。建议从Frederiksberg Alle进入而非正门，这样可以从南侧爬山，抵达宫殿露台，欣赏下方花园的最佳景致。",
         "walk_to_next": {
-          "to": "Frederiksberg Palace",
-          "distance_meters": 300,
-          "walking_minutes": 4
+          "to": "Tivoli Gardens",
+          "transport_mode": "transit",
+          "distance_meters": 3850,
+          "travel_minutes": 16,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -278,9 +290,11 @@
         "optimal_timing": "any",
         "notes": "开放于1843年，是世界第二古老的仍在运营的游乐园，也是Copenhagen市民身份认同的真正象征，而非为游客设置的商业陷阱。Walt Disney在设计Disneyland前曾到此参观。园内的Wooden Roller Coaster建于1914年，是世界上仍在运营的最古老木质过山车之一。下午入园比晚上便宜；建议留到黄昏时分，观赏纸灯笼和彩灯亮起的美景。",
         "walk_to_next": {
-          "to": "Kodbyen (Meatpacking District)",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "to": "Kodbyen - Copenhagen Meatpacking District",
+          "transport_mode": "walk",
+          "distance_meters": 1270,
+          "travel_minutes": 16,
+          "walking_minutes": 16
         }
       },
       "evening": {
@@ -340,7 +354,10 @@
             "walking_minutes": 16
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 32
     }
-  ]
+  ],
+  "total_travel_minutes": 58,
+  "last_verified": null
 }

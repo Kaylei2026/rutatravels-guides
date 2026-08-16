@@ -1,7 +1,7 @@
 {
   "destination": "Istanbul",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-05-18T11:52:41.004Z",
   "sources": [
     "wikidata",
@@ -15,8 +15,8 @@
   ],
   "guide_description": "Trois jours pour couvrir la géographie essentielle d'Istanbul : le cœur impérial byzantin et ottoman sur la péninsule historique, la colline cosmopolite du XIXe siècle de Beyoglu de l'autre côté de la Corne d'Or, et le front de mer du Bosphore reliant l'Europe à l'Asie. Chaque jour est géographiquement autonome.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5720,
-  "total_walking_minutes": 72,
+  "total_walking_distance_meters": 3600,
+  "total_walking_minutes": 45,
   "days": [
     {
       "day": 1,
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Sultanahmet / Eminonu",
       "neighborhood_description": "La Première Colline de l'ancienne Constantinople, où Justinien construisit sa grande église, Mehmed II son palais, et où six siècles de sultans superposèrent mosquées et bazars pour créer l'une des places historiques les plus denses au monde. Tout ici se trouve à moins de dix minutes à pied de tout le reste.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1690,
-      "day_walking_minutes": 22,
+      "day_walking_distance_meters": 1670,
+      "day_walking_minutes": 21,
       "morning": {
         "activity_title": "Hagia Sophia",
         "wikidata_qid": "Q12506",
@@ -48,7 +48,9 @@
         "notes": "Arrivez dans les trente minutes suivant l'ouverture (8h30) pour voir l'intérieur avant que les principales foules de fidèles et les cars de touristes ne convergent vers 10h. La galerie supérieure, accessible par une rampe en pierre depuis le vestibule nord, vous place à hauteur des yeux des mosaïques byzantines du IXe siècle - la mosaïque de la Deesis dans l'angle sud-est présente l'un des plus beaux visages survivants de l'art byzantin. Reconvertie en mosquée en 2020, le code vestimentaire est donc appliqué et les chaussures doivent être retirées.",
         "walk_to_next": {
           "to": "Topkapi Palace",
-          "distance_meters": 550,
+          "transport_mode": "walk",
+          "distance_meters": 540,
+          "travel_minutes": 7,
           "walking_minutes": 7
         }
       },
@@ -72,9 +74,11 @@
         "optimal_timing": "any",
         "notes": "Achetez le billet séparé pour le Harem à l'entrée du Harem, pas au portail principal - la file au portail ne l'inclut pas et de nombreux visiteurs le découvrent trop tard. La Troisième Cour abrite le Trésor, où le Diamant du Fabricant de Cuillères de 86 carats repose dans une vitrine avec pratiquement aucune barrière. La terrasse de la Quatrième Cour, surplombant le Bosphore rejoignant la Corne d'Or, offre le point de vue stratégiquement le plus spectaculaire de toute la ville.",
         "walk_to_next": {
-          "to": "Blue Mosque",
-          "distance_meters": 650,
-          "walking_minutes": 9
+          "to": "Sultan Ahmed Mosque (Blue Mosque)",
+          "transport_mode": "walk",
+          "distance_meters": 1130,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "evening": {
@@ -139,7 +143,8 @@
             "walking_minutes": 10
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 21
     },
     {
       "day": 2,
@@ -148,8 +153,8 @@
       "neighborhood_focus": "Beyoglu / Galata / Karakoy",
       "neighborhood_description": "Le quartier de l'autre côté de la Golden Horn par rapport à la péninsule historique, développé comme quartier européen sous les Ottomans. La colonie génoise de Galata ancre la partie basse de la colline ; Beyoglu au-dessus devint le quartier des ambassades au XIXe siècle, organisé autour de la Grande Rue de Pera, aujourd'hui l'avenue piétonne Istiklal Avenue.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1820,
-      "day_walking_minutes": 23,
+      "day_walking_distance_meters": 1930,
+      "day_walking_minutes": 24,
       "morning": {
         "activity_title": "Galata Tower",
         "wikidata_qid": "Q207694",
@@ -165,9 +170,11 @@
         "optimal_timing": "morning",
         "notes": "Cette tour de guet génoise du XIVe siècle offre le meilleur panorama à 360 degrés de la ville - la péninsule historique, le Bosphore, la Golden Horn et la rive asiatique sont tous visibles simultanément. Achetez vos billets en ligne pour éviter la queue à la base, qui peut être importante le week-end. Le quartier environnant de Galata abrite les meilleurs cafés d'Istanbul - Kronotrop sur Galip Dede Caddesi est un arrêt fiable avant ou après.",
         "walk_to_next": {
-          "to": "Istiklal Avenue",
-          "distance_meters": 650,
-          "walking_minutes": 9
+          "to": "Istiklal Avenue and Cicek Pasaji",
+          "transport_mode": "walk",
+          "distance_meters": 1090,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -186,8 +193,10 @@
         "notes": "L'épine dorsale piétonne de 1,4 kilomètre de l'Istanbul moderne, qui s'étend de Taksim Square jusqu'au funiculaire Tunnel. Aventurez-vous dans les passages latéraux plutôt que de marcher sur la rue principale : Cicek Pasaji (le Passage des Fleurs) est une galerie couverte du XIXe siècle aujourd'hui bordée de tavernes meyhane ; le Fish Market juste derrière sur Sahne Sokak est un marché de produits frais et de fruits de mer en activité qui nourrit le quartier. Le tramway rouge vintage qui parcourt toute la longueur de l'avenue est fonctionnellement inutile pour le transport mais parfait pour une photo.",
         "walk_to_next": {
           "to": "Istanbul Modern",
-          "distance_meters": 980,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 840,
+          "travel_minutes": 10,
+          "walking_minutes": 10
         }
       },
       "evening": {
@@ -247,7 +256,8 @@
             "walking_minutes": 9
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 24
     },
     {
       "day": 3,
@@ -256,8 +266,8 @@
       "neighborhood_focus": "Besiktas / Ortakoy / Dolmabahce",
       "neighborhood_description": "Le front de mer européen du Bosphorus au nord de Beyoglu, où les sultans ottomans du 19ème siècle construisirent leurs nouveaux palais dans un style baroque occidental, se détournant de Topkapi vers l'eau. La route côtière relie l'imposant Dolmabahce Palace au village artistique d'Ortakoy sous le pont suspendu, avec la forteresse médiévale Rumeli Hisari plus au nord.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2210,
-      "day_walking_minutes": 27,
+      "day_walking_distance_meters": 0,
+      "day_walking_minutes": 0,
       "morning": {
         "activity_title": "Dolmabahce Palace",
         "wikidata_qid": "Q625847",
@@ -273,9 +283,11 @@
         "optimal_timing": "morning",
         "notes": "L'entrée se fait uniquement par visite guidée, avec des créneaux horaires qui se vendent rapidement - réservez en ligne la veille. Le palais compte 285 pièces, 43 salles et 68 toilettes : le lustre en cristal de Bohême de 4,5 tonnes dans la Ceremonial Hall est le plus lourd au monde. Ataturk y mourut le November 10, 1938, et toutes les horloges du palais sont arrêtées à 9h05, le moment de sa mort.",
         "walk_to_next": {
-          "to": "Ciragan Palace",
-          "distance_meters": 1040,
-          "walking_minutes": 13
+          "to": "Ortakoy Square and Mosque",
+          "transport_mode": "transit",
+          "distance_meters": 3200,
+          "travel_minutes": 14,
+          "walking_minutes": null
         }
       },
       "afternoon": {
@@ -294,8 +306,10 @@
         "notes": "La petite mosquée néoclassique au bord de l'eau, avec le Bosphorus Bridge au-dessus, est l'une des compositions les plus photographiées d'Istanbul. La place derrière la mosquée accueille un marché d'artisanat et de nourriture le week-end - les vendeurs de kumpir (pomme de terre au four garnie) sont la spécialité de street food locale ici. La vue depuis le quai vers le nord en direction du pont et vers le sud vers la rive asiatique offre la perspective essentielle du front de mer de la ville.",
         "walk_to_next": {
           "to": "Rumeli Hisari",
-          "distance_meters": 1170,
-          "walking_minutes": 14
+          "transport_mode": "transit",
+          "distance_meters": 6480,
+          "travel_minutes": 21,
+          "walking_minutes": null
         }
       },
       "evening": {
@@ -355,7 +369,10 @@
             "walking_minutes": 12
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 35
     }
-  ]
+  ],
+  "total_travel_minutes": 80,
+  "last_verified": null
 }

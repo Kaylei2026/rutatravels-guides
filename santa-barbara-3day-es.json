@@ -1,7 +1,7 @@
 {
   "destination": "Santa Barbara",
   "duration_days": 3,
-  "version": "1.3",
+  "version": "1.4",
   "generated_at": "2026-06-16T14:57:59.222Z",
   "sources": [
     "wikidata",
@@ -15,7 +15,7 @@
   ],
   "guide_description": "Tres días cubriendo la tríada esencial de Santa Barbara: el centro Spanish Colonial Revival con su juzgado y núcleo histórico, el puerto y la franja de la costa, y el distrito de la Misión que asciende hacia las estribaciones de Santa Ynez. Cada día es autónomo geográficamente.",
   "weather_profile": "mixed",
-  "total_walking_distance_meters": 5460,
+  "total_walking_distance_meters": 5400,
   "total_walking_minutes": 68,
   "days": [
     {
@@ -25,8 +25,8 @@
       "neighborhood_focus": "Downtown / El Pueblo Viejo",
       "neighborhood_description": "Las pocas cuadras delimitadas por State Street, Anacapa Street y Figueroa Street forman el núcleo histórico de Santa Barbara. Un terremoto de 1925 destruyó gran parte del centro antiguo; lo que lo reemplazó fue una reconstrucción unificada Spanish Colonial Revival reforzada por ordenanzas de diseño estrictas que permanecen en vigor hoy, lo que convierte a este en uno de los centros urbanos arquitectónicamente más coherentes del Oeste Americano.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1430,
-      "day_walking_minutes": 18,
+      "day_walking_distance_meters": 1510,
+      "day_walking_minutes": 19,
       "morning": {
         "activity_title": "Santa Barbara County Courthouse",
         "wikidata_qid": "Q7419130",
@@ -43,7 +43,9 @@
         "notes": "Entrada gratuita y tours guiados gratuitos salen de lunes a sábado a las 10am desde la entrada principal en Anacapa Street. Sube a la torre del reloj El Mirador para obtener la mejor vista elevada de la línea de tejadillos rojos que se extiende hacia el océano - se accede a la torre mediante un ascensor dentro del edificio, no por la escalera que la mayoría de visitantes intentan primero. El Mural Room en el piso superior tiene pinturas de la era WPA que representan la historia de California que la mayoría de visitantes pasan sin leer.",
         "walk_to_next": {
           "to": "Santa Barbara Historical Museum",
-          "distance_meters": 350,
+          "transport_mode": "walk",
+          "distance_meters": 280,
+          "travel_minutes": 4,
           "walking_minutes": 4
         }
       },
@@ -62,9 +64,11 @@
         "optimal_timing": "any",
         "notes": "El complejo incluye un edificio de adobe de los 1780s aún en pie en el patio trasero - el Covarrubias Adobe, una de las estructuras más antiguas de la ciudad. El museo en sí es pequeño y manejable en menos de una hora; el adobe y su jardín son la verdadera atracción y son accesibles desde la entrada de De la Guerra Street. Entrada gratuita.",
         "walk_to_next": {
-          "to": "State Street",
-          "distance_meters": 280,
-          "walking_minutes": 4
+          "to": "State Street and El Paseo arcade",
+          "transport_mode": "walk",
+          "distance_meters": 1230,
+          "travel_minutes": 15,
+          "walking_minutes": 15
         }
       },
       "evening": {
@@ -124,7 +128,8 @@
             "walking_minutes": 3
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 19
     },
     {
       "day": 2,
@@ -133,8 +138,8 @@
       "neighborhood_focus": "The Waterfront / Harbor",
       "neighborhood_description": "El waterfront de Santa Barbara se extiende aproximadamente dos kilómetros a lo largo de Cabrillo Boulevard, desde el puerto y Stearns Wharf en el centro hasta East Beach y el rompeolas. Las Santa Ynez Mountains forman un telón de fondo detrás de la ciudad cuando se mira hacia el norte desde el agua, lo cual es la razón por la que Santa Barbara se siente completamente distinta a cualquier otro pueblo playero del Sur de California.",
       "weather_profile": "weather_dependent",
-      "day_walking_distance_meters": 2080,
-      "day_walking_minutes": 26,
+      "day_walking_distance_meters": 2140,
+      "day_walking_minutes": 27,
       "morning": {
         "activity_title": "Stearns Wharf",
         "wikidata_qid": "Q7610094",
@@ -151,8 +156,10 @@
         "notes": "El muelle de madera en funcionamiento más antiguo de la Costa Oeste, construido en 1872. Camina hasta el extremo final para obtener vistas sin obstáculos de las montañas y el puerto simultáneamente - el ángulo que coloca ambos en el encuadre solo funciona desde la punta del muelle. El pequeño tanque de tiburones en la exhibición de Nature Conservancy a mitad del muelle es gratuito y toma diez minutos; vale la pena si tienes hijos o simplemente te gustan los tiburones. La niebla matutina típicamente se disipa alrededor de las 9am.",
         "walk_to_next": {
           "to": "Santa Barbara Harbor and Breakwater",
-          "distance_meters": 900,
-          "walking_minutes": 11
+          "transport_mode": "walk",
+          "distance_meters": 600,
+          "travel_minutes": 8,
+          "walking_minutes": 8
         }
       },
       "afternoon": {
@@ -170,9 +177,11 @@
         "optimal_timing": "any",
         "notes": "Camina el rompeolas exterior hasta el faro en el extremo - el viaje redondo es de aproximadamente 1.6 kilómetros y la mayoría de los turistas regresan en la primera curva. Los leones marinos de California descansan en los muelles dentro del puerto cerca del muelle de pesca comercial, visibles desde el paseo público sin necesidad de entrada o tarifa de acceso. La fila del Lido Restaurant del puerto mira hacia el oeste y es el mejor lugar en el frente de agua para un almuerzo tardío con exposición al sol.",
         "walk_to_next": {
-          "to": "East Beach",
-          "distance_meters": 780,
-          "walking_minutes": 10
+          "to": "East Beach and Cabrillo Boulevard at sunset",
+          "transport_mode": "walk",
+          "distance_meters": 1540,
+          "travel_minutes": 19,
+          "walking_minutes": 19
         }
       },
       "evening": {
@@ -212,7 +221,8 @@
             "walking_minutes": 2
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 27
     },
     {
       "day": 3,
@@ -221,8 +231,8 @@
       "neighborhood_focus": "Mission / Upper State Street / Riviera",
       "neighborhood_description": "Los vecindarios que suben hacia el norte y el este desde el centro hacia las colinas de Santa Ynez. La Mission se encuentra en una ligera elevación en la parte superior de Laguna Street, lo que le da una posición dominante sobre la ciudad que fue deliberada - las misiones franciscanas fueron ubicadas para ser visibles desde el paisaje agrícola circundante. El Santa Barbara Botanic Garden ocupa el cañón detrás de ella.",
       "weather_profile": "mixed",
-      "day_walking_distance_meters": 1950,
-      "day_walking_minutes": 24,
+      "day_walking_distance_meters": 1750,
+      "day_walking_minutes": 22,
       "morning": {
         "activity_title": "Mission Santa Barbara",
         "wikidata_qid": "Q1424400",
@@ -239,8 +249,10 @@
         "notes": "Fundada en 1786 y la única misión de California que ha permanecido continuamente bajo administración franciscana. La fachada de dos torres es única entre las 21 misiones; la mayoría tiene una sola torre. Ingrese a la iglesia a través del ala del museo a la izquierda de la puerta principal - la audioguía autoguiada está incluida con la entrada y cubre el sistema de acueducto detrás del edificio, que aún transporta agua y a menudo se ignora. El cementerio a la derecha de la iglesia contiene las tumbas de más de 4.000 personas Chumash y es uno de los cementerios continuamente utilizados más antiguos de California.",
         "walk_to_next": {
           "to": "Santa Barbara Botanic Garden",
-          "distance_meters": 1000,
-          "walking_minutes": 13
+          "transport_mode": "walk",
+          "distance_meters": 1110,
+          "travel_minutes": 14,
+          "walking_minutes": 14
         }
       },
       "afternoon": {
@@ -259,7 +271,9 @@
         "notes": "Un jardín de 78 acres de plantas nativas de California ubicado en Mission Canyon. Comience recorriendo primero la sección de secuoyas - los secuoyas costeros plantados aquí en los años 1930 son lo suficientemente altos que el bosque se siente genuinamente envolvente a pesar de ser terreno no nativo. El sendero que cruza la presa forma un bucle que regresa pasando la obra de piedra del acueducto de la misión de 1807, que es original y libre para caminar junto a ella. Lleve agua para el bucle del cañón superior.",
         "walk_to_next": {
           "to": "Santa Barbara Museum of Natural History",
-          "distance_meters": 650,
+          "transport_mode": "walk",
+          "distance_meters": 640,
+          "travel_minutes": 8,
           "walking_minutes": 8
         }
       },
@@ -320,7 +334,10 @@
             "walking_minutes": 175
           }
         }
-      ]
+      ],
+      "day_travel_minutes": 22
     }
-  ]
+  ],
+  "total_travel_minutes": 68,
+  "last_verified": null
 }
