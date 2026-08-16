@@ -94,7 +94,9 @@ for path in files:
             if not isinstance(leg, dict):
                 err(path, f"missing walk_to_next after '{a.get('activity_title')}'"); continue
             dm = leg.get("distance_meters") or 0
-            day_m += dm
+            mode = leg.get("transport_mode")
+            if mode != "drive":        # walking totals count walk legs only
+                day_m += dm
             nxt = acts[i+1]
             nc = nxt.get("coordinates") or {}
             if coord_ok(nc):
@@ -107,13 +109,13 @@ for path in files:
                                f"only {straight:.0f}m apart")
                 if dm < straight - 1:
                     err(path, f"leg to '{leg.get('to')}' states {dm}m but straight-line is {straight:.0f}m")
-                if straight > DRIVE_STRAIGHT_M:
+                if straight > DRIVE_STRAIGHT_M and mode != "drive":
                     warn(path, f"leg '{a.get('activity_title')}' -> '{nxt.get('activity_title')}' is "
-                               f"{straight/1000:.1f}km straight-line, not walkable")
+                               f"{straight/1000:.1f}km straight-line but not tagged transport_mode=drive")
             to = leg.get("to")
             if to and nxt.get("activity_title") and not (toks(to) & toks(nxt.get("activity_title"))):
                 warn(path, f"walk_to_next says '{to}' but next stop is '{nxt.get('activity_title')}'")
-            if leg.get("walking_minutes") is None:
+            if mode != "drive" and leg.get("walking_minutes") is None:
                 warn(path, f"walk leg to '{leg.get('to')}' has null walking_minutes")
 
         dtot = day.get("day_walking_distance_meters")
