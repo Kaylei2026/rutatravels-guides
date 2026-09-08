@@ -1,0 +1,357 @@
+{
+  "destination": "Halifax",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-09-07T12:00:00.000Z",
+  "sources": [
+    "wikidata",
+    "wikipedia"
+  ],
+  "neighborhoods_visited": [
+    "Downtown Halifax / Citadel Hill",
+    "South End / Seaport",
+    "North End / Peggy's Cove day trip"
+  ],
+  "guide_description": "ダウンタウン中心部から港の縁、そしてその先の荒々しい海岸へと広がっていく3日間。1日目はシタデルヒルを海洋コレクションを通って遊歩道まで下ります。2日目はサウスエンドの移民とシーポートの水辺をたどり、森に覆われた岬の公園まで歩きます。3日目はペギーズコーブの象徴的な灯台まで車で向かい、戻って予定していたノースエンドとタイタニックの墓を訪ねます。最初の2日間は完全に徒歩でまわれ、3日目は景色の良いドライブと短い散策を組み合わせます。",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3488,
+  "total_walking_minutes": 43,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "シタデルヒルから港へ",
+      "cluster_tagline": "街を見下ろす星形の要塞、その下にあるタイタニックと大爆発のコレクション、そして国内で最も長いダウンタウンの遊歩道",
+      "neighborhood_focus": "Downtown Halifax / Citadel Hill",
+      "neighborhood_description": "ハリファックスのダウンタウンは、頂上の要塞から麓の港まで一続きの丘の斜面を下っていきます。これは1749年に街を築いたイギリスの軍事技術者たちが定めた配置です。シタデルヒルが頂上を占め、バリントン通りとウォーター通りの格子状の街路が斜面を埋め、水辺の遊歩道は世界最大級の天然の不凍港のひとつの端から端まで走ります。街の起点となったグランドパレードの広場と植民地時代のセントポール教会は斜面の中ほど、要塞と港の間の道沿いにあります。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1291,
+      "day_walking_minutes": 16,
+      "morning": {
+        "activity_title": "Halifax Citadel National Historic Site",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Citadel",
+        "coordinates": {
+          "lat": 44.6478,
+          "lon": -63.5804
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor",
+        "optimal_timing": "morning",
+        "notes": "現在の星形の要塞は、1749年の街の創設以来この丘に築かれた4番目の防御施設で、角ばった稜堡を持つヴォーバン様式に従って1856年に完成しました。毎日正午ちょうどに大砲が撃たれます。これはかつて港の船が自分たちのクロノメーターを合わせられるようにした伝統で、城壁の上に場所を確保するには12時よりかなり前に着くとよいでしょう。城壁からは、港へと下っていくダウンタウン全体の格子状の街路を最もはっきりと見渡すことができ、その日の残りの見通しが立ちます。",
+        "walk_to_next": {
+          "to": "Maritime Museum of the Atlantic",
+          "distance_meters": 1059,
+          "walking_minutes": 13,
+          "transport_mode": "walk",
+          "duration_minutes": 13
+        }
+      },
+      "afternoon": {
+        "activity_title": "Maritime Museum of the Atlantic",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maritime_Museum_of_the_Atlantic",
+        "coordinates": {
+          "lat": 44.6478,
+          "lon": -63.5701
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "afternoon",
+        "notes": "カナダで最も古く最大の海洋博物館で、水辺に直接面して建っています。タイタニックから回収された木製遺物の世界最大のコレクションを所蔵しており、その犠牲者たちは1912年の沈没後にハリファックスへ運ばれ、その多くがこの街に埋葬されています。専用の常設展示室では、弾薬船が港内で爆発し、原子力時代以前で最大の人為的爆発によって約2,000人が犠牲になった1917年のハリファックス大爆発を扱っています。両方を見るには少なくとも90分を見込んでください。",
+        "walk_to_next": {
+          "to": "Halifax Waterfront Boardwalk",
+          "distance_meters": 232,
+          "walking_minutes": 3,
+          "transport_mode": "walk",
+          "duration_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Halifax Waterfront Boardwalk",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Boardwalk",
+        "coordinates": {
+          "lat": 44.6466,
+          "lon": -63.5686
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "waterfront",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "この遊歩道は港沿いに約4キロ続き、世界で最も長い連続したダウンタウンの水辺の遊歩道のひとつです。日が落ちていくなか、博物館から南へ桟橋の方へ歩くと、歴史ある波止場、係留された帆船、そして地元の名物となった波形の木製ベンチのそばを通ります。港はおおむね南東を向いているため、夕方の光は水の向こうのダートマス側の岸と行き交うフェリーに当たります。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Old Town Clock",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Town_Clock",
+          "coordinates": {
+            "lat": 44.6474,
+            "lon": -63.5796
+          },
+          "neighborhood": "Citadel Hill",
+          "duration_minutes": 15,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "シタデルヒルの東斜面に立つ3層のパラディオ様式の時計塔で、ケント公エドワード王子によって発注され、1803年に動き始めました。当時ハリファックス駐屯地の司令官だったエドワードは時間厳守にこだわることで知られ、この時計は街の兵士や市民の時間を守らせることを目的としていました。要塞の門のすぐ下に立っており、港へ下る途中の2分ほどの寄り道です。",
+          "walk_from_main_route": {
+            "from": "Halifax Citadel National Historic Site",
+            "distance_meters": 101,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Grand Parade and St. Paul's Church",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St._Paul's_Church_(Halifax)",
+          "coordinates": {
+            "lat": 44.6483,
+            "lon": -63.5745
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 40,
+          "type": "church",
+          "weather_sensitivity": "mixed",
+          "optimal_timing": "any",
+          "notes": "グランドパレードは1749年に整えられた街の元々の軍事練兵広場で、現在は北端に市庁舎、南端にセントポール教会が面しています。1750年に建てられたセントポール教会は、カナダに現存する最古のプロテスタントの礼拝所であり、ハリファックスで最も古い建物です。1917年の大爆発によって内壁に突き刺さった窓ガラスの破片が今も見られ、別の窓に映るシルエットは爆発の犠牲者の横顔だと言われています。",
+          "walk_from_main_route": {
+            "from": "Halifax Citadel National Historic Site",
+            "distance_meters": 611,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "シーポートとサウスエンド",
+      "cluster_tagline": "カナダのエリス島だった移民埠頭、稼働中のファーマーズマーケット、そして港が外洋の大西洋と出会う森の岬",
+      "neighborhood_focus": "South End / Seaport",
+      "neighborhood_description": "ダウンタウン中心部の南で、港の縁はシーポート地区になります。かつて外洋定期船が、この国を作り変えた移民たちをここで降ろしていました。ピア21とシーポートの建物群は半島の付け根に位置し、その背後には裕福なサウスエンドの緑豊かな街並みが広がります。土地は先端のポイント・プレザント・パークへと細くなり、そこでは港が大西洋へと開け、イギリスの沿岸砲台群の名残が木々の間に残っています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1810,
+      "day_walking_minutes": 22,
+      "morning": {
+        "activity_title": "Canadian Museum of Immigration at Pier 21",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pier_21",
+        "coordinates": {
+          "lat": 44.6339,
+          "lon": -63.5665
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "1928年から1971年にかけて、ほぼ100万人の移民がこの1つの外洋定期船ターミナルからカナダに入国し、第二次世界大戦中にはおよそ50万人の兵士がここから出征しました。カナダのエリス島とよく呼ばれるこの埠頭は、修復された到着ホールそのものを中心につくられ、今では国立移民博物館になっています。展示は録音された口述の歴史と実際の入国審査室を組み合わせており、調査エリアではここを通った先祖をたどる手助けをしてくれます。展示室が静かなうちに、ここから朝早く始めましょう。",
+        "walk_to_next": {
+          "to": "Halifax Seaport Farmers' Market",
+          "distance_meters": 172,
+          "walking_minutes": 2,
+          "transport_mode": "walk",
+          "duration_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Halifax Seaport Farmers' Market",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Seaport_Farmers'_Market",
+        "coordinates": {
+          "lat": 44.6349,
+          "lon": -63.5674
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "この市場は1750年に起源をたどり、北米で最も長く連続して営業しているファーマーズマーケットであり、現在はピア21の隣に専用に建てられた水辺のホールを占めています。地元の生産者、パン職人、惣菜の売り手が1階を埋め、太陽光パネルと屋上緑化を備えた屋上からは港の眺めが楽しめます。土曜日が最もにぎわう日です。移民博物館と岬までの歩きの間に、ここで昼食をとりましょう。",
+        "walk_to_next": {
+          "to": "Point Pleasant Park",
+          "distance_meters": 1638,
+          "walking_minutes": 20,
+          "transport_mode": "walk",
+          "duration_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Point Pleasant Park",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Point_Pleasant_Park_(Halifax)",
+        "coordinates": {
+          "lat": 44.6236,
+          "lon": -63.5686
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor",
+        "optimal_timing": "sunset",
+        "notes": "半島の南端を覆う75ヘクタールの森の公園で、ここでハリファックス港が大西洋へと開けます。市は1866年にさかのぼる999年の借地契約のもと、年1シリングでイギリス王室からこの土地を借りています。遊歩道は、北米で最も古いマーテロ塔である1796年のプリンス・オブ・ウェールズ塔や、その後の複数の沿岸砲台のそばを通り抜けます。この岬は港の入口とその向かいのコンテナターミナルの上に沈む最後の光をとらえます。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Alexander Keith's Brewery",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Keith's_Brewery",
+          "coordinates": {
+            "lat": 44.6461,
+            "lon": -63.5701
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 60,
+          "type": "brewery",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "スコットランド生まれの醸造家アレクサンダー・キースによって1820年に創業した、北米で最も古い商業醸造所のひとつで、ロウワー・ウォーター通りの鉄石造りの建物に入っています。衣装をまとったガイドが歴史ある地下貯蔵室をめぐるツアーを案内し、当時の音楽が流れる酒場で締めくくられます。ダウンタウンとシーポートの間の水辺に位置し、岬から北へ戻る途中の便利な立ち寄り先です。",
+          "walk_from_main_route": {
+            "from": "Halifax Seaport Farmers' Market",
+            "distance_meters": 1802,
+            "walking_minutes": 23
+          }
+        },
+        {
+          "activity_title": "Georges Island",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Georges_Island_(Nova_Scotia)",
+          "coordinates": {
+            "lat": 44.6444,
+            "lon": -63.5556
+          },
+          "neighborhood": "Halifax Harbour",
+          "duration_minutes": 90,
+          "type": "island",
+          "weather_sensitivity": "outdoor",
+          "optimal_timing": "any",
+          "notes": "港の真ん中にあるドラムリンの島は、1750年に着工されたイギリスの要塞フォート・シャーロットに戴かれ、そのトンネルが丘の頂を蜂の巣状に貫いています。船でしか行けない国定史跡で、季節営業のフェリーとツアーによるアクセスは通常暖かい季節に運行されるため、訪問を計画する前に運行スケジュールを確認してください。水上からは、シタデルに次いで港で最も目立つランドマークです。",
+          "walk_from_main_route": {
+            "from": "Halifax Seaport Farmers' Market",
+            "distance_meters": 1833,
+            "walking_minutes": 23
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "ペギーズコーブとノースエンド",
+      "cluster_tagline": "外洋に面したカナダで最も写真に撮られる灯台、大爆発の後に再建された田園郊外、そしてタイタニックの墓",
+      "neighborhood_focus": "North End / Peggy's Cove day trip",
+      "neighborhood_description": "最終日は、街の西にある野生の花崗岩の海岸と、1917年の大爆発で最も大きな打撃を受けた地区であるノースエンドを組み合わせます。ペギーズコーブは、ダウンタウンから道路で約43キロ離れた、氷河に削られたセント・マーガレッツ湾の岸に位置しています。街に戻ると、ハイドロストーンは大爆発の生存者を再入居させるために建てられた計画的な田園郊外であり、ベッドフォード入江沿いのフェアビュー・ローン墓地には、世界のどこよりも多いタイタニック犠牲者の一団が埋葬されています。",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 387,
+      "day_walking_minutes": 5,
+      "morning": {
+        "activity_title": "Peggys Point Lighthouse",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Peggys_Point_Lighthouse",
+        "coordinates": {
+          "lat": 44.4919,
+          "lon": -63.9172
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "lighthouse",
+        "weather_sensitivity": "outdoor",
+        "optimal_timing": "morning",
+        "notes": "セント・マーガレッツ湾の波に削られた花崗岩の上に立つ、典型的な赤と白の灯台は、カナダで最も写真に撮られる灯台で、現在の姿では1915年に建てられました。約30人の住民が暮らす稼働中の漁村の上で、湾の東の入口を示しています。周囲の不毛な花崗岩は最後の氷河期に削られ磨かれたもので、標識は訪問者に対し、高波が人をさらったことのある、水に最も近い黒く濡れた岩に近づかないよう警告しています。ダウンタウンのハリファックスから車でおよそ45分です。",
+        "walk_to_next": {
+          "to": "The Hydrostone",
+          "distance_meters": 43000,
+          "walking_minutes": null,
+          "transport_mode": "drive",
+          "duration_minutes": 50
+        }
+      },
+      "afternoon": {
+        "activity_title": "The Hydrostone",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Hydrostone",
+        "coordinates": {
+          "lat": 44.6626,
+          "lon": -63.6002
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historic district",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "afternoon",
+        "notes": "このノースエンドの地区は、ここに建っていた界隈を平らになぎ倒したハリファックス大爆発の生存者を再入居させるため、1918年から1921年にかけて建てられました。名前は住宅の建設に使われた圧縮コンクリートブロックに由来し、カナダで最も初期の計画的な田園郊外のひとつで、並木道と共有の緑の中央分離帯を備えて整えられました。中心のヤング通り沿いには今では独立系の店やカフェが並び、遅めの昼食と散策に良い場所です。",
+        "walk_to_next": {
+          "to": "Fairview Lawn Cemetery",
+          "distance_meters": 387,
+          "walking_minutes": 5,
+          "transport_mode": "walk",
+          "duration_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Fairview Lawn Cemetery",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fairview_Lawn_Cemetery",
+        "coordinates": {
+          "lat": 44.6631,
+          "lon": -63.6039
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "cemetery",
+        "weather_sensitivity": "outdoor",
+        "optimal_timing": "afternoon",
+        "notes": "ベッドフォード入江を見下ろす斜面にあるこの墓地には、タイタニックの犠牲者121人が眠っており、これは世界のどの一箇所よりも多い数です。ホワイト・スター・ライン社が費用を負担した簡素な花崗岩の墓標は、船の船体の線を思わせると言われる3列の曲線状に並んでいます。その中には、偶然の一致であるイニシャルが1997年の映画の後に人々を引き寄せたJ・ドーソンの墓があります。1917年の大爆発の犠牲者の多くも同じ敷地に埋葬されています。静かな夕暮れどきに訪れましょう。",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Halifax Public Gardens",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Public_Gardens",
+          "coordinates": {
+            "lat": 44.6425,
+            "lon": -63.5817
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor",
+          "optimal_timing": "any",
+          "notes": "1874年に現在の姿で開園した格式あるヴィクトリア朝様式の庭園で、北米に現存するこの様式の最も優れた例のひとつです。錬鉄製の柵の内側には、うねる小道、1887年の中央の音楽堂、そして当時の凝ったカーペットベッディング様式で配された花壇があります。日帰り旅行から明るいうちに戻れたなら、夕食前に締めくくるのに落ち着いたダウンタウンの場所です。",
+          "walk_from_main_route": {
+            "from": "Fairview Lawn Cemetery",
+            "distance_meters": 3752,
+            "walking_minutes": 47
+          }
+        },
+        {
+          "activity_title": "Halifax Central Library",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Central_Library",
+          "coordinates": {
+            "lat": 44.6440,
+            "lon": -63.5779
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 30,
+          "type": "library",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "2014年に開館したこの建物は、互いに角度をつけて片持ちで積み重ねられたように見えるガラスの箱を積み上げており、数々の国際的な建築賞を受賞しています。最上階の閲覧室とそのカフェからは、ダウンタウン越しにシタデルヒルの方を見渡す眺めが無料で、雨風をしのいで楽しめます。ノースエンドからの帰り道に天気が崩れたときの良い屋内の立ち寄り先です。入場は無料です。",
+          "walk_from_main_route": {
+            "from": "Fairview Lawn Cemetery",
+            "distance_meters": 3534,
+            "walking_minutes": 44
+          }
+        }
+      ]
+    }
+  ]
+}

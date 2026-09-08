@@ -1,0 +1,131 @@
+{
+  "destination": "Halifax",
+  "duration_days": 1,
+  "version": "1.3",
+  "generated_at": "2026-09-07T12:00:00.000Z",
+  "sources": [
+    "wikidata",
+    "wikipedia"
+  ],
+  "neighborhoods_visited": [
+    "Downtown Halifax / Citadel Hill"
+  ],
+  "guide_description": "One day covering Halifax's downtown core, from the star-shaped fortress crowning Citadel Hill down to the working harbor. The route descends from military and civic history in the morning to the maritime collections that define the city's identity, ending on the harbor boardwalk at sunset. The whole cluster is compact and walkable without transit.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 1291,
+  "total_walking_minutes": 16,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Citadel Hill to the Harbor",
+      "cluster_tagline": "A star fort above the town, the Titanic and Explosion collections below, and the longest downtown boardwalk in the country",
+      "neighborhood_focus": "Downtown Halifax / Citadel Hill",
+      "neighborhood_description": "Downtown Halifax steps down a single hillside from the fortress at its summit to the harbor at its foot, a layout dictated by the British military engineers who founded the town in 1749. Citadel Hill anchors the top; the grid of Barrington and Water Streets fills the slope; and the waterfront boardwalk runs the length of one of the world's largest natural ice-free harbors. Everything on this route sits within that descent.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1291,
+      "day_walking_minutes": 16,
+      "morning": {
+        "activity_title": "Halifax Citadel National Historic Site",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Citadel",
+        "coordinates": {
+          "lat": 44.6478,
+          "lon": -63.5804
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor",
+        "optimal_timing": "morning",
+        "notes": "The current star-shaped fortress is the fourth defensive work built on this hill since 1749, completed in 1856 to the Vauban pattern of angled bastions. A gun is fired at exactly noon every day, a tradition dating to the 19th century when it let ships in the harbor set their chronometers - arrive well before twelve to secure a spot on the ramparts. From the walls you get the clearest overview of the entire downtown grid descending to the harbor, which orients the rest of the day.",
+        "walk_to_next": {
+          "to": "Maritime Museum of the Atlantic",
+          "distance_meters": 1059,
+          "walking_minutes": 13,
+          "transport_mode": "walk",
+          "duration_minutes": 13
+        }
+      },
+      "afternoon": {
+        "activity_title": "Maritime Museum of the Atlantic",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maritime_Museum_of_the_Atlantic",
+        "coordinates": {
+          "lat": 44.6478,
+          "lon": -63.5701
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "afternoon",
+        "notes": "The oldest and largest maritime museum in Canada, sitting directly on the waterfront. It holds the world's largest collection of wooden artifacts recovered from the Titanic, which sank about 1,200 kilometers southeast of here in 1912 - Halifax ships carried out the recovery of the dead and many are buried in the city. A dedicated permanent gallery covers the 1917 Halifax Explosion, when a munitions ship detonated in the harbor and killed roughly 2,000 people in the largest human-made blast before the atomic age. Allow at least ninety minutes for both.",
+        "walk_to_next": {
+          "to": "Halifax Waterfront Boardwalk",
+          "distance_meters": 232,
+          "walking_minutes": 3,
+          "transport_mode": "walk",
+          "duration_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Halifax Waterfront Boardwalk",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Boardwalk",
+        "coordinates": {
+          "lat": 44.6466,
+          "lon": -63.5686
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "waterfront",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The boardwalk runs roughly four kilometers along the harbor and is one of the longest downtown waterfront boardwalks in the world. Walk south from the museum toward the piers as the light drops, passing historic wharves, moored tall ships, and the wave-shaped benches that have become a local landmark. The harbor faces roughly southeast, so the evening light falls on the Dartmouth shore across the water and on the passing ferries rather than into your eyes.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Halifax Public Gardens",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Public_Gardens",
+          "coordinates": {
+            "lat": 44.6425,
+            "lon": -63.5817
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor",
+          "optimal_timing": "any",
+          "notes": "A formal Victorian garden opened in its present form in 1874 and one of the finest surviving examples of the style in North America. Inside the wrought-iron perimeter are serpentine paths, a central bandstand from 1887, and beds laid out in the elaborate carpet-bedding fashion of the period. It sits just southwest of Citadel Hill, an easy detour before or after the fortress rather than a full stop.",
+          "walk_from_main_route": {
+            "from": "Halifax Citadel National Historic Site",
+            "distance_meters": 778,
+            "walking_minutes": 10
+          }
+        },
+        {
+          "activity_title": "Halifax Central Library",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Central_Library",
+          "coordinates": {
+            "lat": 44.6440,
+            "lon": -63.5779
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 30,
+          "type": "library",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Opened in 2014, the building is a stack of glass volumes that appear cantilevered at angles over one another and has won multiple international architecture awards. The top-floor reading room and its cafe give a free, sheltered overview across downtown toward Citadel Hill - a good foul-weather substitute for the fortress view. Entry is free and it sits midway down the slope between the Citadel and the harbor.",
+          "walk_from_main_route": {
+            "from": "Halifax Citadel National Historic Site",
+            "distance_meters": 606,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    }
+  ]
+}

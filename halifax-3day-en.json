@@ -1,0 +1,357 @@
+{
+  "destination": "Halifax",
+  "duration_days": 3,
+  "version": "1.3",
+  "generated_at": "2026-09-07T12:00:00.000Z",
+  "sources": [
+    "wikidata",
+    "wikipedia"
+  ],
+  "neighborhoods_visited": [
+    "Downtown Halifax / Citadel Hill",
+    "South End / Seaport",
+    "North End / Peggy's Cove day trip"
+  ],
+  "guide_description": "Three days that widen out from the downtown core to the harbor's edges and the rugged coast beyond. Day one descends Citadel Hill through the maritime collections to the boardwalk; day two follows the immigration and seaport waterfront of the South End out to a wooded point park; day three drives to the iconic lighthouse at Peggy's Cove and returns for the planned North End and the Titanic graves. The first two days are fully walkable; the third pairs a scenic drive with short strolls.",
+  "weather_profile": "mixed",
+  "total_walking_distance_meters": 3488,
+  "total_walking_minutes": 43,
+  "days": [
+    {
+      "day": 1,
+      "cluster_name": "Citadel Hill to the Harbor",
+      "cluster_tagline": "A star fort above the town, the Titanic and Explosion collections below, and the longest downtown boardwalk in the country",
+      "neighborhood_focus": "Downtown Halifax / Citadel Hill",
+      "neighborhood_description": "Downtown Halifax steps down a single hillside from the fortress at its summit to the harbor at its foot, a layout dictated by the British military engineers who founded the town in 1749. Citadel Hill anchors the top, the grid of Barrington and Water Streets fills the slope, and the waterfront boardwalk runs the length of one of the world's largest natural ice-free harbors. The founding square of Grand Parade and the colonial church of St. Paul's sit halfway down the slope, on the walk between fortress and harbor.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1291,
+      "day_walking_minutes": 16,
+      "morning": {
+        "activity_title": "Halifax Citadel National Historic Site",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Citadel",
+        "coordinates": {
+          "lat": 44.6478,
+          "lon": -63.5804
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "fortress",
+        "weather_sensitivity": "outdoor",
+        "optimal_timing": "morning",
+        "notes": "The current star-shaped fortress is the fourth defensive work built on this hill since the town's founding in 1749, completed in 1856 to the Vauban pattern of angled bastions. A gun is fired at exactly noon every day, a tradition that once let ships in the harbor set their chronometers - arrive well before twelve for a spot on the ramparts. The walls give the clearest overview of the whole downtown grid descending to the harbor, which orients the rest of the day.",
+        "walk_to_next": {
+          "to": "Maritime Museum of the Atlantic",
+          "distance_meters": 1059,
+          "walking_minutes": 13,
+          "transport_mode": "walk",
+          "duration_minutes": 13
+        }
+      },
+      "afternoon": {
+        "activity_title": "Maritime Museum of the Atlantic",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maritime_Museum_of_the_Atlantic",
+        "coordinates": {
+          "lat": 44.6478,
+          "lon": -63.5701
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "afternoon",
+        "notes": "The oldest and largest maritime museum in Canada, sitting directly on the waterfront. It holds the world's largest collection of wooden artifacts recovered from the Titanic, whose victims were brought to Halifax after the 1912 sinking and many of whom are buried in the city. A dedicated permanent gallery covers the 1917 Halifax Explosion, when a munitions ship detonated in the harbor and killed roughly 2,000 people in the largest human-made blast before the atomic age. Allow at least ninety minutes to see both.",
+        "walk_to_next": {
+          "to": "Halifax Waterfront Boardwalk",
+          "distance_meters": 232,
+          "walking_minutes": 3,
+          "transport_mode": "walk",
+          "duration_minutes": 3
+        }
+      },
+      "evening": {
+        "activity_title": "Halifax Waterfront Boardwalk",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Boardwalk",
+        "coordinates": {
+          "lat": 44.6466,
+          "lon": -63.5686
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "waterfront",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "sunset",
+        "notes": "The boardwalk runs roughly four kilometers along the harbor and is one of the longest continuous downtown waterfront boardwalks in the world. Walk south from the museum toward the piers as the light drops, passing historic wharves, moored tall ships, and the wave-shaped wooden benches that have become a local landmark. The harbor faces roughly southeast, so the evening light falls on the Dartmouth shore and the passing ferries across the water.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Old Town Clock",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Town_Clock",
+          "coordinates": {
+            "lat": 44.6474,
+            "lon": -63.5796
+          },
+          "neighborhood": "Citadel Hill",
+          "duration_minutes": 15,
+          "type": "monument",
+          "weather_sensitivity": "outdoor_brief",
+          "optimal_timing": "any",
+          "notes": "A three-tiered Palladian clock tower on the east slope of Citadel Hill, commissioned by Prince Edward, Duke of Kent, and set running in 1803. Edward, then commander of the Halifax garrison, was famously obsessed with punctuality, and the clock was intended to keep the town's soldiers and citizens on time. It stands just below the fortress gate, a two-minute detour on the way down toward the harbor.",
+          "walk_from_main_route": {
+            "from": "Halifax Citadel National Historic Site",
+            "distance_meters": 101,
+            "walking_minutes": 1
+          }
+        },
+        {
+          "activity_title": "Grand Parade and St. Paul's Church",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/St._Paul's_Church_(Halifax)",
+          "coordinates": {
+            "lat": 44.6483,
+            "lon": -63.5745
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 40,
+          "type": "church",
+          "weather_sensitivity": "mixed",
+          "optimal_timing": "any",
+          "notes": "The Grand Parade is the town's original military parade square, laid out in 1749 and now flanked by City Hall at the north end and St. Paul's Church at the south. St. Paul's, built in 1750, is the oldest surviving Protestant place of worship in Canada and the oldest building in Halifax. A shard of window glass driven into an interior wall by the 1917 Explosion is still visible, and a silhouette in another window is said to be the profile of a victim of the blast.",
+          "walk_from_main_route": {
+            "from": "Halifax Citadel National Historic Site",
+            "distance_meters": 611,
+            "walking_minutes": 8
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "cluster_name": "Seaport and the South End",
+      "cluster_tagline": "The immigration pier that was Canada's Ellis Island, a working farmers' market, and a wooded point where the harbor meets the open Atlantic",
+      "neighborhood_focus": "South End / Seaport",
+      "neighborhood_description": "South of the downtown core, the harbor's edge becomes the Seaport district, where ocean liners once discharged the immigrants who reshaped the country. Pier 21 and the seaport buildings sit at the foot of the peninsula, backed by the leafy streets of the affluent South End. The land tapers to Point Pleasant Park at the tip, where the harbor opens to the Atlantic and the remnants of a ring of British coastal batteries stand among the trees.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 1810,
+      "day_walking_minutes": 22,
+      "morning": {
+        "activity_title": "Canadian Museum of Immigration at Pier 21",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pier_21",
+        "coordinates": {
+          "lat": 44.6339,
+          "lon": -63.5665
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "museum",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "morning",
+        "notes": "Between 1928 and 1971 nearly one million immigrants entered Canada through this single ocean-liner terminal, and roughly half a million troops departed from it during the Second World War. Often called Canada's Ellis Island, the pier is now the national immigration museum, built around the restored arrivals hall itself. The exhibits combine recorded oral histories with the actual processing rooms, and a research area helps visitors trace ancestors who passed through. Start here early while the galleries are quiet.",
+        "walk_to_next": {
+          "to": "Halifax Seaport Farmers' Market",
+          "distance_meters": 172,
+          "walking_minutes": 2,
+          "transport_mode": "walk",
+          "duration_minutes": 2
+        }
+      },
+      "afternoon": {
+        "activity_title": "Halifax Seaport Farmers' Market",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Seaport_Farmers'_Market",
+        "coordinates": {
+          "lat": 44.6349,
+          "lon": -63.5674
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "market",
+        "weather_sensitivity": "indoor",
+        "optimal_timing": "any",
+        "notes": "The market traces its origin to 1750, making it the longest continuously operating farmers' market in North America, and it now occupies a purpose-built waterfront hall next to Pier 21. Local growers, bakers, and prepared-food vendors fill the ground floor, while a rooftop with solar panels and a green roof gives harbor views. Saturday is the fullest day; grab lunch here between the immigration museum and the walk out to the point.",
+        "walk_to_next": {
+          "to": "Point Pleasant Park",
+          "distance_meters": 1638,
+          "walking_minutes": 20,
+          "transport_mode": "walk",
+          "duration_minutes": 20
+        }
+      },
+      "evening": {
+        "activity_title": "Point Pleasant Park",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Point_Pleasant_Park_(Halifax)",
+        "coordinates": {
+          "lat": 44.6236,
+          "lon": -63.5686
+        },
+        "unesco_designation": null,
+        "duration_minutes": 90,
+        "type": "park",
+        "weather_sensitivity": "outdoor",
+        "optimal_timing": "sunset",
+        "notes": "A 75-hectare wooded park covering the southern tip of the peninsula, where Halifax Harbour opens into the Atlantic. The city leases the land from the British Crown for one shilling a year under a 999-year lease dating to 1866. Trails wind past the Prince of Wales Tower, a 1796 Martello tower that is the oldest of its kind in North America, and several later coastal gun batteries. The point catches the last light over the harbor mouth and the container terminal opposite.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Alexander Keith's Brewery",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Keith's_Brewery",
+          "coordinates": {
+            "lat": 44.6461,
+            "lon": -63.5701
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 60,
+          "type": "brewery",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Founded by Scottish-born brewer Alexander Keith in 1820, this is one of the oldest commercial breweries in North America, housed in an ironstone building on Lower Water Street. Costumed guides lead tours through the historic cellars that end in a tavern with period music. It sits on the waterfront between downtown and the seaport, a convenient stop on the way back north from the point.",
+          "walk_from_main_route": {
+            "from": "Halifax Seaport Farmers' Market",
+            "distance_meters": 1802,
+            "walking_minutes": 23
+          }
+        },
+        {
+          "activity_title": "Georges Island",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Georges_Island_(Nova_Scotia)",
+          "coordinates": {
+            "lat": 44.6444,
+            "lon": -63.5556
+          },
+          "neighborhood": "Halifax Harbour",
+          "duration_minutes": 90,
+          "type": "island",
+          "weather_sensitivity": "outdoor",
+          "optimal_timing": "any",
+          "notes": "The drumlin island in the middle of the harbor is crowned by Fort Charlotte, a British fortification begun in 1750 whose tunnels honeycomb the hilltop. It is a national historic site reachable only by boat, and seasonal ferry and tour access typically runs in the warmer months, so confirm the schedule before planning a visit. From the water it is the most visible landmark in the harbor after the Citadel.",
+          "walk_from_main_route": {
+            "from": "Halifax Seaport Farmers' Market",
+            "distance_meters": 1833,
+            "walking_minutes": 23
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "cluster_name": "Peggy's Cove and the North End",
+      "cluster_tagline": "Canada's most photographed lighthouse on the open coast, a garden-suburb rebuilt after the Explosion, and the Titanic graves",
+      "neighborhood_focus": "North End / Peggy's Cove day trip",
+      "neighborhood_description": "The last day pairs the wild granite coast west of the city with the North End, the district hit hardest by the 1917 Explosion. Peggy's Cove sits on the glacier-scoured shore of St. Margarets Bay, about 43 kilometers from downtown by road. Back in the city, the Hydrostone is a planned garden-suburb built to rehouse Explosion survivors, and the Fairview Lawn Cemetery on the Bedford Basin holds the largest group of Titanic victims buried anywhere in the world.",
+      "weather_profile": "mixed",
+      "day_walking_distance_meters": 387,
+      "day_walking_minutes": 5,
+      "morning": {
+        "activity_title": "Peggys Point Lighthouse",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Peggys_Point_Lighthouse",
+        "coordinates": {
+          "lat": 44.4919,
+          "lon": -63.9172
+        },
+        "unesco_designation": null,
+        "duration_minutes": 120,
+        "type": "lighthouse",
+        "weather_sensitivity": "outdoor",
+        "optimal_timing": "morning",
+        "notes": "The classic red-and-white lighthouse on the wave-smoothed granite of St. Margarets Bay is the most photographed lighthouse in Canada, built in its present form in 1915. It marks the eastern entrance to the bay above a working fishing village of about thirty residents. The surrounding barren granite was scraped and polished by the last ice age, and signs warn visitors to keep off the dark, wet rock closest to the water, where rogue waves have swept people out. It is roughly a 45-minute drive from downtown Halifax.",
+        "walk_to_next": {
+          "to": "The Hydrostone",
+          "distance_meters": 43000,
+          "walking_minutes": null,
+          "transport_mode": "drive",
+          "duration_minutes": 50
+        }
+      },
+      "afternoon": {
+        "activity_title": "The Hydrostone",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Hydrostone",
+        "coordinates": {
+          "lat": 44.6626,
+          "lon": -63.6002
+        },
+        "unesco_designation": null,
+        "duration_minutes": 75,
+        "type": "historic district",
+        "weather_sensitivity": "outdoor_brief",
+        "optimal_timing": "afternoon",
+        "notes": "This North End district was built between 1918 and 1921 to rehouse survivors of the Halifax Explosion, which had flattened the neighborhood that stood here. It is named for the compressed concrete blocks used to construct the houses and was one of Canada's earliest planned garden suburbs, laid out with tree-lined boulevards and shared green medians. The central Young Street stretch now holds independent shops and cafes, a good place for a late lunch and a stroll.",
+        "walk_to_next": {
+          "to": "Fairview Lawn Cemetery",
+          "distance_meters": 387,
+          "walking_minutes": 5,
+          "transport_mode": "walk",
+          "duration_minutes": 5
+        }
+      },
+      "evening": {
+        "activity_title": "Fairview Lawn Cemetery",
+        "wikidata_qid": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fairview_Lawn_Cemetery",
+        "coordinates": {
+          "lat": 44.6631,
+          "lon": -63.6039
+        },
+        "unesco_designation": null,
+        "duration_minutes": 60,
+        "type": "cemetery",
+        "weather_sensitivity": "outdoor",
+        "optimal_timing": "afternoon",
+        "notes": "This cemetery on a slope above the Bedford Basin holds 121 victims of the Titanic, the largest number buried in any single place in the world. The plain granite markers, paid for by the White Star Line, are arranged in three curving rows said to echo the line of a ship's hull. Among them is the grave of J. Dawson, whose coincidental initials drew crowds after the 1997 film. Many victims of the 1917 Explosion are buried in the same grounds. Visit in the quiet of late afternoon.",
+        "walk_to_next": null
+      },
+      "if_time_permits": [
+        {
+          "activity_title": "Halifax Public Gardens",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Public_Gardens",
+          "coordinates": {
+            "lat": 44.6425,
+            "lon": -63.5817
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 45,
+          "type": "park",
+          "weather_sensitivity": "outdoor",
+          "optimal_timing": "any",
+          "notes": "A formal Victorian garden opened in its present form in 1874 and one of the finest surviving examples of the style in North America. Inside the wrought-iron fence are serpentine paths, a central bandstand from 1887, and beds laid out in the elaborate carpet-bedding fashion of the period. If the day-trip returns with light to spare, it is a calm place downtown to end on before dinner.",
+          "walk_from_main_route": {
+            "from": "Fairview Lawn Cemetery",
+            "distance_meters": 3752,
+            "walking_minutes": 47
+          }
+        },
+        {
+          "activity_title": "Halifax Central Library",
+          "wikidata_qid": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Halifax_Central_Library",
+          "coordinates": {
+            "lat": 44.6440,
+            "lon": -63.5779
+          },
+          "neighborhood": "Downtown Halifax",
+          "duration_minutes": 30,
+          "type": "library",
+          "weather_sensitivity": "indoor",
+          "optimal_timing": "any",
+          "notes": "Opened in 2014, the building stacks glass volumes that appear cantilevered at angles over one another and has won multiple international architecture awards. The top-floor reading room and its cafe give a free, sheltered overview across downtown toward Citadel Hill, a good indoor stop if the weather closes in on the way back from the North End. Entry is free.",
+          "walk_from_main_route": {
+            "from": "Fairview Lawn Cemetery",
+            "distance_meters": 3534,
+            "walking_minutes": 44
+          }
+        }
+      ]
+    }
+  ]
+}
